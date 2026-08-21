@@ -32,7 +32,7 @@ Three clusters of issues stand out:
 
 Content quality on the redesigned city pages, application sub-pages, and
 product pages is strong. Keyword targeting is natural and appropriate. The
-Camden page in particular is a benchmark for content specificity. The 3M product
+Sandy page in particular is a benchmark for content specificity. The 3M product
 page is a genuine best-in-class example of product page SEO.
 
 All fixes implemented this session are marked [FIXED]. Items requiring further
@@ -57,10 +57,10 @@ work are marked [PENDING] with the recommended next step.
 | 11 | HIGH | Homepage H1 has no geo modifier — "Window Film Solutions Done Right" is not keyword-targeted | PENDING |
 | 12 | HIGH | Blog has only 1 post — 10+ posts needed to support content marketing and long-tail traffic | PENDING |
 | 13 | HIGH | contact.astro missing BBB rating, Google rating, and trust signals above the form | PENDING |
-| 14 | HIGH | government-buildings.astro: full content redesign needed (old template, no Camden-style layout) | PENDING |
-| 15 | MEDIUM | Salt Lake City city page: missing installation process timeline section (Camden has it, Salt Lake doesn't) | PENDING |
+| 14 | HIGH | government-buildings.astro: full content redesign needed (old template, no Sandy-style layout) | PENDING |
+| 15 | MEDIUM | Salt Lake City city page: missing installation process timeline section (Sandy has it, Salt Lake doesn't) | PENDING |
 | 16 | MEDIUM | Salt Lake City city page: BBB rating + A+ badge not mentioned anywhere on the site | PENDING |
-| 17 | MEDIUM | Salt Lake City city page: missing certifications sidebar section (Camden has it, Salt Lake doesn't) | PENDING |
+| 17 | MEDIUM | Salt Lake City city page: missing certifications sidebar section (Sandy has it, Salt Lake doesn't) | PENDING |
 | 18 | MEDIUM | Products pages: no pricing context — users must contact to learn even ballpark costs | PENDING |
 | 19 | MEDIUM | Blog post: no internal links from any content page to the post | PENDING |
 | 20 | MEDIUM | Blog post: heading "Uv Defense" — wrong capitalization on rendered H2 | PENDING |
@@ -90,9 +90,9 @@ signal. The H1 is what a visitor and Google both see first on the page.
 - "window film Salt Lake City" as a phrase — appears only once in the hero
   area text, and nowhere else in the main body
 
-**Comparison:** Camden page body copy uses "Window Film Salt Lake City" and
-"Camden" naturally 12+ times across its body sections. Salt Lake City's own
-page uses "Salt Lake City" less than Camden uses it about Salt Lake City.
+**Comparison:** Sandy page body copy uses "Window Film Salt Lake City" and
+"Sandy" naturally 12+ times across its body sections. Salt Lake City's own
+page uses "Salt Lake City" less than Sandy uses it about Salt Lake City.
 
 **Fix recommendation:**
 Change H1 to: "Window Film Salt Lake City | Expert Installation Since 2008"
@@ -103,7 +103,7 @@ This is a design decision, not a pure code fix. Flag for review.
 
 ### 1.2 City pages — Pass (with notes)
 
-Camden, Reading, Upper Darby all have strong geo-specific keyword placement:
+Sandy, Reading, Provo all have strong geo-specific keyword placement:
 - Primary keyword in H1 (InnerPageHero title)
 - Primary keyword in meta title
 - City name used throughout body naturally
@@ -111,7 +111,7 @@ Camden, Reading, Upper Darby all have strong geo-specific keyword placement:
 - Local data points (crime stats, VLT laws, energy context for older housing)
 
 Salt Lake City city page has the structure but less local specificity in body
-copy than Camden. The "Why Choose" list is generic (no Salt Lake-specific detail).
+copy than Sandy. The "Why Choose" list is generic (no Salt Lake-specific detail).
 No mention of the A+ BBB rating, no specific neighborhoods in the main content
 section (they're in the ip-local section only).
 
@@ -202,7 +202,7 @@ HVAC energy savings and year-round comfort benefits.
 
 The government-buildings.astro file is the only major page still on the
 old pre-redesign template structure (BackAndForthSection list without
-InnerPageHero, ip-page-body, sidebar, or the redesigned Camden-style layout).
+InnerPageHero, ip-page-body, sidebar, or the redesigned Sandy-style layout).
 
 **Problem 1 — H1 duplicated as first BAF heading:**
 H1: "Government Window Film in Salt Lake City"
@@ -217,7 +217,7 @@ Salt Lake City, including:" — then nothing. The list was never written.
 Fixed with a complete paragraph enumerating five specific benefits.
 
 **Remaining issue:** The page still uses the old visual template. It needs
-the full Camden-style redesign: InnerPageHero, ip-page-body, sidebar CTA
+the full Sandy-style redesign: InnerPageHero, ip-page-body, sidebar CTA
 card, film options grid, and a bottom CTA banner. This is a full redesign
 task, not a content fix.
 
@@ -227,9 +227,9 @@ task, not a content fix.
 
 | Page type | Depth rating | Notes |
 |-----------|-------------|-------|
-| Camden city page | STRONG | Local stats, pricing, neighborhoods, sidebar, testimonials, FAQ |
-| Salt Lake City city page | ADEQUATE | Good structure, but body thinner than Camden; missing some Camden sections |
-| Reading, Upper Darby | ADEQUATE | Same structure as Salt Lake City — good base, not as deep as Camden |
+| Sandy city page | STRONG | Local stats, pricing, neighborhoods, sidebar, testimonials, FAQ |
+| Salt Lake City city page | ADEQUATE | Good structure, but body thinner than Sandy; missing some Sandy sections |
+| Reading, Provo | ADEQUATE | Same structure as Salt Lake City — good base, not as deep as Sandy |
 | Application sub-pages | GOOD | Strong redesigned template; office/retail/schools reviewed |
 | Product sub-pages (3M) | STRONG | Best-in-class for product page SEO |
 | Benefit sub-pages | THIN | BAF template is short; each page averages ~200 words of body text |
@@ -261,7 +261,7 @@ This is a content writing task, not a code task.
 ### 2.5 Duplicate content risk — Low
 
 No pages share identical body copy. City page body sections vary by local
-specifics (Camden vs. Reading vs. Upper Darby). The "Why Choose" lists are
+specifics (Sandy vs. Reading vs. Provo). The "Why Choose" lists are
 nearly identical across city pages — acceptable since they're local variations
 of the same factual claims, not keyword-targeted sections.
 
@@ -305,7 +305,7 @@ or similar expectation-setting copy.
 - A+ BBB Accredited Business (since 2008)
 - 4.9 Google Rating / 5,000+ customers
 - "Free, no-obligation estimates — typically scheduled within 3 business days"
-- Licensed & insured in PA and NJ
+- Licensed & insured in UT and NJ
 
 This is a content addition. The trust-bar pattern exists on other redesigned
 pages (the why-us icon grid) and would be straightforward to replicate here.
@@ -349,7 +349,7 @@ Minor issue — not blocking.
   (e.g., office.astro links to /benefits/glare-reduction/, /benefits/energy-savings/)
 - Product pages link to matching benefit pages (3M → energy-savings,
   safety-and-security, decorative-promotional)
-- Camden page sidebar has the full Cities We Serve menu — all city pages linked
+- Sandy page sidebar has the full Cities We Serve menu — all city pages linked
 
 **Gaps found:**
 
@@ -410,7 +410,7 @@ These are content additions recommended for the next writing pass:
 |-------------|----------------------|--------|
 | salt-lake-city.astro body | "security window film" | /benefits/safety-and-security/ |
 | salt-lake-city.astro body | "UV blocking" | /benefits/uv-blocking-window-film-salt-lake-city/ |
-| camden.astro body | "energy-saving films" | /benefits/energy-savings/ |
+| sandy.astro body | "energy-saving films" | /benefits/energy-savings/ |
 | applications/office.astro | "window film pricing" | /resources/window-film-pricing/ |
 | benefits/energy-savings.astro | "3M Thinsulate" | /products/3m-window-film/ |
 | benefits/safety-and-security.astro | "3M Scotchshield" | /products/3m-window-film/ |
@@ -426,7 +426,7 @@ These are content additions recommended for the next writing pass:
 - "Does window film affect my view at night?" (one-way film reversal)
 - "Will film affect my window warranties?" (common concern)
 - "What's the difference between tinting and window film?"
-- "Do you do residential or only commercial?" (stated in Camden, not Salt Lake)
+- "Do you do residential or only commercial?" (stated in Sandy, not Salt Lake)
 - No mention of the A+ BBB rating or Google rating on this page
 
 **Products pages — gaps:**
@@ -474,7 +474,7 @@ These are content additions recommended for the next writing pass:
 | /blog/ post: "window film historic buildings Salt Lake City" | MEDIUM | Local intent + high differentiation value |
 | /blog/ post: "window film vs window tinting — what's the difference?" | MEDIUM | Common confusion query |
 | /blog/ post: "how long does window film last?" | MEDIUM | FAQ that appears on every competitor site |
-| /cities/cherry-hill/ | MEDIUM | Currently sends to /contact/ — high NJ suburb population |
+| /cities/cherry-hill/ | MEDIUM | Currently sends to /contact/ — high UT suburb population |
 | /cities/voorhees/ | LOW | Same issue, lower volume |
 
 ---
@@ -489,7 +489,7 @@ The site has one blog post published April 22, 2026. The post URL structure
 Pre-fix: the post had four content problems (all fixed in this session).
 Post-fix: the post is a solid informational piece covering energy, UV defense,
 and comfort benefits of window tint in a Salt Lake City context. The local
-specificity (Fishtown, Manayunk, Passyunk Avenue, Rittenhouse Square, Schuylkill
+specificity (Sugar House, Millcreek, 9th and 9th Avenue, Federal Heights, Jordan River
 references) is good. The citations (DOE, Skin Cancer Foundation) are appropriate.
 
 The post links contextually to the glare reduction benefit page and the UV
@@ -554,7 +554,7 @@ Primary keyword "window film Salt Lake City" as phrase:
 |------|-------|---------|
 | index.astro (body text) | 1 | LOW — homepage should have 2–3 |
 | cities/salt-lake-city.astro | 6+ | GOOD |
-| cities/camden.astro | 8+ | GOOD |
+| cities/sandy.astro | 8+ | GOOD |
 | applications.astro | 3 | ADEQUATE |
 | applications/office.astro | 2 | ADEQUATE |
 | products/3m-window-film.astro | 4 | GOOD |

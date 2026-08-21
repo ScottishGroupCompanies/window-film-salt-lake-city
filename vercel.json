@@ -628,12 +628,12 @@
     },
     {
       "source": "/wp-content/uploads/llumar-solar-control-window-tint-specs-salt-lake-city.pdf",
-      "destination": "/resources/llumar-solar-control-window-film-camden-nj-performance-specs.pdf",
+      "destination": "/resources/llumar-solar-control-window-film-sandy-nj-performance-specs.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/llumar-solar-control-window-tint-specs-salt-lake-city.pdf",
-      "destination": "/resources/llumar-solar-control-window-film-camden-nj-performance-specs.pdf",
+      "destination": "/resources/llumar-solar-control-window-film-sandy-nj-performance-specs.pdf",
       "permanent": true
     },
     {
@@ -1528,47 +1528,47 @@
     },
     {
       "source": "/resources/3m-prestige-solar-control-window-film-reading-pa-product-bulletin.pdf",
-      "destination": "/resources/3m-prestige-solar-control-window-film-camden-nj-product-bulletin.pdf",
+      "destination": "/resources/3m-prestige-solar-control-window-film-sandy-nj-product-bulletin.pdf",
       "permanent": true
     },
     {
       "source": "/resources/llumar-solar-control-window-film-reading-pa-performance-specs.pdf",
-      "destination": "/resources/llumar-solar-control-window-film-camden-nj-performance-specs.pdf",
+      "destination": "/resources/llumar-solar-control-window-film-sandy-nj-performance-specs.pdf",
       "permanent": true
     },
     {
       "source": "/resources/solyx-decorative-window-film-reading-pa-sxlt-1305-spec-sheet.pdf",
-      "destination": "/resources/solyx-decorative-window-film-camden-nj-sxlt-1305-spec-sheet.pdf",
+      "destination": "/resources/solyx-decorative-window-film-sandy-nj-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
       "source": "/resources/vista-solar-control-window-film-reading-pa-spec-sheet.pdf",
-      "destination": "/resources/vista-solar-control-window-film-camden-nj-spec-sheet.pdf",
+      "destination": "/resources/vista-solar-control-window-film-sandy-nj-spec-sheet.pdf",
       "permanent": true
     },
     {
       "source": "/resources/solar-gard-panorama-solar-control-window-film-reading-pa-performance-data.pdf",
-      "destination": "/resources/solar-gard-panorama-solar-control-window-film-camden-nj-performance-data.pdf",
+      "destination": "/resources/solar-gard-panorama-solar-control-window-film-sandy-nj-performance-data.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/3m-prestige-solar-control-window-film-upper-darby-pa-product-bulletin.pdf",
-      "destination": "/resources/3m-prestige-solar-control-window-film-camden-nj-product-bulletin.pdf",
+      "source": "/resources/3m-prestige-solar-control-window-film-provo-pa-product-bulletin.pdf",
+      "destination": "/resources/3m-prestige-solar-control-window-film-sandy-nj-product-bulletin.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/llumar-solar-control-window-film-upper-darby-pa-performance-specs.pdf",
-      "destination": "/resources/llumar-solar-control-window-film-camden-nj-performance-specs.pdf",
+      "source": "/resources/llumar-solar-control-window-film-provo-pa-performance-specs.pdf",
+      "destination": "/resources/llumar-solar-control-window-film-sandy-nj-performance-specs.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/solyx-decorative-window-film-upper-darby-pa-sxlt-1305-spec-sheet.pdf",
-      "destination": "/resources/solyx-decorative-window-film-camden-nj-sxlt-1305-spec-sheet.pdf",
+      "source": "/resources/solyx-decorative-window-film-provo-pa-sxlt-1305-spec-sheet.pdf",
+      "destination": "/resources/solyx-decorative-window-film-sandy-nj-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/vista-solar-control-window-film-upper-darby-pa-spec-sheet.pdf",
-      "destination": "/resources/vista-solar-control-window-film-camden-nj-spec-sheet.pdf",
+      "source": "/resources/vista-solar-control-window-film-provo-pa-spec-sheet.pdf",
+      "destination": "/resources/vista-solar-control-window-film-sandy-nj-spec-sheet.pdf",
       "permanent": true
     },
     {
@@ -1608,12 +1608,12 @@
     },
     {
       "source": "/wp-content/uploads/Resource-for-Decorative-Window-Film-in-Salt Lake City.pdf",
-      "destination": "/resources/solyx-decorative-window-film-camden-nj-sxlt-1305-spec-sheet.pdf",
+      "destination": "/resources/solyx-decorative-window-film-sandy-nj-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-for-Decorative-Window-Film-in-Salt Lake City.pdf",
-      "destination": "/resources/solyx-decorative-window-film-camden-nj-sxlt-1305-spec-sheet.pdf",
+      "destination": "/resources/solyx-decorative-window-film-sandy-nj-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
@@ -1817,23 +1817,23 @@
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/camden-Residential-Window-Film-Case-Study.pdf",
-      "destination": "/resources/camden-Residential-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/sandy-Residential-Window-Film-Case-Study.pdf",
+      "destination": "/resources/sandy-Residential-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/camden-Residential-Window-Film-Case-Study.pdf",
-      "destination": "/resources/camden-Residential-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/2021/10/sandy-Residential-Window-Film-Case-Study.pdf",
+      "destination": "/resources/sandy-Residential-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/camden-commercial-window-film-case-study-window-film.pdf",
-      "destination": "/resources/camden-commercial-window-film-case-study-window-film.pdf",
+      "source": "/wp-content/uploads/sandy-commercial-window-film-case-study-window-film.pdf",
+      "destination": "/resources/sandy-commercial-window-film-case-study-window-film.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/camden-commercial-window-film-case-study-window-film.pdf",
-      "destination": "/resources/camden-commercial-window-film-case-study-window-film.pdf",
+      "source": "/wp-content/uploads/2021/10/sandy-commercial-window-film-case-study-window-film.pdf",
+      "destination": "/resources/sandy-commercial-window-film-case-study-window-film.pdf",
       "permanent": true
     },
     {
@@ -1857,28 +1857,28 @@
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/upper-darby-township-Residential-Window-Film-Case-Study.pdf",
-      "destination": "/resources/upper-darby-township-Residential-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/provo-Residential-Window-Film-Case-Study.pdf",
+      "destination": "/resources/provo-Residential-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/upper-darby-township-Residential-Window-Film-Case-Study.pdf",
-      "destination": "/resources/upper-darby-township-Residential-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/2021/10/provo-Residential-Window-Film-Case-Study.pdf",
+      "destination": "/resources/provo-Residential-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/upper-darby-township-commercial-window-film-case-study-window-film.pdf",
-      "destination": "/resources/upper-darby-township-commercial-window-film-case-study-window-film.pdf",
+      "source": "/wp-content/uploads/provo-commercial-window-film-case-study-window-film.pdf",
+      "destination": "/resources/provo-commercial-window-film-case-study-window-film.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/upper-darby-township-commercial-window-film-case-study-window-film.pdf",
-      "destination": "/resources/upper-darby-township-commercial-window-film-case-study-window-film.pdf",
+      "source": "/wp-content/uploads/2021/10/provo-commercial-window-film-case-study-window-film.pdf",
+      "destination": "/resources/provo-commercial-window-film-case-study-window-film.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/solar-gard-panorama-solar-control-window-film-upper-darby-pa-performance-data.pdf",
-      "destination": "/resources/solar-gard-panorama-solar-control-window-film-camden-nj-performance-data.pdf",
+      "source": "/resources/solar-gard-panorama-solar-control-window-film-provo-pa-performance-data.pdf",
+      "destination": "/resources/solar-gard-panorama-solar-control-window-film-sandy-nj-performance-data.pdf",
       "permanent": true
     },
     {

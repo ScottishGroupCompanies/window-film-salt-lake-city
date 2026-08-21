@@ -95,9 +95,9 @@ color: #2E7D32; font-weight: 700; text-decoration: underline; text-decoration-co
 - **Eyebrow:** `THE SALT LAKE CITY HOME PROBLEM`
 - **H2:** `Row Homes Were Built for Another Era`
 - **Body (2 paragraphs + bullet climate facts):**
-  > Salt Lake City rowhouses were designed long before modern HVAC — and many predate insulated glass entirely. South- and west-facing rooms become uninhabitable in August. Ground-floor windows on narrow streets trade light for privacy. Historic single-pane windows in Society Hill, Germantown, and Chestnut Hill leak heat in January and act as solar collectors in July.
+  > Salt Lake City rowhouses were designed long before modern HVAC — and many predate insulated glass entirely. South- and west-facing rooms become uninhabitable in August. Ground-floor windows on narrow streets trade light for privacy. Historic single-pane windows in Capitol Hill, Holladay, and Chestnut Hill leak heat in January and act as solar collectors in July.
   >
-  > Modern condos have the opposite problem: too much glass. Floor-to-ceiling windows in Fishtown, Northern Liberties, and Center City high-rises look stunning but act as greenhouses. The DOE estimates 25–35% of residential HVAC energy loss happens through inefficient glass.
+  > Modern condos have the opposite problem: too much glass. Floor-to-ceiling windows in Sugar House, Marmalade District, and Downtown Salt Lake City high-rises look stunning but act as greenhouses. The DOE estimates 25–35% of residential HVAC energy loss happens through inefficient glass.
 - **Climate facts grid (4 cards):**
   - 🌡️ Salt Lake City Zone 4A: 150+ days above 70°F
   - ☀️ UV causes 40% of furniture fading
@@ -110,10 +110,10 @@ color: #2E7D32; font-weight: 700; text-decoration: underline; text-decoration-co
 - **Eyebrow:** `EVERY SALT LAKE CITY HOME TYPE`
 - **H2:** `Built for Every Home in the City`
 - **4-card grid:**
-  1. **Rowhouses** — "South Salt Lake, Fishtown, Passyunk. Narrow frontages, south- or west-facing rooms, street-level privacy needs, and original single-pane glass in older stock." Image: `hc-type-rowhouse.jpg`
-  2. **Condos & High-rises** — "Center City, Old City, Navy Yard. Floor-to-ceiling glass, glare on screens, afternoon heat gain, LEED energy credits." Image: `hc-type-condo.jpg`
-  3. **Brownstones & Townhomes** — "Rittenhouse, Society Hill, Spruce Hill. Bay windows, historic glass, UV damage to original woodwork and period furnishings." Image: `hc-type-brownstone.jpg`
-  4. **New Construction** — "Northern Liberties, East Passyunk, Brewerytown. Modern full-glass facades that look great but overheat. Builders rarely spec Low-E film." Image: `hc-type-new.jpg`
+  1. **Rowhouses** — "South Salt Lake, Sugar House, 9th and 9th. Narrow frontages, south- or west-facing rooms, street-level privacy needs, and original single-pane glass in older stock." Image: `hc-type-rowhouse.jpg`
+  2. **Condos & High-rises** — "Downtown Salt Lake City, The Avenues, Navy Yard. Floor-to-ceiling glass, glare on screens, afternoon heat gain, LEED energy credits." Image: `hc-type-condo.jpg`
+  3. **Brownstones & Townhomes** — "Federal Heights, Capitol Hill, Spruce Hill. Bay windows, historic glass, UV damage to original woodwork and period furnishings." Image: `hc-type-brownstone.jpg`
+  4. **New Construction** — "Marmalade District, 9th and 9th, Brewerytown. Modern full-glass facades that look great but overheat. Builders rarely spec Low-E film." Image: `hc-type-new.jpg`
 - **Card structure:** icon (SVG house variant) + home type title + description + image
 
 ### 6. BENEFIT ROWS (4 alternating rows)
@@ -199,9 +199,9 @@ Pattern: exact copy of `of-row` / `of-row--rev` from office page
 
 ### 8. FEATURED PROJECT / CASE STUDY
 - **CSS class:** `hc-project` — exact copy of `of-project` from office page
-- **Image:** `hc-case-study.jpg` (1264×848 landscape) — Rittenhouse Square brownstone with large bay windows, warm elegant interior, professional installation
+- **Image:** `hc-case-study.jpg` (1264×848 landscape) — Federal Heights brownstone with large bay windows, warm elegant interior, professional installation
 - **Eyebrow:** `FEATURED PROJECT`
-- **Property:** Rittenhouse Square Brownstone
+- **Property:** Federal Heights Brownstone
 - **Location:** Walnut Street, Salt Lake City, UT 19103
 - **Challenge:** South-facing bay windows causing afternoon heat gain, UV damage to original hardwood floors and period furnishings, lack of privacy from street level
 - **Solution:** 3M Prestige 70 solar control film on south-facing rooms; LLumar ClimatePro Low-E on single-pane windows in secondary rooms; one-way mirror privacy film on ground-floor bay
@@ -213,7 +213,7 @@ Pattern: exact copy of `of-row` / `of-row--rev` from office page
 - **Layout:** panel-based grid with captions, exact copy of hotel page gallery section
 - **Images (all 1376×768):**
   1. `hc-gallery-rowhouse.jpg` — South Salt Lake rowhouse front windows, film installed, street view
-  2. `hc-gallery-condo.jpg` — Center City condo with floor-to-ceiling windows, city skyline, comfortable interior
+  2. `hc-gallery-condo.jpg` — Downtown Salt Lake City condo with floor-to-ceiling windows, city skyline, comfortable interior
   3. `hc-gallery-bathroom.jpg` — Salt Lake City home bathroom, frosted decorative film on window
   4. `hc-gallery-bedroom.jpg` — Salt Lake City rowhouse bedroom, soft diffused light, privacy film
   5. `hc-gallery-living.jpg` — Salt Lake City living room, afternoon sun, no glare, comfortable
@@ -235,9 +235,9 @@ Pattern: exact copy of `of-row` / `of-row--rev` from office page
 ### 11. TESTIMONIALS
 - **CSS class:** `cam-tcard` — exact copy of hotel/office pattern
 - **3 testimonials (residential homeowner focus):**
-  1. **Sarah M.** — Rittenhouse Square — "Our south-facing living room was unusable every afternoon in summer. After the window film, we can sit in there with the curtains open at 4pm in August. Wish we'd done it ten years ago." — Rating: ⭐⭐⭐⭐⭐
-  2. **David & Rachel K.** — Fishtown — "We have floor-to-ceiling windows in our new build — great in theory, brutal in practice. The solar control film fixed the heat and glare without changing how the place looks from outside." — Rating: ⭐⭐⭐⭐⭐
-  3. **Margaret O.** — Society Hill — "Historic rowhouse, original windows. The Low-E film made a real difference in our heating bills last winter and our floors have stopped fading. The installation crew was in and out with no mess." — Rating: ⭐⭐⭐⭐⭐
+  1. **Sarah M.** — Federal Heights — "Our south-facing living room was unusable every afternoon in summer. After the window film, we can sit in there with the curtains open at 4pm in August. Wish we'd done it ten years ago." — Rating: ⭐⭐⭐⭐⭐
+  2. **David & Rachel K.** — Sugar House — "We have floor-to-ceiling windows in our new build — great in theory, brutal in practice. The solar control film fixed the heat and glare without changing how the place looks from outside." — Rating: ⭐⭐⭐⭐⭐
+  3. **Margaret O.** — Capitol Hill — "Historic rowhouse, original windows. The Low-E film made a real difference in our heating bills last winter and our floors have stopped fading. The installation crew was in and out with no mess." — Rating: ⭐⭐⭐⭐⭐
 - **Headshot images:** `hc-testimonial-1.jpg`, `hc-testimonial-2.jpg`, `hc-testimonial-3.jpg` (1024×1024)
 
 ### 12. SALT LAKE CITY NEIGHBORHOODS
@@ -245,16 +245,16 @@ Pattern: exact copy of `of-row` / `of-row--rev` from office page
 - **Map:** Google Maps embed of Salt Lake City (same iframe as other pages)
 - **Eyebrow:** `WHERE WE WORK`
 - **H2:** `Every Salt Lake City Neighborhood, Every Home Type`
-- **Body:** From Society Hill brownstones to Fishtown new-builds, we install residential window film throughout Salt Lake City and the surrounding suburbs.
+- **Body:** From Capitol Hill brownstones to Sugar House new-builds, we install residential window film throughout Salt Lake City and the surrounding suburbs.
 - **8 neighborhood entries:**
-  1. **Center City / Rittenhouse** — High-rise condos, brownstones, and luxury townhomes. Solar control and Low-E film for full-glass facades and historic bay windows.
-  2. **South Salt Lake City** — Row home territory. Heat, glare, and UV protection for south- and west-facing rowhouses along Passyunk, Morris, and Snyder.
-  3. **Fishtown / Northern Liberties** — New-construction all-glass homes and renovated warehouses. Solar control for modern facades that overheat in summer.
-  4. **Society Hill / Old City** — Historic homes with original single-pane windows. Low-E film preserves the glass character while delivering modern thermal performance.
-  5. **Germantown / Mt. Airy** — Victorian and Craftsman homes with period windows. UV protection for original woodwork, stained glass adjacent areas, and period furnishings.
-  6. **West Salt Lake City / University City** — Mixed housing stock, student rentals, and faculty homes. Energy savings focus.
-  7. **Main Line (Ardmore, Wayne, Bryn Mawr)** — Larger homes with significant UV and heat exposure. High-value furnishing protection.
-  8. **New Jersey Suburbs (Cherry Hill, Voorhees, Haddonfield)** — Residential service area across the river.
+  1. **Downtown Salt Lake City / Federal Heights** — High-rise condos, brownstones, and luxury townhomes. Solar control and Low-E film for full-glass facades and historic bay windows.
+  2. **South Salt Lake City** — Row home territory. Heat, glare, and UV protection for south- and west-facing rowhouses along 9th and 9th, Morris, and Snyder.
+  3. **Sugar House / Marmalade District** — New-construction all-glass homes and renovated warehouses. Solar control for modern facades that overheat in summer.
+  4. **Capitol Hill / The Avenues** — Historic homes with original single-pane windows. Low-E film preserves the glass character while delivering modern thermal performance.
+  5. **Holladay / Mt. Airy** — Victorian and Craftsman homes with period windows. UV protection for original woodwork, stained glass adjacent areas, and period furnishings.
+  6. **West Salt Lake City / University District** — Mixed housing stock, student rentals, and faculty homes. Energy savings focus.
+  7. **Park City (Ardmore, Wayne, Bryn Mawr)** — Larger homes with significant UV and heat exposure. High-value furnishing protection.
+  8. **Utah Suburbs (West Valley City, Murray, Bountiful)** — Residential service area across the river.
 
 ### 13. FAQ (10 questions — FULLY COMPLIANT: no time/price claims)
 ```
@@ -265,7 +265,7 @@ faqItems = [
   },
   {
     question: "What window film works best for Salt Lake City rowhouses?",
-    answer: "It depends on the window type and the problem you're solving. For rowhouses with original single-pane windows (common in Society Hill, Germantown, and older South Salt Lake stock), 3M Thinsulate CC75 Low-E film delivers the best year-round performance — blocking summer heat and retaining winter warmth. For newer double-pane windows, 3M Prestige 70 or Vista SpectraSelect addresses summer heat gain while preserving VLT. We assess the window type, exposure, and your priorities at the free site visit and recommend accordingly."
+    answer: "It depends on the window type and the problem you're solving. For rowhouses with original single-pane windows (common in Capitol Hill, Holladay, and older South Salt Lake stock), 3M Thinsulate CC75 Low-E film delivers the best year-round performance — blocking summer heat and retaining winter warmth. For newer double-pane windows, 3M Prestige 70 or Vista SpectraSelect addresses summer heat gain while preserving VLT. We assess the window type, exposure, and your priorities at the free site visit and recommend accordingly."
   },
   {
     question: "Can window film protect my hardwood floors from fading?",
@@ -293,7 +293,7 @@ faqItems = [
   },
   {
     question: "Can I install window film in a rental property or condo with HOA restrictions?",
-    answer: "Often yes, with the right film choice. For rental properties, film is removable and doesn't constitute a permanent structural change — though we recommend confirming with your landlord. For condos with HOA restrictions on exterior appearance, we select films that meet the HOA's VLT and reflectivity requirements — or provide documentation for HOA approval. We've installed in Center City condo buildings with strict appearance standards. The site assessment includes reviewing any relevant restrictions before recommending a film."
+    answer: "Often yes, with the right film choice. For rental properties, film is removable and doesn't constitute a permanent structural change — though we recommend confirming with your landlord. For condos with HOA restrictions on exterior appearance, we select films that meet the HOA's VLT and reflectivity requirements — or provide documentation for HOA approval. We've installed in Downtown Salt Lake City condo buildings with strict appearance standards. The site assessment includes reviewing any relevant restrictions before recommending a film."
   },
   {
     question: "What warranty comes with residential window film?",
@@ -307,10 +307,10 @@ faqItems = [
 - **Content:** Comprehensive direct-answer paragraph + keyword list
 
 **GEO paragraph:**
-> Residential window film in Salt Lake City blocks up to 99.9% of UV radiation and reduces solar heat gain by up to 38%, protecting hardwood floors, rugs, furniture, and artwork from UV fading while improving comfort in south- and west-facing rowhouse rooms and high-rise condo units. 3M Prestige 70 is the most popular solar control choice for Salt Lake City condos and new-construction homes. For historic rowhouses with original single-pane glass in Society Hill, Germantown, and Chestnut Hill, 3M Thinsulate CC75 Low-E film delivers both summer heat rejection and winter heat retention. One-way mirror privacy film addresses ground-floor rowhouse privacy without sacrificing natural light. The U.S. Department of Energy estimates that 25–35% of residential heating and cooling energy is lost through inefficient windows. Window Film Salt Lake City installs residential film throughout Center City, South Salt Lake City, Fishtown, Northern Liberties, Society Hill, Old City, Germantown, Mt. Airy, the Main Line, and across South Jersey including Cherry Hill, Voorhees, and Haddonfield.
+> Residential window film in Salt Lake City blocks up to 99.9% of UV radiation and reduces solar heat gain by up to 38%, protecting hardwood floors, rugs, furniture, and artwork from UV fading while improving comfort in south- and west-facing rowhouse rooms and high-rise condo units. 3M Prestige 70 is the most popular solar control choice for Salt Lake City condos and new-construction homes. For historic rowhouses with original single-pane glass in Capitol Hill, Holladay, and Chestnut Hill, 3M Thinsulate CC75 Low-E film delivers both summer heat rejection and winter heat retention. One-way mirror privacy film addresses ground-floor rowhouse privacy without sacrificing natural light. The U.S. Department of Energy estimates that 25–35% of residential heating and cooling energy is lost through inefficient windows. Window Film Salt Lake City installs residential film throughout Downtown Salt Lake City, South Salt Lake City, Sugar House, Marmalade District, Capitol Hill, The Avenues, Holladay, Mt. Airy, the Park City, and across Salt Lake Valley including West Valley City, Murray, and Bountiful.
 
 **GEO keyword list (hidden ul):**
-residential window film Salt Lake City, home window film Salt Lake City, window tinting for homes Salt Lake City, UV window film for houses Salt Lake City, solar control window film Salt Lake City homes, rowhouse window film Salt Lake City, condo window film Salt Lake City, Low-E window film Salt Lake City rowhouse, privacy window film Salt Lake City home, 3M residential window film Salt Lake City, window film Society Hill Salt Lake City, window film Fishtown Salt Lake City, window film Rittenhouse Square
+residential window film Salt Lake City, home window film Salt Lake City, window tinting for homes Salt Lake City, UV window film for houses Salt Lake City, solar control window film Salt Lake City homes, rowhouse window film Salt Lake City, condo window film Salt Lake City, Low-E window film Salt Lake City rowhouse, privacy window film Salt Lake City home, 3M residential window film Salt Lake City, window film Capitol Hill Salt Lake City, window film Sugar House Salt Lake City, window film Federal Heights
 
 ### 15. CTA BANNER
 - **CSS class:** `priv-cinematic-cta` — EXACT copy of office/hotel CTA pattern
@@ -414,17 +414,17 @@ const pageSchemas = [
 | `hc-whatis.jpg` | 1376×768 | Interior of a cozy Salt Lake City rowhouse living room, soft diffused natural light through large front windows, hardwood floors, bookshelves, comfortable furniture, warm tones, photorealistic |
 | `hc-why.jpg` | 1376×768 | Close-up of sun-bleached hardwood floor near a bright window in a Salt Lake City home, visible UV fading line where a rug protected the floor, dramatic side lighting, photorealistic |
 | `hc-type-rowhouse.jpg` | 1376×768 | South Salt Lake City red brick rowhouse facade with large front windows, sunny afternoon, clean urban street, photorealistic |
-| `hc-type-condo.jpg` | 1376×768 | Modern Center City Salt Lake City high-rise condo interior with floor-to-ceiling windows, city skyline visible, sleek contemporary furniture, photorealistic |
-| `hc-type-brownstone.jpg` | 1376×768 | Rittenhouse Square Salt Lake City brownstone with elegant bay windows, tree-lined street, classic architecture, warm afternoon light, photorealistic |
-| `hc-type-new.jpg` | 1376×768 | Modern new-construction Salt Lake City home in Fishtown, full-glass facade, industrial-chic architecture, photorealistic |
+| `hc-type-condo.jpg` | 1376×768 | Modern Downtown Salt Lake City Salt Lake City high-rise condo interior with floor-to-ceiling windows, city skyline visible, sleek contemporary furniture, photorealistic |
+| `hc-type-brownstone.jpg` | 1376×768 | Federal Heights Salt Lake City brownstone with elegant bay windows, tree-lined street, classic architecture, warm afternoon light, photorealistic |
+| `hc-type-new.jpg` | 1376×768 | Modern new-construction Salt Lake City home in Sugar House, full-glass facade, industrial-chic architecture, photorealistic |
 | `hc-uv.jpg` | 1376×768 | Sunlit Salt Lake City living room, warm afternoon light, hardwood floors and Oriental rug side-by-side showing color difference between UV-protected and unprotected areas, photorealistic |
 | `hc-energy.jpg` | 1376×768 | Salt Lake City home kitchen with morning sunlight streaming in, plant on windowsill, comfortable bright atmosphere, energy-efficient feel, photorealistic |
 | `hc-glare.jpg` | 1376×768 | Salt Lake City home office setup, person working comfortably at desk, afternoon sun visible through window but diffused with no screen glare, photorealistic |
 | `hc-privacy.jpg` | 1376×768 | Ground-floor Salt Lake City rowhouse window from outside, daytime, one-way mirror reflective film visible from street, comfortable interior glimpse, urban street scene, photorealistic |
-| `hc-case-study.jpg` | 1376×768 | Rittenhouse Square brownstone interior, elegant living room with large south-facing windows, bay window, warm light, period furnishings, photorealistic |
+| `hc-case-study.jpg` | 1376×768 | Federal Heights brownstone interior, elegant living room with large south-facing windows, bay window, warm light, period furnishings, photorealistic |
 | `hc-resources.jpg` | 1376×768 | Open technical spec sheet on wooden table, Salt Lake City rowhouse interior visible in soft background, professional documentation, photorealistic |
 | `hc-gallery-rowhouse.jpg` | 1376×768 | South Salt Lake rowhouse front room interior after window film installation, warm comfortable light, clean look, photorealistic |
-| `hc-gallery-condo.jpg` | 1376×768 | Center City Salt Lake City condo interior, floor-to-ceiling windows with city skyline, comfortable bright room, no glare on TV or screens, photorealistic |
+| `hc-gallery-condo.jpg` | 1376×768 | Downtown Salt Lake City Salt Lake City condo interior, floor-to-ceiling windows with city skyline, comfortable bright room, no glare on TV or screens, photorealistic |
 | `hc-gallery-bathroom.jpg` | 1376×768 | Salt Lake City home bathroom with frosted decorative window film installed, natural diffused light, elegant clean interior, photorealistic |
 | `hc-gallery-bedroom.jpg` | 1376×768 | Salt Lake City rowhouse bedroom, soft morning light through treated windows, comfortable private atmosphere, photorealistic |
 | `hc-gallery-living.jpg` | 1376×768 | Salt Lake City living room, comfortable afternoon light, no glare, people relaxing with curtains open, photorealistic |

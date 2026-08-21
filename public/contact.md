@@ -10,14 +10,14 @@ Get in touch for a free consultation and quote.
 
 ## Service Area
 
-We serve Salt Lake City and the Delaware Valley, including:
-- Salt Lake City (Center City, South Salt Lake, Fishtown, Manayunk, Old City, Queen Village, Northern Liberties, Graduate Hospital)
-- The Main Line
-- Cherry Hill and South Jersey
-- Camden NJ
-- Reading PA
-- Upper Darby PA
-- Montgomery County, Bucks County, Delaware County, Chester County
+We serve Salt Lake City and the Wasatch Front, including:
+- Salt Lake City (Downtown Salt Lake City, South Salt Lake, Sugar House, Millcreek, The Avenues, Queen Village, Marmalade District, Graduate Hospital)
+- The Park City
+- West Valley City and Salt Lake Valley
+- Sandy NJ
+- Ogden UT
+- Provo PA
+- Utah County, Davis County, Salt Lake County, Summit County
 
 ## What to Expect
 

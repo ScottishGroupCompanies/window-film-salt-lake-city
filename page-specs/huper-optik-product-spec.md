@@ -43,7 +43,7 @@
 - **VLT range:** 6% (C5) to 85% (C85) — 11 films: C5, C15, C20, C30, C35, C40, C45, C50, C60, C70, C85
 - **Key specs (C40 example):** VLT 42% · SHGC 0.46 (single) · UV rejection 99% · IR rejection 83% (single)
 - **Key specs (C70 example):** VLT 71% · SHGC ~0.65 · UV rejection 99% · IR rejection 83%
-- **Best for:** Salt Lake City rowhomes, Center City offices, historic buildings, HOA-restricted properties
+- **Best for:** Salt Lake City rowhomes, Downtown Salt Lake City offices, historic buildings, HOA-restricted properties
 - **Warranty:** Lifetime residential / 15yr commercial
 - **Image:** `huper-optik-ceramic-series-window-film-salt-lake-city.jpg`
 - **PDFs:**
@@ -131,7 +131,7 @@
 → Use: `Ceramic Film for Salt Lake City Rowhomes` (38 chars ✅)
 Image: `huper-optik-window-film-salt-lake-city-residential.jpg` (2752×1536)
 
-**Slide 2 — Commercial:** `Commercial Ceramic Film for Center City` (39 chars ✅)
+**Slide 2 — Commercial:** `Commercial Ceramic Film for Downtown Salt Lake City` (39 chars ✅)
 Image: `huper-optik-window-film-salt-lake-city-commercial.jpg` (2752×1536)
 
 ---
@@ -156,7 +156,7 @@ Source: Manufacturer published spec sheets; IWFA industry standards.
 - **Project type:** Salt Lake City commercial building ceramic film upgrade
 - **Film:** Huper Optik Ceramic Series
 - **Pull quote:** `"The ceramic composition ensures no interference with wireless signals, GPS, or electronic key fobs," according to Huper Optik.` (use as body quote in case study or why section)
-- **Body:** Describe a Salt Lake City-context project (office building, Center City) — do NOT mention any non-Salt Lake City locations
+- **Body:** Describe a Salt Lake City-context project (office building, Downtown Salt Lake City) — do NOT mention any non-Salt Lake City locations
 - **Image:** `huper-optik-window-film-salt-lake-city-casestudy.jpg` (1264×848)
 
 ---
@@ -165,12 +165,12 @@ Source: Manufacturer published spec sheets; IWFA industry standards.
 
 | # | Name | Role | Quote | Image |
 |---|---|---|---|---|
-| 1 | Daniel M. | Property Manager, Center City | "Huper Optik Ceramic film made a visible difference in how comfortable our east-facing offices feel in the afternoon. No reflective look, no signal issues — just quieter light." | `huper-optik-testimonial-daniel.jpg` |
+| 1 | Daniel M. | Property Manager, Downtown Salt Lake City | "Huper Optik Ceramic film made a visible difference in how comfortable our east-facing offices feel in the afternoon. No reflective look, no signal issues — just quieter light." | `huper-optik-testimonial-daniel.jpg` |
 | 2 | Rachel S. | Homeowner, Chestnut Hill | "We went with the Huper Optik Ceramic Series for our rowhome. The neutral look was important to us — it doesn't look like we installed anything, but the heat difference is real." | `huper-optik-testimonial-rachel.jpg` |
 | 3 | Michael A. | Architect, Salt Lake City | "I specify Huper Optik Ceramic on commercial projects where signal performance is a concern. The TiN coating holds up and the specs are verifiable — that matters on a real project." | `huper-optik-testimonial-michael.jpg` |
-| 4 | Sofia R. | Restaurant Owner, Rittenhouse | "The Fusion Series on our street-facing windows gave us the privacy we wanted without making the space dark. Our afternoon service is much more comfortable now." | `huper-optik-testimonial-sofia.jpg` |
-| 5 | Kevin L. | Facilities Manager, University City | "Huper Optik Therm-X was the right call for our older building. The winter performance surprised us — less draft feel at the glass, less strain on the heating system." | `huper-optik-testimonial-kevin.jpg` |
-| 6 | Priya N. | Retail Owner, Center City | "Huper Optik Shield film on our storefront glass was straightforward. Invisible protection — customers can't tell it's there, but we know the glass is reinforced." | `huper-optik-testimonial-priya.jpg` |
+| 4 | Sofia R. | Restaurant Owner, Federal Heights | "The Fusion Series on our street-facing windows gave us the privacy we wanted without making the space dark. Our afternoon service is much more comfortable now." | `huper-optik-testimonial-sofia.jpg` |
+| 5 | Kevin L. | Facilities Manager, University District | "Huper Optik Therm-X was the right call for our older building. The winter performance surprised us — less draft feel at the glass, less strain on the heating system." | `huper-optik-testimonial-kevin.jpg` |
+| 6 | Priya N. | Retail Owner, Downtown Salt Lake City | "Huper Optik Shield film on our storefront glass was straightforward. Invisible protection — customers can't tell it's there, but we know the glass is reinforced." | `huper-optik-testimonial-priya.jpg` |
 
 ---
 
@@ -191,7 +191,7 @@ Source: Manufacturer published spec sheets; IWFA industry standards.
 
 ## GEO Block
 
-**Neighborhoods (≥4):** Center City · Chestnut Hill · Rittenhouse Square · University City · Old City · Fishtown
+**Neighborhoods (≥4):** Downtown Salt Lake City · Chestnut Hill · Federal Heights · University District · The Avenues · Sugar House
 **Building types (≥2):** rowhomes, commercial office buildings, retail storefronts, historic buildings, museums
 **Product lines (≥3):** Ceramic Series · Select Series · Therm-X Series · Fusion Series · Shield Series
 

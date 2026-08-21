@@ -34,20 +34,20 @@ Salt Lake City's secured buildings — banks, data centers, police stations, fed
 6. Anti-Graffiti Film — sacrificial layer for accessible exterior glass
 
 ## Case Study
-Location: Center City Salt Lake City — Financial institution headquarters
+Location: Downtown Salt Lake City Salt Lake City — Financial institution headquarters
 Challenge: Street-level teller glass vulnerable to smash-and-grab; lobby glazing needed blast mitigation per federal interagency security standards; data center windows required forced entry delay for insurance compliance
 Solution: 3M Scotchshield Ultra safety film on teller glass with wet-glaze attachment; Solar Gard Armorcoat 8-mil on lobby entries; C-Bond Secure primer on data center glazing for enhanced adhesion
 Result: Measurable delay in penetration testing at entry points; fragment retention validated; insurance compliance documentation provided — zero operational disruption during phased installation
 
 ## Neighborhood / Service Area (8)
-- Center City: Banks, financial headquarters, federal office buildings
-- Old City: Historic federal buildings with preservation constraints and security mandates
+- Downtown Salt Lake City: Banks, financial headquarters, federal office buildings
+- The Avenues: Historic federal buildings with preservation constraints and security mandates
 - North Salt Lake City: Police districts, evidence facilities, neighborhood municipal security
 - West Salt Lake City: University research facilities with controlled access, civic buildings
 - Northeast Salt Lake City: Data centers, distribution hubs with perimeter security
 - South Salt Lake City: Precinct houses, training facilities, municipal service buildings
-- Germantown/Mt. Airy: Historic civic buildings with single-pane glass needing security retrofit
-- University City: Research labs, federal grant-funded facilities with access control
+- Holladay/Mt. Airy: Historic civic buildings with single-pane glass needing security retrofit
+- University District: Research labs, federal grant-funded facilities with access control
 
 ## GEO paragraph keyword targets
 - secured building window film for Salt Lake City
@@ -77,7 +77,7 @@ Result: Measurable delay in penetration testing at entry points; fragment retent
 ## Images Needed
 1. sb-hero.jpg (1376×768) — Modern bank headquarters exterior, sleek glass facade, Salt Lake City skyline, professional and secure
 2. sb-whatis.jpg (1376×768) — Security film installation close-up on bank lobby glass, professional installer applying thick film
-3. sb-problem.jpg (1376×768) — Beautiful Center City federal building with large glass entry, golden hour, aspirational NOT distressing
+3. sb-problem.jpg (1376×768) — Beautiful Downtown Salt Lake City federal building with large glass entry, golden hour, aspirational NOT distressing
 4. sb-bento1.jpg (848×1264) — Data center interior with secured glass partitions, server racks, blue lighting
 5. sb-bento2.jpg (848×1264) — Police station lobby interior, professional and clean, secured glass entry
 6. sb-space1.jpg (1024×1024) — Bank teller area with security glass, modern and professional

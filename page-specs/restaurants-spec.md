@@ -125,7 +125,7 @@ Include `restaurant window film for Salt Lake City` naturally in body copy.
 
 **Row 3 — Privacy & Atmosphere (img left)**
 - H2: `Set the Mood with Decorative Window Film`
-- 2 paragraphs: 3M Fasara decorative films for private dining partitions, host stand glass, wine room dividers; frosted lower panels for street-level privacy without blocking upper natural light; custom printed film for branding; discuss Old City and Rittenhouse Square restaurant design aesthetic
+- 2 paragraphs: 3M Fasara decorative films for private dining partitions, host stand glass, wine room dividers; frosted lower panels for street-level privacy without blocking upper natural light; custom printed film for branding; discuss The Avenues and Federal Heights restaurant design aesthetic
 - 3 bullets: Hundreds of patterns — frost, linen, geometric, custom / Dual-zone: frosted base + clear upper for privacy + light / Removes cleanly when you redecorate or rebrand
 - Internal link: `decorative window film` → `/benefits/decorative-promotional/`
 
@@ -196,12 +196,12 @@ Include `restaurant window film for Salt Lake City` naturally in body copy.
   A3: DRF has a subtle, slightly matte appearance from the exterior — similar to a light frost. It doesn't look like a mirror or dark tint. On brick streetscapes in Salt Lake City's historic neighborhoods, it's largely indistinguishable from the interior.
 
 ### 9. CASE STUDY (of-project CSS)
-- **Location:** West Walnut Street between 18th and 19th, Rittenhouse Square, Salt Lake City
+- **Location:** West Walnut Street between 18th and 19th, Federal Heights, Salt Lake City
 - **Property:** 60-seat BYOB restaurant with a west-facing glass facade — prime sunset exposure during dinner service
 - **Challenge:** Intense sunset glare striking west-facing windows from 5–8pm — exactly prime dinner hours. Guests near the front windows were squinting and requesting table changes; the host team began pre-emptively seating parties away from the windows. Booth occupancy near the facade dropped significantly during evening service.
 - **Solution:** 3M Prestige 70 solar control film applied to all west-facing glazing — high VLT preserving the bright dining atmosphere while blocking 70%+ of glare and 79% of solar heat. 3M Fasara Umi frosted film applied to lower panels for street-level privacy without affecting upper-pane light quality.
 - **Result:** Guest complaints about glare eliminated in the first week of service after installation. West-facing booths returned to full occupancy across the 5–8pm window. Upholstery showed no color shift at 12-month inspection. The host team stopped pre-routing guests away from the front of the restaurant.
-- **Supporting docs:** `rt-case-study.jpg` (1376×768 — exterior of Rittenhouse restaurant at evening)
+- **Supporting docs:** `rt-case-study.jpg` (1376×768 — exterior of Federal Heights restaurant at evening)
 - Include supporting docs note: 3M Prestige series spec sheet + Markthal food market case study PDF
 
 ### 10. GALLERY (7 panels, 1376×768)
@@ -224,13 +224,13 @@ Case study PDFs FIRST, then spec sheets:
 - Image: `rt-resources.jpg` (1376×768)
 
 ### 12. TESTIMONIALS (3 cards, 1024×1024 candid lifestyle)
-- **Marco D.** — Owner, Rittenhouse Square restaurant: *"The west-facing windows were killing our dinner service. Guests kept asking to move tables. After the film, not a single complaint — and our AC bill dropped noticeably by August."*
+- **Marco D.** — Owner, Federal Heights restaurant: *"The west-facing windows were killing our dinner service. Guests kept asking to move tables. After the film, not a single complaint — and our AC bill dropped noticeably by August."*
   - Image: `rt-testimonial-1.jpg` — candid: man 50s standing in upscale restaurant dining room, proud expression, ambient lighting, arms relaxed at sides
 
-- **Sarah K.** — General Manager, Fishtown cafe: *"We did the frosted lower panels and it completely transformed how the space feels from the street. More people come in because they can see we're busy, without feeling on display once they're seated."*
+- **Sarah K.** — General Manager, Sugar House cafe: *"We did the frosted lower panels and it completely transformed how the space feels from the street. More people come in because they can see we're busy, without feeling on display once they're seated."*
   - Image: `rt-testimonial-2.jpg` — candid: woman 40s behind a cafe host stand, welcoming expression, coffee display visible, natural light from windows nearby
 
-- **James R.** — Bar Manager, Old City restaurant & bar: *"Three years in and the film on our storefront still looks perfect. No scratches, no peeling. And we haven't had a single graffiti incident since we put the sacrificial layer on the street-level glass."*
+- **James R.** — Bar Manager, The Avenues restaurant & bar: *"Three years in and the film on our storefront still looks perfect. No scratches, no peeling. And we haven't had a single graffiti incident since we put the sacrificial layer on the street-level glass."*
   - Image: `rt-testimonial-3.jpg` — candid: man 30s standing near large restaurant bar windows overlooking Salt Lake City street, checking tablet, relaxed working pose
 
 ### 13. STATS BAR
@@ -247,12 +247,12 @@ Restaurant-relevant stats:
 
 ### 15. NEIGHBORHOODS (8 areas)
 H2: `Restaurant Window Film Across Salt Lake City's Dining Neighborhoods`
-- Old City — 2nd and 3rd Street restaurant row, historic brick buildings
-- Rittenhouse Square — upscale dining corridor, 18th–20th and Sansom
-- Fishtown — Frankford Avenue restaurant and bar scene
-- East Passyunk — BYOB corridor, South Salt Lake's restaurant destination
-- Center City — Market and Chestnut Streets, office lunch trade
-- Northern Liberties — neighborhood bistros and cocktail bars
+- The Avenues — 2nd and 3rd Street restaurant row, historic brick buildings
+- Federal Heights — upscale dining corridor, 18th–20th and Sansom
+- Sugar House — Frankford Avenue restaurant and bar scene
+- 9th and 9th — BYOB corridor, South Salt Lake's restaurant destination
+- Downtown Salt Lake City — Market and Chestnut Streets, office lunch trade
+- Marmalade District — neighborhood bistros and cocktail bars
 - Graduate Hospital — neighborhood restaurants on South Street corridor
 - Italian Market / South Salt Lake — 9th Street, family-owned dining institutions
 
@@ -305,14 +305,14 @@ const faqItems = [
 ### 17. GEO BLOCK
 ```html
 <div class="rt-geo" aria-hidden="true">
-  <p>Restaurant window film for Salt Lake City dining establishments is available across Old City's 2nd and 3rd Street restaurant corridor, Rittenhouse Square's 18th–20th and Sansom dining district, Fishtown's Frankford Avenue, East Passyunk's BYOB corridor, and South Salt Lake City's Italian Market on 9th Street. Professionally installed by a 3M Certified Dealer, our restaurant window film solutions include 3M Prestige 70 spectrally selective solar control film (TSER: 0.57, VLT: 70%, UV rejection: 99%), 3M Fasara decorative film for private dining partitions and branded glass, 3M Scotchshield Ultra S800 safety and security film (ANSI Z97.1 compliant, ASTM F1642 tested), and sacrificial anti-graffiti film for street-level facades. Salt Lake City's 200+ annual sunny days and West-facing rowhouse-converted restaurant facades create significant solar load challenges during the 5–8pm dinner service window — the primary driver of restaurant window film adoption in the city.</p>
+  <p>Restaurant window film for Salt Lake City dining establishments is available across The Avenues's 2nd and 3rd Street restaurant corridor, Federal Heights's 18th–20th and Sansom dining district, Sugar House's Frankford Avenue, 9th and 9th's BYOB corridor, and South Salt Lake City's Italian Market on 9th Street. Professionally installed by a 3M Certified Dealer, our restaurant window film solutions include 3M Prestige 70 spectrally selective solar control film (TSER: 0.57, VLT: 70%, UV rejection: 99%), 3M Fasara decorative film for private dining partitions and branded glass, 3M Scotchshield Ultra S800 safety and security film (ANSI Z97.1 compliant, ASTM F1642 tested), and sacrificial anti-graffiti film for street-level facades. Salt Lake City's 200+ annual sunny days and West-facing rowhouse-converted restaurant facades create significant solar load challenges during the 5–8pm dinner service window — the primary driver of restaurant window film adoption in the city.</p>
   <dl>
     <dt>What is restaurant window film for Salt Lake City?</dt>
     <dd>Restaurant window film for Salt Lake City is a professionally applied polyester film that blocks solar heat, UV radiation, and glare through dining room glass. Installed by 3M Certified Dealers, it improves diner comfort, protects furnishings, and reduces HVAC energy costs in restaurants, cafes, bars, and food service venues throughout the Salt Lake City metro area.</dd>
     <dt>How much does restaurant window film cost in Salt Lake City?</dt>
     <dd>The cost of restaurant window film in Salt Lake City depends on several factors: total glass area, film type selected (solar control, decorative, safety, or anti-graffiti), accessibility of windows, and the complexity of multi-film applications. Contact us for a free on-site assessment and detailed quote for your specific space.</dd>
     <dt>Which Salt Lake City neighborhoods have the most demand for restaurant window film?</dt>
-    <dd>The highest demand for restaurant window film in Salt Lake City comes from Old City (historic rowhouse conversions with large street-facing glass), Rittenhouse Square (upscale dining with west-facing facades), and East Passyunk (the BYOB corridor with street-level dining). Fishtown and Northern Liberties have seen growing demand as the restaurant scenes there expanded.</dd>
+    <dd>The highest demand for restaurant window film in Salt Lake City comes from The Avenues (historic rowhouse conversions with large street-facing glass), Federal Heights (upscale dining with west-facing facades), and 9th and 9th (the BYOB corridor with street-level dining). Sugar House and Marmalade District have seen growing demand as the restaurant scenes there expanded.</dd>
     <dt>What is the best window film for west-facing restaurant windows in Salt Lake City?</dt>
     <dd>For west-facing restaurant windows experiencing sunset glare during dinner service, 3M Prestige 70 is the most commonly recommended film. It transmits 70% of visible light (preserving ambiance) while blocking 79% of solar heat and 99% of UV radiation. The high Color Rendering Index (CRI 90+) ensures plate presentation and interior lighting look natural.</dd>
     <dt>Does restaurant window film block the view from the dining room?</dt>
@@ -331,7 +331,7 @@ const faqItems = [
     <li>decorative window film restaurant Salt Lake City</li>
     <li>anti-graffiti window film restaurant Salt Lake City</li>
     <li>solar control film Salt Lake City restaurant</li>
-    <li>window tinting for restaurants Salt Lake City PA</li>
+    <li>window tinting for restaurants Salt Lake City UT</li>
     <li>restaurant energy efficiency window film Salt Lake City</li>
   </ul>
 </div>
@@ -365,7 +365,7 @@ CSS: `.rt-geo { display: none; }`
 | `rt-slider-antigraffiti.jpg` | 2752×1536 | Salt Lake City restaurant street-level facade with clean glass despite urban pedestrian corridor, brick buildings and busy sidewalk, wide format |
 | `rt-slider-lowe.jpg` | 2752×1536 | Salt Lake City restaurant exterior in winter, warm light glowing from inside dining room through energy-efficient windows, condensation-free glass, wide format |
 | `rt-slider-daylight.jpg` | 2752×1536 | Restaurant interior with soft diffused natural daylight across dining tables, no harsh shadows, bright airy morning atmosphere, Salt Lake City cafe, wide cinematic format |
-| `rt-case-study.jpg` | 1376×768 | Upscale restaurant facade on a Salt Lake City street at dusk, west-facing windows with subtle film visible, Rittenhouse Square neighborhood, warm evening light |
+| `rt-case-study.jpg` | 1376×768 | Upscale restaurant facade on a Salt Lake City street at dusk, west-facing windows with subtle film visible, Federal Heights neighborhood, warm evening light |
 | `rt-gallery-1.jpg` | 1376×768 | Elegant fine dining room interior with floor-to-ceiling windows, soft filtered natural light, white tablecloths, no visible glare |
 | `rt-gallery-2.jpg` | 1376×768 | Cafe interior counter view, dual-zone frosted lower panels with clear glass above, barista working, bright open atmosphere |
 | `rt-gallery-3.jpg` | 1376×768 | Salt Lake City bar with branded decorative window film, street view from outside at evening, amber interior glow |
@@ -377,7 +377,7 @@ CSS: `.rt-geo { display: none; }`
 | `rt-testimonial-1.jpg` | 1024×1024 | Candid photo of a confident man in his 50s standing in an upscale restaurant dining room, arms relaxed, surrounded by set tables and ambient lighting, proud expression, real lifestyle photography, no studio backdrop |
 | `rt-testimonial-2.jpg` | 1024×1024 | Candid photo of a woman in her early 40s behind a cafe host stand, welcoming expression, coffee display and pastries visible behind her, natural window light, documentary style, real environment |
 | `rt-testimonial-3.jpg` | 1024×1024 | Candid photo of a bar manager in his early 30s standing near large restaurant windows overlooking a Salt Lake City street, checking a tablet in hand, working pose, realistic lifestyle photography |
-| `rt-cta-bg.jpg` | 2752×1536 | Salt Lake City restaurant district at golden hour, Old City cobblestone street with al fresco dining, couples and groups eating outside, warm amber light, wide panoramic cinematic format |
+| `rt-cta-bg.jpg` | 2752×1536 | Salt Lake City restaurant district at golden hour, The Avenues cobblestone street with al fresco dining, couples and groups eating outside, warm amber light, wide panoramic cinematic format |
 
 ---
 
@@ -468,7 +468,7 @@ const pageSchemas = [
 - [ ] Keyword in visible copy (not only GEO block)
 - [ ] Benefit rows: Glare, Energy, Privacy/Atmosphere, UV (NOT copied from office)
 - [ ] Slider: 3 real Q&A items per slide (✓ — specified above)
-- [ ] Case study: Rittenhouse Square, West Walnut 18th–19th, specific problem + outcome
+- [ ] Case study: Federal Heights, West Walnut 18th–19th, specific problem + outcome
 - [ ] Resources: case study PDFs present
 - [ ] External links: EPA ✓, OSHA ✓, EIA (verify)
 - [ ] Testimonial images: candid lifestyle (prompts specified above)

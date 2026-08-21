@@ -27,7 +27,7 @@ The three most impactful GEO gaps found in this audit:
 
 3. **Only 6 of 65 pages have FAQPage schema** — The process page has no HowTo
    schema despite describing a clear 3-step procedure. City pages reading.astro
-   and upper-darby-township.astro have FAQ accordion sections but no FAQPage
+   and provo.astro have FAQ accordion sections but no FAQPage
    schema. Expanded schema coverage this session.
 
 ---
@@ -42,7 +42,7 @@ The three most impactful GEO gaps found in this audit:
 | 4 | HIGH | LocalBusiness sameAs only contains site URL — no social profiles | [FIXED] |
 | 5 | HIGH | 59 of 65 pages have no FAQ schema — missed FAQ rich results | Pending |
 | 6 | HIGH | Process page has no HowTo schema — clear step-by-step content ignored | [FIXED] |
-| 7 | HIGH | reading.astro and upper-darby-township.astro have FAQ accordion HTML but no FAQPage schema | [FIXED] |
+| 7 | HIGH | reading.astro and provo.astro have FAQ accordion HTML but no FAQPage schema | [FIXED] |
 | 8 | HIGH | 13 product sub-pages have no Service schema | Pending |
 | 9 | HIGH | Blog post has no structured data (no Article schema) | Pending |
 | 10 | MEDIUM | LocalBusiness schema areaServed lists only 4 cities — 50+ stated in stats | Pending |
@@ -190,16 +190,16 @@ Perplexity and ChatGPT responses where entity verification influences citation r
 
 LocalBusiness areaServed lists 4 cities with Wikipedia sameAs links:
 - Salt Lake City (Wikipedia)
-- Camden NJ (Wikipedia)
-- Reading PA (Wikipedia)
-- Upper Darby Township PA (Wikipedia)
+- Sandy UT (Wikipedia)
+- Ogden UT (Wikipedia)
+- Provo UT (Wikipedia)
 
 Stats on homepage say "50+ cities served." Schema says 4. This is a medium-priority
 discrepancy — the schema is more specific (and therefore more useful for local
 GEO targeting) but the stated coverage is much wider than the schema'd areaServed.
 
 **Fix recommended:** Add a broader `areaServed` scope or add a separate
-`areaServed` entry for the full "Salt Lake City metro area + PA + NJ" description.
+`areaServed` entry for the full "Salt Lake City metro area + UT + NJ" description.
 Or keep the 4 primary cities in schema and let body copy handle the broader claim.
 
 ---
@@ -254,7 +254,7 @@ This is a content creation task, not a code fix.
 ### 3.1 FAQPage schema — Pass with gaps
 
 **Current state:** 6 pages have FAQPage schema:
-- /cities/camden/
+- /cities/sandy/
 - /cities/salt-lake-city/
 - /benefits/
 - /benefits/safety-and-security/
@@ -270,15 +270,15 @@ have NO faqItems in BaseLayout:
 | Page | Has FAQ HTML | Has FAQPage Schema |
 |------|-------------|-------------------|
 | /cities/reading/ | Yes (6 Q&A) | No |
-| /cities/upper-darby-township/ | Yes (6 Q&A) | No |
+| /cities/provo/ | Yes (6 Q&A) | No |
 | /resources/window-film-pricing/ | Yes | No |
 | /resources/commercial-guide/ | Yes | No |
 | /resources/warranty/ | Yes | No |
 | /resources/maintenance-and-care/ | Yes | No |
 
 **Fixes applied this session:**
-- reading.astro: added faqItems array (6 local-specific Q&A including PA law compliance, Wyomissing/Shillington neighborhoods, energy bill context for older Reading homes)
-- upper-darby-township.astro: added faqItems array (6 local-specific Q&A including PA law compliance, rowhouse privacy context, 69th Street corridor security references)
+- reading.astro: added faqItems array (6 local-specific Q&A including UT law compliance, Wyomissing/Shillington neighborhoods, energy bill context for older Reading homes)
+- provo.astro: added faqItems array (6 local-specific Q&A including UT law compliance, rowhouse privacy context, 69th Street corridor security references)
 
 **Remaining gap (59 pages):** The other resource pages with FAQ accordion HTML
 (warranty, commercial-guide, maintenance, window-film-pricing) each have local-specific
@@ -375,7 +375,7 @@ Also consider adding `Blog` schema to blog.astro (the listing page).
 - Numbered alternating rows (01, 02, 03) on benefits.astro — good for step/list extraction
 - FAQ accordion format — LLM-friendly Q&A structure
 - Pricing ranges in city pages ("From $6.50/sq ft") — specific enough to quote
-- Local-specific facts: Camden crime rate (43.71/1000), NJ automotive VLT law (35%), PA no-VLT-restriction — these are high-value citation claims because they're specific and verifiable
+- Local-specific facts: Sandy crime rate (43.71/1000), UT automotive VLT law (35%), UT no-VLT-restriction — these are high-value citation claims because they're specific and verifiable
 
 **Weak patterns:**
 - process.astro is short (3 BackAndForthSections, ~60 lines of body copy).
@@ -392,16 +392,16 @@ Also consider adding `Blog` schema to blog.astro (the listing page).
 
 The following content on the site is specific enough to be cited by an LLM:
 
-**Camden page:**
+**Sandy page:**
 - "crime rate of 43.71 per 1,000 residents" — highly specific, local data point
 - "NJ requires front side windows at 35% VLT or higher" — specific legal reference
-- "Same-week availability in the Camden area" — specific service claim
+- "Same-week availability in the Sandy area" — specific service claim
 
 **Reading page:**
 - "Wyomissing, Shillington, and older Penn Avenue neighborhoods" — specific local names
 - "paying for itself within 2–3 years through energy savings" — specific ROI claim
 
-**Upper Darby page:**
+**Provo page:**
 - "69th Street corridor" — specific local reference
 - "Drexel Hill, Havertown" — neighborhood names
 - "ground-floor rowhouse windows facing alleys" — specific use case description
@@ -437,7 +437,7 @@ density even when body copy is sparse.
 ### 4.3 Keyword targeting — Pass
 
 Page titles are geo-targeted and specific:
-- "Window Film Camden NJ | Window Film Contractor Camden" — good geo + service
+- "Window Film Sandy UT | Window Film Contractor Sandy" — good geo + service
 - "Window Film Contractor Salt Lake City PA" — clean
 - "Window Film Installation Process | Window Film Salt Lake City" — intent明确的
 
@@ -478,8 +478,8 @@ Google's truncation window.
 
 **Specificity signals:**
 - Local neighborhood names (Wyomissing, Shillington, Drexel Hill, 69th Street corridor)
-- Legal specificity (NJ 35% VLT, PA no restrictions)
-- Camden crime statistics
+- Legal specificity (NJ 35% VLT, UT no restrictions)
+- Sandy crime statistics
 
 **Missing trust signals:**
 - No license/insurance numbers mentioned in schema or body
@@ -526,7 +526,7 @@ is publicly accessible.
 
 **Recommended queries to test post-launch:**
 - "best window film company salt-lake-city"
-- "how much is window film in Camden NJ"
+- "how much is window film in Sandy NJ"
 - "window film installation process"
 - "is window film legal in Utah"
 - "security film for schools Salt Lake City"
@@ -546,7 +546,7 @@ All changes are source-file modifications. Build confirmed passing (0 errors).
 | src/components/Footer.astro | Replaced placeholder `#` social links with real profile URLs |
 | src/pages/process.astro | Added HowTo schema via BaseLayout howToSteps; added Service schema |
 | src/pages/cities/reading.astro | Added faqItems (6 Q&A) + Service schema |
-| src/pages/cities/upper-darby-township.astro | Added faqItems (6 Q&A) + Service schema |
+| src/pages/cities/provo.astro | Added faqItems (6 Q&A) + Service schema |
 
 **Total files changed: 7**
 

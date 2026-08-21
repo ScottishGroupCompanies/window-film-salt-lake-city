@@ -14,7 +14,7 @@ const { product } = Astro.props;
 const relatedProducts = products.filter((p) => product.relatedSlugs.includes(p.slug)).slice(0, 3);
 
 const title = `${product.name} | Solyx ${product.series}`;
-const description = `${product.shortDescription} Authorized Solyx installer serving Salt Lake City, Center City, and the surrounding region.`.slice(0, 155);
+const description = `${product.shortDescription} Authorized Solyx installer serving Salt Lake City, Downtown Salt Lake City, and the surrounding region.`.slice(0, 155);
 const canonical = `https://windowfilmsaltlakecity.com/products/solyx/${product.slug}/`;
 
 const faqItems = [
@@ -24,7 +24,7 @@ const faqItems = [
   },
   {
     question: `Where is ${product.name} film used in Salt Lake City?`,
-    answer: product.description.split('\n\n')[1]?.replace(/<[^>]+>/g, '') || `${product.name} is used in Salt Lake City offices, retail storefronts, healthcare facilities, and residential properties throughout Center City and surrounding neighborhoods.`
+    answer: product.description.split('\n\n')[1]?.replace(/<[^>]+>/g, '') || `${product.name} is used in Salt Lake City offices, retail storefronts, healthcare facilities, and residential properties throughout Downtown Salt Lake City and surrounding neighborhoods.`
   },
   {
     question: `How is ${product.name} film installed in Salt Lake City?`,

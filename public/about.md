@@ -1,6 +1,6 @@
 # About Window Film Salt Lake City
 
-Window Film Salt Lake City is the Delaware Valley office of Scottish Window Tinting, a national window film company founded by Martin Faith in 2008.
+Window Film Salt Lake City is the Wasatch Front office of Scottish Window Tinting, a national window film company founded by Martin Faith in 2008.
 
 ## Our Story
 
@@ -18,7 +18,7 @@ In 2008, Martin installed energy-efficient window film on his own home and watch
 - **2,400+** projects completed
 - **1.2 million+** square feet of film installed
 - **4.9-star** rating from Salt Lake City property owners
-- **Since 2008** serving the Delaware Valley
+- **Since 2008** serving the Wasatch Front
 
 ## Leadership
 

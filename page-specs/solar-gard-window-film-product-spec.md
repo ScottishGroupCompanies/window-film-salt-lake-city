@@ -24,7 +24,7 @@
 
 ## Slider Topics
 - **Slide 1 (Residential):** Salt Lake City rowhomes — Solar Gard low-reflectance options for historic neighborhoods, HOA compliance, year-round comfort
-- **Slide 2 (Commercial):** Center City offices + healthcare — Panorama Series for energy performance, neutral aesthetics, NFRC compliance
+- **Slide 2 (Commercial):** Downtown Salt Lake City offices + healthcare — Panorama Series for energy performance, neutral aesthetics, NFRC compliance
 
 ## Comparison Table Brands
 Solar Gard Panorama + 3M Prestige + LLumar ATC + Vista SpectraSelect + Solar Gard ArmorCoat (safety)
@@ -51,11 +51,11 @@ Solar Gard or Eastman manufacturer language, or NFRC/IWFA. Format: `"[text]," ac
 - Zone 4A — Salt Lake City climate
 
 ## Testimonials (6 reviewers)
-1. Thomas E. — Property Manager, Center City Class A tower (Panorama energy savings)
-2. Karen P. — Hospital Administrator, University City (Sentinel Plus healthcare)
+1. Thomas E. — Property Manager, Downtown Salt Lake City Class A tower (Panorama energy savings)
+2. Karen P. — Hospital Administrator, University District (Sentinel Plus healthcare)
 3. William B. — School Facilities Director, Northeast Salt Lake City (ArmorCoat safety)
-4. Nicole A. — Interior Designer, Rittenhouse Square (Panorama neutral aesthetics)
-5. Christopher V. — Restaurant Owner, Passyunk Ave (Hilite glare control)
+4. Nicole A. — Interior Designer, Federal Heights (Panorama neutral aesthetics)
+5. Christopher V. — Restaurant Owner, 9th and 9th Ave (Hilite glare control)
 6. The Nguyens — Homeowners, South Salt Lake City (residential solar comfort)
 
 ## Tint Slider Film Labels (left → right: clear → dark)

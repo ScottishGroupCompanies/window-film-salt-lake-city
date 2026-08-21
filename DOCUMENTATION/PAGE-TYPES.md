@@ -198,7 +198,7 @@ import InnerPageHero from '../../components/InnerPageHero.astro';
 
 ## Type 5: City Page (Template)
 
-**Archivo (template):** `src/pages/cities/camden.astro`
+**Archivo (template):** `src/pages/cities/sandy.astro`
 **Ruta:** `/cities/[slug]/`
 
 ### Estructura
@@ -231,8 +231,8 @@ import InnerPageHero from '../../components/InnerPageHero.astro';
 
 ### Cómo copiar el template para una nueva ciudad
 
-1. Copiar `camden.astro` → `nueva-ciudad.astro`
-2. Buscar/replace todos los textos específicos de Camden
+1. Copiar `sandy.astro` → `nueva-ciudad.astro`
+2. Buscar/replace todos los textos específicos de Sandy
 3. Cambiar hero image
 4. Cambiar sidebar city links
 5. Ajustar map embed
@@ -242,21 +242,21 @@ import InnerPageHero from '../../components/InnerPageHero.astro';
 
 ```html
 <!-- El link activo usa la clase: -->
-<a href="/cities/camden/" class="ip-city-link ip-city-link--active">Camden NJ</a>
+<a href="/cities/sandy/" class="ip-city-link ip-city-link--active">Sandy NJ</a>
 ```
 
 Ciudades disponibles:
-- Salt Lake City PA → `/cities/salt-lake-city/`
-- Camden NJ → `/cities/camden/`
-- Reading PA → `/cities/reading/`
-- Upper Darby PA → `/cities/upper-darby-township/`
-- Cherry Hill NJ → `/contact/` (sin página propia)
-- Voorhees NJ → `/contact/`
-- Haddonfield NJ → `/contact/`
-- Collingswood NJ → `/contact/`
-- Pennsauken NJ → `/contact/`
-- Marlton NJ → `/contact/`
-- Maple Shade NJ → `/contact/`
+- Salt Lake City UT → `/cities/salt-lake-city/`
+- Sandy UT → `/cities/sandy/`
+- Ogden UT → `/cities/reading/`
+- Provo UT → `/cities/provo/`
+- West Valley City UT → `/contact/` (sin página propia)
+- Murray UT → `/contact/`
+- Bountiful UT → `/contact/`
+- Midvale UT → `/contact/`
+- Taylorsville UT → `/contact/`
+- Lehi UT → `/contact/`
+- Orem UT → `/contact/`
 
 ---
 
@@ -334,7 +334,7 @@ Ciudades disponibles:
 | Servicio principal (UV, Security, etc.) | Service Page (`uv-protection-film.astro`) |
 | Índice de beneficios | Benefits Index (`benefits.astro`) |
 | Sub-página de beneficio | Benefits Sub-Page (BAF + InnerPageHero) |
-| Ciudad (Salt Lake City, Reading, etc.) | City Page (`camden.astro`) |
+| Ciudad (Salt Lake City, Reading, etc.) | City Page (`sandy.astro`) |
 | Producto (3M, Llumar, etc.) | Product Page (por crear) |
 | Aplicación (Office, Retail, etc.) | Application Page (por crear) |
 | Recurso (FAQ, Pricing, etc.) | Resource Page (por crear) |

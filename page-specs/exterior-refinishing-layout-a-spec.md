@@ -94,8 +94,8 @@ Source: LLumar or IWFA commercial context — will use IWFA general quote about 
 4. Energy + Aesthetic Combined Film — dual benefit solar control + visual upgrade
 
 ## wwd Panels (4)
-1. Office Towers — Center City curtain wall modernization
-2. Retail Storefronts — South Street/Old City storefront glass restoration
+1. Office Towers — Downtown Salt Lake City curtain wall modernization
+2. Retail Storefronts — South Street/The Avenues storefront glass restoration
 3. Hotels & Hospitality — boutique hotel facade updates
 4. High-Rise Residential — condo building exterior glass refinishing
 

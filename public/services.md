@@ -1,6 +1,6 @@
 # Window Film Services in Salt Lake City
 
-Window Film Salt Lake City offers professional window film installation for residential, commercial, and government properties across the Delaware Valley.
+Window Film Salt Lake City offers professional window film installation for residential, commercial, and government properties across the Wasatch Front.
 
 ## Residential Window Film
 

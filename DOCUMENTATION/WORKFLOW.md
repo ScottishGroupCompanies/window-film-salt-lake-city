@@ -45,16 +45,16 @@ Cómo rediseñar una página desde cero. Paso a paso.
    └── git add + commit + push
 ```
 
-### 🟡 City Pages (copiar de Camden template)
+### 🟡 City Pages (copiar de Sandy template)
 
 ```
-1. Copiar camden.astro → nueva-ciudad.astro
+1. Copiar sandy.astro → nueva-ciudad.astro
 
 2. Buscar/reemplazar:
-   Camden → [Nueva Ciudad]
-   camden → [nueva-ciudad]
-   NJ → [Estado]
-   /cities/camden/ → /cities/nueva-ciudad/
+   Sandy → [Nueva Ciudad]
+   sandy → [nueva-ciudad]
+   UT → [Estado]
+   /cities/sandy/ → /cities/nueva-ciudad/
 
 3. Cambiar hero image
 

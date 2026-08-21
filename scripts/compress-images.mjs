@@ -17,12 +17,12 @@ const IMAGES_DIR = new URL('../public/images/', import.meta.url).pathname;
 
 // Hero images that need tighter 1600px cap + slightly higher quality
 const HERO_PATTERNS = [
-  'wfp-landing-hero', 'wfp-camden-hero-bg', 'wfp-expert-installation',
+  'wfp-landing-hero', 'wfp-sandy-hero-bg', 'wfp-expert-installation',
   'wfp-premium-films', 'wfp-footer-bg', 'wfp-office-hero', 'wfp-retail-hero',
   'wfp-hotel-hero', 'wfp-restaurant-hero', 'wfp-church-hero', 'wfp-government-hero',
   'wfp-museums-library-hero', 'wfp-schools-universities-hero', 'wfp-airport-hero',
-  'bp-stats-home-large', 'bp-stats-home-card', 'wfp-bp-stats', 'wfp-camden-window-film-service',
-  'commercial-window-film-upper-darby', 'commercial-window-film-camden',
+  'bp-stats-home-large', 'bp-stats-home-card', 'wfp-bp-stats', 'wfp-sandy-window-film-service',
+  'commercial-window-film-provo', 'commercial-window-film-sandy',
 ];
 
 function isHero(filename) {

@@ -17,14 +17,14 @@
 - **H1:** `LLumar Window Film for Salt Lake City` (≤60 chars, not identical to title)
 
 ## Product Lines (4 rows)
-1. **LLumar ATC Series** — Spectrally selective solar control, non-metallic, ideal for Center City offices. Rejects up to 74% solar energy, 99% UV block, high VLT options.
+1. **LLumar ATC Series** — Spectrally selective solar control, non-metallic, ideal for Downtown Salt Lake City offices. Rejects up to 74% solar energy, 99% UV block, high VLT options.
 2. **LLumar Low-E Series** — Year-round low-emissivity film for Salt Lake City rowhomes. Winter insulation + summer solar control. Near-clear appearance (74%+ VLT).
 3. **LLumar Safety & Security Series** — Fragment retention and forced entry delay, 4–8 mil, for retail and commercial properties.
 4. **LLumar Reflective Privacy Series** — Daytime privacy, solar control, multiple reflectance levels for offices, restaurants, and residences.
 
 ## Slider Topics
 - **Slide 1 (Residential):** Salt Lake City rowhomes — single-pane glass, aging stock, LLumar Low-E for winter + summer performance
-- **Slide 2 (Commercial):** Center City offices — south/west solar load, ATC Series for energy savings + glare control
+- **Slide 2 (Commercial):** Downtown Salt Lake City offices — south/west solar load, ATC Series for energy savings + glare control
 
 ## Comparison Table Brands
 LLumar ATC + 3M Prestige + Vista SpectraSelect + Solar Gard Panorama + Madico CoolVu
@@ -52,12 +52,12 @@ Use IWFA or LLumar manufacturer language. Format: `"[text]," according to [Sourc
 - Zone 4A — Salt Lake City climate
 
 ## Testimonials (6 reviewers — Salt Lake City-specific)
-1. Jennifer M. — Property Manager, Center City Office Tower (ATC solar control)
-2. David S. — Facilities Director, University City Campus (energy + glare)
-3. Sarah K. — Homeowner, Germantown (Low-E winter savings)
-4. Marcus T. — Retail Owner, Old City (safety film, smash-and-grab)
+1. Jennifer M. — Property Manager, Downtown Salt Lake City Office Tower (ATC solar control)
+2. David S. — Facilities Director, University District Campus (energy + glare)
+3. Sarah K. — Homeowner, Holladay (Low-E winter savings)
+4. Marcus T. — Retail Owner, The Avenues (safety film, smash-and-grab)
 5. Rachel W. — Sustainability Manager, Market Street (LEED + solar)
-6. Robert H. — Hotel GM, Center City (hospitality + privacy)
+6. Robert H. — Hotel GM, Downtown Salt Lake City (hospitality + privacy)
 
 ## Tint Slider Film Labels (left → right: clear → dark)
 Clear → LLumar Low-E → LLumar ATC 70 → LLumar ATC 50 → LLumar ATC 35 → LLumar NR 20 → LLumar NR 10

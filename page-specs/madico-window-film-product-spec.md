@@ -54,7 +54,7 @@
 - **Brand family:** Solar Control (Madico Architectural)
 - **Category:** Commercial energy efficiency, LEED credit eligible
 - **Key specs:** Up to 86% solar heat rejection · 99% UV block · Reduces HVAC load · Available in reflective and neutral finishes · 10–15 year commercial warranty
-- **Best for:** Center City offices, university buildings, government facilities, retail storefronts
+- **Best for:** Downtown Salt Lake City offices, university buildings, government facilities, retail storefronts
 - **Image filename:** `madico-solar-control-window-film-salt-lake-city.jpg` (848×1264 portrait)
 - **PDFs (3 links):**
   - `/resources/madico-solar-control-window-film-insulating-glass-compatibility-guide-salt-lake-city.pdf` → "IWFA Insulating Glass Guide"
@@ -77,7 +77,7 @@
 - **Brand family:** Clear (Madico Safety & Security)
 - **Category:** Ultra-heavy-duty clear security film
 - **Key specs:** 14 mil thickness · Crystal clear — no aesthetic change · DOWSIL™ 995 Silicone Structural Sealant compatible · Anchored glazing systems · 24/7 passive protection · Extremely difficult to penetrate
-- **Best for:** Government buildings, schools (K–12), museums, transit hubs, Old City Salt Lake City historic buildings
+- **Best for:** Government buildings, schools (K–12), museums, transit hubs, The Avenues Salt Lake City historic buildings
 - **Image filename:** `madico-clear-safety-film-salt-lake-city.jpg` (848×1264 portrait)
 - **PDFs (3 links):**
   - `/resources/school-window-film-madico-clear-14mil-texas-school-district-case-study-salt-lake-city.pdf` → "Clear 14 Mil School District Case Study"
@@ -102,11 +102,11 @@
 | Slide | Topic | Image (2752×1536) |
 |---|---|---|
 | Residential | Madico Sunscape in Salt Lake City rowhomes — glare control, UV protection, comfort year-round | `madico-window-film-salt-lake-city-residential.jpg` |
-| Commercial | Madico SafetyShield + Solar Control in Salt Lake City Center City offices and government buildings | `madico-window-film-salt-lake-city-commercial.jpg` |
+| Commercial | Madico SafetyShield + Solar Control in Salt Lake City Downtown Salt Lake City offices and government buildings | `madico-window-film-salt-lake-city-commercial.jpg` |
 
 **Slider H2 titles (≤40 chars each):**
 - Residential: `Sunscape for Salt Lake City Rowhomes` (35 chars) ✅
-- Commercial: `Commercial Film for Center City` (31 chars) ✅
+- Commercial: `Commercial Film for Downtown Salt Lake City` (31 chars) ✅
 
 ---
 
@@ -178,12 +178,12 @@ All testimonials must mention Madico products by name. Square 1024×1024 images.
 
 | # | Name | Role | Quote (must be in page) | Image filename |
 |---|---|---|---|---|
-| 1 | Marcus T. | Property Manager, Center City | "Madico Sunscape film took care of the glare on our east-facing offices without making the space feel like a cave. The heat drop was noticeable the first week." | `madico-testimonial-marcus.jpg` |
-| 2 | Sarah W. | Homeowner, Fishtown | "Our Fishtown rowhome used to be unbearable in July. The Madico Sunscape film changed that completely — we barely run the AC now." | `madico-testimonial-sarah.jpg` |
+| 1 | Marcus T. | Property Manager, Downtown Salt Lake City | "Madico Sunscape film took care of the glare on our east-facing offices without making the space feel like a cave. The heat drop was noticeable the first week." | `madico-testimonial-marcus.jpg` |
+| 2 | Sarah W. | Homeowner, Sugar House | "Our Sugar House rowhome used to be unbearable in July. The Madico Sunscape film changed that completely — we barely run the AC now." | `madico-testimonial-sarah.jpg` |
 | 3 | Dr. James K. | Principal, Salt Lake City School | "We installed Madico SafetyShield in every classroom. Parents feel better knowing the glass is reinforced. I sleep better too." | `madico-testimonial-james.jpg` |
-| 4 | Elena V. | Restaurant Owner, Old City | "The Madico decorative film on our front windows gives us the privacy we needed without losing the natural light. Looks polished." | `madico-testimonial-elena.jpg` |
-| 5 | Tom R. | Facilities Director, University City | "Madico's solar control film cut our building's cooling costs by a measurable amount. Facilities departments in Salt Lake City should know about this." | `madico-testimonial-tom.jpg` |
-| 6 | Lena B. | Retail Owner, Rittenhouse | "We put Madico safety film on our storefront glass after a break-in attempt on the block. It's peace of mind we didn't know we needed." | `madico-testimonial-lena.jpg` |
+| 4 | Elena V. | Restaurant Owner, The Avenues | "The Madico decorative film on our front windows gives us the privacy we needed without losing the natural light. Looks polished." | `madico-testimonial-elena.jpg` |
+| 5 | Tom R. | Facilities Director, University District | "Madico's solar control film cut our building's cooling costs by a measurable amount. Facilities departments in Salt Lake City should know about this." | `madico-testimonial-tom.jpg` |
+| 6 | Lena B. | Retail Owner, Federal Heights | "We put Madico safety film on our storefront glass after a break-in attempt on the block. It's peace of mind we didn't know we needed." | `madico-testimonial-lena.jpg` |
 
 ---
 
@@ -206,7 +206,7 @@ All answers: never say "no we can't," no install time estimates, no per-sq-ft pr
 
 ## GEO Block Requirements
 
-**Neighborhoods (≥4):** Center City · Fishtown · Old City · Rittenhouse Square · University City · Navy Yard
+**Neighborhoods (≥4):** Downtown Salt Lake City · Sugar House · The Avenues · Federal Heights · University District · Navy Yard
 **Building types (≥2):** rowhomes, commercial office buildings, schools, government facilities, retail storefronts
 **Product lines (≥3):** Sunscape Series · SafetyShield · Clear Safety Film · Solar Control · Decorative Film
 

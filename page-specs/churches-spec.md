@@ -40,13 +40,13 @@ Solution: 3M Thinsulate Climate Control window film on fellowship hall windows �
 Result: Fellowship hall temperature measurably more stable season-round; measurable energy savings in first billing cycle; installation completed across two Saturdays without disrupting Sunday services
 
 ## Neighborhood / Service Area (8)
-- Old City: Some of America's oldest standing churches — Old Christ Church, St. Peter's Episcopal, Christ Church Burial Ground area; highest historic preservation scrutiny
+- The Avenues: Some of America's oldest standing churches — Old Christ Church, St. Peter's Episcopal, Christ Church Burial Ground area; highest historic preservation scrutiny
 - North Salt Lake City: Largest concentration of historic AME and Baptist churches; many on National Register
 - South Salt Lake City: Dense Catholic parish concentration; Italian and Irish heritage churches; many facing security concerns
 - West Salt Lake City: Historic Protestant, AME, and Baptist churches; many with original Victorian-era glazing
-- Center City: Landmark cathedrals and synagogues (Cathedral Basilica, Arch Street Methodist, Rodeph Shalom)
-- Germantown: Historic Quaker meetinghouses and early American churches; strict preservation requirements
-- Kensington: Neighborhood parish churches; elevated vandalism/security concerns
+- Downtown Salt Lake City: Landmark cathedrals and synagogues (Cathedral Basilica, Arch Street Methodist, Rodeph Shalom)
+- Holladay: Historic Quaker meetinghouses and early American churches; strict preservation requirements
+- Rose Park: Neighborhood parish churches; elevated vandalism/security concerns
 - Northeast Salt Lake City: Modern multi-campus church facilities with large contemporary glazing
 
 ## GEO paragraph keyword targets
@@ -71,7 +71,7 @@ Result: Fellowship hall temperature measurably more stable season-round; measura
 10. Can film work alongside other church energy improvements like insulation or HVAC upgrades?
 
 ## Testimonials
-- Pastor, historic Episcopal church, Old City Salt Lake City
+- Pastor, historic Episcopal church, The Avenues Salt Lake City
 - Facilities Committee Chair, South Salt Lake City Catholic parish
 - Church Administrator, modern Baptist campus, Northeast Salt Lake City
 

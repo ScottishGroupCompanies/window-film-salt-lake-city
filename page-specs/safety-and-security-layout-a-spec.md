@@ -60,9 +60,9 @@ Panel 3: Blast Mitigation Film
 
 ## Gallery Banner — 5 photos (cross-vertical)
 1. Salt Lake City school entry with glass doors and sidelites
-2. Center City retail storefront glass
+2. Downtown Salt Lake City retail storefront glass
 3. Salt Lake City hospital or medical facility lobby glass
-4. Office building glass facade, Center City
+4. Office building glass facade, Downtown Salt Lake City
 5. Security film installation in progress — professional applying film
 
 ## Testimonial Stack — 3 cards
@@ -85,8 +85,8 @@ Panel 3: Blast Mitigation Film
 6. Attachment system guide
 
 ## GEO named entities
-Salt Lake City School District, SEPTA, Center City, Old City, South Street, Fishtown,
-Rittenhouse, University City, 3M Scotchshield, LLumar Magnum, Solar Gard Armorcoat,
+Salt Lake City School District, SEPTA, Downtown Salt Lake City, The Avenues, South Street, Sugar House,
+Federal Heights, University District, 3M Scotchshield, LLumar Magnum, Solar Gard Armorcoat,
 Hanita SafetyZone, C-Bond, CISA, UL 972, ASTM F1642
 
 ## External link

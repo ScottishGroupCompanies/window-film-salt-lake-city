@@ -126,7 +126,7 @@ on each page (it contains the geo/service keyword combination).
 
 **Pages fixed (25 total):**
 - benefits.astro, cities.astro, resources.astro, applications.astro, products.astro
-- cities/camden.astro, cities/salt-lake-city.astro, cities/reading.astro, cities/upper-darby-township.astro
+- cities/sandy.astro, cities/salt-lake-city.astro, cities/reading.astro, cities/provo.astro
 - benefits/safety-and-security.astro, benefits/energy-savings.astro, benefits/anti-graffiti.astro
 - benefits/privacy-window-film-salt-lake-city.astro, benefits/glare-reduction.astro
 - benefits/ballistic-resistance.astro, benefits/bird-strike-prevention.astro
@@ -199,15 +199,15 @@ Top 10 largest images that are actively used on the site:
 
 | File | Size | Used on |
 |------|------|---------|
-| commercial-window-film-upper-darby-township.png | 7.7MB | Upper Darby city page |
-| commercial-window-film-camden.png | 7.7MB | Camden city page |
+| commercial-window-film-provo.png | 7.7MB | Provo city page |
+| commercial-window-film-sandy.png | 7.7MB | Sandy city page |
 | window-tinting-resources-salt-lake-city.png | 5.6MB | Resources pages |
-| window-film-upper-darby-township.png | 4.7MB | Upper Darby pages |
-| window-film-camden-home.png | 4.7MB | Camden pages |
+| window-film-provo.png | 4.7MB | Provo pages |
+| window-film-sandy-home.png | 4.7MB | Sandy pages |
 | wfp-schools-universities-hero.jpg | 4.0MB | Schools application page |
 | wfp-hotel-hero.jpg | 3.3MB | Hotel application page |
-| wfp-camden-window-film-service.jpg | 3.0MB | Camden page |
-| wfp-camden-hero-bg.jpg | 2.9MB | Camden hero |
+| wfp-sandy-window-film-service.jpg | 3.0MB | Sandy page |
+| wfp-sandy-hero-bg.jpg | 2.9MB | Sandy hero |
 | wfp-landing-hero.jpg | 2.8MB | Homepage hero (LCP element) |
 
 **Target:** Hero images <200KB after WebP conversion at 1400px wide.
@@ -217,7 +217,7 @@ average connection speed, similar to the windowfilmchicago.com audit result of
 
 **Priority order:**
 1. wfp-landing-hero.jpg — homepage hero, highest-traffic, LCP element
-2. wfp-camden-hero-bg.jpg, wfp-camden-window-film-service.jpg — main city page
+2. wfp-sandy-hero-bg.jpg, wfp-sandy-window-film-service.jpg — main city page
 3. The two 7.7MB PNGs — should never be PNG, convert immediately
 
 ---
@@ -352,11 +352,11 @@ Film Solutions" is ~65-74 chars — consistently over the limit.
 |------|-------------------|-------------------|
 | benefits.astro | Benefits \| WFP \| Leading Window Film Solutions (67) | Window Film Benefits Salt Lake City \| Energy, Security & More (59) |
 | blog.astro | Blog \| WFP \| Window Film Tips & Resources (62) | Window Film Blog \| Tips & Guides \| Window Film Salt Lake City (59) |
-| cities.astro | Cities We Serve \| WFP \| Leading Window Film Solutions (74) | Window Film Service Areas \| Salt Lake City Metro \| PA & NJ (56) |
+| cities.astro | Cities We Serve \| WFP \| Leading Window Film Solutions (74) | Window Film Service Areas \| Salt Lake City Metro \| UT & UT (56) |
 | contact.astro | Contact \| WFP \| Leading Window Film Solutions (66) | Contact Window Film Salt Lake City \| Free Estimate (48) |
 | process.astro | Process \| WFP \| Leading Window Film Solutions (66) | Window Film Installation Process \| Window Film Salt Lake City (59) |
 | resources.astro | Resources \| WFP \| Leading Window Film Solutions (68) | Window Film Resources \| Guides, Pricing & FAQs \| WFP (52) |
-| applications.astro | Applications \| WFP \| Leading Window Film Solutions (71) | Window Film Applications \| Salt Lake City PA \| All Properties (59) |
+| applications.astro | Applications \| WFP \| Leading Window Film Solutions (71) | Window Film Applications \| Salt Lake City UT \| All Properties (59) |
 | products.astro | Products \| WFP \| Leading Window Film Solutions (67) | Window Film Brands \| 3M, LLumar, Vista & More \| Salt Lake City (60) |
 | government-buildings.astro | Government Buildings \| WFP \| Leading Window Film (69) | Government Building Window Film \| Salt Lake City Contractor (57) |
 
@@ -365,14 +365,14 @@ Film Solutions" is ~65-74 chars — consistently over the limit.
 ### 5.2 Meta title review — city and benefit pages — Pass (mostly)
 
 City page titles are well-formed and within length:
-- "Window Film Camden NJ \| Window Film Contractor Camden" — 53 chars ✓
-- "Window Film Salt Lake City PA \| Window Film Contractor Salt Lake City" — 65 chars (slightly over — consider trimming)
-- "Window Film Reading, PA \| Window Film Contractor Reading" — 56 chars ✓
-- "Window Film Upper Darby Township PA \| Window Film Contractor Upper Darby" — 73 chars (HIGH — should trim)
+- "Window Film Sandy UT \| Window Film Contractor Sandy" — 53 chars ✓
+- "Window Film Salt Lake City UT \| Window Film Contractor Salt Lake City" — 65 chars (slightly over — consider trimming)
+- "Window Film Ogden, UT \| Window Film Contractor Reading" — 56 chars ✓
+- "Window Film Provo UT \| Window Film Contractor Provo" — 73 chars (HIGH — should trim)
 
 **Pending fix for 2 city pages:**
-- salt-lake-city.astro: trim to "Window Film Contractor Salt Lake City PA | WFP" (44 chars)
-- upper-darby-township.astro: trim to "Window Film Upper Darby Township PA | Contractor" (48 chars)
+- salt-lake-city.astro: trim to "Window Film Contractor Salt Lake City UT | WFP" (44 chars)
+- provo.astro: trim to "Window Film Provo UT | Contractor" (48 chars)
 
 ---
 
@@ -432,7 +432,7 @@ no keyword value, can dilute site quality signals).
 ### 6.4 Structured data — HIGH (Not fixed this session)
 
 **Finding:** No JSON-LD structured data exists anywhere on the site. For a local
-service business (window film contractor, Salt Lake City PA + surrounding cities)
+service business (window film contractor, Salt Lake City UT + surrounding cities)
 this is a significant missed opportunity.
 
 **Recommended schema types by page:**
@@ -464,7 +464,7 @@ Add a LocalBusiness JSON-LD block to BaseLayout.astro or SEOHead.astro:
     "addressRegion": "UT",
     "addressCountry": "US"
   },
-  "areaServed": ["Salt Lake City PA", "Camden NJ", "Reading PA", "Upper Darby PA"],
+  "areaServed": ["Salt Lake City PA", "Sandy NJ", "Ogden UT", "Provo PA"],
   "sameAs": []
 }
 ```
@@ -553,10 +553,10 @@ Build confirmed passing (0 errors) after all changes.
 | src/pages/contact.astro | Fixed meta title |
 | src/pages/process.astro | Fixed meta title |
 | src/pages/government-buildings.astro | Fixed meta title |
-| src/pages/cities/camden.astro | Demoted body h1 → h2 |
+| src/pages/cities/sandy.astro | Demoted body h1 → h2 |
 | src/pages/cities/salt-lake-city.astro | Demoted body h1 → h2 |
 | src/pages/cities/reading.astro | Demoted body h1 → h2 |
-| src/pages/cities/upper-darby-township.astro | Demoted body h1 → h2 |
+| src/pages/cities/provo.astro | Demoted body h1 → h2 |
 | src/pages/benefits/safety-and-security.astro | Demoted body h1 → h2 |
 | src/pages/benefits/energy-savings.astro | Demoted body h1 → h2 |
 | src/pages/benefits/anti-graffiti.astro | Demoted body h1 → h2 |
@@ -585,7 +585,7 @@ Build confirmed passing (0 errors) after all changes.
    resources/warranty.astro and resources/architects-builders.astro.
 
 2. **City page title trimming** — salt-lake-city.astro (65 chars) and
-   upper-darby-township.astro (73 chars) still need title shortening.
+   provo.astro (73 chars) still need title shortening.
 
 3. **Add /blog/, /cities/, /government-buildings/ to Header navigation** —
    these pages are completely orphaned from the nav structure.
@@ -636,12 +636,12 @@ Key size reductions (before → after):
 | Image | Before | After | Reduction |
 |-------|--------|-------|-----------|
 | wfp-landing-hero.jpg | 2.8MB | 195KB | 93% |
-| wfp-camden-hero-bg.jpg | 2.9MB | 203KB | 93% |
+| wfp-sandy-hero-bg.jpg | 2.9MB | 203KB | 93% |
 | wfp-hotel-hero.jpg | 3.3MB | 190KB | 94% |
 | wfp-footer-bg-commercial-window-film.jpg | 2.4MB | 182KB | 92% |
 | wfp-schools-universities-hero.jpg | 4.0MB | 493KB | 88% |
-| commercial-window-film-camden.png | 7.7MB | 387KB | 95% |
-| commercial-window-film-upper-darby-township.png | 7.7MB | 387KB | 95% |
+| commercial-window-film-sandy.png | 7.7MB | 387KB | 95% |
+| commercial-window-film-provo.png | 7.7MB | 387KB | 95% |
 | Average across all 540 images | — | — | 58% |
 
 Note: Original .jpg/.png files retained in public/images/ as fallbacks.
@@ -657,7 +657,7 @@ browsers represent < 1% of traffic and Vercel's CDN will serve the correct forma
 |------|--------|
 | src/components/SchemaOrg.astro | CREATED — renders schema array as ld+json script tags |
 | src/layouts/BaseLayout.astro | Added SchemaOrg component; LocalBusiness schema on every page; added faqItems, serviceName, serviceDesc, serviceUrl props |
-| src/pages/cities/camden.astro | Added faqItems (6 Q&A) + FAQPage schema |
+| src/pages/cities/sandy.astro | Added faqItems (6 Q&A) + FAQPage schema |
 | src/pages/cities/salt-lake-city.astro | Added faqItems (6 Q&A) + FAQPage schema |
 | src/pages/benefits.astro | Added faqItems (6 Q&A) + FAQPage schema |
 | src/pages/benefits/safety-and-security.astro | Added faqItems (6 Q&A) + FAQPage schema + Service schema |
@@ -693,6 +693,6 @@ Verified in dist/:
 - 0 render-blocking Google Fonts stylesheet requests
 - 6 woff2 font files in dist/_assets/
 - LocalBusiness JSON-LD in every page <head>
-- FAQPage schema on camden, salt-lake-city, benefits, safety, energy-savings, applications
+- FAQPage schema on sandy, salt-lake-city, benefits, safety, energy-savings, applications
 - All image src attributes referencing .webp files
 - Sitemap contains 62 URLs (thank-you excluded)

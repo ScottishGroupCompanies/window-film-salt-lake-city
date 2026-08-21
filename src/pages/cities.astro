@@ -5,55 +5,55 @@ import BrandLogos from '../components/BrandLogos.astro';
 import CTAAvatars from '../components/CTAAvatars.astro';
 import CoveragePinMap from '../components/CoveragePinMap.astro';
 
-const title = 'Window Film Service Areas | Salt Lake City Metro | PA & NJ';
-const description = 'Window Film Salt Lake City serves Salt Lake City, Reading, Upper Darby, and Camden. Leading residential and commercial window film in PA & NJ.';
+const title = 'Window Film Service Areas | Salt Lake City Metro | UT & NJ';
+const description = 'Window Film Salt Lake City serves Salt Lake City, Ogden, Provo, and Sandy. Leading residential and commercial window film in UT & NJ.';
 
 const cities = [
   {
     label: 'Salt Lake City',
     state: 'PA',
-    desc: 'Our home base and primary service area. We serve residential and commercial properties across all neighborhoods — from Center City high-rises and Fishtown rowhouses to South Salt Lake retail and Manayunk homes.',
+    desc: 'Our home base and primary service area. We serve residential and commercial properties across all neighborhoods — from Downtown Salt Lake City high-rises and Sugar House rowhouses to South Salt Lake retail and Millcreek homes.',
     img: '/images/wfp-cities-salt-lake-city.jpg',
     alt: 'Window film Salt Lake City Utah',
     href: '/cities/salt-lake-city/',
   },
   {
-    label: 'Camden',
+    label: 'Sandy',
     state: 'NJ',
-    desc: 'Serving residential and commercial properties throughout Camden County — including Cherry Hill, Voorhees, Collingswood, Haddonfield, Pennsauken, and surrounding South Jersey communities.',
-    img: '/images/wfp-cities-camden.jpg',
-    alt: 'Window film Camden New Jersey',
-    href: '/cities/camden/',
+    desc: 'Serving residential and commercial properties throughout Sandy County — including West Valley City, Murray, Midvale, Bountiful, Taylorsville, and surrounding Salt Lake Valley communities.',
+    img: '/images/wfp-cities-sandy.jpg',
+    alt: 'Window film Sandy Utah',
+    href: '/cities/sandy/',
   },
   {
     label: 'Reading',
     state: 'PA',
-    desc: 'Professional window film installation for Berks County homes, office parks, and commercial buildings throughout the greater Reading metro area — including Wyomissing and Muhlenberg Township.',
+    desc: 'Professional window film installation for Weber County homes, office parks, and commercial buildings throughout the greater Ogden metro area — including South Ogden and North Ogden.',
     img: '/images/wfp-cities-reading.jpg',
     alt: 'Window film Reading Utah',
-    href: '/cities/reading/',
+    href: '/cities/ogden/',
   },
   {
-    label: 'Upper Darby Township',
+    label: 'Provo',
     state: 'PA',
-    desc: 'Serving Delaware County residential and commercial properties in Upper Darby, Drexel Hill, Lansdowne, and neighboring communities throughout the western Salt Lake City suburbs.',
-    img: '/images/wfp-cities-upper-darby.jpg',
-    alt: 'Window film Upper Darby Township Utah',
-    href: '/cities/upper-darby-township/',
+    desc: 'Serving Salt Lake County residential and commercial properties in Provo, Orem, Springville, and neighboring Utah County communities.',
+    img: '/images/wfp-cities-provo.jpg',
+    alt: 'Window film Provo Utah',
+    href: '/cities/provo/',
   },
 ];
 
 const alsoServing = [
-  { label: 'Cherry Hill, NJ',    href: '/contact/' },
-  { label: 'Voorhees, NJ',       href: '/contact/' },
-  { label: 'Haddonfield, NJ',    href: '/contact/' },
-  { label: 'Collingswood, NJ',   href: '/contact/' },
-  { label: 'Pennsauken, NJ',     href: '/contact/' },
-  { label: 'Marlton, NJ',        href: '/contact/' },
-  { label: 'Maple Shade, NJ',    href: '/contact/' },
-  { label: 'Wilmington, DE',     href: '/contact/' },
-  { label: 'Chester, PA',        href: '/contact/' },
-  { label: 'Norristown, PA',     href: '/contact/' },
+  { label: 'West Valley City, UT',    href: '/contact/' },
+  { label: 'Murray, UT',       href: '/contact/' },
+  { label: 'Bountiful, UT',    href: '/contact/' },
+  { label: 'Midvale, UT',   href: '/contact/' },
+  { label: 'Taylorsville, UT',     href: '/contact/' },
+  { label: 'Lehi, UT',        href: '/contact/' },
+  { label: 'Orem, UT',    href: '/contact/' },
+  { label: 'Layton, UT',     href: '/contact/' },
+  { label: 'Draper, UT',        href: '/contact/' },
+  { label: 'West Jordan, UT',     href: '/contact/' },
 ];
 ---
 
@@ -62,7 +62,7 @@ const alsoServing = [
 <HeroSubpage
   eyebrow="Service Areas"
   title="Cities We Serve"
-  subtitle="Professional window film across the Salt Lake City metropolitan area — Utah and New Jersey."
+  subtitle="Professional window film across the Salt Lake City metropolitan area and the Wasatch Front."
   bg="/images/wfp-cities-hero.jpg"
   cta1={{ label: 'Get a Free Quote', href: '/contact/' }}
   cta2={{ label: 'See Our Services', href: '/services/' }}
@@ -77,10 +77,10 @@ const alsoServing = [
   <div class="cp-intro__inner">
     <div class="cp-intro__left">
       <span class="cp-eyebrow">Service Area</span>
-      <h2 class="cp-intro__title">Window film installation across the Delaware Valley.</h2>
+      <h2 class="cp-intro__title">Window film installation across the Wasatch Front.</h2>
     </div>
     <div class="cp-intro__right">
-      <p class="cp-intro__lead">Window Film Salt Lake City is the trusted window film contractor across Utah and New Jersey. With local crews based in the Salt Lake City area, we offer prompt scheduling, on-site estimates, and professional installation across the region. Select your city below to learn more about our services in your area.</p>
+      <p class="cp-intro__lead">Window Film Salt Lake City is the trusted window film contractor across Utah and Utah. With local crews based in the Salt Lake City area, we offer prompt scheduling, on-site estimates, and professional installation across the region. Select your city below to learn more about our services in your area.</p>
       <div class="cp-intro__ctas">
         <a href="/contact/" class="cp-btn cp-btn--primary">Get a Free Quote</a>
         <a href="/applications/" class="cp-btn cp-btn--ghost">Our Applications</a>
@@ -119,7 +119,7 @@ const alsoServing = [
      ══════════════════════════════════════ -->
 <CoveragePinMap
   title="Don't see your city?"
-  subtitle="We travel throughout the Salt Lake City metropolitan area and regularly serve communities across South Jersey, Delaware County, and Chester County. Contact us to discuss your project."
+  subtitle="We travel throughout the Salt Lake City metropolitan area and regularly serve communities across Salt Lake Valley, Salt Lake County, and Summit County. Contact us to discuss your project."
 />
 
 <!-- ══════════════════════════════════════

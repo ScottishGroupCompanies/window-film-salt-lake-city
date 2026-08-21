@@ -1,6 +1,6 @@
 # Competitive Analysis — Window Film Salt Lake City
 **Site:** windowfilmsaltlakecity.com (Astro v4 SSG)
-**Market:** Salt Lake City PA + Camden NJ, Reading PA, Upper Darby PA
+**Market:** Salt Lake City UT + Sandy NJ, Ogden UT, Provo PA
 **Audit date:** 2026-05-27
 **Prior audits:** 01-technical-seo, 02-geo, 03-onpage-content, 04-keyword-ranking
 **Crawler:** Live site fetch via browser + web tooling
@@ -25,7 +25,7 @@ this time. Removed from all analysis tables.
 ### FLAG 2 — suncontrolofpa.com: GEOGRAPHY MISMATCH
 Phone area code: (717) — York/Lancaster/Harrisburg PA.
 NOT Salt Lake City (215/267/445). Location pages list York PA, Lancaster PA,
-and Harrisburg PA — all 80-150 miles from Salt Lake City.
+and Harrisburg UT — all 80-150 miles from Salt Lake City.
 Site appears to be targeting Utah broadly and ranking for
 Salt Lake City queries through keyword density, not genuine local presence.
 Additionally, address listings on its /locations/ page are classic
@@ -128,7 +128,7 @@ These are the single strongest trust differentiators available.
 
 ### GAP 4 — HIGH: No FAQ Sections on Service Pages
 
-WFP has a Camden city page FAQ. No competitor has FAQ sections on any
+WFP has a Sandy city page FAQ. No competitor has FAQ sections on any
 service page. Adding FAQs to /residential/ and /commercial/ pages
 targets "how to" and "does window film..." queries and enables FAQ
 rich results in Google.
@@ -139,14 +139,14 @@ rich results in Google.
 | windowtintingsalt-lake-city.com   | No                  |
 | philafilm.com                   | YES — 4 FAQs on residential + commercial pages |
 | suncontrolofpa.com              | No                  |
-| windowfilmsaltlakecity.com (WFP)| On Camden city page only; not on service pages |
+| windowfilmsaltlakecity.com (WFP)| On Sandy city page only; not on service pages |
 
 philafilm.com is the one exception — 4-question FAQs appear on both
 residential and commercial pages. WFP already has FAQ infrastructure
-(accordion component, Camden pattern). This is a quick content win.
+(accordion component, Sandy pattern). This is a quick content win.
 
 ACTION: Add 5-6 FAQ items to the new /residential/ and /commercial/
-pages using the accordion pattern already built for Camden.
+pages using the accordion pattern already built for Sandy.
 
 ---
 
@@ -180,10 +180,10 @@ Salt Lake City," "Best window film for Salt Lake City row homes,"
 ### GAP 6 — MEDIUM: No Neighborhood-Level Location Pages
 
 windowtintingsalt-lake-city.com has built 13 Salt Lake City neighborhood
-pages (South Salt Lake, Fishtown, Rittenhouse Square, Old City, etc.)
-plus 4 county pages and 2 NJ cities = 19 total geo pages.
+pages (South Salt Lake, Sugar House, Federal Heights, The Avenues, etc.)
+plus 4 county pages and 2 UT cities = 19 total geo pages.
 lloydwindowfilm.com has 6 metro-area location pages.
-WFP has 4 city pages (Salt Lake City, Camden, Reading, Upper Darby).
+WFP has 4 city pages (Salt Lake City, Sandy, Reading, Provo).
 
 The neighborhood page gap is significant for capturing "window film
 [neighborhood]" queries. WFP's existing city pages are higher-quality
@@ -196,19 +196,19 @@ WFP geo page comparison vs lloydwindowfilm.com (the real competitor):
 | WFP City Pages                  | Lloyd Location Pages        |
 |---------------------------------|-----------------------------|
 | /cities/salt-lake-city/           | /salt-lake-city-pa/           |
-| /cities/camden/                 | /south-jersey/              |
+| /cities/sandy/                 | /south-jersey/              |
 | /cities/reading/                | /bucks-county-pa/           |
-| /cities/upper-darby-township/   | /montgomery-county-pa/      |
+| /cities/provo/   | /montgomery-county-pa/      |
 | (none)                          | /delaware-county-pa/        |
 | (none)                          | /chester-county-pa/         |
 
-WFP's individual city pages are substantially richer (Camden page alone
+WFP's individual city pages are substantially richer (Sandy page alone
 has testimonial carousel, sidebar, FAQ, process section, film options
 grid). Lloyd's location pages appear to be thinner (~400-500 words, no FAQ).
 But Lloyd covers 6 service areas vs WFP's 4, and WFP is missing
-Delaware County and Chester County entirely.
+Salt Lake County and Summit County entirely.
 
-ACTION: Add Delaware County PA and Cherry Hill NJ as new city pages
+ACTION: Add Salt Lake County UT and West Valley City UT as new city pages
 (both are already listed in the Cities We Serve sidebar as "/contact/"
 placeholders). Medium priority — after /residential/ and /commercial/.
 
@@ -292,7 +292,7 @@ inquiries. Monitor chat volume before investing in paid platforms.
 | /residential/ page            | NO              | YES             | YES                      | YES            | YES            |
 | /commercial/ page             | NO              | YES             | YES                      | YES            | YES            |
 | City / location pages         | 4               | 6               | 19                       | 0              | 3 (wrong city) |
-| FAQ on service pages          | Camden only     | No              | No                       | YES (res+comm) | No             |
+| FAQ on service pages          | Sandy only     | No              | No                       | YES (res+comm) | No             |
 | Blog                          | Not built       | No              | No                       | 3 posts        | 0 posts        |
 | Social media (real profiles)  | Unknown         | Facebook        | NONE                     | NONE (broken)  | NONE (broken)  |
 | Before/after gallery          | No              | No              | No                       | No             | No             |
@@ -383,8 +383,8 @@ landing pages (residential and commercial).
    conversion driver.
 
 6. NEIGHBORHOOD-LEVEL CONTENT (for Salt Lake City) — 13 neighborhood pages
-   at windowtintingsalt-lake-city.com are thin templates. WFP's Camden page
-   level of depth applied to Fishtown, Old City, Center City, etc. would
+   at windowtintingsalt-lake-city.com are thin templates. WFP's Sandy page
+   level of depth applied to Sugar House, The Avenues, Downtown Salt Lake City, etc. would
    dominate the sub-city query space.
 
 7. REAL TEAM / ABOUT PAGE WITH NAMED STAFF — every competitor is completely
@@ -402,7 +402,7 @@ landing pages (residential and commercial).
 | lloydwindowfilm.com            | Lloyd Window Film | Salt Lake City Window Tinting & Film Installation | YES |
 | windowtintingsalt-lake-city.com  | Window Tinting Salt Lake City | #1 Rated Tint Shop | Free Quotes | YES |
 | philafilm.com                  | Salt Lake City Window Film | Residential & Commercial Window Tinting | YES |
-| suncontrolofpa.com             | Window Tinting & Film Services | Sun Control of PA | NO (PA, not Salt Lake City) |
+| suncontrolofpa.com             | Window Tinting & Film Services | Sun Control of UT | NO (PA, not Salt Lake City) |
 
 All Salt Lake City-market sites include "Salt Lake City" in the title. WFP's
 title is solid. suncontrolofpa.com notably does NOT include "Salt Lake City"
@@ -430,7 +430,7 @@ wtp.com lead with branding claims ("Premier," "#1") rather than the keyword.
 | lloydwindowfilm.com            | "Lloyd Window Film provides professional window film installation in Salt Lake City, UT..." |
 | windowtintingsalt-lake-city.com  | "Window tinting Salt Lake City offering residential and commercial window film services. Call now for a free quote (267) 223-4192" |
 | philafilm.com                  | "Salt Lake City Window Film provides professional window film installation services..." |
-| suncontrolofpa.com             | "Sun Control of PA provides professional window tinting and film services for residential, commercial, and automotive applications throughout Utah." |
+| suncontrolofpa.com             | "Sun Control of UT provides professional window tinting and film services for residential, commercial, and automotive applications throughout Utah." |
 
 Notable: windowtintingsalt-lake-city.com includes the phone number IN the
 meta description. This makes the number visible in the SERP snippet — a
@@ -472,8 +472,8 @@ Opportunities no competitor is currently exploiting:
 4. BEFORE/AFTER GALLERY — all competitors use stock/generic imagery
 5. ENERGY SAVINGS CALCULATOR — no competitor offers any interactive tool
 6. SALT LAKE CITY NEIGHBORHOOD PAGES — wtp.com has 13 thin ones; rich
-   versions would dominate (Fishtown, Old City, Center City, Northern
-   Liberties, Manayunk, Chestnut Hill all viable)
+   versions would dominate (Sugar House, The Avenues, Downtown Salt Lake City, Northern
+   Liberties, Millcreek, Chestnut Hill all viable)
 7. NAMED TEAM + OWNER STORY — zero competitors show real people.
    A real About page with an owner bio is an immediate authenticity
    separator from the template sites.
@@ -554,14 +554,14 @@ FINDINGS ONLY. No changes without explicit approval.
 
 ### Short-Term (first 30 days post-launch)
 
-6. Add Google reviews widget to homepage and Camden city page.
+6. Add Google reviews widget to homepage and Sandy city page.
    (Use a real Google Places API widget, not a static badge.)
 
 7. Add FAQs to the new /residential/ and /commercial/ pages — 5-6 questions
-   each using the Camden accordion pattern.
+   each using the Sandy accordion pattern.
 
-8. Retro-apply FAQs to the Salt Lake City, Reading, and Upper Darby city pages
-   (Camden already has FAQs — others do not).
+8. Retro-apply FAQs to the Salt Lake City, Reading, and Provo city pages
+   (Sandy already has FAQs — others do not).
 
 9. Add 3M + LLumar + Vista certification badges to the Header.astro trust bar
    or the homepage hero section trust strip — above the fold. Currently only
@@ -579,15 +579,15 @@ FINDINGS ONLY. No changes without explicit approval.
     - "Commercial window film Salt Lake City — energy savings data"
     - "Privacy film for Salt Lake City offices — laws and options"
 
-12. Add Delaware County PA and Cherry Hill NJ as full city pages using
-    the Camden template. Both are already listed as "/contact/" placeholders
+12. Add Salt Lake County UT and West Valley City UT as full city pages using
+    the Sandy template. Both are already listed as "/contact/" placeholders
     in the Cities We Serve sidebar.
 
 13. Build a before/after gallery page or homepage section with real project
     photos. No competitor has one.
 
 14. Evaluate Salt Lake City neighborhood pages: if commercial expansion is a
-    priority, Center City, Old City, and University City neighborhood pages
+    priority, Downtown Salt Lake City, The Avenues, and University District neighborhood pages
     targeting commercial queries would generate near-zero competitive overlap.
 
 ### Ongoing

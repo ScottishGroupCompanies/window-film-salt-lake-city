@@ -23,7 +23,7 @@
 | Página | Ruta | Estado | Notas |
 |---|---|---|---|
 | Services Index | `/services/` | ✅ Completo | Hero parallax, bento grid, glassmorphism Why Modern |
-| UV Protection Film | `/services/uv-protection-film/` | ✅ Completo | FlipWords, proof wall, areas con South Jersey |
+| UV Protection Film | `/services/uv-protection-film/` | ✅ Completo | FlipWords, proof wall, areas con Salt Lake Valley |
 
 ---
 
@@ -54,10 +54,10 @@
 | Página | Ruta | Estado | Notas |
 |---|---|---|---|
 | Cities Index | `/cities/` | ✅ Completo | — |
-| Camden | `/cities/camden/` | ✅ Template | Template completo — todo lo demás copia esto |
-| Salt Lake City | `/cities/salt-lake-city/` | 🟡 Copiar de Camden | Hero + sticky sidebar pendientes |
-| Reading | `/cities/reading/` | 🟡 Copiar de Camden | Hero + sticky sidebar pendientes |
-| Upper Darby | `/cities/upper-darby-township/` | 🟡 Copiar de Camden | Hero + sticky sidebar pendientes |
+| Sandy | `/cities/sandy/` | ✅ Template | Template completo — todo lo demás copia esto |
+| Salt Lake City | `/cities/salt-lake-city/` | 🟡 Copiar de Sandy | Hero + sticky sidebar pendientes |
+| Reading | `/cities/reading/` | 🟡 Copiar de Sandy | Hero + sticky sidebar pendientes |
+| Provo | `/cities/provo/` | 🟡 Copiar de Sandy | Hero + sticky sidebar pendientes |
 
 ---
 
@@ -130,9 +130,9 @@
 ## Prioridades de trabajo
 
 ### Inmediato (esta semana)
-1. 🟡 Salt Lake City city page — copiar estructura de Camden
-2. 🟡 Reading city page — copiar estructura de Camden
-3. 🟡 Upper Darby city page — copiar estructura de Camden
+1. 🟡 Salt Lake City city page — copiar estructura de Sandy
+2. 🟡 Reading city page — copiar estructura de Sandy
+3. 🟡 Provo city page — copiar estructura de Sandy
 
 ### Corto plazo
 4. 🔴 Applications Index — template BAF

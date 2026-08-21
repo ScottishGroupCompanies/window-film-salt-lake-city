@@ -31,18 +31,18 @@ Salt Lake City's Benjamin Franklin Parkway hosts one of the highest concentratio
 6. Decorative & Wayfinding Film — exhibit transitions and glass partitions
 
 ## Case Study
-Location: University City, Salt Lake City — university research library
+Location: University District, Salt Lake City — university research library
 Challenge: South-facing reading room with intense afternoon glare preventing use of study areas; faculty complaints about UV risk to rare book collection housed near windows; energy costs elevated by uncontrolled solar heat gain
 Solution: 3M Prestige 70 solar control on south-facing reading room glass; LLumar UV conservation film on rare book room windows; glare reduction maintained natural light character
 Result: Reading room reclaimed as usable study space all afternoon; UV exposure at rare book room windows reduced to AIC-compliant levels; measurable cooling load reduction
 
 ## Neighborhood / Service Area (8)
 - Museum District (Benjamin Franklin Pkwy): World-class museum concentration — most demanding UV/preservation requirements
-- Old City: Independence Seaport Museum, historical society archives, 18th-century building stock
-- University City: Penn Museum, Penn Libraries, Drexel, Temple University libraries with research collections
+- The Avenues: Independence Seaport Museum, historical society archives, 18th-century building stock
+- University District: Penn Museum, Penn Libraries, Drexel, Temple University libraries with research collections
 - North Salt Lake City: Free Library branches in dense residential areas — aging single-pane windows common
-- Fishtown/Kensington: Emerging arts spaces, neighborhood branch libraries
-- Germantown: Historic museum buildings (Germantown Historical Society), older branch libraries
+- Sugar House/Rose Park: Emerging arts spaces, neighborhood branch libraries
+- Holladay: Historic museum buildings (Holladay Historical Society), older branch libraries
 - South Salt Lake City: Neighborhood branch libraries serving high-traffic communities
 - Northeast Salt Lake City: Large modern branch libraries — suburban-style glazing with significant solar exposure
 

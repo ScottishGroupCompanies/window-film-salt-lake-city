@@ -10,82 +10,82 @@ import ScrollReveal from '../../components/animations/ScrollReveal.astro';
 import InnerPageHero from '../../components/InnerPageHero.astro';
 import CategoryBlogFeed from '../../components/CategoryBlogFeed.astro';
 
-const title = 'Window Film Salt Lake City PA | Window Film Contractor PA';
+const title = 'Window Film Salt Lake City UT | Window Film Contractor PA';
 const description = 'Window film installation in Salt Lake City, UT — solar control, security, privacy, and decorative film. Free estimates, certified installers.';
 
 const filmBenefits = [
   {
     number: '01',
     title: 'Energy Savings',
-    detail: `<p>Salt Lake City's dense brick rowhouse neighborhoods trap summer heat, pushing indoor temperatures well past 90°F on west-facing floors. Solar control film blocks up to <strong>78% of solar heat</strong> before it enters your space. South Salt Lake and Fishtown rowhouses with west-facing glass can see interior temperature drops of 10–15°F on peak summer days.</p><ul><li>Reduces HVAC run time and cooling costs across Center City high-rises and rowhomes alike</li><li>Most Salt Lake City homeowners see measurable bill reductions within the first summer</li><li>Low-E film also cuts winter heating loss through glass — year-round savings for the city's older building stock</li></ul>`,
+    detail: `<p>Salt Lake City's dense brick rowhouse neighborhoods trap summer heat, pushing indoor temperatures well past 90°F on west-facing floors. Solar control film blocks up to <strong>78% of solar heat</strong> before it enters your space. South Salt Lake and Sugar House rowhouses with west-facing glass can see interior temperature drops of 10–15°F on peak summer days.</p><ul><li>Reduces HVAC run time and cooling costs across Downtown Salt Lake City high-rises and rowhomes alike</li><li>Most Salt Lake City homeowners see measurable bill reductions within the first summer</li><li>Low-E film also cuts winter heating loss through glass — year-round savings for the city's older building stock</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-energy.jpg',
-    imageAlt: 'Energy-saving window film in a Salt Lake City PA rowhouse living room — natural light filtered, cooler interior',
+    imageAlt: 'Energy-saving window film in a Salt Lake City UT rowhouse living room — natural light filtered, cooler interior',
   },
   {
     number: '02',
     title: 'UV Protection',
-    detail: `<p>Schuylkill and Delaware river humidity combined with intense summer sun accelerates UV damage to flooring, furniture, and artwork throughout Salt Lake City. UV film blocks <strong>99% of UV-A and UV-B rays</strong> — the primary cause of fading in hardwood floors, rugs, drapes, and upholstery.</p><ul><li>Critical for healthcare facilities like Penn Medicine and Jefferson Health buildings</li><li>Optically clear — no visible tint, no impact on natural light or views</li><li>Reduces fading by up to 60% compared to unprotected glass</li></ul>`,
+    detail: `<p>High-altitude sun — among the most intense UV exposure in the country — accelerates UV damage to flooring, furniture, and artwork throughout Salt Lake City. UV film blocks <strong>99% of UV-A and UV-B rays</strong> — the primary cause of fading in hardwood floors, rugs, drapes, and upholstery.</p><ul><li>Critical for healthcare facilities like University of Utah Health and Intermountain Health buildings</li><li>Optically clear — no visible tint, no impact on natural light or views</li><li>Reduces fading by up to 60% compared to unprotected glass</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-uv.jpg',
     imageAlt: 'UV-blocking window film protecting a Salt Lake City home interior from sun damage and fading',
   },
   {
     number: '03',
     title: 'Privacy Film',
-    detail: `<p>Salt Lake City's dense rowhouse layout puts homes and ground-floor offices in close view of pedestrians and neighboring properties across Center City, South Salt Lake, and Northern Liberties. Privacy film solves this <strong>without sacrificing natural light</strong>.</p><ul><li>Rittenhouse Square condo buildings benefit from one-way reflective film that preserves skyline views</li><li>Frosted film for healthcare exam rooms, legal offices along Market Street, and conference rooms</li><li>Available in clear frosted, custom patterns, gradient, and branded designs — all fully removable</li></ul>`,
+    detail: `<p>Salt Lake City's dense rowhouse layout puts homes and ground-floor offices in close view of pedestrians and neighboring properties across Downtown Salt Lake City, South Salt Lake, and Marmalade District. Privacy film solves this <strong>without sacrificing natural light</strong>.</p><ul><li>Federal Heights condo buildings benefit from one-way reflective film that preserves skyline views</li><li>Frosted film for healthcare exam rooms, legal offices along Market Street, and conference rooms</li><li>Available in clear frosted, custom patterns, gradient, and branded designs — all fully removable</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-privacy.jpg',
-    imageAlt: 'Frosted privacy window film on a conference room partition in a Salt Lake City PA office',
+    imageAlt: 'Frosted privacy window film on a conference room partition in a Salt Lake City UT office',
   },
   {
     number: '04',
     title: 'Safety & Security',
-    detail: `<p>Salt Lake City's property crime rate makes smash-and-grab a real risk for businesses across the city, from Center City retail corridors to neighborhood storefronts. Security film <strong>holds glass together on impact</strong>, significantly slowing forced entry.</p><ul><li>Prevents glass from shattering into shards during break-ins, accidents, or severe weather</li><li>Government and institutional facilities use security film to meet ANSI and GSA glass safety standards</li><li>Bomb blast mitigation configurations available for federal-standard secured facilities</li></ul>`,
+    detail: `<p>Salt Lake City's property crime rate makes smash-and-grab a real risk for businesses across the city, from Downtown Salt Lake City retail corridors to neighborhood storefronts. Security film <strong>holds glass together on impact</strong>, significantly slowing forced entry.</p><ul><li>Prevents glass from shattering into shards during break-ins, accidents, or severe weather</li><li>Government and institutional facilities use security film to meet ANSI and GSA glass safety standards</li><li>Bomb blast mitigation configurations available for federal-standard secured facilities</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-safety.jpg',
-    imageAlt: 'Secure commercial building entrance in Salt Lake City PA with safety and security window film on glass doors',
+    imageAlt: 'Secure commercial building entrance in Salt Lake City UT with safety and security window film on glass doors',
   },
   {
     number: '05',
     title: 'Anti-Graffiti',
-    detail: `<p>Salt Lake City's commercial corridors — from South Street to Broad Street to Frankford Avenue — see recurring glass etching and acid graffiti. Anti-graffiti film acts as a <strong>sacrificial layer</strong> — when tagged or etched, you replace the film, not the expensive glass panel.</p><ul><li>Each replacement costs a fraction of glass replacement</li><li>Most business owners recoup the initial film cost within 1–2 incidents prevented</li><li>Available in clear or lightly tinted versions — invisible protection</li></ul>`,
+    detail: `<p>Salt Lake City's commercial corridors — from South Street to State Street to Frankford Avenue — see recurring glass etching and acid graffiti. Anti-graffiti film acts as a <strong>sacrificial layer</strong> — when tagged or etched, you replace the film, not the expensive glass panel.</p><ul><li>Each replacement costs a fraction of glass replacement</li><li>Most business owners recoup the initial film cost within 1–2 incidents prevented</li><li>Available in clear or lightly tinted versions — invisible protection</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-graffiti.jpg',
     imageAlt: 'Clean commercial storefront glass in Salt Lake City protected by anti-graffiti window film',
   },
   {
     number: '06',
     title: 'Glare Reduction',
-    detail: `<p>East- and west-facing rowhouse windows in Fishtown, Graduate Hospital, and Point Breeze create peak glare during morning and afternoon work hours. Glare reduction film filters up to <strong>85% of glare-causing visible light</strong> while preserving natural daylight.</p><ul><li>Center City conference rooms and open offices benefit immediately — screens and monitors become fully visible</li><li>Compatible with all glass types, including single-pane windows common in Salt Lake City's older building stock</li></ul>`,
+    detail: `<p>East- and west-facing rowhouse windows in Sugar House, Graduate Hospital, and Point Breeze create peak glare during morning and afternoon work hours. Glare reduction film filters up to <strong>85% of glare-causing visible light</strong> while preserving natural daylight.</p><ul><li>Downtown Salt Lake City conference rooms and open offices benefit immediately — screens and monitors become fully visible</li><li>Compatible with all glass types, including single-pane windows common in Salt Lake City's older building stock</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-glare.jpg',
-    imageAlt: 'Salt Lake City PA office worker at computer desk near window with no screen glare after window film installation',
+    imageAlt: 'Salt Lake City UT office worker at computer desk near window with no screen glare after window film installation',
   },
   {
     number: '07',
     title: 'Decorative Film',
-    detail: `<p>Salt Lake City's booming restaurant, coworking, and hospitality scenes have created demand for decorative glass design across the city. Frosted, patterned, and gradient films create an <strong>etched-glass appearance at a fraction of the cost</strong>.</p><ul><li>Branded window graphics for Salt Lake City businesses — logos, signage, and custom patterns</li><li>Ideal for healthcare waiting rooms in University City, law firm lobbies along Market Street, and school libraries</li><li>Fully removable without permanent modification to the glass</li></ul>`,
+    detail: `<p>Salt Lake City's booming restaurant, coworking, and hospitality scenes have created demand for decorative glass design across the city. Frosted, patterned, and gradient films create an <strong>etched-glass appearance at a fraction of the cost</strong>.</p><ul><li>Branded window graphics for Salt Lake City businesses — logos, signage, and custom patterns</li><li>Ideal for healthcare waiting rooms in University District, law firm lobbies along Market Street, and school libraries</li><li>Fully removable without permanent modification to the glass</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-decorative.jpg',
-    imageAlt: 'Decorative frosted glass pattern on a partition wall in a Salt Lake City PA office or lobby',
+    imageAlt: 'Decorative frosted glass pattern on a partition wall in a Salt Lake City UT office or lobby',
   },
   {
     number: '08',
     title: 'Solar Control',
-    detail: `<p>Solar control film is the broadest-purpose film we install in Salt Lake City — addressing heat gain, glare, and UV in a single application for homes, offices, retail, and institutional properties.</p><ul><li>Spectrally selective options preserve natural light and views while rejecting significant solar heat — ideal for Center City glass towers</li><li>Ceramic films contain no metal — safe for buildings with Wi-Fi, cellular, and sensitive electronic equipment</li><li>NFRC-rated films available with documented VLT, SHGC, and TSER specs for LEED and energy code compliance</li></ul>`,
+    detail: `<p>Solar control film is the broadest-purpose film we install in Salt Lake City — addressing heat gain, glare, and UV in a single application for homes, offices, retail, and institutional properties.</p><ul><li>Spectrally selective options preserve natural light and views while rejecting significant solar heat — ideal for Downtown Salt Lake City glass towers</li><li>Ceramic films contain no metal — safe for buildings with Wi-Fi, cellular, and sensitive electronic equipment</li><li>NFRC-rated films available with documented VLT, SHGC, and TSER specs for LEED and energy code compliance</li></ul>`,
     image: '/images/window-film-salt-lake-city-pa-film-solar.jpg',
     imageAlt: 'Solar control window film on a modern Salt Lake City commercial office building exterior',
   },
 ];
 
 const faqItems = [
-  { question: 'Can I install window film on my Salt Lake City rowhouse without a permit?', answer: 'Yes — Utah does not require permits for architectural window film on residential or commercial properties. If your home is in a Salt Lake City historic district (Society Hill, Old City, Germantown) or covered by an HOA, check for reflectivity restrictions in your district guidelines. We carry non-reflective and ceramic films that satisfy most historic preservation requirements, and we can help you navigate the approval process.' },
-  { question: 'What does window film cost for a typical Salt Lake City home?', answer: 'Every property is different — a South Salt Lake trinity with 8 windows has very different requirements than a Rittenhouse Square condo with floor-to-ceiling glass. Film type, glass area, accessibility, and number of panes all factor in. Rather than guess, we come to your property, measure the glass, assess sun exposure, and provide a written estimate at no cost. No pressure, no charge.' },
-  { question: 'How do you handle installations in Center City high-rise buildings?', answer: 'High-rise work requires coordination with building management, loading dock access, and sometimes after-hours scheduling. We have experience with Center City office towers and residential buildings — we handle logistics, protect flooring and furnishings, and work within building rules. During your consultation we assess access, glass type (curtain wall vs. operable windows), and any building-specific requirements.' },
+  { question: 'Can I install window film on my Salt Lake City rowhouse without a permit?', answer: 'Yes — Utah does not require permits for architectural window film on residential or commercial properties. If your home is in a Salt Lake City historic district (Capitol Hill, The Avenues, Holladay) or covered by an HOA, check for reflectivity restrictions in your district guidelines. We carry non-reflective and ceramic films that satisfy most historic preservation requirements, and we can help you navigate the approval process.' },
+  { question: 'What does window film cost for a typical Salt Lake City home?', answer: 'Every property is different — a South Salt Lake trinity with 8 windows has very different requirements than a Federal Heights condo with floor-to-ceiling glass. Film type, glass area, accessibility, and number of panes all factor in. Rather than guess, we come to your property, measure the glass, assess sun exposure, and provide a written estimate at no cost. No pressure, no charge.' },
+  { question: 'How do you handle installations in Downtown Salt Lake City high-rise buildings?', answer: 'High-rise work requires coordination with building management, loading dock access, and sometimes after-hours scheduling. We have experience with Downtown Salt Lake City office towers and residential buildings — we handle logistics, protect flooring and furnishings, and work within building rules. During your consultation we assess access, glass type (curtain wall vs. operable windows), and any building-specific requirements.' },
   { question: 'Which film brands do you install and what warranties do they carry?', answer: 'We install 3M, LLumar, Vista, Solar Gard, Huper Optik, Madico, and Solyx — all with manufacturer warranties covering peeling, bubbling, delamination, and color shift. Coverage periods range from 10 years to lifetime depending on the product line and whether the installation is residential or commercial. We walk you through the specific warranty for your chosen film before we start.' },
-  { question: 'Will solar control film actually make a difference in Salt Lake City\'s summer heat?', answer: 'Salt Lake City regularly hits 87-93°F in July with 65-70% humidity, and brick rowhouse construction amplifies that. High-performance solar control film blocks up to 85% of solar heat gain through glass — the DOE reports that windows account for 25-30% of a building\'s heating and cooling energy loss. Most Salt Lake City clients see cooling cost reductions of 20-30% in the first summer after installation.' },
+  { question: 'Will solar control film actually make a difference in Salt Lake City\'s summer heat?', answer: 'Salt Lake City regularly hits 95-100°F in July under high-altitude sun, and brick construction amplifies that. High-performance solar control film blocks up to 85% of solar heat gain through glass — the DOE reports that windows account for 25-30% of a building\'s heating and cooling energy loss. Most Salt Lake City clients see cooling cost reductions of 20-30% in the first summer after installation.' },
   { question: 'Does window film protect the original hardwood floors in older Salt Lake City homes?', answer: 'Yes — this is one of the most common reasons Salt Lake City homeowners call us. The city\'s housing stock is full of 19th and early 20th century homes with original old-growth pine and oak floors. UV film blocks 99% of UV-A and UV-B rays, which are the primary cause of fading. Clear UV-blocking film is invisible — you keep your natural light and views while protecting floors, artwork, and furniture.' },
-  { question: 'I\'m renting — can I still get window film installed?', answer: 'Absolutely. Window film is fully removable with heat and a mild adhesive solvent — no scratches, no residue, no permanent change to the glass. Many of our Salt Lake City clients are renters in Center City and University City apartments who want heat reduction or privacy without modifying the unit permanently. When you move out, the film can be professionally removed.' },
+  { question: 'I\'m renting — can I still get window film installed?', answer: 'Absolutely. Window film is fully removable with heat and a mild adhesive solvent — no scratches, no residue, no permanent change to the glass. Many of our Salt Lake City clients are renters in Downtown Salt Lake City and University District apartments who want heat reduction or privacy without modifying the unit permanently. When you move out, the film can be professionally removed.' },
   { question: 'Is window film worth it in Salt Lake City winters or only in summer?', answer: 'Both seasons. Solar control film handles summer heat gain, and low-emissivity (low-e) films also reflect interior heat back into the room during winter — the same principle as Low-E glass. Salt Lake City January temperatures regularly drop into the 20s°F. Combined summer and winter performance can cut total HVAC energy use by 5-15% across the year.' },
   { question: 'What\'s the right film for a street-facing rowhouse window in South Salt Lake?', answer: 'It depends on your goals. If afternoon sun is the problem, ceramic solar control film rejects heat without darkening the glass. If pedestrians can see directly into your living space, one-way reflective film gives daytime privacy while preserving your outward view. For bathroom or basement windows, frosted decorative film provides permanent privacy. Many South Salt Lake clients layer solar film on upper floors and privacy film on ground-floor street-facing windows.' },
-  { question: 'Do you install anti-graffiti film on storefronts along Frankford Avenue and South Street?', answer: 'Yes — anti-graffiti film is one of our most-requested commercial products in Salt Lake City\'s restaurant and retail corridors. It\'s a clear sacrificial layer: when glass gets scratched or tagged, we peel off the damaged film and apply a new sheet — a fraction of what glass replacement costs. South Street, Frankford Avenue, and Broad Street corridor merchants use it specifically because vandalism is a recurring expense.' },
+  { question: 'Do you install anti-graffiti film on storefronts along Frankford Avenue and South Street?', answer: 'Yes — anti-graffiti film is one of our most-requested commercial products in Salt Lake City\'s restaurant and retail corridors. It\'s a clear sacrificial layer: when glass gets scratched or tagged, we peel off the damaged film and apply a new sheet — a fraction of what glass replacement costs. South Street, Frankford Avenue, and State Street corridor merchants use it specifically because vandalism is a recurring expense.' },
   { question: 'Will window film crack my older Salt Lake City windows?', answer: 'No, when the correct film is matched to the glass type. Many Salt Lake City rowhouses have single-pane glass, which requires different film specs than double-pane insulated units. For sealed IGUs we use films rated to prevent thermal stress cracking. Our installers inspect the glass and verify compatibility before applying anything. Major glass manufacturers do not void warranties when an IGU-rated film is properly installed.' },
-  { question: 'Are there PECO or Utah rebates available for window film?', answer: 'The federal Inflation Reduction Act Section 25C tax credit covers qualifying energy-efficient window treatments up to $1,200 per year for eligible residential projects. PECO and other Utah utility programs sometimes offer commercial efficiency incentives. We recommend checking current program availability with your utility and consulting a tax professional to confirm eligibility based on your film specification and property type.' },
-  { question: 'Do you serve all of Salt Lake City County?', answer: 'Yes — from the Delaware River waterfront to the Schuylkill, from South Salt Lake to Chestnut Hill to Manayunk. We offer free on-site consultations anywhere in Salt Lake City County and throughout the Delaware Valley. We assess your windows, sun exposure, and goals, then provide a detailed written estimate at no charge.' },
+  { question: 'Are there Rocky Mountain Power or Utah rebates available for window film?', answer: 'The federal Inflation Reduction Act Section 25C tax credit covers qualifying energy-efficient window treatments up to $1,200 per year for eligible residential projects. Rocky Mountain Power and other Utah utility programs sometimes offer commercial efficiency incentives. We recommend checking current program availability with your utility and consulting a tax professional to confirm eligibility based on your film specification and property type.' },
+  { question: 'Do you serve all of Salt Lake City County?', answer: 'Yes — from the Great Salt Lake waterfront to the Jordan River, from South Salt Lake to Federal Heights to Millcreek. We offer free on-site consultations anywhere in Salt Lake City County and throughout the Wasatch Front. We assess your windows, sun exposure, and goals, then provide a detailed written estimate at no charge.' },
 ];
 
 const today = new Date().toISOString().slice(0, 10);
@@ -129,7 +129,7 @@ const pageSchemas = [
     <div class="ph-hero__label">WINDOW FILM INSTALLATION &middot; SALT LAKE CITY, UT</div>
     <div class="ph-hero__content">
       <h1 class="ph-hero__title">Window Film in Salt Lake City<br/>&mdash; Utah's Best</h1>
-      <p class="ph-hero__subtitle">Professional residential and commercial window film installation in Salt Lake City, UT and throughout the Delaware Valley. Window film for Salt Lake City homes and businesses — free estimates, certified installers, manufacturer warranties.</p>
+      <p class="ph-hero__subtitle">Professional residential and commercial window film installation in Salt Lake City, UT and throughout the Wasatch Front. Window film for Salt Lake City homes and businesses — free estimates, certified installers, manufacturer warranties.</p>
       <div class="ph-hero__buttons">
         <a href="/contact/" class="btn-hero btn-hero--primary">Get Your Free Estimate &rarr;</a>
         <a href="tel:+18018954681" class="btn-hero btn-hero--secondary">Call (801) 895-4681</a>
@@ -166,7 +166,7 @@ const pageSchemas = [
     <div class="ph-why__image-wrap">
       <img
         src="/images/window-film-salt-lake-city-pa-urban-heat.jpg"
-        alt="Salt Lake City skyline and rowhouse neighborhoods along the Schuylkill and Delaware Rivers — Salt Lake City's summer heat and humidity make window film essential" title="Salt Lake City skyline and rowhouse neighborhoods along the Schuylkill and Delaware Rivers — Salt Lake City's summer heat and humidity make window film essential"
+        alt="Salt Lake City skyline and rowhouse neighborhoods along the Jordan River and Great Salt Lakes — Salt Lake City's summer heat and intense UV make window film essential" title="Salt Lake City skyline and rowhouse neighborhoods along the Jordan River and Great Salt Lakes — Salt Lake City's summer heat and intense UV make window film essential"
         class="ph-why__image"
         loading="lazy"
       />
@@ -178,7 +178,7 @@ const pageSchemas = [
         <div class="ph-why__stat-divider"></div>
         <div class="ph-why__stat-item">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7CB342" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          <span>65-70% summer humidity</span>
+          <span>65-70% summer heat</span>
         </div>
       </div>
     </div>
@@ -189,11 +189,11 @@ const pageSchemas = [
         <span class="line-mask__line" aria-hidden="true"><span class="line-mask__inner" style="--i:0">Salt Lake City's Brick</span></span>
         <span class="line-mask__line" aria-hidden="true"><span class="line-mask__inner" style="--i:1">Rowhouse Heat Problem</span></span>
       </h2>
-      <p class="ph-why__intro">Salt Lake City's building stock — predominantly brick rowhouses built in the 19th and early 20th century — absorbs and retains solar heat far more efficiently than newer construction. July averages hit 87°F, but surface temperatures on south-facing brick facades in South Salt Lake and North Salt Lake City can climb 20° higher. The <a href="https://www.epa.gov/heatislands" target="_blank" rel="noopener noreferrer" style="color:#7CB342">EPA classifies Salt Lake City as an urban heat island</a>, meaning dense masonry and limited tree canopy trap heat long after sunset. Add in the Schuylkill and Delaware River humidity, and second-floor rooms with west-facing glass become routinely unbearable by mid-July. That's before considering the smash-and-grab risk that comes with any major city — security film accounts for nearly a third of our Salt Lake City installs.</p>
+      <p class="ph-why__intro">Salt Lake City's building stock — predominantly brick rowhouses built in the 19th and early 20th century — absorbs and retains solar heat far more efficiently than newer construction. July averages hit 87°F, but surface temperatures on south-facing brick facades in South Salt Lake and North Salt Lake City can climb 20° higher. The <a href="https://www.epa.gov/heatislands" target="_blank" rel="noopener noreferrer" style="color:#7CB342">EPA classifies Salt Lake City as an urban heat island</a>, meaning dense masonry and limited tree canopy trap heat long after sunset. Add in northern Utah's dramatic seasonal swings, and second-floor rooms with west-facing glass become routinely unbearable by mid-July. That's before considering the smash-and-grab risk that comes with any major city — security film accounts for nearly a third of our Salt Lake City installs.</p>
       <ul class="ph-why__bullets">
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Brick rowhouse construction across South Salt Lake, Fishtown, and Graduate Hospital means walls radiate stored heat into interior spaces well past sunset — solar control film cuts that gain by up to 78%
+          Brick rowhouse construction across South Salt Lake, Sugar House, and Graduate Hospital means walls radiate stored heat into interior spaces well past sunset — solar control film cuts that gain by up to 78%
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -201,24 +201,24 @@ const pageSchemas = [
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Center City and neighborhood commercial corridors see recurring storefront break-ins — security film that holds glass together on impact is one of the most cost-effective deterrents available
+          Downtown Salt Lake City and neighborhood commercial corridors see recurring storefront break-ins — security film that holds glass together on impact is one of the most cost-effective deterrents available
         </li>
       </ul>
       <div class="ph-why__climate-facts">
         <div class="ph-why__climate-item">
           <span class="ph-why__climate-num">87°F</span>
-          <span class="ph-why__climate-label"><a href="https://www.weather.gov/phi/" target="_blank" rel="noopener noreferrer" style="color:#7CB342">NWS Salt Lake City — avg July high</a></span>
+          <span class="ph-why__climate-label"><a href="https://www.weather.gov/slc/" target="_blank" rel="noopener noreferrer" style="color:#7CB342">NWS Salt Lake City — avg July high</a></span>
         </div>
         <div class="ph-why__climate-item">
-          <span class="ph-why__climate-num">20%</span>
-          <span class="ph-why__climate-label">Citywide tree canopy coverage (below 30% target)</span>
+          <span class="ph-why__climate-num">10+</span>
+          <span class="ph-why__climate-label">Peak summer UV index — very high exposure</span>
         </div>
         <div class="ph-why__climate-item">
-          <span class="ph-why__climate-num">65-70%</span>
-          <span class="ph-why__climate-label">Relative humidity in peak summer months</span>
+          <span class="ph-why__climate-num">4,300 ft</span>
+          <span class="ph-why__climate-label">Elevation — stronger UV than sea level</span>
         </div>
       </div>
-      <p class="ph-why__closing">Since 2008, Window Film Salt Lake City has worked in neighborhoods from Society Hill to Manayunk — installing <a href="/benefits/energy-savings/" style="color:#7CB342">solar control</a>, <a href="/benefits/safety-and-security/" style="color:#7CB342">security</a>, <a href="/benefits/privacy-window-film-salt-lake-city/" style="color:#7CB342">privacy</a>, and <a href="/benefits/decorative-promotional/" style="color:#7CB342">decorative film</a> with certified technicians and manufacturer-backed warranties on every installation.</p>
+      <p class="ph-why__closing">Since 2008, Window Film Salt Lake City has worked in neighborhoods from Capitol Hill to Millcreek — installing <a href="/benefits/energy-savings/" style="color:#7CB342">solar control</a>, <a href="/benefits/safety-and-security/" style="color:#7CB342">security</a>, <a href="/benefits/privacy-window-film-salt-lake-city/" style="color:#7CB342">privacy</a>, and <a href="/benefits/decorative-promotional/" style="color:#7CB342">decorative film</a> with certified technicians and manufacturer-backed warranties on every installation.</p>
       <a href="/contact/" class="ph-why__cta">
         Get a free Salt Lake City assessment
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
@@ -234,8 +234,8 @@ const pageSchemas = [
     <div class="ph-expert__content">
       <p class="ph-expert__eyebrow">SALT LAKE CITY'S TRUSTED EXPERTS</p>
       <h2 class="ph-expert__title">Why choose us for window film in Salt Lake City?</h2>
-      <p class="ph-expert__body">Window Film Salt Lake City has been working in the city since 2008 — from Society Hill brownstones to Comcast Center office floors to Fishtown brewery taprooms. Our certified installers handle the full spectrum: solar control for rowhouses baking in afternoon sun, security film for retail storefronts on Frankford Avenue, anti-graffiti film for transit-adjacent commercial glass, and decorative frosted partitions for University City labs and co-working spaces.</p>
-      <p class="ph-expert__body">What sets Salt Lake City properties apart is the scale and variety — 1.6 million people across neighborhoods that range from dense Center City high-rises to leafy Chestnut Hill estates. Each building type demands a different film strategy. Rowhouses need heat rejection on west-facing glass; high-rise condos benefit from spectrally selective film that preserves views; storefronts need impact-resistant security film. We carry manufacturer certifications from 3M, LLumar, Vista, and Solar Gard, and every installer on our team is factory-trained. We also serve <a href="/cities/reading/" style="color:#7CB342">Reading</a>, <a href="/cities/camden/" style="color:#7CB342">South Jersey</a>, and communities throughout the greater metro area.</p>
+      <p class="ph-expert__body">Window Film Salt Lake City has been working in the city since 2008 — from Capitol Hill brownstones to a major downtown employer Center office floors to Sugar House brewery taprooms. Our certified installers handle the full spectrum: solar control for rowhouses baking in afternoon sun, security film for retail storefronts on Frankford Avenue, anti-graffiti film for transit-adjacent commercial glass, and decorative frosted partitions for University District labs and co-working spaces.</p>
+      <p class="ph-expert__body">What sets Salt Lake City properties apart is the scale and variety — 1.6 million people across neighborhoods that range from dense Downtown Salt Lake City high-rises to leafy Federal Heights estates. Each building type demands a different film strategy. Rowhouses need heat rejection on west-facing glass; high-rise condos benefit from spectrally selective film that preserves views; storefronts need impact-resistant security film. We carry manufacturer certifications from 3M, LLumar, Vista, and Solar Gard, and every installer on our team is factory-trained. We also serve <a href="/cities/ogden/" style="color:#7CB342">Ogden</a>, <a href="/cities/sandy/" style="color:#7CB342">Salt Lake Valley</a>, and communities throughout the greater metro area.</p>
       <div class="ph-expert__stats">
         <div class="ph-expert__stat">
           <span class="ph-expert__stat-num">2008</span>
@@ -265,13 +265,13 @@ const pageSchemas = [
 
     <!-- SLIDE 01: Commercial -->
     <div class="ph-prop-slider__slide" data-slide="0">
-      <img src="/images/window-film-salt-lake-city-pa-commercial.jpg" alt="Modern commercial office in Salt Lake City PA with floor-to-ceiling windows - window film for Salt Lake City commercial properties" title="Modern commercial office in Salt Lake City PA with floor-to-ceiling windows - window film for Salt Lake City commercial properties" class="ph-prop-slider__bg" loading="lazy" />
+      <img src="/images/window-film-salt-lake-city-pa-commercial.jpg" alt="Modern commercial office in Salt Lake City UT with floor-to-ceiling windows - window film for Salt Lake City commercial properties" title="Modern commercial office in Salt Lake City UT with floor-to-ceiling windows - window film for Salt Lake City commercial properties" class="ph-prop-slider__bg" loading="lazy" />
       <div class="ph-prop-slider__overlay"></div>
       <div class="ph-prop-slider__content">
         <div class="ph-prop-slider__step">01</div>
         <h2 class="ph-prop-slider__title">Commercial Window Film
-Across Center City &amp; Beyond</h2>
-        <p class="ph-prop-slider__desc">Center City glass towers, University City research buildings, Market Street retail — each has different film needs. We spec spectrally selective film for offices with panoramic skyline views, security film for ground-floor retail, and anti-graffiti film for transit-adjacent storefronts along the Broad Street corridor.</p>
+Across Downtown Salt Lake City &amp; Beyond</h2>
+        <p class="ph-prop-slider__desc">Downtown Salt Lake City glass towers, University District research buildings, Market Street retail — each has different film needs. We spec spectrally selective film for offices with panoramic skyline views, security film for ground-floor retail, and anti-graffiti film for transit-adjacent storefronts along the State Street corridor.</p>
         <ul class="ph-prop-slider__benefits">
           <li>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -292,13 +292,13 @@ Across Center City &amp; Beyond</h2>
 
     <!-- SLIDE 02: Residential -->
     <div class="ph-prop-slider__slide" data-slide="1">
-      <img src="/images/window-film-salt-lake-city-pa-residential-rowhouses.jpg" alt="Brick rowhouses in Salt Lake City PA - solar control and security window film for Salt Lake City residential homes" title="Brick rowhouses in Salt Lake City PA - solar control and security window film for Salt Lake City residential homes" class="ph-prop-slider__bg" loading="lazy" />
+      <img src="/images/window-film-salt-lake-city-pa-residential-rowhouses.jpg" alt="Brick rowhouses in Salt Lake City UT - solar control and security window film for Salt Lake City residential homes" title="Brick rowhouses in Salt Lake City UT - solar control and security window film for Salt Lake City residential homes" class="ph-prop-slider__bg" loading="lazy" />
       <div class="ph-prop-slider__overlay"></div>
       <div class="ph-prop-slider__content">
         <div class="ph-prop-slider__step">02</div>
         <h2 class="ph-prop-slider__title">Residential Window Film
-From South Salt Lake to Chestnut Hill</h2>
-        <p class="ph-prop-slider__desc">South Salt Lake trinity rowhouses, Chestnut Hill stone colonials, Northern Liberties loft conversions — Salt Lake City's residential stock spans two centuries of construction. We match the right film to each: ceramic solar control for single-pane rowhouse glass, low-e film for drafty older windows, and UV-blocking clear film for condos with valuable interiors.</p>
+From South Salt Lake to Federal Heights</h2>
+        <p class="ph-prop-slider__desc">South Salt Lake trinity rowhouses, Federal Heights stone colonials, Marmalade District loft conversions — Salt Lake City's residential stock spans two centuries of construction. We match the right film to each: ceramic solar control for single-pane rowhouse glass, low-e film for drafty older windows, and UV-blocking clear film for condos with valuable interiors.</p>
         <ul class="ph-prop-slider__benefits">
           <li>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -364,7 +364,7 @@ From South Salt Lake to Chestnut Hill</h2>
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Commercial Offices</h3>
-          <p class="ph-app-card__text">Glare-free workspaces and lower cooling bills for Salt Lake City's Center City and Market Street corridors. Spectrally selective film preserves city views.</p>
+          <p class="ph-app-card__text">Glare-free workspaces and lower cooling bills for Salt Lake City's Downtown Salt Lake City and Market Street corridors. Spectrally selective film preserves city views.</p>
           <span class="ph-app-card__stat">25-35% cost reduction</span>
         </div>
       </div>
@@ -382,7 +382,7 @@ From South Salt Lake to Chestnut Hill</h2>
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Healthcare Facilities</h3>
-          <p class="ph-app-card__text">UV film protects patients and staff at Penn Medicine and surrounding medical offices. Frosted film adds privacy for patient rooms and exam areas.</p>
+          <p class="ph-app-card__text">UV film protects patients and staff at University of Utah Health and surrounding medical offices. Frosted film adds privacy for patient rooms and exam areas.</p>
           <span class="ph-app-card__stat">99% UV blocked</span>
         </div>
       </div>
@@ -391,7 +391,7 @@ From South Salt Lake to Chestnut Hill</h2>
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Schools & Universities</h3>
-          <p class="ph-app-card__text">Safety film for Temple University, Drexel, and the School District of Salt Lake City. Reduces glare in classrooms and blocks UV that fades displays, artwork, and flooring.</p>
+          <p class="ph-app-card__text">Safety film for the University of Utah, Utah Valley University, and the School District of Salt Lake City. Reduces glare in classrooms and blocks UV that fades displays, artwork, and flooring.</p>
           <span class="ph-app-card__stat">Safety & UV rated</span>
         </div>
       </div>
@@ -435,7 +435,7 @@ From South Salt Lake to Chestnut Hill</h2>
 
       <!-- 3M -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-salt-lake-city-pa-brand-3m.jpg" alt="3M solar control window film installed in a Salt Lake City PA commercial office — heat and UV reduction" title="3M solar control window film installed in a Salt Lake City PA commercial office — heat and UV reduction" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-3m.jpg" alt="3M solar control window film installed in a Salt Lake City UT commercial office — heat and UV reduction" title="3M solar control window film installed in a Salt Lake City UT commercial office — heat and UV reduction" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">3M</p>
           <p class="ph-brands__card-desc"><em>The global standard in solar control and safety film - backed by 60+ years of glass science.</em></p>
@@ -445,27 +445,27 @@ From South Salt Lake to Chestnut Hill</h2>
 
       <!-- LLumar -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-salt-lake-city-pa-brand-llumar.jpg" alt="LLumar solar control window film on a Salt Lake City PA commercial building — glare and heat rejection" title="LLumar solar control window film on a Salt Lake City PA commercial building — glare and heat rejection" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-llumar.jpg" alt="LLumar solar control window film on a Salt Lake City UT commercial building — glare and heat rejection" title="LLumar solar control window film on a Salt Lake City UT commercial building — glare and heat rejection" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">LLumar</p>
-          <p class="ph-brands__card-desc"><em>A top choice for commercial projects across Salt Lake City and the Delaware Valley - proven durability in urban environments.</em></p>
+          <p class="ph-brands__card-desc"><em>A top choice for commercial projects across Salt Lake City and the Wasatch Front - proven durability in urban environments.</em></p>
           <p class="ph-brands__card-sub">Solar Control · Glare Reduction · Anti-Graffiti · Safety</p>
         </div>
       </div>
 
       <!-- Vista -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-salt-lake-city-pa-brand-vista.jpg" alt="Vista residential window film in a Salt Lake City PA home interior — UV protection and energy savings" title="Vista residential window film in a Salt Lake City PA home interior — UV protection and energy savings" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-vista.jpg" alt="Vista residential window film in a Salt Lake City UT home interior — UV protection and energy savings" title="Vista residential window film in a Salt Lake City UT home interior — UV protection and energy savings" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Vista</p>
-          <p class="ph-brands__card-desc"><em>Eastman's residential-focused line - naturally clear films designed for Salt Lake City rowhouses and Center City high-rises.</em></p>
+          <p class="ph-brands__card-desc"><em>Eastman's residential-focused line - naturally clear films designed for Salt Lake City rowhouses and Downtown Salt Lake City high-rises.</em></p>
           <p class="ph-brands__card-sub">Residential Solar · UV Protection · Privacy · Dual-Reflective</p>
         </div>
       </div>
 
       <!-- Solar Gard -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-salt-lake-city-pa-brand-solargard.jpg" alt="Solar Gard high-performance window film on a Salt Lake City PA commercial building — solar heat control" title="Solar Gard high-performance window film on a Salt Lake City PA commercial building — solar heat control" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-solargard.jpg" alt="Solar Gard high-performance window film on a Salt Lake City UT commercial building — solar heat control" title="Solar Gard high-performance window film on a Salt Lake City UT commercial building — solar heat control" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Solar Gard</p>
           <p class="ph-brands__card-desc"><em>High-performance spectrally selective films for Salt Lake City's commercial and institutional buildings - NFRC rated.</em></p>
@@ -478,14 +478,14 @@ From South Salt Lake to Chestnut Hill</h2>
         <img src="/images/window-film-salt-lake-city-pa-brand-madico.jpg" alt="Executive office interior with Madico optically clear safety window film" title="Executive office interior with Madico optically clear safety window film" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Madico</p>
-          <p class="ph-brands__card-desc"><em>Military-heritage safety films trusted by government and healthcare facilities - including Penn Medicine.</em></p>
+          <p class="ph-brands__card-desc"><em>Military-heritage safety films trusted by government and healthcare facilities - including University of Utah Health.</em></p>
           <p class="ph-brands__card-sub">Safety &amp; Security · Bomb Blast Mitigation · Solar Control</p>
         </div>
       </div>
 
       <!-- Solyx -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-salt-lake-city-pa-brand-solyx.jpg" alt="Elegant decorative frosted glass film in a Salt Lake City PA professional office lobby" title="Elegant decorative frosted glass film in a Salt Lake City PA professional office lobby" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-solyx.jpg" alt="Elegant decorative frosted glass film in a Salt Lake City UT professional office lobby" title="Elegant decorative frosted glass film in a Salt Lake City UT professional office lobby" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Solyx</p>
           <p class="ph-brands__card-desc"><em>The leading decorative film brand - custom frosted, patterned, and printed films for Salt Lake City's offices, healthcare spaces, and storefronts.</em></p>
@@ -548,7 +548,7 @@ From South Salt Lake to Chestnut Hill</h2>
         <img src="/images/window-film-salt-lake-city-pa-brand-graffiti-shield.jpg" alt="Clean unmarked storefront glass in Salt Lake City protected by Graffiti Shield sacrificial film" title="Clean unmarked storefront glass in Salt Lake City protected by Graffiti Shield sacrificial film" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Graffiti Shield</p>
-          <p class="ph-brands__card-desc"><em>The industry standard in sacrificial anti-graffiti film - replaces damaged film, not glass. Critical for Salt Lake City's South Street and Broad Street corridors.</em></p>
+          <p class="ph-brands__card-desc"><em>The industry standard in sacrificial anti-graffiti film - replaces damaged film, not glass. Critical for Salt Lake City's South Street and State Street corridors.</em></p>
           <p class="ph-brands__card-sub">Anti-Graffiti · Sacrificial Film · Storefronts · Urban Properties</p>
         </div>
       </div>
@@ -587,7 +587,7 @@ From South Salt Lake to Chestnut Hill</h2>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#7CB342"/><path d="M7 12.5l3.5 3.5 6.5-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="ph-trust__item-body">
-            <p class="ph-trust__item-title">18+ Years Serving Salt Lake City and the Delaware Valley</p>
+            <p class="ph-trust__item-title">18+ Years Serving Salt Lake City and the Wasatch Front</p>
           </div>
         </div>
 
@@ -674,28 +674,28 @@ From South Salt Lake to Chestnut Hill</h2>
   <div class="ip-local__grid">
     <div class="ip-local__map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122595.4!2d-75.28!3d39.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d8d8d8d8%3A0x0!2sSalt Lake City%2C%20PA!5e0!3m2!1sen!2sus!4v1714000000000"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122595.4!2d-75.28!3d39.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d8d8d8d8%3A0x0!2sSalt Lake City%2C%20UT!5e0!3m2!1sen!2sus!4v1714000000000"
         width="100%" height="100%"
         style="border:0;"
         allowfullscreen
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        title="Salt Lake City PA service area map"
+        title="Salt Lake City UT service area map"
       ></iframe>
     </div>
     <div class="ip-local__content">
       <p class="section-eyebrow">Local Expertise</p>
       <h2>Salt Lake City Neighborhoods We Serve</h2>
-      <p>Salt Lake City is a city of neighborhoods — over 100 distinct areas, each with its own housing stock, commercial corridors, and sun exposure patterns. Our crews know which film specs work on South Salt Lake's narrow brick trinities versus Chestnut Hill's stone estates versus Center City's floor-to-ceiling curtain wall. We install across all of Salt Lake City County — contact us for a free on-site estimate.</p>
+      <p>Salt Lake City is a city of neighborhoods — over 100 distinct areas, each with its own housing stock, commercial corridors, and sun exposure patterns. Our crews know which film specs work on South Salt Lake's narrow brick trinities versus Federal Heights's stone estates versus Downtown Salt Lake City's floor-to-ceiling curtain wall. We install across all of Salt Lake City County — contact us for a free on-site estimate.</p>
       <div class="ph-neighborhoods">
-        <div class="ph-nh"><span class="ph-nh__name">Center City</span><span class="ph-nh__desc">Dense commercial core with high-rise office towers and storefronts along Market Street. Solar control and security window film in Center City are the most-requested installs for glare reduction and heat management.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">Downtown Salt Lake City</span><span class="ph-nh__desc">Dense commercial core with high-rise office towers and storefronts along Market Street. Solar control and security window film in Downtown Salt Lake City are the most-requested installs for glare reduction and heat management.</span></div>
         <div class="ph-nh"><span class="ph-nh__name">South Salt Lake</span><span class="ph-nh__desc">Tight-knit blocks of brick rowhouses with street-facing windows. Solar control and privacy window film are the most popular choices for South Salt Lake homes dealing with afternoon sun and street-level visibility.</span></div>
-        <div class="ph-nh"><span class="ph-nh__name">Fishtown</span><span class="ph-nh__desc">Rapidly growing neighborhood with renovated rowhomes and new construction. Decorative and solar control window film suit Fishtown's mix of historic and modern glass.</span></div>
-        <div class="ph-nh"><span class="ph-nh__name">Northern Liberties</span><span class="ph-nh__desc">Industrial-turned-residential with large loft windows and converted warehouses. Anti-graffiti and security window film protect Northern Liberties storefronts and ground-floor glass.</span></div>
-        <div class="ph-nh"><span class="ph-nh__name">University City</span><span class="ph-nh__desc">Home to Penn and Drexel with research labs and medical facilities. UV and safety window film protect University City lab interiors and patient areas from glare and fading.</span></div>
-        <div class="ph-nh"><span class="ph-nh__name">Chestnut Hill</span><span class="ph-nh__desc">Leafy historic neighborhood with Victorian and Colonial homes. We carry non-reflective films that meet Chestnut Hill historic district and HOA reflectivity guidelines.</span></div>
-        <div class="ph-nh"><span class="ph-nh__name">Manayunk</span><span class="ph-nh__desc">Hillside neighborhood along the Schuylkill with rowhouses and converted mills. Solar control window film cuts heat gain in Manayunk's sun-exposed south- and west-facing homes.</span></div>
-        <div class="ph-nh"><span class="ph-nh__name">East Passyunk</span><span class="ph-nh__desc">Vibrant restaurant corridor with retail storefronts and rowhouses. Anti-graffiti and security window film are the most common requests from East Passyunk merchants and homeowners.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">Sugar House</span><span class="ph-nh__desc">Rapidly growing neighborhood with renovated rowhomes and new construction. Decorative and solar control window film suit Sugar House's mix of historic and modern glass.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">Marmalade District</span><span class="ph-nh__desc">Industrial-turned-residential with large loft windows and converted warehouses. Anti-graffiti and security window film protect Marmalade District storefronts and ground-floor glass.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">University District</span><span class="ph-nh__desc">Home to the University of Utah and Utah Valley University with research labs and medical facilities. UV and safety window film protect University District lab interiors and patient areas from glare and fading.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">Federal Heights</span><span class="ph-nh__desc">Leafy historic neighborhood with Victorian and Colonial homes. We carry non-reflective films that meet Federal Heights historic district and HOA reflectivity guidelines.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">Millcreek</span><span class="ph-nh__desc">Hillside neighborhood along the Jordan River with rowhouses and converted mills. Solar control window film cuts heat gain in Millcreek's sun-exposed south- and west-facing homes.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">9th and 9th</span><span class="ph-nh__desc">Vibrant restaurant corridor with retail storefronts and rowhouses. Anti-graffiti and security window film are the most common requests from 9th and 9th merchants and homeowners.</span></div>
       </div>
     </div>
   </div>
@@ -711,12 +711,12 @@ From South Salt Lake to Chestnut Hill</h2>
 <TestimonialSpotlight
   eyebrow="Client Reviews"
   title="Reviews from Salt Lake City Homeowners and Businesses"
-  subtitle="Residential and commercial property owners across Salt Lake City and the Delaware Valley."
+  subtitle="Residential and commercial property owners across Salt Lake City and the Wasatch Front."
   items={[
     {
-      quote: 'We run a restaurant on East Passyunk and the afternoon sun was cooking the front tables. After solar control film went on the big windows, the dining room stayed comfortable all summer. Our AC bills dropped noticeably. Crew was in and out before opening.',
+      quote: 'We run a restaurant on 9th and 9th and the afternoon sun was cooking the front tables. After solar control film went on the big windows, the dining room stayed comfortable all summer. Our AC bills dropped noticeably. Crew was in and out before opening.',
       name: 'Angela R.',
-      detail: 'Owner · East Passyunk Restaurant',
+      detail: 'Owner · 9th and 9th Restaurant',
       avatar: '/images/window-film-salt-lake-city-pa-testimonial-commercial-1.jpg',
     },
     {
@@ -742,7 +742,7 @@ From South Salt Lake to Chestnut Hill</h2>
     <div class="ph-resources__image-col">
       <img
         src="/images/window-film-salt-lake-city-pa-resources-meeting-room.jpg"
-        alt="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Salt Lake City PA commercial client" title="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Salt Lake City PA commercial client"
+        alt="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Salt Lake City UT commercial client" title="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Salt Lake City UT commercial client"
         class="ph-resources__img"
         loading="lazy"
         width="1472"
@@ -752,7 +752,7 @@ From South Salt Lake to Chestnut Hill</h2>
     <div class="ph-resources__content">
       <p class="ph-resources__eyebrow">Manufacturer Resources</p>
       <h2 class="ph-resources__title">Manufacturer Spec Sheets &amp; Performance Data</h2>
-      <p class="ph-resources__desc">Performance data, solar heat gain coefficients, VLT ratings, and product details from the brands we install across Salt Lake City and the Delaware Valley. Download and compare before your consultation.</p>
+      <p class="ph-resources__desc">Performance data, solar heat gain coefficients, VLT ratings, and product details from the brands we install across Salt Lake City and the Wasatch Front. Download and compare before your consultation.</p>
       <ul class="ph-resources__list">
         <li class="ph-resources__item">
           <a href="/resources/3m-prestige-solar-control-window-film-salt-lake-city-pa-product-bulletin.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
@@ -818,7 +818,7 @@ From South Salt Lake to Chestnut Hill</h2>
 <CtaLightRays
   eyebrow="Salt Lake City Window Film Professionals"
   title="Let's Upgrade Your Salt Lake City Windows"
-  sub="Cut heat, block UV, add privacy, and protect against graffiti — all with one professional installation. Free estimates across Salt Lake City and the Delaware Valley."
+  sub="Cut heat, block UV, add privacy, and protect against graffiti — all with one professional installation. Free estimates across Salt Lake City and the Wasatch Front."
   btnLabel="Get Your Free Salt Lake City Estimate"
   btnHref="/contact/"
 />

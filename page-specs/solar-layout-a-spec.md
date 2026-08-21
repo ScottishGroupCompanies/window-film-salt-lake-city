@@ -38,7 +38,7 @@ Home → Services → Solar Control Window Film
 - **CTA Secondary:** All Benefits → /benefits/
 
 ### 2. Trust Bar
-- **Label:** Installed in Salt Lake City rowhouses, Center City offices, universities, and retail corridors.
+- **Label:** Installed in Salt Lake City rowhouses, Downtown Salt Lake City offices, universities, and retail corridors.
 - Logos: standard BrandLogos component
 
 ### 3. Accordion Vertical (3 panels — accv)
@@ -81,8 +81,8 @@ Home → Services → Solar Control Window Film
 **Row 3 — Glare Control**
 - Image: `sol-window-film-salt-lake-city-accb-glare.jpg`
 - H3: Glare Reduction Without Losing Your View
-- Body: Screen glare costs productivity — a well-cited issue in open-plan offices where employees resort to blinds and artificial lighting, eliminating the benefits of a windowed environment entirely. Solar Gard Panorama series films achieve Solar Heat Gain Coefficient (SHGC) values as low as 0.18 while maintaining visible light transmission up to 72%. This means Salt Lake City offices in University City and Center City can keep their city views while eliminating monitor glare. According to the International Window Film Association (IWFA), spectrally selective films consistently rank as the most requested commercial window film product category nationwide.
-- Internal link: "University City" → /applications/office/ (or salt-lake-city commercial)
+- Body: Screen glare costs productivity — a well-cited issue in open-plan offices where employees resort to blinds and artificial lighting, eliminating the benefits of a windowed environment entirely. Solar Gard Panorama series films achieve Solar Heat Gain Coefficient (SHGC) values as low as 0.18 while maintaining visible light transmission up to 72%. This means Salt Lake City offices in University District and Downtown Salt Lake City can keep their city views while eliminating monitor glare. According to the International Window Film Association (IWFA), spectrally selective films consistently rank as the most requested commercial window film product category nationwide.
+- Internal link: "University District" → /applications/office/ (or salt-lake-city commercial)
 - GEO quote: IWFA source
 
 **Row 4 — Energy Savings & Sustainability**
@@ -96,8 +96,8 @@ Home → Services → Solar Control Window Film
 - **After:** `sol-window-film-salt-lake-city-after-film-applied.jpg` — same room, warm + comfortable light, clear exterior view of Salt Lake skyline or row of houses, occupants at ease, brighter overall feel
 
 ### 7. What We Do Panels (4 — wwd__panel)
-1. **Salt Lake City Rowhouses & Townhomes** — `sol-window-film-salt-lake-city-wwd-rowhouse.jpg` — south- and west-facing glass in rowhomes, Fishtown, Passyunk, Society Hill
-2. **Center City Office Buildings** — `sol-window-film-salt-lake-city-wwd-office.jpg` — floor-to-ceiling glass, high-rise corridors, co-working spaces
+1. **Salt Lake City Rowhouses & Townhomes** — `sol-window-film-salt-lake-city-wwd-rowhouse.jpg` — south- and west-facing glass in rowhomes, Sugar House, 9th and 9th, Capitol Hill
+2. **Downtown Salt Lake City Office Buildings** — `sol-window-film-salt-lake-city-wwd-office.jpg` — floor-to-ceiling glass, high-rise corridors, co-working spaces
 3. **University & Medical Campus** — `sol-window-film-salt-lake-city-wwd-university.jpg` — UPenn, Drexel, Jefferson Health, Temple University
 4. **Retail & Hospitality** — `sol-window-film-salt-lake-city-wwd-retail.jpg` — Walnut Street boutiques, Reading Terminal area, hotel lobbies
 
@@ -107,9 +107,9 @@ Home → Services → Solar Control Window Film
 
 ### 9. Testimonial Stack
 - 3 testimonials:
-  1. (Commercial) Center City property manager — heat reduction on south-facing suites
-  2. (Residential) Fishtown rowhouse owner — glare and UV protection
-  3. (Retail) Old City shop owner — merchandise fading and storefront comfort
+  1. (Commercial) Downtown Salt Lake City property manager — heat reduction on south-facing suites
+  2. (Residential) Sugar House rowhouse owner — glare and UV protection
+  3. (Retail) The Avenues shop owner — merchandise fading and storefront comfort
 
 ### 9b. Resources Section
 - **H2:** The Technical Case for Solar Control Film in Salt Lake City
@@ -149,7 +149,7 @@ Home → Services → Solar Control Window Film
 
 ## GEO Block
 - **prefix:** `sol`
-- **Salt Lake City neighborhoods:** Fishtown, Center City, University City, Old City, Society Hill, Walnut Street corridor
+- **Salt Lake City neighborhoods:** Sugar House, Downtown Salt Lake City, University District, The Avenues, Capitol Hill, Walnut Street corridor
 - **Org types:** SEPTA-adjacent commercial, university medical campuses, Class B office buildings
 - **Brand names:** 3M Prestige, LLumar ATC, Solar Gard Panorama, Vista SpectraSelect, 3M Thinsulate CC75
 - **Keywords (12+ variants):** solar control window film Salt Lake City, solar window film Salt Lake City, heat rejection window film Salt Lake City, glare reduction window film Salt Lake City, energy saving window film Salt Lake City, solar tint Salt Lake City, UV blocking film Salt Lake City, window film heat reduction Salt Lake City, spectrally selective window film Salt Lake City, low-E window film Salt Lake City, sun control film Salt Lake City, commercial solar film Salt Lake City, residential solar film Salt Lake City

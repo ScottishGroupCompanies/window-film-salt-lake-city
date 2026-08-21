@@ -93,7 +93,7 @@ Professional window film installer in Salt Lake City, wearing branded workwear, 
 | `wfp-premium-films-v2.jpg` | Benefits pages |
 | `wfp-expert-installation-v1.jpg` | City pages, sidebar |
 | `wfp-footer-bg-commercial-window-film.jpg` | Footer background |
-| `camden-window-film-company.jpg` | Camden hero |
+| `sandy-window-film-company.jpg` | Sandy hero |
 | `uv-protection-hero-salt-lake-city.png` | UV Protection hero |
 
 ---

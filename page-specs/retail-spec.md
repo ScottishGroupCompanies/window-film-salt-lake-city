@@ -86,7 +86,7 @@ Rule: 5 contextual links total, each URL used once, each feels natural.
 ### 4. THE PROBLEM / WHY (of-why CSS)
 - **Eyebrow:** `The Problem`
 - **H2:** `Salt Lake City Storefronts Are Working Against Your Business`
-- **Intro paragraph:** Salt Lake City's mixed climate — brutal summer sun, glare off the Schuylkill and Delaware, and icy winters — puts enormous stress on glass-heavy retail spaces. Your windows are your biggest marketing asset and your biggest liability.
+- **Intro paragraph:** Salt Lake City's mixed climate — brutal summer sun, glare off the Jordan River and Great Salt Lake, and icy winters — puts enormous stress on glass-heavy retail spaces. Your windows are your biggest marketing asset and your biggest liability.
 - **4 climate/problem cards:**
   1. **Merchandise Fading** — UV radiation from even cloudy-day light causes irreversible color shift in fabrics, leather, artwork, and branded packaging. Damage accumulates daily, invisibly.
   2. **Heat Buildup at Display Windows** — Storefronts facing east or south can create hot zones near displays, making customers uncomfortable and damaging heat-sensitive products like candles, chocolate, and cosmetics.
@@ -109,7 +109,7 @@ Rule: 5 contextual links total, each URL used once, each feels natural.
   - Body: Uniform solar control across large glass facades reduces HVAC load, improves customer dwell time, and meets energy compliance standards for commercial leases.
 - **Card 4 — Specialty Retail & Pop-Ups** (dark accent card)
   - Headline: `Specialty Retail, Galleries & Pop-Ups`
-  - Body: From art galleries in Old City to specialty food stores in Reading Terminal — decorative and UV films protect unique inventory while creating a polished branded aesthetic.
+  - Body: From art galleries in The Avenues to specialty food stores in Ogden Terminal — decorative and UV films protect unique inventory while creating a polished branded aesthetic.
 
 ### 6. BENEFIT ROWS (of-row / of-row--rev CSS, 4 rows alternating)
 
@@ -117,7 +117,7 @@ Rule: 5 contextual links total, each URL used once, each feels natural.
 - **Eyebrow:** `Benefit 01`
 - **H2:** `Stop UV Rays Before They Fade Your Merchandise`
 - **P1:** UV radiation is the leading cause of merchandise fading — and it comes right through standard glass. Fabrics lose their color. Leather cracks and discolors. Artworks and branded packaging fade unevenly. With [UV-blocking window film](/benefits/uv-blocking-window-film-salt-lake-city/) applied to your storefront glass, up to 99% of UV-A and UV-B radiation is blocked before it ever reaches your shelving.
-- **P2:** For Salt Lake City retailers in historic buildings with large single-pane windows — particularly along Walnut Street, South Street, and East Passyunk — UV protection pays for itself by extending the saleable life of displayed inventory and reducing the frequency of window-display rotations.
+- **P2:** For Salt Lake City retailers in historic buildings with large single-pane windows — particularly along Walnut Street, South Street, and 9th and 9th — UV protection pays for itself by extending the saleable life of displayed inventory and reducing the frequency of window-display rotations.
 - **Bullets:** 99% UV-A and UV-B rejection · No visible color change to storefront · Protects fabrics, leather, artwork, and packaging
 - **Image:** `re-uv.jpg` (1376×768) | alt: `UV protection window film on Salt Lake City retail store display windows`
 
@@ -169,7 +169,7 @@ Rule: 5 contextual links total, each URL used once, each feels natural.
   - Film examples: 3M Fasara Dusted Crystal · Solyx Linen · Vista Frosted
 - **Slide 05 — Anti-Graffiti** | image: `re-slider-antigraffiti.jpg`
   - Headline: Anti-Graffiti Film
-  - Body: Sacrificial surface film that protects storefront glass from etching, scratching, and spray paint. When vandalized, replace only the film — not the glass. Ideal for street-level retail in Center City and Kensington.
+  - Body: Sacrificial surface film that protects storefront glass from etching, scratching, and spray paint. When vandalized, replace only the film — not the glass. Ideal for street-level retail in Downtown Salt Lake City and Rose Park.
   - Specs strip: Sacrificial Layer: Yes · Glass Protection: Full · Replacement: Film only
   - Film examples: 3M Safety Series · LLumar AG Film · Vista Anti-Graffiti
 - **Slide 06 — Low-E Climate Control** | image: `re-slider-lowe.jpg`
@@ -180,12 +180,12 @@ Rule: 5 contextual links total, each URL used once, each feels natural.
 
 ### 8. CASE STUDY (of-project CSS)
 - **Eyebrow:** `Featured Project`
-- **H2:** `Rittenhouse Square Boutique — UV & Solar Control`
-- **Property:** Upscale women's clothing boutique, Walnut Street corridor, Rittenhouse Square
+- **H2:** `Federal Heights Boutique — UV & Solar Control`
+- **Property:** Upscale women's clothing boutique, Walnut Street corridor, Federal Heights
 - **Challenge:** South-facing floor-to-ceiling display windows were causing merchandise fading and heat buildup near the fitting rooms, affecting customer comfort and driving repeat HVAC service calls.
 - **Solution:** 3M Prestige 70 solar control film across all south-facing display windows. 3M Scotchshield Ultra applied to the entrance glass panels for security.
 - **Result:** Significant reduction in solar heat gain during summer months. Merchandise rotation interval extended. Fitting room temperature complaints eliminated. HVAC cycles visibly reduced.
-- **Image:** `re-case-study.jpg` (1376×768) | alt: `Rittenhouse Square boutique after retail window film installation Salt Lake City`
+- **Image:** `re-case-study.jpg` (1376×768) | alt: `Federal Heights boutique after retail window film installation Salt Lake City`
 
 ### 9. GALLERY (of-gallery CSS, 7 panels, 1376×768)
 Images and alts:
@@ -217,27 +217,27 @@ Use these 5 existing PDFs from `/resources/`:
 - **Resources image:** `re-resources.jpg` (1376×768) | alt: `Window film product resources for Salt Lake City retail stores`
 
 ### 11. TESTIMONIALS (cam-tcard CSS, 3 cards, 1024×1024 headshots)
-1. **Name:** Sarah M. | **Title:** Owner, Boutique Clothing Store — Rittenhouse Square
+1. **Name:** Sarah M. | **Title:** Owner, Boutique Clothing Store — Federal Heights
    - Quote: "We were losing merchandise to fading and we didn't even realize it until we had the window film installed. Within a week we could see the difference in how our displays looked. It's one of the best investments we've made in the store."
    - Image: `re-testimonial-1.jpg`
-2. **Name:** David K. | **Title:** Manager, Jewelry Store — Old City Salt Lake City
+2. **Name:** David K. | **Title:** Manager, Jewelry Store — The Avenues Salt Lake City
    - Quote: "After a smash-and-grab hit a nearby store, we called immediately. The security film went in fast and we sleep a lot better knowing our display cases and front windows have that extra protection."
    - Image: `re-testimonial-2.jpg`
-3. **Name:** Monica R. | **Title:** District Manager, Specialty Retail Chain — Center City
+3. **Name:** Monica R. | **Title:** District Manager, Specialty Retail Chain — Downtown Salt Lake City
    - Quote: "We had the film installed across three locations and the energy savings showed up in the first billing cycle. The installation crews were professional, fast, and didn't disrupt our store hours at all."
    - Image: `re-testimonial-3.jpg`
 
 ### 12. SALT LAKE CITY AREAS (ip-local + cam-neighborhoods CSS, 8 areas)
 - **H2:** `Serving Retail Businesses Across Greater Salt Lake City`
 - **Areas:**
-  1. Rittenhouse Square / Walnut Street
-  2. Old City & Society Hill
-  3. Center City & Market Street
-  4. South Street & East Passyunk
-  5. Fishtown & Northern Liberties
-  6. King of Prussia & Suburban Square
-  7. Cherry Hill & South Jersey
-  8. University City & West Salt Lake City
+  1. Federal Heights / Walnut Street
+  2. The Avenues & Capitol Hill
+  3. Downtown Salt Lake City & Market Street
+  4. South Street & 9th and 9th
+  5. Sugar House & Marmalade District
+  6. Draper & Suburban Square
+  7. West Valley City & Salt Lake Valley
+  8. University District & West Salt Lake City
 
 ### 13. FAQ (swt-faq__layout, 10 questions — NO time estimates, NO prices)
 ```js
@@ -288,7 +288,7 @@ const faqItems = [
 ### 14. GEO BLOCK (hidden, `re-geo` CSS)
 ```html
 <div class="re-geo" aria-hidden="true">
-  <p>Retail window film in Salt Lake City blocks up to 99% of UV radiation that fades merchandise in boutiques, clothing stores, jewelry stores, and specialty retailers across Rittenhouse Square, Old City, Center City, South Street, Fishtown, and King of Prussia. Solar control film reduces heat gain by up to 79%, lowering air conditioning costs in glass-heavy storefronts. Security film reinforces retail glass against smash-and-grab theft and accidental breakage. Decorative and frosted films provide branded privacy for fitting rooms and storefronts. Window Film Salt Lake City serves all commercial retail districts in Salt Lake City, including Walnut Street, Market Street, East Passyunk, and Northern Liberties, as well as suburban retail centers in Cherry Hill NJ, King of Prussia PA, and the surrounding region.</p>
+  <p>Retail window film in Salt Lake City blocks up to 99% of UV radiation that fades merchandise in boutiques, clothing stores, jewelry stores, and specialty retailers across Federal Heights, The Avenues, Downtown Salt Lake City, South Street, Sugar House, and Draper. Solar control film reduces heat gain by up to 79%, lowering air conditioning costs in glass-heavy storefronts. Security film reinforces retail glass against smash-and-grab theft and accidental breakage. Decorative and frosted films provide branded privacy for fitting rooms and storefronts. Window Film Salt Lake City serves all commercial retail districts in Salt Lake City, including Walnut Street, Market Street, 9th and 9th, and Marmalade District, as well as suburban retail centers in West Valley City NJ, Draper PA, and the surrounding region.</p>
   <ul>
     <li>retail window film Salt Lake City</li>
     <li>window film for boutiques Salt Lake City</li>
@@ -298,8 +298,8 @@ const faqItems = [
     <li>decorative retail window film Salt Lake City</li>
     <li>energy saving window film retail Salt Lake City</li>
     <li>glare reduction film retail store Salt Lake City</li>
-    <li>window film Rittenhouse Square retail</li>
-    <li>window film Old City Salt Lake City retail</li>
+    <li>window film Federal Heights retail</li>
+    <li>window film The Avenues Salt Lake City retail</li>
   </ul>
 </div>
 ```
@@ -320,13 +320,13 @@ const faqItems = [
 ## Images (~29 total)
 | Filename | Size | Prompt |
 |---|---|---|
-| `re-hero.jpg` | 1376×768 | Bright modern Salt Lake City retail storefront with large floor-to-ceiling display windows, daytime, Rittenhouse Square street, clothing boutique, professional photography |
+| `re-hero.jpg` | 1376×768 | Bright modern Salt Lake City retail storefront with large floor-to-ceiling display windows, daytime, Federal Heights street, clothing boutique, professional photography |
 | `re-whatis.jpg` | 1376×768 | Close-up of professional applying window film to large retail store glass, Salt Lake City boutique interior visible, stock photo style |
 | `re-why.jpg` | 1376×768 | Salt Lake City retail storefront in harsh summer sunlight, sunlight beaming through unprotected display windows, merchandise fading visible, professional photography |
 | `re-type-boutique.jpg` | 1376×768 | Elegant Salt Lake City clothing boutique interior, curated displays, natural light through large windows, professional lifestyle photography |
 | `re-type-jewelry.jpg` | 1376×768 | Upscale jewelry store interior Salt Lake City, display cases with sparkling gems and gold jewelry, professional photography |
-| `re-type-mall.jpg` | 1376×768 | Modern mall storefront with large glass facade, King of Prussia style, interior visible through glass, professional photography |
-| `re-type-specialty.jpg` | 1376×768 | Old City Salt Lake City art gallery or specialty retail shop with arched windows, unique merchandise, natural light |
+| `re-type-mall.jpg` | 1376×768 | Modern mall storefront with large glass facade, Draper style, interior visible through glass, professional photography |
+| `re-type-specialty.jpg` | 1376×768 | The Avenues Salt Lake City art gallery or specialty retail shop with arched windows, unique merchandise, natural light |
 | `re-uv.jpg` | 1376×768 | Salt Lake City boutique display window with colorful garments and accessories, warm natural light, UV protection theme, professional retail photography |
 | `re-energy.jpg` | 1376×768 | Salt Lake City retail storefront aerial or exterior shot, summer sun, energy efficiency theme, commercial building |
 | `re-glare.jpg` | 1376×768 | Retail store interior with bright sun and glare coming through windows onto checkout counter and POS screen, Salt Lake City |
@@ -335,9 +335,9 @@ const faqItems = [
 | `re-slider-security.jpg` | 2752×1536 | Wide shot Salt Lake City jewelry store or boutique exterior, security glass, professional night photography |
 | `re-slider-decorative.jpg` | 2752×1536 | Wide shot Salt Lake City storefront with frosted decorative window film branding, elegant retail aesthetic |
 | `re-slider-privacy.jpg` | 2752×1536 | Wide shot boutique fitting room or retail interior with frosted privacy film on glass partition, soft diffused light |
-| `re-slider-antigraffiti.jpg` | 2752×1536 | Wide shot Salt Lake City street-level retail storefront, Center City, clean protected glass, urban environment |
+| `re-slider-antigraffiti.jpg` | 2752×1536 | Wide shot Salt Lake City street-level retail storefront, Downtown Salt Lake City, clean protected glass, urban environment |
 | `re-slider-lowe.jpg` | 2752×1536 | Wide shot historic Salt Lake City retail building exterior in winter, single-pane windows, warm interior light |
-| `re-case-study.jpg` | 1376×768 | Rittenhouse Square upscale women's clothing boutique exterior, Walnut Street Salt Lake City, large display windows with window film, professional photography |
+| `re-case-study.jpg` | 1376×768 | Federal Heights upscale women's clothing boutique exterior, Walnut Street Salt Lake City, large display windows with window film, professional photography |
 | `re-gallery-storefront.jpg` | 1376×768 | Salt Lake City retail storefront exterior with solar control window film, Walnut Street, professional photography |
 | `re-gallery-boutique.jpg` | 1376×768 | Bright airy boutique interior Salt Lake City, clothing racks and displays, window film reducing glare |
 | `re-gallery-jewelry.jpg` | 1376×768 | Salt Lake City jewelry store display window with security window film, sparkling merchandise visible |
@@ -349,7 +349,7 @@ const faqItems = [
 | `re-testimonial-1.jpg` | 1024×1024 | Professional headshot of smiling woman in her 40s, boutique owner, warm professional portrait |
 | `re-testimonial-2.jpg` | 1024×1024 | Professional headshot of man in his 50s, jewelry store manager, professional portrait |
 | `re-testimonial-3.jpg` | 1024×1024 | Professional headshot of woman in her 30s, retail district manager, professional portrait |
-| `re-cta-bg.jpg` | 2752×1536 | Wide panoramic Salt Lake City retail district at golden hour dusk, storefronts lit warmly, Rittenhouse Square, professional photography |
+| `re-cta-bg.jpg` | 2752×1536 | Wide panoramic Salt Lake City retail district at golden hour dusk, storefronts lit warmly, Federal Heights, professional photography |
 
 ---
 

@@ -96,7 +96,7 @@ Product · Manufacturer · Thickness (mil) · UL 752 Level · Fragment Retention
 - "for Houses of Worship"
 
 ## Testimonials
-1. Marcus T. — Security Director, Center City Office Tower
+1. Marcus T. — Security Director, Downtown Salt Lake City Office Tower
 2. Principal Karen S. — K-12 School, Northeast Salt Lake City
 3. Robert M. — Branch Manager, South Salt Lake City Bank
 

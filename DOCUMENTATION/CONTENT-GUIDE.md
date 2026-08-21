@@ -157,16 +157,16 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 Cuando se menciona Salt Lake City, usar los nombres reales de barrios y zonas:
 
 ### Salt Lake City PA
-Society Hill, Center City, Old City, Fishtown, Manayunk, Chestnut Hill, Roxborough, University City, Fairmount, South Salt Lake, Northern Liberties, Passyunk
+Capitol Hill, Downtown Salt Lake City, The Avenues, Sugar House, Millcreek, Chestnut Hill, Roxborough, University District, Fairmount, South Salt Lake, Marmalade District, 9th and 9th
 
-### Montgomery County PA
-King of Prussia, Norristown, Pottstown, Lansdale, Willow Grove, Conshohocken, Blue Bell, Horsham
+### Utah County PA
+Draper, West Jordan, Pottstown, Lansdale, Willow Grove, Cottonwood Heights, Blue Bell, Horsham
 
-### Delaware County PA
-Upper Darby, Chester, Ridley Park, Media, Drexel Hill, Springfield, Broomall, Newtown Square
+### Salt Lake County PA
+Provo, Chester, Ridley Park, Media, Drexel Hill, Springfield, Broomall, Newtown Square
 
-### South Jersey NJ
-Cherry Hill, Marlton, Mount Laurel, Camden, Collingswood, Haddonfield, Voorhees, Burlington, Pennsauken, Maple Shade
+### Salt Lake Valley NJ
+West Valley City, Lehi, Layton, Sandy, Midvale, Bountiful, Murray, Burlington, Taylorsville, Orem
 
 ---
 

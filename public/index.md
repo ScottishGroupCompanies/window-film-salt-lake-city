@@ -1,6 +1,6 @@
 # Window Film Salt Lake City
 
-Window Film Salt Lake City provides professional window film installation for homes and businesses across Salt Lake City and the Delaware Valley. We are the Salt Lake City office of Scottish Window Tinting, locally owned and operating since 2008.
+Window Film Salt Lake City provides professional window film installation for homes and businesses across Salt Lake City and the Wasatch Front. We are the Salt Lake City office of Scottish Window Tinting, locally owned and operating since 2008.
 
 ## Services
 
@@ -27,16 +27,16 @@ We are certified installers for: 3M, LLumar, Madico, Vista, Huper Optik, Solar G
 
 ## Cities We Serve
 
-Salt Lake City, Camden NJ, Reading PA, Upper Darby PA, and surrounding areas across the Delaware Valley including the Main Line, South Jersey, Montgomery County, Bucks County, Delaware County, and Chester County.
+Salt Lake City, Sandy NJ, Ogden UT, Provo PA, and surrounding areas across the Wasatch Front including the Park City, Salt Lake Valley, Utah County, Davis County, Salt Lake County, and Summit County.
 
 ## Contact
 
 - **Phone**: (801) 895-4681
 - **Email**: info@windowfilmphl.com
 - **Hours**: Monday to Friday, 8am to 5pm
-- **Service Area**: Salt Lake City and the Delaware Valley
+- **Service Area**: Salt Lake City and the Wasatch Front
 - **Get a Quote**: [Contact us](https://windowfilmsaltlakecity.com/contact)
 
 ## About
 
-Window Film Salt Lake City is the Delaware Valley office of Scottish Window Tinting, founded by Martin Faith in 2008. Over 2,400 projects completed, 1.2 million+ square feet of film installed, and a 4.9-star rating from Salt Lake City property owners. Certified by 3M, EnerLogic, and AIA for continuing education.
+Window Film Salt Lake City is the Wasatch Front office of Scottish Window Tinting, founded by Martin Faith in 2008. Over 2,400 projects completed, 1.2 million+ square feet of film installed, and a 4.9-star rating from Salt Lake City property owners. Certified by 3M, EnerLogic, and AIA for continuing education.

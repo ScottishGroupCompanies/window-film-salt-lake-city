@@ -51,12 +51,12 @@ NFRC or Eastman/Vista manufacturer language. Format: `"[text]," according to [So
 - Zone 4A — Salt Lake City climate
 
 ## Testimonials (6 reviewers)
-1. Emily R. — Architect, Rittenhouse Square project (SpectraSelect aesthetics)
-2. James B. — Commercial Real Estate Manager, Center City (energy performance)
+1. Emily R. — Architect, Federal Heights project (SpectraSelect aesthetics)
+2. James B. — Commercial Real Estate Manager, Downtown Salt Lake City (energy performance)
 3. Patricia G. — Homeowner, Chestnut Hill (Low-E winter savings)
-4. Michael O. — Hospital Facilities Manager, University City (dual-purpose safety)
-5. Lisa C. — Office Manager, Old City (glare control + views)
-6. Andrew F. — Boutique Hotel Owner, Center City (Dual Reflective privacy)
+4. Michael O. — Hospital Facilities Manager, University District (dual-purpose safety)
+5. Lisa C. — Office Manager, The Avenues (glare control + views)
+6. Andrew F. — Boutique Hotel Owner, Downtown Salt Lake City (Dual Reflective privacy)
 
 ## Tint Slider Film Labels (left → right: clear → dark)
 Clear → Vista Low-E → Vista SS70 → Vista SS50 → Vista SS35 → Vista DR 25 → Vista DR 15

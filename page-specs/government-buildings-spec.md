@@ -31,20 +31,20 @@ Salt Lake City's civic building stock spans 1890s–1960s masonry with aging sin
 6. Decorative & Wayfinding Film
 
 ## Case Study
-Location: Center City Salt Lake City — Municipal government office building
+Location: Downtown Salt Lake City Salt Lake City — Municipal government office building
 Challenge: West-facing offices with intense afternoon heat gain; workstation screen glare; privacy concerns for permit-processing offices adjacent to public corridor
 Solution: 3M Prestige 70 solar control on west-facing glass; LLumar reflective privacy on corridor-facing office glass
 Result: Measurable comfort improvement; glare eliminated on staff screens; privacy maintained in permit areas — zero disruption to public-facing office hours
 
 ## Neighborhood / Service Area (8)
-- Center City: City Hall, federal courts, district attorney, municipal buildings
-- Old City: Historic state/federal buildings with preservation constraints
+- Downtown Salt Lake City: City Hall, federal courts, district attorney, municipal buildings
+- The Avenues: Historic state/federal buildings with preservation constraints
 - North Salt Lake City: Police districts, DMV offices, neighborhood municipal centers
 - West Salt Lake City: Civic centers, post offices, community service buildings
 - Northeast Salt Lake City: District offices, permit processing centers, suburban-style municipal campuses
 - South Salt Lake City: Neighborhood precinct houses, permit offices
-- Germantown/Mt. Airy: Historic civic buildings with aging single-pane windows
-- University City: Government-funded research facilities, federal agency field offices
+- Holladay/Mt. Airy: Historic civic buildings with aging single-pane windows
+- University District: Government-funded research facilities, federal agency field offices
 
 ## GEO paragraph keyword targets
 - government window film for Salt Lake City

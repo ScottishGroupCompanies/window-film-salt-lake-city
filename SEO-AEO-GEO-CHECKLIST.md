@@ -138,7 +138,7 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 
 ## 3. LOCAL SEO
 
-- [ ] 🟠 **Google Business Profile**: claimed, verified, category = "Window tinting service," service-area business (you serve Delaware Valley — set service areas, hide address if no storefront). Keep it updated (posts within 30 days).
+- [ ] 🟠 **Google Business Profile**: claimed, verified, category = "Window tinting service," service-area business (you serve Wasatch Front — set service areas, hide address if no storefront). Keep it updated (posts within 30 days).
 - [ ] 🔴 **NAP consistency**: Name / Address / Phone identical across site footer, schema, GBP, and all citations. Phone `(801) 895-4681`, email `info@windowfilmphl.com` — audit that schema, footer, chat widget, and GBP all match exactly.
 - [ ] 🟠 **LocalBusiness schema** matches GBP (name, phone, geo, areaServed, hours). Currently hours in schema say Mon–Fri 08–17 but chat widget says Mon–Sat 8am–6pm — **reconcile the discrepancy** (pick the truth, sync schema + widget + GBP).
 - [ ] 🟠 **Citations**: consistent listings on Yelp, BBB, Angi, Houzz, Thumbtack, Nextdoor, Apple Business Connect, Bing Places, industry directories. (You have backlink skills for Houzz/Thumbtack/BBB — leverage them.)

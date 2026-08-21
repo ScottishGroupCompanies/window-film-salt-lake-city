@@ -69,10 +69,10 @@ All four city pages have strong keyword alignment:
 
 | Page | Meta Title | H1 | First Body H2 |
 |------|------------|-----|---------------|
-| /cities/salt-lake-city/ | "Window Film Salt Lake City PA \| Window Film Contractor Salt Lake City" | "Window Film Solutions Salt Lake City, UT" | "Salt Lake City's Trusted Window Film Experts" |
-| /cities/camden/ | "Window Film Camden NJ \| Window Film Contractor Camden" | "Window Film Solutions Camden, NJ" | "Window Film in Camden, NJ" |
-| /cities/reading/ | "Window Film Reading, PA \| Window Film Contractor Reading" | "Window Film Solutions Reading, PA" | "Window Film in Reading, PA" |
-| /cities/upper-darby-township/ | "Window Film Upper Darby Township PA \| Window Film Contractor Upper Darby" | "Window Film Solutions Upper Darby, PA" | "Window Film in Upper Darby, PA" |
+| /cities/salt-lake-city/ | "Window Film Salt Lake City UT \| Window Film Contractor Salt Lake City" | "Window Film Solutions Salt Lake City, UT" | "Salt Lake City's Trusted Window Film Experts" |
+| /cities/sandy/ | "Window Film Sandy UT \| Window Film Contractor Sandy" | "Window Film Solutions Sandy, UT" | "Window Film in Sandy, UT" |
+| /cities/reading/ | "Window Film Ogden, UT \| Window Film Contractor Reading" | "Window Film Solutions Ogden, UT" | "Window Film in Ogden, UT" |
+| /cities/provo/ | "Window Film Provo UT \| Window Film Contractor Provo" | "Window Film Solutions Provo, PA" | "Window Film in Provo, PA" |
 
 **Assessment:** City pages are the best-optimized section of the site. Primary
 keyword in title, H1, and first body heading. No changes needed.
@@ -92,7 +92,7 @@ keyword in title, H1, and first body heading. No changes needed.
 
 | Signal | Before | After | Status |
 |--------|--------|-------|--------|
-| Meta title | "Window Film Applications \| Salt Lake City PA \| All Properties" | No change needed | OK |
+| Meta title | "Window Film Applications \| Salt Lake City UT \| All Properties" | No change needed | OK |
 | InnerPageHero H1 | "Window Film Applications" | "Window Film Applications Salt Lake City" | [FIXED] |
 
 ---
@@ -187,7 +187,7 @@ has NO dedicated page targeting.
   page will outrank WFP for this term regardless of how strong the homepage is.
 - Recommendation: Create /residential-window-film-salt-lake-city/ as a dedicated
   service page targeting solar control, privacy, UV, and energy savings for
-  Salt Lake City homes. Use the Camden city page template as structural reference.
+  Salt Lake City homes. Use the Sandy city page template as structural reference.
 
 **B. "Commercial Window Film Salt Lake City"**
 - Est. volume: 300-600 mo / Very high commercial intent
@@ -227,20 +227,20 @@ has NO dedicated page targeting.
 
 ### MEDIUM GAPS — Adjacent City Pages
 
-The site serves Cherry Hill NJ, Voorhees NJ, Haddonfield NJ, Collingswood NJ,
-Pennsauken NJ, Marlton NJ, and Maple Shade NJ (listed in the sidebar) — but
+The site serves West Valley City NJ, Murray NJ, Bountiful NJ, Midvale NJ,
+Taylorsville NJ, Lehi NJ, and Orem UT (listed in the sidebar) — but
 all seven of these cities point to /contact/ with no dedicated city page.
 
 Each of these markets has local search intent:
-- "window film Cherry Hill NJ" — vol: 50-150/mo, very low competition
-- "window film Voorhees NJ" — vol: 30-100/mo, very low competition
-- "window film Cherry Hill" — val: similar
+- "window film West Valley City NJ" — vol: 50-150/mo, very low competition
+- "window film Murray NJ" — vol: 30-100/mo, very low competition
+- "window film West Valley City" — val: similar
 
 These are easy wins. Low competition, geo-specific intent, zero content
-investment needed beyond replicating the Camden/Reading template.
+investment needed beyond replicating the Sandy/Reading template.
 
-Priority order: Cherry Hill NJ (largest population, most searches) > Voorhees >
-Marlton > Haddonfield > Collingswood > Pennsauken > Maple Shade.
+Priority order: West Valley City UT (largest population, most searches) > Murray >
+Lehi > Bountiful > Midvale > Taylorsville > Orem.
 
 ### LOW GAPS — Resource Content
 
@@ -351,7 +351,7 @@ from mid-funnel searchers who convert to leads:
    — captures a high-intent query with zero local competition
 
 5. "Window Film for Salt Lake City Historic Buildings: What's Allowed and What Works"
-   — captures a niche but high-value segment (Society Hill, Old City, Fairmount)
+   — captures a niche but high-value segment (Capitol Hill, The Avenues, Fairmount)
 
 ---
 
@@ -360,9 +360,9 @@ from mid-funnel searchers who convert to leads:
 ### Strong Slugs (keyword-optimized, no changes needed)
 
 - /cities/salt-lake-city/ — clean, geo-correct
-- /cities/camden/ — clean
+- /cities/sandy/ — clean
 - /cities/reading/ — clean
-- /cities/upper-darby-township/ — clean (full township name is correct)
+- /cities/provo/ — clean (full township name is correct)
 - /benefits/privacy-window-film-salt-lake-city/ — exact keyword match URL
 - /benefits/uv-blocking-window-film-salt-lake-city/ — exact keyword match URL
 - /benefits/school-security-window-film/ — descriptive and specific
@@ -470,13 +470,13 @@ All 28 fixes below were implemented and confirmed with a clean 65-page build:
 
 **P1. /residential-window-film-salt-lake-city/**
 Target keyword: "residential window film Salt Lake City" (200-400 mo)
-Template: Camden city page structure
+Template: Sandy city page structure
 Key sections: film types for homes, rowhouse/historic building use cases,
 energy savings ROI, privacy options, pricing callout, FAQ
 
 **P2. /commercial-window-film-salt-lake-city/**
 Target keyword: "commercial window film Salt Lake City" (300-600 mo)
-Template: Camden city page structure
+Template: Sandy city page structure
 Key sections: office/retail/industrial use cases, energy code compliance,
 LEED documentation, installation process for occupied spaces, FAQ
 
@@ -511,12 +511,12 @@ is the natural follow-up sweep.
 
 ### MEDIUM PRIORITY — Adjacent City Pages
 
-**P7-P13. Cherry Hill NJ, Voorhees NJ, Marlton NJ, Haddonfield NJ, Collingswood NJ,
-Pennsauken NJ, Maple Shade NJ**
-Each page: use Camden as the structural template, update city-specific copy,
+**P7-P13. West Valley City NJ, Murray NJ, Lehi NJ, Bountiful NJ, Midvale NJ,
+Taylorsville NJ, Orem NJ**
+Each page: use Sandy as the structural template, update city-specific copy,
 neighborhoods, FAQ answers, and set the sidebar active state. These are fast
 to build and have very low competition.
-Priority order: Cherry Hill > Voorhees > Marlton > Haddonfield
+Priority order: West Valley City > Murray > Lehi > Bountiful
 
 ---
 

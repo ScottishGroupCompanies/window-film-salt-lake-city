@@ -1,6 +1,6 @@
 # Window Film Salt Lake City
 
-Static Astro rebuild of [windowfilmsaltlakecity.com](https://www.windowfilmsaltlakecity.com) — residential & commercial window film in Salt Lake City, Camden, Reading, Upper Darby Township.
+Static Astro rebuild of [windowfilmsaltlakecity.com](https://www.windowfilmsaltlakecity.com) — residential & commercial window film in Salt Lake City, Sandy, Reading, Provo.
 
 - **Stack:** Astro v4 + Tailwind CSS + TypeScript
 - **Repo:** [`ScottishGroupCompanies/wfp-redesign`](https://github.com/ScottishGroupCompanies/wfp-redesign)
@@ -65,7 +65,7 @@ wfp-redesign/
 | Homepage | ✅ Redesigned |
 | Services (2 páginas) | ✅ Redesigned |
 | Benefits (17 páginas) | ✅ Redesigned |
-| Cities (Camden template + 3 copias pendientes) | 🟡 Template listo |
+| Cities (Sandy template + 3 copias pendientes) | 🟡 Template listo |
 | Applications (10 páginas) | 🔴 Por hacer |
 | Products (12 páginas) | 🔴 Por hacer |
 | Resources (10 páginas) | 🔴 Por hacer |

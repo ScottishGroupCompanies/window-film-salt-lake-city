@@ -112,7 +112,7 @@ Source: Solyx product spec sheets (decorativefilm.com), competitive data from 3M
 
 ## Slider
 - **Slide 1 — Residential:** "Salt Lake City Homes Trust Solyx Privacy Film" — rowhome owners and condo residents using frosted and gradient films for street-facing privacy and bathroom windows without sacrificing daylight
-- **Slide 2 — Commercial:** "Salt Lake City Offices Choose Solyx for Interiors" — Center City offices, law firms, medical suites, and co-working spaces using decorative pattern films, gradient conference room films, and UltraCool solar on west-facing glass
+- **Slide 2 — Commercial:** "Salt Lake City Offices Choose Solyx for Interiors" — Downtown Salt Lake City offices, law firms, medical suites, and co-working spaces using decorative pattern films, gradient conference room films, and UltraCool solar on west-facing glass
 
 ---
 

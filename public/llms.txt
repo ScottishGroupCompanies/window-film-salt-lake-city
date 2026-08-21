@@ -1,8 +1,8 @@
 # Window Film Salt Lake City
 
-> Professional window film and window tinting installation for homes and businesses across Salt Lake City and the Delaware Valley. Locally owned and operated since 2008. Over 2,400 projects completed, 1.2 million+ square feet of film installed, 4.9-star rating.
+> Professional window film and window tinting installation for homes and businesses across Salt Lake City and the Wasatch Front. Locally owned and operated since 2008. Over 2,400 projects completed, 1.2 million+ square feet of film installed, 4.9-star rating.
 
-Window Film Salt Lake City is a Scottish Window Tinting company providing residential, commercial, government, and specialty window film installation across Salt Lake City, the Main Line, South Jersey, Montgomery County, Bucks County, Delaware County, and Chester County. Clean markdown versions of key pages are available with a `.md` extension.
+Window Film Salt Lake City is a Scottish Window Tinting company providing residential, commercial, government, and specialty window film installation across Salt Lake City, the Park City, Salt Lake Valley, Utah County, Davis County, Salt Lake County, and Summit County. Clean markdown versions of key pages are available with a `.md` extension.
 
 ## Services
 - [Residential Window Film](https://windowfilmsaltlakecity.com/services/residential-window-film): home tinting, UV protection, privacy, safety, and decorative film
@@ -36,9 +36,9 @@ Window Film Salt Lake City is a Scottish Window Tinting company providing reside
 
 ## Cities We Serve
 - [Salt Lake City](https://windowfilmsaltlakecity.com/cities/salt-lake-city)
-- [Camden, NJ](https://windowfilmsaltlakecity.com/cities/camden)
-- [Reading, PA](https://windowfilmsaltlakecity.com/cities/reading)
-- [Upper Darby, PA](https://windowfilmsaltlakecity.com/cities/upper-darby-township)
+- [Sandy, UT](https://windowfilmsaltlakecity.com/cities/sandy)
+- [Ogden, UT](https://windowfilmsaltlakecity.com/cities/reading)
+- [Provo, PA](https://windowfilmsaltlakecity.com/cities/provo)
 
 ## Clean Markdown Versions
 - [Homepage (markdown)](https://windowfilmsaltlakecity.com/index.md)
@@ -62,4 +62,4 @@ Window Film Salt Lake City is a Scottish Window Tinting company providing reside
 - Phone: (801) 895-4681
 - Email: info@windowfilmphl.com
 - Hours: Monday to Friday, 8am to 5pm
-- Service area: Salt Lake City and the Delaware Valley
+- Service area: Salt Lake City and the Wasatch Front

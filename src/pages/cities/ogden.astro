@@ -10,82 +10,82 @@ import ScrollReveal from '../../components/animations/ScrollReveal.astro';
 import InnerPageHero from '../../components/InnerPageHero.astro';
 import CategoryBlogFeed from '../../components/CategoryBlogFeed.astro';
 
-const title = 'Window Film Reading PA | Window Film Contractor Reading';
-const description = 'Window film installation in Reading, PA — solar control, security, privacy, and decorative film. Free estimates, certified installers, warranty.';
+const title = 'Window Film Ogden UT | Window Film Contractor Reading';
+const description = 'Window film installation in Ogden, UT — solar control, security, privacy, and decorative film. Free estimates, certified installers, warranty.';
 
 const filmBenefits = [
   {
     number: '01',
     title: 'Energy Savings',
-    detail: `<p>Reading sits in the Schuylkill River valley, where July afternoons regularly hit 85°F and humidity lingers in the 70s. Solar control film rejects up to <strong>78% of solar heat</strong> at the glass, before it ever reaches your living space. Brick rowhouses throughout Downtown Reading and Hampden Heights trap that heat well past sundown — film breaks the cycle.</p><ul><li>Cuts HVAC runtime and monthly cooling bills across the summer season</li><li>Measurable interior temperature drops of 10–15°F on west-facing rooms during peak afternoon sun</li><li>Low-E variants also reduce winter heat loss through single-pane glass common in Reading's older housing stock</li></ul>`,
+    detail: `<p>Ogden sits at the base of the Wasatch Range, where July afternoons regularly top 90°F under intense high-altitude sun. Solar control film rejects up to <strong>78% of solar heat</strong> at the glass, before it ever reaches your living space. Brick homes throughout Downtown Ogden and the East Bench trap that heat well past sundown — film breaks the cycle.</p><ul><li>Cuts HVAC runtime and monthly cooling bills across the summer season</li><li>Measurable interior temperature drops of 10–15°F on west-facing rooms during peak afternoon sun</li><li>Low-E variants also reduce winter heat loss through single-pane glass common in Ogden's older housing stock</li></ul>`,
     image: '/images/window-film-reading-pa-film-energy.jpg',
-    imageAlt: 'Energy-saving window film in a Reading PA brick rowhome living room — natural light filtered, cooler interior',
+    imageAlt: 'Energy-saving window film in a Ogden UT brick rowhome living room — natural light filtered, cooler interior',
   },
   {
     number: '02',
     title: 'UV Protection',
-    detail: `<p>Utah summers deliver intense UV exposure that fades hardwood floors, rugs, and furniture long before their time. UV-blocking film stops <strong>99% of UV-A and UV-B radiation</strong> at the glass — the same rays that discolor merchandise in Penn Street storefronts and artwork in Wyomissing living rooms.</p><ul><li>Essential for Reading Hospital clinical spaces and Albright College campus buildings with large glazing</li><li>Optically clear — preserves natural light and outward views with no visible tint</li><li>Reduces fading by up to 60% versus unprotected glass</li></ul>`,
+    detail: `<p>Utah summers deliver intense UV exposure that fades hardwood floors, rugs, and furniture long before their time. UV-blocking film stops <strong>99% of UV-A and UV-B radiation</strong> at the glass — the same rays that discolor merchandise in Washington Boulevard storefronts and artwork in South Ogden living rooms.</p><ul><li>Essential for McKay-Dee Hospital clinical spaces and Weber State University campus buildings with large glazing</li><li>Optically clear — preserves natural light and outward views with no visible tint</li><li>Reduces fading by up to 60% versus unprotected glass</li></ul>`,
     image: '/images/window-film-reading-pa-film-uv.jpg',
-    imageAlt: 'UV-blocking window film protecting a Reading PA home interior from sun damage and fading',
+    imageAlt: 'UV-blocking window film protecting a Ogden UT home interior from sun damage and fading',
   },
   {
     number: '03',
     title: 'Privacy Film',
-    detail: `<p>Reading's dense brick rowhome blocks and closely spaced commercial corridors leave ground-floor windows exposed to foot traffic and neighboring buildings. Privacy film adds a barrier <strong>without darkening the room</strong> — frosted, reflective, and gradient options all let daylight through.</p><ul><li>One-way reflective film preserves Schuylkill River and Mount Penn views from West Reading condos</li><li>Frosted film for Reading Hospital exam rooms, Berks County government offices, and law firm conference spaces</li><li>Available in clear frosted, custom patterns, gradient, and branded designs — every option fully removable</li></ul>`,
+    detail: `<p>Ogden's dense brick rowhome blocks and closely spaced commercial corridors leave ground-floor windows exposed to foot traffic and neighboring buildings. Privacy film adds a barrier <strong>without darkening the room</strong> — frosted, reflective, and gradient options all let daylight through.</p><ul><li>One-way reflective film preserves Jordan River and the Wasatch foothills views from South Ogden condos</li><li>Frosted film for McKay-Dee Hospital exam rooms, Weber County government offices, and law firm conference spaces</li><li>Available in clear frosted, custom patterns, gradient, and branded designs — every option fully removable</li></ul>`,
     image: '/images/window-film-reading-pa-film-privacy.jpg',
-    imageAlt: 'Frosted privacy window film on a conference room partition in a Reading PA office',
+    imageAlt: 'Frosted privacy window film on a conference room partition in a Ogden UT office',
   },
   {
     number: '04',
     title: 'Safety & Security',
-    detail: `<p>Property crime remains a reality in parts of Reading, where the city has worked hard to recover from decades of economic decline. Security film <strong>bonds glass fragments together on impact</strong>, transforming a pane that would shatter into shards into a barrier that holds — slowing forced entry and protecting occupants.</p><ul><li>Keeps glass intact during break-in attempts, storms, and accidents rather than shattering into hazardous shards</li><li>Institutional and government buildings rely on security film to meet ANSI and GSA glazing safety benchmarks</li><li>Bomb blast mitigation configurations available for federally regulated facilities</li></ul>`,
+    detail: `<p>Property crime remains a reality in parts of Ogden, where the city has worked hard to recover from decades of economic decline. Security film <strong>bonds glass fragments together on impact</strong>, transforming a pane that would shatter into shards into a barrier that holds — slowing forced entry and protecting occupants.</p><ul><li>Keeps glass intact during break-in attempts, storms, and accidents rather than shattering into hazardous shards</li><li>Institutional and government buildings rely on security film to meet ANSI and GSA glazing safety benchmarks</li><li>Bomb blast mitigation configurations available for federally regulated facilities</li></ul>`,
     image: '/images/window-film-reading-pa-film-safety.jpg',
-    imageAlt: 'Secure commercial building entrance in Reading PA with safety and security window film on glass doors',
+    imageAlt: 'Secure commercial building entrance in Ogden UT with safety and security window film on glass doors',
   },
   {
     number: '05',
     title: 'Anti-Graffiti',
-    detail: `<p>Storefronts along Penn Street and Fifth Street know the recurring cost of scratched and acid-etched glass. Anti-graffiti film is a <strong>sacrificial barrier</strong> — vandalism damages the film, not the pane underneath, and a quick film swap restores the surface for a fraction of glass replacement.</p><ul><li>Each film replacement costs a small percentage of what new glass would run</li><li>Most Reading business owners recover the initial investment within the first one or two incidents prevented</li><li>Comes in clear or lightly tinted versions — visually invisible on installed glass</li></ul>`,
+    detail: `<p>Storefronts along Washington Boulevard and Historic 25th Street know the recurring cost of scratched and acid-etched glass. Anti-graffiti film is a <strong>sacrificial barrier</strong> — vandalism damages the film, not the pane underneath, and a quick film swap restores the surface for a fraction of glass replacement.</p><ul><li>Each film replacement costs a small percentage of what new glass would run</li><li>Most Ogden business owners recover the initial investment within the first one or two incidents prevented</li><li>Comes in clear or lightly tinted versions — visually invisible on installed glass</li></ul>`,
     image: '/images/window-film-reading-pa-film-graffiti.jpg',
-    imageAlt: 'Clean commercial storefront glass in Reading PA protected by anti-graffiti window film',
+    imageAlt: 'Clean commercial storefront glass in Ogden UT protected by anti-graffiti window film',
   },
   {
     number: '06',
     title: 'Glare Reduction',
-    detail: `<p>East- and west-facing windows in Hampden Heights, Glenside, and Muhlenberg Township catch direct sun during morning and afternoon hours — making screens, monitors, and workspaces difficult to use. Glare reduction film filters up to <strong>85% of visible glare</strong> while keeping the room bright.</p><ul><li>Open-plan offices and home workspaces see immediate improvement — screens become readable without squinting</li><li>Works on every glass type, including the single-pane windows found throughout Reading's historic housing stock</li></ul>`,
+    detail: `<p>East- and west-facing windows in East Bench, South Ogden, and North Ogden catch direct sun during morning and afternoon hours — making screens, monitors, and workspaces difficult to use. Glare reduction film filters up to <strong>85% of visible glare</strong> while keeping the room bright.</p><ul><li>Open-plan offices and home workspaces see immediate improvement — screens become readable without squinting</li><li>Works on every glass type, including the single-pane windows found throughout Ogden's historic housing stock</li></ul>`,
     image: '/images/window-film-reading-pa-film-glare.jpg',
-    imageAlt: 'Reading PA office worker at computer desk near window with no screen glare after window film installation',
+    imageAlt: 'Ogden UT office worker at computer desk near window with no screen glare after window film installation',
   },
   {
     number: '07',
     title: 'Decorative Film',
-    detail: `<p>West Reading's revitalized arts corridor and the ongoing conversion of factory buildings into loft workspaces have created demand for distinctive glass design. Frosted, patterned, and gradient films deliver an <strong>etched-glass look without etched-glass cost</strong>.</p><ul><li>Custom-branded window graphics for Reading businesses — logos, wayfinding signage, and repeating patterns</li><li>A strong fit for Reading Hospital waiting areas, Albright College library spaces, and Berks County office lobbies</li><li>Completely removable — no permanent change to the underlying glass</li></ul>`,
+    detail: `<p>South Ogden's revitalized arts corridor and the ongoing conversion of factory buildings into loft workspaces have created demand for distinctive glass design. Frosted, patterned, and gradient films deliver an <strong>etched-glass look without etched-glass cost</strong>.</p><ul><li>Custom-branded window graphics for Ogden businesses — logos, wayfinding signage, and repeating patterns</li><li>A strong fit for McKay-Dee Hospital waiting areas, Weber State University library spaces, and Weber County office lobbies</li><li>Completely removable — no permanent change to the underlying glass</li></ul>`,
     image: '/images/window-film-reading-pa-film-decorative.jpg',
-    imageAlt: 'Decorative frosted glass pattern on a partition wall in a Reading PA office or lobby',
+    imageAlt: 'Decorative frosted glass pattern on a partition wall in a Ogden UT office or lobby',
   },
   {
     number: '08',
     title: 'Solar Control',
-    detail: `<p>Solar control film is the most versatile category we install across Reading and Berks County — one application addresses heat gain, glare, and UV simultaneously for homes, offices, retail stores, and institutional properties.</p><ul><li>Spectrally selective films reject infrared heat while preserving natural light and clear views</li><li>Ceramic constructions contain zero metal — no interference with Wi-Fi, cellular, or sensitive medical electronics</li><li>NFRC-rated options available with documented VLT, SHGC, and TSER values for energy code and LEED compliance</li></ul>`,
+    detail: `<p>Solar control film is the most versatile category we install across Ogden and Weber County — one application addresses heat gain, glare, and UV simultaneously for homes, offices, retail stores, and institutional properties.</p><ul><li>Spectrally selective films reject infrared heat while preserving natural light and clear views</li><li>Ceramic constructions contain zero metal — no interference with Wi-Fi, cellular, or sensitive medical electronics</li><li>NFRC-rated options available with documented VLT, SHGC, and TSER values for energy code and LEED compliance</li></ul>`,
     image: '/images/window-film-reading-pa-film-solar.jpg',
-    imageAlt: 'Solar control window film on a modern Reading PA commercial office building exterior',
+    imageAlt: 'Solar control window film on a modern Ogden UT commercial office building exterior',
   },
 ];
 
 const faqItems = [
-  { question: 'Is window film permitted on Reading homes and businesses?', answer: 'Yes. Utah imposes no statewide restriction on architectural window film for residential or commercial buildings. Solar, privacy, decorative, security, and anti-graffiti films can all be installed without a permit. If your property sits within a Reading historic district or falls under an HOA, your documents may include reflectivity guidelines — we carry non-reflective film options that satisfy most requirements and can help you navigate the approval process.' },
-  { question: 'How is window film priced for Berks County properties?', answer: 'Cost depends on film category, total glass area, window count, and how accessible each pane is. Solar control, privacy, decorative, security, and anti-graffiti films each sit at different price points, and no two Reading buildings are identical. Rather than guess, we offer free on-site consultations and deliver a detailed written estimate calibrated to your specific windows and objectives. No obligation, no charge.' },
+  { question: 'Is window film permitted on Ogden homes and businesses?', answer: 'Yes. Utah imposes no statewide restriction on architectural window film for residential or commercial buildings. Solar, privacy, decorative, security, and anti-graffiti films can all be installed without a permit. If your property sits within a Ogden historic district or falls under an HOA, your documents may include reflectivity guidelines — we carry non-reflective film options that satisfy most requirements and can help you navigate the approval process.' },
+  { question: 'How is window film priced for Weber County properties?', answer: 'Cost depends on film category, total glass area, window count, and how accessible each pane is. Solar control, privacy, decorative, security, and anti-graffiti films each sit at different price points, and no two Ogden buildings are identical. Rather than guess, we offer free on-site consultations and deliver a detailed written estimate calibrated to your specific windows and objectives. No obligation, no charge.' },
   { question: 'What should I expect during a window film installation?', answer: 'Several variables shape the process: how many windows we are filming, their size and type, the film selected, glass accessibility, and the building layout. A single rowhouse looks very different from a multi-floor commercial install. During your free consultation we evaluate the full scope, give you a realistic schedule, work around your routine, and handle all cleanup when we finish.' },
-  { question: 'What kind of warranty covers window film in Reading?', answer: 'Warranty coverage depends on the manufacturer and product line. Leading brands — 3M, LLumar, Vista, and Solar Gard among them — back their architectural films with manufacturer warranties against peeling, bubbling, delamination, and color shift. Coverage periods and specifics vary by film, so we review the warranty for your chosen product in full before any installation begins.' },
-  { question: 'How effective is solar control film during Utah summers?', answer: 'High-performance solar control films reject up to 85% of solar heat gain — the main cause of summer overheating in Reading and across Berks County. July highs here regularly reach the mid-80s°F with humidity in the 70s. Window film reduces hot spots near glass, lowers peak indoor temperatures, and eases air-conditioning load, often cutting cooling energy costs by 20–30%. The U.S. Department of Energy reports that windows account for 25–30% of a building\'s total heating and cooling energy loss.' },
+  { question: 'What kind of warranty covers window film in Ogden?', answer: 'Warranty coverage depends on the manufacturer and product line. Leading brands — 3M, LLumar, Vista, and Solar Gard among them — back their architectural films with manufacturer warranties against peeling, bubbling, delamination, and color shift. Coverage periods and specifics vary by film, so we review the warranty for your chosen product in full before any installation begins.' },
+  { question: 'How effective is solar control film during Utah summers?', answer: 'High-performance solar control films reject up to 85% of solar heat gain — the main cause of summer overheating in Ogden and across Weber County. July highs here regularly reach the mid-90s°F under intense mountain sun. Window film reduces hot spots near glass, lowers peak indoor temperatures, and eases air-conditioning load, often cutting cooling energy costs by 20–30%. The U.S. Department of Energy reports that windows account for 25–30% of a building\'s total heating and cooling energy loss.' },
   { question: 'Does window film really block UV radiation?', answer: 'Yes. Most architectural window films block 99% or more of UV-A and UV-B radiation — including clear, low-reflectivity options. UV is the leading cause of fading in hardwood floors, upholstery, artwork, and retail merchandise, and it contributes to skin damage with prolonged exposure near windows. UV-blocking film reduces fading by up to 60% versus unprotected glass without noticeably reducing visible light.' },
   { question: 'Can window film be taken off without harming the glass?', answer: 'Yes. Window film is professionally removable at any point with no permanent damage to the glass. The process uses heat and a mild adhesive solvent, leaving no scratches, marks, or residue behind. Renters, property managers, and building owners who want a non-permanent upgrade often choose window film precisely for this flexibility.' },
-  { question: 'Does window film help in winter or only in summer?', answer: 'Both. Solar control film cuts heat gain in summer. Certain low-emissivity (low-e) films also retain interior warmth in winter by reflecting radiant heat back into the room — the same principle behind double-pane Low-E glass. This dual-season performance matters in Reading, where January temperatures frequently drop into the 20s°F. Year-round use can reduce total HVAC energy consumption by 5–15%.' },
-  { question: 'What distinguishes privacy film from solar control film?', answer: 'Solar control film reduces heat gain and glare while keeping a clear outward view — it works by filtering infrared energy at the glass. Privacy film — including frosted, whiteout, and one-way mirror variants — obscures the view into a space, either around the clock (frosted) or from one direction during daylight hours (reflective). Many Reading clients layer both: solar film on main living areas for energy savings, frosted film on bathrooms, conference rooms, or street-facing glass for privacy.' },
-  { question: 'Do you apply anti-graffiti film to Reading storefronts?', answer: 'Yes. Anti-graffiti film — also called sacrificial film — is a clear protective layer applied to exterior glass and smooth surfaces. When vandalism happens, the damaged film peels off and is replaced for a fraction of what new glass would cost. It is a popular choice for Penn Street and Fifth Street storefronts and commercial corridors across Reading where scratching and spray tagging are recurring problems.' },
+  { question: 'Does window film help in winter or only in summer?', answer: 'Both. Solar control film cuts heat gain in summer. Certain low-emissivity (low-e) films also retain interior warmth in winter by reflecting radiant heat back into the room — the same principle behind double-pane Low-E glass. This dual-season performance matters in Ogden, where January temperatures frequently drop into the 20s°F. Year-round use can reduce total HVAC energy consumption by 5–15%.' },
+  { question: 'What distinguishes privacy film from solar control film?', answer: 'Solar control film reduces heat gain and glare while keeping a clear outward view — it works by filtering infrared energy at the glass. Privacy film — including frosted, whiteout, and one-way mirror variants — obscures the view into a space, either around the clock (frosted) or from one direction during daylight hours (reflective). Many Ogden clients layer both: solar film on main living areas for energy savings, frosted film on bathrooms, conference rooms, or street-facing glass for privacy.' },
+  { question: 'Do you apply anti-graffiti film to Ogden storefronts?', answer: 'Yes. Anti-graffiti film — also called sacrificial film — is a clear protective layer applied to exterior glass and smooth surfaces. When vandalism happens, the damaged film peels off and is replaced for a fraction of what new glass would cost. It is a popular choice for Washington Boulevard and Historic 25th Street storefronts and commercial corridors across Ogden where scratching and spray tagging are recurring problems.' },
   { question: 'Will window film affect my window manufacturer\'s warranty?', answer: 'No — when professionally installed on standard single-pane, double-pane, or tempered glass. For sealed insulated glass units (IGUs), we select film types rated for that specific glass to prevent heat-stress buildup. Our installers verify the glass specification before recommending any product. Most major glass manufacturers do not void warranties when an IGU-rated film is correctly applied.' },
   { question: 'Are there tax incentives for energy-saving window film in Utah?', answer: 'Potentially yes. The federal Inflation Reduction Act Section 25C tax credit covers qualifying building-envelope improvements — which can include energy-efficient window treatments — up to $1,200 per year for eligible residential projects. Utah also offers commercial energy efficiency incentive programs. We recommend consulting a tax professional to confirm eligibility based on your film specification and property type.' },
-  { question: 'Do you provide free on-site estimates across Berks County?', answer: 'Yes. We offer free, no-obligation consultations at your home or business anywhere in Reading and throughout Berks County. During the visit we assess window type, sun exposure, and your goals, then deliver a detailed written estimate. No pressure, no charge.' },
+  { question: 'Do you provide free on-site estimates across Weber County?', answer: 'Yes. We offer free, no-obligation consultations at your home or business anywhere in Ogden and throughout Weber County. During the visit we assess window type, sun exposure, and your goals, then deliver a detailed written estimate. No pressure, no charge.' },
 ];
 
 const today = new Date().toISOString().slice(0, 10);
@@ -93,54 +93,54 @@ const pageSchemas = [
   {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    '@id': 'https://windowfilmsaltlakecity.com/cities/reading/#breadcrumb',
+    '@id': 'https://windowfilmsaltlakecity.com/cities/ogden/#breadcrumb',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
       { '@type': 'ListItem', position: 2, name: 'Cities We Serve', item: 'https://windowfilmsaltlakecity.com/cities/' },
-      { '@type': 'ListItem', position: 3, name: 'Window Film Reading PA', item: 'https://windowfilmsaltlakecity.com/cities/reading/' },
+      { '@type': 'ListItem', position: 3, name: 'Window Film Ogden UT', item: 'https://windowfilmsaltlakecity.com/cities/ogden/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://windowfilmsaltlakecity.com/cities/reading/#webpage',
-    url: 'https://windowfilmsaltlakecity.com/cities/reading/',
+    '@id': 'https://windowfilmsaltlakecity.com/cities/ogden/#webpage',
+    url: 'https://windowfilmsaltlakecity.com/cities/ogden/',
     name: title,
     description: description,
     inLanguage: 'en-US',
     isPartOf: { '@id': 'https://windowfilmsaltlakecity.com/#website' },
-    about: { '@type': 'City', name: 'Reading', containedInPlace: { '@type': 'State', name: 'Utah' } },
+    about: { '@type': 'City', name: 'Ogden', containedInPlace: { '@type': 'State', name: 'Utah' } },
     dateModified: today,
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['.rd-hero__subtitle', '.faq__a-inner p'],
     },
-    breadcrumb: { '@id': 'https://windowfilmsaltlakecity.com/cities/reading/#breadcrumb' },
+    breadcrumb: { '@id': 'https://windowfilmsaltlakecity.com/cities/ogden/#breadcrumb' },
   },
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="https://windowfilmsaltlakecity.com/cities/reading/" faqItems={faqItems} schemas={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="https://windowfilmsaltlakecity.com/cities/ogden/" faqItems={faqItems} schemas={pageSchemas}>
 
 <!-- ══ HERO ══ -->
 <section class="rd-hero">
   <div class="rd-hero__overlay"></div>
   <div class="rd-hero__container">
-    <div class="rd-hero__label">WINDOW FILM INSTALLATION &middot; READING, PA</div>
+    <div class="rd-hero__label">WINDOW FILM INSTALLATION &middot; READING, UT</div>
     <div class="rd-hero__content">
-      <h1 class="rd-hero__title">Window Film in Reading<br/>&mdash; Berks County's Best</h1>
-      <p class="rd-hero__subtitle">Professional residential and commercial window film installation in Reading, PA and throughout Berks County. Solar control, security, privacy, and decorative film for Reading homes and businesses — free estimates, certified installers, manufacturer warranties.</p>
+      <h1 class="rd-hero__title">Window Film in Ogden<br/>&mdash; Weber County's Best</h1>
+      <p class="rd-hero__subtitle">Professional residential and commercial window film installation in Ogden, UT and throughout Weber County. Solar control, security, privacy, and decorative film for Ogden homes and businesses — free estimates, certified installers, manufacturer warranties.</p>
       <div class="rd-hero__buttons">
         <a href="/contact/" class="btn-hero btn-hero--primary">Get Your Free Estimate &rarr;</a>
         <a href="tel:+18018954681" class="btn-hero btn-hero--secondary">Call (801) 895-4681</a>
       </div>
     </div>
     <div class="rd-hero__bottom">
-      <div class="rd-hero__tagline">Trusted by Reading homeowners and businesses since 2008.</div>
+      <div class="rd-hero__tagline">Trusted by Ogden homeowners and businesses since 2008.</div>
       <div class="rd-hero__stats">
         <div class="hero-stat-item">
           <div class="hero-stat-item__number" data-count="18">0</div>
-          <div class="hero-stat-item__label">Years Serving Berks County</div>
+          <div class="hero-stat-item__label">Years Serving Weber County</div>
         </div>
         <div class="hero-stat-item">
           <div class="hero-stat-item__number" data-count="500">0</div>
@@ -166,7 +166,7 @@ const pageSchemas = [
     <div class="rd-why__image-wrap">
       <img
         src="/images/window-film-reading-pa-urban-heat.jpg"
-        alt="Schuylkill River flowing through Reading PA with the Reading Pagoda visible on Mount Penn — Berks County's summer heat and humidity make window film essential" title="Schuylkill River flowing through Reading PA with the Reading Pagoda visible on Mount Penn — Berks County's summer heat and humidity make window film essential"
+        alt="Jordan River flowing through Ogden UT with the Wasatch Range rising behind the city — Weber County's summer heat and intense UV make window film essential" title="Jordan River flowing through Ogden UT with the Wasatch Range rising behind the city — Weber County's summer heat and intense UV make window film essential"
         class="rd-why__image"
         loading="lazy"
       />
@@ -178,36 +178,36 @@ const pageSchemas = [
         <div class="rd-why__stat-divider"></div>
         <div class="rd-why__stat-item">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7CB342" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          <span>68-72% summer humidity</span>
+          <span>68-72% summer heat</span>
         </div>
       </div>
     </div>
 
     <div class="rd-why__content">
-      <div class="rd-why__eyebrow">Berks County Climate & Context</div>
-      <h2 class="line-mask rd-why__headline" data-stagger="140" aria-label="Reading Buildings Deserve Better Glass">
+      <div class="rd-why__eyebrow">Weber County Climate & Context</div>
+      <h2 class="line-mask rd-why__headline" data-stagger="140" aria-label="Ogden Buildings Deserve Better Glass">
         <span class="line-mask__line" aria-hidden="true"><span class="line-mask__inner" style="--i:0">Reading Buildings</span></span>
         <span class="line-mask__line" aria-hidden="true"><span class="line-mask__inner" style="--i:1">Deserve Better Glass</span></span>
       </h2>
-      <p class="rd-why__intro">Reading's position in the Schuylkill River valley, its dense brick construction, and its ongoing economic recovery create a set of conditions that make window film a practical investment, not a luxury. July afternoons climb toward 85°F with humidity holding in the upper 60s and low 70s. The city's many historic brick rowhomes and converted factory lofts absorb and hold that heat deep into the evening. And after decades of economic hardship — <a href="https://en.wikipedia.org/wiki/Reading,_Utah" target="_blank" rel="noopener noreferrer" style="color:#7CB342">Reading was once labeled America's poorest city</a> — property crime remains a daily concern for business owners, making security film one of our most frequently requested products here.</p>
+      <p class="rd-why__intro">Ogden's position in the Jordan River valley, its dense brick construction, and its ongoing economic recovery create a set of conditions that make window film a practical investment, not a luxury. July afternoons climb into the mid-90s°F under some of the most intense UV exposure in the country. The city's many historic brick rowhomes and converted factory lofts absorb and hold that heat deep into the evening. And after decades of economic hardship — <a href="https://en.wikipedia.org/wiki/Ogden,_Utah" target="_blank" rel="noopener noreferrer" style="color:#7CB342">Ogden has worked through its own economic transitions</a> — property crime remains a daily concern for business owners, making security film one of our most frequently requested products here.</p>
       <ul class="rd-why__bullets">
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Summer highs of 83-87°F with 68-72% humidity turn south- and west-facing glass into radiant heat sources without solar control film
+          Summer highs in the mid-90s°F under intense high-altitude sun turn south- and west-facing glass into radiant heat sources without solar control film
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Reading's brick rowhome and factory-loft building stock absorbs and retains solar heat far longer than newer suburban construction
+          Ogden's brick rowhome and factory-loft building stock absorbs and retains solar heat far longer than newer suburban construction
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-Property crime rates above the national average make security and anti-smash film one of the highest-value installs we perform across Reading and Berks County
+Property crime rates above the national average make security and anti-smash film one of the highest-value installs we perform across Ogden and Weber County
         </li>
       </ul>
       <div class="rd-why__climate-facts">
         <div class="rd-why__climate-item">
           <span class="rd-why__climate-num">85°F</span>
-          <span class="rd-why__climate-label"><a href="https://forecast.weather.gov/MapClick.php?lat=40.3356&lon=-75.9269" target="_blank" rel="noopener noreferrer" style="color:#7CB342">Reading, PA summer highs (NWS)</a></span>
+          <span class="rd-why__climate-label"><a href="https://forecast.weather.gov/MapClick.php?lat=40.3356&lon=-75.9269" target="_blank" rel="noopener noreferrer" style="color:#7CB342">Ogden, UT summer highs (NWS)</a></span>
         </div>
         <div class="rd-why__climate-item">
           <span class="rd-why__climate-num">~95K</span>
@@ -215,10 +215,10 @@ Property crime rates above the national average make security and anti-smash fil
         </div>
         <div class="rd-why__climate-item">
           <span class="rd-why__climate-num">68-72%</span>
-          <span class="rd-why__climate-label">Relative humidity in peak summer months</span>
+          <span class="rd-why__climate-label">Elevation — stronger UV than sea level</span>
         </div>
       </div>
-      <p class="rd-why__closing">Since 2008, Window Film Salt Lake City has installed window film in Reading for homeowners, commercial tenants, and property managers throughout Berks County — <a href="/benefits/energy-savings/" style="color:#7CB342">solar control</a>, <a href="/benefits/safety-and-security/" style="color:#7CB342">security</a>, <a href="/benefits/privacy-window-film-salt-lake-city/" style="color:#7CB342">privacy</a>, and <a href="/benefits/decorative-promotional/" style="color:#7CB342">decorative film</a> applied by certified technicians with manufacturer-backed warranties on every job.</p>
+      <p class="rd-why__closing">Since 2008, Window Film Salt Lake City has installed window film in Ogden for homeowners, commercial tenants, and property managers throughout Weber County — <a href="/benefits/energy-savings/" style="color:#7CB342">solar control</a>, <a href="/benefits/safety-and-security/" style="color:#7CB342">security</a>, <a href="/benefits/privacy-window-film-salt-lake-city/" style="color:#7CB342">privacy</a>, and <a href="/benefits/decorative-promotional/" style="color:#7CB342">decorative film</a> applied by certified technicians with manufacturer-backed warranties on every job.</p>
       <a href="/contact/" class="rd-why__cta">
         Get a free Reading assessment
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
@@ -233,25 +233,25 @@ Property crime rates above the national average make security and anti-smash fil
   <div class="rd-expert__container">
     <div class="rd-expert__content">
       <p class="rd-expert__eyebrow">READING'S WINDOW FILM CREW</p>
-      <h2 class="rd-expert__title">Why choose us for window film in Reading, PA?</h2>
-      <p class="rd-expert__body">Window Film Salt Lake City has been applying window film across Reading and the broader Berks County market since 2008. Our certified installers handle every category of project — cooling a Hampden Heights rowhouse with solar film, hardening a Penn Street storefront with security film, adding frosted privacy to a Reading Hospital clinic, or outfitting a Wyomissing home office with glare-reduction film. Every install is measured, cut, and finished by our own technicians.</p>
-      <p class="rd-expert__body">Reading's built environment poses its own set of challenges: aging brick rowhomes with single-pane glass, factory buildings converted to loft use, institutional campuses with large curtain-wall glazing, and commercial corridors where property crime is a daily reality. Our film recommendations account for all of it — heat rejection, security reinforcement, UV protection, and visual privacy delivered in a single professional visit. Every window film contractor working in Reading should carry full insurance and current manufacturer certifications; ours do. We also serve <a href="/cities/salt-lake-city/" style="color:#7CB342">Salt Lake City</a>, <a href="/cities/camden/" style="color:#7CB342">South Jersey</a>, and communities throughout the greater region.</p>
+      <h2 class="rd-expert__title">Why choose us for window film in Ogden, UT?</h2>
+      <p class="rd-expert__body">Window Film Salt Lake City has been applying window film across Ogden and the broader Weber County market since 2008. Our certified installers handle every category of project — cooling an East Bench home with solar film, hardening a Washington Boulevard storefront with security film, adding frosted privacy to a McKay-Dee Hospital clinic, or outfitting a South Ogden home office with glare-reduction film. Every install is measured, cut, and finished by our own technicians.</p>
+      <p class="rd-expert__body">Ogden's built environment poses its own set of challenges: aging brick rowhomes with single-pane glass, factory buildings converted to loft use, institutional campuses with large curtain-wall glazing, and commercial corridors where property crime is a daily reality. Our film recommendations account for all of it — heat rejection, security reinforcement, UV protection, and visual privacy delivered in a single professional visit. Every window film contractor working in Ogden should carry full insurance and current manufacturer certifications; ours do. We also serve <a href="/cities/salt-lake-city/" style="color:#7CB342">Salt Lake City</a>, <a href="/cities/sandy/" style="color:#7CB342">Salt Lake Valley</a>, and communities throughout the greater region.</p>
       <div class="rd-expert__stats">
         <div class="rd-expert__stat">
           <span class="rd-expert__stat-num">2008</span>
-          <span class="rd-expert__stat-label">Serving Berks County since</span>
+          <span class="rd-expert__stat-label">Serving Weber County since</span>
         </div>
         <div class="rd-expert__stat-divider"></div>
         <div class="rd-expert__stat">
           <span class="rd-expert__stat-num">500+</span>
-          <span class="rd-expert__stat-label">Reading area installs completed</span>
+          <span class="rd-expert__stat-label">Ogden area installs completed</span>
         </div>
       </div>
     </div>
     <div class="rd-expert__image-col">
       <img
         src="/images/window-film-reading-pa-expert-interior.jpg"
-        alt="Warm Reading PA residential interior with large windows — window film keeps this Berks County home comfortable year-round" title="Warm Reading PA residential interior with large windows — window film keeps this Berks County home comfortable year-round"
+        alt="Warm Ogden UT residential interior with large windows — window film keeps this Weber County home comfortable year-round" title="Warm Ogden UT residential interior with large windows — window film keeps this Weber County home comfortable year-round"
         class="rd-expert__img"
         loading="lazy"
       />
@@ -265,17 +265,17 @@ Property crime rates above the national average make security and anti-smash fil
 
     <!-- SLIDE 01: Commercial -->
     <div class="rd-prop-slider__slide" data-slide="0">
-      <img src="/images/window-film-reading-pa-commercial.jpg" alt="Modern commercial office in Reading PA with floor-to-ceiling windows - window film for Berks County commercial properties" title="Modern commercial office in Reading PA with floor-to-ceiling windows - window film for Berks County commercial properties" class="rd-prop-slider__bg" loading="lazy" />
+      <img src="/images/window-film-reading-pa-commercial.jpg" alt="Modern commercial office in Ogden UT with floor-to-ceiling windows - window film for Weber County commercial properties" title="Modern commercial office in Ogden UT with floor-to-ceiling windows - window film for Weber County commercial properties" class="rd-prop-slider__bg" loading="lazy" />
       <div class="rd-prop-slider__overlay"></div>
       <div class="rd-prop-slider__content">
         <div class="rd-prop-slider__step">01</div>
-        <h2 class="rd-prop-slider__title">Window Film for Reading's
+        <h2 class="rd-prop-slider__title">Window Film for Ogden's
 Commercial Spaces</h2>
-        <p class="rd-prop-slider__desc">Penn Street storefronts, Fifth Street offices, Reading Hospital clinical wings, and Berks County government buildings — our crews install solar, security, anti-graffiti, and decorative film across the full spectrum of Reading commercial properties.</p>
+        <p class="rd-prop-slider__desc">Washington Boulevard storefronts, Fifth Street offices, McKay-Dee Hospital clinical wings, and Weber County government buildings — our crews install solar, security, anti-graffiti, and decorative film across the full spectrum of Reading commercial properties.</p>
         <ul class="rd-prop-slider__benefits">
           <li>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Solar control film cuts cooling costs 25-35% in Berks County commercial buildings
+            Solar control film cuts cooling costs 25-35% in Weber County commercial buildings
           </li>
           <li>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -292,13 +292,13 @@ Commercial Spaces</h2>
 
     <!-- SLIDE 02: Residential -->
     <div class="rd-prop-slider__slide" data-slide="1">
-      <img src="/images/window-film-reading-pa-residential-rowhouses.jpg" alt="Brick rowhouses in Reading PA - solar control and security window film for Berks County residential homes" title="Brick rowhouses in Reading PA - solar control and security window film for Berks County residential homes" class="rd-prop-slider__bg" loading="lazy" />
+      <img src="/images/window-film-reading-pa-residential-rowhouses.jpg" alt="Brick rowhouses in Ogden UT - solar control and security window film for Weber County residential homes" title="Brick rowhouses in Ogden UT - solar control and security window film for Weber County residential homes" class="rd-prop-slider__bg" loading="lazy" />
       <div class="rd-prop-slider__overlay"></div>
       <div class="rd-prop-slider__content">
         <div class="rd-prop-slider__step">02</div>
         <h2 class="rd-prop-slider__title">Window Film for Reading
 Homes and Rowhouses</h2>
-        <p class="rd-prop-slider__desc">Downtown Reading brick rowhomes, Wyomissing colonials, West Reading bungalows, and Muhlenberg Township split-levels — our crews film every residential property type across the Reading area. Solar control, security, UV protection, privacy, and decorative film all available.</p>
+        <p class="rd-prop-slider__desc">Downtown Ogden brick homes, East Bench colonials, South Ogden bungalows, and North Ogden split-levels — our crews film every residential property type across the Ogden area. Solar control, security, UV protection, privacy, and decorative film all available.</p>
         <ul class="rd-prop-slider__benefits">
           <li>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -346,8 +346,8 @@ Homes and Rowhouses</h2>
   <div class="rd-apps__container">
     <div class="rd-apps__header">
       <div class="rd-apps__eyebrow">Applications</div>
-      <h2 class="rd-apps__title">Where Reading Uses Window Film</h2>
-      <p class="rd-apps__intro">Reading Hospital clinical wings, Downtown Reading brick rowhomes, Albright College campus buildings, and Berks County government offices — window film delivers measurable benefits across every property type in the Reading area.</p>
+      <h2 class="rd-apps__title">Where Ogden Uses Window Film</h2>
+      <p class="rd-apps__intro">McKay-Dee Hospital clinical wings, Downtown Ogden brick rowhomes, Weber State University campus buildings, and Weber County government offices — window film delivers measurable benefits across every property type in the Ogden area.</p>
     </div>
     <div class="rd-apps__grid">
 
@@ -355,7 +355,7 @@ Homes and Rowhouses</h2>
         <div class="rd-app-card__overlay"></div>
         <div class="rd-app-card__content">
           <h3 class="rd-app-card__title">Homes &amp; Rowhouses</h3>
-          <p class="rd-app-card__text">Solar control film cuts summer heat in Downtown Reading brick row homes. Security film reinforces ground-floor windows across every Reading neighborhood.</p>
+          <p class="rd-app-card__text">Solar control film cuts summer heat in Downtown Ogden brick row homes. Security film reinforces ground-floor windows across every Ogden neighborhood.</p>
           <span class="rd-app-card__stat">Up to 78% heat blocked</span>
         </div>
       </div>
@@ -364,7 +364,7 @@ Homes and Rowhouses</h2>
         <div class="rd-app-card__overlay"></div>
         <div class="rd-app-card__content">
           <h3 class="rd-app-card__title">Commercial Offices</h3>
-          <p class="rd-app-card__text">Glare-free workspaces and lower cooling bills along the Penn Street corridor. Spectrally selective film preserves views of Mount Penn and the Pagoda.</p>
+          <p class="rd-app-card__text">Glare-free workspaces and lower cooling bills along the Washington Boulevard corridor. Spectrally selective film preserves views of the Wasatch foothills and the Pagoda.</p>
           <span class="rd-app-card__stat">25-35% cost reduction</span>
         </div>
       </div>
@@ -382,7 +382,7 @@ Homes and Rowhouses</h2>
         <div class="rd-app-card__overlay"></div>
         <div class="rd-app-card__content">
           <h3 class="rd-app-card__title">Healthcare Facilities</h3>
-          <p class="rd-app-card__text">UV film protects patients and staff at Reading Hospital and surrounding Tower Health clinics. Frosted film adds privacy for patient rooms and exam areas.</p>
+          <p class="rd-app-card__text">UV film protects patients and staff at McKay-Dee Hospital and surrounding Intermountain Health clinics. Frosted film adds privacy for patient rooms and exam areas.</p>
           <span class="rd-app-card__stat">99% UV blocked</span>
         </div>
       </div>
@@ -391,7 +391,7 @@ Homes and Rowhouses</h2>
         <div class="rd-app-card__overlay"></div>
         <div class="rd-app-card__content">
           <h3 class="rd-app-card__title">Schools &amp; Universities</h3>
-          <p class="rd-app-card__text">Safety film for Albright College and Reading Area Community College buildings. Reduces classroom glare and blocks UV that fades displays, artwork, and flooring.</p>
+          <p class="rd-app-card__text">Safety film for Weber State University and Ogden-Weber Technical College buildings. Reduces classroom glare and blocks UV that fades displays, artwork, and flooring.</p>
           <span class="rd-app-card__stat">Safety &amp; UV rated</span>
         </div>
       </div>
@@ -400,7 +400,7 @@ Homes and Rowhouses</h2>
         <div class="rd-app-card__overlay"></div>
         <div class="rd-app-card__content">
           <h3 class="rd-app-card__title">Government Buildings</h3>
-          <p class="rd-app-card__text">Security and blast-resistant film for Berks County government facilities. Privacy film for offices handling sensitive records and public services.</p>
+          <p class="rd-app-card__text">Security and blast-resistant film for Weber County government facilities. Privacy film for offices handling sensitive records and public services.</p>
           <span class="rd-app-card__stat">GSA compliant films</span>
         </div>
       </div>
@@ -424,7 +424,7 @@ Homes and Rowhouses</h2>
   <div class="rd-brands__header">
     <p class="rd-brands__eyebrow">Trusted Manufacturers</p>
     <h2 class="rd-brands__title">Manufacturers We Trust for Reading Installs</h2>
-    <p class="rd-brands__sub">We install films from the industry's leading manufacturers — bringing you the widest selection of solar control, security, decorative, and specialty films available anywhere across Berks County.</p>
+    <p class="rd-brands__sub">We install films from the industry's leading manufacturers — bringing you the widest selection of solar control, security, decorative, and specialty films available anywhere across Weber County.</p>
   </div>
 
   <!-- Brand card carousel -->
@@ -435,7 +435,7 @@ Homes and Rowhouses</h2>
 
       <!-- 3M -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-3m.jpg" alt="3M solar control window film installed in a Reading PA commercial office — heat and UV reduction" title="3M solar control window film installed in a Reading PA commercial office — heat and UV reduction" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-3m.jpg" alt="3M solar control window film installed in a Ogden UT commercial office — heat and UV reduction" title="3M solar control window film installed in a Ogden UT commercial office — heat and UV reduction" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">3M</p>
           <p class="rd-brands__card-desc"><em>The global standard in solar control and safety film — backed by six decades of glass science research.</em></p>
@@ -445,30 +445,30 @@ Homes and Rowhouses</h2>
 
       <!-- LLumar -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-llumar.jpg" alt="LLumar solar control window film on a Reading PA commercial building — glare and heat rejection" title="LLumar solar control window film on a Reading PA commercial building — glare and heat rejection" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-llumar.jpg" alt="LLumar solar control window film on a Ogden UT commercial building — glare and heat rejection" title="LLumar solar control window film on a Ogden UT commercial building — glare and heat rejection" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">LLumar</p>
-          <p class="rd-brands__card-desc"><em>A dependable choice for commercial projects across Reading and Berks County — proven durability in dense urban environments.</em></p>
+          <p class="rd-brands__card-desc"><em>A dependable choice for commercial projects across Ogden and Weber County — proven durability in dense urban environments.</em></p>
           <p class="rd-brands__card-sub">Solar Control · Glare Reduction · Anti-Graffiti · Safety</p>
         </div>
       </div>
 
       <!-- Vista -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-vista.jpg" alt="Vista residential window film in a Reading PA home interior — UV protection and energy savings" title="Vista residential window film in a Reading PA home interior — UV protection and energy savings" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-vista.jpg" alt="Vista residential window film in a Ogden UT home interior — UV protection and energy savings" title="Vista residential window film in a Ogden UT home interior — UV protection and energy savings" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">Vista</p>
-          <p class="rd-brands__card-desc"><em>Eastman's residential-focused line — naturally clear films built for Reading's brick rowhomes and Wyomissing colonials.</em></p>
+          <p class="rd-brands__card-desc"><em>Eastman's residential-focused line — naturally clear films built for Ogden's brick rowhomes and South Ogden colonials.</em></p>
           <p class="rd-brands__card-sub">Residential Solar · UV Protection · Privacy · Dual-Reflective</p>
         </div>
       </div>
 
       <!-- Solar Gard -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-solargard.jpg" alt="Solar Gard high-performance window film on a Reading PA commercial building — solar heat control" title="Solar Gard high-performance window film on a Reading PA commercial building — solar heat control" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-solargard.jpg" alt="Solar Gard high-performance window film on a Ogden UT commercial building — solar heat control" title="Solar Gard high-performance window film on a Ogden UT commercial building — solar heat control" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">Solar Gard</p>
-          <p class="rd-brands__card-desc"><em>High-performance spectrally selective films for Reading's commercial and institutional buildings — NFRC rated.</em></p>
+          <p class="rd-brands__card-desc"><em>High-performance spectrally selective films for Ogden's commercial and institutional buildings — NFRC rated.</em></p>
           <p class="rd-brands__card-sub">Spectrally Selective · Commercial Solar · LEED-Compliant · Safety</p>
         </div>
       </div>
@@ -478,17 +478,17 @@ Homes and Rowhouses</h2>
         <img src="/images/window-film-reading-pa-brand-madico.jpg" alt="Executive office interior with Madico optically clear safety window film" title="Executive office interior with Madico optically clear safety window film" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">Madico</p>
-          <p class="rd-brands__card-desc"><em>Military-heritage safety films trusted by government and healthcare facilities — including Reading Hospital and Berks County offices.</em></p>
+          <p class="rd-brands__card-desc"><em>Military-heritage safety films trusted by government and healthcare facilities — including McKay-Dee Hospital and Weber County offices.</em></p>
           <p class="rd-brands__card-sub">Safety &amp; Security · Bomb Blast Mitigation · Solar Control</p>
         </div>
       </div>
 
       <!-- Solyx -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-solyx.jpg" alt="Elegant decorative frosted glass film in a Reading PA professional office lobby" title="Elegant decorative frosted glass film in a Reading PA professional office lobby" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-solyx.jpg" alt="Elegant decorative frosted glass film in a Ogden UT professional office lobby" title="Elegant decorative frosted glass film in a Ogden UT professional office lobby" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">Solyx</p>
-          <p class="rd-brands__card-desc"><em>The leading decorative film brand — custom frosted, patterned, and printed films for Reading offices, healthcare spaces, and storefronts.</em></p>
+          <p class="rd-brands__card-desc"><em>The leading decorative film brand — custom frosted, patterned, and printed films for Ogden offices, healthcare spaces, and storefronts.</em></p>
           <p class="rd-brands__card-sub">Decorative · Frosted · Printed Patterns · Branded Graphics</p>
         </div>
       </div>
@@ -508,14 +508,14 @@ Homes and Rowhouses</h2>
         <img src="/images/window-film-reading-pa-brand-casper.jpg" alt="Casper cloaking film on conference room glass - LED screens invisible from outside" title="Casper cloaking film on conference room glass - LED screens invisible from outside" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">Casper Cloaking</p>
-          <p class="rd-brands__card-desc"><em>The only film that makes LED and LCD screens appear frosted from outside — essential privacy for Reading boardrooms and trading floors.</em></p>
+          <p class="rd-brands__card-desc"><em>The only film that makes LED and LCD screens appear frosted from outside — essential privacy for Ogden boardrooms and trading floors.</em></p>
           <p class="rd-brands__card-sub">Screen Privacy · Digital Cloaking · Conference Rooms · Security</p>
         </div>
       </div>
 
       <!-- C-Bond -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-cbond.jpg" alt="C-Bond security film reinforcing a commercial storefront glass entrance in Berks County" title="C-Bond security film reinforcing a commercial storefront glass entrance in Berks County" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-cbond.jpg" alt="C-Bond security film reinforcing a commercial storefront glass entrance in Weber County" title="C-Bond security film reinforcing a commercial storefront glass entrance in Weber County" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">C-Bond</p>
           <p class="rd-brands__card-desc"><em>Nano-technology film that chemically bonds to glass, increasing impact resistance beyond standard safety film — the strongest hold available.</em></p>
@@ -525,7 +525,7 @@ Homes and Rowhouses</h2>
 
       <!-- HDClear -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-hdclear.jpg" alt="HDClear high-definition optically clear glass walls in a modern Reading office" title="HDClear high-definition optically clear glass walls in a modern Reading office" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-hdclear.jpg" alt="HDClear high-definition optically clear glass walls in a modern Ogden office" title="HDClear high-definition optically clear glass walls in a modern Ogden office" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">HDClear</p>
           <p class="rd-brands__card-desc"><em>High-definition clarity film — optically pure solar control without the haze or reflection common in standard films. For premium commercial installs.</em></p>
@@ -535,7 +535,7 @@ Homes and Rowhouses</h2>
 
       <!-- Hanita Coatings -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-hanita.jpg" alt="Hanita Coatings architectural window film on a modern Berks County commercial building" title="Hanita Coatings architectural window film on a modern Berks County commercial building" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-hanita.jpg" alt="Hanita Coatings architectural window film on a modern Weber County commercial building" title="Hanita Coatings architectural window film on a modern Weber County commercial building" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">Hanita Coatings</p>
           <p class="rd-brands__card-desc"><em>Israeli-engineered architectural films with industry-leading safety certifications — trusted on government and institutional projects worldwide.</em></p>
@@ -545,10 +545,10 @@ Homes and Rowhouses</h2>
 
       <!-- Graffiti Shield -->
       <div class="rd-brands__card">
-        <img src="/images/window-film-reading-pa-brand-graffiti-shield.jpg" alt="Clean unmarked storefront glass in Reading PA protected by Graffiti Shield sacrificial film" title="Clean unmarked storefront glass in Reading PA protected by Graffiti Shield sacrificial film" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-reading-pa-brand-graffiti-shield.jpg" alt="Clean unmarked storefront glass in Ogden UT protected by Graffiti Shield sacrificial film" title="Clean unmarked storefront glass in Ogden UT protected by Graffiti Shield sacrificial film" class="rd-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="rd-brands__card-body">
           <p class="rd-brands__card-name">Graffiti Shield</p>
-          <p class="rd-brands__card-desc"><em>The industry standard in sacrificial anti-graffiti film — replaces damaged film, not glass. Essential for Reading's Penn Street and Fifth Street corridors.</em></p>
+          <p class="rd-brands__card-desc"><em>The industry standard in sacrificial anti-graffiti film — replaces damaged film, not glass. Essential for Ogden's Washington Boulevard and Historic 25th Street corridors.</em></p>
           <p class="rd-brands__card-sub">Anti-Graffiti · Sacrificial Film · Storefronts · Urban Properties</p>
         </div>
       </div>
@@ -570,7 +570,7 @@ Homes and Rowhouses</h2>
     <div class="rd-trust__image-col">
       <img
         src="/images/window-film-reading-pa-trust-installer.jpg"
-        alt="Window Film Salt Lake City certified installer reviewing film options with a Reading property owner" title="Window Film Salt Lake City certified installer reviewing film options with a Reading property owner"
+        alt="Window Film Salt Lake City certified installer reviewing film options with a Ogden property owner" title="Window Film Salt Lake City certified installer reviewing film options with a Ogden property owner"
         class="rd-trust__img"
         loading="lazy"
       />
@@ -578,7 +578,7 @@ Homes and Rowhouses</h2>
 
     <div class="rd-trust__content">
       <p class="rd-trust__eyebrow">WHY WINDOW FILM SALT LAKE CITY</p>
-      <h2 class="rd-trust__title">What Reading Property Owners Get from Us</h2>
+      <h2 class="rd-trust__title">What Ogden Property Owners Get from Us</h2>
 
       <div class="rd-trust__items">
 
@@ -587,7 +587,7 @@ Homes and Rowhouses</h2>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#7CB342"/><path d="M7 12.5l3.5 3.5 6.5-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="rd-trust__item-body">
-            <p class="rd-trust__item-title">18+ Years Serving Berks County and Greater Salt Lake City</p>
+            <p class="rd-trust__item-title">18+ Years Serving Weber County and Greater Salt Lake City</p>
           </div>
         </div>
 
@@ -614,7 +614,7 @@ Homes and Rowhouses</h2>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#7CB342"/><path d="M7 12.5l3.5 3.5 6.5-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="rd-trust__item-body">
-            <p class="rd-trust__item-title">Prompt Scheduling Across Reading and Berks County</p>
+            <p class="rd-trust__item-title">Prompt Scheduling Across Reading and Weber County</p>
           </div>
         </div>
 
@@ -654,7 +654,7 @@ Homes and Rowhouses</h2>
 <GalleryBanner
   titleLines={["OUR", "WORK."]}
   eyebrow="Reading Installations"
-  description="A selection of window film installations across Reading offices, retail storefronts, medical facilities, and homes. Every project measured, applied, and finished by our own certified team."
+  description="A selection of window film installations across Ogden offices, retail storefronts, medical facilities, and homes. Every project measured, applied, and finished by our own certified team."
   photos={[
     '/images/window-film-reading-pa-gallery-privacy-medical.jpg',
     '/images/window-film-reading-pa-gallery-restaurant.jpg',
@@ -674,27 +674,27 @@ Homes and Rowhouses</h2>
   <div class="ip-local__grid">
     <div class="ip-local__map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12188.5!2d-75.93!3d40.33!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6709e8e8e8e8e%3A0x0!2sReading%2C%20PA!5e0!3m2!1sen!2sus!4v1714000000000"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12188.5!2d-75.93!3d40.33!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6709e8e8e8e8e%3A0x0!2sOgden%2C%20UT!5e0!3m2!1sen!2sus!4v1714000000000"
         width="100%" height="100%"
         style="border:0;"
         allowfullscreen
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        title="Reading PA service area map"
+        title="Ogden UT service area map"
       ></iframe>
     </div>
     <div class="ip-local__content">
       <p class="section-eyebrow">Local Expertise</p>
-      <h2>Berks County is Our Backyard</h2>
-      <p>From Downtown Reading brick rowhomes to the Penn Street commercial corridor to suburban Wyomissing colonials — our crews work in every Reading neighborhood and surrounding Berks County community, every week. We understand the Schuylkill River valley's humid summers, the city's ongoing revitalization, and the specific building stock across the metro area. Window film for Reading properties is available across all neighborhoods — contact us for a free on-site estimate.</p>
+      <h2>Weber County is Our Backyard</h2>
+      <p>From Downtown Ogden brick rowhomes to the Washington Boulevard commercial corridor to suburban South Ogden colonials — our crews work in every Ogden neighborhood and surrounding Weber County community, every week. We understand northern Utah's hot, dry summers, the city's ongoing revitalization, and the specific building stock across the metro area. Window film for Ogden properties is available across all neighborhoods — contact us for a free on-site estimate.</p>
       <div class="rd-neighborhoods">
-        <div class="rd-nh"><span class="rd-nh__name">Downtown Reading</span><span class="rd-nh__desc">City core — Penn Street commercial corridor, Fifth Street storefronts, historic factory-turned-loft buildings. Security and solar control window film are the most-requested installs.</span></div>
-        <div class="rd-nh"><span class="rd-nh__name">Hampden Heights</span><span class="rd-nh__desc">Residential neighborhood east of the Schuylkill River — brick rowhomes and twin homes. Solar control and UV window film are the most popular choices for homes with west-facing glass.</span></div>
-        <div class="rd-nh"><span class="rd-nh__name">Glenside</span><span class="rd-nh__desc">Established residential area with older homes and single-pane windows — ideal candidates for interior solar control and low-E film to cut year-round energy loss.</span></div>
-        <div class="rd-nh"><span class="rd-nh__name">Alsace Township</span><span class="rd-nh__desc">Rural-suburban mix northeast of Reading — newer construction and larger homes with expansive glass. Heat-rejection and UV-blocking window film protect interiors year-round.</span></div>
-        <div class="rd-nh"><span class="rd-nh__name">Muhlenberg Township</span><span class="rd-nh__desc">Growing township with a mix of residential and commercial properties. Both homeowners and businesses benefit from solar control and security window film installed by our Berks County crews.</span></div>
-        <div class="rd-nh"><span class="rd-nh__name">Wyomissing</span><span class="rd-nh__desc">Affluent borough west of Reading — larger colonials and split-levels with sunrooms and big windows. Solar, UV, and glare reduction film are the most common requests.</span></div>
-        <div class="rd-nh"><span class="rd-nh__name">West Reading</span><span class="rd-nh__desc">Revitalized arts corridor with shops, restaurants, and loft apartments. Decorative and anti-graffiti window film serve the storefront-heavy main street environment.</span></div>
+        <div class="rd-nh"><span class="rd-nh__name">Downtown Ogden</span><span class="rd-nh__desc">City core — Washington Boulevard commercial corridor, Fifth Street storefronts, historic factory-turned-loft buildings. Security and solar control window film are the most-requested installs.</span></div>
+        <div class="rd-nh"><span class="rd-nh__name">East Bench</span><span class="rd-nh__desc">Residential neighborhood on the foothills east of downtown — brick homes and mid-century houses. Solar control and UV window film are the most popular choices for homes with west-facing glass.</span></div>
+        <div class="rd-nh"><span class="rd-nh__name">South Ogden</span><span class="rd-nh__desc">Established residential area with older homes and single-pane windows — ideal candidates for interior solar control and low-E film to cut year-round energy loss.</span></div>
+        <div class="rd-nh"><span class="rd-nh__name">Alsace Township</span><span class="rd-nh__desc">Rural-suburban mix northeast of Ogden — newer construction and larger homes with expansive glass. Heat-rejection and UV-blocking window film protect interiors year-round.</span></div>
+        <div class="rd-nh"><span class="rd-nh__name">North Ogden</span><span class="rd-nh__desc">Growing community with a mix of residential and commercial properties. Both homeowners and businesses benefit from solar control and security window film installed by our Weber County crews.</span></div>
+        <div class="rd-nh"><span class="rd-nh__name">South Ogden</span><span class="rd-nh__desc">Affluent borough west of Ogden — larger colonials and split-levels with sunrooms and big windows. Solar, UV, and glare reduction film are the most common requests.</span></div>
+        <div class="rd-nh"><span class="rd-nh__name">South Ogden</span><span class="rd-nh__desc">Revitalized arts corridor with shops, restaurants, and loft apartments. Decorative and anti-graffiti window film serve the storefront-heavy main street environment.</span></div>
         <div class="rd-nh"><span class="rd-nh__name">Sinking Spring</span><span class="rd-nh__desc">Borough along the Lancaster Pike corridor — residential homes and small businesses. Solar control and privacy window film address the area's mix of property types.</span></div>
       </div>
     </div>
@@ -710,25 +710,25 @@ Homes and Rowhouses</h2>
      ══════════════════════════════════════ -->
 <TestimonialSpotlight
   eyebrow="Client Reviews"
-  title="Reading Property Owners, in Their Words"
-  subtitle="Residential and commercial property owners across Reading and Berks County."
+  title="Ogden Property Owners, in Their Words"
+  subtitle="Residential and commercial property owners across Ogden and Weber County."
   items={[
     {
       quote: 'Our outpatient clinic had exam rooms where patients were constantly squinting into the afternoon sun. The solar and frosted film combination solved it in a single afternoon — the crew was efficient, respectful of patient privacy, and left the space spotless.',
       name: 'Thomas B.',
-      detail: 'Facilities Manager · Reading Hospital Outpatient Clinic',
+      detail: 'Facilities Manager · McKay-Dee Hospital Outpatient Clinic',
       avatar: '/images/window-film-reading-pa-testimonial-commercial-1.jpg',
     },
     {
-      quote: 'We own a mixed-use building on Penn Street and the anti-graffiti film has paid for itself three times over. Every time someone scratches the glass, it is a film swap instead of a pane replacement. The scheduling team keeps it simple and fast.',
+      quote: 'We own a mixed-use building on Washington Boulevard and the anti-graffiti film has paid for itself three times over. Every time someone scratches the glass, it is a film swap instead of a pane replacement. The scheduling team keeps it simple and fast.',
       name: 'Gregory H.',
-      detail: 'Property Manager · Downtown Reading',
+      detail: 'Property Manager · Downtown Ogden',
       avatar: '/images/window-film-reading-pa-testimonial-commercial-2.jpg',
     },
     {
-      quote: 'Our Wyomissing colonial has a wall of south-facing windows in the family room. After the solar film install the room is actually usable in July, and the fading on our hardwood has stopped completely. Wish we had done it years ago.',
+      quote: 'Our South Ogden colonial has a wall of south-facing windows in the family room. After the solar film install the room is actually usable in July, and the fading on our hardwood has stopped completely. Wish we had done it years ago.',
       name: 'Sandra L.',
-      detail: 'Homeowner · Wyomissing, PA',
+      detail: 'Homeowner · South Ogden, UT',
       avatar: '/images/window-film-reading-pa-testimonial-residential.jpg',
     },
   ]}
@@ -742,7 +742,7 @@ Homes and Rowhouses</h2>
     <div class="rd-resources__image-col">
       <img
         src="/images/window-film-reading-pa-resources-meeting-room.jpg"
-        alt="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Reading PA commercial client" title="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Reading PA commercial client"
+        alt="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Ogden UT commercial client" title="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Ogden UT commercial client"
         class="rd-resources__img"
         loading="lazy"
         width="1472"
@@ -752,7 +752,7 @@ Homes and Rowhouses</h2>
     <div class="rd-resources__content">
       <p class="rd-resources__eyebrow">Manufacturer Resources</p>
       <h2 class="rd-resources__title">Download Film Specs Before We Visit</h2>
-      <p class="rd-resources__desc">Performance data, solar heat gain coefficients, VLT ratings, and product details from the brands we install across Reading and Berks County. Download and compare before your consultation.</p>
+      <p class="rd-resources__desc">Performance data, solar heat gain coefficients, VLT ratings, and product details from the brands we install across Ogden and Weber County. Download and compare before your consultation.</p>
       <ul class="rd-resources__list">
         <li class="rd-resources__item">
           <a href="/resources/3m-prestige-solar-control-window-film-reading-pa-product-bulletin.pdf" class="rd-resources__link" target="_blank" rel="noopener noreferrer" download>
@@ -818,7 +818,7 @@ Homes and Rowhouses</h2>
 <CtaLightRays
   eyebrow="Reading Window Film Professionals"
   title="Let's Upgrade Your Reading Windows"
-  sub="Cut heat, block UV, add privacy, and protect against graffiti — all with one professional installation. Free estimates across Reading and Berks County. Prompt scheduling available."
+  sub="Cut heat, block UV, add privacy, and protect against graffiti — all with one professional installation. Free estimates across Ogden and Weber County. Prompt scheduling available."
   btnLabel="Get Your Free Reading Estimate"
   btnHref="/contact/"
 />

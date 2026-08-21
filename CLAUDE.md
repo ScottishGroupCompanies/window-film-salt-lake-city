@@ -62,10 +62,10 @@ src/
 │   ├── benefits.astro        — Top-level benefits page (redesigned)
 │   ├── benefits/             — 16 sub-pages, all using BAF layout + InnerPageHero
 │   ├── cities/
-│   │   ├── camden.astro      — TEMPLATE for all city pages
+│   │   ├── sandy.astro      — TEMPLATE for all city pages
 │   │   ├── salt-lake-city.astro
 │   │   ├── reading.astro
-│   │   └── upper-darby-township.astro
+│   │   └── provo.astro
 │   ├── applications/         — Not yet redesigned
 │   ├── products/             — Not yet redesigned
 │   ├── resources/            — Not yet redesigned
@@ -147,7 +147,7 @@ Fully redesigned. Sections in order:
 4. `section.hp-cta-section` — dark rounded CTA strip (border-bottom-radius 40px)
 5. `footer.s-footer` — background image footer with rounded white container
 
-### City Pages (camden.astro is the template)
+### City Pages (sandy.astro is the template)
 Structure:
 1. `<InnerPageHero />` — city-specific title, image, desc
 2. `div.ip-page-body` — rounded corners top and bottom
@@ -181,17 +181,17 @@ Fully redesigned with:
 
 ## Cities We Serve Menu (sidebar)
 Used in city pages sidebar. The `ip-sidebar-city-link--active` class highlights the current city in green. Full list:
-- Salt Lake City PA → `/cities/salt-lake-city/`
-- Camden NJ → `/cities/camden/`
-- Reading PA → `/cities/reading/`
-- Upper Darby PA → `/cities/upper-darby-township/`
-- Cherry Hill NJ → `/contact/` (no dedicated page yet)
-- Voorhees NJ → `/contact/`
-- Haddonfield NJ → `/contact/`
-- Collingswood NJ → `/contact/`
-- Pennsauken NJ → `/contact/`
-- Marlton NJ → `/contact/`
-- Maple Shade NJ → `/contact/`
+- Salt Lake City UT → `/cities/salt-lake-city/`
+- Sandy UT → `/cities/sandy/`
+- Ogden UT → `/cities/reading/`
+- Provo UT → `/cities/provo/`
+- West Valley City UT → `/contact/` (no dedicated page yet)
+- Murray UT → `/contact/`
+- Bountiful UT → `/contact/`
+- Midvale UT → `/contact/`
+- Taylorsville UT → `/contact/`
+- Lehi UT → `/contact/`
+- Orem UT → `/contact/`
 
 ---
 
@@ -216,9 +216,9 @@ Infinite horizontal scrolling carousel. 12 logos (3M, LLumar, Vista, Solar Gard,
 Key images in `/public/images/`:
 - `wfp-landing-hero.jpg` — Salt Lake City skyline (homepage hero, Salt Lake City city page)
 - `wfp-premium-films-v2.jpg` — film close-up (benefits page, Reading city page)
-- `wfp-expert-installation-v1.jpg` — installation shot (Upper Darby, sidebar CTA cards)
+- `wfp-expert-installation-v1.jpg` — installation shot (Provo, sidebar CTA cards)
 - `wfp-footer-bg-commercial-window-film.jpg` — footer background
-- `camden-window-film-company.jpg` — Camden city hero
+- `sandy-window-film-company.jpg` — Sandy city hero
 - `2021-08-window-film-salt-lake-city-dark.png` — dark logo (footer)
 - Various benefit-specific images: `2021-08-salt-lake-city-window-film-[benefit].jpg`
 - Safety/security: `safety-and-security-window-film-salt-lake-city.png`
@@ -230,10 +230,10 @@ Key images in `/public/images/`:
 - [x] InnerPageHero component created
 - [x] BrandLogos component converted to infinite scroll carousel
 - [x] Footer redesigned (background image, rounded container, 3-col layout)
-- [x] All 4 city pages (Camden template + Salt Lake City, Reading, Upper Darby)
+- [x] All 4 city pages (Sandy template + Salt Lake City, Reading, Provo)
 - [x] Benefits top-level page redesigned
 - [x] All 16 benefits sub-pages — InnerPageHero + ip-page-body added
-- [x] Camden page — full content redesign (new hero section, sticky sidebar, testimonial carousel, cities menu)
+- [x] Sandy page — full content redesign (new hero section, sticky sidebar, testimonial carousel, cities menu)
 
 ## What Still Needs Work
 - [ ] Applications top-level page + sub-pages
@@ -245,7 +245,7 @@ Key images in `/public/images/`:
 - [ ] Government buildings page
 - [ ] Homepage applications slider — slide-up animation (pending, deprioritized)
 - [ ] Homepage rounded corners — bottom of hp-cta-section visibility (minor)
-- [ ] Salt Lake City, Reading, Upper Darby city pages — full content redesign (currently have InnerPageHero + ip-page-body but content not yet retrofitted to Camden template)
+- [ ] Salt Lake City, Reading, Provo city pages — full content redesign (currently have InnerPageHero + ip-page-body but content not yet retrofitted to Sandy template)
 
 ---
 
