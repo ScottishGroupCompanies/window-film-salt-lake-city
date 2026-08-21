@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-does-ceramic-window-tint-reduce-heat-philadelphia.
 imageAlt: "Does Ceramic Window Tint Reduce Heat or Just Glare in Philadelphia Spaces? | Window Film Philadelphia"
 tags: ["does", "ceramic", "window", "tint", "reduce", "philadelphia", "window film"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 When the 3 PM sun turns a Center City conference room into a greenhouse, or a Fishtown row house owner replaces their third set of blinds in two years from sun damage, people start asking real questions. They don’t want marketing—they want to understand if ceramic window tint actually stops heat in Philadelphia or if it’s just fancy glare control that sounds smart. We’ve seen both outcomes in hundreds of installations, and the science confirms that when selected correctly, ceramic film is one of the most effective single upgrades for managing summer heat without sacrificing views.

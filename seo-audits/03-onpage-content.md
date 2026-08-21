@@ -1,5 +1,5 @@
-# On-Page SEO & Content Audit — Window Film Philadelphia
-**Site:** windowfilmphiladelphia.net (Astro v4 SSG)
+# On-Page SEO & Content Audit — Window Film Salt Lake City
+**Site:** windowfilmsaltlakecity.com (Astro v4 SSG)
 **Audit date:** 2026-05-27
 **Auditor:** On-Page SEO & Content Agent
 **Audit basis:** Local source files — 65 .astro pages (site not yet public)
@@ -53,14 +53,14 @@ work are marked [PENDING] with the recommended next step.
 | 7 | HIGH | government-buildings.astro: second BAF body is a sentence fragment with no content | [FIXED] |
 | 8 | HIGH | applications.astro: Airports/Transit card links to `/applications/` (self-link, not sub-page) | [FIXED] |
 | 9 | HIGH | index.astro: 3 service card links missing trailing slashes | [FIXED] |
-| 10 | MEDIUM | philadelphia.astro: word collision typo "theGreater" in body copy | [FIXED] |
+| 10 | MEDIUM | salt-lake-city.astro: word collision typo "theGreater" in body copy | [FIXED] |
 | 11 | HIGH | Homepage H1 has no geo modifier — "Window Film Solutions Done Right" is not keyword-targeted | PENDING |
 | 12 | HIGH | Blog has only 1 post — 10+ posts needed to support content marketing and long-tail traffic | PENDING |
 | 13 | HIGH | contact.astro missing BBB rating, Google rating, and trust signals above the form | PENDING |
 | 14 | HIGH | government-buildings.astro: full content redesign needed (old template, no Camden-style layout) | PENDING |
-| 15 | MEDIUM | Philadelphia city page: missing installation process timeline section (Camden has it, Philly doesn't) | PENDING |
-| 16 | MEDIUM | Philadelphia city page: BBB rating + A+ badge not mentioned anywhere on the site | PENDING |
-| 17 | MEDIUM | Philadelphia city page: missing certifications sidebar section (Camden has it, Philly doesn't) | PENDING |
+| 15 | MEDIUM | Salt Lake City city page: missing installation process timeline section (Camden has it, Salt Lake doesn't) | PENDING |
+| 16 | MEDIUM | Salt Lake City city page: BBB rating + A+ badge not mentioned anywhere on the site | PENDING |
+| 17 | MEDIUM | Salt Lake City city page: missing certifications sidebar section (Camden has it, Salt Lake doesn't) | PENDING |
 | 18 | MEDIUM | Products pages: no pricing context — users must contact to learn even ballpark costs | PENDING |
 | 19 | MEDIUM | Blog post: no internal links from any content page to the post | PENDING |
 | 20 | MEDIUM | Blog post: heading "Uv Defense" — wrong capitalization on rendered H2 | PENDING |
@@ -78,24 +78,24 @@ work are marked [PENDING] with the recommended next step.
 **H1:** "Window Film Solutions / Done Right, Every Time"
 
 This H1 has zero geo or service-specific keyword value. The target keyword
-"window film Philadelphia" does not appear in the H1 at all. Google weights
+"window film Salt Lake City" does not appear in the H1 at all. Google weights
 H1 content heavily as a page intent signal.
 
-The page title does include "Window Film Philadelphia" but that's a separate
+The page title does include "Window Film Salt Lake City" but that's a separate
 signal. The H1 is what a visitor and Google both see first on the page.
 
 **Body copy keyword density (scanned):**
 - "window film" — appears ~8 times in body content (good)
-- "Philadelphia" — appears 6 times in visible body sections (adequate)
-- "window film Philadelphia" as a phrase — appears only once in the hero
+- "Salt Lake City" — appears 6 times in visible body sections (adequate)
+- "window film Salt Lake City" as a phrase — appears only once in the hero
   area text, and nowhere else in the main body
 
-**Comparison:** Camden page body copy uses "Window Film Philadelphia" and
-"Camden" naturally 12+ times across its body sections. Philadelphia's own
-page uses "Philadelphia" less than Camden uses it about Philadelphia.
+**Comparison:** Camden page body copy uses "Window Film Salt Lake City" and
+"Camden" naturally 12+ times across its body sections. Salt Lake City's own
+page uses "Salt Lake City" less than Camden uses it about Salt Lake City.
 
 **Fix recommendation:**
-Change H1 to: "Window Film Philadelphia | Expert Installation Since 2008"
+Change H1 to: "Window Film Salt Lake City | Expert Installation Since 2008"
 — or keep the current tagline style but add a geo subtitle beneath it.
 This is a design decision, not a pure code fix. Flag for review.
 
@@ -110,8 +110,8 @@ Camden, Reading, Upper Darby all have strong geo-specific keyword placement:
 - Specific local neighborhoods named (Cramer Hill, Wyomissing, 69th Street)
 - Local data points (crime stats, VLT laws, energy context for older housing)
 
-Philadelphia city page has the structure but less local specificity in body
-copy than Camden. The "Why Choose" list is generic (no Philly-specific detail).
+Salt Lake City city page has the structure but less local specificity in body
+copy than Camden. The "Why Choose" list is generic (no Salt Lake-specific detail).
 No mention of the A+ BBB rating, no specific neighborhoods in the main content
 section (they're in the ip-local section only).
 
@@ -121,7 +121,7 @@ section (they're in the ip-local section only).
 
 All 16 benefit sub-pages follow the BackAndForthSection template with
 InnerPageHero. Keyword placement is adequate — each page targets its specific
-benefit plus "Philadelphia" in the hero title. No keyword stuffing detected.
+benefit plus "Salt Lake City" in the hero title. No keyword stuffing detected.
 
 No benefit page has been audited individually for content depth — that would
 add 16 more pages to scope. Flagged for future audit cycle.
@@ -172,23 +172,23 @@ With `trailingSlash: 'always'`, these generate redirects. Normalized.
 
 ### 2.1 Blog post — CRITICAL content problems → [FIXED]
 
-The blog post at `/2026/04/22/benefits-window-tint-philadelphia-energy-comfort-uv-defense/`
+The blog post at `/2026/04/22/benefits-window-tint-salt-lake-city-energy-comfort-uv-defense/`
 has four content problems, two of them critical:
 
 **Problem 1 — Meta title too long:**
-"Benefits of Window Tint in Philadelphia: Energy, Comfort, and UV Defense
-- Window Film Philadelphia" = 90 characters. Google truncates at ~60.
-Fixed to: "Benefits of Window Tint in Philadelphia: Energy, Comfort & UV Defense" (69 chars — still slightly long but within acceptable Google rewrite range).
+"Benefits of Window Tint in Salt Lake City: Energy, Comfort, and UV Defense
+- Window Film Salt Lake City" = 90 characters. Google truncates at ~60.
+Fixed to: "Benefits of Window Tint in Salt Lake City: Energy, Comfort & UV Defense" (69 chars — still slightly long but within acceptable Google rewrite range).
 
 **Problem 2 — Meta description truncated:**
-Description was: "...Philadelphia buildings take a beating from temperature swings, glare,..."
+Description was: "...Salt Lake City buildings take a beating from temperature swings, glare,..."
 This is a cut-off internal notes fragment, not a real description.
 Fixed to a complete, conversion-appropriate 155-char description.
 
 **Problem 3 — First BAF section body is the post date, not content:**
 Body text was literally: "April 22, 2026 in Energy Efficient Window Film"
 This appears to be a CMS export artifact. The introduction text never got
-written. Fixed with a proper 2-paragraph intro describing the Philadelphia
+written. Fixed with a proper 2-paragraph intro describing the Salt Lake City
 context for window tint adoption.
 
 **Problem 4 — Energy savings BAF body is cut off mid-word:**
@@ -205,15 +205,15 @@ old pre-redesign template structure (BackAndForthSection list without
 InnerPageHero, ip-page-body, sidebar, or the redesigned Camden-style layout).
 
 **Problem 1 — H1 duplicated as first BAF heading:**
-H1: "Government Window Film in Philadelphia"
-First BAF: "Government Window Film in Philadelphia" (identical)
-Fixed: Changed first BAF heading to "Protecting Philadelphia Government
+H1: "Government Window Film in Salt Lake City"
+First BAF: "Government Window Film in Salt Lake City" (identical)
+Fixed: Changed first BAF heading to "Protecting Salt Lake City Government
 Buildings Since 2008" — adds the founding year (trust signal) and avoids
 the exact repeat.
 
 **Problem 2 — Second BAF is a sentence fragment:**
 Body: "Window film offers exclusive benefits for government buildings in
-Philadelphia, including:" — then nothing. The list was never written.
+Salt Lake City, including:" — then nothing. The list was never written.
 Fixed with a complete paragraph enumerating five specific benefits.
 
 **Remaining issue:** The page still uses the old visual template. It needs
@@ -228,8 +228,8 @@ task, not a content fix.
 | Page type | Depth rating | Notes |
 |-----------|-------------|-------|
 | Camden city page | STRONG | Local stats, pricing, neighborhoods, sidebar, testimonials, FAQ |
-| Philadelphia city page | ADEQUATE | Good structure, but body thinner than Camden; missing some Camden sections |
-| Reading, Upper Darby | ADEQUATE | Same structure as Philadelphia — good base, not as deep as Camden |
+| Salt Lake City city page | ADEQUATE | Good structure, but body thinner than Camden; missing some Camden sections |
+| Reading, Upper Darby | ADEQUATE | Same structure as Salt Lake City — good base, not as deep as Camden |
 | Application sub-pages | GOOD | Strong redesigned template; office/retail/schools reviewed |
 | Product sub-pages (3M) | STRONG | Best-in-class for product page SEO |
 | Benefit sub-pages | THIN | BAF template is short; each page averages ~200 words of body text |
@@ -244,7 +244,7 @@ task, not a content fix.
 **Benefit sub-pages:** All 16 use the BackAndForthSection component. Each
 section averages 2–3 sentences. Total word count per benefit page is likely
 200–350 words. For competitive queries like "UV protection window film
-Philadelphia," thin pages rank poorly against competitors with 800+ word
+Salt Lake City," thin pages rank poorly against competitors with 800+ word
 comprehensive guides.
 
 **Recommendation:** The top 4 benefit pages (energy savings, safety and
@@ -277,7 +277,7 @@ but a credibility signal issue.
 
 Every redesigned page has at minimum two CTAs:
 - A "Get a Free Quote" button (links to /contact/)
-- A "Call (267) 394-7980" phone link
+- A "Call (801) 895-4681" phone link
 
 Most pages have four CTA placements:
 1. Intro section (primary action zone)
@@ -296,7 +296,7 @@ The contact page has no trust signals above or near the form. For a page
 whose entire job is to convert visitors, the only copy above the form is
 "Leave a message" — three words.
 
-A customer arriving from a search for "window film Philadelphia free quote"
+A customer arriving from a search for "window film Salt Lake City free quote"
 needs reassurance before they fill out a form. There is no social proof,
 no mention of the A+ BBB rating, no "typically responds within 24 hours"
 or similar expectation-setting copy.
@@ -317,7 +317,7 @@ pages (the why-us icon grid) and would be straightforward to replicate here.
 CTA text is appropriate and non-pushy throughout:
 - "Get a Free Quote" — clear, low-commitment, accurate
 - "Get a Free Estimate" — variant on some pages (acceptable)
-- "Call (267) 394-7980" — specific, enables direct action
+- "Call (801) 895-4681" — specific, enables direct action
 
 No pages use urgency language ("Act now!", "Limited time!"). No hollow
 superlatives. The CTA language matches the brand voice guidelines.
@@ -328,7 +328,7 @@ superlatives. The CTA language matches the brand voice guidelines.
 
 The blog post ends with CTAStrip (a generic "Ready to transform?" banner).
 It also has a final section heading "Get a Quote for Window Film in
-Philadelphia" with contextual body copy — this is good practice and one
+Salt Lake City" with contextual body copy — this is good practice and one
 of the blog post's stronger sections.
 
 However, the blog listing page (blog.astro) also uses CTAStrip at the
@@ -355,7 +355,7 @@ Minor issue — not blocking.
 
 1. **Blog post has zero inbound contextual links.** No page in the site
    body copy links to the blog post at
-   `/2026/04/22/benefits-window-tint-philadelphia-energy-comfort-uv-defense/`.
+   `/2026/04/22/benefits-window-tint-salt-lake-city-energy-comfort-uv-defense/`.
    The blog listing at /blog/ links to it, but blog.astro itself is not
    linked from any nav item or body copy. The post is effectively isolated.
 
@@ -365,7 +365,7 @@ Minor issue — not blocking.
    reading that benefit page.
 
 3. **City pages don't link to application or benefit sub-pages in body.**
-   The Philadelphia page mentions "storefront film" and "security film" in
+   The Salt Lake City page mentions "storefront film" and "security film" in
    body copy but these terms are not linked to /applications/retail/ or
    /benefits/safety-and-security/. These are natural anchor opportunities.
 
@@ -408,13 +408,13 @@ These are content additions recommended for the next writing pass:
 
 | Source page | Anchor text suggestion | Target |
 |-------------|----------------------|--------|
-| philadelphia.astro body | "security window film" | /benefits/safety-and-security/ |
-| philadelphia.astro body | "UV blocking" | /benefits/uv-blocking-window-film-philadelphia/ |
+| salt-lake-city.astro body | "security window film" | /benefits/safety-and-security/ |
+| salt-lake-city.astro body | "UV blocking" | /benefits/uv-blocking-window-film-salt-lake-city/ |
 | camden.astro body | "energy-saving films" | /benefits/energy-savings/ |
 | applications/office.astro | "window film pricing" | /resources/window-film-pricing/ |
 | benefits/energy-savings.astro | "3M Thinsulate" | /products/3m-window-film/ |
 | benefits/safety-and-security.astro | "3M Scotchshield" | /products/3m-window-film/ |
-| Any city page | blog post title | /2026/04/22/benefits-window-tint-philadelphia-energy-comfort-uv-defense/ |
+| Any city page | blog post title | /2026/04/22/benefits-window-tint-salt-lake-city-energy-comfort-uv-defense/ |
 
 ---
 
@@ -422,11 +422,11 @@ These are content additions recommended for the next writing pass:
 
 ### 5.1 What customers ask that the site doesn't answer
 
-**Philadelphia city page — gaps:**
+**Salt Lake City city page — gaps:**
 - "Does window film affect my view at night?" (one-way film reversal)
 - "Will film affect my window warranties?" (common concern)
 - "What's the difference between tinting and window film?"
-- "Do you do residential or only commercial?" (stated in Camden, not Philly)
+- "Do you do residential or only commercial?" (stated in Camden, not Salt Lake)
 - No mention of the A+ BBB rating or Google rating on this page
 
 **Products pages — gaps:**
@@ -447,20 +447,20 @@ These are content additions recommended for the next writing pass:
   would ask
 - No pricing context
 - No case study or project reference
-- No specific Philadelphia government buildings referenced
+- No specific Salt Lake City government buildings referenced
 
 **Blog — gaps:**
-- "How much does window film cost in Philadelphia?" — highest-volume FAQ,
+- "How much does window film cost in Salt Lake City?" — highest-volume FAQ,
   no dedicated content page addresses this completely
 - "How long does window film last?" — not answered anywhere in standalone content
 - "Can you put window film on double-pane windows?" (answered on 3M page
   but not in general content)
 - "Window film vs window replacement" — a resources page exists
   (/resources/window-replacement-alternative/) but no blog post covers it
-- "Window film for historic buildings Philadelphia" — high local intent, mentioned
-  in Philadelphia FAQ but no dedicated content
-- "Best window film for apartments Philadelphia" — renters are a large
-  Philly segment, zero dedicated content
+- "Window film for historic buildings Salt Lake City" — high local intent, mentioned
+  in Salt Lake City FAQ but no dedicated content
+- "Best window film for apartments Salt Lake City" — renters are a large
+  Salt Lake segment, zero dedicated content
 
 ---
 
@@ -470,8 +470,8 @@ These are content additions recommended for the next writing pass:
 |-------------|---------|--------|
 | /about/ or /about-us/ | HIGH | Trust signal; GEO credibility gap (noted in audit 02) |
 | /residential/ | HIGH | Residential homeowners have no dedicated landing page |
-| /blog/ post: "window film cost Philadelphia" | HIGH | Highest-volume informational query, no content |
-| /blog/ post: "window film historic buildings Philadelphia" | MEDIUM | Local intent + high differentiation value |
+| /blog/ post: "window film cost Salt Lake City" | HIGH | Highest-volume informational query, no content |
+| /blog/ post: "window film historic buildings Salt Lake City" | MEDIUM | Local intent + high differentiation value |
 | /blog/ post: "window film vs window tinting — what's the difference?" | MEDIUM | Common confusion query |
 | /blog/ post: "how long does window film last?" | MEDIUM | FAQ that appears on every competitor site |
 | /cities/cherry-hill/ | MEDIUM | Currently sends to /contact/ — high NJ suburb population |
@@ -488,7 +488,7 @@ The site has one blog post published April 22, 2026. The post URL structure
 
 Pre-fix: the post had four content problems (all fixed in this session).
 Post-fix: the post is a solid informational piece covering energy, UV defense,
-and comfort benefits of window tint in a Philadelphia context. The local
+and comfort benefits of window tint in a Salt Lake City context. The local
 specificity (Fishtown, Manayunk, Passyunk Avenue, Rittenhouse Square, Schuylkill
 references) is good. The citations (DOE, Skin Cancer Foundation) are appropriate.
 
@@ -507,14 +507,14 @@ Priority posts to write — each targeting a real search query:
 
 | Post title | Target query | Estimated volume |
 |-----------|-------------|-----------------|
-| How Much Does Window Film Cost in Philadelphia? (2026 Guide) | "window film cost Philadelphia" | HIGH |
-| Window Film for Philadelphia's Historic Rowhouses and Townhomes | "window film historic buildings Philadelphia" | MEDIUM |
-| How Long Does Window Film Last? What Philadelphia Homeowners Should Know | "how long does window film last" | HIGH |
-| Window Film vs. Window Replacement: A Philadelphia Property Owner's Guide | "window film vs window replacement" | MEDIUM |
-| The Best Window Film for South-Facing Windows in Philadelphia | "best window film for heat reduction" | MEDIUM |
-| Window Film for Philadelphia Renters: What You Need to Know | "apartment window film Philadelphia" | MEDIUM |
+| How Much Does Window Film Cost in Salt Lake City? (2026 Guide) | "window film cost Salt Lake City" | HIGH |
+| Window Film for Salt Lake City's Historic Rowhouses and Townhomes | "window film historic buildings Salt Lake City" | MEDIUM |
+| How Long Does Window Film Last? What Salt Lake City Homeowners Should Know | "how long does window film last" | HIGH |
+| Window Film vs. Window Replacement: A Salt Lake City Property Owner's Guide | "window film vs window replacement" | MEDIUM |
+| The Best Window Film for South-Facing Windows in Salt Lake City | "best window film for heat reduction" | MEDIUM |
+| Window Film for Salt Lake City Renters: What You Need to Know | "apartment window film Salt Lake City" | MEDIUM |
 | 3M vs. LLumar vs. Vista: Which Window Film Brand Is Right for Your Property? | "3M vs LLumar window film" | LOW-MEDIUM |
-| How Window Film Reduces Philadelphia Energy Bills Year-Round | "window film energy savings Philadelphia" | MEDIUM |
+| How Window Film Reduces Salt Lake City Energy Bills Year-Round | "window film energy savings Salt Lake City" | MEDIUM |
 
 The pricing post should be first. "How much does X cost in [city]" queries
 have very high commercial intent — readers are actively considering buying.
@@ -533,7 +533,7 @@ and ends with a CTA to get a quote is a high-converting page type.
 | applications/office.astro | Same broken link fix | Broken link |
 | index.astro | Added trailing slashes to 3 service card hrefs | Canonical URL |
 | index.astro | Added trailing slash to applications href in slider | Canonical URL |
-| cities/philadelphia.astro | Fixed word collision typo "theGreater" → "the Greater" | Typo |
+| cities/salt-lake-city.astro | Fixed word collision typo "theGreater" → "the Greater" | Typo |
 | applications.astro | Fixed Airports/Transit card self-link → `/applications/mass-transit/` | Broken link |
 | government-buildings.astro | Changed first BAF heading to avoid duplicate H1 | H-tag / content |
 | government-buildings.astro | Replaced placeholder sentence fragment with full paragraph in second BAF | Content |
@@ -548,12 +548,12 @@ and ends with a CTA to get a quote is a high-converting page type.
 
 ## Appendix: Keyword Density Quick Reference
 
-Primary keyword "window film Philadelphia" as phrase:
+Primary keyword "window film Salt Lake City" as phrase:
 
 | Page | Count | Verdict |
 |------|-------|---------|
 | index.astro (body text) | 1 | LOW — homepage should have 2–3 |
-| cities/philadelphia.astro | 6+ | GOOD |
+| cities/salt-lake-city.astro | 6+ | GOOD |
 | cities/camden.astro | 8+ | GOOD |
 | applications.astro | 3 | ADEQUATE |
 | applications/office.astro | 2 | ADEQUATE |

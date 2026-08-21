@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-security-window-film-philadelphia-office-investmen
 imageAlt: "Security Window Film for Philadelphia Offices: Is It Worth the Investment? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "security film"]
 categories: ["safety-security", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why are Philadelphia offices looking at glass security?

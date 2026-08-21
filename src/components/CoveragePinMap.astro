@@ -21,9 +21,9 @@ interface Props {
 }
 const {
   title = "Cities we serve",
-  subtitle = "Certified installers across the Greater Philadelphia region.",
+  subtitle = "Certified installers across the Greater Salt Lake City region.",
   cities = [
-    { name: "Philadelphia",    stat: "900+ installs",  left: "50%", top: "46%" },
+    { name: "Salt Lake City",    stat: "900+ installs",  left: "50%", top: "46%" },
     { name: "Upper Darby",     stat: "300+ installs",  left: "41%", top: "44%" },
     { name: "Camden",          stat: "250+ installs",  left: "56%", top: "50%" },
     { name: "Reading",         stat: "150+ installs",  left: "24%", top: "28%" },
@@ -45,8 +45,8 @@ const {
     <p class="cpm__sub">{subtitle}</p>
   </div>
   <div class="cpm__map">
-    <img class="cpm__bg" src="/images/map-philly-green.jpg"
-         alt="Map of the Greater Philadelphia service region" title="Map of the Greater Philadelphia service region" loading="lazy" />
+    <img class="cpm__bg" src="/images/map-salt-lake-green.jpg"
+         alt="Map of the Greater Salt Lake City service region" title="Map of the Greater Salt Lake City service region" loading="lazy" />
     <div class="cpm__overlay" aria-hidden="true"></div>
 
     {cities.map((city, i) => (

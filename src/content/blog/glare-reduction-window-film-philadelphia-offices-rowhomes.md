@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-glare-reduction-window-film-philadelphia-offices-r
 imageAlt: "Glare Reduction Window Film for Philadelphia Offices and Sunlit Rowhomes | Window Film Philadelphia"
 tags: ["philadelphia", "glare reduction", "office window film", "rowhome window film", "solar control"]
 categories: ["glare-reduction", "philadelphia"]
-draft: false
+draft: true
 ---
 
 Philadelphia light can be beautiful until it turns a Center City conference room into a screen-reflecting fishbowl or makes a south-facing rowhome parlor in Graduate Hospital too bright to enjoy by 3 p.m. Glare reduction window film Philadelphia property owners ask for most often is not about darkening glass for the sake of it. It is about keeping daylight, views, and architectural character while taking the sharp edge off direct sun.

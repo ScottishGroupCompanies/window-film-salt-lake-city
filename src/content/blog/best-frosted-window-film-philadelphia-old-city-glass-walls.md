@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-office-hero.jpg"
 imageAlt: "Frosted privacy window film on office glass walls in Old City Philadelphia"
 tags: ["frosted window film", "privacy window film", "philadelphia", "office glass", "decorative film"]
-draft: false
+draft: true
 categories: ["privacy-film", "philadelphia"]
 ---
 

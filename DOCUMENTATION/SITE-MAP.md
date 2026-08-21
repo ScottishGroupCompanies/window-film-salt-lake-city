@@ -31,10 +31,10 @@
 | Página | Ruta | Estado | Notas |
 |---|---|---|---|
 | Benefits Index | `/benefits/` | ✅ Completo | Rediseñado con BAF + stats + grid |
-| UV Blocking | `/benefits/uv-blocking-window-film-philadelphia/` | ✅ Completo | — |
+| UV Blocking | `/benefits/uv-blocking-window-film-salt-lake-city/` | ✅ Completo | — |
 | Energy Savings | `/benefits/energy-savings/` | ✅ Completo | — |
 | Glare Reduction | `/benefits/glare-reduction/` | ✅ Completo | — |
-| Privacy Film | `/benefits/privacy-window-film-philadelphia/` | ✅ Completo | — |
+| Privacy Film | `/benefits/privacy-window-film-salt-lake-city/` | ✅ Completo | — |
 | Safety & Security | `/benefits/safety-and-security/` | ✅ Completo | — |
 | Anti-Graffiti | `/benefits/anti-graffiti/` | ✅ Completo | — |
 | Decorative | `/benefits/decorative-promotional/` | ✅ Completo | — |
@@ -55,7 +55,7 @@
 |---|---|---|---|
 | Cities Index | `/cities/` | ✅ Completo | — |
 | Camden | `/cities/camden/` | ✅ Template | Template completo — todo lo demás copia esto |
-| Philadelphia | `/cities/philadelphia/` | 🟡 Copiar de Camden | Hero + sticky sidebar pendientes |
+| Salt Lake City | `/cities/salt-lake-city/` | 🟡 Copiar de Camden | Hero + sticky sidebar pendientes |
 | Reading | `/cities/reading/` | 🟡 Copiar de Camden | Hero + sticky sidebar pendientes |
 | Upper Darby | `/cities/upper-darby-township/` | 🟡 Copiar de Camden | Hero + sticky sidebar pendientes |
 
@@ -67,7 +67,7 @@
 | Applications Index | `/applications/` | 🔴 Por hacer | Mirar template BAF de Benefits |
 | Office | `/applications/office/` | 🔴 Por hacer | — |
 | Retail | `/applications/retail/` | 🔴 Por hacer | — |
-| Restaurants | `/applications/restaurants-window-film-philadelphia/` | 🔴 Por hacer | — |
+| Restaurants | `/applications/restaurants-window-film-salt-lake-city/` | 🔴 Por hacer | — |
 | Hotels | `/applications/hotel-window-film/` | 🔴 Por hacer | — |
 | Schools & Universities | `/applications/schools-universities/` | 🔴 Por hacer | — |
 | Churches | `/applications/churches/` | 🔴 Por hacer | — |
@@ -130,7 +130,7 @@
 ## Prioridades de trabajo
 
 ### Inmediato (esta semana)
-1. 🟡 Philadelphia city page — copiar estructura de Camden
+1. 🟡 Salt Lake City city page — copiar estructura de Camden
 2. 🟡 Reading city page — copiar estructura de Camden
 3. 🟡 Upper Darby city page — copiar estructura de Camden
 

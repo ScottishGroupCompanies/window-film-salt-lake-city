@@ -1,4 +1,4 @@
-# Page Spec — Hospital & Healthcare Window Film Philadelphia
+# Page Spec — Hospital & Healthcare Window Film Salt Lake City
 **File:** `src/pages/applications/healthcare.astro`
 **URL:** `/applications/healthcare/`
 **CSS namespace:** `he-` (new classes only — all `of-` CSS inherited from clone)
@@ -11,21 +11,21 @@
 
 | Field | Value |
 |---|---|
-| Meta title (≤60 chars) | `Hospital Window Film in Philadelphia \| UV, Privacy & Energy` |
-| Meta desc (≤160 chars) | `Hospital window film for Philadelphia — improve patient comfort, protect privacy, cut energy costs, and strengthen medical facility security. Free assessment.` |
-| Canonical | `https://www.windowfilmphiladelphia.net/applications/healthcare/` |
-| Primary keyword | `hospital window film in Philadelphia` |
-| H1 (≤60 chars) | `Hospital Window Film in Philadelphia` |
+| Meta title (≤60 chars) | `Hospital Window Film in Salt Lake City \| UV, Privacy & Energy` |
+| Meta desc (≤160 chars) | `Hospital window film for Salt Lake City — improve patient comfort, protect privacy, cut energy costs, and strengthen medical facility security. Free assessment.` |
+| Canonical | `https://www.windowfilmsaltlakecity.com/applications/healthcare/` |
+| Primary keyword | `hospital window film in Salt Lake City` |
+| H1 (≤60 chars) | `Hospital Window Film in Salt Lake City` |
 | Target density | 0.5–1% in visible body copy |
-| serviceName | `Hospital Window Film Installation Philadelphia` |
-| serviceDesc | `Professional window film installation for Philadelphia hospitals, medical offices, outpatient clinics, surgical centers, and healthcare facilities — UV protection, patient privacy, energy savings, and facility security.` |
-| serviceUrl | `https://www.windowfilmphiladelphia.net/applications/healthcare/` |
+| serviceName | `Hospital Window Film Installation Salt Lake City` |
+| serviceDesc | `Professional window film installation for Salt Lake City hospitals, medical offices, outpatient clinics, surgical centers, and healthcare facilities — UV protection, patient privacy, energy savings, and facility security.` |
+| serviceUrl | `https://www.windowfilmsaltlakecity.com/applications/healthcare/` |
 
 ### Internal links
 | Section | Link | Anchor text |
 |---|---|---|
-| Privacy benefit row | `/benefits/privacy-window-film-philadelphia/` | `privacy window film` |
-| UV benefit row | `/benefits/uv-blocking-window-film-philadelphia/` | `UV-blocking window film` |
+| Privacy benefit row | `/benefits/privacy-window-film-salt-lake-city/` | `privacy window film` |
+| UV benefit row | `/benefits/uv-blocking-window-film-salt-lake-city/` | `UV-blocking window film` |
 | Energy benefit row | `/benefits/energy-savings/` | `energy-saving window film` |
 | Security benefit row | `/benefits/safety-and-security/` | `safety and security window film` |
 
@@ -47,7 +47,7 @@
 ---
 
 ## FlipWords
-Sentence: `Window film built for Philadelphia`
+Sentence: `Window film built for Salt Lake City`
 Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`, `dental practices`
 
 ---
@@ -55,9 +55,9 @@ Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`,
 ## Sections
 
 ### 1. HERO
-- **H1:** `Hospital Window Film in Philadelphia`
-- **Eyebrow:** `Hospital & Healthcare Window Film · Philadelphia`
-- **Subtitle:** Philadelphia healthcare facilities manage four competing glass challenges simultaneously: intense solar exposure affecting patient comfort and healing, energy-intensive HVAC systems struggling against glass heat gain, privacy requirements at consultation and pharmacy windows, and the need to protect staff and assets in sensitive areas. Hospital window film for Philadelphia addresses all four without construction, closures, or disruption to patient care.
+- **H1:** `Hospital Window Film in Salt Lake City`
+- **Eyebrow:** `Hospital & Healthcare Window Film · Salt Lake City`
+- **Subtitle:** Salt Lake City healthcare facilities manage four competing glass challenges simultaneously: intense solar exposure affecting patient comfort and healing, energy-intensive HVAC systems struggling against glass heat gain, privacy requirements at consultation and pharmacy windows, and the need to protect staff and assets in sensitive areas. Hospital window film for Salt Lake City addresses all four without construction, closures, or disruption to patient care.
 - **Stats:**
   - `99%` / UV Rays Blocked
   - `79%` / Solar Heat Rejected
@@ -66,19 +66,19 @@ Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`,
 - **Image:** `he-hero.jpg` (1376×768)
 
 ### 2. TRUST BAR
-- Label: `Trusted by Philadelphia hospitals, medical offices & healthcare campuses`
+- Label: `Trusted by Salt Lake City hospitals, medical offices & healthcare campuses`
 
 ### 3. WHAT IS (of-whatis CSS)
-- **Eyebrow:** `Hospital Window Film · Philadelphia`
-- **H2:** `Clinical-Grade Window Film for Philadelphia Medical Facilities`
-- Body: Explain window film as optically clear or lightly tinted polyester bonded to existing glass in hospitals, clinics, and medical offices. Covers UV block for patient comfort and textile protection, solar heat rejection for HVAC relief, frosted and patterned films for consultation room privacy, and safety/security film for pharmacy windows and behavioral health units. No patient room closures required. Mention 3M Certified Dealer status. Include `hospital window film in Philadelphia` naturally.
+- **Eyebrow:** `Hospital Window Film · Salt Lake City`
+- **H2:** `Clinical-Grade Window Film for Salt Lake City Medical Facilities`
+- Body: Explain window film as optically clear or lightly tinted polyester bonded to existing glass in hospitals, clinics, and medical offices. Covers UV block for patient comfort and textile protection, solar heat rejection for HVAC relief, frosted and patterned films for consultation room privacy, and safety/security film for pharmacy windows and behavioral health units. No patient room closures required. Mention 3M Certified Dealer status. Include `hospital window film in Salt Lake City` naturally.
 - **Image:** `he-whatis.jpg`
 
 ### 4. WHY / PROBLEM (of-why CSS, 4 cards)
-- **H2:** `Four Glass Challenges Philadelphia Healthcare Facilities Manage Daily`
+- **H2:** `Four Glass Challenges Salt Lake City Healthcare Facilities Manage Daily`
 - Cards:
   1. **Uncontrolled UV Exposure** — Patient rooms with east or south-facing windows expose recovering patients to UV radiation that impairs healing environments and degrades medical-grade textiles
-  2. **High HVAC Energy Costs** — Hospital campuses with expansive glass curtain walls face disproportionate cooling loads; large medical centers represent some of the highest-energy building types in Philadelphia
+  2. **High HVAC Energy Costs** — Hospital campuses with expansive glass curtain walls face disproportionate cooling loads; large medical centers represent some of the highest-energy building types in Salt Lake City
   3. **Insufficient Patient Privacy** — Consultation rooms, nurse stations, and pharmacy windows with clear glass create HIPAA-adjacent visibility issues that window film resolves without permanent frosted glass
   4. **Vulnerable Secure Areas** — Pharmacy windows, behavioral health unit glazing, and administrative areas benefit from shatter-resistant safety film that standard glass cannot provide
 - **Image:** `he-why.jpg` — ASPIRATIONAL: bright modern hospital patient room, soft warm healing light, beautiful restorative environment
@@ -91,7 +91,7 @@ Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`,
   - `0` / Patient Care Disruptions During Install
 
 ### 6. SPACE TYPES GRID (of-spaces CSS, 4 cards)
-- **H2:** `Film Solutions for Every Philadelphia Healthcare Setting`
+- **H2:** `Film Solutions for Every Salt Lake City Healthcare Setting`
 - Cards:
   1. **Hospitals & Medical Centers** — Jefferson Health, Penn Medicine, Temple Health, and independent hospitals — large glass facades, patient room windows, pharmacy glazing, and behavioral health units
   2. **Outpatient Clinics** — High-volume medical offices and specialty clinics — consultation room privacy film, waiting room solar control, reception desk glazing
@@ -102,28 +102,28 @@ Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`,
 ### 7. BENEFIT ROWS (4 rows)
 
 **Row 1 — UV Protection / Patient Comfort (img left):**
-- **Eyebrow:** `Patient Comfort · Philadelphia Hospitals`
+- **Eyebrow:** `Patient Comfort · Salt Lake City Hospitals`
 - **H2:** `Healing Environments Start with Light That Doesn't Harm`
-- Body: UV radiation in patient rooms contributes to discomfort, skin exposure during extended recovery, and accelerated fading of medical-grade upholstery, curtains, and furnishings. Per EPA UV guidelines (link to `https://www.epa.gov/sunsafety/uv-index-scale-1`), even indirect UV exposure accumulates over time. Window film blocks up to 99% of UV while preserving natural light — creating the bright, calming environments patients and clinical staff prefer. Link to `/benefits/uv-blocking-window-film-philadelphia/`.
+- Body: UV radiation in patient rooms contributes to discomfort, skin exposure during extended recovery, and accelerated fading of medical-grade upholstery, curtains, and furnishings. Per EPA UV guidelines (link to `https://www.epa.gov/sunsafety/uv-index-scale-1`), even indirect UV exposure accumulates over time. Window film blocks up to 99% of UV while preserving natural light — creating the bright, calming environments patients and clinical staff prefer. Link to `/benefits/uv-blocking-window-film-salt-lake-city/`.
 - Bullets: 99% UV rejection in patient rooms / Preserves medical-grade textile colors and integrity / Reduces patient discomfort in sun-facing rooms / Maintains natural light without UV risk
 - **Image:** `he-uv.jpg` (img left, text right)
 
 **Row 2 — Energy Savings (img right):**
-- **Eyebrow:** `Energy Savings · Philadelphia Healthcare`
+- **Eyebrow:** `Energy Savings · Salt Lake City Healthcare`
 - **H2:** `Lower the Energy Cost of Keeping Patients Cool and Comfortable`
 - Body: Hospitals are among the most energy-intensive buildings in any city. Per the U.S. Energy Information Administration (link to `https://www.eia.gov/energyexplained/use-of-energy/commercial-buildings.php`), healthcare facilities consume significantly more energy per square foot than office or retail buildings — and HVAC is the largest single cost driver. Solar control window film reduces glass heat gain by up to 79%, cutting the cooling load on systems that run 24 hours a day, 365 days a year. Link to `/benefits/energy-savings/`.
 - Bullets: Up to 79% solar heat rejection / Reduces 24/7 HVAC load in patient wards / Supports hospital sustainability and green building goals / Measurable utility savings across large glass footprints
 - **Image:** `he-energy.jpg` (text left, img right)
 
 **Row 3 — Privacy (img left):**
-- **Eyebrow:** `Patient Privacy · Philadelphia Medical Facilities`
+- **Eyebrow:** `Patient Privacy · Salt Lake City Medical Facilities`
 - **H2:** `Visual Privacy Without Closing Off Natural Light`
-- Body: Consultation rooms, nurse stations, pharmacy windows, and patient intake areas all benefit from visual privacy that standard clear glass cannot provide. Frosted and patterned window films create HIPAA-aware separation between public corridors and private clinical areas — without eliminating natural light or requiring permanent frosted glass installation. Films are removable and replaceable as facility layouts evolve. Link to `/benefits/privacy-window-film-philadelphia/`.
+- Body: Consultation rooms, nurse stations, pharmacy windows, and patient intake areas all benefit from visual privacy that standard clear glass cannot provide. Frosted and patterned window films create HIPAA-aware separation between public corridors and private clinical areas — without eliminating natural light or requiring permanent frosted glass installation. Films are removable and replaceable as facility layouts evolve. Link to `/benefits/privacy-window-film-salt-lake-city/`.
 - Bullets: Frosted film for consultation and exam rooms / Patterned films maintain light while blocking sightlines / Removable without damaging glass / Cleaner and more professional than blinds or curtains
 - **Image:** `he-privacy.jpg` (img left, text right)
 
 **Row 4 — Safety & Security (img right):**
-- **Eyebrow:** `Facility Security · Philadelphia Hospitals`
+- **Eyebrow:** `Facility Security · Salt Lake City Hospitals`
 - **H2:** `Strengthen Pharmacy, Behavioral Health, and Entry Glazing`
 - Body: Pharmacy windows, behavioral health unit glazing, and administrative entry points all represent vulnerable glass that standard panes cannot adequately protect. Safety and security film bonds to glass and holds shattered fragments in place — significantly increasing forced-entry resistance and reducing injury risk from glass breakage in clinical environments. Link to `/benefits/safety-and-security/`.
 - Bullets: Holds shattered glass fragments in frame / Meets ANSI Z97.1 safety glazing standard / Protects pharmacy and controlled-substance windows / Reduces laceration risk from accidental glass breakage
@@ -162,11 +162,11 @@ Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`,
 - Q: Can decorative film be removed if we renovate or rebrand? A: Yes. Decorative films are removable without damaging underlying glass, making them a significantly less expensive and disruptive alternative to acid-etched or sandblasted glass.
 
 ### 9. CASE STUDY (of-project CSS)
-- **Location:** University City / West Philadelphia medical district — large outpatient clinic, south-facing glass facade
+- **Location:** University City / West Salt Lake City medical district — large outpatient clinic, south-facing glass facade
 - **Challenge:** Patient waiting area on the south side experienced intense afternoon solar heat gain; patients complained of discomfort; HVAC could not adequately compensate; consultation rooms adjacent to public corridor had clear glass creating visible privacy concerns
 - **Solution:** 3M Prestige 70 solar control film on south-facing waiting room and patient room windows; LLumar frosted privacy film on consultation room corridor-facing glass; 3M Scotchshield Ultra S800 safety film on pharmacy window
 - **Result:** Waiting room temperature measurably reduced on sunny afternoons, patient privacy concerns fully resolved at consultation rooms, pharmacy window upgraded to meet facility safety requirements — all completed across two scheduled maintenance windows
-- **Support docs:** `hospital-window-film-3m-prestige-70-solar-control-spec-philadelphia.pdf`, `hospital-window-film-llumar-reflective-privacy-spec-philadelphia.pdf`
+- **Support docs:** `hospital-window-film-3m-prestige-70-solar-control-spec-salt-lake-city.pdf`, `hospital-window-film-llumar-reflective-privacy-spec-salt-lake-city.pdf`
 - **Image:** `he-case-study.jpg`
 
 ### 10. GALLERY (7 panels, 1376×768)
@@ -181,12 +181,12 @@ Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`,
 ### 11. RESOURCES (6 PDFs — all validated ✓)
 | Label | Filename |
 |---|---|
-| 3M Prestige 70 — Solar Control Window Film Spec Sheet | `hospital-window-film-3m-prestige-70-solar-control-spec-philadelphia.pdf` |
-| 3M Scotchshield Ultra S800 — Safety & Security Film Technical Data | `hospital-window-film-3m-scotchshield-safety-security-technical-data-philadelphia.pdf` |
-| Vista SpectraSelect — Solar Control + Safety Film Specifications | `hospital-window-film-vista-spectraselect-solar-safety-spec-philadelphia.pdf` |
-| Solar Gard 8 Mil — Safety & Security Film CSI Specification | `hospital-window-film-solar-gard-8mil-safety-security-spec-philadelphia.pdf` |
-| LLumar Reflective Privacy Window Film — Performance Specifications | `hospital-window-film-llumar-reflective-privacy-spec-philadelphia.pdf` |
-| 3M Energy Efficiency Brochure — Commercial Window Film Energy Savings Data | `hospital-window-film-energy-efficiency-brochure-3m-philadelphia.pdf` |
+| 3M Prestige 70 — Solar Control Window Film Spec Sheet | `hospital-window-film-3m-prestige-70-solar-control-spec-salt-lake-city.pdf` |
+| 3M Scotchshield Ultra S800 — Safety & Security Film Technical Data | `hospital-window-film-3m-scotchshield-safety-security-technical-data-salt-lake-city.pdf` |
+| Vista SpectraSelect — Solar Control + Safety Film Specifications | `hospital-window-film-vista-spectraselect-solar-safety-spec-salt-lake-city.pdf` |
+| Solar Gard 8 Mil — Safety & Security Film CSI Specification | `hospital-window-film-solar-gard-8mil-safety-security-spec-salt-lake-city.pdf` |
+| LLumar Reflective Privacy Window Film — Performance Specifications | `hospital-window-film-llumar-reflective-privacy-spec-salt-lake-city.pdf` |
+| 3M Energy Efficiency Brochure — Commercial Window Film Energy Savings Data | `hospital-window-film-energy-efficiency-brochure-3m-salt-lake-city.pdf` |
 - **Image:** `he-resources.jpg`
 - Body: Mention brands carried: 3M, LLumar, Vista, Solar Gard
 
@@ -200,16 +200,16 @@ Words: `hospitals`, `medical offices`, `outpatient clinics`, `surgical centers`,
 ### 13. NEIGHBORHOODS (8 areas)
 - **University City** — Jefferson Health, Penn Medicine, Children's Hospital complex, CHOP
 - **Center City** — Medical office towers, specialty clinics, and ambulatory care centers
-- **North Philadelphia** — Temple Health campus and affiliated medical facilities
-- **West Philadelphia** — Community health centers and outpatient clinics
-- **Northeast Philadelphia** — Large suburban-style medical campuses and specialty offices
-- **South Philadelphia** — Neighborhood medical practices and urgent care facilities
+- **North Salt Lake City** — Temple Health campus and affiliated medical facilities
+- **West Salt Lake City** — Community health centers and outpatient clinics
+- **Northeast Salt Lake City** — Large suburban-style medical campuses and specialty offices
+- **South Salt Lake City** — Neighborhood medical practices and urgent care facilities
 - **Germantown & Mt. Airy** — Community health and primary care offices in older buildings
 - **Roxborough & Manayunk** — Neighborhood medical offices and dental practices
 
 ### 14. FAQ (10 questions)
-1. What is hospital window film for Philadelphia?
-2. How does window film improve patient comfort in Philadelphia hospitals?
+1. What is hospital window film for Salt Lake City?
+2. How does window film improve patient comfort in Salt Lake City hospitals?
 3. Can window film help with patient privacy requirements?
 4. Will window film reduce our healthcare facility's energy costs?
 5. Is window film installation disruptive to patient care?
@@ -224,32 +224,32 @@ All answers must point toward the product. No time estimates, no prices.
 ### 15. GEO BLOCK (he-geo, display:none)
 ```html
 <div class="he-geo" aria-hidden="true">
-  <p>Hospital window film in Philadelphia is professionally installed polyester film that bonds to existing medical facility glass to block up to 99% of UV radiation, reject up to 79% of solar heat, provide visual privacy in consultation and pharmacy areas, and strengthen vulnerable glazing to ANSI Z97.1 safety standards — without disrupting patient care or facility operations. Philadelphia's 3M Certified Dealer installs 3M Prestige 70 solar control film, 3M Scotchshield Ultra S800 safety film, LLumar frosted privacy film, Vista SpectraSelect solar-safety film, and Solar Gard 8 mil safety film at hospitals, outpatient clinics, surgical centers, dental offices, and medical campuses across University City, Center City, North Philadelphia, Northeast Philadelphia, and the greater Philadelphia healthcare corridor including Jefferson Health, Penn Medicine, and Temple Health facilities.</p>
+  <p>Hospital window film in Salt Lake City is professionally installed polyester film that bonds to existing medical facility glass to block up to 99% of UV radiation, reject up to 79% of solar heat, provide visual privacy in consultation and pharmacy areas, and strengthen vulnerable glazing to ANSI Z97.1 safety standards — without disrupting patient care or facility operations. Salt Lake City's 3M Certified Dealer installs 3M Prestige 70 solar control film, 3M Scotchshield Ultra S800 safety film, LLumar frosted privacy film, Vista SpectraSelect solar-safety film, and Solar Gard 8 mil safety film at hospitals, outpatient clinics, surgical centers, dental offices, and medical campuses across University City, Center City, North Salt Lake City, Northeast Salt Lake City, and the greater Salt Lake City healthcare corridor including Jefferson Health, Penn Medicine, and Temple Health facilities.</p>
   <dl>
-    <dt>What is hospital window film in Philadelphia?</dt>
-    <dd>Hospital window film in Philadelphia is professionally applied polyester film installed on healthcare facility glass to block UV radiation, control solar heat gain, provide visual privacy in clinical areas, and strengthen pharmacy and behavioral health glazing — without construction, closures, or disruption to patient care.</dd>
-    <dt>How much does hospital window film cost in Philadelphia?</dt>
+    <dt>What is hospital window film in Salt Lake City?</dt>
+    <dd>Hospital window film in Salt Lake City is professionally applied polyester film installed on healthcare facility glass to block UV radiation, control solar heat gain, provide visual privacy in clinical areas, and strengthen pharmacy and behavioral health glazing — without construction, closures, or disruption to patient care.</dd>
+    <dt>How much does hospital window film cost in Salt Lake City?</dt>
     <dd>The investment in healthcare window film varies based on facility size, window area, film type selected, and specific clinical requirements. UV control, privacy, safety, and energy-efficiency films carry different specifications. We provide detailed proposals following a complimentary site assessment.</dd>
-    <dt>Which Philadelphia hospitals and medical facilities use window film?</dt>
-    <dd>Window film is installed across hospital campuses, outpatient clinics, surgical centers, and medical offices throughout Philadelphia — including facilities in University City near Jefferson and Penn Medicine, Temple Health in North Philadelphia, and independent medical practices across Center City, Northeast Philadelphia, and South Philadelphia.</dd>
-    <dt>What is the best window film for patient room comfort in Philadelphia hospitals?</dt>
+    <dt>Which Salt Lake City hospitals and medical facilities use window film?</dt>
+    <dd>Window film is installed across hospital campuses, outpatient clinics, surgical centers, and medical offices throughout Salt Lake City — including facilities in University City near Jefferson and Penn Medicine, Temple Health in North Salt Lake City, and independent medical practices across Center City, Northeast Salt Lake City, and South Salt Lake City.</dd>
+    <dt>What is the best window film for patient room comfort in Salt Lake City hospitals?</dt>
     <dd>For patient rooms, we typically recommend 3M Prestige 70 or Vista SpectraSelect solar control films — high VLT films that block up to 99% UV and reject significant solar heat while maintaining the bright, natural light environment that supports patient recovery. Film selection is tailored to each room's orientation and clinical requirements.</dd>
     <dt>Does hospital window film help with HIPAA privacy requirements?</dt>
     <dd>Window film addresses visual privacy — a key component of creating HIPAA-aware clinical environments. Frosted and patterned films on consultation room, exam room, and pharmacy glazing reduce corridor visibility without permanent alterations. We recommend coordinating with your compliance team to evaluate specific applications.</dd>
   </dl>
   <ul>
-    <li>hospital window film Philadelphia</li>
-    <li>hospital window film in Philadelphia</li>
-    <li>healthcare window film Philadelphia</li>
-    <li>medical office window film Philadelphia</li>
-    <li>clinic window film Philadelphia</li>
-    <li>patient privacy window film Philadelphia</li>
-    <li>UV protection film hospital Philadelphia</li>
-    <li>energy saving window film hospital Philadelphia</li>
-    <li>pharmacy window security film Philadelphia</li>
-    <li>surgical center window film Philadelphia</li>
-    <li>HIPAA privacy window film Philadelphia</li>
-    <li>hospital solar control film Philadelphia</li>
+    <li>hospital window film Salt Lake City</li>
+    <li>hospital window film in Salt Lake City</li>
+    <li>healthcare window film Salt Lake City</li>
+    <li>medical office window film Salt Lake City</li>
+    <li>clinic window film Salt Lake City</li>
+    <li>patient privacy window film Salt Lake City</li>
+    <li>UV protection film hospital Salt Lake City</li>
+    <li>energy saving window film hospital Salt Lake City</li>
+    <li>pharmacy window security film Salt Lake City</li>
+    <li>surgical center window film Salt Lake City</li>
+    <li>HIPAA privacy window film Salt Lake City</li>
+    <li>hospital solar control film Salt Lake City</li>
   </ul>
 </div>
 ```
@@ -268,24 +268,24 @@ const pageSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.windowfilmphiladelphia.net/" },
-      { "@type": "ListItem", "position": 2, "name": "Applications", "item": "https://www.windowfilmphiladelphia.net/applications/" },
-      { "@type": "ListItem", "position": 3, "name": "Hospital Window Film", "item": "https://www.windowfilmphiladelphia.net/applications/healthcare/" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.windowfilmsaltlakecity.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Applications", "item": "https://www.windowfilmsaltlakecity.com/applications/" },
+      { "@type": "ListItem", "position": 3, "name": "Hospital Window Film", "item": "https://www.windowfilmsaltlakecity.com/applications/healthcare/" }
     ]
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://www.windowfilmphiladelphia.net/applications/healthcare/",
-    "name": "Hospital Window Film in Philadelphia",
-    "description": "Hospital window film for Philadelphia — improve patient comfort, protect privacy, cut energy costs, and strengthen medical facility security. Free assessment.",
+    "@id": "https://www.windowfilmsaltlakecity.com/applications/healthcare/",
+    "name": "Hospital Window Film in Salt Lake City",
+    "description": "Hospital window film for Salt Lake City — improve patient comfort, protect privacy, cut energy costs, and strengthen medical facility security. Free assessment.",
     "dateModified": new Date().toISOString().slice(0, 10),
     "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".he-hero__title", ".of-whatis__title", ".swt-faq"] }
   },
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Hospital Window Film Solutions Philadelphia",
+    "name": "Hospital Window Film Solutions Salt Lake City",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "UV Protection Film" },
       { "@type": "ListItem", "position": 2, "name": "Energy Efficiency Film" },
@@ -298,9 +298,9 @@ const pageSchemas = [
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Hospital Window Film Installation Philadelphia",
-    "description": "Professional window film installation for Philadelphia healthcare facilities.",
-    "brand": { "@type": "Brand", "name": "Window Film Philadelphia" },
+    "name": "Hospital Window Film Installation Salt Lake City",
+    "description": "Professional window film installation for Salt Lake City healthcare facilities.",
+    "brand": { "@type": "Brand", "name": "Window Film Salt Lake City" },
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "47" },
     "review": [
       { "@type": "Review", "author": { "@type": "Person", "name": "Robert M." }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Our south-facing patient wing was uncomfortable for recovering patients every afternoon. After installation, the temperature difference was noticeable the same week. No disruption to a single patient." },

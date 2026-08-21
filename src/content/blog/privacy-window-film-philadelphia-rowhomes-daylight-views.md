@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-privacy-window-film-philadelphia-rowhomes-daylight
 imageAlt: "Privacy Window Film for Philadelphia Rowhomes: Better Daylight Without Street-Level Views | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "privacy film"]
 categories: ["privacy-film", "philadelphia"]
-draft: false
+draft: true
 ---
 
 Philadelphia rowhomes and condos often need a privacy fix that does not make rooms feel closed off. On blocks in Fishtown, South Philly, and Manayunk, street-facing glass can leave living rooms, bathrooms, and front entries exposed the moment interior lights come on. Privacy window film Philadelphia property owners choose most often solves that visibility problem while keeping daylight in place.

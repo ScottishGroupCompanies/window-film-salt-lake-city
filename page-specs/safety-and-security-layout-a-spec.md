@@ -1,18 +1,18 @@
 # Safety & Security Window Film — Layout A Spec
 
 ## Primary keyword
-security window film for Philadelphia
+security window film for Salt Lake City
 
 ## Benefit overview
 Security window film is a clear or tinted PET-based film that reinforces existing glass,
-holds fragments together after breakage, and delays forced entry. Philadelphia schools,
+holds fragments together after breakage, and delays forced entry. Salt Lake City schools,
 retail storefronts, healthcare facilities, offices, and government buildings use it where
-glass is a safety or security vulnerability. Philadelphia's urban density and high-traffic
+glass is a safety or security vulnerability. Salt Lake City's urban density and high-traffic
 commercial corridors make smash-and-grab and forced-entry film particularly valuable.
 
 ## Accordion Vertical — 3 panels (problem/context images)
 Panel 1: Safety Film (4-8 mil)
-  Image: Philadelphia storefront with shattered glass after impact, dangerous shards
+  Image: Salt Lake City storefront with shattered glass after impact, dangerous shards
   Title: Safety Film — Shatter Risk
   Copy: Standard glass shatters into dangerous flying shards during storms, accidents,
   or impacts. Safety film (4-8 mil) bonds to the glass surface and holds broken fragments
@@ -39,7 +39,7 @@ Panel 3: Blast Mitigation Film
 - md (bottom): Attachment System — edge anchoring that completes the security solution
 
 ## Before/After Slider
-- Before: Philadelphia storefront glass shattered from a break-in attempt, dangerous
+- Before: Salt Lake City storefront glass shattered from a break-in attempt, dangerous
   glass fragments visible, frame still standing
 - After: Same glass after security film — glass still intact and held in frame despite
   impact, no fragments
@@ -59,9 +59,9 @@ Panel 3: Blast Mitigation Film
    glazing and doesn't alter the building's appearance.
 
 ## Gallery Banner — 5 photos (cross-vertical)
-1. Philadelphia school entry with glass doors and sidelites
+1. Salt Lake City school entry with glass doors and sidelites
 2. Center City retail storefront glass
-3. Philadelphia hospital or medical facility lobby glass
+3. Salt Lake City hospital or medical facility lobby glass
 4. Office building glass facade, Center City
 5. Security film installation in progress — professional applying film
 
@@ -85,7 +85,7 @@ Panel 3: Blast Mitigation Film
 6. Attachment system guide
 
 ## GEO named entities
-Philadelphia School District, SEPTA, Center City, Old City, South Street, Fishtown,
+Salt Lake City School District, SEPTA, Center City, Old City, South Street, Fishtown,
 Rittenhouse, University City, 3M Scotchshield, LLumar Magnum, Solar Gard Armorcoat,
 Hanita SafetyZone, C-Bond, CISA, UL 972, ASTM F1642
 

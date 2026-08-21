@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-uv-window-film-healthier-living-philadelphia.jpg"
 imageAlt: "Why UV Window Film Is a Must-have for Healthier Living in Philadelphia | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "uv protection", "fading protection", "interior comfort"]
 categories: ["uv-protection", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Is Philadelphia sun exposure harder on interiors than you expect?

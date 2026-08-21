@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-commercial-window-film-philadelphia-office-cooling
 imageAlt: "Commercial Window Film for Philadelphia Offices: Comfort, Privacy, and Lower Cooling Load | Window Film Philadelphia"
 tags: ["commercial window film", "philadelphia offices", "privacy window film", "glare reduction", "energy savings"]
 categories: ["philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why does office glass become a problem in Philadelphia?

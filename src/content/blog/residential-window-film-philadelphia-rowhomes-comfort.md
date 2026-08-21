@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-residential-window-film-philadelphia-rowhomes-comf
 imageAlt: "Residential Window Film for Philadelphia Rowhomes: Comfort Without Replacing the Glass | Window Film Philadelphia"
 tags: ["residential window film", "philadelphia", "rowhomes", "energy savings", "uv protection"]
 categories: ["philadelphia"]
-draft: false
+draft: true
 ---
 
 Philadelphia homeowners usually start looking at window film when one room feels impossible to regulate. The front parlor gets blasted in the afternoon, the second-floor bedroom stays bright and hot after sunset, or the living room furniture near the windows starts to fade faster than everything else. Residential window film Philadelphia property owners install most often is not about making the house darker. It is about making existing glass work better in real rowhome conditions.

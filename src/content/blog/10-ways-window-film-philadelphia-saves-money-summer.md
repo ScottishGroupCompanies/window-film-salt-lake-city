@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-10-ways-window-film-philadelphia-saves-money-summe
 imageAlt: "10 Ways Window Film in Philadelphia Saves Money in the Summer | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "energy savings", "summer heat"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 Philadelphia summers are not gentle. By July, rowhomes in South Philly are absorbing heat through south- and west-facing glass all afternoon. Center City offices close their blinds by 2 p.m. to keep monitors readable. Manayunk and Roxborough hillside homes bake in sun that has no overhangs to interrupt it. Air conditioners run longer, energy bills climb, and rooms that should be comfortable become the ones everyone avoids.

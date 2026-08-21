@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-reflective-window-film-philadelphia.jpg"
 imageAlt: "Philadelphia Businesses Choose Reflective Window Film for Solar Control | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "reflective window film", "solar control"]
 categories: ["solar-control", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## How does window film technology reduce heat gain in summer?

@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-earthquake-protection-systems-philadelphia.jpg"
 imageAlt: "Earthquake Protection Systems: Safer Windows for Philadelphia Properties | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "earthquake protection", "security film", "seismic safety"]
 category: "safety-security"
-draft: false
+draft: true
 ---
 
 ## Why Philadelphia Buildings Need Earthquake Protection Systems

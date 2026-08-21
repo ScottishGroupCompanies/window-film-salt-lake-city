@@ -1,5 +1,5 @@
-# Keyword & Ranking Audit — Window Film Philadelphia
-**Site:** windowfilmphiladelphia.net (Astro v4 SSG)
+# Keyword & Ranking Audit — Window Film Salt Lake City
+**Site:** windowfilmsaltlakecity.com (Astro v4 SSG)
 **Audit date:** 2026-05-27
 **Auditor:** Keyword & Ranking Intelligence Agent
 **Scope:** 65 page files across 8 content directories
@@ -16,7 +16,7 @@ the site's ability to rank for its highest-value terms:
 
 1. **Homepage H1 was not targeting the primary head term.** The most important
    keyword signal on the site's most authoritative page said "Window Film
-   Solutions" instead of "Window Film Philadelphia." Fixed during this audit.
+   Solutions" instead of "Window Film Salt Lake City." Fixed during this audit.
 
 2. **28 hero-level headings (H1s) were missing geo-modification.** Every benefits
    sub-page, most resource pages, and several top-level pages had non-geo H1s
@@ -24,8 +24,8 @@ the site's ability to rank for its highest-value terms:
    national, not local. All fixed during this audit.
 
 3. **Two critical commercial keyword gaps exist with zero page coverage:**
-   "residential window film Philadelphia" and "commercial window film
-   Philadelphia" — the two highest-volume intent queries for this business —
+   "residential window film Salt Lake City" and "commercial window film
+   Salt Lake City" — the two highest-volume intent queries for this business —
    have no dedicated landing page. Every major competitor in the market has
    these pages. This is the top new-page priority.
 
@@ -44,13 +44,13 @@ All changes are documented with [FIXED] markers below.
 
 ## 1. Primary Keyword Mapping
 
-### Homepage — Target: "window film Philadelphia"
+### Homepage — Target: "window film Salt Lake City"
 
 | Signal | Before | After | Status |
 |--------|--------|-------|--------|
-| Meta title | "Window Film Philadelphia \| Leading Window Film Solutions" | No change needed | OK |
-| Meta description | "Window Film Philadelphia provides professional window film installation..." | No change needed | OK |
-| H1 | "Window Film Solutions — Done Right, Every Time" | "Window Film Philadelphia — Done Right, Every Time" | [FIXED] |
+| Meta title | "Window Film Salt Lake City \| Leading Window Film Solutions" | No change needed | OK |
+| Meta description | "Window Film Salt Lake City provides professional window film installation..." | No change needed | OK |
+| H1 | "Window Film Solutions — Done Right, Every Time" | "Window Film Salt Lake City — Done Right, Every Time" | [FIXED] |
 | URL | / | / | OK |
 | First paragraph | Not applicable (no body paragraph, glass card section follows) | — | NOTE |
 
@@ -69,7 +69,7 @@ All four city pages have strong keyword alignment:
 
 | Page | Meta Title | H1 | First Body H2 |
 |------|------------|-----|---------------|
-| /cities/philadelphia/ | "Window Film Philadelphia PA \| Window Film Contractor Philadelphia" | "Window Film Solutions Philadelphia, PA" | "Philadelphia's Trusted Window Film Experts" |
+| /cities/salt-lake-city/ | "Window Film Salt Lake City PA \| Window Film Contractor Salt Lake City" | "Window Film Solutions Salt Lake City, UT" | "Salt Lake City's Trusted Window Film Experts" |
 | /cities/camden/ | "Window Film Camden NJ \| Window Film Contractor Camden" | "Window Film Solutions Camden, NJ" | "Window Film in Camden, NJ" |
 | /cities/reading/ | "Window Film Reading, PA \| Window Film Contractor Reading" | "Window Film Solutions Reading, PA" | "Window Film in Reading, PA" |
 | /cities/upper-darby-township/ | "Window Film Upper Darby Township PA \| Window Film Contractor Upper Darby" | "Window Film Solutions Upper Darby, PA" | "Window Film in Upper Darby, PA" |
@@ -79,52 +79,52 @@ keyword in title, H1, and first body heading. No changes needed.
 
 ---
 
-### Benefits Top-Level — Target: "window film benefits Philadelphia"
+### Benefits Top-Level — Target: "window film benefits Salt Lake City"
 
 | Signal | Before | After | Status |
 |--------|--------|-------|--------|
-| Meta title | "Window Film Benefits Philadelphia \| Energy, Security & More" | No change needed | OK |
-| InnerPageHero H1 | "Window Film Benefits" | "Window Film Benefits Philadelphia" | [FIXED] |
+| Meta title | "Window Film Benefits Salt Lake City \| Energy, Security & More" | No change needed | OK |
+| InnerPageHero H1 | "Window Film Benefits" | "Window Film Benefits Salt Lake City" | [FIXED] |
 
 ---
 
-### Applications Top-Level — Target: "window film applications Philadelphia"
+### Applications Top-Level — Target: "window film applications Salt Lake City"
 
 | Signal | Before | After | Status |
 |--------|--------|-------|--------|
-| Meta title | "Window Film Applications \| Philadelphia PA \| All Properties" | No change needed | OK |
-| InnerPageHero H1 | "Window Film Applications" | "Window Film Applications Philadelphia" | [FIXED] |
+| Meta title | "Window Film Applications \| Salt Lake City PA \| All Properties" | No change needed | OK |
+| InnerPageHero H1 | "Window Film Applications" | "Window Film Applications Salt Lake City" | [FIXED] |
 
 ---
 
 ### Benefits Sub-pages (16 pages)
 
 All 14 non-geo-modified H1s were fixed. The two pages that already had
-"Philadelphia" in their InnerPageHero title were left unchanged:
-- benefits/privacy-window-film-philadelphia — already correct
-- benefits/uv-blocking-window-film-philadelphia — already correct
+"Salt Lake City" in their InnerPageHero title were left unchanged:
+- benefits/privacy-window-film-salt-lake-city — already correct
+- benefits/uv-blocking-window-film-salt-lake-city — already correct
 
 Fixed H1s (InnerPageHero title prop):
 
 | Page | Before | After |
 |------|--------|-------|
-| anti-graffiti | "Anti-Graffiti Window Film" | "Anti-Graffiti Window Film Philadelphia" [FIXED] |
-| ballistic-resistance | "Ballistic-Resistant Window Film" | "Ballistic-Resistant Window Film Philadelphia" [FIXED] |
-| bird-strike-prevention | "Bird Strike Prevention Window Film" | "Bird Strike Prevention Window Film Philadelphia" [FIXED] |
-| blast-mitigation | "Blast Mitigation Window Film" | "Blast Mitigation Window Film Philadelphia" [FIXED] |
-| decorative-promotional | "Decorative & Promotional Window Film" | "Decorative Window Film Philadelphia" [FIXED] |
-| elevator-refinishing | "Elevator Refinishing Window Film" | "Elevator Refinishing Film Philadelphia" [FIXED] |
-| energy-savings | "Energy Saving Window Film" | "Energy Saving Window Film Philadelphia" [FIXED] |
-| exterior-building-wraps | "Exterior Building Wraps & Film" | "Exterior Building Wraps Philadelphia" [FIXED] |
-| exterior-window-film | "Exterior Window Film" | "Exterior Window Film Philadelphia" [FIXED] |
-| glare-reduction | "Glare Reduction Window Film" | "Glare Reduction Window Film Philadelphia" [FIXED] |
-| mirror-refinishing | "Mirror Refinishing Window Film" | "Mirror Refinishing Film Philadelphia" [FIXED] |
-| safety-and-security | "Safety & Security Window Film" | "Safety & Security Window Film Philadelphia" [FIXED] |
-| school-security-window-film | "School Security Window Film" | "School Security Window Film Philadelphia" [FIXED] |
-| updating-surfaces | "Surface Updating Window Film" | "Surface Updating Film Philadelphia" [FIXED] |
+| anti-graffiti | "Anti-Graffiti Window Film" | "Anti-Graffiti Window Film Salt Lake City" [FIXED] |
+| ballistic-resistance | "Ballistic-Resistant Window Film" | "Ballistic-Resistant Window Film Salt Lake City" [FIXED] |
+| bird-strike-prevention | "Bird Strike Prevention Window Film" | "Bird Strike Prevention Window Film Salt Lake City" [FIXED] |
+| blast-mitigation | "Blast Mitigation Window Film" | "Blast Mitigation Window Film Salt Lake City" [FIXED] |
+| decorative-promotional | "Decorative & Promotional Window Film" | "Decorative Window Film Salt Lake City" [FIXED] |
+| elevator-refinishing | "Elevator Refinishing Window Film" | "Elevator Refinishing Film Salt Lake City" [FIXED] |
+| energy-savings | "Energy Saving Window Film" | "Energy Saving Window Film Salt Lake City" [FIXED] |
+| exterior-building-wraps | "Exterior Building Wraps & Film" | "Exterior Building Wraps Salt Lake City" [FIXED] |
+| exterior-window-film | "Exterior Window Film" | "Exterior Window Film Salt Lake City" [FIXED] |
+| glare-reduction | "Glare Reduction Window Film" | "Glare Reduction Window Film Salt Lake City" [FIXED] |
+| mirror-refinishing | "Mirror Refinishing Window Film" | "Mirror Refinishing Film Salt Lake City" [FIXED] |
+| safety-and-security | "Safety & Security Window Film" | "Safety & Security Window Film Salt Lake City" [FIXED] |
+| school-security-window-film | "School Security Window Film" | "School Security Window Film Salt Lake City" [FIXED] |
+| updating-surfaces | "Surface Updating Window Film" | "Surface Updating Film Salt Lake City" [FIXED] |
 
 **Note on meta titles:** Benefits sub-page meta titles are inconsistent — some
-have "Philadelphia" (energy-savings, privacy, uv-blocking, safety-and-security,
+have "Salt Lake City" (energy-savings, privacy, uv-blocking, safety-and-security,
 anti-graffiti, glare-reduction, decorative), some do not (ballistic-resistance,
 blast-mitigation, exterior-window-film, etc.). The H1 fixes bring the most
 critical signal into alignment. Full meta title geo-modification sweep is
@@ -136,12 +136,12 @@ recommended as a follow-up task (see Section 7 action list).
 
 | Page | Meta Title (Before) | Meta Title (After) | Status |
 |------|--------------------|--------------------|--------|
-| window-film-pricing | "Window Film Pricing \| WFP \| Leading Window Film" | "Window Film Cost Philadelphia \| Pricing Guide & Estimates" | [FIXED] |
-| maintenance-and-care | "Maintenance & Care \| WFP \| Leading Window Film" | "Window Film Maintenance & Care Guide \| Philadelphia" | [FIXED] |
-| property-code | "Property Code \| WFP \| Leading Window Film" | "Window Film for Property Code Compliance \| Philadelphia PA" | [FIXED] |
-| warranty | "Warranty \| WFP \| Leading Window Film Solutions" | "Window Film Warranty Philadelphia \| Coverage & Guarantee" | [FIXED] |
-| commercial-faq | "Commercial Window Film FAQ \| Window Film Philadelphia" | No change — already correctly structured | OK |
-| commercial-guide | "Commercial Window Film Guide \| Window Film Philadelphia" | No change — already correctly structured | OK |
+| window-film-pricing | "Window Film Pricing \| WFP \| Leading Window Film" | "Window Film Cost Salt Lake City \| Pricing Guide & Estimates" | [FIXED] |
+| maintenance-and-care | "Maintenance & Care \| WFP \| Leading Window Film" | "Window Film Maintenance & Care Guide \| Salt Lake City" | [FIXED] |
+| property-code | "Property Code \| WFP \| Leading Window Film" | "Window Film for Property Code Compliance \| Salt Lake City PA" | [FIXED] |
+| warranty | "Warranty \| WFP \| Leading Window Film Solutions" | "Window Film Warranty Salt Lake City \| Coverage & Guarantee" | [FIXED] |
+| commercial-faq | "Commercial Window Film FAQ \| Window Film Salt Lake City" | No change — already correctly structured | OK |
+| commercial-guide | "Commercial Window Film Guide \| Window Film Salt Lake City" | No change — already correctly structured | OK |
 | architects-builders | "Commercial Window Film Specifications \| WFP" | Meta description fixed (title was acceptable) | [FIXED] |
 
 **Meta descriptions (weak generic copy fixed):**
@@ -162,10 +162,10 @@ recommended as a follow-up task (see Section 7 action list).
 
 | Page | Issue | Fix | Status |
 |------|-------|-----|--------|
-| contact.astro | InnerPageHero H1 was "Get in Touch" — zero keyword signal | Changed to "Contact Window Film Philadelphia" | [FIXED] |
-| blog.astro | H1 was "Window Film Blog" — no geo | Changed to "Window Film Blog \| Philadelphia Tips & Guides" | [FIXED] |
-| government-buildings | Uses old BAF layout (no InnerPageHero), H1 is "Government Window Film in Philadelphia" | H1 already geo-modified, description fixed | [FIXED] |
-| process.astro | Uses old layout (no InnerPageHero), H1 is "Expert Window Film Installation in Philadelphia" | H1 already correct | OK |
+| contact.astro | InnerPageHero H1 was "Get in Touch" — zero keyword signal | Changed to "Contact Window Film Salt Lake City" | [FIXED] |
+| blog.astro | H1 was "Window Film Blog" — no geo | Changed to "Window Film Blog \| Salt Lake City Tips & Guides" | [FIXED] |
+| government-buildings | Uses old BAF layout (no InnerPageHero), H1 is "Government Window Film in Salt Lake City" | H1 already geo-modified, description fixed | [FIXED] |
+| process.astro | Uses old layout (no InnerPageHero), H1 is "Expert Window Film Installation in Salt Lake City" | H1 already correct | OK |
 
 ---
 
@@ -176,53 +176,53 @@ has NO dedicated page targeting.
 
 ### CRITICAL GAPS — New Pages Required
 
-**A. "Residential Window Film Philadelphia"**
+**A. "Residential Window Film Salt Lake City"**
 - Est. volume: 200-400 mo / High commercial intent
 - Current state: Zero dedicated page. The homepage mentions "Residential Film"
   in a glass card but there is no /residential/ or /residential-window-film/
   URL. All residential traffic is being diluted across city pages and benefits
   sub-pages.
 - Why it matters: This is the highest-volume residential service keyword for
-  this market. Competitors with a dedicated /residential-window-film-philadelphia/
+  this market. Competitors with a dedicated /residential-window-film-salt-lake-city/
   page will outrank WFP for this term regardless of how strong the homepage is.
-- Recommendation: Create /residential-window-film-philadelphia/ as a dedicated
+- Recommendation: Create /residential-window-film-salt-lake-city/ as a dedicated
   service page targeting solar control, privacy, UV, and energy savings for
-  Philadelphia homes. Use the Camden city page template as structural reference.
+  Salt Lake City homes. Use the Camden city page template as structural reference.
 
-**B. "Commercial Window Film Philadelphia"**
+**B. "Commercial Window Film Salt Lake City"**
 - Est. volume: 300-600 mo / Very high commercial intent
 - Current state: Zero dedicated page. /applications/ covers commercial use cases
-  but the URL and H1 ("Window Film Applications Philadelphia") do not match
-  searcher intent. Someone searching "commercial window film Philadelphia" is
+  but the URL and H1 ("Window Film Applications Salt Lake City") do not match
+  searcher intent. Someone searching "commercial window film Salt Lake City" is
   looking for a commercial service page, not an applications index.
 - Why it matters: Commercial film is higher ticket and higher margin than
   residential. This keyword is almost certainly in the top 5 revenue-driving
   queries for the business, and the site has no direct match for it.
-- Recommendation: Create /commercial-window-film-philadelphia/ targeting offices,
+- Recommendation: Create /commercial-window-film-salt-lake-city/ targeting offices,
   retail, and institutions. The applications index can remain as a supporting
   hub page linking to this one.
 
-**C. "Window Tinting Philadelphia" / "Window Tint Philadelphia"**
+**C. "Window Tinting Salt Lake City" / "Window Tint Salt Lake City"**
 - Est. volume: 500-1000 mo (combined) / Mixed intent (auto + commercial)
 - Current state: Zero coverage. "Window tint" is the consumer-friendly version
   of "window film" — less technical, higher search volume. The blog post at
-  /2026/04/22/benefits-window-tint-philadelphia-energy-comfort-uv-defense/
+  /2026/04/22/benefits-window-tint-salt-lake-city-energy-comfort-uv-defense/
   uses "window tint" in its title, which is good, but there is no service page
   targeting this term.
 - Caveat: Volume includes automotive searches. A service page should clearly
   position WFP as commercial/residential (not automotive) in the intro copy.
-- Recommendation: Create /window-tinting-philadelphia/ or add this as the
+- Recommendation: Create /window-tinting-salt-lake-city/ or add this as the
   target on the homepage if a separate page feels redundant. The blog post
   alone will not capture this volume.
 
-**D. "Solar Window Film Philadelphia" / "Solar Control Film Philadelphia"**
+**D. "Solar Window Film Salt Lake City" / "Solar Control Film Salt Lake City"**
 - Est. volume: 100-250 mo / High commercial intent
 - Current state: energy-savings.astro covers solar control film but the URL
   is /benefits/energy-savings/ — not a keyword-match URL. The meta title
-  "Energy Saving Window Film Philadelphia | Solar Films" has a solar mention
+  "Energy Saving Window Film Salt Lake City | Solar Films" has a solar mention
   in the subtitle but it is weak.
 - Recommendation: Either rename /benefits/energy-savings/ to
-  /benefits/solar-control-window-film-philadelphia/ or create a dedicated solar
+  /benefits/solar-control-window-film-salt-lake-city/ or create a dedicated solar
   film page and redirect the current URL to it.
 
 ### MEDIUM GAPS — Adjacent City Pages
@@ -245,16 +245,16 @@ Marlton > Haddonfield > Collingswood > Pennsauken > Maple Shade.
 ### LOW GAPS — Resource Content
 
 The following high-intent question queries have no matching content:
-- "how much does window film cost Philadelphia" — /resources/window-film-pricing/
+- "how much does window film cost Salt Lake City" — /resources/window-film-pricing/
   exists but its H1 says "What Does Window Film Actually Cost?" without the
-  geo-modifier. Medium fix: add "in Philadelphia" to the pricing H1.
+  geo-modifier. Medium fix: add "in Salt Lake City" to the pricing H1.
 - "window film vs window replacement" — covered by /resources/window-replacement-alternative/
   but very weak title ("Window Replacement Alternative"). Rename to
-  "Window Film vs Window Replacement | Philadelphia Cost Comparison".
+  "Window Film vs Window Replacement | Salt Lake City Cost Comparison".
 - "how long does window film last" — FAQ content exists scattered across
   multiple pages but there is no standalone page targeting this query. Would
   make a good blog post.
-- "3M window film Philadelphia" — covered by /products/3m-window-film/ with
+- "3M window film Salt Lake City" — covered by /products/3m-window-film/ with
   solid title and H1. No gap here.
 
 ---
@@ -263,19 +263,19 @@ The following high-intent question queries have no matching content:
 
 ### CONFIRMED CANNIBALIZATION — Severity: HIGH
 
-**"Safety and security window film Philadelphia"**
-- /benefits/safety-and-security/ — title: "Security Window Film Philadelphia"
+**"Safety and security window film Salt Lake City"**
+- /benefits/safety-and-security/ — title: "Security Window Film Salt Lake City"
 - /benefits/school-security-window-film/ — title: "School Security Window Film"
-- /benefits/ballistic-resistance/ — title: "Ballistic-Resistant Window Film Philadelphia"
-- /benefits/blast-mitigation/ — title: "Blast Mitigation Window Film Philadelphia"
+- /benefits/ballistic-resistance/ — title: "Ballistic-Resistant Window Film Salt Lake City"
+- /benefits/blast-mitigation/ — title: "Blast Mitigation Window Film Salt Lake City"
 
-The first two are competing most directly. "Security Window Film Philadelphia"
-and "School Security Window Film Philadelphia" overlap on the core modifier
+The first two are competing most directly. "Security Window Film Salt Lake City"
+and "School Security Window Film Salt Lake City" overlap on the core modifier
 "security window film." These pages are differentiated by use case (general
 vs. school) but a crawler may not clearly demarcate them.
 
 Resolution: Ensure /benefits/safety-and-security/ explicitly targets the
-parent term "security window film Philadelphia" and has internal links TO the
+parent term "security window film Salt Lake City" and has internal links TO the
 school-specific page. The school page should be positioned as a sub-topic of
 the parent, not a co-equal competitor. Consider adding canonical tags or
 an explicit "For schools, see..." cross-link in the body copy.
@@ -291,11 +291,11 @@ Not a priority fix; worth monitoring if rankings for either drop.
 ### POTENTIAL CANNIBALIZATION — Severity: MEDIUM
 
 **Applications index vs individual application pages**
-- /applications/ — H1 now "Window Film Applications Philadelphia"
-- /applications/office/ — title "Office Window Film Philadelphia"
-- /applications/retail/ — title "Retail Window Film Philadelphia"
+- /applications/ — H1 now "Window Film Applications Salt Lake City"
+- /applications/office/ — title "Office Window Film Salt Lake City"
+- /applications/retail/ — title "Retail Window Film Salt Lake City"
 
-The index page broadly targets "window film applications Philadelphia" while
+The index page broadly targets "window film applications Salt Lake City" while
 the sub-pages target specific verticals. This is correct hub-and-spoke
 architecture — it is NOT cannibalization as long as the index page does not
 have full-length content duplicating the sub-pages. Currently the index is
@@ -306,7 +306,7 @@ a card grid linking to sub-pages, which is the right structure.
 - /applications/secured-buildings/ — high-security applications page
 
 These two pages share some security/government overlap. "Government window film
-Philadelphia" and "high security window film Philadelphia" are genuinely
+Salt Lake City" and "high security window film Salt Lake City" are genuinely
 different queries, so this is acceptable. Monitor: if /applications/secured-buildings/
 starts ranking for government terms, consolidation should be considered.
 
@@ -322,35 +322,35 @@ individual pages:
 
 | Query | Est. Vol | Intent | Existing Coverage | Recommendation |
 |-------|----------|--------|-------------------|----------------|
-| "does window film reduce heat Philadelphia" | 50-150/mo | Informational → transactional | Partial — energy-savings page | Add this exact phrase to energy-savings H2 or intro paragraph |
-| "window film for historic buildings Philadelphia" | 30-80/mo | Transactional | Covered in Philadelphia city FAQ | Surface this in the city page H2 or add a callout section |
-| "one way window film Philadelphia" | 50-150/mo | Transactional | Not covered | Add to privacy page body copy |
-| "frosted window film Philadelphia" | 50-150/mo | Transactional | Not directly covered | Add to decorative-promotional or privacy page |
-| "window film for office buildings Philadelphia" | 50-100/mo | Transactional | /applications/office/ | Good coverage — ensure intro paragraph mentions "Philadelphia offices" in first 50 words |
-| "window film installer near me Philadelphia" | High / local | Transactional | Not targeted | Add to contact page body copy or homepage intro |
+| "does window film reduce heat Salt Lake City" | 50-150/mo | Informational → transactional | Partial — energy-savings page | Add this exact phrase to energy-savings H2 or intro paragraph |
+| "window film for historic buildings Salt Lake City" | 30-80/mo | Transactional | Covered in Salt Lake City city FAQ | Surface this in the city page H2 or add a callout section |
+| "one way window film Salt Lake City" | 50-150/mo | Transactional | Not covered | Add to privacy page body copy |
+| "frosted window film Salt Lake City" | 50-150/mo | Transactional | Not directly covered | Add to decorative-promotional or privacy page |
+| "window film for office buildings Salt Lake City" | 50-100/mo | Transactional | /applications/office/ | Good coverage — ensure intro paragraph mentions "Salt Lake City offices" in first 50 words |
+| "window film installer near me Salt Lake City" | High / local | Transactional | Not targeted | Add to contact page body copy or homepage intro |
 | "how long does window film last" | 200-500/mo (national) | Informational | FAQ content only | Good blog post topic; could own this nationally |
-| "is window film worth it Philadelphia" | 50-100/mo | Informational → commercial | Not covered | Strong blog post or FAQ resource page |
-| "window film tax credit Philadelphia" | 30-60/mo | Informational | Not covered | Short FAQ answer on energy-savings page. PA/federal energy credits are a real purchase motivator. |
-| "anti graffiti film Philadelphia subway" | 30-50/mo | Very targeted | /benefits/anti-graffiti/ + /applications/mass-transit/ | Cross-link between these two pages |
+| "is window film worth it Salt Lake City" | 50-100/mo | Informational → commercial | Not covered | Strong blog post or FAQ resource page |
+| "window film tax credit Salt Lake City" | 30-60/mo | Informational | Not covered | Short FAQ answer on energy-savings page. PA/federal energy credits are a real purchase motivator. |
+| "anti graffiti film Salt Lake City subway" | 30-50/mo | Very targeted | /benefits/anti-graffiti/ + /applications/mass-transit/ | Cross-link between these two pages |
 
 ### Informational Content That Can Drive Leads
 
 The blog currently has one post. These topics would generate organic traffic
 from mid-funnel searchers who convert to leads:
 
-1. "How Much Does Window Film Cost in Philadelphia? (2026 Pricing Guide)"
+1. "How Much Does Window Film Cost in Salt Lake City? (2026 Pricing Guide)"
    — directly reinforces /resources/window-film-pricing/ and owns the pricing SERP
 
-2. "Window Film vs. Window Replacement: Which Makes More Sense for a Philadelphia Home?"
+2. "Window Film vs. Window Replacement: Which Makes More Sense for a Salt Lake City Home?"
    — supports /resources/window-replacement-alternative/ and captures comparison searchers
 
-3. "The Best Window Film for Philadelphia Row Homes (What Actually Works)"
+3. "The Best Window Film for Salt Lake City Row Homes (What Actually Works)"
    — hyper-local, captures residential searchers with specific housing context
 
-4. "Does Window Film Qualify for Energy Tax Credits in Pennsylvania?"
+4. "Does Window Film Qualify for Energy Tax Credits in Utah?"
    — captures a high-intent query with zero local competition
 
-5. "Window Film for Philadelphia Historic Buildings: What's Allowed and What Works"
+5. "Window Film for Salt Lake City Historic Buildings: What's Allowed and What Works"
    — captures a niche but high-value segment (Society Hill, Old City, Fairmount)
 
 ---
@@ -359,14 +359,14 @@ from mid-funnel searchers who convert to leads:
 
 ### Strong Slugs (keyword-optimized, no changes needed)
 
-- /cities/philadelphia/ — clean, geo-correct
+- /cities/salt-lake-city/ — clean, geo-correct
 - /cities/camden/ — clean
 - /cities/reading/ — clean
 - /cities/upper-darby-township/ — clean (full township name is correct)
-- /benefits/privacy-window-film-philadelphia/ — exact keyword match URL
-- /benefits/uv-blocking-window-film-philadelphia/ — exact keyword match URL
+- /benefits/privacy-window-film-salt-lake-city/ — exact keyword match URL
+- /benefits/uv-blocking-window-film-salt-lake-city/ — exact keyword match URL
 - /benefits/school-security-window-film/ — descriptive and specific
-- /applications/restaurants-window-film-philadelphia/ — keyword-rich
+- /applications/restaurants-window-film-salt-lake-city/ — keyword-rich
 - /applications/hotel-window-film/ — appropriate
 - /products/3m-window-film/ — brand + product keyword
 - /resources/window-film-pricing/ — question-intent match
@@ -379,14 +379,14 @@ without implementing redirects in vercel.json.
 
 | Current URL | Issue | Recommended Slug |
 |-------------|-------|------------------|
-| /benefits/energy-savings/ | Generic — misses "solar control film" keyword | /benefits/solar-control-window-film-philadelphia/ |
-| /benefits/anti-graffiti/ | Missing city modifier | /benefits/anti-graffiti-window-film-philadelphia/ |
-| /benefits/glare-reduction/ | Missing city modifier | /benefits/glare-reduction-window-film-philadelphia/ |
-| /benefits/safety-and-security/ | Generic — misses "security window film" exact match | /benefits/security-window-film-philadelphia/ |
-| /benefits/decorative-promotional/ | "promotional" adds nothing; users search "decorative" | /benefits/decorative-window-film-philadelphia/ |
+| /benefits/energy-savings/ | Generic — misses "solar control film" keyword | /benefits/solar-control-window-film-salt-lake-city/ |
+| /benefits/anti-graffiti/ | Missing city modifier | /benefits/anti-graffiti-window-film-salt-lake-city/ |
+| /benefits/glare-reduction/ | Missing city modifier | /benefits/glare-reduction-window-film-salt-lake-city/ |
+| /benefits/safety-and-security/ | Generic — misses "security window film" exact match | /benefits/security-window-film-salt-lake-city/ |
+| /benefits/decorative-promotional/ | "promotional" adds nothing; users search "decorative" | /benefits/decorative-window-film-salt-lake-city/ |
 | /resources/window-replacement-alternative/ | Weak intent match | /resources/window-film-vs-window-replacement/ |
 | /resources/window-film-alternatives/ | Vague | /resources/window-film-vs-blinds-shades-glass/ |
-| /government-buildings/ | Acceptable but could be stronger | /commercial/government-window-film-philadelphia/ |
+| /government-buildings/ | Acceptable but could be stronger | /commercial/government-window-film-salt-lake-city/ |
 
 **Verdict on slug changes:** The benefits sub-page slug changes carry the highest
 potential upside since those pages rank on long-tail geo terms. Prioritize
@@ -397,45 +397,45 @@ Both require 301 redirects and internal link updates.
 
 ## 6. Homepage Keyword Strategy Assessment
 
-### Primary Term: "window film Philadelphia"
+### Primary Term: "window film Salt Lake City"
 
 **Before this audit:**
-- Title: "Window Film Philadelphia | Leading Window Film Solutions" — STRONG
-- Meta description: Leads with "Window Film Philadelphia provides..." — STRONG
+- Title: "Window Film Salt Lake City | Leading Window Film Solutions" — STRONG
+- Meta description: Leads with "Window Film Salt Lake City provides..." — STRONG
 - H1: "Window Film Solutions — Done Right, Every Time" — WEAK (no city signal)
 - First body content: "Residential Film / Commercial Film / Security Film" cards — no
   city mention in visible headings
 
 **After this audit:**
-- H1: "Window Film Philadelphia — Done Right, Every Time" — STRONG [FIXED]
+- H1: "Window Film Salt Lake City — Done Right, Every Time" — STRONG [FIXED]
 
 **Remaining homepage keyword concerns:**
 
 1. First body heading is "Expert film solutions for every surface" — no geo.
-   This is an H2 in the "What We Do" section. It should contain "Philadelphia"
+   This is an H2 in the "What We Do" section. It should contain "Salt Lake City"
    somewhere. Recommended change: "Expert window film solutions for every
-   Philadelphia property" or simply add a Philadelphia mention to the
+   Salt Lake City property" or simply add a Salt Lake City mention to the
    section subtext.
 
-2. The stats section heading and the "Why Window Film Philadelphia" section
+2. The stats section heading and the "Why Window Film Salt Lake City" section
    are already geo-modified. Good.
 
 3. The homepage has no paragraph text in the hero or immediately below the
-   hero that contains "window film Philadelphia" as a phrase. The first full
+   hero that contains "window film Salt Lake City" as a phrase. The first full
    paragraph of copy appears deep in the page. For a site targeting a
    competitive local head term, the first ~150 words visible to a crawler
    should include the primary keyword at least once in running prose.
    Recommendation: Add 2-3 sentences of intro copy to the "What We Do"
    section before the services grid.
 
-4. Internal link anchor text: Links from the homepage to /cities/philadelphia/
+4. Internal link anchor text: Links from the homepage to /cities/salt-lake-city/
    and /benefits/ should use keyword-rich anchor text. Currently the glass
    cards use "Learn more →" as the CTA — this is fine for UX but adds no
    keyword signal to the link graph. Not a critical issue for a homepage,
    but worth noting.
 
 **Overall homepage assessment:** With the H1 fix applied, the homepage is now
-properly optimized for "window film Philadelphia" as its primary target. It
+properly optimized for "window film Salt Lake City" as its primary target. It
 passes the four-signal test: keyword in URL (implied by domain), title, meta
 description, and H1. The remaining items above are incremental improvements
 rather than blockers.
@@ -448,7 +448,7 @@ rather than blockers.
 
 All 28 fixes below were implemented and confirmed with a clean 65-page build:
 
-- [FIXED] Homepage H1 — added "Philadelphia" to primary head term signal
+- [FIXED] Homepage H1 — added "Salt Lake City" to primary head term signal
 - [FIXED] benefits.astro InnerPageHero title — geo-modified
 - [FIXED] applications.astro InnerPageHero title — geo-modified
 - [FIXED] contact.astro InnerPageHero title — keyword-aligned
@@ -468,20 +468,20 @@ All 28 fixes below were implemented and confirmed with a clean 65-page build:
 
 ### HIGH PRIORITY — New Pages (Require Approval Before Creation)
 
-**P1. /residential-window-film-philadelphia/**
-Target keyword: "residential window film Philadelphia" (200-400 mo)
+**P1. /residential-window-film-salt-lake-city/**
+Target keyword: "residential window film Salt Lake City" (200-400 mo)
 Template: Camden city page structure
 Key sections: film types for homes, rowhouse/historic building use cases,
 energy savings ROI, privacy options, pricing callout, FAQ
 
-**P2. /commercial-window-film-philadelphia/**
-Target keyword: "commercial window film Philadelphia" (300-600 mo)
+**P2. /commercial-window-film-salt-lake-city/**
+Target keyword: "commercial window film Salt Lake City" (300-600 mo)
 Template: Camden city page structure
 Key sections: office/retail/industrial use cases, energy code compliance,
 LEED documentation, installation process for occupied spaces, FAQ
 
-**P3. /window-tinting-philadelphia/**
-Target keyword: "window tinting Philadelphia" / "window tint Philadelphia" (500-1k mo)
+**P3. /window-tinting-salt-lake-city/**
+Target keyword: "window tinting Salt Lake City" / "window tint Salt Lake City" (500-1k mo)
 Note: Make clear in intro this is building/home/office film, not automotive
 Can be a shorter pillar page that links to residential + commercial pages
 
@@ -491,14 +491,14 @@ Can be a shorter pillar page that links to residential + commercial pages
 
 **P4. Homepage — add intro paragraph copy**
 Add 2-3 sentences to the "What We Do" section intro that contains the phrase
-"window film Philadelphia" in running prose. This gives the crawler meaningful
+"window film Salt Lake City" in running prose. This gives the crawler meaningful
 keyword-in-context copy above the fold.
 
 **P5. Residential + Commercial keyword mentions on homepage**
 The three glass service cards ("Residential Film / Commercial Film / Security Film")
 link to /benefits/ and /applications/ respectively. Update these card links to
-point to the new /residential-window-film-philadelphia/ and
-/commercial-window-film-philadelphia/ pages once those exist.
+point to the new /residential-window-film-salt-lake-city/ and
+/commercial-window-film-salt-lake-city/ pages once those exist.
 
 **P6. Benefits sub-page meta titles — geo-modification sweep**
 Several benefits sub-pages still have non-geo meta titles (ballistic-resistance,
@@ -522,11 +522,11 @@ Priority order: Cherry Hill > Voorhees > Marlton > Haddonfield
 
 ### MEDIUM PRIORITY — Slug Changes (Require 301 Redirects)
 
-**P14. /benefits/energy-savings/ → /benefits/solar-control-window-film-philadelphia/**
+**P14. /benefits/energy-savings/ → /benefits/solar-control-window-film-salt-lake-city/**
 Highest-value slug upgrade. Requires: add redirect to vercel.json, update all
 internal links pointing to the old slug, update the benefits.astro grid card href.
 
-**P15. /benefits/safety-and-security/ → /benefits/security-window-film-philadelphia/**
+**P15. /benefits/safety-and-security/ → /benefits/security-window-film-salt-lake-city/**
 Second-highest value. Same procedure as above.
 
 ---
@@ -539,14 +539,14 @@ credits, historic buildings — any one of these would likely generate leads wit
 60-90 days of publication.
 
 **P17. /resources/window-film-pricing/ — add city mention to H1**
-Current H1: "What Does Window Film Actually Cost?" → add "in Philadelphia" to end.
+Current H1: "What Does Window Film Actually Cost?" → add "in Salt Lake City" to end.
 
 **P18. Long-tail body copy additions**
-- energy-savings page: add "does window film reduce heat in Philadelphia" in
+- energy-savings page: add "does window film reduce heat in Salt Lake City" in
   a subheading or FAQ item
-- privacy page: add "one way window film Philadelphia" and "frosted window film
-  Philadelphia" to body copy
-- office applications page: ensure "Philadelphia offices" appears in first
+- privacy page: add "one way window film Salt Lake City" and "frosted window film
+  Salt Lake City" to body copy
+- office applications page: ensure "Salt Lake City offices" appears in first
   50 words of body copy
 
 ---
@@ -562,7 +562,7 @@ Current H1: "What Does Window Film Actually Cost?" → add "in Philadelphia" to 
    (not /government-buildings/). Government and secured-buildings serve different
    intents and should remain separate pages.
 
-3. If/when /commercial-window-film-philadelphia/ is created, add a canonical
+3. If/when /commercial-window-film-salt-lake-city/ is created, add a canonical
    breadcrumb signal: /applications/ should link to it as the "parent" commercial
    service page, not the other way around.
 
@@ -578,16 +578,16 @@ materially improve keyword targeting decisions:
    4-20 (quick-win candidates to push to #1-3) vs. not ranking at all.
 
 2. **Ahrefs / Semrush keyword explorer** — exact search volumes for
-   geo-modified terms like "residential window film Philadelphia" and
-   "commercial window film Philadelphia." Current volume estimates in this
+   geo-modified terms like "residential window film Salt Lake City" and
+   "commercial window film Salt Lake City." Current volume estimates in this
    audit are informed approximations, not verified data.
 
 3. **Competitor URL inventory** — crawling the top 3 competitors for
-   "window film Philadelphia" to map their exact page structure would
+   "window film Salt Lake City" to map their exact page structure would
    confirm which gaps are most urgently exploited by competing sites.
 
 4. **GSC position data for the /blog/ post** — the one published blog post
-   (/2026/04/22/benefits-window-tint-philadelphia-...) contains strong
+   (/2026/04/22/benefits-window-tint-salt-lake-city-...) contains strong
    keyword targeting. Knowing its current impression count would indicate
    whether the blog is getting crawled and indexed before investing in more posts.
 

@@ -191,7 +191,7 @@ Todo CSS que no sea global va en el `<style>` block del archivo `.astro`. **No a
 
 ```html
 <!-- SIEMPRE usar la imagen local, NO Cloudinary: -->
-<img src="/images/logo.png" alt="Window Film Philadelphia" width="180" height="48">
+<img src="/images/logo.png" alt="Window Film Salt Lake City" width="180" height="48">
 ```
 
 ---

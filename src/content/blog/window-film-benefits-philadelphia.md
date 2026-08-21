@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/2021-08-philadelphia-window-film-energy-savings.webp"
 imageAlt: "Window film energy savings Philadelphia home"
 tags: ["energy savings", "residential", "philadelphia"]
-draft: false
+draft: true
 categories: ["philadelphia"]
 ---
 

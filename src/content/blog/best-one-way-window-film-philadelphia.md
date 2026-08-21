@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-best-one-way-window-film-philadelphia.jpg"
 imageAlt: "Best One Way Window Film for Philadelphia: Privacy Without Sacrificing Light | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "one way privacy", "reflective film", "privacy"]
 category: "privacy-film"
-draft: false
+draft: true
 ---
 
 ## How One Way Window Film Works in Philadelphia Homes

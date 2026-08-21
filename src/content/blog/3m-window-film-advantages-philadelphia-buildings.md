@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-3m-window-film-advantages-philadelphia-buildings.j
 imageAlt: "3M Window Film Advantages for Philadelphia Homeowners and Businesses | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "energy savings"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why does 3M film stand out on Philadelphia glass?

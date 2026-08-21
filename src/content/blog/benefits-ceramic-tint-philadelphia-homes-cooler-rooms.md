@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-office-hero.jpg"
 imageAlt: "Commercial office window film installation in Philadelphia"
 tags: ["ceramic tint", "window film", "Philadelphia", "heat rejection", "UV protection", "residential window film"]
-draft: false
+draft: true
 categories: ["energy-savings", "philadelphia"]
 ---
 

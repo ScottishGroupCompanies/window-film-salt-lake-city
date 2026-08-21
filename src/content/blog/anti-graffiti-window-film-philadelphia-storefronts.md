@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/anti-graffiti-window-film-philadelphia.jpg"
 imageAlt: "Historic Philadelphia brick storefront with pristine protected glass windows at golden hour"
 tags: ["anti-graffiti", "commercial window film", "philadelphia", "storefronts", "historic buildings", "security"]
-draft: false
+draft: true
 categories: ["anti-graffiti", "philadelphia"]
 ---
 

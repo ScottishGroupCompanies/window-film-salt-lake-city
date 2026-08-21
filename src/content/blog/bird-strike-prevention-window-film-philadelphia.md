@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-office-hero.jpg"
 imageAlt: "Commercial office window film installation in Philadelphia"
 tags: ["bird strike prevention", "window film", "philadelphia", "commercial", "wildlife"]
-draft: false
+draft: true
 categories: ["bird-strike", "philadelphia"]
 ---
 

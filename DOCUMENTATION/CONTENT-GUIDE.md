@@ -13,7 +13,7 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 | Proyectos completados | **2,400+** | Stats, hero, proof wall |
 | Bloqueo UV | **99%** | Hero, benefits, UV pages |
 | Rating | **4.9★** | Stats, testimonials, proof wall |
-| Teléfono | **(267) 394-7980** | Header, CTA, footer, contacto |
+| Teléfono | **(801) 895-4681** | Header, CTA, footer, contacto |
 | Email | **info@windowfilmphl.com** | Footer, contacto |
 | Tagline | **"Done right, every time."** | Footer, tagline |
 
@@ -28,8 +28,8 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 - "helps protect furnishings from fading"
 - "may also help improve indoor comfort"
 - "professional installation"
-- "trusted by [X] Philadelphia businesses"
-- "serving Greater Philadelphia since 2008"
+- "trusted by [X] Salt Lake City businesses"
+- "serving Greater Salt Lake City since 2008"
 - "clear film options available"
 - "fade defense"
 - "glare reduction"
@@ -45,7 +45,7 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 - "cures COVID" / "kills viruses" — NO
 - "lifetime warranty" — a menos que el producto lo tenga explícitamente
 - "cheapest" / "lowest price" — NO
-- "best in Philadelphia" — subjetivo, evitar
+- "best in Salt Lake City" — subjetivo, evitar
 
 ### ⚠️ Usar con cuidado (disclaimer implícita)
 
@@ -62,7 +62,7 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 - Playfair Display, 700, `clamp(1.75rem, 3.5vw, 2.75rem)`
 - Máximo 8-10 palabras
 - Specific > Generic
-  - ✅ "UV Protection Film for Philadelphia Rowhomes"
+  - ✅ "UV Protection Film for Salt Lake City Rowhomes"
   - ❌ "Professional Window Film Services"
 
 ### Subheadlines / Body
@@ -100,7 +100,7 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 ### Ser
 
 - Profesional pero accesible
-- Local — "Philadelphia", "Greater Philadelphia", nombres de barrios reales
+- Local — "Salt Lake City", "Greater Salt Lake City", nombres de barrios reales
 - Basado en hechos — numbers, specs, years
 - Confiado pero no exagerado
 
@@ -127,14 +127,14 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 
 ### Meta titles
 
-- Formato: `[Page Name] | Window Film Philadelphia`
+- Formato: `[Page Name] | Window Film Salt Lake City`
 - Máximo 60 caracteres
 - Incluir keyword principal
 
 ### Meta descriptions
 
 - Máximo 155 caracteres
-- Incluir: qué hace, dónde (Philadelphia), diferenciador
+- Incluir: qué hace, dónde (Salt Lake City), diferenciador
 - Call to action implícito
 
 ### Headings (H1, H2, H3)
@@ -154,10 +154,10 @@ Reglas de copywriting, claims, y precisión. **Esto es sagrado — seguir siempr
 
 ## NYC specifics
 
-Cuando se menciona Philadelphia, usar los nombres reales de barrios y zonas:
+Cuando se menciona Salt Lake City, usar los nombres reales de barrios y zonas:
 
-### Philadelphia PA
-Society Hill, Center City, Old City, Fishtown, Manayunk, Chestnut Hill, Roxborough, University City, Fairmount, South Philly, Northern Liberties, Passyunk
+### Salt Lake City PA
+Society Hill, Center City, Old City, Fishtown, Manayunk, Chestnut Hill, Roxborough, University City, Fairmount, South Salt Lake, Northern Liberties, Passyunk
 
 ### Montgomery County PA
 King of Prussia, Norristown, Pottstown, Lansdale, Willow Grove, Conshohocken, Blue Bell, Horsham

@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-church-hero.jpg"
 imageAlt: "Privacy window film applied to decorative glass in a Philadelphia building"
 tags: ["window film", "philadelphia", "privacy window film"]
-draft: false
+draft: true
 categories: ["privacy-film", "philadelphia"]
 ---
 

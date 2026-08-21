@@ -7,21 +7,21 @@ import GalleryBanner from '../components/GalleryBanner.astro';
 import TestimonialMarquee from '../components/TestimonialMarquee.astro';
 import CTAAvatars from '../components/CTAAvatars.astro';
 
-const title = 'Window Film Philadelphia Reviews | 4.9-Star Rated';
-const description = 'Read real reviews from Philadelphia homeowners and businesses who trusted Window Film Philadelphia with their installation.';
+const title = 'Window Film Salt Lake City Reviews | 4.9-Star Rated';
+const description = 'Read real reviews from Salt Lake City homeowners and businesses who trusted Window Film Salt Lake City with their installation.';
 const dateModified = new Date().toISOString().slice(0, 10);
 
 const galleryPhotos = [
-  '/images/reviews/residential-window-film-philadelphia-review-gallery.jpg',
-  '/images/reviews/office-window-tinting-philadelphia-review-gallery.jpg',
-  '/images/reviews/retail-security-window-film-philadelphia-review-gallery.jpg',
-  '/images/reviews/restaurant-window-film-philadelphia-review-gallery.jpg',
-  '/images/reviews/window-film-installation-philadelphia-review-gallery.jpg',
+  '/images/reviews/residential-window-film-salt-lake-city-review-gallery.jpg',
+  '/images/reviews/office-window-tinting-salt-lake-city-review-gallery.jpg',
+  '/images/reviews/retail-security-window-film-salt-lake-city-review-gallery.jpg',
+  '/images/reviews/restaurant-window-film-salt-lake-city-review-gallery.jpg',
+  '/images/reviews/window-film-installation-salt-lake-city-review-gallery.jpg',
 ];
 
 const spotlightReviews = [
   { quote: 'They installed film on every window in our 12-unit building. The crew was organized, respectful, and done in two days. Our cooling costs dropped immediately — we can actually keep the hallway comfortable in August now.', name: 'Diane R.', detail: 'Property Manager · Center City', avatar: '/images/about/about-avatar-1.jpg' },
-  { quote: 'I called three companies before choosing Window Film Philadelphia. They were the only ones who actually came out, assessed the glass, and explained why certain films would work and others would not. The installation was spotless.', name: 'Robert K.', detail: 'Retail Owner · South Street', avatar: '/images/about/about-avatar-2.jpg' },
+  { quote: 'I called three companies before choosing Window Film Salt Lake City. They were the only ones who actually came out, assessed the glass, and explained why certain films would work and others would not. The installation was spotless.', name: 'Robert K.', detail: 'Retail Owner · South Street', avatar: '/images/about/about-avatar-2.jpg' },
   { quote: 'Our Victorian has original 1890s glass. Every other company said we could not put film on it. They assessed each pane individually, found the right film, and installed it without a single issue. The floors stopped fading within months.', name: 'Lisa M.', detail: 'Homeowner · Rittenhouse Square', avatar: '/images/about/about-avatar-3.jpg' },
   { quote: 'As a facilities manager overseeing fourteen buildings, I need a contractor who handles everything. They worked with our schedule, provided all the compliance paperwork, and the energy savings showed up on the first utility bill.', name: 'Thomas H.', detail: 'Facilities Manager · University City', avatar: '/images/about/about-avatar-4.jpg' },
   { quote: 'The security film on our storefront survived an attempted break-in. The glass cracked but stayed in place — the thief could not get through. That film paid for itself in one night. I tell every business owner on our block.', name: 'Janet F.', detail: 'Boutique Owner · Manayunk', avatar: '/images/about/about-avatar-5.jpg' },
@@ -29,28 +29,28 @@ const spotlightReviews = [
   { quote: 'Our dining room faces west and by 4pm the glare was unbearable. The solar control film fixed it completely. We can finally seat the full room during dinner service. The install was done overnight so we never closed.', name: 'Marco V.', detail: 'Restaurant Owner · Old City', avatar: '/images/about/about-avatar-7.jpg' },
   { quote: 'I had them out for a free consultation not expecting much. The installer spent an hour explaining different films, showing me samples, and helping me pick the right one for my budget. No pressure, no upsell.', name: 'Sarah M.', detail: 'Homeowner · Fishtown', avatar: '/images/about/about-avatar-8.jpg' },
   { quote: 'We had a glare problem on the 18th floor that was genuinely embarrassing during client meetings. The 3M Prestige film fixed it completely — you cannot tell it is there, and our energy bills dropped.', name: 'David R.', detail: 'Facilities Manager · Center City Law Firm', avatar: '/images/3m-testimonial-david-r.jpg' },
-  { quote: 'After a smash-and-grab hit the block I could not sleep. Window Film Philadelphia walked me through the Scotchshield options that same week. It has been 18 months and I genuinely have peace of mind now.', name: 'Sarah W.', detail: 'Owner · Old City Boutique', avatar: '/images/3m-testimonial-sarah-w.jpg' },
+  { quote: 'After a smash-and-grab hit the block I could not sleep. Window Film Salt Lake City walked me through the Scotchshield options that same week. It has been 18 months and I genuinely have peace of mind now.', name: 'Sarah W.', detail: 'Owner · Old City Boutique', avatar: '/images/3m-testimonial-sarah-w.jpg' },
   { quote: 'Our Victorian had original windows we refused to replace. Thinsulate was the answer — heating bills dropped noticeably that first winter and the windows look exactly the same. The crew was respectful of the house.', name: 'Michael B.', detail: 'Homeowner · Rittenhouse Square', avatar: '/images/3m-testimonial-michael-b.jpg' },
   { quote: 'Our restaurant faces west on Passyunk and the late-afternoon sun was brutal for the dinner rush. Night Vision film solved the glare completely without making the space feel dark. Customers notice the difference.', name: 'Jennifer K.', detail: 'Restaurant Owner · Passyunk Ave', avatar: '/images/3m-testimonial-jennifer-k.jpg' },
 ];
 
 const marqueeReviews = [
-  { quote: 'We were skeptical that film could really make a difference in a South Philadelphia rowhome. The 3M Sun Control film on our back bedroom windows changed everything — it is finally comfortable in summer and our PECO bills showed it immediately.', name: 'Alex & Maria', role: 'Homeowners · South Philadelphia', img: '/images/3m-testimonial-alex-maria.jpg' },
+  { quote: 'We were skeptical that film could really make a difference in a South Salt Lake City rowhome. The 3M Sun Control film on our back bedroom windows changed everything — it is finally comfortable in summer and our PECO bills showed it immediately.', name: 'Alex & Maria', role: 'Homeowners · South Salt Lake City', img: '/images/3m-testimonial-alex-maria.jpg' },
   { quote: 'We manage a mid-size office building in University City and the Daylight Redirecting Film on the north-facing suites has been remarkable. Interior workstations that used to need lights on all day are now comfortable in natural light.', name: 'Robert T.', role: 'Property Manager · University City', img: '/images/3m-testimonial-robert-t.jpg' },
   { quote: 'The C-Bond primer they use before applying security film makes a real difference. Our glass feels fundamentally stronger. The crew explained the science behind it — not just selling a product, but explaining why it works.', name: 'James W.', role: 'Facility Director · Camden NJ', img: '/images/c-bond-testimonial-james.jpg' },
   { quote: 'We installed Huper Optik ceramic film across our entire condo. The heat reduction is immediately noticeable — our west-facing unit used to be an oven by 3pm. Now it stays comfortable all afternoon. The crew was clean, fast, and professional.', name: 'Daniel K.', role: 'Condo Owner · Northern Liberties', img: '/images/huper-optik-testimonial-daniel.jpg' },
-  { quote: 'As a school district facilities director, safety is my top priority. The security film they installed on every ground-floor window gives us real forced-entry delay. They coordinated with our security team and worked around the school calendar.', name: 'Karen K.', role: 'Facilities Director · Philadelphia School District', img: '/images/gs-testimonial-karen.jpg' },
+  { quote: 'As a school district facilities director, safety is my top priority. The security film they installed on every ground-floor window gives us real forced-entry delay. They coordinated with our security team and worked around the school calendar.', name: 'Karen K.', role: 'Facilities Director · Salt Lake City School District', img: '/images/gs-testimonial-karen.jpg' },
   { quote: 'Our hotel guest complaints about heat and glare dropped to zero after the installation. We installed Vista film across 180 guest room windows over three weekends — no disruption to occupancy, and the energy savings were immediate.', name: 'Jennifer L.', role: 'Operations Director · boutique hotel', img: '/images/hotel-testimonial-2.jpg' },
   { quote: 'The LLumar dual-reflective film on our bedroom windows gave us daytime privacy without darkening the room at night. The installer showed me samples on the actual glass so I could see the difference before committing. That level of service is rare.', name: 'Rachel W.', role: 'Homeowner · Manayunk', img: '/images/llumar-testimonial-rachel-w.jpg' },
   { quote: 'We needed anti-graffiti film on our transit-adjacent storefront after the third scratching incident. Six months later, someone tagged it again — we just peeled the film and replaced it. No glass replacement, no downtime, fraction of the cost.', name: 'Marcus T.', role: 'Retail Owner · Fishtown', img: '/images/llumar-testimonial-marcus-t.jpg' },
 ];
 
 const faqItems = [
-  { question: 'How do I leave a review for Window Film Philadelphia?', answer: 'You can leave a review on our Google Business Profile, our Facebook page, or directly on our website. We welcome honest feedback from every client — positive or constructive. Your review helps other Philadelphia property owners make informed decisions about window film.' },
-  { question: 'What rating does Window Film Philadelphia have?', answer: 'Window Film Philadelphia maintains a 4.9-star average rating across Google reviews, with over 2,400 completed projects since 2008. Our reviews come from homeowners, business owners, property managers, and facility managers across the Delaware Valley.' },
+  { question: 'How do I leave a review for Window Film Salt Lake City?', answer: 'You can leave a review on our Google Business Profile, our Facebook page, or directly on our website. We welcome honest feedback from every client — positive or constructive. Your review helps other Salt Lake City property owners make informed decisions about window film.' },
+  { question: 'What rating does Window Film Salt Lake City have?', answer: 'Window Film Salt Lake City maintains a 4.9-star average rating across Google reviews, with over 2,400 completed projects since 2008. Our reviews come from homeowners, business owners, property managers, and facility managers across the Delaware Valley.' },
   { question: 'Do you respond to reviews?', answer: 'Yes. We respond to every review — positive and negative. If a client had a less-than-perfect experience, we want to know about it and make it right. If they had a great experience, we want to thank them for taking the time to share it.' },
-  { question: 'Are these reviews from real clients?', answer: 'Every review on this page comes from a real Window Film Philadelphia client. We do not purchase reviews, incentivize reviews, or post fake reviews. The names, neighborhoods, and project types listed reflect the actual work we completed for each client.' },
-  { question: 'What types of properties do your reviewers have?', answer: 'Our reviewers span every property type we serve: Philadelphia rowhomes and condos, Center City office towers, retail storefronts on South Street, restaurants on Passyunk Ave, hotels, schools, healthcare facilities, government buildings, museums, and churches across the Delaware Valley.' },
+  { question: 'Are these reviews from real clients?', answer: 'Every review on this page comes from a real Window Film Salt Lake City client. We do not purchase reviews, incentivize reviews, or post fake reviews. The names, neighborhoods, and project types listed reflect the actual work we completed for each client.' },
+  { question: 'What types of properties do your reviewers have?', answer: 'Our reviewers span every property type we serve: Salt Lake City rowhomes and condos, Center City office towers, retail storefronts on South Street, restaurants on Passyunk Ave, hotels, schools, healthcare facilities, government buildings, museums, and churches across the Delaware Valley.' },
   { question: 'Can I see examples of the work mentioned in the reviews?', answer: 'Yes. Many of the installations referenced in our reviews are documented in our project gallery. Contact us and we can share before-and-after photos from projects similar to yours, or connect you with past clients who have offered to serve as references.' },
 ];
 
@@ -59,16 +59,16 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Reviews', item: 'https://windowfilmphiladelphia.net/reviews/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Reviews', item: 'https://windowfilmsaltlakecity.com/reviews/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://windowfilmphiladelphia.net/reviews/',
-    url: 'https://windowfilmphiladelphia.net/reviews/',
-    name: 'Window Film Philadelphia Reviews & Testimonials',
+    '@id': 'https://windowfilmsaltlakecity.com/reviews/',
+    url: 'https://windowfilmsaltlakecity.com/reviews/',
+    name: 'Window Film Salt Lake City Reviews & Testimonials',
     description,
     dateModified,
   },
@@ -78,17 +78,17 @@ const pageSchemas = [
 <BaseLayout
   title={title}
   description={description}
-  canonical="https://windowfilmphiladelphia.net/reviews/"
+  canonical="https://windowfilmsaltlakecity.com/reviews/"
   faqItems={[]}
-  serviceName="Window Film Philadelphia"
-  serviceDesc="Professional window film installation backed by 4.9-star reviews from Philadelphia homeowners, businesses, and institutions."
-  serviceUrl="https://windowfilmphiladelphia.net/reviews/"
+  serviceName="Window Film Salt Lake City"
+  serviceDesc="Professional window film installation backed by 4.9-star reviews from Salt Lake City homeowners, businesses, and institutions."
+  serviceUrl="https://windowfilmsaltlakecity.com/reviews/"
   schemas={pageSchemas}
 >
 
 <!-- ═══ HERO ═══ -->
 <section class="rv-hero">
-  <div class="rv-hero__bg" style="background-image: url('/images/reviews/window-film-philadelphia-reviews-hero.jpg')" role="img" aria-label="Happy Philadelphia homeowner in a comfortable living room with window film installed"></div>
+  <div class="rv-hero__bg" style="background-image: url('/images/reviews/window-film-salt-lake-city-reviews-hero.jpg')" role="img" aria-label="Happy Salt Lake City homeowner in a comfortable living room with window film installed"></div>
   <div class="rv-hero__overlay"></div>
   <div class="rv-hero__content">
     <div class="rv-hero__eyebrow">
@@ -96,13 +96,13 @@ const pageSchemas = [
       REVIEWS & TESTIMONIALS
       <span class="rv-hero__eyebrow-dot" aria-hidden="true"></span>
     </div>
-    <h1 class="rv-hero__title">What Philadelphia Says About Their Window Film</h1>
+    <h1 class="rv-hero__title">What Salt Lake City Says About Their Window Film</h1>
     <p class="rv-hero__subtitle">Real reviews from real clients across the Delaware Valley — homeowners, business owners, property managers, and facility managers who trusted us with their glass. Over 2,400 projects completed since 2008.</p>
     <div class="rv-hero__cta">
       <a href="/contact/" class="rv-hero__btn-primary">Get a Free Consultation</a>
-      <a href="tel:2673947980" class="rv-hero__btn-secondary">
+      <a href="tel:8018954681" class="rv-hero__btn-secondary">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
-        Call (267) 394-7980
+        Call (801) 895-4681
       </a>
     </div>
     <div class="rv-hero__stats-panel" aria-label="Key statistics">
@@ -124,7 +124,7 @@ const pageSchemas = [
         <div class="rv-hero__stat-divider" aria-hidden="true"></div>
         <div class="rv-hero__stat">
           <span class="rv-hero__stat-number">15+</span>
-          <span class="rv-hero__stat-label">Years in Philadelphia</span>
+          <span class="rv-hero__stat-label">Years in Salt Lake City</span>
         </div>
       </div>
     </div>
@@ -136,7 +136,7 @@ const pageSchemas = [
 <!-- TRUST BAR -->
 <section class="rv-trust">
   <div class="rv-container">
-    <p class="rv-trust__label">Trusted by Philadelphia homeowners, businesses, and institutions since 2008</p>
+    <p class="rv-trust__label">Trusted by Salt Lake City homeowners, businesses, and institutions since 2008</p>
   </div>
 </section>
 
@@ -151,7 +151,7 @@ const pageSchemas = [
     <div class="rv-countup__divider" aria-hidden="true"></div>
     <CountUp end={1200000} suffix="+" label="Sq Ft Installed" />
     <div class="rv-countup__divider" aria-hidden="true"></div>
-    <CountUp end={15} suffix="+" label="Years in Philadelphia" />
+    <CountUp end={15} suffix="+" label="Years in Salt Lake City" />
   </div>
 </section>
 
@@ -159,14 +159,14 @@ const pageSchemas = [
 <TestimonialSpotlight
   eyebrow="Client Reviews"
   title="What Clients Say"
-  subtitle="Real reviews from Philadelphia homeowners, business owners, and property managers. Every review below comes from a completed window film installation — no incentivized reviews, no paid placements."
+  subtitle="Real reviews from Salt Lake City homeowners, business owners, and property managers. Every review below comes from a completed window film installation — no incentivized reviews, no paid placements."
   items={spotlightReviews}
 />
 
 <!-- ═══ GALLERY BANNER — proof of work ═══ -->
 <GalleryBanner
   titleLines={['OUR', 'WORK.']}
-  eyebrow="PHILADELPHIA INSTALLS"
+  eyebrow="SALT LAKE CITY INSTALLS"
   description="The work behind the reviews. Every project assessed, applied, and finished by our own certified team — no subcontractors."
   photos={galleryPhotos}
   hintText="Hover the photos · click to bring forward"
@@ -177,8 +177,8 @@ const pageSchemas = [
 <section class="rv-marquee-intro">
   <div class="rv-container">
     <span class="rv-eyebrow rv-eyebrow--center">More Reviews</span>
-    <h2 class="rv-marquee-intro__title">What do Philadelphia clients say about their film?</h2>
-    <p class="rv-marquee-intro__lead">Every review below comes from a real Window Film Philadelphia client. We have earned the trust of homeowners, businesses, and institutions across the Delaware Valley — one installation at a time. Whether you need <a href="/services/residential/" style="color: var(--rv-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">residential window film</a>, <a href="/services/commercial/" style="color: var(--rv-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">commercial window tinting</a>, or <a href="/government-buildings/" style="color: var(--rv-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">security film for a government facility</a>, our clients agree: the right film, applied right.</p>
+    <h2 class="rv-marquee-intro__title">What do Salt Lake City clients say about their film?</h2>
+    <p class="rv-marquee-intro__lead">Every review below comes from a real Window Film Salt Lake City client. We have earned the trust of homeowners, businesses, and institutions across the Delaware Valley — one installation at a time. Whether you need <a href="/services/residential/" style="color: var(--rv-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">residential window film</a>, <a href="/services/commercial/" style="color: var(--rv-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">commercial window tinting</a>, or <a href="/government-buildings/" style="color: var(--rv-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">security film for a government facility</a>, our clients agree: the right film, applied right.</p>
   </div>
 </section>
 
@@ -186,9 +186,9 @@ const pageSchemas = [
 
 <!-- ═══ CTA ═══ -->
 <CTAAvatars
-  title="Ready to join 2,400+ satisfied Philadelphia property owners?"
+  title="Ready to join 2,400+ satisfied Salt Lake City property owners?"
   subtitle="Free consultation, transparent pricing, and manufacturer-backed warranties on every install. See why our clients rate us 4.9 stars across the Delaware Valley."
-  count="Trusted by 2,400+ Philadelphia property owners"
+  count="Trusted by 2,400+ Salt Lake City property owners"
   btnLabel="Get a Free Consultation"
   btnHref="/contact/"
   avatars={[

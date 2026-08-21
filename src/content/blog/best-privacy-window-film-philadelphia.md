@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-best-privacy-window-film-philadelphia.jpg"
 imageAlt: "Best Privacy Window Film Options for Discreet Living in Philadelphia | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "privacy"]
 category: "privacy-film"
-draft: false
+draft: true
 ---
 
 ## Why Privacy Window Film Matters in Philadelphia Neighborhoods

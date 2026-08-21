@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-premium-films-v2.jpg"
 imageAlt: "Reflective one-way privacy window film on a sunlit Philadelphia residential window"
 tags: ["window film", "philadelphia", "privacy window film", "glare reduction", "decorative film"]
-draft: false
+draft: true
 categories: ["privacy-film", "philadelphia"]
 ---
 

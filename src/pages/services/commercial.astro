@@ -12,16 +12,16 @@ import TestimonialMarquee from '../../components/TestimonialMarquee.astro';
 import BackAndForthSection from '../../components/BackAndForthSection.astro';
 import CTAAvatars from '../../components/CTAAvatars.astro';
 
-const title = 'Commercial Window Tinting Philadelphia | Office & Retail';
-const description = 'Commercial window tinting in Philadelphia. Energy savings, glare reduction, security, and decorative film for offices, retail, and hotels. Free assessment.';
+const title = 'Commercial Window Tinting Salt Lake City | Office & Retail';
+const description = 'Commercial window tinting in Salt Lake City. Energy savings, glare reduction, security, and decorative film for offices, retail, and hotels. Free assessment.';
 const dateModified = new Date().toISOString().slice(0, 10);
 
 const faqItems = [
   { question: 'Can you install commercial window film without disrupting our business operations?', answer: 'Yes. We routinely schedule installations after hours, on weekends, or in phased zones so your business stays operational throughout. For occupied offices, we work floor by floor and section by section. We coordinate directly with your building manager or facilities team to minimize disruption to tenants, customers, and staff.' },
-  { question: 'How does commercial window tinting affect our HVAC costs?', answer: 'Solar heat gain through untreated glass is a major contributor to cooling load. Spectrally selective films reject up to 78% of solar heat gain, which reduces the demand on your HVAC system. Many clients who invest in commercial window tinting in Philadelphia see measurable energy savings within the first billing cycle. The exact reduction depends on glass orientation, film type, and building envelope.' },
+  { question: 'How does commercial window tinting affect our HVAC costs?', answer: 'Solar heat gain through untreated glass is a major contributor to cooling load. Spectrally selective films reject up to 78% of solar heat gain, which reduces the demand on your HVAC system. Many clients who invest in commercial window tinting in Salt Lake City see measurable energy savings within the first billing cycle. The exact reduction depends on glass orientation, film type, and building envelope.' },
   { question: 'What warranty coverage comes with commercial window film?', answer: 'Every commercial installation is backed by the manufacturer warranty covering film performance — peeling, bubbling, discoloration, and solar heat rejection. We also provide a labor warranty on every commercial installation. Warranty terms vary by product and film type; we walk you through the specifics for your chosen product during the site assessment.' },
   { question: 'Can window film help our building qualify for LEED points?', answer: 'Window film can contribute to LEED certification in several categories: Energy and Atmosphere (reduced solar heat gain), Indoor Environmental Quality (glare control and thermal comfort), and Materials and Resources. We provide documentation for your LEED consultant, including solar heat gain coefficients, visible light transmission, and UV rejection specifications for each film we install.' },
-  { question: 'Do you work with building managers and property management companies?', answer: 'Yes. A significant portion of our commercial work is through property management firms and building managers who oversee multiple properties. We provide site assessments, detailed proposals, and coordinate installations across portfolios. We are licensed and insured in both Pennsylvania and New Jersey, and we carry the documentation most management companies require.' },
+  { question: 'Do you work with building managers and property management companies?', answer: 'Yes. A significant portion of our commercial work is through property management firms and building managers who oversee multiple properties. We provide site assessments, detailed proposals, and coordinate installations across portfolios. We are licensed and insured in both Utah and New Jersey, and we carry the documentation most management companies require.' },
   { question: 'Can security film be used on retail storefronts?', answer: 'Absolutely. Security and anti-graffiti films are among the most common commercial applications for retail storefronts. Security film holds broken glass together during attempted break-ins, while anti-graffiti film protects the exterior surface from scratching and etching — and can be peeled and replaced if vandalized, at a fraction of the cost of replacing the glass.' },
   { question: 'What types of glass can commercial window film be applied to?', answer: 'Commercial window film can be applied to most glass types including single-pane, double-pane IGUs, tempered, laminated, and low-E glass. However, not every film is suitable for every glass type. We assess each pane individually, checking thermal stress risk, glass age, and frame condition before recommending a product. Using the wrong film on the wrong glass can cause thermal breakage.' },
   { question: 'How long does commercial window film last?', answer: 'Professional-grade commercial films typically last 12–20 years depending on film type, glass orientation, and environmental exposure. South- and west-facing windows with direct sun exposure may see shorter lifespans than north-facing windows. All our commercial installations include manufacturer warranty coverage and our own labor guarantee.' },
@@ -30,68 +30,68 @@ const faqItems = [
 const faqAccordionItems = faqItems.map(f => ({ q: f.question, a: f.answer }));
 
 const accordionBenefits = [
-  { number: '01', title: 'HVAC Load Reduction', detail: 'Solar heat gain through untreated glass forces your HVAC system to work overtime. Spectrally selective films reject up to 78% of solar heat gain without darkening interiors, directly reducing cooling demand. Many commercial clients see measurable energy savings within the first billing cycle. Explore our <a href="/benefits/energy-savings/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">energy saving window film</a> options.', image: '/images/commercial/energy-saving-window-film-philadelphia-commercial.jpg', imageAlt: 'Energy saving commercial window film on a Philadelphia office building' },
-  { number: '02', title: 'UV & Fading Control', detail: 'Block up to 99.9% of UV rays — protecting merchandise, office furnishings, equipment, and displays from fading and degradation. Clear UV-blocking films are virtually invisible on your glass, making them ideal for retail display windows and offices with valuable equipment. See our <a href="/benefits/uv-protection-film/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">UV protection window film</a> guide.', image: '/images/commercial/uv-protection-window-film-philadelphia-commercial.jpg', imageAlt: 'UV protection commercial window film in a Philadelphia retail space' },
-  { number: '03', title: 'Security & Forced Entry', detail: 'Security film holds broken glass together during attempted break-ins, severe weather, and accidents. An attachment system bonds the film to the frame for maximum forced-entry delay — critical for ground-floor retail, jewelry stores, and street-facing offices. Learn about <a href="/benefits/safety-and-security/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">safety and security window film</a>.', image: '/images/commercial/safety-security-window-film-philadelphia-commercial.jpg', imageAlt: 'Security commercial window film on a Philadelphia storefront entrance' },
-  { number: '04', title: 'Glare on Screens', detail: 'Afternoon glare on computer monitors is a top complaint in commercial offices. Glare reduction film eliminates screen washout while maintaining natural light — employees can work without squinting, and productivity improves. Explore <a href="/benefits/glare-reduction/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">glare reduction window film</a>.', image: '/images/commercial/glare-reduction-window-film-philadelphia-commercial.jpg', imageAlt: 'Glare reduction commercial window film in a Philadelphia office workspace' },
-  { number: '05', title: 'Tenant Privacy', detail: 'One-way daytime privacy film keeps your conference rooms and offices visible to those inside but shielded from street view. Frosted and decorative options add privacy to glass partitions without blocking light. See <a href="/benefits/privacy-window-film-philadelphia/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">privacy window film options</a>.', image: '/images/commercial/privacy-window-film-philadelphia-commercial.jpg', imageAlt: 'Privacy commercial window film on Philadelphia office conference room glass' },
-  { number: '06', title: 'Decorative & Branding', detail: 'Custom frosted patterns, etched designs, and branded graphics transform plain glass partitions into design features. Ideal for office interiors, hotel lobbies, and restaurant spaces where privacy meets aesthetics. Explore <a href="/benefits/decorative-promotional/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">decorative window film</a>.', image: '/images/commercial/decorative-window-film-philadelphia-commercial.jpg', imageAlt: 'Decorative commercial window film on Philadelphia office glass partitions' },
-  { number: '07', title: 'Anti-Graffiti Protection', detail: 'Anti-graffiti film creates a sacrificial barrier on street-facing glass — if it gets scratched, etched, or tagged, you peel it off and replace it at a fraction of the cost of replacing the glass. Essential for street-level retail and transit-adjacent storefronts. See <a href="/benefits/anti-graffiti/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">anti-graffiti window film</a>.', image: '/images/commercial/anti-graffiti-window-film-philadelphia-commercial.jpg', imageAlt: 'Anti-graffiti commercial window film on a Philadelphia retail storefront' },
-  { number: '08', title: 'Solar Heat Management', detail: 'Reject up to 78% of solar heat gain with spectrally selective films that keep your building cool without darkening interiors. Maintain your views and natural light while reducing your cooling costs. See our <a href="/benefits/solar-control/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">solar control window film</a> service.', image: '/images/commercial/solar-control-window-film-philadelphia-commercial.jpg', imageAlt: 'Solar control commercial window film on a Philadelphia office building interior' },
+  { number: '01', title: 'HVAC Load Reduction', detail: 'Solar heat gain through untreated glass forces your HVAC system to work overtime. Spectrally selective films reject up to 78% of solar heat gain without darkening interiors, directly reducing cooling demand. Many commercial clients see measurable energy savings within the first billing cycle. Explore our <a href="/benefits/energy-savings/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">energy saving window film</a> options.', image: '/images/commercial/energy-saving-window-film-salt-lake-city-commercial.jpg', imageAlt: 'Energy saving commercial window film on a Salt Lake City office building' },
+  { number: '02', title: 'UV & Fading Control', detail: 'Block up to 99.9% of UV rays — protecting merchandise, office furnishings, equipment, and displays from fading and degradation. Clear UV-blocking films are virtually invisible on your glass, making them ideal for retail display windows and offices with valuable equipment. See our <a href="/benefits/uv-protection-film/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">UV protection window film</a> guide.', image: '/images/commercial/uv-protection-window-film-salt-lake-city-commercial.jpg', imageAlt: 'UV protection commercial window film in a Salt Lake City retail space' },
+  { number: '03', title: 'Security & Forced Entry', detail: 'Security film holds broken glass together during attempted break-ins, severe weather, and accidents. An attachment system bonds the film to the frame for maximum forced-entry delay — critical for ground-floor retail, jewelry stores, and street-facing offices. Learn about <a href="/benefits/safety-and-security/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">safety and security window film</a>.', image: '/images/commercial/safety-security-window-film-salt-lake-city-commercial.jpg', imageAlt: 'Security commercial window film on a Salt Lake City storefront entrance' },
+  { number: '04', title: 'Glare on Screens', detail: 'Afternoon glare on computer monitors is a top complaint in commercial offices. Glare reduction film eliminates screen washout while maintaining natural light — employees can work without squinting, and productivity improves. Explore <a href="/benefits/glare-reduction/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">glare reduction window film</a>.', image: '/images/commercial/glare-reduction-window-film-salt-lake-city-commercial.jpg', imageAlt: 'Glare reduction commercial window film in a Salt Lake City office workspace' },
+  { number: '05', title: 'Tenant Privacy', detail: 'One-way daytime privacy film keeps your conference rooms and offices visible to those inside but shielded from street view. Frosted and decorative options add privacy to glass partitions without blocking light. See <a href="/benefits/privacy-window-film-salt-lake-city/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">privacy window film options</a>.', image: '/images/commercial/privacy-window-film-salt-lake-city-commercial.jpg', imageAlt: 'Privacy commercial window film on Salt Lake City office conference room glass' },
+  { number: '06', title: 'Decorative & Branding', detail: 'Custom frosted patterns, etched designs, and branded graphics transform plain glass partitions into design features. Ideal for office interiors, hotel lobbies, and restaurant spaces where privacy meets aesthetics. Explore <a href="/benefits/decorative-promotional/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">decorative window film</a>.', image: '/images/commercial/decorative-window-film-salt-lake-city-commercial.jpg', imageAlt: 'Decorative commercial window film on Salt Lake City office glass partitions' },
+  { number: '07', title: 'Anti-Graffiti Protection', detail: 'Anti-graffiti film creates a sacrificial barrier on street-facing glass — if it gets scratched, etched, or tagged, you peel it off and replace it at a fraction of the cost of replacing the glass. Essential for street-level retail and transit-adjacent storefronts. See <a href="/benefits/anti-graffiti/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">anti-graffiti window film</a>.', image: '/images/commercial/anti-graffiti-window-film-salt-lake-city-commercial.jpg', imageAlt: 'Anti-graffiti commercial window film on a Salt Lake City retail storefront' },
+  { number: '08', title: 'Solar Heat Management', detail: 'Reject up to 78% of solar heat gain with spectrally selective films that keep your building cool without darkening interiors. Maintain your views and natural light while reducing your cooling costs. See our <a href="/benefits/solar-control/" style="color: var(--rsh-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">solar control window film</a> service.', image: '/images/commercial/solar-control-window-film-salt-lake-city-commercial.jpg', imageAlt: 'Solar control commercial window film on a Salt Lake City office building interior' },
 ];
 
 const galleryPhotos = [
-  '/images/commercial/commercial-window-film-philadelphia-gallery-1.jpg',
-  '/images/commercial/commercial-window-film-philadelphia-gallery-2.jpg',
-  '/images/commercial/commercial-window-film-philadelphia-gallery-3.jpg',
-  '/images/commercial/commercial-window-film-philadelphia-gallery-4.jpg',
-  '/images/commercial/commercial-window-film-philadelphia-gallery-5.jpg',
+  '/images/commercial/commercial-window-film-salt-lake-city-gallery-1.jpg',
+  '/images/commercial/commercial-window-film-salt-lake-city-gallery-2.jpg',
+  '/images/commercial/commercial-window-film-salt-lake-city-gallery-3.jpg',
+  '/images/commercial/commercial-window-film-salt-lake-city-gallery-4.jpg',
+  '/images/commercial/commercial-window-film-salt-lake-city-gallery-5.jpg',
 ];
 
 const bentoItems = [
-  { span: 'lg', title: 'Office Buildings', desc: 'Solar control and glare reduction for productive workspaces.', img: '/images/commercial/commercial-window-tinting-philadelphia-bento-office.jpg', href: '/applications/office/' },
-  { span: 'sm', title: 'The Installation', desc: 'Precision from assessment to final inspection.', img: '/images/commercial/commercial-window-tinting-philadelphia-bento-install.jpg', href: '/contact/' },
-  { span: 'sm', title: 'The Finished Result', desc: 'Comfortable, efficient, and protected.', img: '/images/commercial/commercial-window-tinting-philadelphia-bento-finished.jpg', href: '/contact/' },
-  { span: 'md', title: 'Retail Storefronts', desc: 'Anti-graffiti and security film for street-facing glass.', img: '/images/commercial/commercial-window-tinting-philadelphia-bento-retail.jpg', href: '/applications/retail/' },
-  { span: 'md', title: 'Hotels & Hospitality', desc: 'Guest comfort and energy savings at scale.', img: '/images/commercial/commercial-window-tinting-philadelphia-bento-hotel.jpg', href: '/applications/hotel-window-film/' },
-  { span: 'md', title: 'Restaurants', desc: 'Glare-free dining with solar control film.', img: '/images/commercial/commercial-window-tinting-philadelphia-bento-restaurant.jpg', href: '/applications/restaurants/' },
+  { span: 'lg', title: 'Office Buildings', desc: 'Solar control and glare reduction for productive workspaces.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-bento-office.jpg', href: '/applications/office/' },
+  { span: 'sm', title: 'The Installation', desc: 'Precision from assessment to final inspection.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-bento-install.jpg', href: '/contact/' },
+  { span: 'sm', title: 'The Finished Result', desc: 'Comfortable, efficient, and protected.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-bento-finished.jpg', href: '/contact/' },
+  { span: 'md', title: 'Retail Storefronts', desc: 'Anti-graffiti and security film for street-facing glass.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-bento-retail.jpg', href: '/applications/retail/' },
+  { span: 'md', title: 'Hotels & Hospitality', desc: 'Guest comfort and energy savings at scale.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-bento-hotel.jpg', href: '/applications/hotel-window-film/' },
+  { span: 'md', title: 'Restaurants', desc: 'Glare-free dining with solar control film.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-bento-restaurant.jpg', href: '/applications/restaurants/' },
 ];
 
 // BentoGridSymmetric — links to all commercial application subpages
 const symmetricItems = [
-  { title: 'Office Buildings', desc: 'Solar control and glare reduction for productive workspaces.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-office.jpg', href: '/applications/office/' },
-  { title: 'Retail & Storefronts', desc: 'Security and anti-graffiti film for street-facing glass.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-retail.jpg', href: '/applications/retail/' },
-  { title: 'Hotels & Hospitality', desc: 'Guest comfort and energy savings across your property.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-hotel.jpg', href: '/applications/hotel-window-film/' },
-  { title: 'Restaurants', desc: 'Glare-free dining with solar control window film.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-restaurant.jpg', href: '/applications/restaurants/' },
-  { title: 'Museums & Libraries', desc: 'Conservation-grade UV filtering for collections.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-museum.jpg', href: '/applications/museums-libraries/' },
-  { title: 'Churches & Faith Centers', desc: 'UV and glare protection for historic stained glass.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-church.jpg', href: '/applications/churches/' },
-  { title: 'Schools & Universities', desc: 'Glare-free classrooms and energy savings for campuses.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-school.jpg', href: '/applications/schools-universities/' },
-  { title: 'Hospitals & Healthcare', desc: 'UV protection and comfort for patients and staff.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-hospital.jpg', href: '/applications/hospitals/' },
-  { title: 'Government Buildings', desc: 'Security film and blast mitigation for public facilities.', img: '/images/commercial/commercial-window-tinting-philadelphia-sym-government.jpg', href: '/government-buildings/' },
+  { title: 'Office Buildings', desc: 'Solar control and glare reduction for productive workspaces.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-office.jpg', href: '/applications/office/' },
+  { title: 'Retail & Storefronts', desc: 'Security and anti-graffiti film for street-facing glass.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-retail.jpg', href: '/applications/retail/' },
+  { title: 'Hotels & Hospitality', desc: 'Guest comfort and energy savings across your property.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-hotel.jpg', href: '/applications/hotel-window-film/' },
+  { title: 'Restaurants', desc: 'Glare-free dining with solar control window film.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-restaurant.jpg', href: '/applications/restaurants/' },
+  { title: 'Museums & Libraries', desc: 'Conservation-grade UV filtering for collections.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-museum.jpg', href: '/applications/museums-libraries/' },
+  { title: 'Churches & Faith Centers', desc: 'UV and glare protection for historic stained glass.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-church.jpg', href: '/applications/churches/' },
+  { title: 'Schools & Universities', desc: 'Glare-free classrooms and energy savings for campuses.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-school.jpg', href: '/applications/schools-universities/' },
+  { title: 'Hospitals & Healthcare', desc: 'UV protection and comfort for patients and staff.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-hospital.jpg', href: '/applications/hospitals/' },
+  { title: 'Government Buildings', desc: 'Security film and blast mitigation for public facilities.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-sym-government.jpg', href: '/government-buildings/' },
 ];
 
 const projectSizes = [
-  { name: 'Full Building & High-Rise', desc: 'Entire glass facades and curtain wall systems on Center City towers. Window Film Philadelphia coordinates with building management, schedules floors sequentially, and handles logistics from loading dock to rooftop. Commercial buildings with high glass-to-wall ratios can see cooling load reductions of 15-25% after solar film installation — a measurable impact on building energy performance.', img: '/images/commercial/commercial-high-rise-window-film-philadelphia.jpg', alt: 'Philadelphia high-rise office tower with window film on glass curtain wall' },
-  { name: 'Small Commercial & Storefronts', desc: 'Single-location businesses, retail shops, and restaurants. Security film protects against smash-and-grab break-ins. Solar film cuts glare and heat so customers and staff stay comfortable. Most storefront installations are straightforward — one or two large panes, done cleanly.', img: '/images/commercial/commercial-storefront-window-film-philadelphia.jpg', alt: 'Philadelphia commercial storefront with window film installed' },
-  { name: 'Interior Glass & Partitions', desc: 'Conference room walls, office dividers, and branded glass graphics. Decorative frosted film adds privacy without losing light. Custom-cut patterns transform plain partitions into design features. Anti-graffiti film protects elevator banks and high-traffic glass from scratching and etching.', img: '/images/commercial/commercial-glass-partition-window-film-philadelphia.jpg', alt: 'Office glass conference room partition with decorative frosted window film' },
+  { name: 'Full Building & High-Rise', desc: 'Entire glass facades and curtain wall systems on Center City towers. Window Film Salt Lake City coordinates with building management, schedules floors sequentially, and handles logistics from loading dock to rooftop. Commercial buildings with high glass-to-wall ratios can see cooling load reductions of 15-25% after solar film installation — a measurable impact on building energy performance.', img: '/images/commercial/commercial-high-rise-window-film-salt-lake-city.jpg', alt: 'Salt Lake City high-rise office tower with window film on glass curtain wall' },
+  { name: 'Small Commercial & Storefronts', desc: 'Single-location businesses, retail shops, and restaurants. Security film protects against smash-and-grab break-ins. Solar film cuts glare and heat so customers and staff stay comfortable. Most storefront installations are straightforward — one or two large panes, done cleanly.', img: '/images/commercial/commercial-storefront-window-film-salt-lake-city.jpg', alt: 'Salt Lake City commercial storefront with window film installed' },
+  { name: 'Interior Glass & Partitions', desc: 'Conference room walls, office dividers, and branded glass graphics. Decorative frosted film adds privacy without losing light. Custom-cut patterns transform plain partitions into design features. Anti-graffiti film protects elevator banks and high-traffic glass from scratching and etching.', img: '/images/commercial/commercial-glass-partition-window-film-salt-lake-city.jpg', alt: 'Office glass conference room partition with decorative frosted window film' },
 ];
 
 const testimonials = [
-  { quote: 'Our tenants were constantly complaining about afternoon glare on their screens. Since the film went on, the complaints stopped and our HVAC runs noticeably less during peak hours. The installation was phased so no tenant was disrupted.', name: 'Diane R.', role: 'Property Manager, Center City office tower', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-1.jpg' },
-  { quote: 'The anti-graffiti film on our storefront has already paid for itself twice over. Someone scratched the glass and we just peeled the film and replaced it — no glass replacement, no downtime. The security film gives us peace of mind too.', name: 'Robert K.', role: 'Retail owner, South Street', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-2.jpg' },
-  { quote: 'We reduced our cooling costs noticeably in the first summer. The film is barely visible from inside or out, but the difference in comfort is immediate. Our guests stopped asking to change rooms because of the heat.', name: 'Lisa M.', role: 'Operations Director, boutique hotel', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-3.jpg' },
-  { quote: 'As a facilities manager overseeing twelve buildings, I need a contractor who handles everything — assessment, coordination, documentation, installation. They worked with our schedule, provided all the compliance paperwork, and the energy savings showed up on the first utility bill.', name: 'Thomas H.', role: 'Facilities Manager, multi-building campus', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-4.jpg' },
-  { quote: 'We manage a 20-floor building and needed a film that wouldn\'t void our existing glass warranty. They walked us through the thermal stress analysis, got the manufacturer sign-off, and coordinated the installation floor by floor over three weekends. Zero tenant complaints.', name: 'Kevin S.', role: 'Building Engineer, Center City high-rise', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-5.jpg' },
-  { quote: 'The decorative frosted film they installed on our conference room partitions completely transformed the space. We went from a fishbowl meeting room to a private, professional environment — and the custom-cut company logo in the glass looks incredible. Fast, clean, no mess.', name: 'Linda P.', role: 'Office Manager, law firm', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-6.jpg' },
-  { quote: 'Our dining room faces west and by 4pm the glare was unbearable — customers were squinting, tables near the windows stayed empty. The solar control film fixed it completely. We can finally seat the full room during dinner service. The install was done overnight so we never closed.', name: 'Marco V.', role: 'Owner, Italian restaurant, Old City', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-7.jpg' },
-  { quote: 'We needed security film on our ground-floor windows after a break-in. The attachment system they used bonds the film to the frame — it\'s not coming off without serious effort. The insurance company even gave us a discount on our premium after the installation was documented.', name: 'Janet F.', role: 'Boutique owner, Manayunk', img: '/images/commercial/commercial-window-tinting-philadelphia-testimonial-8.jpg' },
+  { quote: 'Our tenants were constantly complaining about afternoon glare on their screens. Since the film went on, the complaints stopped and our HVAC runs noticeably less during peak hours. The installation was phased so no tenant was disrupted.', name: 'Diane R.', role: 'Property Manager, Center City office tower', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-1.jpg' },
+  { quote: 'The anti-graffiti film on our storefront has already paid for itself twice over. Someone scratched the glass and we just peeled the film and replaced it — no glass replacement, no downtime. The security film gives us peace of mind too.', name: 'Robert K.', role: 'Retail owner, South Street', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-2.jpg' },
+  { quote: 'We reduced our cooling costs noticeably in the first summer. The film is barely visible from inside or out, but the difference in comfort is immediate. Our guests stopped asking to change rooms because of the heat.', name: 'Lisa M.', role: 'Operations Director, boutique hotel', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-3.jpg' },
+  { quote: 'As a facilities manager overseeing twelve buildings, I need a contractor who handles everything — assessment, coordination, documentation, installation. They worked with our schedule, provided all the compliance paperwork, and the energy savings showed up on the first utility bill.', name: 'Thomas H.', role: 'Facilities Manager, multi-building campus', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-4.jpg' },
+  { quote: 'We manage a 20-floor building and needed a film that wouldn\'t void our existing glass warranty. They walked us through the thermal stress analysis, got the manufacturer sign-off, and coordinated the installation floor by floor over three weekends. Zero tenant complaints.', name: 'Kevin S.', role: 'Building Engineer, Center City high-rise', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-5.jpg' },
+  { quote: 'The decorative frosted film they installed on our conference room partitions completely transformed the space. We went from a fishbowl meeting room to a private, professional environment — and the custom-cut company logo in the glass looks incredible. Fast, clean, no mess.', name: 'Linda P.', role: 'Office Manager, law firm', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-6.jpg' },
+  { quote: 'Our dining room faces west and by 4pm the glare was unbearable — customers were squinting, tables near the windows stayed empty. The solar control film fixed it completely. We can finally seat the full room during dinner service. The install was done overnight so we never closed.', name: 'Marco V.', role: 'Owner, Italian restaurant, Old City', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-7.jpg' },
+  { quote: 'We needed security film on our ground-floor windows after a break-in. The attachment system they used bonds the film to the frame — it\'s not coming off without serious effort. The insurance company even gave us a discount on our premium after the installation was documented.', name: 'Janet F.', role: 'Boutique owner, Manayunk', img: '/images/commercial/commercial-window-tinting-salt-lake-city-testimonial-8.jpg' },
 ];
 
 const processSlides = [
-  { step: '01', title: 'Free Site Assessment', desc: 'We visit your property, assess every pane, evaluate glass type and thermal stress risk, discuss your goals, and take exact measurements — at no cost and no obligation.', img: '/images/commercial/commercial-window-tinting-philadelphia-consultation.jpg', imgAlt: 'Commercial window film consultant assessing office building windows in Philadelphia', cta: 'Request a Site Assessment', ctaHref: '/contact/' },
-  { step: '02', title: 'Precision Preparation', desc: 'Film is pre-cut by plotter to your exact pane dimensions. We coordinate with your building manager to schedule installation around tenant operations — after hours, weekends, or phased by zone.', img: '/images/commercial/commercial-window-film-preparation-philadelphia.jpg', imgAlt: 'Precision plotter cutting commercial window film to exact dimensions', cta: 'See Our Process', ctaHref: '/process/' },
-  { step: '03', title: 'Professional Installation', desc: 'Film is applied to prepared glass using manufacturer-specified techniques, squeegeed from center outward, edges trimmed to pane edges, and every pane inspected for defects. Our crews work in coordinated zones to keep your building operational.', img: '/images/commercial/commercial-window-tinting-philadelphia-installation.jpg', imgAlt: 'Professional installer applying commercial window film to office building glass in Philadelphia', cta: 'Get a Free Quote', ctaHref: '/contact/' },
-  { step: '04', title: 'Walkthrough & Documentation', desc: 'We walk through every floor with your building manager, explain care during the cure period, provide warranty documentation, and deliver compliance specs for your records.', img: '/images/commercial/commercial-window-tinting-philadelphia-walkthrough.jpg', imgAlt: 'Installer and building manager doing final walkthrough of commercial window film installation', cta: 'Get a Free Quote', ctaHref: '/contact/' },
+  { step: '01', title: 'Free Site Assessment', desc: 'We visit your property, assess every pane, evaluate glass type and thermal stress risk, discuss your goals, and take exact measurements — at no cost and no obligation.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-consultation.jpg', imgAlt: 'Commercial window film consultant assessing office building windows in Salt Lake City', cta: 'Request a Site Assessment', ctaHref: '/contact/' },
+  { step: '02', title: 'Precision Preparation', desc: 'Film is pre-cut by plotter to your exact pane dimensions. We coordinate with your building manager to schedule installation around tenant operations — after hours, weekends, or phased by zone.', img: '/images/commercial/commercial-window-film-preparation-salt-lake-city.jpg', imgAlt: 'Precision plotter cutting commercial window film to exact dimensions', cta: 'See Our Process', ctaHref: '/process/' },
+  { step: '03', title: 'Professional Installation', desc: 'Film is applied to prepared glass using manufacturer-specified techniques, squeegeed from center outward, edges trimmed to pane edges, and every pane inspected for defects. Our crews work in coordinated zones to keep your building operational.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-installation.jpg', imgAlt: 'Professional installer applying commercial window film to office building glass in Salt Lake City', cta: 'Get a Free Quote', ctaHref: '/contact/' },
+  { step: '04', title: 'Walkthrough & Documentation', desc: 'We walk through every floor with your building manager, explain care during the cure period, provide warranty documentation, and deliver compliance specs for your records.', img: '/images/commercial/commercial-window-tinting-salt-lake-city-walkthrough.jpg', imgAlt: 'Installer and building manager doing final walkthrough of commercial window film installation', cta: 'Get a Free Quote', ctaHref: '/contact/' },
 ];
 
 const pageSchemas = [
@@ -99,24 +99,24 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://windowfilmphiladelphia.net/services/' },
-      { '@type': 'ListItem', position: 3, name: 'Commercial Window Tinting', item: 'https://windowfilmphiladelphia.net/services/commercial/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://windowfilmsaltlakecity.com/services/' },
+      { '@type': 'ListItem', position: 3, name: 'Commercial Window Tinting', item: 'https://windowfilmsaltlakecity.com/services/commercial/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://windowfilmphiladelphia.net/services/commercial/',
-    url: 'https://windowfilmphiladelphia.net/services/commercial/',
-    name: 'Commercial Window Tinting Philadelphia',
+    '@id': 'https://windowfilmsaltlakecity.com/services/commercial/',
+    url: 'https://windowfilmsaltlakecity.com/services/commercial/',
+    name: 'Commercial Window Tinting Salt Lake City',
     description,
     dateModified,
   },
   {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Commercial Window Tinting Benefits Philadelphia',
+    name: 'Commercial Window Tinting Benefits Salt Lake City',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'HVAC Load Reduction', description: 'Spectrally selective film rejects up to 78% of solar heat gain, reducing commercial cooling demand.' },
       { '@type': 'ListItem', position: 2, name: 'UV Protection', description: 'Blocks up to 99.9% of UV rays to protect merchandise, furnishings, and equipment from fading.' },
@@ -131,37 +131,37 @@ const pageSchemas = [
   {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'Commercial Window Tinting Philadelphia',
-    description: 'Professional commercial window tinting installation for Philadelphia offices, retail stores, hotels, and restaurants. HVAC load reduction, glare reduction, security, anti-graffiti, privacy, and decorative film applied to existing commercial glass.',
-    brand: { '@type': 'Brand', name: 'Window Film Philadelphia' },
+    name: 'Commercial Window Tinting Salt Lake City',
+    description: 'Professional commercial window tinting installation for Salt Lake City offices, retail stores, hotels, and restaurants. HVAC load reduction, glare reduction, security, anti-graffiti, privacy, and decorative film applied to existing commercial glass.',
+    brand: { '@type': 'Brand', name: 'Window Film Salt Lake City' },
   },
 ];
 
 const howToSteps = [
-  { name: 'Free Site Assessment', text: 'We visit your property, assess every pane, evaluate glass type and thermal stress risk, discuss your goals, and take exact measurements at no cost or obligation.', image: 'https://windowfilmphiladelphia.net/images/commercial/commercial-window-tinting-philadelphia-slider-consultation.jpg' },
-  { name: 'Precision Preparation', text: 'Film is pre-cut by plotter to your exact pane dimensions. We coordinate with your building manager to schedule installation around tenant operations.', image: 'https://windowfilmphiladelphia.net/images/2021-10-window-film-preparation-philadelphia.jpg' },
-  { name: 'Professional Installation', text: 'Film is applied to prepared glass using manufacturer-specified techniques, squeegeed from center outward, edges trimmed, and every pane inspected. Our crews work in coordinated zones to keep your building operational.', image: 'https://windowfilmphiladelphia.net/images/2021-10-window-film-installation-philadelphia.jpg' },
-  { name: 'Walkthrough & Documentation', text: 'We walk through every floor with your building manager, explain care during the cure period, provide warranty documentation, and deliver compliance specs.', image: 'https://windowfilmphiladelphia.net/images/window-film-installation-final-inspection-philadelphia.jpg' },
+  { name: 'Free Site Assessment', text: 'We visit your property, assess every pane, evaluate glass type and thermal stress risk, discuss your goals, and take exact measurements at no cost or obligation.', image: 'https://windowfilmsaltlakecity.com/images/commercial/commercial-window-tinting-salt-lake-city-slider-consultation.jpg' },
+  { name: 'Precision Preparation', text: 'Film is pre-cut by plotter to your exact pane dimensions. We coordinate with your building manager to schedule installation around tenant operations.', image: 'https://windowfilmsaltlakecity.com/images/2021-10-window-film-preparation-salt-lake-city.jpg' },
+  { name: 'Professional Installation', text: 'Film is applied to prepared glass using manufacturer-specified techniques, squeegeed from center outward, edges trimmed, and every pane inspected. Our crews work in coordinated zones to keep your building operational.', image: 'https://windowfilmsaltlakecity.com/images/2021-10-window-film-installation-salt-lake-city.jpg' },
+  { name: 'Walkthrough & Documentation', text: 'We walk through every floor with your building manager, explain care during the cure period, provide warranty documentation, and deliver compliance specs.', image: 'https://windowfilmsaltlakecity.com/images/window-film-installation-final-inspection-salt-lake-city.jpg' },
 ];
 ---
 
 <BaseLayout
   title={title}
   description={description}
-  canonical="https://windowfilmphiladelphia.net/services/commercial/"
+  canonical="https://windowfilmsaltlakecity.com/services/commercial/"
   faqItems={faqItems}
-  serviceName="Commercial Window Tinting Philadelphia"
-  serviceDesc="Professional commercial window tinting installation for Philadelphia offices, retail, hotels, and restaurants. HVAC load reduction, glare reduction, security, and decorative film."
-  serviceUrl="https://windowfilmphiladelphia.net/services/commercial/"
+  serviceName="Commercial Window Tinting Salt Lake City"
+  serviceDesc="Professional commercial window tinting installation for Salt Lake City offices, retail, hotels, and restaurants. HVAC load reduction, glare reduction, security, and decorative film."
+  serviceUrl="https://windowfilmsaltlakecity.com/services/commercial/"
   howToSteps={howToSteps}
   howToName="Commercial Window Tinting Installation Process"
-  howToDesc="Professional commercial window tinting installation process for Philadelphia businesses."
+  howToDesc="Professional commercial window tinting installation process for Salt Lake City businesses."
   schemas={pageSchemas}
 >
 
 <!-- ═══ HERO ═══ -->
 <section class="rsh-hero">
-  <div class="rsh-hero__bg" style="background-image: url('/images/commercial/commercial-window-tinting-philadelphia-hero.jpg')" role="img" aria-label="Philadelphia office building with commercial window tinting installed"></div>
+  <div class="rsh-hero__bg" style="background-image: url('/images/commercial/commercial-window-tinting-salt-lake-city-hero.jpg')" role="img" aria-label="Salt Lake City office building with commercial window tinting installed"></div>
   <div class="rsh-hero__overlay"></div>
   <div class="rsh-hero__content">
     <div class="rsh-hero__eyebrow">
@@ -169,13 +169,13 @@ const howToSteps = [
       COMMERCIAL WINDOW TINTING
       <span class="rsh-hero__eyebrow-dot" aria-hidden="true"></span>
     </div>
-    <h1 class="rsh-hero__title">Commercial Window Tinting in Philadelphia</h1>
+    <h1 class="rsh-hero__title">Commercial Window Tinting in Salt Lake City</h1>
     <p class="rsh-hero__subtitle">Professional installation for offices, retail, hotels, and restaurants across the Delaware Valley. HVAC load reduction, glare control, security, anti-graffiti, and decorative film — applied to your existing commercial glass with minimal disruption to operations.</p>
     <div class="rsh-hero__cta">
       <a href="/contact/" class="rsh-hero__btn-primary">Request a Free Site Assessment</a>
-      <a href="tel:2673947980" class="rsh-hero__btn-secondary">
+      <a href="tel:8018954681" class="rsh-hero__btn-secondary">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
-        Call (267) 394-7980
+        Call (801) 895-4681
       </a>
     </div>
     <div class="rsh-hero__stats-panel" aria-label="Key statistics">
@@ -209,7 +209,7 @@ const howToSteps = [
 <!-- TRUST BAR -->
 <section class="rsh-trust">
   <div class="rsh-container">
-    <p class="rsh-trust__label">Trusted by Philadelphia businesses, property managers, and building owners since 2008</p>
+    <p class="rsh-trust__label">Trusted by Salt Lake City businesses, property managers, and building owners since 2008</p>
   </div>
 </section>
 
@@ -221,32 +221,32 @@ const howToSteps = [
     <div class="rsh-intro__content">
       <span class="rsh-eyebrow">Our Services</span>
       <h2 class="cmr-intro__title">Why Invest in window film for your business?</h2>
-      <p class="rsh-intro__lead">Philadelphia business owners and property managers choose commercial window tinting in Philadelphia as a cost-effective building envelope upgrade that pays for itself through energy savings, tenant comfort, and reduced maintenance. Whether you manage a Center City office tower, a retail storefront on South Street, or a multi-building hotel property, we install film that reduces HVAC load, eliminates screen glare, adds security, and protects merchandise — all applied to your existing glass.</p>
+      <p class="rsh-intro__lead">Salt Lake City business owners and property managers choose commercial window tinting in Salt Lake City as a cost-effective building envelope upgrade that pays for itself through energy savings, tenant comfort, and reduced maintenance. Whether you manage a Center City office tower, a retail storefront on South Street, or a multi-building hotel property, we install film that reduces HVAC load, eliminates screen glare, adds security, and protects merchandise — all applied to your existing glass.</p>
       <p class="rsh-intro__lead">We assess every pane individually — glass type, age, condition, orientation, and thermal stress risk — before recommending a product. Different zones of the same building often need different films: solar control on the west facade, glare reduction on the south, security film on the ground floor. That's how we've worked since 2008. According to the <a href="https://www.osha.gov/computer-workstations" target="_blank" rel="noopener noreferrer" style="color: var(--rsh-green); text-decoration: underline; text-underline-offset: 3px;">OSHA Computer Workstations eTool</a>, excessive glare is a recognized workplace ergonomic hazard that causes eye strain and headaches — window film eliminates it at the source.</p>
     </div>
     <div class="rsh-intro__image-wrap">
-      <img src="/images/commercial/commercial-window-tinting-philadelphia-interior.jpg" alt="Philadelphia commercial office interior with window tinting installed" title="Philadelphia commercial office with window tinting — Window Film Philadelphia" class="rsh-intro__image" loading="lazy" />
+      <img src="/images/commercial/commercial-window-tinting-salt-lake-city-interior.jpg" alt="Salt Lake City commercial office interior with window tinting installed" title="Salt Lake City commercial office with window tinting — Window Film Salt Lake City" class="rsh-intro__image" loading="lazy" />
     </div>
   </div>
 </section>
 
 <!-- ═══ BEFORE/AFTER SLIDER ═══ -->
 <BeforeAfterSlider
-  before="/images/commercial/commercial-window-tinting-philadelphia-before.jpg"
-  after="/images/commercial/commercial-window-tinting-philadelphia-after.jpg"
-  beforeAlt="Philadelphia office interior without window film — harsh afternoon glare on computer monitors"
-  afterAlt="Same Philadelphia office interior after commercial window tinting — soft even light, no screen glare"
+  before="/images/commercial/commercial-window-tinting-salt-lake-city-before.jpg"
+  after="/images/commercial/commercial-window-tinting-salt-lake-city-after.jpg"
+  beforeAlt="Salt Lake City office interior without window film — harsh afternoon glare on computer monitors"
+  afterAlt="Same Salt Lake City office interior after commercial window tinting — soft even light, no screen glare"
   beforeTag="Without film"
   afterTag="With film"
   heading="See the difference for yourself"
-  sub="Drag the handle to compare a Philadelphia office before and after commercial window tinting. Same workspace. Same windows. Completely different comfort and productivity."
+  sub="Drag the handle to compare a Salt Lake City office before and after commercial window tinting. Same workspace. Same windows. Completely different comfort and productivity."
 />
 
 <!-- ═══ GALLERY BANNER — fanned photo strips ═══ -->
 <GalleryBanner
   titleLines={['OUR', 'WORK.']}
   eyebrow="COMMERCIAL INSTALLS"
-  description="A collection of real commercial window film installations across Philadelphia. Every project assessed, applied, and finished by our own certified team."
+  description="A collection of real commercial window film installations across Salt Lake City. Every project assessed, applied, and finished by our own certified team."
   photos={galleryPhotos}
   hintText="Hover the photos · click to bring forward"
   theme="dark"
@@ -282,20 +282,20 @@ const howToSteps = [
 
     <!-- SLIDE 01: Experience -->
     <div class="rsh-ftype__slide rsh-ftype-active" data-slide="0">
-      <img src="/images/commercial/commercial-window-tinting-philadelphia-slider-experience.jpg" alt="Philadelphia commercial district with office buildings featuring window tinting" title="Philadelphia commercial buildings with window tinting — Window Film Philadelphia" class="rsh-ftype__bg" />
+      <img src="/images/commercial/commercial-window-tinting-salt-lake-city-slider-experience.jpg" alt="Salt Lake City commercial district with office buildings featuring window tinting" title="Salt Lake City commercial buildings with window tinting — Window Film Salt Lake City" class="rsh-ftype__bg" />
       <div class="rsh-ftype__overlay"></div>
       <div class="rsh-ftype__content">
         <div class="rsh-ftype__step">01</div>
         <h2 class="rsh-ftype__title">15+ years installing
 commercial window film</h2>
-        <p class="rsh-ftype__desc">Window Film Philadelphia has installed over 1.2 million square feet of commercial window tinting in Philadelphia — from single storefronts on South Street to multi-building campuses in the Navy Yard. We've worked with property managers, retail chains, hotel groups, and facility directors. That experience means we evaluate each zone of your building independently — different glass, different orientation, different film. Not a one-size-fits-all product applied uniformly to every pane.</p>
+        <p class="rsh-ftype__desc">Window Film Salt Lake City has installed over 1.2 million square feet of commercial window tinting in Salt Lake City — from single storefronts on South Street to multi-building campuses in the Navy Yard. We've worked with property managers, retail chains, hotel groups, and facility directors. That experience means we evaluate each zone of your building independently — different glass, different orientation, different film. Not a one-size-fits-all product applied uniformly to every pane.</p>
         <a href="/contact/" class="rsh-ftype__cta">Get a Free Quote →</a>
       </div>
     </div>
 
     <!-- SLIDE 02: Certified -->
     <div class="rsh-ftype__slide" data-slide="1">
-      <img src="/images/commercial/commercial-window-tinting-philadelphia-slider-certified.jpg" alt="Professional installer applying commercial window film to office building glass" title="Certified commercial window film installation — Window Film Philadelphia" class="rsh-ftype__bg" />
+      <img src="/images/commercial/commercial-window-tinting-salt-lake-city-slider-certified.jpg" alt="Professional installer applying commercial window film to office building glass" title="Certified commercial window film installation — Window Film Salt Lake City" class="rsh-ftype__bg" />
       <div class="rsh-ftype__overlay"></div>
       <div class="rsh-ftype__content">
         <div class="rsh-ftype__step">02</div>
@@ -308,7 +308,7 @@ commercial glass systems</h2>
 
     <!-- SLIDE 03: Consultation -->
     <div class="rsh-ftype__slide" data-slide="2">
-      <img src="/images/commercial/commercial-window-tinting-philadelphia-slider-consultation.jpg" alt="Commercial window film consultant meeting with building manager in Philadelphia" title="Free commercial site assessment — Window Film Philadelphia" class="rsh-ftype__bg" />
+      <img src="/images/commercial/commercial-window-tinting-salt-lake-city-slider-consultation.jpg" alt="Commercial window film consultant meeting with building manager in Salt Lake City" title="Free commercial site assessment — Window Film Salt Lake City" class="rsh-ftype__bg" />
       <div class="rsh-ftype__overlay"></div>
       <div class="rsh-ftype__content">
         <div class="rsh-ftype__step">03</div>
@@ -342,7 +342,7 @@ no pressure</h2>
 <AccordionBenefits
   eyebrow="WHAT COMMERCIAL WINDOW TINTING DOES FOR YOUR BUSINESS"
   title="One installation. Measurable improvements across your building."
-  subtitle="Commercial window tinting in Philadelphia addresses multiple operational concerns at once. Click any benefit to see the film and learn how it performs."
+  subtitle="Commercial window tinting in Salt Lake City addresses multiple operational concerns at once. Click any benefit to see the film and learn how it performs."
   benefits={accordionBenefits}
 />
 
@@ -365,15 +365,15 @@ no pressure</h2>
   <div class="rsh-local__grid">
     <div class="rsh-local__map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97443.81289285327!2d-75.2272!3d39.9526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88784e099!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1720000000000"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97443.81289285327!2d-75.2272!3d39.9526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88784e099!2sSalt Lake City%2C%20PA!5e0!3m2!1sen!2sus!4v1720000000000"
         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-        title="Window Film Philadelphia commercial service area map"
+        title="Window Film Salt Lake City commercial service area map"
       ></iframe>
     </div>
     <div class="rsh-local__content">
       <span class="rsh-eyebrow">Service Area</span>
-      <h2 class="rsh-local__title">Commercial Window Tinting Across Greater Philadelphia</h2>
-      <p class="rsh-local__intro">Window Film Philadelphia provides commercial window tinting in Philadelphia and throughout the Delaware Valley — our installation crews are locally based with no travel surcharge within the standard service area.</p>
+      <h2 class="rsh-local__title">Commercial Window Tinting Across Greater Salt Lake City</h2>
+      <p class="rsh-local__intro">Window Film Salt Lake City provides commercial window tinting in Salt Lake City and throughout the Delaware Valley — our installation crews are locally based with no travel surcharge within the standard service area.</p>
       <div class="rsh-neighborhoods">
         <div class="rsh-nh"><span class="rsh-nh__name">Center City</span><span class="rsh-nh__desc">Office towers with glass curtain walls facing intense solar exposure. Solar control and glare reduction film reduce HVAC load and improve tenant comfort.</span></div>
         <div class="rsh-nh"><span class="rsh-nh__name">Old City</span><span class="rsh-nh__desc">Boutique offices in historic buildings with original single-pane glass. Clear UV film protects interiors without changing appearance.</span></div>
@@ -409,7 +409,7 @@ no pressure</h2>
 <CTAAvatars
   title="Ready to upgrade your building?"
   subtitle="Request a free site assessment. We evaluate your glass, explain your options, and give you a detailed proposal — no pressure, no obligation."
-  count="Trusted by 2,400+ Philadelphia businesses"
+  count="Trusted by 2,400+ Salt Lake City businesses"
   btnLabel="Request a Free Site Assessment"
   btnHref="/contact/"
 />

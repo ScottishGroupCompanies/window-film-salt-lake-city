@@ -5,38 +5,38 @@ import BentoGridSymmetric from '../components/BentoGridSymmetric.astro';
 import AccordionFAQ from '../components/AccordionFAQ.astro';
 import CTAAvatars from '../components/CTAAvatars.astro';
 
-const title = 'Window Film Benefits Philadelphia | Energy, UV & Security';
-const description = 'Explore every benefit of window film in Philadelphia — energy savings, UV protection, glare reduction, privacy, security, decorative film.';
+const title = 'Window Film Benefits Salt Lake City | Energy, UV & Security';
+const description = 'Explore every benefit of window film in Salt Lake City — energy savings, UV protection, glare reduction, privacy, security, decorative film.';
 const dateModified = new Date().toISOString().slice(0, 10);
 
 // All 15 benefit links from the nav menu
 const benefitItems = [
-  { title: 'Energy Savings', desc: 'Reduce cooling costs by up to 30% with solar control film that rejects heat without darkening your space.', img: '/images/benefits-overview/energy-saving-window-film-philadelphia-benefit.jpg', href: '/benefits/energy-savings/' },
-  { title: 'UV Protection', desc: 'Block up to 99.9% of UV rays to protect furnishings, flooring, artwork, and occupants from fading and damage.', img: '/images/benefits-overview/uv-protection-window-film-philadelphia-benefit.jpg', href: '/benefits/uv-protection-film/' },
-  { title: 'Privacy Film', desc: 'One-way daytime privacy, frosted partitions, and decorative options for homes, offices, and healthcare spaces.', img: '/images/benefits-overview/privacy-window-film-philadelphia-benefit.jpg', href: '/benefits/privacy-window-film-philadelphia/' },
-  { title: 'Glare Reduction', desc: 'Eliminate screen glare on computer monitors and reduce eye strain while maintaining natural light.', img: '/images/benefits-overview/glare-reduction-window-film-philadelphia-benefit.jpg', href: '/benefits/glare-reduction/' },
-  { title: 'Anti-Graffiti', desc: 'Sacrificial film that protects street-facing glass from scratching, etching, and tagging — peel and replace.', img: '/images/benefits-overview/anti-graffiti-window-film-philadelphia-benefit.jpg', href: '/benefits/anti-graffiti/' },
-  { title: 'Safety & Security', desc: 'Security film holds broken glass together during break-ins, storms, and accidents — with optional frame attachment.', img: '/images/benefits-overview/safety-security-window-film-philadelphia-benefit.jpg', href: '/benefits/safety-and-security/' },
-  { title: 'Solar Control', desc: 'Reject up to 78% of solar heat gain with spectrally selective film that keeps interiors cool and comfortable.', img: '/images/benefits-overview/solar-control-window-film-philadelphia-benefit.jpg', href: '/benefits/solar-control/' },
-  { title: 'Decorative & Promotional', desc: 'Custom frosted patterns, etched designs, and branded graphics that transform plain glass into design features.', img: '/images/benefits-overview/decorative-window-film-philadelphia-benefit.jpg', href: '/benefits/decorative-promotional/' },
-  { title: 'Exterior Building Wraps', desc: 'Full-building printed graphics for advertising campaigns and brand visibility — applied to exterior glass.', img: '/images/benefits-overview/exterior-building-wrap-philadelphia-benefit.jpg', href: '/benefits/exterior-building-wraps/' },
-  { title: 'Exterior Refinishing', desc: 'Mask glass defects, update appearance, and modernize building facades without renovation or glass replacement.', img: '/images/benefits-overview/exterior-refinishing-window-film-philadelphia-benefit.jpg', href: '/benefits/exterior-window-film/' },
-  { title: 'Mirror Refinishing', desc: 'Restore and protect mirrors and decorative glass surfaces with protective film overlays — no replacement needed.', img: '/images/benefits-overview/mirror-refinishing-window-film-philadelphia-benefit.jpg', href: '/benefits/mirror-refinishing/' },
-  { title: 'Bird Strike Prevention', desc: 'Virtually invisible fritted patterns alert birds to glass barriers, preventing fatal collisions without obstructing views.', img: '/images/benefits-overview/bird-strike-window-film-philadelphia-benefit.jpg', href: '/benefits/bird-strike-prevention/' },
-  { title: 'School Security Film', desc: 'Fortify classroom and entry glass against forced entry with certified security film systems designed for schools.', img: '/images/benefits-overview/school-security-window-film-philadelphia-benefit.jpg', href: '/benefits/school-security-window-film/' },
-  { title: 'Bomb Blast Protection', desc: 'Retain shattered glass fragments during explosions, dramatically reducing injury and property damage.', img: '/images/benefits-overview/blast-mitigation-window-film-philadelphia-benefit.jpg', href: '/benefits/blast-mitigation/' },
-  { title: 'Ballistic Resistant Film', desc: 'Advanced multi-layer systems for high-security facilities that resist gunfire and forced entry attempts.', img: '/images/benefits-overview/ballistic-resistant-window-film-philadelphia-benefit.jpg', href: '/benefits/ballistic-resistance/' },
+  { title: 'Energy Savings', desc: 'Reduce cooling costs by up to 30% with solar control film that rejects heat without darkening your space.', img: '/images/benefits-overview/energy-saving-window-film-salt-lake-city-benefit.jpg', href: '/benefits/energy-savings/' },
+  { title: 'UV Protection', desc: 'Block up to 99.9% of UV rays to protect furnishings, flooring, artwork, and occupants from fading and damage.', img: '/images/benefits-overview/uv-protection-window-film-salt-lake-city-benefit.jpg', href: '/benefits/uv-protection-film/' },
+  { title: 'Privacy Film', desc: 'One-way daytime privacy, frosted partitions, and decorative options for homes, offices, and healthcare spaces.', img: '/images/benefits-overview/privacy-window-film-salt-lake-city-benefit.jpg', href: '/benefits/privacy-window-film-salt-lake-city/' },
+  { title: 'Glare Reduction', desc: 'Eliminate screen glare on computer monitors and reduce eye strain while maintaining natural light.', img: '/images/benefits-overview/glare-reduction-window-film-salt-lake-city-benefit.jpg', href: '/benefits/glare-reduction/' },
+  { title: 'Anti-Graffiti', desc: 'Sacrificial film that protects street-facing glass from scratching, etching, and tagging — peel and replace.', img: '/images/benefits-overview/anti-graffiti-window-film-salt-lake-city-benefit.jpg', href: '/benefits/anti-graffiti/' },
+  { title: 'Safety & Security', desc: 'Security film holds broken glass together during break-ins, storms, and accidents — with optional frame attachment.', img: '/images/benefits-overview/safety-security-window-film-salt-lake-city-benefit.jpg', href: '/benefits/safety-and-security/' },
+  { title: 'Solar Control', desc: 'Reject up to 78% of solar heat gain with spectrally selective film that keeps interiors cool and comfortable.', img: '/images/benefits-overview/solar-control-window-film-salt-lake-city-benefit.jpg', href: '/benefits/solar-control/' },
+  { title: 'Decorative & Promotional', desc: 'Custom frosted patterns, etched designs, and branded graphics that transform plain glass into design features.', img: '/images/benefits-overview/decorative-window-film-salt-lake-city-benefit.jpg', href: '/benefits/decorative-promotional/' },
+  { title: 'Exterior Building Wraps', desc: 'Full-building printed graphics for advertising campaigns and brand visibility — applied to exterior glass.', img: '/images/benefits-overview/exterior-building-wrap-salt-lake-city-benefit.jpg', href: '/benefits/exterior-building-wraps/' },
+  { title: 'Exterior Refinishing', desc: 'Mask glass defects, update appearance, and modernize building facades without renovation or glass replacement.', img: '/images/benefits-overview/exterior-refinishing-window-film-salt-lake-city-benefit.jpg', href: '/benefits/exterior-window-film/' },
+  { title: 'Mirror Refinishing', desc: 'Restore and protect mirrors and decorative glass surfaces with protective film overlays — no replacement needed.', img: '/images/benefits-overview/mirror-refinishing-window-film-salt-lake-city-benefit.jpg', href: '/benefits/mirror-refinishing/' },
+  { title: 'Bird Strike Prevention', desc: 'Virtually invisible fritted patterns alert birds to glass barriers, preventing fatal collisions without obstructing views.', img: '/images/benefits-overview/bird-strike-window-film-salt-lake-city-benefit.jpg', href: '/benefits/bird-strike-prevention/' },
+  { title: 'School Security Film', desc: 'Fortify classroom and entry glass against forced entry with certified security film systems designed for schools.', img: '/images/benefits-overview/school-security-window-film-salt-lake-city-benefit.jpg', href: '/benefits/school-security-window-film/' },
+  { title: 'Bomb Blast Protection', desc: 'Retain shattered glass fragments during explosions, dramatically reducing injury and property damage.', img: '/images/benefits-overview/blast-mitigation-window-film-salt-lake-city-benefit.jpg', href: '/benefits/blast-mitigation/' },
+  { title: 'Ballistic Resistant Film', desc: 'Advanced multi-layer systems for high-security facilities that resist gunfire and forced entry attempts.', img: '/images/benefits-overview/ballistic-resistant-window-film-salt-lake-city-benefit.jpg', href: '/benefits/ballistic-resistance/' },
 ];
 
 const faqItems = [
-  { question: 'What are the main window film benefits for Philadelphia properties?', answer: 'Window film benefits in Philadelphia fall into four categories: comfort (energy savings, solar control, glare reduction), protection (UV blocking, safety and security, blast mitigation, ballistic resistance), appearance (privacy, decorative film, exterior refinishing, mirror refinishing, building wraps), and specialized (anti-graffiti, bird strike prevention, school security). A single film often provides multiple benefits — solar control film rejects heat, blocks UV, and reduces glare simultaneously.' },
+  { question: 'What are the main window film benefits for Salt Lake City properties?', answer: 'Window film benefits in Salt Lake City fall into four categories: comfort (energy savings, solar control, glare reduction), protection (UV blocking, safety and security, blast mitigation, ballistic resistance), appearance (privacy, decorative film, exterior refinishing, mirror refinishing, building wraps), and specialized (anti-graffiti, bird strike prevention, school security). A single film often provides multiple benefits — solar control film rejects heat, blocks UV, and reduces glare simultaneously.' },
   { question: 'Can one window film provide multiple benefits at once?', answer: 'Yes. Most professional-grade films are multi-functional. A spectrally selective solar control film rejects up to 78% of solar heat gain, blocks 99.9% of UV rays, and reduces glare — all while remaining nearly invisible on the glass. Security films can combine forced-entry delay with solar control. During your free consultation, we identify which benefits matter most for your property and recommend a film that addresses them in a single installation.' },
   { question: 'Will window film darken my rooms or affect my view?', answer: 'No. Modern window films are engineered to maintain natural light and clear views while controlling heat and glare. Spectrally selective films are virtually invisible — they reject heat without darkening interiors. We offer a range of visible light transmission (VLT) levels from nearly clear to tinted, so you choose how much light comes through based on your preferences and the orientation of your windows.' },
   { question: 'Is window film a worthwhile investment for commercial buildings?', answer: 'For most commercial properties, window film pays for itself through energy savings alone. Solar control film reduces HVAC load by rejecting solar heat gain, which translates to lower cooling costs — particularly on south- and west-facing facades. Beyond energy, commercial window film benefits include glare reduction for employee productivity, UV protection for merchandise and furnishings, security film for storefronts, and decorative film for branding and privacy.' },
-  { question: 'How does window film compare to window replacement?', answer: 'Window film is a fraction of the cost of full glass replacement and can be installed on existing windows without construction. While replacement may be necessary for severely damaged glass, film upgrades the performance of sound, functional glass — adding solar control, UV protection, security, or privacy that the original glass lacks. For historic buildings in Philadelphia where replacement is restricted, window film is often the only viable upgrade path.' },
+  { question: 'How does window film compare to window replacement?', answer: 'Window film is a fraction of the cost of full glass replacement and can be installed on existing windows without construction. While replacement may be necessary for severely damaged glass, film upgrades the performance of sound, functional glass — adding solar control, UV protection, security, or privacy that the original glass lacks. For historic buildings in Salt Lake City where replacement is restricted, window film is often the only viable upgrade path.' },
   { question: 'What maintenance does window film require after installation?', answer: 'Window film is low-maintenance. Allow 30 days for the film to fully cure after installation — during this period you may notice slight haziness, which clears as the film dries. After curing, clean with a soft cloth and mild soap or ammonia-free glass cleaner. Avoid abrasive scrubbers and sharp tools. We provide care instructions with every installation.' },
   { question: 'Are window film benefits covered by a warranty?', answer: 'Every installation is backed by the manufacturer warranty covering film performance — peeling, bubbling, discoloration, and solar heat rejection. We also provide a labor warranty on our installation workmanship. Warranty terms vary by product and film type. We walk you through the specific warranty for your chosen product during the consultation.' },
-  { question: 'Do you install window film throughout the entire Delaware Valley?', answer: 'Yes. We serve the entire Delaware Valley including Center City, Old City, South Philly, Fishtown, Northern Liberties, Manayunk, University City, King of Prussia, Camden NJ, and surrounding areas. Our installation crews are Philadelphia-based — no travel surcharge within the standard service area.' },
+  { question: 'Do you install window film throughout the entire Delaware Valley?', answer: 'Yes. We serve the entire Delaware Valley including Center City, Old City, South Salt Lake, Fishtown, Northern Liberties, Manayunk, University City, King of Prussia, Camden NJ, and surrounding areas. Our installation crews are Salt Lake City-based — no travel surcharge within the standard service area.' },
 ];
 
 const faqAccordionItems = faqItems.map(f => ({ q: f.question, a: f.answer }));
@@ -46,47 +46,47 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Benefits', item: 'https://windowfilmphiladelphia.net/benefits/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Benefits', item: 'https://windowfilmsaltlakecity.com/benefits/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://windowfilmphiladelphia.net/benefits/',
-    url: 'https://windowfilmphiladelphia.net/benefits/',
-    name: 'Window Film Benefits in Philadelphia',
+    '@id': 'https://windowfilmsaltlakecity.com/benefits/',
+    url: 'https://windowfilmsaltlakecity.com/benefits/',
+    name: 'Window Film Benefits in Salt Lake City',
     description,
     dateModified,
   },
   {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Window Film Benefits in Philadelphia',
+    name: 'Window Film Benefits in Salt Lake City',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Energy Savings', description: 'Solar control film reduces cooling costs by rejecting solar heat gain.', url: 'https://windowfilmphiladelphia.net/benefits/energy-savings/' },
-      { '@type': 'ListItem', position: 2, name: 'UV Protection', description: 'Blocks up to 99.9% of UV rays to protect furnishings and occupants.', url: 'https://windowfilmphiladelphia.net/benefits/uv-protection-film/' },
-      { '@type': 'ListItem', position: 3, name: 'Privacy Film', description: 'One-way privacy, frosted partitions, and decorative privacy solutions.', url: 'https://windowfilmphiladelphia.net/benefits/privacy-window-film-philadelphia/' },
-      { '@type': 'ListItem', position: 4, name: 'Glare Reduction', description: 'Eliminates screen glare while maintaining natural light.', url: 'https://windowfilmphiladelphia.net/benefits/glare-reduction/' },
-      { '@type': 'ListItem', position: 5, name: 'Anti-Graffiti', description: 'Sacrificial film protects street-facing glass from scratching and tagging.', url: 'https://windowfilmphiladelphia.net/benefits/anti-graffiti/' },
-      { '@type': 'ListItem', position: 6, name: 'Safety & Security', description: 'Security film holds broken glass together during break-ins and storms.', url: 'https://windowfilmphiladelphia.net/benefits/safety-and-security/' },
-      { '@type': 'ListItem', position: 7, name: 'Solar Control', description: 'Reject up to 78% of solar heat gain without darkening interiors.', url: 'https://windowfilmphiladelphia.net/benefits/solar-control/' },
-      { '@type': 'ListItem', position: 8, name: 'Decorative & Promotional', description: 'Custom frosted patterns and branded graphics for glass partitions.', url: 'https://windowfilmphiladelphia.net/benefits/decorative-promotional/' },
-      { '@type': 'ListItem', position: 9, name: 'Exterior Building Wraps', description: 'Full-building printed graphics for advertising and brand visibility.', url: 'https://windowfilmphiladelphia.net/benefits/exterior-building-wraps/' },
-      { '@type': 'ListItem', position: 10, name: 'Exterior Refinishing', description: 'Update building facades and mask glass defects without renovation.', url: 'https://windowfilmphiladelphia.net/benefits/exterior-window-film/' },
-      { '@type': 'ListItem', position: 11, name: 'Mirror Refinishing', description: 'Restore and protect mirrors with film overlays instead of replacement.', url: 'https://windowfilmphiladelphia.net/benefits/mirror-refinishing/' },
-      { '@type': 'ListItem', position: 12, name: 'Bird Strike Prevention', description: 'Fritted patterns prevent bird collisions with glass barriers.', url: 'https://windowfilmphiladelphia.net/benefits/bird-strike-prevention/' },
-      { '@type': 'ListItem', position: 13, name: 'School Security Film', description: 'Certified security film for classroom and entry glass in schools.', url: 'https://windowfilmphiladelphia.net/benefits/school-security-window-film/' },
-      { '@type': 'ListItem', position: 14, name: 'Bomb Blast Protection', description: 'Retains shattered glass fragments during explosions to reduce injury.', url: 'https://windowfilmphiladelphia.net/benefits/blast-mitigation/' },
-      { '@type': 'ListItem', position: 15, name: 'Ballistic Resistant Film', description: 'Multi-layer systems for high-security facilities resisting gunfire.', url: 'https://windowfilmphiladelphia.net/benefits/ballistic-resistance/' },
+      { '@type': 'ListItem', position: 1, name: 'Energy Savings', description: 'Solar control film reduces cooling costs by rejecting solar heat gain.', url: 'https://windowfilmsaltlakecity.com/benefits/energy-savings/' },
+      { '@type': 'ListItem', position: 2, name: 'UV Protection', description: 'Blocks up to 99.9% of UV rays to protect furnishings and occupants.', url: 'https://windowfilmsaltlakecity.com/benefits/uv-protection-film/' },
+      { '@type': 'ListItem', position: 3, name: 'Privacy Film', description: 'One-way privacy, frosted partitions, and decorative privacy solutions.', url: 'https://windowfilmsaltlakecity.com/benefits/privacy-window-film-salt-lake-city/' },
+      { '@type': 'ListItem', position: 4, name: 'Glare Reduction', description: 'Eliminates screen glare while maintaining natural light.', url: 'https://windowfilmsaltlakecity.com/benefits/glare-reduction/' },
+      { '@type': 'ListItem', position: 5, name: 'Anti-Graffiti', description: 'Sacrificial film protects street-facing glass from scratching and tagging.', url: 'https://windowfilmsaltlakecity.com/benefits/anti-graffiti/' },
+      { '@type': 'ListItem', position: 6, name: 'Safety & Security', description: 'Security film holds broken glass together during break-ins and storms.', url: 'https://windowfilmsaltlakecity.com/benefits/safety-and-security/' },
+      { '@type': 'ListItem', position: 7, name: 'Solar Control', description: 'Reject up to 78% of solar heat gain without darkening interiors.', url: 'https://windowfilmsaltlakecity.com/benefits/solar-control/' },
+      { '@type': 'ListItem', position: 8, name: 'Decorative & Promotional', description: 'Custom frosted patterns and branded graphics for glass partitions.', url: 'https://windowfilmsaltlakecity.com/benefits/decorative-promotional/' },
+      { '@type': 'ListItem', position: 9, name: 'Exterior Building Wraps', description: 'Full-building printed graphics for advertising and brand visibility.', url: 'https://windowfilmsaltlakecity.com/benefits/exterior-building-wraps/' },
+      { '@type': 'ListItem', position: 10, name: 'Exterior Refinishing', description: 'Update building facades and mask glass defects without renovation.', url: 'https://windowfilmsaltlakecity.com/benefits/exterior-window-film/' },
+      { '@type': 'ListItem', position: 11, name: 'Mirror Refinishing', description: 'Restore and protect mirrors with film overlays instead of replacement.', url: 'https://windowfilmsaltlakecity.com/benefits/mirror-refinishing/' },
+      { '@type': 'ListItem', position: 12, name: 'Bird Strike Prevention', description: 'Fritted patterns prevent bird collisions with glass barriers.', url: 'https://windowfilmsaltlakecity.com/benefits/bird-strike-prevention/' },
+      { '@type': 'ListItem', position: 13, name: 'School Security Film', description: 'Certified security film for classroom and entry glass in schools.', url: 'https://windowfilmsaltlakecity.com/benefits/school-security-window-film/' },
+      { '@type': 'ListItem', position: 14, name: 'Bomb Blast Protection', description: 'Retains shattered glass fragments during explosions to reduce injury.', url: 'https://windowfilmsaltlakecity.com/benefits/blast-mitigation/' },
+      { '@type': 'ListItem', position: 15, name: 'Ballistic Resistant Film', description: 'Multi-layer systems for high-security facilities resisting gunfire.', url: 'https://windowfilmsaltlakecity.com/benefits/ballistic-resistance/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'Window Film Benefits Philadelphia',
-    description: 'Professional window film installation delivering energy savings, UV protection, glare reduction, privacy, security, decorative, and specialized benefits for Philadelphia properties.',
-    brand: { '@type': 'Brand', name: 'Window Film Philadelphia' },
+    name: 'Window Film Benefits Salt Lake City',
+    description: 'Professional window film installation delivering energy savings, UV protection, glare reduction, privacy, security, decorative, and specialized benefits for Salt Lake City properties.',
+    brand: { '@type': 'Brand', name: 'Window Film Salt Lake City' },
     offers: { '@type': 'Offer', priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
   },
 ];
@@ -95,17 +95,17 @@ const pageSchemas = [
 <BaseLayout
   title={title}
   description={description}
-  canonical="https://windowfilmphiladelphia.net/benefits/"
+  canonical="https://windowfilmsaltlakecity.com/benefits/"
   faqItems={faqItems}
-  serviceName="Window Film Benefits Philadelphia"
-  serviceDesc="Professional window film delivering energy savings, UV protection, glare reduction, privacy, security, decorative, and specialized benefits for Philadelphia properties."
-  serviceUrl="https://windowfilmphiladelphia.net/benefits/"
+  serviceName="Window Film Benefits Salt Lake City"
+  serviceDesc="Professional window film delivering energy savings, UV protection, glare reduction, privacy, security, decorative, and specialized benefits for Salt Lake City properties."
+  serviceUrl="https://windowfilmsaltlakecity.com/benefits/"
   schemas={pageSchemas}
 >
 
 <!-- ═══ HERO ═══ -->
 <section class="bn-hero">
-  <div class="bn-hero__bg" style="background-image: url('/images/benefits-overview/window-film-benefits-philadelphia-hero.jpg')" role="img" aria-label="Professional window film installation showing the benefits of film applied to glass"></div>
+  <div class="bn-hero__bg" style="background-image: url('/images/benefits-overview/window-film-benefits-salt-lake-city-hero.jpg')" role="img" aria-label="Professional window film installation showing the benefits of film applied to glass"></div>
   <div class="bn-hero__overlay"></div>
   <div class="bn-hero__content">
     <div class="bn-hero__eyebrow">
@@ -113,13 +113,13 @@ const pageSchemas = [
       WINDOW FILM BENEFITS
       <span class="bn-hero__eyebrow-dot" aria-hidden="true"></span>
     </div>
-    <h1 class="bn-hero__title">Window Film Benefits in Philadelphia</h1>
-    <p class="bn-hero__subtitle">From energy savings and UV protection to security, privacy, and decorative design — window film does more than most Philadelphia property owners realize. Explore the full range of benefits and find the right solution for your glass.</p>
+    <h1 class="bn-hero__title">Window Film Benefits in Salt Lake City</h1>
+    <p class="bn-hero__subtitle">From energy savings and UV protection to security, privacy, and decorative design — window film does more than most Salt Lake City property owners realize. Explore the full range of benefits and find the right solution for your glass.</p>
     <div class="bn-hero__cta">
       <a href="/contact/" class="bn-hero__btn-primary">Get a Free Consultation</a>
-      <a href="tel:2673947980" class="bn-hero__btn-secondary">
+      <a href="tel:8018954681" class="bn-hero__btn-secondary">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
-        Call (267) 394-7980
+        Call (801) 895-4681
       </a>
     </div>
     <div class="bn-hero__stats-panel" aria-label="Key statistics">
@@ -153,7 +153,7 @@ const pageSchemas = [
 <!-- TRUST BAR -->
 <section class="bn-trust">
   <div class="bn-container">
-    <p class="bn-trust__label">Trusted by Philadelphia homeowners, businesses, and institutions since 2008</p>
+    <p class="bn-trust__label">Trusted by Salt Lake City homeowners, businesses, and institutions since 2008</p>
   </div>
 </section>
 
@@ -166,17 +166,17 @@ const pageSchemas = [
       <span class="bn-eyebrow">What Film Can Do</span>
       <h2 class="bn-intro__title">What can window film do for your glass?</h2>
       <p class="bn-intro__lead">Most people think of window film as one thing — a dark tint that blocks sunlight. In reality, professional window film delivers a wide range of benefits that address completely different concerns. A homeowner in Manayunk might want <a href="/benefits/energy-savings/" style="color: var(--bn-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">energy savings</a> and <a href="/benefits/uv-protection-film/" style="color: var(--bn-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">UV protection</a> for their living room. A Center City office manager might need <a href="/benefits/glare-reduction/" style="color: var(--bn-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">glare reduction</a> on computer screens. A retail owner on South Street might prioritize <a href="/benefits/anti-graffiti/" style="color: var(--bn-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">anti-graffiti protection</a> for their storefront.</p>
-      <p class="bn-intro__lead">The same installation can deliver multiple benefits at once — a solar control film rejects heat, blocks UV, and reduces glare simultaneously. Browse all the window film benefits in Philadelphia below. Each page breaks down the specific film recommendations, performance data, and installation approach for that benefit. According to the <a href="https://www.skincancer.org/skin-cancer-prevention/sun-protection/uv-window-film/" target="_blank" rel="noopener noreferrer" style="color: var(--bn-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">Skin Cancer Foundation</a>, UV window film blocks more than 99% of UVA and UVB rays that pass through ordinary window glass — protecting occupants from incidental sun damage that accumulates indoors over time.</p>
+      <p class="bn-intro__lead">The same installation can deliver multiple benefits at once — a solar control film rejects heat, blocks UV, and reduces glare simultaneously. Browse all the window film benefits in Salt Lake City below. Each page breaks down the specific film recommendations, performance data, and installation approach for that benefit. According to the <a href="https://www.skincancer.org/skin-cancer-prevention/sun-protection/uv-window-film/" target="_blank" rel="noopener noreferrer" style="color: var(--bn-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">Skin Cancer Foundation</a>, UV window film blocks more than 99% of UVA and UVB rays that pass through ordinary window glass — protecting occupants from incidental sun damage that accumulates indoors over time.</p>
     </div>
     <div class="bn-intro__image-wrap">
-      <img src="/images/benefits-overview/window-film-benefits-philadelphia-intro.jpg" alt="Philadelphia interior showing the benefits of professional window film installation" title="Window film benefits in Philadelphia — Window Film Philadelphia" class="bn-intro__image" loading="lazy" />
+      <img src="/images/benefits-overview/window-film-benefits-salt-lake-city-intro.jpg" alt="Salt Lake City interior showing the benefits of professional window film installation" title="Window film benefits in Salt Lake City — Window Film Salt Lake City" class="bn-intro__image" loading="lazy" />
     </div>
   </div>
 </section>
 
 <!-- ═══ BENTO GRID SYMMETRIC — all 15 benefit subpages ═══ -->
 <BentoGridSymmetric
-  heading="Window film benefits in Philadelphia"
+  heading="Window film benefits in Salt Lake City"
   sub="Explore each benefit in detail — film recommendations, performance data, and installation approach for every type of window film solution."
   items={benefitItems}
 />
@@ -185,7 +185,7 @@ const pageSchemas = [
 <AccordionFAQ
   eyebrow="FAQ"
   heading="Window film benefits — frequently asked questions"
-  sub="Everything you need to know before choosing the right film benefit for your Philadelphia property."
+  sub="Everything you need to know before choosing the right film benefit for your Salt Lake City property."
   items={faqAccordionItems}
 />
 
@@ -193,7 +193,7 @@ const pageSchemas = [
 <CTAAvatars
   title="Not sure which benefit matters most for your property?"
   subtitle="Tell us about your building and what you want to improve. We'll match you with the right film — no pressure, no obligation. Free consultation and detailed proposal."
-  count="Trusted by 2,400+ Philadelphia property owners"
+  count="Trusted by 2,400+ Salt Lake City property owners"
   btnLabel="Get a Free Consultation"
   btnHref="/contact/"
 />

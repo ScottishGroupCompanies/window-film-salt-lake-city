@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-premium-films-v2.jpg"
 imageAlt: "Premium heat-reducing window film for Philadelphia homes and businesses"
 tags: ["window film", "philadelphia", "heat reduction", "ceramic tint", "energy savings"]
-draft: false
+draft: true
 categories: ["energy-savings", "philadelphia"]
 ---
 

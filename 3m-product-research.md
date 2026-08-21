@@ -65,7 +65,7 @@ Compiled: 2026-07-06 | Sources: 3M.com, multimedia.3m.com (Google-indexed PDFs),
 - Cost comparison: performs like adding a second pane at ~1/10 the cost of window replacement ✅ 3M marketing claims (installer-cited, not independently verified)
 - TSER: Not a primary spec for Thinsulate — U-value is the selling metric
 
-**Best for:** Mixed-climate markets (Zone 4A like Philadelphia) where winter heat retention AND summer heat rejection both matter. Old single-pane rowhomes, historic buildings, any property with original windows.
+**Best for:** Mixed-climate markets (Zone 4A like Salt Lake City) where winter heat retention AND summer heat rejection both matter. Old single-pane rowhomes, historic buildings, any property with original windows.
 
 **Warranty:** Residential: Limited Lifetime | Commercial: 15 years ✅ epdwindowfilm.com (authorized dealer)
 

@@ -16,13 +16,13 @@
 ## SEO
 | Field | Value |
 |---|---|
-| Title | Solyx Window Film Philadelphia \| Decorative & Privacy |
-| Description | Solyx window film in Philadelphia for decorative privacy, frosted glass, gradient, solar control, and safety film. Authorized Solyx installer. |
-| H1 | Solyx Window Film in Philadelphia |
-| Primary KW | `solyx window film in Philadelphia` |
+| Title | Solyx Window Film Salt Lake City \| Decorative & Privacy |
+| Description | Solyx window film in Salt Lake City for decorative privacy, frosted glass, gradient, solar control, and safety film. Authorized Solyx installer. |
+| H1 | Solyx Window Film in Salt Lake City |
+| Primary KW | `solyx window film in Salt Lake City` |
 | KW density target | 0.5–1.5% (full phrase) |
-| Secondary KW #1 | `Solyx decorative film Philadelphia` — place in intro section body prose |
-| Secondary KW #2 | `Solyx film installer for Philadelphia` — place in why section body prose |
+| Secondary KW #1 | `Solyx decorative film Salt Lake City` — place in intro section body prose |
+| Secondary KW #2 | `Solyx film installer for Salt Lake City` — place in why section body prose |
 | External authority | https://www.decorativefilm.com — manufacturer, curl 200, unused site-wide |
 | Internal links (3) | /benefits/privacy/, /applications/office/, /benefits/uv-protection/ |
 
@@ -32,7 +32,7 @@
 
 ### 01 — Frosted Privacy Films (SOLYX® Frosted Series)
 - **Eyebrow:** Privacy Film · Etched Look · Residential & Commercial
-- **Why it exists:** Achieve the look of etched or sandblasted glass without replacing windows. Solyx Frosted Privacy Films diffuse light while blocking sightlines — ideal for bathroom windows, conference rooms, sidelights, and street-facing Philadelphia rowhome glass.
+- **Why it exists:** Achieve the look of etched or sandblasted glass without replacing windows. Solyx Frosted Privacy Films diffuse light while blocking sightlines — ideal for bathroom windows, conference rooms, sidelights, and street-facing Salt Lake City rowhome glass.
 - **Key products:** SX-1301 Clear Frost, SXWF-WM White Matte, SXGF-0097 Deep Etch, SX-3140 Dusted Crystal
 - **Specs strip:** 
   - VLT: varies by opacity
@@ -43,7 +43,7 @@
 
 ### 02 — Decorative Pattern Films (SOLYX® Geometric & Organic Collections)
 - **Eyebrow:** Geometric · Organic · 700+ Designs
-- **Why it exists:** The largest architectural window film design library available — from clean geometric grids to nature-inspired organic motifs. Used by Philadelphia architects, interior designers, and corporate specifiers to add visual interest to conference rooms, lobbies, retail, and hospitality interiors.
+- **Why it exists:** The largest architectural window film design library available — from clean geometric grids to nature-inspired organic motifs. Used by Salt Lake City architects, interior designers, and corporate specifiers to add visual interest to conference rooms, lobbies, retail, and hospitality interiors.
 - **Key products:** Geometric Collection (Book 1), Organic Collection (Book 2), Skyline Design partnership series
 - **Specs strip:**
   - Designs: 700+
@@ -54,7 +54,7 @@
 
 ### 03 — Gradient Films (SOLYX® Gradient Series)
 - **Eyebrow:** Gradient Fading · Single & Dual Direction · Conference Rooms
-- **Why it exists:** Gradient films fade from frosted to clear — or clear to frosted — in a single panel. The effect creates visual separation in open-plan Philadelphia offices without building walls, and gives conference rooms floor-level visibility with frosted-top privacy.
+- **Why it exists:** Gradient films fade from frosted to clear — or clear to frosted — in a single panel. The effect creates visual separation in open-plan Salt Lake City offices without building walls, and gives conference rooms floor-level visibility with frosted-top privacy.
 - **Key products:** Single Direction Fade, Dual Direction Fade, Custom Gradients (SolyxIQ platform)
 - **Specs strip:**
   - Fade: Single or Dual direction
@@ -65,7 +65,7 @@
 
 ### 04 — UltraCool Solar Control Films (SOLYX® UltraCool Series)
 - **Eyebrow:** Solar Control · IR Blocking · Nano Ceramic
-- **Why it exists:** For Philadelphia properties where heat gain, glare, and UV fade are real problems, not just design preferences. UltraCool films reject infrared heat and block UV without the dark appearance of traditional solar films.
+- **Why it exists:** For Salt Lake City properties where heat gain, glare, and UV fade are real problems, not just design preferences. UltraCool films reject infrared heat and block UV without the dark appearance of traditional solar films.
 - **Key products:** UltraCool-IR8360 (Nano Ceramic IR blocking), UltraCool-Ceramic-35 (35% VLT ceramic), UltraCool-S1560 (Silver 15), UltraCool-S3560 (Silver 35), UltraCool-S6060 (Silver 60)
 - **From spec sheet (UltraCool-IR8360):** Nano Ceramic polyester base, spectrally selective IR blocking, UV blocking, silicone liner, pressure-sensitive adhesive, indoor use
 - **Specs strip:**
@@ -77,7 +77,7 @@
 
 ### 05 — UltraSafe Safety Films (SOLYX® UltraSafe Series)
 - **Eyebrow:** Glass Retention · 2, 4 & 8 mil · Schools & Retail
-- **Why it exists:** Clear safety film that holds broken glass together after impact — protecting occupants from flying shards and slowing forced-entry attempts. Philadelphia schools, ground-floor retail storefronts, and government buildings benefit from UltraSafe's clear mil-rated construction.
+- **Why it exists:** Clear safety film that holds broken glass together after impact — protecting occupants from flying shards and slowing forced-entry attempts. Salt Lake City schools, ground-floor retail storefronts, and government buildings benefit from UltraSafe's clear mil-rated construction.
 - **Key products:** UltraSafe-260 (2 mil), UltraSafe-460 (4 mil), UltraSafe-860 (8 mil), SXGF-0500 Clear Frosted Safety Film
 - **From spec sheets:** 4 mil and 8 mil clear safety construction, pressure-sensitive adhesive
 - **Specs strip:**
@@ -106,13 +106,13 @@ Source: Solyx product spec sheets (decorativefilm.com), competitive data from 3M
 - **700+** Designs in Solyx library
 - **99%+** UV block (functional films)
 - **8 mil** Max UltraSafe thickness
-- **15+** Years Philadelphia installations
+- **15+** Years Salt Lake City installations
 
 ---
 
 ## Slider
-- **Slide 1 — Residential:** "Philadelphia Homes Trust Solyx Privacy Film" — rowhome owners and condo residents using frosted and gradient films for street-facing privacy and bathroom windows without sacrificing daylight
-- **Slide 2 — Commercial:** "Philadelphia Offices Choose Solyx for Interiors" — Center City offices, law firms, medical suites, and co-working spaces using decorative pattern films, gradient conference room films, and UltraCool solar on west-facing glass
+- **Slide 1 — Residential:** "Salt Lake City Homes Trust Solyx Privacy Film" — rowhome owners and condo residents using frosted and gradient films for street-facing privacy and bathroom windows without sacrificing daylight
+- **Slide 2 — Commercial:** "Salt Lake City Offices Choose Solyx for Interiors" — Center City offices, law firms, medical suites, and co-working spaces using decorative pattern films, gradient conference room films, and UltraCool solar on west-facing glass
 
 ---
 
@@ -122,7 +122,7 @@ Source: Solyx product spec sheets (decorativefilm.com), competitive data from 3M
 ---
 
 ## Case Study Topic
-Philadelphia co-working space or law office that used Solyx Gradient Film on conference room glass — combined privacy with an architectural look that fit the open-plan design.
+Salt Lake City co-working space or law office that used Solyx Gradient Film on conference room glass — combined privacy with an architectural look that fit the open-plan design.
 
 ---
 
@@ -131,30 +131,30 @@ Philadelphia co-working space or law office that used Solyx Gradient Film on con
 2. What makes Solyx different from other window film brands?
 3. Does Solyx make solar control film or just decorative film?
 4. What is the difference between Solyx Frosted and Gradient film?
-5. Can Solyx film be used in a Philadelphia rowhome bathroom?
+5. Can Solyx film be used in a Salt Lake City rowhome bathroom?
 6. Are Solyx pattern films permanent?
-7. What is UltraCool-IR8360 and is it good for Philadelphia summers?
-8. Can Solyx UltraSafe film protect against smash-and-grab in Philadelphia retail?
-9. Does Solyx film work on double-pane or single-pane windows in Philadelphia?
-10. How is Solyx decorative film installed on Philadelphia commercial glass?
+7. What is UltraCool-IR8360 and is it good for Salt Lake City summers?
+8. Can Solyx UltraSafe film protect against smash-and-grab in Salt Lake City retail?
+9. Does Solyx film work on double-pane or single-pane windows in Salt Lake City?
+10. How is Solyx decorative film installed on Salt Lake City commercial glass?
 
 ---
 
 ## Image Filenames (FIXED — copy verbatim)
 | Role | File |
 |---|---|
-| Hero (1376×768) | `solyx-window-film-philadelphia-hero.jpg` |
-| Intro (768×1376) | `solyx-window-film-philadelphia-intro.jpg` |
-| Why (768×1376) | `solyx-window-film-philadelphia-why.jpg` |
-| Slider Residential (2752×1536) | `solyx-window-film-philadelphia-residential.jpg` |
-| Slider Commercial (2752×1536) | `solyx-window-film-philadelphia-commercial.jpg` |
-| Row 01 — Frosted (768×1376) | `solyx-frosted-privacy-window-film-philadelphia.jpg` |
-| Row 02 — Decorative (768×1376) | `solyx-decorative-pattern-window-film-philadelphia.jpg` |
-| Row 03 — Gradient (768×1376) | `solyx-gradient-window-film-philadelphia.jpg` |
-| Row 04 — UltraCool (768×1376) | `solyx-ultracool-solar-window-film-philadelphia.jpg` |
-| Row 05 — UltraSafe (768×1376) | `solyx-ultrasafe-safety-window-film-philadelphia.jpg` |
-| Case Study (1376×768) | `solyx-window-film-philadelphia-casestudy.jpg` |
-| Tint Slider BG (1376×768) | `solyx-tint-slider-philadelphia-room.jpg` |
+| Hero (1376×768) | `solyx-window-film-salt-lake-city-hero.jpg` |
+| Intro (768×1376) | `solyx-window-film-salt-lake-city-intro.jpg` |
+| Why (768×1376) | `solyx-window-film-salt-lake-city-why.jpg` |
+| Slider Residential (2752×1536) | `solyx-window-film-salt-lake-city-residential.jpg` |
+| Slider Commercial (2752×1536) | `solyx-window-film-salt-lake-city-commercial.jpg` |
+| Row 01 — Frosted (768×1376) | `solyx-frosted-privacy-window-film-salt-lake-city.jpg` |
+| Row 02 — Decorative (768×1376) | `solyx-decorative-pattern-window-film-salt-lake-city.jpg` |
+| Row 03 — Gradient (768×1376) | `solyx-gradient-window-film-salt-lake-city.jpg` |
+| Row 04 — UltraCool (768×1376) | `solyx-ultracool-solar-window-film-salt-lake-city.jpg` |
+| Row 05 — UltraSafe (768×1376) | `solyx-ultrasafe-safety-window-film-salt-lake-city.jpg` |
+| Case Study (1376×768) | `solyx-window-film-salt-lake-city-casestudy.jpg` |
+| Tint Slider BG (1376×768) | `solyx-tint-slider-salt-lake-city-room.jpg` |
 | Testimonial 1 (1024×1024) | `solyx-testimonial-maya.jpg` |
 | Testimonial 2 (1024×1024) | `solyx-testimonial-david.jpg` |
 | Testimonial 3 (1024×1024) | `solyx-testimonial-priya.jpg` |
@@ -164,9 +164,9 @@ Philadelphia co-working space or law office that used Solyx Gradient Film on con
 ## PDF Filenames (local)
 | PDF | Local Filename |
 |---|---|
-| Organic Catalog | `solyx-window-film-organic-catalog-philadelphia.pdf` |
-| Geometric Catalog | `solyx-window-film-geometric-catalog-philadelphia.pdf` |
-| UltraCool-IR8360 Spec | `solyx-window-film-ultracool-ir8360-spec-philadelphia.pdf` |
-| UltraSafe-460 Spec | `solyx-window-film-ultrasafe-460-spec-philadelphia.pdf` |
-| UltraSafe-860 Spec | `solyx-window-film-ultrasafe-860-spec-philadelphia.pdf` |
-| Anti-Graffiti SX-1950 Spec | `solyx-window-film-antigraffiti-spec-philadelphia.pdf` |
+| Organic Catalog | `solyx-window-film-organic-catalog-salt-lake-city.pdf` |
+| Geometric Catalog | `solyx-window-film-geometric-catalog-salt-lake-city.pdf` |
+| UltraCool-IR8360 Spec | `solyx-window-film-ultracool-ir8360-spec-salt-lake-city.pdf` |
+| UltraSafe-460 Spec | `solyx-window-film-ultrasafe-460-spec-salt-lake-city.pdf` |
+| UltraSafe-860 Spec | `solyx-window-film-ultrasafe-860-spec-salt-lake-city.pdf` |
+| Anti-Graffiti SX-1950 Spec | `solyx-window-film-antigraffiti-spec-salt-lake-city.pdf` |

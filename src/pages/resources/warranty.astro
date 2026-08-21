@@ -6,72 +6,72 @@ import BentoGridPhoto from '../../components/BentoGridPhoto.astro';
 import AccordionFAQ from '../../components/AccordionFAQ.astro';
 import CTAAvatars from '../../components/CTAAvatars.astro';
 
-const title = 'Window Film Warranty Philadelphia | Coverage & Guarantee';
+const title = 'Window Film Warranty Salt Lake City | Coverage & Guarantee';
 const description = 'Every window film we install comes with manufacturer warranty. Download warranty documents for 3M, LLumar, Vista, Solar Gard, Huper Optik, and Madico.';
 const dateModified = new Date().toISOString().slice(0, 10);
 
 const galleryPhotos = [
-  '/images/warranty/manufacturer-warranty-certificate-philadelphia.jpg',
-  '/images/warranty/installer-warranty-card-philadelphia.jpg',
-  '/images/warranty/window-film-maintenance-care-philadelphia.jpg',
-  '/images/warranty/premium-window-film-rolls-philadelphia.jpg',
-  '/images/warranty/flawless-window-film-installation-philadelphia.jpg',
+  '/images/warranty/manufacturer-warranty-certificate-salt-lake-city.jpg',
+  '/images/warranty/installer-warranty-card-salt-lake-city.jpg',
+  '/images/warranty/window-film-maintenance-care-salt-lake-city.jpg',
+  '/images/warranty/premium-window-film-rolls-salt-lake-city.jpg',
+  '/images/warranty/flawless-window-film-installation-salt-lake-city.jpg',
 ];
 
 const bentoItems = [
-  { span: 'lg', title: 'Manufacturer Warranties', desc: 'Every brand we install stands behind its products with warranty coverage. Terms vary by manufacturer and product line.', img: '/images/warranty/manufacturer-warranty-certificate-philadelphia.jpg', href: '#warranty-downloads' },
-  { span: 'sm', title: 'Workmanship Guarantee', desc: 'We stand behind our installation work. Questions about your install? Contact us.', img: '/images/warranty/installer-warranty-card-philadelphia.jpg', href: '/contact/' },
-  { span: 'sm', title: 'Warranty Care', desc: 'Proper care helps protect your coverage. Follow our maintenance guide for best practices.', img: '/images/warranty/window-film-maintenance-care-philadelphia.jpg', href: '/resources/maintenance-and-care/' },
-  { span: 'md', title: 'All Brands Covered', desc: '15 brands — residential and commercial. Every product we carry has manufacturer warranty coverage.', img: '/images/warranty/premium-window-film-rolls-philadelphia.jpg', href: '/products/' },
-  { span: 'md', title: 'Claim Support', desc: 'Need to file a claim? We will help you understand the process and point you in the right direction.', img: '/images/warranty/flawless-window-film-installation-philadelphia.jpg', href: '/contact/' },
-  { span: 'md', title: 'Transferable Coverage', desc: 'Some warranties transfer with property sale. Check your warranty document or ask us for details.', img: '/images/warranty/window-film-installation-warranty-philadelphia.jpg', href: '/contact/' },
+  { span: 'lg', title: 'Manufacturer Warranties', desc: 'Every brand we install stands behind its products with warranty coverage. Terms vary by manufacturer and product line.', img: '/images/warranty/manufacturer-warranty-certificate-salt-lake-city.jpg', href: '#warranty-downloads' },
+  { span: 'sm', title: 'Workmanship Guarantee', desc: 'We stand behind our installation work. Questions about your install? Contact us.', img: '/images/warranty/installer-warranty-card-salt-lake-city.jpg', href: '/contact/' },
+  { span: 'sm', title: 'Warranty Care', desc: 'Proper care helps protect your coverage. Follow our maintenance guide for best practices.', img: '/images/warranty/window-film-maintenance-care-salt-lake-city.jpg', href: '/resources/maintenance-and-care/' },
+  { span: 'md', title: 'All Brands Covered', desc: '15 brands — residential and commercial. Every product we carry has manufacturer warranty coverage.', img: '/images/warranty/premium-window-film-rolls-salt-lake-city.jpg', href: '/products/' },
+  { span: 'md', title: 'Claim Support', desc: 'Need to file a claim? We will help you understand the process and point you in the right direction.', img: '/images/warranty/flawless-window-film-installation-salt-lake-city.jpg', href: '/contact/' },
+  { span: 'md', title: 'Transferable Coverage', desc: 'Some warranties transfer with property sale. Check your warranty document or ask us for details.', img: '/images/warranty/window-film-installation-warranty-salt-lake-city.jpg', href: '/contact/' },
 ];
 
 const warrantyBrands = [
   { brand: '3M', docs: [
-    { label: '3M Commercial Window Film Warranty', url: '/resources/3M-Commercial-Window-Film-Warranty-philadelphia.pdf' },
-    { label: '3M Residential Window Film Warranty', url: '/resources/3M-Residential-Window-Film-Warranty-philadelphia.pdf' },
+    { label: '3M Commercial Window Film Warranty', url: '/resources/3M-Commercial-Window-Film-Warranty-salt-lake-city.pdf' },
+    { label: '3M Residential Window Film Warranty', url: '/resources/3M-Residential-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'LLumar', docs: [
-    { label: 'LLumar Window Film Warranty', url: '/resources/LLumar-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'LLumar Window Film Warranty', url: '/resources/LLumar-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Vista', docs: [
-    { label: 'Vista Residential Window Film Gold Warranty', url: '/resources/Vista-Residential-Window-Film-Gold-Warranty-philadelphia.pdf' },
-    { label: 'Vista Residential Window Film Warranty', url: '/resources/Vista-Residential-Window-Film-Warranty-philadelphia.pdf' },
-    { label: 'Vista Window Film Warranty', url: '/resources/Vista-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'Vista Residential Window Film Gold Warranty', url: '/resources/Vista-Residential-Window-Film-Gold-Warranty-salt-lake-city.pdf' },
+    { label: 'Vista Residential Window Film Warranty', url: '/resources/Vista-Residential-Window-Film-Warranty-salt-lake-city.pdf' },
+    { label: 'Vista Window Film Warranty', url: '/resources/Vista-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Solar Gard', docs: [
-    { label: 'SolarGard Limited Warranty', url: '/resources/SolarGard-Limited-Warranty-philadelphia.pdf' },
-    { label: 'Solar Gard Residential and Commercial Warranty', url: '/resources/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'SolarGard Limited Warranty', url: '/resources/SolarGard-Limited-Warranty-salt-lake-city.pdf' },
+    { label: 'Solar Gard Residential and Commercial Warranty', url: '/resources/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Huper Optik', docs: [
-    { label: 'Huper Optik Standard Window Film Warranty', url: '/resources/Huper-Optik-Standard-Window-Film-Warranty-philadelphia.pdf' },
-    { label: 'Huper Optik Residential Window Film Warranty', url: '/resources/Huper-Optik-Residential-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'Huper Optik Standard Window Film Warranty', url: '/resources/Huper-Optik-Standard-Window-Film-Warranty-salt-lake-city.pdf' },
+    { label: 'Huper Optik Residential Window Film Warranty', url: '/resources/Huper-Optik-Residential-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Madico', docs: [
-    { label: 'Madico Residential and Commercial Warranty', url: '/resources/Madico-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'Madico Residential and Commercial Warranty', url: '/resources/Madico-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'C-Bond', docs: [
-    { label: 'C-Bond Commercial Warranty', url: '/resources/C-Bond-Commercial-Warranty-philadelphia.pdf' },
-    { label: 'C-Bond Residential Warranty', url: '/resources/C-Bond-Residential-Warranty-philadelphia.pdf' },
+    { label: 'C-Bond Commercial Warranty', url: '/resources/C-Bond-Commercial-Warranty-salt-lake-city.pdf' },
+    { label: 'C-Bond Residential Warranty', url: '/resources/C-Bond-Residential-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Casper Cloaking Film', docs: [
-    { label: 'Designtex Casper Cloaking Film Warranty', url: '/resources/Designtex-Casper-Cloaking-Film-Warranty-philadelphia.pdf' },
+    { label: 'Designtex Casper Cloaking Film Warranty', url: '/resources/Designtex-Casper-Cloaking-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Graffiti Shield', docs: [
-    { label: 'Graffiti Shield Limited Warranty', url: '/resources/graffiti-shield-warranty-philadelphia.pdf' },
+    { label: 'Graffiti Shield Limited Warranty', url: '/resources/graffiti-shield-warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Hanita Coatings', docs: [
-    { label: 'Hanita Coatings Window Film Warranty', url: '/resources/Hanita-Coatings-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'Hanita Coatings Window Film Warranty', url: '/resources/Hanita-Coatings-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'DryWired NanoTint', docs: [
-    { label: 'Drywired Liquid Nanotint Warranty', url: '/resources/Drywired-Liquid-Nanotint-Warranty-philadelphia.pdf' },
+    { label: 'Drywired Liquid Nanotint Warranty', url: '/resources/Drywired-Liquid-Nanotint-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'SunTek', docs: [
-    { label: 'SunTek Residential and Commercial Warranty', url: '/resources/SunTek-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'SunTek Residential and Commercial Warranty', url: '/resources/SunTek-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'Sunscape', docs: [
-    { label: 'Sunscape Residential Window Film Warranty', url: '/resources/Sunscape-Residential-Window-Film-Warranty-philadelphia.pdf' },
+    { label: 'Sunscape Residential Window Film Warranty', url: '/resources/Sunscape-Residential-Window-Film-Warranty-salt-lake-city.pdf' },
   ]},
   { brand: 'HDClear', docs: [
     { label: '10 Year Warranty for flat glass applications — contact us for full details', url: '/contact/' },
@@ -87,7 +87,7 @@ const warrantyBrands = [
 const faqItems = [
   { question: 'Do all window film products come with a warranty?', answer: 'Yes — all major manufacturers provide warranties on their window film products. Warranty length and terms vary by manufacturer and product line. We provide warranty documentation at the time of installation for every product we install, and you can download those documents below.' },
   { question: 'What does the manufacturer warranty cover?', answer: 'Coverage varies by manufacturer and product. We recommend reviewing the specific warranty document for your installed product for full terms and conditions. In general, manufacturer warranties address product performance issues under normal use conditions. Download the warranty document for your product below or contact us and we will point you in the right direction.' },
-  { question: 'What is the Window Film Philadelphia workmanship warranty?', answer: 'We stand behind the quality of our installation work. If you experience an issue related to the installation, contact us and we will help assess the situation and determine the appropriate next steps.' },
+  { question: 'What is the Window Film Salt Lake City workmanship warranty?', answer: 'We stand behind the quality of our installation work. If you experience an issue related to the installation, contact us and we will help assess the situation and determine the appropriate next steps.' },
   { question: 'Does cleaning my film incorrectly void the warranty?', answer: 'Improper cleaning can affect warranty coverage. We recommend following the care instructions provided at installation and reviewing the manufacturer warranty document for your specific product. Our <a href="/resources/maintenance-and-care/">maintenance guide</a> outlines cleaning practices that help protect your film and maintain coverage.' },
   { question: 'Is my warranty transferable if I sell my property?', answer: 'Transferability varies by manufacturer and product. We recommend checking the warranty document for your specific film, or contacting us with your installation details and we will help point you in the right direction.' },
   { question: 'How do I make a warranty claim?', answer: 'Contact us with your installation date, product name, and a description of the issue. We will help you understand the warranty process for your specific product and point you in the right direction for filing a claim with the manufacturer. We are here to help however we can.' },
@@ -100,17 +100,17 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://windowfilmphiladelphia.net/resources/' },
-      { '@type': 'ListItem', position: 3, name: 'Warranty', item: 'https://windowfilmphiladelphia.net/resources/warranty/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://windowfilmsaltlakecity.com/resources/' },
+      { '@type': 'ListItem', position: 3, name: 'Warranty', item: 'https://windowfilmsaltlakecity.com/resources/warranty/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://windowfilmphiladelphia.net/resources/warranty/',
-    url: 'https://windowfilmphiladelphia.net/resources/warranty/',
-    name: 'Window Film Warranty Philadelphia',
+    '@id': 'https://windowfilmsaltlakecity.com/resources/warranty/',
+    url: 'https://windowfilmsaltlakecity.com/resources/warranty/',
+    name: 'Window Film Warranty Salt Lake City',
     description,
     dateModified,
   },
@@ -129,17 +129,17 @@ const pageSchemas = [
 <BaseLayout
   title={title}
   description={description}
-  canonical="https://windowfilmphiladelphia.net/resources/warranty/"
+  canonical="https://windowfilmsaltlakecity.com/resources/warranty/"
   faqItems={faqItems}
-  serviceName="Window Film Philadelphia Warranty"
-  serviceDesc="Manufacturer warranties and workmanship guarantee for every window film installation in Philadelphia."
-  serviceUrl="https://windowfilmphiladelphia.net/resources/warranty/"
+  serviceName="Window Film Salt Lake City Warranty"
+  serviceDesc="Manufacturer warranties and workmanship guarantee for every window film installation in Salt Lake City."
+  serviceUrl="https://windowfilmsaltlakecity.com/resources/warranty/"
   schemas={pageSchemas}
 >
 
 <!-- ═══ HERO ═══ -->
 <section class="wr-hero">
-  <div class="wr-hero__bg" style="background-image: url('/images/warranty/window-film-warranty-philadelphia-hero.jpg')" role="img" aria-label="Philadelphia brick rowhome with professional window film installed"></div>
+  <div class="wr-hero__bg" style="background-image: url('/images/warranty/window-film-warranty-salt-lake-city-hero.jpg')" role="img" aria-label="Salt Lake City brick rowhome with professional window film installed"></div>
   <div class="wr-hero__overlay"></div>
   <div class="wr-hero__content">
     <div class="wr-hero__eyebrow">
@@ -147,7 +147,7 @@ const pageSchemas = [
       WARRANTY INFORMATION
       <span class="wr-hero__eyebrow-dot" aria-hidden="true"></span>
     </div>
-    <h1 class="wr-hero__title">Window Film Philadelphia Warranties</h1>
+    <h1 class="wr-hero__title">Window Film Salt Lake City Warranties</h1>
     <p class="wr-hero__subtitle">Every window film product we install comes backed by a manufacturer warranty. We provide warranty documentation at installation and help you navigate the process whenever you need it.</p>
     <div class="wr-hero__cta">
       <a href="/contact/" class="wr-hero__btn-primary">Get a Free Quote</a>
@@ -197,7 +197,7 @@ const pageSchemas = [
 <section class="wr-intro">
   <div class="wr-intro__container">
     <div class="wr-intro__image-wrap">
-      <img src="/images/warranty/window-film-installation-warranty-philadelphia.jpg" alt="Professional window film installer showing warranty documentation to a Philadelphia homeowner" title="Professional window film installer showing warranty documentation to a Philadelphia homeowner" class="wr-intro__image" loading="lazy" />
+      <img src="/images/warranty/window-film-installation-warranty-salt-lake-city.jpg" alt="Professional window film installer showing warranty documentation to a Salt Lake City homeowner" title="Professional window film installer showing warranty documentation to a Salt Lake City homeowner" class="wr-intro__image" loading="lazy" />
     </div>
     <div class="wr-intro__content">
       <span class="wr-eyebrow">Warranty Coverage</span>
@@ -269,7 +269,7 @@ const pageSchemas = [
 <CTAAvatars
   title="Questions about your warranty? We're here to help."
   subtitle="Contact us with your installation date, product name, and any warranty questions. We will help you understand the process and point you in the right direction."
-  count="Trusted by 2,400+ Philadelphia property owners"
+  count="Trusted by 2,400+ Salt Lake City property owners"
   btnLabel="Get a Free Consultation"
   btnHref="/contact/"
   avatars={[

@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-expert-installation-v1.jpg"
 imageAlt: "Professional window film installation on a Philadelphia property by an expert installer"
 tags: ["window film", "philadelphia", "installation", "energy savings"]
-draft: false
+draft: true
 categories: ["philadelphia"]
 ---
 

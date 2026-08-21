@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-low-e-window-film-energy-costs-philadelphia.jpg"
 imageAlt: "Surprising Ways Low E Window Film Cuts Energy Costs in Philadelphia | Window Film Philadelphia"
 tags: ["low e window film", "philadelphia", "energy savings", "3M Thinsulate", "window film"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why do Philadelphia energy bills rise at the window line?

@@ -7,7 +7,7 @@ image: "/images/wfp-office-hero.jpg"
 imageAlt: "Commercial office window film installation in Philadelphia"
 tags: ["window film", "philadelphia", "3M", "energy savings", "solar control"]
 category: "solar-control"
-draft: false
+draft: true
 ---
 
 ## Why does 3M window film make sense in Philadelphia?

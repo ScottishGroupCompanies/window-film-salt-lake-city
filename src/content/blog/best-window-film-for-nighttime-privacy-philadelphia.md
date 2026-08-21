@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-best-window-film-for-nighttime-privacy-philadelphi
 imageAlt: "Best Window Film for Nighttime Privacy in Philadelphia: What Actually Works? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "nighttime privacy", "privacy film", "frosted film"]
 category: "privacy-film"
-draft: false
+draft: true
 ---
 
 ## Why One-Way Film Fails After Sundown

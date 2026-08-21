@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-decorative-window-film-ideas-philadelphia-homes.jp
 imageAlt: "Decorative Window Film Ideas That Transform Spaces for Philadelphia Homes | Window Film Philadelphia"
 tags: ["decorative window film", "philadelphia", "privacy film", "3M Fasara", "Solyx"]
 categories: ["decorative-promotional", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why does decorative film work well in Philadelphia homes?

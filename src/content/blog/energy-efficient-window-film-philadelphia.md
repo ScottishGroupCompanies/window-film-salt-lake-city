@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-office-hero.jpg"
 imageAlt: "Commercial office window film installation in Philadelphia"
 tags: ["energy efficient window film", "philadelphia", "window film", "heat control", "energy savings"]
-draft: false
+draft: true
 categories: ["energy-savings", "philadelphia"]
 ---
 

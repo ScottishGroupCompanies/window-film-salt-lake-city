@@ -10,9 +10,9 @@ export function getStaticPaths() {
 }
 
 const { product: p } = Astro.props;
-const serviceUrl = `https://windowfilmphiladelphia.net/products/llumar/${p.slug}/`;
-const title = `LLumar ${p.name} | Philadelphia Installer`;
-const description = `${p.shortDescription} Window Film Philadelphia is an authorized LLumar dealer serving Philadelphia and surrounding areas.`.slice(0, 155);
+const serviceUrl = `https://windowfilmsaltlakecity.com/products/llumar/${p.slug}/`;
+const title = `LLumar ${p.name} | Salt Lake City Installer`;
+const description = `${p.shortDescription} Window Film Salt Lake City is an authorized LLumar dealer serving Salt Lake City and surrounding areas.`.slice(0, 155);
 const descriptionParagraphs = p.description.split('\n\n').slice(0, 4);
 const specRows = [
   ['VLT', p.specs.vlt],
@@ -59,21 +59,21 @@ const applications = categoryText.includes('graffiti')
           ]
         : [
             ['Offices', 'Glare and solar comfort for Center City towers and neighborhood workplaces.'],
-            ['Philadelphia Rowhomes', 'UV and heat control for older glass without replacing windows.'],
+            ['Salt Lake City Rowhomes', 'UV and heat control for older glass without replacing windows.'],
             ['Retail and Restaurants', 'Comfortable customer-facing glass with cleaner daylight management.'],
           ];
 const faqItems = [
   {
-    question: `What is LLumar ${p.name} used for in Philadelphia?`,
-    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Philadelphia homes, offices, storefronts, schools, and commercial properties. It belongs to the ${p.series} and is specified according to glass type, exposure, privacy goals, and performance needs.`,
+    question: `What is LLumar ${p.name} used for in Salt Lake City?`,
+    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Salt Lake City homes, offices, storefronts, schools, and commercial properties. It belongs to the ${p.series} and is specified according to glass type, exposure, privacy goals, and performance needs.`,
   },
   {
     question: `What specifications are available for ${p.name}?`,
-    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Philadelphia confirms final compatibility during the site assessment before recommending any LLumar product.`,
+    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Salt Lake City confirms final compatibility during the site assessment before recommending any LLumar product.`,
   },
   {
-    question: `Who installs LLumar ${p.name} in Philadelphia?`,
-    answer: `Window Film Philadelphia is an authorized LLumar dealer serving Philadelphia and surrounding areas. We evaluate the glass, document the product selection, and install LLumar films according to manufacturer guidance.`,
+    question: `Who installs LLumar ${p.name} in Salt Lake City?`,
+    answer: `Window Film Salt Lake City is an authorized LLumar dealer serving Salt Lake City and surrounding areas. We evaluate the glass, document the product selection, and install LLumar films according to manufacturer guidance.`,
   },
 ];
 const pageSchemas = [
@@ -81,9 +81,9 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmphiladelphia.net/products/' },
-      { '@type': 'ListItem', position: 3, name: 'LLumar', item: 'https://windowfilmphiladelphia.net/products/llumar/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmsaltlakecity.com/products/' },
+      { '@type': 'ListItem', position: 3, name: 'LLumar', item: 'https://windowfilmsaltlakecity.com/products/llumar/' },
       { '@type': 'ListItem', position: 4, name: p.name, item: serviceUrl },
     ],
   },
@@ -92,13 +92,13 @@ const pageSchemas = [
     '@type': 'Product',
     name: `LLumar ${p.name}`,
     brand: { '@type': 'Brand', name: 'LLumar' },
-    image: `https://windowfilmphiladelphia.net${p.image}`,
+    image: `https://windowfilmsaltlakecity.com${p.image}`,
     description: p.shortDescription,
     category: p.series,
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
-      areaServed: 'Philadelphia, PA',
+      areaServed: 'Salt Lake City, UT',
       url: serviceUrl,
     },
   },
@@ -134,7 +134,7 @@ const pageSchemas = [
   <section class="llp-overview fade-in">
     <div class="llp-overview__inner">
       <div class="llp-overview__image-wrap">
-        <img src={p.image} alt={`LLumar ${p.name} product sample`} title={`LLumar ${p.name} Philadelphia`} width="640" height="480" loading="lazy" class="llp-overview__image" />
+        <img src={p.image} alt={`LLumar ${p.name} product sample`} title={`LLumar ${p.name} Salt Lake City`} width="640" height="480" loading="lazy" class="llp-overview__image" />
       </div>
       <div class="llp-overview__content">
         <span class="llp-eyebrow">{p.series}</span>
@@ -150,7 +150,7 @@ const pageSchemas = [
   <section class="llp-benefits fade-in">
     <div class="llp-section-head">
       <span class="llp-eyebrow">Product Benefits</span>
-      <h2>What {p.name} Adds to Philadelphia Glass</h2>
+      <h2>What {p.name} Adds to Salt Lake City Glass</h2>
     </div>
     <div class="llp-benefits__grid">
       {p.benefits.map((benefit) => (
@@ -186,7 +186,7 @@ const pageSchemas = [
   <section class="llp-apps fade-in">
     <div class="llp-section-head">
       <span class="llp-eyebrow">Local Use Cases</span>
-      <h2>Philadelphia Applications</h2>
+      <h2>Salt Lake City Applications</h2>
     </div>
     <div class="llp-apps__grid">
       {applications.map(([heading, body]) => (
@@ -210,7 +210,7 @@ const pageSchemas = [
       <div class="llp-related__grid">
         {relatedProducts.map((item) => (
           <a href={`/products/llumar/${item.slug}/`} class="llp-related__card">
-            <img src={item.image} alt={`LLumar ${item.name}`} title={`LLumar ${item.name} Philadelphia`} width="280" height="180" loading="lazy" />
+            <img src={item.image} alt={`LLumar ${item.name}`} title={`LLumar ${item.name} Salt Lake City`} width="280" height="180" loading="lazy" />
             <span>{item.series}</span>
             <h3>{item.name}</h3>
           </a>
@@ -222,8 +222,8 @@ const pageSchemas = [
 
   <section class="llp-cta fade-in">
     <div class="llp-cta__inner">
-      <h2>Install {p.name} in Philadelphia</h2>
-      <p>Window Film Philadelphia is an authorized LLumar dealer. Contact us for a free site assessment.</p>
+      <h2>Install {p.name} in Salt Lake City</h2>
+      <p>Window Film Salt Lake City is an authorized LLumar dealer. Contact us for a free site assessment.</p>
       <a href="/contact/" class="llp-cta__btn">Get a Free Quote</a>
     </div>
   </section>

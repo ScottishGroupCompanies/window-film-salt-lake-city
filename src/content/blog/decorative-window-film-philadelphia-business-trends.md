@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-decorative-window-film-philadelphia-business-trend
 imageAlt: "Top Trends in Best Decorative Window Film for Philadelphia Businesses | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "decorative film", "commercial"]
 category: "decorative-promotional"
-draft: false
+draft: true
 ---
 
 ## Why Philadelphia Businesses Are Upgrading Glass with Decorative Film

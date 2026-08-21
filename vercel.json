@@ -42,22 +42,22 @@
       "permanent": true
     },
     {
-      "source": "/benefits/uv-blocking-window-film-philadelphia/",
+      "source": "/benefits/uv-blocking-window-film-salt-lake-city/",
       "destination": "/benefits/uv-protection-film/",
       "permanent": true
     },
     {
-      "source": "/benefits/uv-blocking-window-film-philadelphia",
+      "source": "/benefits/uv-blocking-window-film-salt-lake-city",
       "destination": "/benefits/uv-protection-film/",
       "permanent": true
     },
     {
-      "source": "/benefits/uv-protection-window-film-philadelphia/",
+      "source": "/benefits/uv-protection-window-film-salt-lake-city/",
       "destination": "/benefits/uv-protection-film/",
       "permanent": true
     },
     {
-      "source": "/benefits/uv-protection-window-film-philadelphia",
+      "source": "/benefits/uv-protection-window-film-salt-lake-city",
       "destination": "/benefits/uv-protection-film/",
       "permanent": true
     },
@@ -73,22 +73,22 @@
     },
     {
       "source": "/benefits/privacy-film/",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
       "source": "/benefits/privacy-film",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
       "source": "/benefits/privacy/",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
       "source": "/benefits/privacy",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
@@ -102,23 +102,23 @@
       "permanent": true
     },
     {
-      "source": "/benefits/decorative-window-film-philadelphia/",
+      "source": "/benefits/decorative-window-film-salt-lake-city/",
       "destination": "/benefits/decorative-promotional/",
       "permanent": true
     },
     {
-      "source": "/benefits/decorative-window-film-philadelphia",
+      "source": "/benefits/decorative-window-film-salt-lake-city",
       "destination": "/benefits/decorative-promotional/",
       "permanent": true
     },
     {
-      "source": "/benefits/benefits/privacy-window-film-philadelphia/",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "source": "/benefits/benefits/privacy-window-film-salt-lake-city/",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
-      "source": "/benefits/benefits/privacy-window-film-philadelphia",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "source": "/benefits/benefits/privacy-window-film-salt-lake-city",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
@@ -203,12 +203,12 @@
     },
     {
       "source": "/services/privacy-film/",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
       "source": "/services/privacy-film",
-      "destination": "/benefits/privacy-window-film-philadelphia/",
+      "destination": "/benefits/privacy-window-film-salt-lake-city/",
       "permanent": true
     },
     {
@@ -422,13 +422,13 @@
       "permanent": true
     },
     {
-      "source": "/philadelphia/",
-      "destination": "/cities/philadelphia/",
+      "source": "/salt-lake-city/",
+      "destination": "/cities/salt-lake-city/",
       "permanent": true
     },
     {
-      "source": "/philadelphia",
-      "destination": "/cities/philadelphia/",
+      "source": "/salt-lake-city",
+      "destination": "/cities/salt-lake-city/",
       "permanent": true
     },
     {
@@ -492,1038 +492,1038 @@
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-climate-control-philadelphia.pdf",
-      "destination": "/resources/3m-thinsulate-climate-control-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-climate-control-salt-lake-city.pdf",
+      "destination": "/resources/3m-thinsulate-climate-control-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3m-thinsulate-window-film-climate-control-philadelphia.pdf",
-      "destination": "/resources/3m-thinsulate-climate-control-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/3m-thinsulate-window-film-climate-control-salt-lake-city.pdf",
+      "destination": "/resources/3m-thinsulate-climate-control-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/philadelphia_Hanita_Coatings_SafetyZone_Datasheets.pdf",
-      "destination": "/resources/hanita-coatings-window-film-safetyzone-datasheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/salt-lake-city_Hanita_Coatings_SafetyZone_Datasheets.pdf",
+      "destination": "/resources/hanita-coatings-window-film-safetyzone-datasheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/philadelphia_Hanita_Coatings_SafetyZone_Datasheets.pdf",
-      "destination": "/resources/hanita-coatings-window-film-safetyzone-datasheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/salt-lake-city_Hanita_Coatings_SafetyZone_Datasheets.pdf",
+      "destination": "/resources/hanita-coatings-window-film-safetyzone-datasheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/philadelphia_Hanita_Coatings_SolarZone_Datasheets.pdf",
-      "destination": "/resources/hanita-coatings-window-film-solarzone-datasheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/salt-lake-city_Hanita_Coatings_SolarZone_Datasheets.pdf",
+      "destination": "/resources/hanita-coatings-window-film-solarzone-datasheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/philadelphia_Hanita_Coatings_SolarZone_Datasheets.pdf",
-      "destination": "/resources/hanita-coatings-window-film-solarzone-datasheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/salt-lake-city_Hanita_Coatings_SolarZone_Datasheets.pdf",
+      "destination": "/resources/hanita-coatings-window-film-solarzone-datasheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Graffiti-Shield-Mirror-Shield-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-mirror-shield-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Graffiti-Shield-Mirror-Shield-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-mirror-shield-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Mirror-Shield-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-mirror-shield-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Mirror-Shield-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-mirror-shield-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Graffiti-Shield-Glass-Shield-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-glass-shield-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Graffiti-Shield-Glass-Shield-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-glass-shield-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Glass-Shield-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-glass-shield-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Glass-Shield-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-glass-shield-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Graffiti-Shield-Metal-Shield-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-metal-shield-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Graffiti-Shield-Metal-Shield-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-metal-shield-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Metal-Shield-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-metal-shield-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Metal-Shield-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-metal-shield-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/casper-cloaking-film-technical-sheet-philadelphia.pdf",
-      "destination": "/resources/casper-cloaking-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/casper-cloaking-film-technical-sheet-salt-lake-city.pdf",
+      "destination": "/resources/casper-cloaking-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/casper-cloaking-film-technical-sheet-philadelphia.pdf",
-      "destination": "/resources/casper-cloaking-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/casper-cloaking-film-technical-sheet-salt-lake-city.pdf",
+      "destination": "/resources/casper-cloaking-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Graffiti-Shield-Limited-Warranty-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Graffiti-Shield-Limited-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Limited-Warranty-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Limited-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/hanita-coatings-safezone-spec-sheet-philadelphia.pdf",
-      "destination": "/resources/hanita-coatings-window-film-safetyzone-datasheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/hanita-coatings-safezone-spec-sheet-salt-lake-city.pdf",
+      "destination": "/resources/hanita-coatings-window-film-safetyzone-datasheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Graffiti-Shield-Multi-Layer-Film-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-multi-layer-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Graffiti-Shield-Multi-Layer-Film-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-multi-layer-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Multi-Layer-Film-Specs-philadelphia.pdf",
-      "destination": "/resources/graffiti-shield-multi-layer-sell-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Graffiti-Shield-Multi-Layer-Film-Specs-salt-lake-city.pdf",
+      "destination": "/resources/graffiti-shield-multi-layer-sell-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/HuperOptik_Decorative_Film_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-decorative-frost-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/HuperOptik_Decorative_Film_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-decorative-frost-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HuperOptik_Decorative_Film_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-decorative-frost-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HuperOptik_Decorative_Film_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-decorative-frost-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Hanita_SolarZone_Datasheets_philadelphia.pdf",
-      "destination": "/resources/hanita-coatings-window-film-solarzone-datasheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Hanita_SolarZone_Datasheets_salt-lake-city.pdf",
+      "destination": "/resources/hanita-coatings-window-film-solarzone-datasheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/llumar-anti-graffiti-film-specs-philadelphia.pdf",
-      "destination": "/resources/llumar-anti-graffiti-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/llumar-anti-graffiti-film-specs-salt-lake-city.pdf",
+      "destination": "/resources/llumar-anti-graffiti-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/llumar-anti-graffiti-film-specs-philadelphia.pdf",
-      "destination": "/resources/llumar-anti-graffiti-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/llumar-anti-graffiti-film-specs-salt-lake-city.pdf",
+      "destination": "/resources/llumar-anti-graffiti-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HDClear_brochure-philadelphia.pdf",
-      "destination": "/resources/hdclear-window-film-hdfade-brochure-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HDClear_brochure-salt-lake-city.pdf",
+      "destination": "/resources/hdclear-window-film-hdfade-brochure-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/HuperOptiks_Fusion_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-fusion-20-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/HuperOptiks_Fusion_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-fusion-20-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HuperOptiks_Fusion_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-fusion-20-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HuperOptiks_Fusion_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-fusion-20-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/llumar-solar-control-window-tint-specs-philadelphia.pdf",
+      "source": "/wp-content/uploads/llumar-solar-control-window-tint-specs-salt-lake-city.pdf",
       "destination": "/resources/llumar-solar-control-window-film-camden-nj-performance-specs.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/llumar-solar-control-window-tint-specs-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/llumar-solar-control-window-tint-specs-salt-lake-city.pdf",
       "destination": "/resources/llumar-solar-control-window-film-camden-nj-performance-specs.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Film-Glass-Finishes-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-glass-finishes-family-card-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Film-Glass-Finishes-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-glass-finishes-family-card-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M-Fasara-Window-Film-Glass-Finishes-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-glass-finishes-family-card-philadelphia.pdf",
+      "source": "/wp-content/uploads/3M-Fasara-Window-Film-Glass-Finishes-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-glass-finishes-family-card-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/HuperOptiks_ThermX_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-therm-x-50-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/HuperOptiks_ThermX_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-therm-x-50-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HuperOptiks_ThermX_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-therm-x-50-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HuperOptiks_ThermX_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-therm-x-50-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-dual-reflective-window-film-V-48-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-dual-reflective-window-film-V-48-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-film-V-48-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-film-V-48-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-window-film-philadelphia-case-study.pdf",
-      "destination": "/resources/commercial-office-window-film-3m-daylight-redirecting-case-study-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-window-film-salt-lake-city-case-study.pdf",
+      "destination": "/resources/commercial-office-window-film-3m-daylight-redirecting-case-study-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3m-daylight-redirecting-window-film-philadelphia-case-study.pdf",
-      "destination": "/resources/commercial-office-window-film-3m-daylight-redirecting-case-study-philadelphia.pdf",
+      "source": "/wp-content/uploads/3m-daylight-redirecting-window-film-salt-lake-city-case-study.pdf",
+      "destination": "/resources/commercial-office-window-film-3m-daylight-redirecting-case-study-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/HuperOptiks_Select_Series_Specifications_philadelphia.pdf",
-      "destination": "/resources/huper-optik-select-series-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/HuperOptiks_Select_Series_Specifications_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-select-series-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HuperOptiks_Select_Series_Specifications_philadelphia.pdf",
-      "destination": "/resources/huper-optik-select-series-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HuperOptiks_Select_Series_Specifications_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-select-series-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/llumar-neutral-solar-control-window-film-philadelphia.pdf",
-      "destination": "/resources/llumar-window-film-atc-architectural-solar-control-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/llumar-neutral-solar-control-window-film-salt-lake-city.pdf",
+      "destination": "/resources/llumar-window-film-atc-architectural-solar-control-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/HuperOptik_Shield_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-clear-shield-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/HuperOptik_Shield_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-clear-shield-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HuperOptik_Shield_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-clear-shield-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HuperOptik_Shield_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-clear-shield-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/philadelphia-Hanita_Coatings_Performance_Data.pdf",
-      "destination": "/resources/hanita-coatings-window-film-comparative-data-philadelphia.pdf",
+      "source": "/wp-content/uploads/salt-lake-city-Hanita_Coatings_Performance_Data.pdf",
+      "destination": "/resources/hanita-coatings-window-film-comparative-data-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/philadelphia-Hanita_Coatings_Performance_Data.pdf",
-      "destination": "/resources/hanita-coatings-window-film-comparative-data-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/salt-lake-city-Hanita_Coatings_Performance_Data.pdf",
+      "destination": "/resources/hanita-coatings-window-film-comparative-data-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-dual-reflective-window-film-V18-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-dual-reflective-window-film-V18-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-film-V18-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-film-V18-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-dual-reflective-window-film-V38-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-dual-reflective-window-film-V38-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-film-V38-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-film-V38-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HDClear-Decorative-Spec-Sheet-philadelphia.pdf",
-      "destination": "/resources/hdclear-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HDClear-Decorative-Spec-Sheet-salt-lake-city.pdf",
+      "destination": "/resources/hdclear-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Bird-Divert-Bird-Friendly-Building-Design.pdf",
-      "destination": "/resources/bird-strike-window-film-abc-bird-friendly-building-design-guidelines-philadelphia.pdf",
+      "destination": "/resources/bird-strike-window-film-abc-bird-friendly-building-design-guidelines-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Bird-Divert-Bird-Friendly-Building-Design.pdf",
-      "destination": "/resources/bird-strike-window-film-abc-bird-friendly-building-design-guidelines-philadelphia.pdf",
+      "destination": "/resources/bird-strike-window-film-abc-bird-friendly-building-design-guidelines-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/HuperOptiks_Traditional_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-traditional-bronze-40-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/HuperOptiks_Traditional_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-traditional-bronze-40-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/HuperOptiks_Traditional_Specs_philadelphia.pdf",
-      "destination": "/resources/huper-optik-traditional-bronze-40-csi-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/HuperOptiks_Traditional_Specs_salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-traditional-bronze-40-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-commercial-case-study-window-film-philadelphia.pdf",
-      "destination": "/resources/retail-window-film-3m-daylight-redirecting-natural-light-case-study-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-commercial-case-study-window-film-salt-lake-city.pdf",
+      "destination": "/resources/retail-window-film-3m-daylight-redirecting-natural-light-case-study-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/solar-gard_epd_architectural-solar-control-window-films-philadelphia.pdf",
-      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/solar-gard_epd_architectural-solar-control-window-films-salt-lake-city.pdf",
+      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/solar-gard_epd_architectural-solar-control-window-films-philadelphia.pdf",
-      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/solar-gard_epd_architectural-solar-control-window-films-salt-lake-city.pdf",
+      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/llumar-safety-securty-window-film-specs-philadelphia.pdf",
-      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/llumar-safety-securty-window-film-specs-salt-lake-city.pdf",
+      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/llumar-safety-securty-window-film-specs-philadelphia.pdf",
-      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/llumar-safety-securty-window-film-specs-salt-lake-city.pdf",
+      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-window-film-brochure-philadelphia.pdf",
-      "destination": "/resources/3m-daylight-redirecting-film-product-bulletin-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-window-film-brochure-salt-lake-city.pdf",
+      "destination": "/resources/3m-daylight-redirecting-film-product-bulletin-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/philadelphia_Hanita_Coatings_compatibility_chart.pdf",
-      "destination": "/resources/hanita-coatings-window-film-comparative-data-philadelphia.pdf",
+      "source": "/wp-content/uploads/salt-lake-city_Hanita_Coatings_compatibility_chart.pdf",
+      "destination": "/resources/hanita-coatings-window-film-comparative-data-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/philadelphia_Hanita_Coatings_compatibility_chart.pdf",
-      "destination": "/resources/hanita-coatings-window-film-comparative-data-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/salt-lake-city_Hanita_Coatings_compatibility_chart.pdf",
+      "destination": "/resources/hanita-coatings-window-film-comparative-data-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/madico-safety-and-security-window-film-performance-philadelphia.pdf",
-      "destination": "/resources/madico-safety-security-film-specs-philadelphia.pdf",
+      "source": "/wp-content/uploads/madico-safety-and-security-window-film-performance-salt-lake-city.pdf",
+      "destination": "/resources/madico-safety-security-film-specs-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/madico-safety-and-security-window-film-performance-philadelphia.pdf",
-      "destination": "/resources/madico-safety-security-film-specs-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/madico-safety-and-security-window-film-performance-salt-lake-city.pdf",
+      "destination": "/resources/madico-safety-security-film-specs-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/llumar_safety_security_film_testing_data_sheet_philadelphia.pdf",
-      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/llumar_safety_security_film_testing_data_sheet_salt-lake-city.pdf",
+      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/llumar_safety_security_film_testing_data_sheet_philadelphia.pdf",
-      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/llumar_safety_security_film_testing_data_sheet_salt-lake-city.pdf",
+      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/llumar-safety-security-window-film-spec-sheet-philadelphia.pdf",
-      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/llumar-safety-security-window-film-spec-sheet-salt-lake-city.pdf",
+      "destination": "/resources/llumar-window-film-safety-security-graffiti-guard-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-dual-reflective-window-tinting-V28-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-dual-reflective-window-tinting-V28-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-tinting-V28-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-tinting-V28-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Hanita-Coatings-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/hanita-coatings-window-film-comparative-data-philadelphia.pdf",
+      "source": "/wp-content/uploads/Hanita-Coatings-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/hanita-coatings-window-film-comparative-data-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Hanita-Coatings-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/hanita-coatings-window-film-comparative-data-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Hanita-Coatings-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/hanita-coatings-window-film-comparative-data-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-spectrally-selective-window-film-VS-61-philadelphia.pdf",
-      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-spectrally-selective-window-film-VS-61-salt-lake-city.pdf",
+      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-spectrally-selective-window-film-VS-61-philadelphia.pdf",
-      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-spectrally-selective-window-film-VS-61-salt-lake-city.pdf",
+      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-spectrally-selective-window-film-VS-70-philadelphia.pdf",
-      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-spectrally-selective-window-film-VS-70-salt-lake-city.pdf",
+      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-spectrally-selective-window-film-VS-70-philadelphia.pdf",
-      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-spectrally-selective-window-film-VS-70-salt-lake-city.pdf",
+      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-dual-reflective-window-tinting-V-14-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-dual-reflective-window-tinting-V-14-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-tinting-V-14-philadelphia.pdf",
-      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-dual-reflective-window-tinting-V-14-salt-lake-city.pdf",
+      "destination": "/resources/vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Scotchshield-Safety-and-Security-Window-Film-philadelphia.pdf",
-      "destination": "/resources/school-window-film-3m-scotchshield-safety-security-technical-data-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Scotchshield-Safety-and-Security-Window-Film-salt-lake-city.pdf",
+      "destination": "/resources/school-window-film-3m-scotchshield-safety-security-technical-data-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-commercial-solutions-philadelphia.pdf",
-      "destination": "/resources/3m-thinsulate-cc75-technical-bulletin-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-commercial-solutions-salt-lake-city.pdf",
+      "destination": "/resources/3m-thinsulate-cc75-technical-bulletin-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Anti-Graffiti-Film-in-Philadelphia-\u2013-Resource.pdf",
-      "destination": "/resources/anti-graffiti-film-commercial-restrooms-brochure-philadelphia.pdf",
+      "source": "/wp-content/uploads/Anti-Graffiti-Film-in-Salt Lake City-\u2013-Resource.pdf",
+      "destination": "/resources/anti-graffiti-film-commercial-restrooms-brochure-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Anti-Graffiti-Film-in-Philadelphia-\u2013-Resource.pdf",
-      "destination": "/resources/anti-graffiti-film-commercial-restrooms-brochure-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Anti-Graffiti-Film-in-Salt Lake City-\u2013-Resource.pdf",
+      "destination": "/resources/anti-graffiti-film-commercial-restrooms-brochure-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/casper-cloaking-film-privacy-technological-process-philadelphia.pdf",
-      "destination": "/resources/casper-cloaking-film-steelcase-brochure-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/casper-cloaking-film-privacy-technological-process-salt-lake-city.pdf",
+      "destination": "/resources/casper-cloaking-film-steelcase-brochure-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-spectrally-selective-window-film-vs60-philadelphia.pdf",
-      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-spectrally-selective-window-film-vs60-salt-lake-city.pdf",
+      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-spectrally-selective-window-film-vs60-philadelphia.pdf",
-      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-spectrally-selective-window-film-vs60-salt-lake-city.pdf",
+      "destination": "/resources/vista-vs-61-sr-cdf-spectrally-selective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Casper-Cloaking-Window-Film-Resource.pdf",
-      "destination": "/resources/casper-cloaking-film-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/casper-cloaking-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Casper-Cloaking-Window-Film-Resource.pdf",
-      "destination": "/resources/casper-cloaking-film-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/casper-cloaking-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Solar-Gard-Graffitigard-Data-Sheet-philadelphia.pdf",
-      "destination": "/resources/restaurant-window-film-solar-gard-graffitigard-anti-graffiti-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Solar-Gard-Graffitigard-Data-Sheet-salt-lake-city.pdf",
+      "destination": "/resources/restaurant-window-film-solar-gard-graffitigard-anti-graffiti-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Solar-Gard-Graffitigard-Data-Sheet-philadelphia.pdf",
-      "destination": "/resources/restaurant-window-film-solar-gard-graffitigard-anti-graffiti-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Solar-Gard-Graffitigard-Data-Sheet-salt-lake-city.pdf",
+      "destination": "/resources/restaurant-window-film-solar-gard-graffitigard-anti-graffiti-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Hanita-Coatings-Window-Film-Resource.pdf",
-      "destination": "/resources/hanita-coatings-window-film-product-index-philadelphia.pdf",
+      "destination": "/resources/hanita-coatings-window-film-product-index-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Hanita-Coatings-Window-Film-Resource.pdf",
-      "destination": "/resources/hanita-coatings-window-film-product-index-philadelphia.pdf",
+      "destination": "/resources/hanita-coatings-window-film-product-index-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3m_Prestige_Film_Case_Study_Philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/3m_Prestige_Film_Case_Study_Salt Lake City.pdf",
+      "destination": "/resources/3m-prestige-series-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m_Prestige_Film_Case_Study_Philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m_Prestige_Film_Case_Study_Salt Lake City.pdf",
+      "destination": "/resources/3m-prestige-series-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/philadelphia-Hanita_Coatings_Architectural_Tint_Specs.pdf",
-      "destination": "/resources/hanita-coatings-window-film-product-index-philadelphia.pdf",
+      "source": "/wp-content/uploads/salt-lake-city-Hanita_Coatings_Architectural_Tint_Specs.pdf",
+      "destination": "/resources/hanita-coatings-window-film-product-index-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/philadelphia-Hanita_Coatings_Architectural_Tint_Specs.pdf",
-      "destination": "/resources/hanita-coatings-window-film-product-index-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/salt-lake-city-Hanita_Coatings_Architectural_Tint_Specs.pdf",
+      "destination": "/resources/hanita-coatings-window-film-product-index-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-window-film-commercial-solutions-philadelphia.pdf",
-      "destination": "/resources/3m-daylight-redirecting-film-product-bulletin-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-daylight-redirecting-window-film-commercial-solutions-salt-lake-city.pdf",
+      "destination": "/resources/3m-daylight-redirecting-film-product-bulletin-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Designtex-Casper-Cloaking-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/casper-cloaking-film-overview-philadelphia.pdf",
+      "source": "/wp-content/uploads/Designtex-Casper-Cloaking-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/casper-cloaking-film-overview-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Designtex-Casper-Cloaking-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/casper-cloaking-film-overview-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Designtex-Casper-Cloaking-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/casper-cloaking-film-overview-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Nanotint-Window-Film-Resource.pdf",
-      "destination": "/resources/nanotint-window-film-brochure-philadelphia.pdf",
+      "destination": "/resources/nanotint-window-film-brochure-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Nanotint-Window-Film-Resource.pdf",
-      "destination": "/resources/nanotint-window-film-brochure-philadelphia.pdf",
+      "destination": "/resources/nanotint-window-film-brochure-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Huper-Optik-Window-Film-Resource.pdf",
-      "destination": "/resources/huper-optik-xtreme-series-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/huper-optik-xtreme-series-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Huper-Optik-Window-Film-Resource.pdf",
-      "destination": "/resources/huper-optik-xtreme-series-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/huper-optik-xtreme-series-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Films-Data-Sheet-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-decorative-privacy-window-film-philadelphia-tech-data-sheet.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Films-Data-Sheet-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-decorative-privacy-window-film-salt-lake-city-tech-data-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M-Fasara-Window-Films-Data-Sheet-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-decorative-privacy-window-film-philadelphia-tech-data-sheet.pdf",
+      "source": "/wp-content/uploads/3M-Fasara-Window-Films-Data-Sheet-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-decorative-privacy-window-film-salt-lake-city-tech-data-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/C-Bond-System-I-Specs-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/C-Bond-System-I-Specs-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/C-Bond-System-I-Specs-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/C-Bond-System-I-Specs-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/madico-energy-saving-window-film-performance-philadelphia.pdf",
-      "destination": "/resources/madico-architectural-solar-performance-specs-philadelphia.pdf",
+      "source": "/wp-content/uploads/madico-energy-saving-window-film-performance-salt-lake-city.pdf",
+      "destination": "/resources/madico-architectural-solar-performance-specs-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/madico-energy-saving-window-film-performance-philadelphia.pdf",
-      "destination": "/resources/madico-architectural-solar-performance-specs-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/madico-energy-saving-window-film-performance-salt-lake-city.pdf",
+      "destination": "/resources/madico-architectural-solar-performance-specs-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-philadelphia-brochure.pdf",
-      "destination": "/resources/3m-thinsulate-climate-control-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-salt-lake-city-brochure.pdf",
+      "destination": "/resources/3m-thinsulate-climate-control-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3m-thinsulate-window-film-philadelphia-brochure.pdf",
-      "destination": "/resources/3m-thinsulate-climate-control-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/3m-thinsulate-window-film-salt-lake-city-brochure.pdf",
+      "destination": "/resources/3m-thinsulate-climate-control-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/C-Bond-System-Safety-Data-Sheet-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/C-Bond-System-Safety-Data-Sheet-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/C-Bond-System-Safety-Data-Sheet-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/C-Bond-System-Safety-Data-Sheet-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/llumar-decorative-window-film-brochure-philadelphia.pdf",
-      "destination": "/resources/llumar-window-film-reflective-privacy-series-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/llumar-decorative-window-film-brochure-salt-lake-city.pdf",
+      "destination": "/resources/llumar-window-film-reflective-privacy-series-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/C-Bond-System-II-Specs-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/C-Bond-System-II-Specs-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/C-Bond-System-II-Specs-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/C-Bond-System-II-Specs-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-C-Bond-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-C-Bond-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-C-Bond-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-C-Bond-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Resource-for-HDClear-window-film.pdf",
-      "destination": "/resources/hdclear-window-film-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/hdclear-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-for-HDClear-window-film.pdf",
-      "destination": "/resources/hdclear-window-film-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/hdclear-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Resource-for-Llumar-Window-Film.pdf",
-      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-for-Llumar-Window-Film.pdf",
-      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Madico-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/madico-amber-81-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Madico-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/madico-amber-81-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Madico-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/madico-amber-81-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Madico-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/madico-amber-81-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Resource-for-Solyx-Window-Film.pdf",
-      "destination": "/resources/solyx-decorative-privacy-window-film-philadelphia-sxlt-1305-spec-sheet.pdf",
+      "destination": "/resources/solyx-decorative-privacy-window-film-salt-lake-city-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-for-Solyx-Window-Film.pdf",
-      "destination": "/resources/solyx-decorative-privacy-window-film-philadelphia-sxlt-1305-spec-sheet.pdf",
+      "destination": "/resources/solyx-decorative-privacy-window-film-salt-lake-city-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Vista-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/vista-ceramic-35-sr-ps-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Vista-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/vista-ceramic-35-sr-ps-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Vista-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/vista-ceramic-35-sr-ps-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Vista-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/vista-ceramic-35-sr-ps-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Film-Brochure-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-decorative-privacy-window-film-philadelphia-tech-data-sheet.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Film-Brochure-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-decorative-privacy-window-film-salt-lake-city-tech-data-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Film-Collection-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-decorative-privacy-window-film-philadelphia-tech-data-sheet.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Fasara-Window-Film-Collection-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-decorative-privacy-window-film-salt-lake-city-tech-data-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Commercial-Window-Film-Solutions-3m-residential-window-film-philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-commercial-office-window-film-philadelphia-tech-data.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Commercial-Window-Film-Solutions-3m-residential-window-film-salt-lake-city.pdf",
+      "destination": "/resources/3m-prestige-series-commercial-office-window-film-salt-lake-city-tech-data.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Window-Film-Case-Study-3m-residential-window-film-philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Window-Film-Case-Study-3m-residential-window-film-salt-lake-city.pdf",
+      "destination": "/resources/3m-prestige-series-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Window-Film-Commercial-Case-Study-3m-residential-window-film-philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Window-Film-Commercial-Case-Study-3m-residential-window-film-salt-lake-city.pdf",
+      "destination": "/resources/3m-prestige-series-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Window-Film-Data-Sheet-3m-residential-window-film-philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Sun-Control-Window-Film-Data-Sheet-3m-residential-window-film-salt-lake-city.pdf",
+      "destination": "/resources/3m-prestige-series-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-residential-case-study-philadelphia.pdf",
-      "destination": "/resources/3m-thinsulate-climate-control-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3m-thinsulate-window-film-residential-case-study-salt-lake-city.pdf",
+      "destination": "/resources/3m-thinsulate-climate-control-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M-Fasara-Window-Film-Brochure-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-decorative-privacy-window-film-philadelphia-tech-data-sheet.pdf",
+      "source": "/wp-content/uploads/3M-Fasara-Window-Film-Brochure-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-decorative-privacy-window-film-salt-lake-city-tech-data-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M-Fasara-Window-Film-Collection-philadelphia.pdf",
-      "destination": "/resources/3m-fasara-decorative-privacy-window-film-philadelphia-tech-data-sheet.pdf",
+      "source": "/wp-content/uploads/3M-Fasara-Window-Film-Collection-salt-lake-city.pdf",
+      "destination": "/resources/3m-fasara-decorative-privacy-window-film-salt-lake-city-tech-data-sheet.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Bird-Divert-Cleaning-Instructions.pdf",
-      "destination": "/resources/bird-strike-window-film-llumar-bird-safe-architectural-spec-philadelphia.pdf",
+      "destination": "/resources/bird-strike-window-film-llumar-bird-safe-architectural-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Bird-Divert-Cleaning-Instructions.pdf",
-      "destination": "/resources/bird-strike-window-film-llumar-bird-safe-architectural-spec-philadelphia.pdf",
+      "destination": "/resources/bird-strike-window-film-llumar-bird-safe-architectural-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Bird-Divert-Spec-Sheet.pdf",
-      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-philadelphia.pdf",
+      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Bird-Divert-Spec-Sheet.pdf",
-      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-philadelphia.pdf",
+      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/C-Bond-Test-Report-1-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/C-Bond-Test-Report-1-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/C-Bond-Test-Report-1-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/C-Bond-Test-Report-1-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/C-Bond-Test-Report-2-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/C-Bond-Test-Report-2-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/C-Bond-Test-Report-2-philadelphia.pdf",
-      "destination": "/resources/c-bond-window-film-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/C-Bond-Test-Report-2-salt-lake-city.pdf",
+      "destination": "/resources/c-bond-window-film-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Liquid-Nanotint-PDS-philadelphia.pdf",
-      "destination": "/resources/nanotint-window-film-product-data-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/Liquid-Nanotint-PDS-salt-lake-city.pdf",
+      "destination": "/resources/nanotint-window-film-product-data-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Liquid-Nanotint-PDS-philadelphia.pdf",
-      "destination": "/resources/nanotint-window-film-product-data-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Liquid-Nanotint-PDS-salt-lake-city.pdf",
+      "destination": "/resources/nanotint-window-film-product-data-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Source-of-Energy-Saving-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/3m-prestige-energy-saving-window-film-philadelphia-product-bulletin.pdf",
+      "source": "/wp-content/uploads/Source-of-Energy-Saving-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/3m-prestige-energy-saving-window-film-salt-lake-city-product-bulletin.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Source-of-Energy-Saving-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/3m-prestige-energy-saving-window-film-philadelphia-product-bulletin.pdf",
+      "source": "/wp-content/uploads/2021/10/Source-of-Energy-Saving-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/3m-prestige-energy-saving-window-film-salt-lake-city-product-bulletin.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/drywired-liquid-nanotint-application-manual-philadelphia.pdf",
-      "destination": "/resources/nanotint-window-film-installation-guide-philadelphia.pdf",
+      "source": "/wp-content/uploads/drywired-liquid-nanotint-application-manual-salt-lake-city.pdf",
+      "destination": "/resources/nanotint-window-film-installation-guide-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/drywired-liquid-nanotint-application-manual-philadelphia.pdf",
-      "destination": "/resources/nanotint-window-film-installation-guide-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/drywired-liquid-nanotint-application-manual-salt-lake-city.pdf",
+      "destination": "/resources/nanotint-window-film-installation-guide-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/solyx-glass-finishes-spec-sheet-philadelphia.pdf",
-      "destination": "/resources/solyx-window-film-geometric-catalog-philadelphia.pdf",
+      "source": "/wp-content/uploads/solyx-glass-finishes-spec-sheet-salt-lake-city.pdf",
+      "destination": "/resources/solyx-window-film-geometric-catalog-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/solyx-glass-finishes-spec-sheet-philadelphia.pdf",
-      "destination": "/resources/solyx-window-film-geometric-catalog-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/solyx-glass-finishes-spec-sheet-salt-lake-city.pdf",
+      "destination": "/resources/solyx-window-film-geometric-catalog-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-low-e-window-film-ve35-philadelphia.pdf",
-      "destination": "/resources/vista-ve-35-sr-cdf-low-e-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-low-e-window-film-ve35-salt-lake-city.pdf",
+      "destination": "/resources/vista-ve-35-sr-cdf-low-e-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-low-e-window-film-ve35-philadelphia.pdf",
-      "destination": "/resources/vista-ve-35-sr-cdf-low-e-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-low-e-window-film-ve35-salt-lake-city.pdf",
+      "destination": "/resources/vista-ve-35-sr-cdf-low-e-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-neutral-window-film-58-philadelphia.pdf",
-      "destination": "/resources/vista-v-58-sr-cdf-neutral-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-neutral-window-film-58-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-58-sr-cdf-neutral-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-neutral-window-film-58-philadelphia.pdf",
-      "destination": "/resources/vista-v-58-sr-cdf-neutral-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-neutral-window-film-58-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-58-sr-cdf-neutral-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-neutral-window-film-v33-philadelphia.pdf",
-      "destination": "/resources/vista-v-33-sr-cdf-neutral-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-neutral-window-film-v33-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-33-sr-cdf-neutral-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-neutral-window-film-v33-philadelphia.pdf",
-      "destination": "/resources/vista-v-33-sr-cdf-neutral-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-neutral-window-film-v33-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-33-sr-cdf-neutral-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-neutral-window-film-v45-philadelphia.pdf",
-      "destination": "/resources/vista-v-45-sr-cdf-neutral-2-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-neutral-window-film-v45-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-45-sr-cdf-neutral-2-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-neutral-window-film-v45-philadelphia.pdf",
-      "destination": "/resources/vista-v-45-sr-cdf-neutral-2-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-neutral-window-film-v45-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-45-sr-cdf-neutral-2-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-safety-window-film-V-28-PS8-philadelphia.pdf",
-      "destination": "/resources/vista-v-28-sr-cdf-dual-reflective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-safety-window-film-V-28-PS8-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-28-sr-cdf-dual-reflective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-safety-window-film-V-28-PS8-philadelphia.pdf",
-      "destination": "/resources/vista-v-28-sr-cdf-dual-reflective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-safety-window-film-V-28-PS8-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-28-sr-cdf-dual-reflective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/vista-safety-window-film-V-38-PS8-philadelphia.pdf",
-      "destination": "/resources/vista-v-38-sr-cdf-dual-reflective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/vista-safety-window-film-V-38-PS8-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-38-sr-cdf-dual-reflective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/vista-safety-window-film-V-38-PS8-philadelphia.pdf",
-      "destination": "/resources/vista-v-38-sr-cdf-dual-reflective-spec-sheet-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/vista-safety-window-film-V-38-PS8-salt-lake-city.pdf",
+      "destination": "/resources/vista-v-38-sr-cdf-dual-reflective-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M-Feather-Friendly-Product-Data-Philadelphia.pdf",
-      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/3M-Feather-Friendly-Product-Data-Salt Lake City.pdf",
+      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Feather-Friendly-Product-Data-Philadelphia.pdf",
-      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Feather-Friendly-Product-Data-Salt Lake City.pdf",
+      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Bird-Divert-Spec-Sheet-Philadelphia.pdf",
-      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Bird-Divert-Spec-Sheet-Salt Lake City.pdf",
+      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Bird-Divert-Spec-Sheet-Philadelphia.pdf",
-      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Bird-Divert-Spec-Sheet-Salt Lake City.pdf",
+      "destination": "/resources/bird-strike-window-film-3m-scotchshield-bird-divert-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Solard-Gard-WingSafe-Tech-Sheet-Philadelphia.pdf",
-      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Solard-Gard-WingSafe-Tech-Sheet-Salt Lake City.pdf",
+      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Solard-Gard-WingSafe-Tech-Sheet-Philadelphia.pdf",
-      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Solard-Gard-WingSafe-Tech-Sheet-Salt Lake City.pdf",
+      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Solyx-Solar-Bird-Safety-Film-Philadelphia.pdf",
-      "destination": "/resources/solyx-window-film-ultrasafe-860-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Solyx-Solar-Bird-Safety-Film-Salt Lake City.pdf",
+      "destination": "/resources/solyx-window-film-ultrasafe-860-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Solyx-Solar-Bird-Safety-Film-Philadelphia.pdf",
-      "destination": "/resources/solyx-window-film-ultrasafe-860-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Solyx-Solar-Bird-Safety-Film-Salt Lake City.pdf",
+      "destination": "/resources/solyx-window-film-ultrasafe-860-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/3M-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/3M-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/3M-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/3M-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/3M-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/3M-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/3M-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/3M-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/3M-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/3M-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/LLumar-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/LLumar-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/LLumar-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/LLumar-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/LLumar-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/LLumar-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/LLumar-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/LLumar-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Vista-Residential-Window-Film-Gold-Warranty-philadelphia.pdf",
-      "destination": "/resources/Vista-Residential-Window-Film-Gold-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Vista-Residential-Window-Film-Gold-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Vista-Residential-Window-Film-Gold-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Vista-Residential-Window-Film-Gold-Warranty-philadelphia.pdf",
-      "destination": "/resources/Vista-Residential-Window-Film-Gold-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Vista-Residential-Window-Film-Gold-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Vista-Residential-Window-Film-Gold-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Vista-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Vista-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Vista-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Vista-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Vista-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Vista-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Vista-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Vista-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Vista-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Vista-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Vista-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Vista-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Vista-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Vista-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Vista-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Vista-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/SolarGard-Limited-Warranty-philadelphia.pdf",
-      "destination": "/resources/SolarGard-Limited-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/SolarGard-Limited-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/SolarGard-Limited-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/SolarGard-Limited-Warranty-philadelphia.pdf",
-      "destination": "/resources/SolarGard-Limited-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/SolarGard-Limited-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/SolarGard-Limited-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Solar-Gard-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Huper-Optik-Standard-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Huper-Optik-Standard-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Huper-Optik-Standard-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Huper-Optik-Standard-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Huper-Optik-Standard-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Huper-Optik-Standard-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Huper-Optik-Standard-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Huper-Optik-Standard-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Huper-Optik-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Huper-Optik-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Huper-Optik-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Huper-Optik-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Huper-Optik-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Huper-Optik-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Huper-Optik-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Huper-Optik-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Madico-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Madico-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Madico-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Madico-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Madico-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Madico-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Madico-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Madico-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/C-Bond-Commercial-Warranty-philadelphia.pdf",
-      "destination": "/resources/C-Bond-Commercial-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/C-Bond-Commercial-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/C-Bond-Commercial-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/C-Bond-Commercial-Warranty-philadelphia.pdf",
-      "destination": "/resources/C-Bond-Commercial-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/C-Bond-Commercial-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/C-Bond-Commercial-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/C-Bond-Residential-Warranty-philadelphia.pdf",
-      "destination": "/resources/C-Bond-Residential-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/C-Bond-Residential-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/C-Bond-Residential-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/C-Bond-Residential-Warranty-philadelphia.pdf",
-      "destination": "/resources/C-Bond-Residential-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/C-Bond-Residential-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/C-Bond-Residential-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Drywired-Liquid-Nanotint-Warranty-philadelphia.pdf",
-      "destination": "/resources/Drywired-Liquid-Nanotint-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Drywired-Liquid-Nanotint-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Drywired-Liquid-Nanotint-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Drywired-Liquid-Nanotint-Warranty-philadelphia.pdf",
-      "destination": "/resources/Drywired-Liquid-Nanotint-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Drywired-Liquid-Nanotint-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Drywired-Liquid-Nanotint-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/SunTek-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/SunTek-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/SunTek-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/SunTek-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/SunTek-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/SunTek-Residential-and-Commercial-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/SunTek-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/SunTek-Residential-and-Commercial-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Sunscape-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Sunscape-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/Sunscape-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Sunscape-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Sunscape-Residential-Window-Film-Warranty-philadelphia.pdf",
-      "destination": "/resources/Sunscape-Residential-Window-Film-Warranty-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Sunscape-Residential-Window-Film-Warranty-salt-lake-city.pdf",
+      "destination": "/resources/Sunscape-Residential-Window-Film-Warranty-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/3m-prestige-solar-control-window-film-philadelphia-pa-product-bulletin.pdf",
-      "destination": "/resources/3m-prestige-solar-control-window-film-philadelphia-product-bulletin.pdf",
+      "source": "/resources/3m-prestige-solar-control-window-film-salt-lake-city-pa-product-bulletin.pdf",
+      "destination": "/resources/3m-prestige-solar-control-window-film-salt-lake-city-product-bulletin.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/llumar-solar-control-window-film-philadelphia-pa-performance-specs.pdf",
-      "destination": "/resources/llumar-solar-control-window-film-philadelphia-performance-specs.pdf",
+      "source": "/resources/llumar-solar-control-window-film-salt-lake-city-pa-performance-specs.pdf",
+      "destination": "/resources/llumar-solar-control-window-film-salt-lake-city-performance-specs.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/solyx-decorative-window-film-philadelphia-pa-sxlt-1305-spec-sheet.pdf",
-      "destination": "/resources/solyx-decorative-privacy-window-film-philadelphia-sxlt-1305-spec-sheet.pdf",
+      "source": "/resources/solyx-decorative-window-film-salt-lake-city-pa-sxlt-1305-spec-sheet.pdf",
+      "destination": "/resources/solyx-decorative-privacy-window-film-salt-lake-city-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/vista-solar-control-window-film-philadelphia-pa-spec-sheet.pdf",
-      "destination": "/resources/vista-solar-control-window-film-philadelphia-spec-sheet.pdf",
+      "source": "/resources/vista-solar-control-window-film-salt-lake-city-pa-spec-sheet.pdf",
+      "destination": "/resources/vista-solar-control-window-film-salt-lake-city-spec-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/solar-gard-panorama-solar-control-window-film-philadelphia-pa-performance-data.pdf",
-      "destination": "/resources/solar-gard-panorama-solar-control-window-film-philadelphia-performance-data.pdf",
+      "source": "/resources/solar-gard-panorama-solar-control-window-film-salt-lake-city-pa-performance-data.pdf",
+      "destination": "/resources/solar-gard-panorama-solar-control-window-film-salt-lake-city-performance-data.pdf",
       "permanent": true
     },
     {
@@ -1572,228 +1572,228 @@
       "permanent": true
     },
     {
-      "source": "/resources/llumar-reflective-privacy-window-film-philadelphia-performance-specs.pdf",
-      "destination": "/resources/llumar-window-film-reflective-privacy-series-philadelphia.pdf",
+      "source": "/resources/llumar-reflective-privacy-window-film-salt-lake-city-performance-specs.pdf",
+      "destination": "/resources/llumar-window-film-reflective-privacy-series-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/huper-optik-traditional-series-spec-sheet-philadelphia.pdf",
-      "destination": "/resources/huper-optik-traditional-bronze-25-csi-spec-philadelphia.pdf",
+      "source": "/resources/huper-optik-traditional-series-spec-sheet-salt-lake-city.pdf",
+      "destination": "/resources/huper-optik-traditional-bronze-25-csi-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/resources/llumar-low-e-energy-saving-window-film-philadelphia-performance-specs.pdf",
-      "destination": "/resources/llumar-window-film-low-e-energy-saving-residential-philadelphia.pdf",
+      "source": "/resources/llumar-low-e-energy-saving-window-film-salt-lake-city-performance-specs.pdf",
+      "destination": "/resources/llumar-window-film-low-e-energy-saving-residential-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-3M-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-3M-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/3m-prestige-series-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-3M-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/3m-prestige-series-window-film-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-3M-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/3m-prestige-series-window-film-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Resource-for-Anti-Glare-Window-Film-in-Philadephia.pdf",
-      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-for-Anti-Glare-Window-Film-in-Philadephia.pdf",
-      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-philadelphia.pdf",
+      "destination": "/resources/anti-graffiti-window-film-llumar-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Decorative-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Decorative-Window-Film-in-Salt Lake City.pdf",
       "destination": "/resources/solyx-decorative-window-film-camden-nj-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Decorative-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Decorative-Window-Film-in-Salt Lake City.pdf",
       "destination": "/resources/solyx-decorative-window-film-camden-nj-sxlt-1305-spec-sheet.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Government-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/government-window-film-llumar-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Government-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/government-window-film-llumar-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Government-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/government-window-film-llumar-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Government-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/government-window-film-llumar-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Hotel-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/hotel-window-film-llumar-architectural-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Hotel-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/hotel-window-film-llumar-architectural-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Hotel-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/hotel-window-film-llumar-architectural-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Hotel-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/hotel-window-film-llumar-architectural-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Resource-for-Retail-Window-Film-Philadephia.pdf",
-      "destination": "/resources/retail-window-film-3m-prestige-70-solar-control-spec-philadelphia.pdf",
+      "destination": "/resources/retail-window-film-3m-prestige-70-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-for-Retail-Window-Film-Philadephia.pdf",
-      "destination": "/resources/retail-window-film-3m-prestige-70-solar-control-spec-philadelphia.pdf",
+      "destination": "/resources/retail-window-film-3m-prestige-70-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Security-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/security-window-film-madico-case-study-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Security-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/security-window-film-madico-case-study-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Security-Window-Film-Philadelphia.pdf",
-      "destination": "/resources/security-window-film-madico-case-study-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Security-Window-Film-Salt Lake City.pdf",
+      "destination": "/resources/security-window-film-madico-case-study-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Resource-for-Solar-Gard-Window-Film.pdf",
-      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-philadelphia.pdf",
+      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-for-Solar-Gard-Window-Film.pdf",
-      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-philadelphia.pdf",
+      "destination": "/resources/solar-gard-window-film-panorama-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Window-Film-for-Restaurants-in-Philadelphia.pdf",
-      "destination": "/resources/restaurant-window-film-3m-prestige-70-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Window-Film-for-Restaurants-in-Salt Lake City.pdf",
+      "destination": "/resources/restaurant-window-film-3m-prestige-70-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Window-Film-for-Restaurants-in-Philadelphia.pdf",
-      "destination": "/resources/restaurant-window-film-3m-prestige-70-solar-control-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Window-Film-for-Restaurants-in-Salt Lake City.pdf",
+      "destination": "/resources/restaurant-window-film-3m-prestige-70-solar-control-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-of-Ballistic-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/ballistic-window-film-3m-k12-school-safety-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-of-Ballistic-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/ballistic-window-film-3m-k12-school-safety-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-of-Ballistic-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/ballistic-window-film-3m-k12-school-safety-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-of-Ballistic-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/ballistic-window-film-3m-k12-school-safety-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Resource-of-Exterior-Window-Film-Philadephia.pdf",
-      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-philadelphia.pdf",
+      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Resource-of-Exterior-Window-Film-Philadephia.pdf",
-      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-philadelphia.pdf",
+      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Exterior-Building-Wrap-Resource-for-Philadephia.pdf",
-      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-philadelphia.pdf",
+      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Exterior-Building-Wrap-Resource-for-Philadephia.pdf",
-      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-philadelphia.pdf",
+      "destination": "/resources/exterior-building-wraps-llumar-exterior-film-guide-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/High-Security-Window-Film-Philadelphia-Resource.pdf",
-      "destination": "/resources/security-window-film-madico-case-study-philadelphia.pdf",
+      "source": "/wp-content/uploads/High-Security-Window-Film-Salt Lake City-Resource.pdf",
+      "destination": "/resources/security-window-film-madico-case-study-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/High-Security-Window-Film-Philadelphia-Resource.pdf",
-      "destination": "/resources/security-window-film-madico-case-study-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/High-Security-Window-Film-Salt Lake City-Resource.pdf",
+      "destination": "/resources/security-window-film-madico-case-study-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/Philadephia-Office-Window-Film-Resource.pdf",
-      "destination": "/resources/commercial-office-window-film-llumar-solar-control-architectural-spec-philadelphia.pdf",
+      "destination": "/resources/commercial-office-window-film-llumar-solar-control-architectural-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
       "source": "/wp-content/uploads/2021/10/Philadephia-Office-Window-Film-Resource.pdf",
-      "destination": "/resources/commercial-office-window-film-llumar-solar-control-architectural-spec-philadelphia.pdf",
+      "destination": "/resources/commercial-office-window-film-llumar-solar-control-architectural-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Resource-for-Blast-Mitigation-Film-in-Philadelphia.pdf",
-      "destination": "/resources/secured-buildings-window-film-3m-scotchshield-blast-mitigation-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/Resource-for-Blast-Mitigation-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/secured-buildings-window-film-3m-scotchshield-blast-mitigation-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Resource-for-Blast-Mitigation-Film-in-Philadelphia.pdf",
-      "destination": "/resources/secured-buildings-window-film-3m-scotchshield-blast-mitigation-spec-philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Resource-for-Blast-Mitigation-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/secured-buildings-window-film-3m-scotchshield-blast-mitigation-spec-salt-lake-city.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/3M_Sun_Control_Film_Case_Study_Philadelphia.pdf",
-      "destination": "/resources/3M_Sun_Control_Film_Case_Study_Philadelphia.pdf",
+      "source": "/wp-content/uploads/3M_Sun_Control_Film_Case_Study_Salt Lake City.pdf",
+      "destination": "/resources/3M_Sun_Control_Film_Case_Study_Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/3M_Sun_Control_Film_Case_Study_Philadelphia.pdf",
-      "destination": "/resources/3M_Sun_Control_Film_Case_Study_Philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/3M_Sun_Control_Film_Case_Study_Salt Lake City.pdf",
+      "destination": "/resources/3M_Sun_Control_Film_Case_Study_Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Case-Study-for-Arena-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/Case-Study-for-Arena-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/Case-Study-for-Arena-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/Case-Study-for-Arena-Window-Film-in-Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Case-Study-for-Arena-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/Case-Study-for-Arena-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Case-Study-for-Arena-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/Case-Study-for-Arena-Window-Film-in-Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Case-Study-for-Museum-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/Case-Study-for-Museum-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/Case-Study-for-Museum-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/Case-Study-for-Museum-Window-Film-in-Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Case-Study-for-Museum-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/Case-Study-for-Museum-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Case-Study-for-Museum-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/Case-Study-for-Museum-Window-Film-in-Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Case-Study-for-School-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/Case-Study-for-School-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/Case-Study-for-School-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/Case-Study-for-School-Window-Film-in-Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Case-Study-for-School-Window-Film-in-Philadelphia.pdf",
-      "destination": "/resources/Case-Study-for-School-Window-Film-in-Philadelphia.pdf",
+      "source": "/wp-content/uploads/2021/10/Case-Study-for-School-Window-Film-in-Salt Lake City.pdf",
+      "destination": "/resources/Case-Study-for-School-Window-Film-in-Salt Lake City.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Energy_Saving_Window_Film_Philadelphia_Case_Study.pdf",
-      "destination": "/resources/Energy_Saving_Window_Film_Philadelphia_Case_Study.pdf",
+      "source": "/wp-content/uploads/Energy_Saving_Window_Film_Salt Lake City_Case_Study.pdf",
+      "destination": "/resources/Energy_Saving_Window_Film_Salt Lake City_Case_Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Energy_Saving_Window_Film_Philadelphia_Case_Study.pdf",
-      "destination": "/resources/Energy_Saving_Window_Film_Philadelphia_Case_Study.pdf",
+      "source": "/wp-content/uploads/2021/10/Energy_Saving_Window_Film_Salt Lake City_Case_Study.pdf",
+      "destination": "/resources/Energy_Saving_Window_Film_Salt Lake City_Case_Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/Philadelphia-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
-      "destination": "/resources/Philadelphia-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/Salt Lake City-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
+      "destination": "/resources/Salt Lake City-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/Philadelphia-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
-      "destination": "/resources/Philadelphia-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/2021/10/Salt Lake City-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
+      "destination": "/resources/Salt Lake City-Mass-Transit-Airport-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
@@ -1837,23 +1837,23 @@
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/philadelphia-Residential-Window-Film-Case-Study.pdf",
-      "destination": "/resources/philadelphia-Residential-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/salt-lake-city-Residential-Window-Film-Case-Study.pdf",
+      "destination": "/resources/salt-lake-city-Residential-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/philadelphia-Residential-Window-Film-Case-Study.pdf",
-      "destination": "/resources/philadelphia-Residential-Window-Film-Case-Study.pdf",
+      "source": "/wp-content/uploads/2021/10/salt-lake-city-Residential-Window-Film-Case-Study.pdf",
+      "destination": "/resources/salt-lake-city-Residential-Window-Film-Case-Study.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/philadelphia-commercial-window-film-case-study-window-film.pdf",
-      "destination": "/resources/philadelphia-commercial-window-film-case-study-window-film.pdf",
+      "source": "/wp-content/uploads/salt-lake-city-commercial-window-film-case-study-window-film.pdf",
+      "destination": "/resources/salt-lake-city-commercial-window-film-case-study-window-film.pdf",
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/2021/10/philadelphia-commercial-window-film-case-study-window-film.pdf",
-      "destination": "/resources/philadelphia-commercial-window-film-case-study-window-film.pdf",
+      "source": "/wp-content/uploads/2021/10/salt-lake-city-commercial-window-film-case-study-window-film.pdf",
+      "destination": "/resources/salt-lake-city-commercial-window-film-case-study-window-film.pdf",
       "permanent": true
     },
     {
@@ -1882,8 +1882,8 @@
       "permanent": true
     },
     {
-      "source": "/resources/vista-low-e-energy-saving-window-film-philadelphia-spec-sheet.pdf",
-      "destination": "/resources/vista-ve-35-sr-cdf-low-e-spec-sheet-philadelphia.pdf",
+      "source": "/resources/vista-low-e-energy-saving-window-film-salt-lake-city-spec-sheet.pdf",
+      "destination": "/resources/vista-ve-35-sr-cdf-low-e-spec-sheet-salt-lake-city.pdf",
       "permanent": true
     },
     {

@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-philadelphia-window-film-installation-step-guide.j
 imageAlt: "Philadelphia Window Film Installation Step by Step: A Homeowner's Guide | Window Film Philadelphia"
 tags: ["window film installation", "philadelphia", "window film", "installation process", "residential window film"]
 categories: ["philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why does installation matter as much as the film itself?

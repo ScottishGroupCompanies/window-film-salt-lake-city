@@ -49,30 +49,30 @@ const {
 const localBusiness = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://windowfilmphiladelphia.net/#business",
-  "name": "Window Film Philadelphia",
-  "url": "https://windowfilmphiladelphia.net",
-  "logo": "https://windowfilmphiladelphia.net/images/window-film-philadelphia-logo-white.png",
-  "image": "https://windowfilmphiladelphia.net/images/wfp-landing-hero.webp",
-  "description": "Philadelphia's leading window film contractor. Professional installation for homes and businesses across the Delaware Valley. Energy savings, UV protection, safety & security.",
-  "telephone": "+12673947980",
-  "email": "contact@windowfilmphiladelphia.net",
+  "@id": "https://windowfilmsaltlakecity.com/#business",
+  "name": "Window Film Salt Lake City",
+  "url": "https://windowfilmsaltlakecity.com",
+  "logo": "https://windowfilmsaltlakecity.com/images/window-film-salt-lake-city-logo-white.png",
+  "image": "https://windowfilmsaltlakecity.com/images/wfp-landing-hero.webp",
+  "description": "Salt Lake City's leading window film contractor. Professional installation for homes and businesses across the Delaware Valley. Energy savings, UV protection, safety & security.",
+  "telephone": "+18018954681",
+  "email": "contact@windowfilmsaltlakecity.com",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Philadelphia",
-    "addressRegion": "PA",
-    "postalCode": "19106",
+    "addressLocality": "Salt Lake City",
+    "addressRegion": "UT",
+    "postalCode": "84101",
     "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 39.9526,
-    "longitude": -75.1652
+    "latitude": 40.7608,
+    "longitude": -111.8910
   },
   "areaServed": [
-    { "@type": "City", "name": "Philadelphia", "sameAs": "https://en.wikipedia.org/wiki/Philadelphia" },
+    { "@type": "City", "name": "Salt Lake City", "sameAs": "https://en.wikipedia.org/wiki/Salt Lake City" },
     { "@type": "City", "name": "Cherry Hill", "sameAs": "https://en.wikipedia.org/wiki/Cherry_Hill,_New_Jersey" },
-    { "@type": "City", "name": "Main Line", "sameAs": "https://en.wikipedia.org/wiki/Main_Line_(Philadelphia)" }
+    { "@type": "City", "name": "Main Line", "sameAs": "https://en.wikipedia.org/wiki/Main_Line_(Salt Lake City)" }
   ],
   "priceRange": "$$",
   "openingHoursSpecification": [
@@ -84,8 +84,8 @@ const localBusiness = {
     }
   ],
   "sameAs": [
-    "https://www.facebook.com/windowfilmphiladelphia",
-    "https://www.instagram.com/windowfilmphiladelphia"
+    "https://www.facebook.com/windowfilmsaltlakecity",
+    "https://www.instagram.com/windowfilmsaltlakecity"
   ]
 };
 
@@ -93,18 +93,18 @@ const localBusiness = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://windowfilmphiladelphia.net/#website",
-  "url": "https://windowfilmphiladelphia.net",
-  "name": "Window Film Philadelphia",
+  "@id": "https://windowfilmsaltlakecity.com/#website",
+  "url": "https://windowfilmsaltlakecity.com",
+  "name": "Window Film Salt Lake City",
   "publisher": {
     "@type": "LocalBusiness",
-    "@id": "https://windowfilmphiladelphia.net/#business"
+    "@id": "https://windowfilmsaltlakecity.com/#business"
   },
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://windowfilmphiladelphia.net/blog/?q={search_term_string}"
+      "urlTemplate": "https://windowfilmsaltlakecity.com/blog/?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   }
@@ -128,19 +128,19 @@ const faqSchema = faqItems && faqItems.length > 0 ? {
 const serviceSchema = serviceName ? {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": `${serviceUrl || canonical || 'https://windowfilmphiladelphia.net'}#service`,
+  "@id": `${serviceUrl || canonical || 'https://windowfilmsaltlakecity.com'}#service`,
   "name": serviceName,
   "description": serviceDesc || description,
   "provider": {
     "@type": "LocalBusiness",
-    "@id": "https://windowfilmphiladelphia.net/#business"
+    "@id": "https://windowfilmsaltlakecity.com/#business"
   },
   "areaServed": {
     "@type": "City",
-    "name": "Philadelphia",
-    "sameAs": "https://en.wikipedia.org/wiki/Philadelphia"
+    "name": "Salt Lake City",
+    "sameAs": "https://en.wikipedia.org/wiki/Salt Lake City"
   },
-  "url": serviceUrl || canonical || "https://windowfilmphiladelphia.net"
+  "url": serviceUrl || canonical || "https://windowfilmsaltlakecity.com"
 } : null;
 
 // ─── HowTo schema ───────────────────────────────────────────
@@ -148,7 +148,7 @@ const howToSchema = howToSteps && howToSteps.length > 0 ? {
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": howToName || "Window Film Installation Process",
-  "description": howToDesc || "Professional window film installation process in the Philadelphia metro area.",
+  "description": howToDesc || "Professional window film installation process in the Salt Lake City metro area.",
   "step": howToSteps.map((s, i) => ({
     "@type": "HowToStep",
     "name": s.name,
@@ -158,7 +158,7 @@ const howToSchema = howToSteps && howToSteps.length > 0 ? {
   })),
   "provider": {
     "@type": "LocalBusiness",
-    "@id": "https://windowfilmphiladelphia.net/#business"
+    "@id": "https://windowfilmsaltlakecity.com/#business"
   }
 } : null;
 
@@ -263,7 +263,7 @@ const schemas = [
     </script>
 
     <!-- Floating mobile call button -->
-    <a href="tel:+12673947980" class="mobile-call-btn" aria-label="Call us">
+    <a href="tel:+18018954681" class="mobile-call-btn" aria-label="Call us">
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/>
       </svg>
@@ -286,7 +286,7 @@ const schemas = [
         <div class="wfchat__header-left">
           <span class="wfchat__status-dot"></span>
           <div>
-            <div class="wfchat__header-name">Window Film Philadelphia</div>
+            <div class="wfchat__header-name">Window Film Salt Lake City</div>
             <div class="wfchat__header-sub">Typically replies in minutes</div>
           </div>
         </div>
@@ -302,7 +302,7 @@ const schemas = [
         <div class="wfchat__msg wfchat__msg--bot">
           <div class="wfchat__avatar">WF</div>
           <div class="wfchat__bubble">
-            Hi! 👋 Welcome to Window Film Philadelphia. I can help you with:<br><br>
+            Hi! 👋 Welcome to Window Film Salt Lake City. I can help you with:<br><br>
             • Free consultation scheduling<br>
             • Service questions<br>
             • Pricing information<br>
@@ -357,27 +357,27 @@ const schemas = [
       const responses = [
         {
           keys: ['quote','price','cost','how much','pricing','estimate'],
-          text: "Great! Getting a quote is easy and free. You can fill out our quote form online or call us directly at (267) 394-7980. We typically respond within 24 hours! 😊",
+          text: "Great! Getting a quote is easy and free. You can fill out our quote form online or call us directly at (801) 895-4681. We typically respond within 24 hours! 😊",
           btnText: 'Get Free Quote →', btnHref: '/contact'
         },
         {
           keys: ['residential','home','house','condo','apartment'],
-          text: "We install professional window film in Philadelphia homes and condos. Benefits include heat reduction, UV protection, privacy and energy savings. Would you like a free consultation?",
+          text: "We install professional window film in Salt Lake City homes and condos. Benefits include heat reduction, UV protection, privacy and energy savings. Would you like a free consultation?",
           btnText: 'Learn More →', btnHref: '/applications/residential'
         },
         {
           keys: ['commercial','office','business','retail','restaurant'],
-          text: "We serve Philadelphia businesses of all sizes — offices, retail, restaurants and more. Commercial film reduces energy costs by up to 30% and eliminates glare. Want a free site assessment?",
+          text: "We serve Salt Lake City businesses of all sizes — offices, retail, restaurants and more. Commercial film reduces energy costs by up to 30% and eliminates glare. Want a free site assessment?",
           btnText: 'Commercial Services →', btnHref: '/applications/offices'
         },
         {
           keys: ['safety','security','break','protect','storm'],
-          text: "Our safety and security film holds glass together during break-ins, storms and accidents. Used in schools, offices and homes across Philadelphia.",
+          text: "Our safety and security film holds glass together during break-ins, storms and accidents. Used in schools, offices and homes across Salt Lake City.",
           btnText: 'Safety Film Info →', btnHref: '/benefits/safety-and-security'
         },
         {
           keys: ['area','location','serve','near','coverage','city'],
-          text: "We serve all of Greater Philadelphia including: Center City, Main Line, Cherry Hill NJ, South Jersey, Montgomery, Bucks and Delaware Counties."
+          text: "We serve all of Greater Salt Lake City including: Center City, Main Line, Cherry Hill NJ, South Jersey, Montgomery, Bucks and Delaware Counties."
         },
         {
           keys: ['warranty','guarantee','lifetime','labor'],
@@ -386,20 +386,20 @@ const schemas = [
         },
         {
           keys: ['call','phone','contact'],
-          text: "You can reach us at:\n📞 (267) 394-7980\n✉ contact@windowfilmphiladelphia.net\nWe're available Mon-Sat 8am-6pm."
+          text: "You can reach us at:\n📞 (801) 895-4681\n✉ contact@windowfilmsaltlakecity.com\nWe're available Mon-Sat 8am-6pm."
         },
         {
           keys: ['decorative','frosted','privacy','pattern','design'],
           text: "Our decorative films include frosted, patterned and custom designs for offices, bathrooms, storefronts and more. Perfect for adding privacy without sacrificing light.",
-          btnText: 'View Options →', btnHref: '/benefits/privacy-window-film-philadelphia'
+          btnText: 'View Options →', btnHref: '/benefits/privacy-window-film-salt-lake-city'
         },
         {
           keys: ['uv','sun','heat','glare','energy'],
-          text: "Our window film blocks up to 99% of harmful UV rays, reduces heat by up to 78% and cuts glare by 85%. Perfect for Philadelphia's hot summers!"
+          text: "Our window film blocks up to 99% of harmful UV rays, reduces heat by up to 78% and cuts glare by 85%. Perfect for Salt Lake City's hot summers!"
         },
         {
           keys: ['hours','open','available','monday','time'],
-          text: "We're open Monday through Saturday, 8am to 6pm. For urgent matters call (267) 394-7980 or fill out our contact form anytime!"
+          text: "We're open Monday through Saturday, 8am to 6pm. For urgent matters call (801) 895-4681 or fill out our contact form anytime!"
         }
       ];
 
@@ -443,7 +443,7 @@ const schemas = [
             addBotMessage(responses[0].text);
             addCTA(responses[0].btnText, responses[0].btnHref);
           } else if (action === 'services') {
-            addBotMessage("We offer a full range of window film services for homes and businesses across Philadelphia:<br><br>• Residential Window Film<br>• Commercial & Office Film<br>• Safety & Security Film<br>• Decorative & Privacy Film<br>• Anti-Graffiti Film<br>• UV Protection<br><br>Which one interests you?");
+            addBotMessage("We offer a full range of window film services for homes and businesses across Salt Lake City:<br><br>• Residential Window Film<br>• Commercial & Office Film<br>• Safety & Security Film<br>• Decorative & Privacy Film<br>• Anti-Graffiti Film<br>• UV Protection<br><br>Which one interests you?");
           } else if (action === 'coverage') {
             addBotMessage(responses[4].text);
           } else if (action === 'call') {
@@ -465,7 +465,7 @@ const schemas = [
           }
         }
         if (!matched) {
-          addBotMessage("Thanks for your message! For detailed answers, call us at <strong>(267) 394-7980</strong> or fill out our <a href='/contact' target='_blank'>contact form</a>. We'll get back to you within 24 hours. 😊");
+          addBotMessage("Thanks for your message! For detailed answers, call us at <strong>(801) 895-4681</strong> or fill out our <a href='/contact' target='_blank'>contact form</a>. We'll get back to you within 24 hours. 😊");
         }
       }
 

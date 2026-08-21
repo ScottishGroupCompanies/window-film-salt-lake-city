@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-security-window-film-philadelphia-schools.jpg"
 imageAlt: "Guide to Security Window Film for Philadelphia Schools | Window Film Philadelphia"
 tags: ["security window film", "Philadelphia", "school security", "window film"]
 categories: ["school-security", "philadelphia"]
-draft: false
+draft: true
 ---
 
 Philadelphia schools face growing pressure to harden their campuses against threats ranging from forced entry to severe weather. Across the School District of Philadelphia, which serves more than 200,000 students across roughly 340 buildings, administrators are increasingly turning to security window film as a practical, budget-conscious layer of protection. Whether you manage a large public high school in Northeast Philly, a charter school in West Philly, or a private academy in Center City, security window film offers a proven way to slow intruders, hold broken glass in place, and give staff critical seconds during an emergency.

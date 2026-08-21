@@ -14,8 +14,8 @@ const { product } = Astro.props;
 const relatedProducts = products.filter((p) => product.relatedSlugs.includes(p.slug)).slice(0, 3);
 
 const title = `${product.name} | V-Kool ${product.series}`;
-const description = `${product.shortDescription} Authorized Solyx installer serving Philadelphia, Center City, and the surrounding region.`.slice(0, 155);
-const canonical = `https://windowfilmphiladelphia.net/products/v-kool/${product.slug}/`;
+const description = `${product.shortDescription} Authorized Solyx installer serving Salt Lake City, Center City, and the surrounding region.`.slice(0, 155);
+const canonical = `https://windowfilmsaltlakecity.com/products/v-kool/${product.slug}/`;
 
 const faqItems = [
   {
@@ -23,12 +23,12 @@ const faqItems = [
     answer: product.description.split('\n\n')[0].replace(/<[^>]+>/g, '')
   },
   {
-    question: `Where is ${product.name} film used in Philadelphia?`,
-    answer: product.description.split('\n\n')[1]?.replace(/<[^>]+>/g, '') || `${product.name} is used in Philadelphia offices, retail storefronts, healthcare facilities, and residential properties throughout Center City and surrounding neighborhoods.`
+    question: `Where is ${product.name} film used in Salt Lake City?`,
+    answer: product.description.split('\n\n')[1]?.replace(/<[^>]+>/g, '') || `${product.name} is used in Salt Lake City offices, retail storefronts, healthcare facilities, and residential properties throughout Center City and surrounding neighborhoods.`
   },
   {
-    question: `How is ${product.name} film installed in Philadelphia?`,
-    answer: `${product.name} film is applied to the interior glass surface by Window Film Philadelphia's authorized installation team. We assess glass type, dimensions, and application requirements before installation to ensure compatibility and long-term performance.`
+    question: `How is ${product.name} film installed in Salt Lake City?`,
+    answer: `${product.name} film is applied to the interior glass surface by Window Film Salt Lake City's authorized installation team. We assess glass type, dimensions, and application requirements before installation to ensure compatibility and long-term performance.`
   }
 ];
 
@@ -37,9 +37,9 @@ const pageSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://windowfilmphiladelphia.net/" },
-      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://windowfilmphiladelphia.net/products/" },
-      { "@type": "ListItem", "position": 3, "name": "V-Kool Window Film", "item": "https://windowfilmphiladelphia.net/products/v-kool/" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://windowfilmsaltlakecity.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://windowfilmsaltlakecity.com/products/" },
+      { "@type": "ListItem", "position": 3, "name": "V-Kool Window Film", "item": "https://windowfilmsaltlakecity.com/products/v-kool/" },
       { "@type": "ListItem", "position": 4, "name": product.name, "item": canonical }
     ]
   },
@@ -61,8 +61,8 @@ const pageSchemas = [
     "category": product.series,
     "offers": {
       "@type": "Offer",
-      "seller": { "@type": "LocalBusiness", "name": "Window Film Philadelphia" },
-      "areaServed": "Philadelphia, PA",
+      "seller": { "@type": "LocalBusiness", "name": "Window Film Salt Lake City" },
+      "areaServed": "Salt Lake City, UT",
       "availability": "https://schema.org/InStock"
     }
   }
@@ -77,7 +77,7 @@ const specEntries = Object.entries(product.specs).filter(([, v]) => v && v !== '
 
 <!-- ══ HERO ══ -->
 <section class="vkp-hero">
-  <div class="vkp-hero__bg" style={`background-image:url('${product.image}')`} role="img" aria-label={`${product.name} window film installed in Philadelphia`}></div>
+  <div class="vkp-hero__bg" style={`background-image:url('${product.image}')`} role="img" aria-label={`${product.name} window film installed in Salt Lake City`}></div>
   <div class="vkp-hero__overlay"></div>
   <div class="vkp-hero__content">
     <div class="vkp-hero__eyebrow">
@@ -95,9 +95,9 @@ const specEntries = Object.entries(product.specs).filter(([, v]) => v && v !== '
     </div>
     <div class="vkp-hero__ctas">
       <a href="/contact/" class="vkp-hero__btn-primary">Get a Free Quote</a>
-      <a href="tel:2673947980" class="vkp-hero__btn-secondary">
+      <a href="tel:8018954681" class="vkp-hero__btn-secondary">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" fill="currentColor"/></svg>
-        (267) 394-7980
+        (801) 895-4681
       </a>
     </div>
   </div>
@@ -111,8 +111,8 @@ const specEntries = Object.entries(product.specs).filter(([, v]) => v && v !== '
     <div class="vkp-overview__img-col">
       <img
         src={product.image}
-        alt={`${product.name} window film installed in Philadelphia`}
-        title={`${product.name} — Solyx ${product.series} — Window Film Philadelphia`}
+        alt={`${product.name} window film installed in Salt Lake City`}
+        title={`${product.name} — Solyx ${product.series} — Window Film Salt Lake City`}
         width="600" height="400"
         loading="lazy"
         class="vkp-overview__img"
@@ -140,7 +140,7 @@ const specEntries = Object.entries(product.specs).filter(([, v]) => v && v !== '
 <section class="vkp-benefits">
   <div class="vkp-benefits__inner">
     <span class="pp-eyebrow">Key Benefits</span>
-    <h2 class="vkp-benefits__title">Why specify {product.name} for Philadelphia glass</h2>
+    <h2 class="vkp-benefits__title">Why specify {product.name} for Salt Lake City glass</h2>
     <div class="vkp-benefits__grid">
       {product.benefits.map((b) => (
         <div class="vkp-benefits__card">
@@ -171,14 +171,14 @@ const specEntries = Object.entries(product.specs).filter(([, v]) => v && v !== '
         ))}
       </tbody>
     </table>
-    <p class="vkp-specs__note">Source: V-Kool product specifications (v-kool-usa.com). Contact Window Film Philadelphia for product-specific technical documentation.</p>
+    <p class="vkp-specs__note">Source: V-Kool product specifications (v-kool-usa.com). Contact Window Film Salt Lake City for product-specific technical documentation.</p>
   </div>
 </section>
 
 <!-- ══ APPLICATIONS ══ -->
 <section class="vkp-apps">
   <div class="vkp-apps__inner">
-    <h2 class="vkp-apps__title">Philadelphia Applications</h2>
+    <h2 class="vkp-apps__title">Salt Lake City Applications</h2>
     <div class="vkp-apps__grid">
       {product.categories.map((cat) => (
         <div class="vkp-apps__card">
@@ -249,13 +249,13 @@ const specEntries = Object.entries(product.specs).filter(([, v]) => v && v !== '
 <!-- ══ CTA ══ -->
 <section class="vkp-cta">
   <div class="vkp-cta__inner">
-    <h2 class="vkp-cta__title">Install {product.name} in Philadelphia</h2>
-    <p class="vkp-cta__sub">Window Film Philadelphia is an authorized V-Kool installer. Get a free assessment for your space — no obligation, just expert advice on the right film for your glass.</p>
+    <h2 class="vkp-cta__title">Install {product.name} in Salt Lake City</h2>
+    <p class="vkp-cta__sub">Window Film Salt Lake City is an authorized V-Kool installer. Get a free assessment for your space — no obligation, just expert advice on the right film for your glass.</p>
     <div class="vkp-cta__btns">
       <a href="/contact/" class="vkp-cta__btn vkp-cta__btn--primary">Get Your Free Estimate</a>
-      <a href="tel:2673947980" class="vkp-cta__btn vkp-cta__btn--secondary">
+      <a href="tel:8018954681" class="vkp-cta__btn vkp-cta__btn--secondary">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" fill="currentColor"/></svg>
-        (267) 394-7980
+        (801) 895-4681
       </a>
     </div>
   </div>

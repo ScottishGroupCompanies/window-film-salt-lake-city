@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-retail-hero.jpg"
 imageAlt: "Philadelphia retail storefront protected with security window film"
 tags: ["window film", "philadelphia", "security film", "commercial window film", "storefront security"]
-draft: false
+draft: true
 categories: ["safety-security", "philadelphia"]
 ---
 

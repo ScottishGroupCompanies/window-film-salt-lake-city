@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-does-heat-control-window-film-work-philadelphia-ho
 imageAlt: "Does Heat Control Window Film Work During Philadelphia’s Hottest Months? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "heat control", "energy savings"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 By late July, we can usually predict which Philadelphia rooms will feel miserable before we even walk in. It is the Center City conference room with glass on two sides that turns stuffy after lunch, the South Philly rowhome bedroom that holds heat until midnight, and the Fishtown storefront where the front windows look great for foot traffic but punish everyone standing near the glass. When clients ask us does heat control window film work, they are usually not asking for theory. They want to know whether the room will finally stop feeling like it has a radiator built into the window.

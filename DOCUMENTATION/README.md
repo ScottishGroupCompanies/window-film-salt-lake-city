@@ -8,7 +8,7 @@
 ## Quick Start
 
 ```bash
-cd ~/workspace/websites/new\ window\ film\ philadelphia
+cd ~/workspace/websites/new\ window\ film\ salt-lake-city
 npm run dev       # Dev server → localhost:4321
 npm run build     # Build → confirm 0 errors siempre
 git push          # Push a GitHub después de cada sesión
@@ -54,7 +54,7 @@ DOCUMENTATION/
 
 1. **Build passing siempre** — `npm run build` = 0 errores antes de cada commit
 2. **Mobile-first** — diseña para móvil, mejora para desktop
-3. **Copy en inglés** — el sitio es para Philadelphia
+3. **Copy en inglés** — el sitio es para Salt Lake City
 4. **No claims no verificados** — nada de "reduce 30%" sin fuente
 5. **Imágenes reales** — Mike Kinsey es una persona real, NO generar con IA
 6. **Precisión constante** — año: 2008, proyectos: 2,400+, rating: 4.9★, UV: 99%

@@ -1,4 +1,4 @@
-# Page Spec — Restaurant Window Film Philadelphia
+# Page Spec — Restaurant Window Film Salt Lake City
 **File:** `src/pages/applications/restaurants.astro`
 **URL:** `/applications/restaurants/`
 **CSS namespace:** `rt-` (new classes only — all `of-` CSS inherited from clone)
@@ -11,21 +11,21 @@
 
 | Field | Value |
 |---|---|
-| Meta title (≤60 chars) | `Restaurant Window Film for Philadelphia \| Comfort & Ambiance` |
-| Meta desc (≤160 chars) | `Restaurant window film for Philadelphia dining spaces — eliminate glare, cut energy costs, enhance ambiance. 3M Certified Dealer. Free consultation.` |
-| Canonical | `https://www.windowfilmphiladelphia.net/applications/restaurants/` |
-| Primary keyword | `restaurant window film for Philadelphia` |
-| H1 (≤60 chars) | `Restaurant Window Film for Philadelphia Dining` |
+| Meta title (≤60 chars) | `Restaurant Window Film for Salt Lake City \| Comfort & Ambiance` |
+| Meta desc (≤160 chars) | `Restaurant window film for Salt Lake City dining spaces — eliminate glare, cut energy costs, enhance ambiance. 3M Certified Dealer. Free consultation.` |
+| Canonical | `https://www.windowfilmsaltlakecity.com/applications/restaurants/` |
+| Primary keyword | `restaurant window film for Salt Lake City` |
+| H1 (≤60 chars) | `Restaurant Window Film for Salt Lake City Dining` |
 | Target density | 0.5–1% in visible body copy |
-| serviceName | `Restaurant Window Film Installation Philadelphia` |
-| serviceDesc | `Professional restaurant window film installation for Philadelphia dining establishments — reducing glare, improving energy efficiency, and enhancing ambiance.` |
-| serviceUrl | `https://www.windowfilmphiladelphia.net/applications/restaurants/` |
+| serviceName | `Restaurant Window Film Installation Salt Lake City` |
+| serviceDesc | `Professional restaurant window film installation for Salt Lake City dining establishments — reducing glare, improving energy efficiency, and enhancing ambiance.` |
+| serviceUrl | `https://www.windowfilmsaltlakecity.com/applications/restaurants/` |
 
 ### Internal links — contextual, NOT fixed
 | Section | Link | Anchor text |
 |---|---|---|
 | Glare benefit row | `/benefits/glare-reduction/` | `glare reduction window film` |
-| UV benefit row | `/benefits/uv-blocking-window-film-philadelphia/` | `UV-blocking window film` |
+| UV benefit row | `/benefits/uv-blocking-window-film-salt-lake-city/` | `UV-blocking window film` |
 | Energy benefit row | `/benefits/energy-savings/` | `energy savings` |
 | Privacy/decorative row | `/benefits/decorative-promotional/` | `decorative window film` |
 | Anti-graffiti slide | `/benefits/anti-graffiti/` | `anti-graffiti window film` |
@@ -65,11 +65,11 @@ Restaurants' top 4 concerns: (1) glare ruining dinner service, (2) energy costs,
 ## Sections
 
 ### 1. HERO
-- **H1 (≤60 chars):** `Restaurant Window Film for Philadelphia Dining`
-- **Eyebrow:** `Restaurant Window Film — Philadelphia`
+- **H1 (≤60 chars):** `Restaurant Window Film for Salt Lake City Dining`
+- **Eyebrow:** `Restaurant Window Film — Salt Lake City`
 - **FlipWords:** Fine Dining, Casual Bistros, Cafes, Bars & Lounges, BYOB Spots
-- **FlipWords sentence:** `Window film built for Philadelphia [FlipWords]`
-- **Subtitle:** Restaurant window film for Philadelphia dining spaces solves the #1 guest complaint — glare. Keep the view, lose the squint, and protect your investment in furnishings and ambiance.
+- **FlipWords sentence:** `Window film built for Salt Lake City [FlipWords]`
+- **Subtitle:** Restaurant window film for Salt Lake City dining spaces solves the #1 guest complaint — glare. Keep the view, lose the squint, and protect your investment in furnishings and ambiance.
 - **Stats:** 4 stats:
   - "Up to 79% heat reduction"
   - "99% UV rays blocked"
@@ -78,17 +78,17 @@ Restaurants' top 4 concerns: (1) glare ruining dinner service, (2) energy costs,
 - **Image:** `rt-hero.jpg` (1376×768)
 
 ### 2. TRUST BAR
-- Label: `Trusted by Philadelphia restaurants, cafes, and hospitality venues`
+- Label: `Trusted by Salt Lake City restaurants, cafes, and hospitality venues`
 
 ### 3. WHAT IS (of-whatis CSS)
-Include `restaurant window film for Philadelphia` naturally in body copy.
-- H2: `What Is Restaurant Window Film for Philadelphia?`
+Include `restaurant window film for Salt Lake City` naturally in body copy.
+- H2: `What Is Restaurant Window Film for Salt Lake City?`
 - 2 paragraphs: define what it is, what problems it solves for dining establishments
 - Internal link: mention glare reduction, link to `/benefits/glare-reduction/`
 - Image: `rt-whatis.jpg` (1376×768)
 
 ### 4. WHY / PROBLEM (of-why CSS, 4 problem cards)
-- H2: `Why Philadelphia Restaurants Need Window Film`
+- H2: `Why Salt Lake City Restaurants Need Window Film`
 - Problem 1: West-facing sunset glare during prime 5–8pm dinner service
 - Problem 2: HVAC running constantly — commercial kitchen heat + solar gain through glass
 - Problem 3: Expensive upholstery, artwork, and flooring fading from UV exposure
@@ -118,7 +118,7 @@ Include `restaurant window film for Philadelphia` naturally in body copy.
 
 **Row 2 — Energy Savings (text left)**
 - H2: `Cut Your HVAC Load Without Losing the Light`
-- 2 paragraphs: Restaurants are the most energy-intensive commercial building type per square foot (cite EIA); solar film cuts up to 79% of solar heat gain through glass; discuss HVAC load reduction near window walls and open kitchen areas; Philadelphia's summer heat index makes this especially impactful
+- 2 paragraphs: Restaurants are the most energy-intensive commercial building type per square foot (cite EIA); solar film cuts up to 79% of solar heat gain through glass; discuss HVAC load reduction near window walls and open kitchen areas; Salt Lake City's summer heat index makes this especially impactful
 - 3 bullets: Up to 79% solar heat rejection / Year-round benefit — Low-E films add winter insulation / Factors affecting savings: window orientation, glass area, existing HVAC capacity
 - Internal link: `energy savings` → `/benefits/energy-savings/`
 - External link: EIA commercial energy consumption data
@@ -131,9 +131,9 @@ Include `restaurant window film for Philadelphia` naturally in body copy.
 
 **Row 4 — UV Protection (text left)**
 - H2: `Protect Your Investment from the Sun's Hidden Damage`
-- 2 paragraphs: Restaurant furnishings — upholstered booths, artwork, hardwood floors — fade in as little as 6 months with direct sun exposure; 99% UV blocked by 3M Prestige series; cite EPA on UV radiation; extended life of expensive interior investments; mention Philadelphia's 200+ sunny days and south/west exposure on many historic rowhouse-converted restaurants
+- 2 paragraphs: Restaurant furnishings — upholstered booths, artwork, hardwood floors — fade in as little as 6 months with direct sun exposure; 99% UV blocked by 3M Prestige series; cite EPA on UV radiation; extended life of expensive interior investments; mention Salt Lake City's 200+ sunny days and south/west exposure on many historic rowhouse-converted restaurants
 - 3 bullets: 99% UV rays blocked — industry leading / Extends upholstery life 2–3× / Protects original artwork, wine labels on display, branded elements
-- Internal link: `UV-blocking window film` → `/benefits/uv-blocking-window-film-philadelphia/`
+- Internal link: `UV-blocking window film` → `/benefits/uv-blocking-window-film-salt-lake-city/`
 - External link: EPA UV Index page
 
 ### 8. FILM TYPES SLIDER (6 slides, 2752×1536 images)
@@ -144,7 +144,7 @@ Include `restaurant window film for Philadelphia` naturally in body copy.
 - Q1: Will solar film make my dining room feel dark or cave-like?
   A1: No — high-VLT films like 3M Prestige 70 transmit 70% of visible light while blocking up to 79% of solar heat. Your dining room keeps its bright, airy feel; guests near windows won't squint.
 - Q2: Our west-facing windows make the 5–8pm dinner rush unbearable. Can film fix that?
-  A2: That's the most common restaurant request we get in Philadelphia. Solar control film reduces glare by 70%+ — enough to eliminate guest complaints and keep west-facing booths fully occupied through sunset service.
+  A2: That's the most common restaurant request we get in Salt Lake City. Solar control film reduces glare by 70%+ — enough to eliminate guest complaints and keep west-facing booths fully occupied through sunset service.
 - Q3: Will the film affect how food looks? Colors matter in a dining room.
   A3: High-VLT films have a Color Rendering Index (CRI) above 90 for most 3M Prestige series — nearly identical to unfiltered glass. Plate presentation, table settings, and ambient lighting all look natural.
 
@@ -180,7 +180,7 @@ Include `restaurant window film for Philadelphia` naturally in body copy.
 **Slide 5 — Low-E Climate Control Film** (`rt-slider-lowe.jpg`)
 - Film name: Low-E / Thinsulate Series
 - Q1: Our building has old single-pane windows. Can film help with winter heating costs too?
-  A1: Yes — Low-E window film works year-round. It reflects heat back into the dining room in winter and blocks solar heat gain in summer. Philadelphia's cold winters and hot summers make Low-E films especially effective for restaurant buildings with original single-pane glass.
+  A1: Yes — Low-E window film works year-round. It reflects heat back into the dining room in winter and blocks solar heat gain in summer. Salt Lake City's cold winters and hot summers make Low-E films especially effective for restaurant buildings with original single-pane glass.
 - Q2: Our HVAC runs constantly near the window walls. Will film reduce that load?
   A2: Significantly. Solar control films cut solar heat gain through glass by up to 79%, directly reducing cooling load. For open kitchen layouts where heat and glass exposure combine, the impact on comfort is noticeable.
 - Q3: What's the difference between Low-E film and standard solar control film?
@@ -193,10 +193,10 @@ Include `restaurant window film for Philadelphia` naturally in body copy.
 - Q2: Does daylight film work for cafes that want a bright, airy feel?
   A2: Yes. DRF actually increases perceived brightness by distributing light more evenly. The room feels lighter than with clear glass at peak hours — popular in breakfast/brunch spots and cafes that depend on a welcoming morning atmosphere.
 - Q3: What does it look like from outside?
-  A3: DRF has a subtle, slightly matte appearance from the exterior — similar to a light frost. It doesn't look like a mirror or dark tint. On brick streetscapes in Philadelphia's historic neighborhoods, it's largely indistinguishable from the interior.
+  A3: DRF has a subtle, slightly matte appearance from the exterior — similar to a light frost. It doesn't look like a mirror or dark tint. On brick streetscapes in Salt Lake City's historic neighborhoods, it's largely indistinguishable from the interior.
 
 ### 9. CASE STUDY (of-project CSS)
-- **Location:** West Walnut Street between 18th and 19th, Rittenhouse Square, Philadelphia
+- **Location:** West Walnut Street between 18th and 19th, Rittenhouse Square, Salt Lake City
 - **Property:** 60-seat BYOB restaurant with a west-facing glass facade — prime sunset exposure during dinner service
 - **Challenge:** Intense sunset glare striking west-facing windows from 5–8pm — exactly prime dinner hours. Guests near the front windows were squinting and requesting table changes; the host team began pre-emptively seating parties away from the windows. Booth occupancy near the facade dropped significantly during evening service.
 - **Solution:** 3M Prestige 70 solar control film applied to all west-facing glazing — high VLT preserving the bright dining atmosphere while blocking 70%+ of glare and 79% of solar heat. 3M Fasara Umi frosted film applied to lower panels for street-level privacy without affecting upper-pane light quality.
@@ -208,7 +208,7 @@ Include `restaurant window film for Philadelphia` naturally in body copy.
 - `rt-gallery-1.jpg` — Fine dining room interior with filtered natural light through floor-to-ceiling windows
 - `rt-gallery-2.jpg` — Cafe counter with dual-zone frosted lower panels and clear upper glass
 - `rt-gallery-3.jpg` — Bar area with decorative branded glass, street view from outside at dusk
-- `rt-gallery-4.jpg` — Restaurant exterior with solar film installed, Philadelphia brick streetscape
+- `rt-gallery-4.jpg` — Restaurant exterior with solar film installed, Salt Lake City brick streetscape
 - `rt-gallery-5.jpg` — Private dining room partition created with 3M Fasara frosted film
 - `rt-gallery-6.jpg` — Comparison: harsh window glare vs. comfortable filtered dining environment
 - `rt-gallery-7.jpg` — Upholstered booth near window with well-preserved fabric colors, 12 months post-install
@@ -231,7 +231,7 @@ Case study PDFs FIRST, then spec sheets:
   - Image: `rt-testimonial-2.jpg` — candid: woman 40s behind a cafe host stand, welcoming expression, coffee display visible, natural light from windows nearby
 
 - **James R.** — Bar Manager, Old City restaurant & bar: *"Three years in and the film on our storefront still looks perfect. No scratches, no peeling. And we haven't had a single graffiti incident since we put the sacrificial layer on the street-level glass."*
-  - Image: `rt-testimonial-3.jpg` — candid: man 30s standing near large restaurant bar windows overlooking Philadelphia street, checking tablet, relaxed working pose
+  - Image: `rt-testimonial-3.jpg` — candid: man 30s standing near large restaurant bar windows overlooking Salt Lake City street, checking tablet, relaxed working pose
 
 ### 13. STATS BAR
 Restaurant-relevant stats:
@@ -241,27 +241,27 @@ Restaurant-relevant stats:
 - "47 reviews" 5-star rated
 
 ### 14. PROCESS (3 steps)
-- Step 1: **Site Assessment** — We visit your restaurant and assess window orientation, dining traffic patterns, and ambiance goals to recommend the right restaurant window film for Philadelphia dining spaces.
+- Step 1: **Site Assessment** — We visit your restaurant and assess window orientation, dining traffic patterns, and ambiance goals to recommend the right restaurant window film for Salt Lake City dining spaces.
 - Step 2: **Scheduling Around Your Hours** — Installation is scheduled outside peak service hours — early morning, late night, or dark days — to avoid any disruption to your dining room or staff.
 - Step 3: **Clean Installation & Cure** — Our technicians work quietly and efficiently, leaving zero mess. Film takes 24–48 hours to fully cure; dining resumes immediately.
 
 ### 15. NEIGHBORHOODS (8 areas)
-H2: `Restaurant Window Film Across Philadelphia's Dining Neighborhoods`
+H2: `Restaurant Window Film Across Salt Lake City's Dining Neighborhoods`
 - Old City — 2nd and 3rd Street restaurant row, historic brick buildings
 - Rittenhouse Square — upscale dining corridor, 18th–20th and Sansom
 - Fishtown — Frankford Avenue restaurant and bar scene
-- East Passyunk — BYOB corridor, South Philly's restaurant destination
+- East Passyunk — BYOB corridor, South Salt Lake's restaurant destination
 - Center City — Market and Chestnut Streets, office lunch trade
 - Northern Liberties — neighborhood bistros and cocktail bars
 - Graduate Hospital — neighborhood restaurants on South Street corridor
-- Italian Market / South Philly — 9th Street, family-owned dining institutions
+- Italian Market / South Salt Lake — 9th Street, family-owned dining institutions
 
 ### 16. FAQ (10 questions — no time/price claims)
 ```js
 const faqItems = [
   {
-    question: "What is restaurant window film for Philadelphia dining spaces?",
-    answer: "Restaurant window film for Philadelphia is a professionally applied polyester film that bonds directly to existing glass. It blocks solar heat, glare, and UV radiation while allowing natural light to pass through — improving comfort for diners, protecting furnishings, and reducing energy costs without altering the appearance of your space."
+    question: "What is restaurant window film for Salt Lake City dining spaces?",
+    answer: "Restaurant window film for Salt Lake City is a professionally applied polyester film that bonds directly to existing glass. It blocks solar heat, glare, and UV radiation while allowing natural light to pass through — improving comfort for diners, protecting furnishings, and reducing energy costs without altering the appearance of your space."
   },
   {
     question: "How does window film reduce glare in a restaurant?",
@@ -276,7 +276,7 @@ const faqItems = [
     answer: "Window film can reduce solar heat gain through glass by up to 79%, which directly cuts the cooling load on your HVAC system. Restaurants are among the most energy-intensive commercial buildings per square foot, and glass-exposed dining rooms are a significant contributor. The actual reduction in your energy bills depends on your window area, orientation, and existing HVAC setup."
   },
   {
-    question: "What decorative window film options are available for Philadelphia restaurants?",
+    question: "What decorative window film options are available for Salt Lake City restaurants?",
     answer: "3M Fasara decorative films are available in hundreds of patterns — from subtle frosted linen to bold geometric designs. Common restaurant applications include: frosted lower panels for street-level privacy, private dining room partitions, wine room glass, host stand dividers, and custom-cut branded films with logos or patterns. All apply without structural changes and remove cleanly."
   },
   {
@@ -292,11 +292,11 @@ const faqItems = [
     answer: "Window film may qualify for energy efficiency improvements under federal and state programs, depending on the type of film, your building's classification, and the current program year. We recommend consulting with your accountant or energy advisor about potential incentives. We provide installation documentation and product specifications to support any applicable claims."
   },
   {
-    question: "Can window film help with Philadelphia's noise from busy streets?",
+    question: "Can window film help with Salt Lake City's noise from busy streets?",
     answer: "Standard window film is not a noise control product — it doesn't add meaningful acoustic dampening. For restaurants on high-traffic corridors like South Street, Frankford Avenue, or Market Street, acoustic laminate glass or secondary glazing are more effective noise solutions. Window film addresses solar control, UV, and security — not sound transmission."
   },
   {
-    question: "How do I get restaurant window film installed in my Philadelphia dining space?",
+    question: "How do I get restaurant window film installed in my Salt Lake City dining space?",
     answer: "Contact us for a free on-site consultation. We'll assess your restaurant's window orientation, dining room layout, foot traffic patterns, and ambiance goals — then recommend the right film types and coverage for your specific space. We schedule installation around your service hours to avoid disrupting your dining room."
   }
 ];
@@ -305,41 +305,41 @@ const faqItems = [
 ### 17. GEO BLOCK
 ```html
 <div class="rt-geo" aria-hidden="true">
-  <p>Restaurant window film for Philadelphia dining establishments is available across Old City's 2nd and 3rd Street restaurant corridor, Rittenhouse Square's 18th–20th and Sansom dining district, Fishtown's Frankford Avenue, East Passyunk's BYOB corridor, and South Philadelphia's Italian Market on 9th Street. Professionally installed by a 3M Certified Dealer, our restaurant window film solutions include 3M Prestige 70 spectrally selective solar control film (TSER: 0.57, VLT: 70%, UV rejection: 99%), 3M Fasara decorative film for private dining partitions and branded glass, 3M Scotchshield Ultra S800 safety and security film (ANSI Z97.1 compliant, ASTM F1642 tested), and sacrificial anti-graffiti film for street-level facades. Philadelphia's 200+ annual sunny days and West-facing rowhouse-converted restaurant facades create significant solar load challenges during the 5–8pm dinner service window — the primary driver of restaurant window film adoption in the city.</p>
+  <p>Restaurant window film for Salt Lake City dining establishments is available across Old City's 2nd and 3rd Street restaurant corridor, Rittenhouse Square's 18th–20th and Sansom dining district, Fishtown's Frankford Avenue, East Passyunk's BYOB corridor, and South Salt Lake City's Italian Market on 9th Street. Professionally installed by a 3M Certified Dealer, our restaurant window film solutions include 3M Prestige 70 spectrally selective solar control film (TSER: 0.57, VLT: 70%, UV rejection: 99%), 3M Fasara decorative film for private dining partitions and branded glass, 3M Scotchshield Ultra S800 safety and security film (ANSI Z97.1 compliant, ASTM F1642 tested), and sacrificial anti-graffiti film for street-level facades. Salt Lake City's 200+ annual sunny days and West-facing rowhouse-converted restaurant facades create significant solar load challenges during the 5–8pm dinner service window — the primary driver of restaurant window film adoption in the city.</p>
   <dl>
-    <dt>What is restaurant window film for Philadelphia?</dt>
-    <dd>Restaurant window film for Philadelphia is a professionally applied polyester film that blocks solar heat, UV radiation, and glare through dining room glass. Installed by 3M Certified Dealers, it improves diner comfort, protects furnishings, and reduces HVAC energy costs in restaurants, cafes, bars, and food service venues throughout the Philadelphia metro area.</dd>
-    <dt>How much does restaurant window film cost in Philadelphia?</dt>
-    <dd>The cost of restaurant window film in Philadelphia depends on several factors: total glass area, film type selected (solar control, decorative, safety, or anti-graffiti), accessibility of windows, and the complexity of multi-film applications. Contact us for a free on-site assessment and detailed quote for your specific space.</dd>
-    <dt>Which Philadelphia neighborhoods have the most demand for restaurant window film?</dt>
-    <dd>The highest demand for restaurant window film in Philadelphia comes from Old City (historic rowhouse conversions with large street-facing glass), Rittenhouse Square (upscale dining with west-facing facades), and East Passyunk (the BYOB corridor with street-level dining). Fishtown and Northern Liberties have seen growing demand as the restaurant scenes there expanded.</dd>
-    <dt>What is the best window film for west-facing restaurant windows in Philadelphia?</dt>
+    <dt>What is restaurant window film for Salt Lake City?</dt>
+    <dd>Restaurant window film for Salt Lake City is a professionally applied polyester film that blocks solar heat, UV radiation, and glare through dining room glass. Installed by 3M Certified Dealers, it improves diner comfort, protects furnishings, and reduces HVAC energy costs in restaurants, cafes, bars, and food service venues throughout the Salt Lake City metro area.</dd>
+    <dt>How much does restaurant window film cost in Salt Lake City?</dt>
+    <dd>The cost of restaurant window film in Salt Lake City depends on several factors: total glass area, film type selected (solar control, decorative, safety, or anti-graffiti), accessibility of windows, and the complexity of multi-film applications. Contact us for a free on-site assessment and detailed quote for your specific space.</dd>
+    <dt>Which Salt Lake City neighborhoods have the most demand for restaurant window film?</dt>
+    <dd>The highest demand for restaurant window film in Salt Lake City comes from Old City (historic rowhouse conversions with large street-facing glass), Rittenhouse Square (upscale dining with west-facing facades), and East Passyunk (the BYOB corridor with street-level dining). Fishtown and Northern Liberties have seen growing demand as the restaurant scenes there expanded.</dd>
+    <dt>What is the best window film for west-facing restaurant windows in Salt Lake City?</dt>
     <dd>For west-facing restaurant windows experiencing sunset glare during dinner service, 3M Prestige 70 is the most commonly recommended film. It transmits 70% of visible light (preserving ambiance) while blocking 79% of solar heat and 99% of UV radiation. The high Color Rendering Index (CRI 90+) ensures plate presentation and interior lighting look natural.</dd>
     <dt>Does restaurant window film block the view from the dining room?</dt>
     <dd>High-VLT solar control films like 3M Prestige 70 are designed to preserve the view — guests can see clearly out; pedestrians see a very subtle tint from outside. Decorative films (frosted Fasara) are intentionally opaque where applied, typically on lower panels or partitions. Solar control films applied to full panes do not block the view in either direction.</dd>
   </dl>
   <ul>
-    <li>restaurant window film Philadelphia</li>
-    <li>restaurant window film for Philadelphia</li>
-    <li>Philadelphia restaurant window tinting</li>
-    <li>window film for Philadelphia restaurants</li>
-    <li>dining room window film Philadelphia</li>
-    <li>cafe window film Philadelphia</li>
-    <li>bar window film Philadelphia</li>
-    <li>Philadelphia restaurant glare reduction film</li>
-    <li>3M window film restaurant Philadelphia</li>
-    <li>decorative window film restaurant Philadelphia</li>
-    <li>anti-graffiti window film restaurant Philadelphia</li>
-    <li>solar control film Philadelphia restaurant</li>
-    <li>window tinting for restaurants Philadelphia PA</li>
-    <li>restaurant energy efficiency window film Philadelphia</li>
+    <li>restaurant window film Salt Lake City</li>
+    <li>restaurant window film for Salt Lake City</li>
+    <li>Salt Lake City restaurant window tinting</li>
+    <li>window film for Salt Lake City restaurants</li>
+    <li>dining room window film Salt Lake City</li>
+    <li>cafe window film Salt Lake City</li>
+    <li>bar window film Salt Lake City</li>
+    <li>Salt Lake City restaurant glare reduction film</li>
+    <li>3M window film restaurant Salt Lake City</li>
+    <li>decorative window film restaurant Salt Lake City</li>
+    <li>anti-graffiti window film restaurant Salt Lake City</li>
+    <li>solar control film Salt Lake City restaurant</li>
+    <li>window tinting for restaurants Salt Lake City PA</li>
+    <li>restaurant energy efficiency window film Salt Lake City</li>
   </ul>
 </div>
 ```
 CSS: `.rt-geo { display: none; }`
 
 ### 18. CTA
-- H2: `Ready to Upgrade Your Philadelphia Restaurant?`
+- H2: `Ready to Upgrade Your Salt Lake City Restaurant?`
 - Body: Stop losing tables to glare. Protect your investment in furnishings and ambiance. Schedule a free on-site assessment — we work around your service hours.
 - Image: `rt-cta-bg.jpg` (2752×1536)
 
@@ -348,36 +348,36 @@ CSS: `.rt-geo { display: none; }`
 ## Images (~29 total)
 | Filename | Size | Prompt |
 |---|---|---|
-| `rt-hero.jpg` | 1376×768 | Elegant Philadelphia restaurant exterior with floor-to-ceiling windows along a brick streetscape, late afternoon warm light, diners visible inside at tables, inviting atmosphere, architectural photography style |
+| `rt-hero.jpg` | 1376×768 | Elegant Salt Lake City restaurant exterior with floor-to-ceiling windows along a brick streetscape, late afternoon warm light, diners visible inside at tables, inviting atmosphere, architectural photography style |
 | `rt-whatis.jpg` | 1376×768 | Window film installer applying tint film to a large restaurant window interior, squeegee in hand, dining tables in background, natural light, candid documentary style |
 | `rt-why.jpg` | 1376×768 | Restaurant diners visibly squinting and shielding eyes from intense sunset glare through large west-facing windows, uncomfortable dining experience, realistic candid photography |
-| `rt-type-fine-dining.jpg` | 1376×768 | Upscale fine dining restaurant interior, white tablecloths, crystal glassware, large windows with soft filtered ambient light, elegant Philadelphia dining room |
-| `rt-type-casual.jpg` | 1376×768 | Busy casual neighborhood bistro interior, exposed brick, wood furniture, large street-facing windows, lively lunch crowd, Philadelphia neighborhood restaurant |
-| `rt-type-cafe.jpg` | 1376×768 | Cozy Philadelphia coffee shop with large window seating, barista behind counter, natural light through tinted windows, laptop workers and coffee drinkers |
-| `rt-type-bar.jpg` | 1376×768 | Trendy Philadelphia cocktail bar interior, amber lighting, bottles behind bar, street-level windows with frosted lower panels creating privacy, evening atmosphere |
-| `rt-glare.jpg` | 1376×768 | Restaurant dining room showing comfortable, evenly lit tables near large windows, diners relaxed without squinting, warm filtered natural light, Philadelphia interior |
-| `rt-energy.jpg` | 1376×768 | Commercial rooftop HVAC equipment above a Philadelphia restaurant building, energy efficiency concept, city skyline in background |
+| `rt-type-fine-dining.jpg` | 1376×768 | Upscale fine dining restaurant interior, white tablecloths, crystal glassware, large windows with soft filtered ambient light, elegant Salt Lake City dining room |
+| `rt-type-casual.jpg` | 1376×768 | Busy casual neighborhood bistro interior, exposed brick, wood furniture, large street-facing windows, lively lunch crowd, Salt Lake City neighborhood restaurant |
+| `rt-type-cafe.jpg` | 1376×768 | Cozy Salt Lake City coffee shop with large window seating, barista behind counter, natural light through tinted windows, laptop workers and coffee drinkers |
+| `rt-type-bar.jpg` | 1376×768 | Trendy Salt Lake City cocktail bar interior, amber lighting, bottles behind bar, street-level windows with frosted lower panels creating privacy, evening atmosphere |
+| `rt-glare.jpg` | 1376×768 | Restaurant dining room showing comfortable, evenly lit tables near large windows, diners relaxed without squinting, warm filtered natural light, Salt Lake City interior |
+| `rt-energy.jpg` | 1376×768 | Commercial rooftop HVAC equipment above a Salt Lake City restaurant building, energy efficiency concept, city skyline in background |
 | `rt-privacy.jpg` | 1376×768 | Elegant frosted glass partition in upscale restaurant creating intimate dining alcove, decorative geometric film pattern, warm ambient lighting, private dining feel |
 | `rt-uv.jpg` | 1376×768 | Restaurant booth with rich, well-preserved upholstery fabric near a sunlit window, vibrant colors showing no fading, warm natural light |
-| `rt-slider-solar.jpg` | 2752×1536 | Panoramic Philadelphia restaurant interior with floor-to-ceiling windows, warm filtered sunlight through solar control film, comfortable diners, wide cinematic format |
-| `rt-slider-privacy.jpg` | 2752×1536 | Wide Philadelphia restaurant scene with frosted decorative film on glass partitions and branded panels, intimate private dining rooms, warm atmosphere, wide format |
-| `rt-slider-security.jpg` | 2752×1536 | Restaurant storefront exterior at dusk, Philadelphia brick building, street-level security film on windows, urban commercial environment, wide cinematic format |
-| `rt-slider-antigraffiti.jpg` | 2752×1536 | Philadelphia restaurant street-level facade with clean glass despite urban pedestrian corridor, brick buildings and busy sidewalk, wide format |
-| `rt-slider-lowe.jpg` | 2752×1536 | Philadelphia restaurant exterior in winter, warm light glowing from inside dining room through energy-efficient windows, condensation-free glass, wide format |
-| `rt-slider-daylight.jpg` | 2752×1536 | Restaurant interior with soft diffused natural daylight across dining tables, no harsh shadows, bright airy morning atmosphere, Philadelphia cafe, wide cinematic format |
-| `rt-case-study.jpg` | 1376×768 | Upscale restaurant facade on a Philadelphia street at dusk, west-facing windows with subtle film visible, Rittenhouse Square neighborhood, warm evening light |
+| `rt-slider-solar.jpg` | 2752×1536 | Panoramic Salt Lake City restaurant interior with floor-to-ceiling windows, warm filtered sunlight through solar control film, comfortable diners, wide cinematic format |
+| `rt-slider-privacy.jpg` | 2752×1536 | Wide Salt Lake City restaurant scene with frosted decorative film on glass partitions and branded panels, intimate private dining rooms, warm atmosphere, wide format |
+| `rt-slider-security.jpg` | 2752×1536 | Restaurant storefront exterior at dusk, Salt Lake City brick building, street-level security film on windows, urban commercial environment, wide cinematic format |
+| `rt-slider-antigraffiti.jpg` | 2752×1536 | Salt Lake City restaurant street-level facade with clean glass despite urban pedestrian corridor, brick buildings and busy sidewalk, wide format |
+| `rt-slider-lowe.jpg` | 2752×1536 | Salt Lake City restaurant exterior in winter, warm light glowing from inside dining room through energy-efficient windows, condensation-free glass, wide format |
+| `rt-slider-daylight.jpg` | 2752×1536 | Restaurant interior with soft diffused natural daylight across dining tables, no harsh shadows, bright airy morning atmosphere, Salt Lake City cafe, wide cinematic format |
+| `rt-case-study.jpg` | 1376×768 | Upscale restaurant facade on a Salt Lake City street at dusk, west-facing windows with subtle film visible, Rittenhouse Square neighborhood, warm evening light |
 | `rt-gallery-1.jpg` | 1376×768 | Elegant fine dining room interior with floor-to-ceiling windows, soft filtered natural light, white tablecloths, no visible glare |
 | `rt-gallery-2.jpg` | 1376×768 | Cafe interior counter view, dual-zone frosted lower panels with clear glass above, barista working, bright open atmosphere |
-| `rt-gallery-3.jpg` | 1376×768 | Philadelphia bar with branded decorative window film, street view from outside at evening, amber interior glow |
-| `rt-gallery-4.jpg` | 1376×768 | Restaurant exterior with solar control film on large storefront windows, Philadelphia brick streetscape, daytime |
-| `rt-gallery-5.jpg` | 1376×768 | Private dining room with frosted Fasara film partition, intimate table setting, warm lighting, Philadelphia restaurant |
+| `rt-gallery-3.jpg` | 1376×768 | Salt Lake City bar with branded decorative window film, street view from outside at evening, amber interior glow |
+| `rt-gallery-4.jpg` | 1376×768 | Restaurant exterior with solar control film on large storefront windows, Salt Lake City brick streetscape, daytime |
+| `rt-gallery-5.jpg` | 1376×768 | Private dining room with frosted Fasara film partition, intimate table setting, warm lighting, Salt Lake City restaurant |
 | `rt-gallery-6.jpg` | 1376×768 | Restaurant booth near window, beautiful preserved upholstery in warm tones, natural light without harsh UV |
-| `rt-gallery-7.jpg` | 1376×768 | Wide angle of Philadelphia neighborhood BYOB restaurant interior, all tables occupied, comfortable filtered light through treated windows |
+| `rt-gallery-7.jpg` | 1376×768 | Wide angle of Salt Lake City neighborhood BYOB restaurant interior, all tables occupied, comfortable filtered light through treated windows |
 | `rt-resources.jpg` | 1376×768 | Technical specification sheets and case study documents on a desk with coffee cup, professional warm lighting, close-up |
 | `rt-testimonial-1.jpg` | 1024×1024 | Candid photo of a confident man in his 50s standing in an upscale restaurant dining room, arms relaxed, surrounded by set tables and ambient lighting, proud expression, real lifestyle photography, no studio backdrop |
 | `rt-testimonial-2.jpg` | 1024×1024 | Candid photo of a woman in her early 40s behind a cafe host stand, welcoming expression, coffee display and pastries visible behind her, natural window light, documentary style, real environment |
-| `rt-testimonial-3.jpg` | 1024×1024 | Candid photo of a bar manager in his early 30s standing near large restaurant windows overlooking a Philadelphia street, checking a tablet in hand, working pose, realistic lifestyle photography |
-| `rt-cta-bg.jpg` | 2752×1536 | Philadelphia restaurant district at golden hour, Old City cobblestone street with al fresco dining, couples and groups eating outside, warm amber light, wide panoramic cinematic format |
+| `rt-testimonial-3.jpg` | 1024×1024 | Candid photo of a bar manager in his early 30s standing near large restaurant windows overlooking a Salt Lake City street, checking a tablet in hand, working pose, realistic lifestyle photography |
+| `rt-cta-bg.jpg` | 2752×1536 | Salt Lake City restaurant district at golden hour, Old City cobblestone street with al fresco dining, couples and groups eating outside, warm amber light, wide panoramic cinematic format |
 
 ---
 
@@ -388,21 +388,21 @@ const pageSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.windowfilmphiladelphia.net/" },
-      { "@type": "ListItem", "position": 2, "name": "Applications", "item": "https://www.windowfilmphiladelphia.net/applications/" },
-      { "@type": "ListItem", "position": 3, "name": "Restaurant Window Film", "item": "https://www.windowfilmphiladelphia.net/applications/restaurants/" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.windowfilmsaltlakecity.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Applications", "item": "https://www.windowfilmsaltlakecity.com/applications/" },
+      { "@type": "ListItem", "position": 3, "name": "Restaurant Window Film", "item": "https://www.windowfilmsaltlakecity.com/applications/restaurants/" }
     ]
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://www.windowfilmphiladelphia.net/applications/restaurants/",
-    "name": "Restaurant Window Film for Philadelphia | Comfort & Ambiance",
-    "description": "Restaurant window film for Philadelphia dining spaces — eliminate glare, cut energy costs, enhance ambiance. 3M Certified Dealer. Free consultation.",
-    "url": "https://www.windowfilmphiladelphia.net/applications/restaurants/",
+    "@id": "https://www.windowfilmsaltlakecity.com/applications/restaurants/",
+    "name": "Restaurant Window Film for Salt Lake City | Comfort & Ambiance",
+    "description": "Restaurant window film for Salt Lake City dining spaces — eliminate glare, cut energy costs, enhance ambiance. 3M Certified Dealer. Free consultation.",
+    "url": "https://www.windowfilmsaltlakecity.com/applications/restaurants/",
     "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "https://www.windowfilmphiladelphia.net/images/rt-hero.jpg"
+      "url": "https://www.windowfilmsaltlakecity.com/images/rt-hero.jpg"
     },
     "speakable": {
       "@type": "SpeakableSpecification",
@@ -412,22 +412,22 @@ const pageSchemas = [
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Restaurant Window Film Solutions Philadelphia",
+    "name": "Restaurant Window Film Solutions Salt Lake City",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Solar Control Film", "description": "Reduces glare and solar heat for Philadelphia restaurant dining rooms — up to 79% heat rejection, 70%+ glare reduction." },
-      { "@type": "ListItem", "position": 2, "name": "Decorative & Privacy Film", "description": "3M Fasara frosted and patterned films for restaurant partitions, private dining rooms, and branded glass in Philadelphia." },
-      { "@type": "ListItem", "position": 3, "name": "Safety & Security Film", "description": "Holds glass together on breakage — protects diners and staff in Philadelphia restaurants from accident or forced entry." },
-      { "@type": "ListItem", "position": 4, "name": "Anti-Graffiti Film", "description": "Sacrificial surface protection for street-level Philadelphia restaurant and bar facades in high foot-traffic areas." },
-      { "@type": "ListItem", "position": 5, "name": "Low-E Climate Control Film", "description": "Year-round insulation for Philadelphia restaurant buildings with original single-pane windows." },
+      { "@type": "ListItem", "position": 1, "name": "Solar Control Film", "description": "Reduces glare and solar heat for Salt Lake City restaurant dining rooms — up to 79% heat rejection, 70%+ glare reduction." },
+      { "@type": "ListItem", "position": 2, "name": "Decorative & Privacy Film", "description": "3M Fasara frosted and patterned films for restaurant partitions, private dining rooms, and branded glass in Salt Lake City." },
+      { "@type": "ListItem", "position": 3, "name": "Safety & Security Film", "description": "Holds glass together on breakage — protects diners and staff in Salt Lake City restaurants from accident or forced entry." },
+      { "@type": "ListItem", "position": 4, "name": "Anti-Graffiti Film", "description": "Sacrificial surface protection for street-level Salt Lake City restaurant and bar facades in high foot-traffic areas." },
+      { "@type": "ListItem", "position": 5, "name": "Low-E Climate Control Film", "description": "Year-round insulation for Salt Lake City restaurant buildings with original single-pane windows." },
       { "@type": "ListItem", "position": 6, "name": "Daylight Redirecting Film", "description": "Distributes morning sunlight as soft diffused light across dining rooms — eliminates harsh shafts without darkening the space." }
     ]
   },
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Restaurant Window Film Installation Philadelphia",
-    "description": "Professional restaurant window film installation for Philadelphia dining establishments — reducing glare, improving energy efficiency, and enhancing ambiance.",
-    "brand": { "@type": "Brand", "name": "Window Film Philadelphia" },
+    "name": "Restaurant Window Film Installation Salt Lake City",
+    "description": "Professional restaurant window film installation for Salt Lake City dining establishments — reducing glare, improving energy efficiency, and enhancing ambiance.",
+    "brand": { "@type": "Brand", "name": "Window Film Salt Lake City" },
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
@@ -463,7 +463,7 @@ const pageSchemas = [
 
 ## Pre-Commit Checklist
 - [ ] Checker: 0 failures (59/59)
-- [ ] H1: ≤60 chars ("Restaurant Window Film for Philadelphia Dining" = 47 chars ✓)
+- [ ] H1: ≤60 chars ("Restaurant Window Film for Salt Lake City Dining" = 47 chars ✓)
 - [ ] Keyword density: 0.5–1% in visible body copy
 - [ ] Keyword in visible copy (not only GEO block)
 - [ ] Benefit rows: Glare, Energy, Privacy/Atmosphere, UV (NOT copied from office)
@@ -484,7 +484,7 @@ const pageSchemas = [
 
 ## Checker Command
 ```bash
-cd /Users/christianneaengenheyster/.openclaw/workspace/projects/window-film-philadelphia
+cd /Users/christianneaengenheyster/.openclaw/workspace/projects/window-film-salt-lake-city
 npm run build && node scripts/page-checker.cjs --slug restaurants --prefix rt
 ```
 Must show 0 failures before committing.

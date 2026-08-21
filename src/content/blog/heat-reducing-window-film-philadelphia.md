@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/office-window-film-philadelphia-hero.jpg"
 imageAlt: "Modern Philadelphia office with heat reducing window film on floor-to-ceiling windows, Center City skyline visible"
 tags: ["heat reducing window film", "philadelphia", "window film", "energy savings", "solar heat"]
-draft: false
+draft: true
 categories: ["energy-savings", "philadelphia"]
 ---
 

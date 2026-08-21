@@ -1,4 +1,4 @@
-# Window Film Philadelphia - Complete Image Audit Report
+# Window Film Salt Lake City - Complete Image Audit Report
 **Generated:** June 17, 2026  
 **Repository:** github.com/ScottishGroupCompanies/wfp-redesign  
 **Branch:** main
@@ -24,7 +24,7 @@
 
 ### 1. Hero Background Video
 - **File:** `src/pages/index.astro` (line 24)
-- **URL:** `https://res.cloudinary.com/deunehrew/video/upload/v1781724884/philadelphia-dramatic-sunset-aerial-panorama-dow-2026-01-22-02-38-52-utc_1_ijkuix.mp4`
+- **URL:** `https://res.cloudinary.com/deunehrew/video/upload/v1781724884/salt-lake-city-dramatic-sunset-aerial-panorama-dow-2026-01-22-02-38-52-utc_1_ijkuix.mp4`
 - **Section:** Hero video background (top of homepage)
 - **Size:** ~24 MB MP4
 - **Status:** ❌ NOT OPTIMIZED - Missing f_auto,q_auto
@@ -137,7 +137,7 @@
 ### Contact Form Section (1 image)
 **File:** `src/pages/index.astro`
 
-41. Line 789: Contact form Philadelphia skyline - `hf_20260617_211940_b453e15c-62c2-492c-9439-fb7e949a6eb9.jpeg`
+41. Line 789: Contact form Salt Lake City skyline - `hf_20260617_211940_b453e15c-62c2-492c-9439-fb7e949a6eb9.jpeg`
 
 ### Other CloudFront Images (9 images)
 **Files:** Various pages
@@ -165,7 +165,7 @@
 **File:** `src/pages/index.astro` (lines 84-109)
 - 3M, LLumar, Vista, Solar Gard, Huper Optik, Casper, C-Bond, Madico, HDClear, Hanita, Solyx, Graffiti Shield
 - All use `.webp` format
-- Pattern: `/images/2021-09-{brand}-window-film-philadelphia.webp`
+- Pattern: `/images/2021-09-{brand}-window-film-salt-lake-city.webp`
 
 ### What We Do Cards (4 images)
 **File:** `src/pages/index.astro`

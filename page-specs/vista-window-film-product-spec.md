@@ -5,36 +5,36 @@
 - **Slug:** `vista-window-film`
 - **URL:** `/products/vista-window-film/`
 - **CSS prefix:** `vt-`
-- **Primary KW:** `Vista window film Philadelphia` (target 0.5–1.5%)
-- **Secondary KW #1:** `Vista window tint in Philadelphia` — placement: intro section body
-- **Secondary KW #2:** `Vista film installer for Philadelphia` — placement: why section body
+- **Primary KW:** `Vista window film Salt Lake City` (target 0.5–1.5%)
+- **Secondary KW #1:** `Vista window tint in Salt Lake City` — placement: intro section body
+- **Secondary KW #2:** `Vista film installer for Salt Lake City` — placement: why section body
 - **External authority:** `https://www.llumar.com/en/coverage/architectural-film/vista-window-film/` ✅ 200, unused site-wide
 - **Note:** Vista is the premium architectural line of LLumar/Eastman — higher-end commercial focus
 
 ## Title / Description / H1
-- **Title:** `Vista Window Film Philadelphia | Premium Installer` (≤60 chars)
-- **Description:** `Vista window film Philadelphia — SpectraSelect solar control, low-e, dual-reflective privacy. Authorized Vista dealer, manufacturer warranty.` (≤160 chars)
-- **H1:** `Vista Window Film for Philadelphia` (≤60 chars, not identical to title)
+- **Title:** `Vista Window Film Salt Lake City | Premium Installer` (≤60 chars)
+- **Description:** `Vista window film Salt Lake City — SpectraSelect solar control, low-e, dual-reflective privacy. Authorized Vista dealer, manufacturer warranty.` (≤160 chars)
+- **H1:** `Vista Window Film for Salt Lake City` (≤60 chars, not identical to title)
 
 ## Product Lines (4 rows)
-1. **Vista SpectraSelect Series** — Premium spectrally selective solar control, near-neutral appearance, NFRC-rated, 99% UV block. Favored in historic and design-forward Philadelphia buildings.
+1. **Vista SpectraSelect Series** — Premium spectrally selective solar control, near-neutral appearance, NFRC-rated, 99% UV block. Favored in historic and design-forward Salt Lake City buildings.
 2. **Vista Low-E Series** — Year-round insulating film. Winter heat retention + summer solar rejection. Near-clear, ideal for rowhomes and single-pane glass.
 3. **Vista Dual Reflective Series** — Daytime exterior privacy + interior view preserved after dark. Popular in restaurants, hospitality, and conference rooms.
 4. **Vista SpectraSelect Safety** — Solar control + fragment retention in one film. Dual-purpose for schools, healthcare, and at-risk commercial glazing.
 
 ## Slider Topics
-- **Slide 1 (Residential):** Philadelphia rowhomes and condos — single-pane historic glass, Vista Low-E for year-round performance without window replacement
-- **Slide 2 (Commercial):** Philadelphia Class A offices, healthcare, and hospitality — SpectraSelect for premium solar control + neutral appearance
+- **Slide 1 (Residential):** Salt Lake City rowhomes and condos — single-pane historic glass, Vista Low-E for year-round performance without window replacement
+- **Slide 2 (Commercial):** Salt Lake City Class A offices, healthcare, and hospitality — SpectraSelect for premium solar control + neutral appearance
 
 ## Comparison Table Brands
 Vista SpectraSelect + LLumar ATC + 3M Prestige + Solar Gard Panorama + Huper Optik
 
 ## PDFs (5 files)
-1. `vista-window-film-solar-control-performance-specs-philadelphia.pdf`
-2. `vista-window-film-spectraselect-solar-safety-spec-philadelphia.pdf`
-3. `vista-window-film-dual-reflective-privacy-spec-philadelphia.pdf`
-4. `vista-window-film-low-e-energy-saving-residential-philadelphia.pdf`
-5. `vista-window-film-spectraselect-healthcare-case-study-philadelphia.pdf`
+1. `vista-window-film-solar-control-performance-specs-salt-lake-city.pdf`
+2. `vista-window-film-spectraselect-solar-safety-spec-salt-lake-city.pdf`
+3. `vista-window-film-dual-reflective-privacy-spec-salt-lake-city.pdf`
+4. `vista-window-film-low-e-energy-saving-residential-salt-lake-city.pdf`
+5. `vista-window-film-spectraselect-healthcare-case-study-salt-lake-city.pdf`
 
 ## Internal Links (place in Why section closing)
 1. `/benefits/energy-savings/` — energy savings window film
@@ -48,7 +48,7 @@ NFRC or Eastman/Vista manufacturer language. Format: `"[text]," according to [So
 - 71% — Max Heat Rejection (SpectraSelect)
 - 99% — UV Blocked
 - Lifetime — Residential Warranty
-- Zone 4A — Philadelphia climate
+- Zone 4A — Salt Lake City climate
 
 ## Testimonials (6 reviewers)
 1. Emily R. — Architect, Rittenhouse Square project (SpectraSelect aesthetics)
@@ -62,17 +62,17 @@ NFRC or Eastman/Vista manufacturer language. Format: `"[text]," according to [So
 Clear → Vista Low-E → Vista SS70 → Vista SS50 → Vista SS35 → Vista DR 25 → Vista DR 15
 
 ## Image Filenames
-- `vista-window-film-philadelphia-hero.jpg` (1376×768)
-- `vista-window-film-philadelphia-intro.jpg` (848×1264)
-- `vista-window-film-philadelphia-why.jpg` (848×1264)
-- `vista-window-film-philadelphia-residential.jpg` (2752×1536)
-- `vista-window-film-philadelphia-commercial.jpg` (2752×1536)
-- `vista-spectraselect-solar-control-window-film-philadelphia.jpg` (848×1264)
-- `vista-low-e-insulating-window-film-philadelphia.jpg` (848×1264)
-- `vista-dual-reflective-privacy-window-film-philadelphia.jpg` (848×1264)
-- `vista-spectraselect-safety-security-window-film-philadelphia.jpg` (848×1264)
-- `vista-window-film-philadelphia-casestudy.jpg` (1264×848)
-- `vista-tint-slider-philadelphia-room.jpg` (1376×768)
+- `vista-window-film-salt-lake-city-hero.jpg` (1376×768)
+- `vista-window-film-salt-lake-city-intro.jpg` (848×1264)
+- `vista-window-film-salt-lake-city-why.jpg` (848×1264)
+- `vista-window-film-salt-lake-city-residential.jpg` (2752×1536)
+- `vista-window-film-salt-lake-city-commercial.jpg` (2752×1536)
+- `vista-spectraselect-solar-control-window-film-salt-lake-city.jpg` (848×1264)
+- `vista-low-e-insulating-window-film-salt-lake-city.jpg` (848×1264)
+- `vista-dual-reflective-privacy-window-film-salt-lake-city.jpg` (848×1264)
+- `vista-spectraselect-safety-security-window-film-salt-lake-city.jpg` (848×1264)
+- `vista-window-film-salt-lake-city-casestudy.jpg` (1264×848)
+- `vista-tint-slider-salt-lake-city-room.jpg` (1376×768)
 - `vista-testimonial-emily-r.jpg` (1024×1024)
 - `vista-testimonial-james-b.jpg` (1024×1024)
 - `vista-testimonial-patricia-g.jpg` (1024×1024)

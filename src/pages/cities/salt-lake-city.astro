@@ -10,82 +10,82 @@ import ScrollReveal from '../../components/animations/ScrollReveal.astro';
 import InnerPageHero from '../../components/InnerPageHero.astro';
 import CategoryBlogFeed from '../../components/CategoryBlogFeed.astro';
 
-const title = 'Window Film Philadelphia PA | Window Film Contractor PA';
-const description = 'Window film installation in Philadelphia, PA — solar control, security, privacy, and decorative film. Free estimates, certified installers.';
+const title = 'Window Film Salt Lake City PA | Window Film Contractor PA';
+const description = 'Window film installation in Salt Lake City, UT — solar control, security, privacy, and decorative film. Free estimates, certified installers.';
 
 const filmBenefits = [
   {
     number: '01',
     title: 'Energy Savings',
-    detail: `<p>Philadelphia's dense brick rowhouse neighborhoods trap summer heat, pushing indoor temperatures well past 90°F on west-facing floors. Solar control film blocks up to <strong>78% of solar heat</strong> before it enters your space. South Philly and Fishtown rowhouses with west-facing glass can see interior temperature drops of 10–15°F on peak summer days.</p><ul><li>Reduces HVAC run time and cooling costs across Center City high-rises and rowhomes alike</li><li>Most Philadelphia homeowners see measurable bill reductions within the first summer</li><li>Low-E film also cuts winter heating loss through glass — year-round savings for the city's older building stock</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-energy.jpg',
-    imageAlt: 'Energy-saving window film in a Philadelphia PA rowhouse living room — natural light filtered, cooler interior',
+    detail: `<p>Salt Lake City's dense brick rowhouse neighborhoods trap summer heat, pushing indoor temperatures well past 90°F on west-facing floors. Solar control film blocks up to <strong>78% of solar heat</strong> before it enters your space. South Salt Lake and Fishtown rowhouses with west-facing glass can see interior temperature drops of 10–15°F on peak summer days.</p><ul><li>Reduces HVAC run time and cooling costs across Center City high-rises and rowhomes alike</li><li>Most Salt Lake City homeowners see measurable bill reductions within the first summer</li><li>Low-E film also cuts winter heating loss through glass — year-round savings for the city's older building stock</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-energy.jpg',
+    imageAlt: 'Energy-saving window film in a Salt Lake City PA rowhouse living room — natural light filtered, cooler interior',
   },
   {
     number: '02',
     title: 'UV Protection',
-    detail: `<p>Schuylkill and Delaware river humidity combined with intense summer sun accelerates UV damage to flooring, furniture, and artwork throughout Philadelphia. UV film blocks <strong>99% of UV-A and UV-B rays</strong> — the primary cause of fading in hardwood floors, rugs, drapes, and upholstery.</p><ul><li>Critical for healthcare facilities like Penn Medicine and Jefferson Health buildings</li><li>Optically clear — no visible tint, no impact on natural light or views</li><li>Reduces fading by up to 60% compared to unprotected glass</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-uv.jpg',
-    imageAlt: 'UV-blocking window film protecting a Philadelphia home interior from sun damage and fading',
+    detail: `<p>Schuylkill and Delaware river humidity combined with intense summer sun accelerates UV damage to flooring, furniture, and artwork throughout Salt Lake City. UV film blocks <strong>99% of UV-A and UV-B rays</strong> — the primary cause of fading in hardwood floors, rugs, drapes, and upholstery.</p><ul><li>Critical for healthcare facilities like Penn Medicine and Jefferson Health buildings</li><li>Optically clear — no visible tint, no impact on natural light or views</li><li>Reduces fading by up to 60% compared to unprotected glass</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-uv.jpg',
+    imageAlt: 'UV-blocking window film protecting a Salt Lake City home interior from sun damage and fading',
   },
   {
     number: '03',
     title: 'Privacy Film',
-    detail: `<p>Philadelphia's dense rowhouse layout puts homes and ground-floor offices in close view of pedestrians and neighboring properties across Center City, South Philly, and Northern Liberties. Privacy film solves this <strong>without sacrificing natural light</strong>.</p><ul><li>Rittenhouse Square condo buildings benefit from one-way reflective film that preserves skyline views</li><li>Frosted film for healthcare exam rooms, legal offices along Market Street, and conference rooms</li><li>Available in clear frosted, custom patterns, gradient, and branded designs — all fully removable</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-privacy.jpg',
-    imageAlt: 'Frosted privacy window film on a conference room partition in a Philadelphia PA office',
+    detail: `<p>Salt Lake City's dense rowhouse layout puts homes and ground-floor offices in close view of pedestrians and neighboring properties across Center City, South Salt Lake, and Northern Liberties. Privacy film solves this <strong>without sacrificing natural light</strong>.</p><ul><li>Rittenhouse Square condo buildings benefit from one-way reflective film that preserves skyline views</li><li>Frosted film for healthcare exam rooms, legal offices along Market Street, and conference rooms</li><li>Available in clear frosted, custom patterns, gradient, and branded designs — all fully removable</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-privacy.jpg',
+    imageAlt: 'Frosted privacy window film on a conference room partition in a Salt Lake City PA office',
   },
   {
     number: '04',
     title: 'Safety & Security',
-    detail: `<p>Philadelphia's property crime rate makes smash-and-grab a real risk for businesses across the city, from Center City retail corridors to neighborhood storefronts. Security film <strong>holds glass together on impact</strong>, significantly slowing forced entry.</p><ul><li>Prevents glass from shattering into shards during break-ins, accidents, or severe weather</li><li>Government and institutional facilities use security film to meet ANSI and GSA glass safety standards</li><li>Bomb blast mitigation configurations available for federal-standard secured facilities</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-safety.jpg',
-    imageAlt: 'Secure commercial building entrance in Philadelphia PA with safety and security window film on glass doors',
+    detail: `<p>Salt Lake City's property crime rate makes smash-and-grab a real risk for businesses across the city, from Center City retail corridors to neighborhood storefronts. Security film <strong>holds glass together on impact</strong>, significantly slowing forced entry.</p><ul><li>Prevents glass from shattering into shards during break-ins, accidents, or severe weather</li><li>Government and institutional facilities use security film to meet ANSI and GSA glass safety standards</li><li>Bomb blast mitigation configurations available for federal-standard secured facilities</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-safety.jpg',
+    imageAlt: 'Secure commercial building entrance in Salt Lake City PA with safety and security window film on glass doors',
   },
   {
     number: '05',
     title: 'Anti-Graffiti',
-    detail: `<p>Philadelphia's commercial corridors — from South Street to Broad Street to Frankford Avenue — see recurring glass etching and acid graffiti. Anti-graffiti film acts as a <strong>sacrificial layer</strong> — when tagged or etched, you replace the film, not the expensive glass panel.</p><ul><li>Each replacement costs a fraction of glass replacement</li><li>Most business owners recoup the initial film cost within 1–2 incidents prevented</li><li>Available in clear or lightly tinted versions — invisible protection</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-graffiti.jpg',
-    imageAlt: 'Clean commercial storefront glass in Philadelphia protected by anti-graffiti window film',
+    detail: `<p>Salt Lake City's commercial corridors — from South Street to Broad Street to Frankford Avenue — see recurring glass etching and acid graffiti. Anti-graffiti film acts as a <strong>sacrificial layer</strong> — when tagged or etched, you replace the film, not the expensive glass panel.</p><ul><li>Each replacement costs a fraction of glass replacement</li><li>Most business owners recoup the initial film cost within 1–2 incidents prevented</li><li>Available in clear or lightly tinted versions — invisible protection</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-graffiti.jpg',
+    imageAlt: 'Clean commercial storefront glass in Salt Lake City protected by anti-graffiti window film',
   },
   {
     number: '06',
     title: 'Glare Reduction',
-    detail: `<p>East- and west-facing rowhouse windows in Fishtown, Graduate Hospital, and Point Breeze create peak glare during morning and afternoon work hours. Glare reduction film filters up to <strong>85% of glare-causing visible light</strong> while preserving natural daylight.</p><ul><li>Center City conference rooms and open offices benefit immediately — screens and monitors become fully visible</li><li>Compatible with all glass types, including single-pane windows common in Philadelphia's older building stock</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-glare.jpg',
-    imageAlt: 'Philadelphia PA office worker at computer desk near window with no screen glare after window film installation',
+    detail: `<p>East- and west-facing rowhouse windows in Fishtown, Graduate Hospital, and Point Breeze create peak glare during morning and afternoon work hours. Glare reduction film filters up to <strong>85% of glare-causing visible light</strong> while preserving natural daylight.</p><ul><li>Center City conference rooms and open offices benefit immediately — screens and monitors become fully visible</li><li>Compatible with all glass types, including single-pane windows common in Salt Lake City's older building stock</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-glare.jpg',
+    imageAlt: 'Salt Lake City PA office worker at computer desk near window with no screen glare after window film installation',
   },
   {
     number: '07',
     title: 'Decorative Film',
-    detail: `<p>Philadelphia's booming restaurant, coworking, and hospitality scenes have created demand for decorative glass design across the city. Frosted, patterned, and gradient films create an <strong>etched-glass appearance at a fraction of the cost</strong>.</p><ul><li>Branded window graphics for Philadelphia businesses — logos, signage, and custom patterns</li><li>Ideal for healthcare waiting rooms in University City, law firm lobbies along Market Street, and school libraries</li><li>Fully removable without permanent modification to the glass</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-decorative.jpg',
-    imageAlt: 'Decorative frosted glass pattern on a partition wall in a Philadelphia PA office or lobby',
+    detail: `<p>Salt Lake City's booming restaurant, coworking, and hospitality scenes have created demand for decorative glass design across the city. Frosted, patterned, and gradient films create an <strong>etched-glass appearance at a fraction of the cost</strong>.</p><ul><li>Branded window graphics for Salt Lake City businesses — logos, signage, and custom patterns</li><li>Ideal for healthcare waiting rooms in University City, law firm lobbies along Market Street, and school libraries</li><li>Fully removable without permanent modification to the glass</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-decorative.jpg',
+    imageAlt: 'Decorative frosted glass pattern on a partition wall in a Salt Lake City PA office or lobby',
   },
   {
     number: '08',
     title: 'Solar Control',
-    detail: `<p>Solar control film is the broadest-purpose film we install in Philadelphia — addressing heat gain, glare, and UV in a single application for homes, offices, retail, and institutional properties.</p><ul><li>Spectrally selective options preserve natural light and views while rejecting significant solar heat — ideal for Center City glass towers</li><li>Ceramic films contain no metal — safe for buildings with Wi-Fi, cellular, and sensitive electronic equipment</li><li>NFRC-rated films available with documented VLT, SHGC, and TSER specs for LEED and energy code compliance</li></ul>`,
-    image: '/images/window-film-philadelphia-pa-film-solar.jpg',
-    imageAlt: 'Solar control window film on a modern Philadelphia commercial office building exterior',
+    detail: `<p>Solar control film is the broadest-purpose film we install in Salt Lake City — addressing heat gain, glare, and UV in a single application for homes, offices, retail, and institutional properties.</p><ul><li>Spectrally selective options preserve natural light and views while rejecting significant solar heat — ideal for Center City glass towers</li><li>Ceramic films contain no metal — safe for buildings with Wi-Fi, cellular, and sensitive electronic equipment</li><li>NFRC-rated films available with documented VLT, SHGC, and TSER specs for LEED and energy code compliance</li></ul>`,
+    image: '/images/window-film-salt-lake-city-pa-film-solar.jpg',
+    imageAlt: 'Solar control window film on a modern Salt Lake City commercial office building exterior',
   },
 ];
 
 const faqItems = [
-  { question: 'Can I install window film on my Philadelphia rowhouse without a permit?', answer: 'Yes — Pennsylvania does not require permits for architectural window film on residential or commercial properties. If your home is in a Philadelphia historic district (Society Hill, Old City, Germantown) or covered by an HOA, check for reflectivity restrictions in your district guidelines. We carry non-reflective and ceramic films that satisfy most historic preservation requirements, and we can help you navigate the approval process.' },
-  { question: 'What does window film cost for a typical Philadelphia home?', answer: 'Every property is different — a South Philly trinity with 8 windows has very different requirements than a Rittenhouse Square condo with floor-to-ceiling glass. Film type, glass area, accessibility, and number of panes all factor in. Rather than guess, we come to your property, measure the glass, assess sun exposure, and provide a written estimate at no cost. No pressure, no charge.' },
+  { question: 'Can I install window film on my Salt Lake City rowhouse without a permit?', answer: 'Yes — Utah does not require permits for architectural window film on residential or commercial properties. If your home is in a Salt Lake City historic district (Society Hill, Old City, Germantown) or covered by an HOA, check for reflectivity restrictions in your district guidelines. We carry non-reflective and ceramic films that satisfy most historic preservation requirements, and we can help you navigate the approval process.' },
+  { question: 'What does window film cost for a typical Salt Lake City home?', answer: 'Every property is different — a South Salt Lake trinity with 8 windows has very different requirements than a Rittenhouse Square condo with floor-to-ceiling glass. Film type, glass area, accessibility, and number of panes all factor in. Rather than guess, we come to your property, measure the glass, assess sun exposure, and provide a written estimate at no cost. No pressure, no charge.' },
   { question: 'How do you handle installations in Center City high-rise buildings?', answer: 'High-rise work requires coordination with building management, loading dock access, and sometimes after-hours scheduling. We have experience with Center City office towers and residential buildings — we handle logistics, protect flooring and furnishings, and work within building rules. During your consultation we assess access, glass type (curtain wall vs. operable windows), and any building-specific requirements.' },
   { question: 'Which film brands do you install and what warranties do they carry?', answer: 'We install 3M, LLumar, Vista, Solar Gard, Huper Optik, Madico, and Solyx — all with manufacturer warranties covering peeling, bubbling, delamination, and color shift. Coverage periods range from 10 years to lifetime depending on the product line and whether the installation is residential or commercial. We walk you through the specific warranty for your chosen film before we start.' },
-  { question: 'Will solar control film actually make a difference in Philadelphia\'s summer heat?', answer: 'Philadelphia regularly hits 87-93°F in July with 65-70% humidity, and brick rowhouse construction amplifies that. High-performance solar control film blocks up to 85% of solar heat gain through glass — the DOE reports that windows account for 25-30% of a building\'s heating and cooling energy loss. Most Philadelphia clients see cooling cost reductions of 20-30% in the first summer after installation.' },
-  { question: 'Does window film protect the original hardwood floors in older Philadelphia homes?', answer: 'Yes — this is one of the most common reasons Philadelphia homeowners call us. The city\'s housing stock is full of 19th and early 20th century homes with original old-growth pine and oak floors. UV film blocks 99% of UV-A and UV-B rays, which are the primary cause of fading. Clear UV-blocking film is invisible — you keep your natural light and views while protecting floors, artwork, and furniture.' },
-  { question: 'I\'m renting — can I still get window film installed?', answer: 'Absolutely. Window film is fully removable with heat and a mild adhesive solvent — no scratches, no residue, no permanent change to the glass. Many of our Philadelphia clients are renters in Center City and University City apartments who want heat reduction or privacy without modifying the unit permanently. When you move out, the film can be professionally removed.' },
-  { question: 'Is window film worth it in Philadelphia winters or only in summer?', answer: 'Both seasons. Solar control film handles summer heat gain, and low-emissivity (low-e) films also reflect interior heat back into the room during winter — the same principle as Low-E glass. Philadelphia January temperatures regularly drop into the 20s°F. Combined summer and winter performance can cut total HVAC energy use by 5-15% across the year.' },
-  { question: 'What\'s the right film for a street-facing rowhouse window in South Philly?', answer: 'It depends on your goals. If afternoon sun is the problem, ceramic solar control film rejects heat without darkening the glass. If pedestrians can see directly into your living space, one-way reflective film gives daytime privacy while preserving your outward view. For bathroom or basement windows, frosted decorative film provides permanent privacy. Many South Philly clients layer solar film on upper floors and privacy film on ground-floor street-facing windows.' },
-  { question: 'Do you install anti-graffiti film on storefronts along Frankford Avenue and South Street?', answer: 'Yes — anti-graffiti film is one of our most-requested commercial products in Philadelphia\'s restaurant and retail corridors. It\'s a clear sacrificial layer: when glass gets scratched or tagged, we peel off the damaged film and apply a new sheet — a fraction of what glass replacement costs. South Street, Frankford Avenue, and Broad Street corridor merchants use it specifically because vandalism is a recurring expense.' },
-  { question: 'Will window film crack my older Philadelphia windows?', answer: 'No, when the correct film is matched to the glass type. Many Philadelphia rowhouses have single-pane glass, which requires different film specs than double-pane insulated units. For sealed IGUs we use films rated to prevent thermal stress cracking. Our installers inspect the glass and verify compatibility before applying anything. Major glass manufacturers do not void warranties when an IGU-rated film is properly installed.' },
-  { question: 'Are there PECO or Pennsylvania rebates available for window film?', answer: 'The federal Inflation Reduction Act Section 25C tax credit covers qualifying energy-efficient window treatments up to $1,200 per year for eligible residential projects. PECO and other Pennsylvania utility programs sometimes offer commercial efficiency incentives. We recommend checking current program availability with your utility and consulting a tax professional to confirm eligibility based on your film specification and property type.' },
-  { question: 'Do you serve all of Philadelphia County?', answer: 'Yes — from the Delaware River waterfront to the Schuylkill, from South Philly to Chestnut Hill to Manayunk. We offer free on-site consultations anywhere in Philadelphia County and throughout the Delaware Valley. We assess your windows, sun exposure, and goals, then provide a detailed written estimate at no charge.' },
+  { question: 'Will solar control film actually make a difference in Salt Lake City\'s summer heat?', answer: 'Salt Lake City regularly hits 87-93°F in July with 65-70% humidity, and brick rowhouse construction amplifies that. High-performance solar control film blocks up to 85% of solar heat gain through glass — the DOE reports that windows account for 25-30% of a building\'s heating and cooling energy loss. Most Salt Lake City clients see cooling cost reductions of 20-30% in the first summer after installation.' },
+  { question: 'Does window film protect the original hardwood floors in older Salt Lake City homes?', answer: 'Yes — this is one of the most common reasons Salt Lake City homeowners call us. The city\'s housing stock is full of 19th and early 20th century homes with original old-growth pine and oak floors. UV film blocks 99% of UV-A and UV-B rays, which are the primary cause of fading. Clear UV-blocking film is invisible — you keep your natural light and views while protecting floors, artwork, and furniture.' },
+  { question: 'I\'m renting — can I still get window film installed?', answer: 'Absolutely. Window film is fully removable with heat and a mild adhesive solvent — no scratches, no residue, no permanent change to the glass. Many of our Salt Lake City clients are renters in Center City and University City apartments who want heat reduction or privacy without modifying the unit permanently. When you move out, the film can be professionally removed.' },
+  { question: 'Is window film worth it in Salt Lake City winters or only in summer?', answer: 'Both seasons. Solar control film handles summer heat gain, and low-emissivity (low-e) films also reflect interior heat back into the room during winter — the same principle as Low-E glass. Salt Lake City January temperatures regularly drop into the 20s°F. Combined summer and winter performance can cut total HVAC energy use by 5-15% across the year.' },
+  { question: 'What\'s the right film for a street-facing rowhouse window in South Salt Lake?', answer: 'It depends on your goals. If afternoon sun is the problem, ceramic solar control film rejects heat without darkening the glass. If pedestrians can see directly into your living space, one-way reflective film gives daytime privacy while preserving your outward view. For bathroom or basement windows, frosted decorative film provides permanent privacy. Many South Salt Lake clients layer solar film on upper floors and privacy film on ground-floor street-facing windows.' },
+  { question: 'Do you install anti-graffiti film on storefronts along Frankford Avenue and South Street?', answer: 'Yes — anti-graffiti film is one of our most-requested commercial products in Salt Lake City\'s restaurant and retail corridors. It\'s a clear sacrificial layer: when glass gets scratched or tagged, we peel off the damaged film and apply a new sheet — a fraction of what glass replacement costs. South Street, Frankford Avenue, and Broad Street corridor merchants use it specifically because vandalism is a recurring expense.' },
+  { question: 'Will window film crack my older Salt Lake City windows?', answer: 'No, when the correct film is matched to the glass type. Many Salt Lake City rowhouses have single-pane glass, which requires different film specs than double-pane insulated units. For sealed IGUs we use films rated to prevent thermal stress cracking. Our installers inspect the glass and verify compatibility before applying anything. Major glass manufacturers do not void warranties when an IGU-rated film is properly installed.' },
+  { question: 'Are there PECO or Utah rebates available for window film?', answer: 'The federal Inflation Reduction Act Section 25C tax credit covers qualifying energy-efficient window treatments up to $1,200 per year for eligible residential projects. PECO and other Utah utility programs sometimes offer commercial efficiency incentives. We recommend checking current program availability with your utility and consulting a tax professional to confirm eligibility based on your film specification and property type.' },
+  { question: 'Do you serve all of Salt Lake City County?', answer: 'Yes — from the Delaware River waterfront to the Schuylkill, from South Salt Lake to Chestnut Hill to Manayunk. We offer free on-site consultations anywhere in Salt Lake City County and throughout the Delaware Valley. We assess your windows, sun exposure, and goals, then provide a detailed written estimate at no charge.' },
 ];
 
 const today = new Date().toISOString().slice(0, 10);
@@ -93,58 +93,58 @@ const pageSchemas = [
   {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    '@id': 'https://windowfilmphiladelphia.net/cities/philadelphia/#breadcrumb',
+    '@id': 'https://windowfilmsaltlakecity.com/cities/salt-lake-city/#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Cities We Serve', item: 'https://windowfilmphiladelphia.net/cities/' },
-      { '@type': 'ListItem', position: 3, name: 'Window Film Philadelphia PA', item: 'https://windowfilmphiladelphia.net/cities/philadelphia/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Cities We Serve', item: 'https://windowfilmsaltlakecity.com/cities/' },
+      { '@type': 'ListItem', position: 3, name: 'Window Film Salt Lake City PA', item: 'https://windowfilmsaltlakecity.com/cities/salt-lake-city/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://windowfilmphiladelphia.net/cities/philadelphia/#webpage',
-    url: 'https://windowfilmphiladelphia.net/cities/philadelphia/',
+    '@id': 'https://windowfilmsaltlakecity.com/cities/salt-lake-city/#webpage',
+    url: 'https://windowfilmsaltlakecity.com/cities/salt-lake-city/',
     name: title,
     description: description,
     inLanguage: 'en-US',
-    isPartOf: { '@id': 'https://windowfilmphiladelphia.net/#website' },
-    about: { '@type': 'City', name: 'Philadelphia', containedInPlace: { '@type': 'State', name: 'Pennsylvania' } },
+    isPartOf: { '@id': 'https://windowfilmsaltlakecity.com/#website' },
+    about: { '@type': 'City', name: 'Salt Lake City', containedInPlace: { '@type': 'State', name: 'Utah' } },
     dateModified: today,
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['.ph-hero__subtitle', '.faq__a-inner p'],
     },
-    breadcrumb: { '@id': 'https://windowfilmphiladelphia.net/cities/philadelphia/#breadcrumb' },
+    breadcrumb: { '@id': 'https://windowfilmsaltlakecity.com/cities/salt-lake-city/#breadcrumb' },
   },
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="https://windowfilmphiladelphia.net/cities/philadelphia/" faqItems={faqItems} schemas={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="https://windowfilmsaltlakecity.com/cities/salt-lake-city/" faqItems={faqItems} schemas={pageSchemas}>
 
 <!-- ══ HERO ══ -->
 <section class="ph-hero">
   <div class="ph-hero__overlay"></div>
   <div class="ph-hero__container">
-    <div class="ph-hero__label">WINDOW FILM INSTALLATION &middot; PHILADELPHIA, PA</div>
+    <div class="ph-hero__label">WINDOW FILM INSTALLATION &middot; SALT LAKE CITY, UT</div>
     <div class="ph-hero__content">
-      <h1 class="ph-hero__title">Window Film in Philadelphia<br/>&mdash; Pennsylvania's Best</h1>
-      <p class="ph-hero__subtitle">Professional residential and commercial window film installation in Philadelphia, PA and throughout the Delaware Valley. Window film for Philadelphia homes and businesses — free estimates, certified installers, manufacturer warranties.</p>
+      <h1 class="ph-hero__title">Window Film in Salt Lake City<br/>&mdash; Utah's Best</h1>
+      <p class="ph-hero__subtitle">Professional residential and commercial window film installation in Salt Lake City, UT and throughout the Delaware Valley. Window film for Salt Lake City homes and businesses — free estimates, certified installers, manufacturer warranties.</p>
       <div class="ph-hero__buttons">
         <a href="/contact/" class="btn-hero btn-hero--primary">Get Your Free Estimate &rarr;</a>
-        <a href="tel:+12673947980" class="btn-hero btn-hero--secondary">Call (267) 394-7980</a>
+        <a href="tel:+18018954681" class="btn-hero btn-hero--secondary">Call (801) 895-4681</a>
       </div>
     </div>
     <div class="ph-hero__bottom">
-      <div class="ph-hero__tagline">Trusted by Philadelphia homeowners and businesses since 2008.</div>
+      <div class="ph-hero__tagline">Trusted by Salt Lake City homeowners and businesses since 2008.</div>
       <div class="ph-hero__stats">
         <div class="hero-stat-item">
           <div class="hero-stat-item__number" data-count="18">0</div>
-          <div class="hero-stat-item__label">Years Serving Greater Philadelphia</div>
+          <div class="hero-stat-item__label">Years Serving Greater Salt Lake City</div>
         </div>
         <div class="hero-stat-item">
           <div class="hero-stat-item__number" data-count="2000">0</div>
-          <div class="hero-stat-item__label">Philadelphia Area Installs</div>
+          <div class="hero-stat-item__label">Salt Lake City Area Installs</div>
         </div>
         <div class="hero-stat-item">
           <div class="hero-stat-item__number" data-count="99">0</div>
@@ -165,8 +165,8 @@ const pageSchemas = [
 
     <div class="ph-why__image-wrap">
       <img
-        src="/images/window-film-philadelphia-pa-urban-heat.jpg"
-        alt="Philadelphia skyline and rowhouse neighborhoods along the Schuylkill and Delaware Rivers — Philadelphia's summer heat and humidity make window film essential" title="Philadelphia skyline and rowhouse neighborhoods along the Schuylkill and Delaware Rivers — Philadelphia's summer heat and humidity make window film essential"
+        src="/images/window-film-salt-lake-city-pa-urban-heat.jpg"
+        alt="Salt Lake City skyline and rowhouse neighborhoods along the Schuylkill and Delaware Rivers — Salt Lake City's summer heat and humidity make window film essential" title="Salt Lake City skyline and rowhouse neighborhoods along the Schuylkill and Delaware Rivers — Salt Lake City's summer heat and humidity make window film essential"
         class="ph-why__image"
         loading="lazy"
       />
@@ -184,20 +184,20 @@ const pageSchemas = [
     </div>
 
     <div class="ph-why__content">
-      <div class="ph-why__eyebrow">Philadelphia Climate & Context</div>
-      <h2 class="line-mask ph-why__headline" data-stagger="140" aria-label="Philadelphia's Brick Rowhouse Heat Problem">
-        <span class="line-mask__line" aria-hidden="true"><span class="line-mask__inner" style="--i:0">Philadelphia's Brick</span></span>
+      <div class="ph-why__eyebrow">Salt Lake City Climate & Context</div>
+      <h2 class="line-mask ph-why__headline" data-stagger="140" aria-label="Salt Lake City's Brick Rowhouse Heat Problem">
+        <span class="line-mask__line" aria-hidden="true"><span class="line-mask__inner" style="--i:0">Salt Lake City's Brick</span></span>
         <span class="line-mask__line" aria-hidden="true"><span class="line-mask__inner" style="--i:1">Rowhouse Heat Problem</span></span>
       </h2>
-      <p class="ph-why__intro">Philadelphia's building stock — predominantly brick rowhouses built in the 19th and early 20th century — absorbs and retains solar heat far more efficiently than newer construction. July averages hit 87°F, but surface temperatures on south-facing brick facades in South Philly and North Philadelphia can climb 20° higher. The <a href="https://www.epa.gov/heatislands" target="_blank" rel="noopener noreferrer" style="color:#7CB342">EPA classifies Philadelphia as an urban heat island</a>, meaning dense masonry and limited tree canopy trap heat long after sunset. Add in the Schuylkill and Delaware River humidity, and second-floor rooms with west-facing glass become routinely unbearable by mid-July. That's before considering the smash-and-grab risk that comes with any major city — security film accounts for nearly a third of our Philadelphia installs.</p>
+      <p class="ph-why__intro">Salt Lake City's building stock — predominantly brick rowhouses built in the 19th and early 20th century — absorbs and retains solar heat far more efficiently than newer construction. July averages hit 87°F, but surface temperatures on south-facing brick facades in South Salt Lake and North Salt Lake City can climb 20° higher. The <a href="https://www.epa.gov/heatislands" target="_blank" rel="noopener noreferrer" style="color:#7CB342">EPA classifies Salt Lake City as an urban heat island</a>, meaning dense masonry and limited tree canopy trap heat long after sunset. Add in the Schuylkill and Delaware River humidity, and second-floor rooms with west-facing glass become routinely unbearable by mid-July. That's before considering the smash-and-grab risk that comes with any major city — security film accounts for nearly a third of our Salt Lake City installs.</p>
       <ul class="ph-why__bullets">
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Brick rowhouse construction across South Philly, Fishtown, and Graduate Hospital means walls radiate stored heat into interior spaces well past sunset — solar control film cuts that gain by up to 78%
+          Brick rowhouse construction across South Salt Lake, Fishtown, and Graduate Hospital means walls radiate stored heat into interior spaces well past sunset — solar control film cuts that gain by up to 78%
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Philadelphia's tree canopy covers only about 20% of the city — well below the 30% benchmark — leaving rowhouse blocks exposed to direct sun with no natural shade to buffer heat
+          Salt Lake City's tree canopy covers only about 20% of the city — well below the 30% benchmark — leaving rowhouse blocks exposed to direct sun with no natural shade to buffer heat
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -207,7 +207,7 @@ const pageSchemas = [
       <div class="ph-why__climate-facts">
         <div class="ph-why__climate-item">
           <span class="ph-why__climate-num">87°F</span>
-          <span class="ph-why__climate-label"><a href="https://www.weather.gov/phi/" target="_blank" rel="noopener noreferrer" style="color:#7CB342">NWS Philadelphia — avg July high</a></span>
+          <span class="ph-why__climate-label"><a href="https://www.weather.gov/phi/" target="_blank" rel="noopener noreferrer" style="color:#7CB342">NWS Salt Lake City — avg July high</a></span>
         </div>
         <div class="ph-why__climate-item">
           <span class="ph-why__climate-num">20%</span>
@@ -218,9 +218,9 @@ const pageSchemas = [
           <span class="ph-why__climate-label">Relative humidity in peak summer months</span>
         </div>
       </div>
-      <p class="ph-why__closing">Since 2008, Window Film Philadelphia has worked in neighborhoods from Society Hill to Manayunk — installing <a href="/benefits/energy-savings/" style="color:#7CB342">solar control</a>, <a href="/benefits/safety-and-security/" style="color:#7CB342">security</a>, <a href="/benefits/privacy-window-film-philadelphia/" style="color:#7CB342">privacy</a>, and <a href="/benefits/decorative-promotional/" style="color:#7CB342">decorative film</a> with certified technicians and manufacturer-backed warranties on every installation.</p>
+      <p class="ph-why__closing">Since 2008, Window Film Salt Lake City has worked in neighborhoods from Society Hill to Manayunk — installing <a href="/benefits/energy-savings/" style="color:#7CB342">solar control</a>, <a href="/benefits/safety-and-security/" style="color:#7CB342">security</a>, <a href="/benefits/privacy-window-film-salt-lake-city/" style="color:#7CB342">privacy</a>, and <a href="/benefits/decorative-promotional/" style="color:#7CB342">decorative film</a> with certified technicians and manufacturer-backed warranties on every installation.</p>
       <a href="/contact/" class="ph-why__cta">
-        Get a free Philadelphia assessment
+        Get a free Salt Lake City assessment
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
       </a>
     </div>
@@ -232,26 +232,26 @@ const pageSchemas = [
 <section class="ph-expert">
   <div class="ph-expert__container">
     <div class="ph-expert__content">
-      <p class="ph-expert__eyebrow">PHILADELPHIA'S TRUSTED EXPERTS</p>
-      <h2 class="ph-expert__title">Why choose us for window film in Philadelphia?</h2>
-      <p class="ph-expert__body">Window Film Philadelphia has been working in the city since 2008 — from Society Hill brownstones to Comcast Center office floors to Fishtown brewery taprooms. Our certified installers handle the full spectrum: solar control for rowhouses baking in afternoon sun, security film for retail storefronts on Frankford Avenue, anti-graffiti film for transit-adjacent commercial glass, and decorative frosted partitions for University City labs and co-working spaces.</p>
-      <p class="ph-expert__body">What sets Philadelphia properties apart is the scale and variety — 1.6 million people across neighborhoods that range from dense Center City high-rises to leafy Chestnut Hill estates. Each building type demands a different film strategy. Rowhouses need heat rejection on west-facing glass; high-rise condos benefit from spectrally selective film that preserves views; storefronts need impact-resistant security film. We carry manufacturer certifications from 3M, LLumar, Vista, and Solar Gard, and every installer on our team is factory-trained. We also serve <a href="/cities/reading/" style="color:#7CB342">Reading</a>, <a href="/cities/camden/" style="color:#7CB342">South Jersey</a>, and communities throughout the greater metro area.</p>
+      <p class="ph-expert__eyebrow">SALT LAKE CITY'S TRUSTED EXPERTS</p>
+      <h2 class="ph-expert__title">Why choose us for window film in Salt Lake City?</h2>
+      <p class="ph-expert__body">Window Film Salt Lake City has been working in the city since 2008 — from Society Hill brownstones to Comcast Center office floors to Fishtown brewery taprooms. Our certified installers handle the full spectrum: solar control for rowhouses baking in afternoon sun, security film for retail storefronts on Frankford Avenue, anti-graffiti film for transit-adjacent commercial glass, and decorative frosted partitions for University City labs and co-working spaces.</p>
+      <p class="ph-expert__body">What sets Salt Lake City properties apart is the scale and variety — 1.6 million people across neighborhoods that range from dense Center City high-rises to leafy Chestnut Hill estates. Each building type demands a different film strategy. Rowhouses need heat rejection on west-facing glass; high-rise condos benefit from spectrally selective film that preserves views; storefronts need impact-resistant security film. We carry manufacturer certifications from 3M, LLumar, Vista, and Solar Gard, and every installer on our team is factory-trained. We also serve <a href="/cities/reading/" style="color:#7CB342">Reading</a>, <a href="/cities/camden/" style="color:#7CB342">South Jersey</a>, and communities throughout the greater metro area.</p>
       <div class="ph-expert__stats">
         <div class="ph-expert__stat">
           <span class="ph-expert__stat-num">2008</span>
-          <span class="ph-expert__stat-label">Serving Greater Philadelphia since</span>
+          <span class="ph-expert__stat-label">Serving Greater Salt Lake City since</span>
         </div>
         <div class="ph-expert__stat-divider"></div>
         <div class="ph-expert__stat">
           <span class="ph-expert__stat-num">2000+</span>
-          <span class="ph-expert__stat-label">Philadelphia area installs completed</span>
+          <span class="ph-expert__stat-label">Salt Lake City area installs completed</span>
         </div>
       </div>
     </div>
     <div class="ph-expert__image-col">
       <img
-        src="/images/window-film-philadelphia-pa-expert-interior.jpg"
-        alt="Warm Philadelphia residential interior with large windows — window film keeps this Philadelphia home comfortable year-round" title="Warm Philadelphia residential interior with large windows — window film keeps this Philadelphia home comfortable year-round"
+        src="/images/window-film-salt-lake-city-pa-expert-interior.jpg"
+        alt="Warm Salt Lake City residential interior with large windows — window film keeps this Salt Lake City home comfortable year-round" title="Warm Salt Lake City residential interior with large windows — window film keeps this Salt Lake City home comfortable year-round"
         class="ph-expert__img"
         loading="lazy"
       />
@@ -265,7 +265,7 @@ const pageSchemas = [
 
     <!-- SLIDE 01: Commercial -->
     <div class="ph-prop-slider__slide" data-slide="0">
-      <img src="/images/window-film-philadelphia-pa-commercial.jpg" alt="Modern commercial office in Philadelphia PA with floor-to-ceiling windows - window film for Philadelphia commercial properties" title="Modern commercial office in Philadelphia PA with floor-to-ceiling windows - window film for Philadelphia commercial properties" class="ph-prop-slider__bg" loading="lazy" />
+      <img src="/images/window-film-salt-lake-city-pa-commercial.jpg" alt="Modern commercial office in Salt Lake City PA with floor-to-ceiling windows - window film for Salt Lake City commercial properties" title="Modern commercial office in Salt Lake City PA with floor-to-ceiling windows - window film for Salt Lake City commercial properties" class="ph-prop-slider__bg" loading="lazy" />
       <div class="ph-prop-slider__overlay"></div>
       <div class="ph-prop-slider__content">
         <div class="ph-prop-slider__step">01</div>
@@ -292,13 +292,13 @@ Across Center City &amp; Beyond</h2>
 
     <!-- SLIDE 02: Residential -->
     <div class="ph-prop-slider__slide" data-slide="1">
-      <img src="/images/window-film-philadelphia-pa-residential-rowhouses.jpg" alt="Brick rowhouses in Philadelphia PA - solar control and security window film for Philadelphia residential homes" title="Brick rowhouses in Philadelphia PA - solar control and security window film for Philadelphia residential homes" class="ph-prop-slider__bg" loading="lazy" />
+      <img src="/images/window-film-salt-lake-city-pa-residential-rowhouses.jpg" alt="Brick rowhouses in Salt Lake City PA - solar control and security window film for Salt Lake City residential homes" title="Brick rowhouses in Salt Lake City PA - solar control and security window film for Salt Lake City residential homes" class="ph-prop-slider__bg" loading="lazy" />
       <div class="ph-prop-slider__overlay"></div>
       <div class="ph-prop-slider__content">
         <div class="ph-prop-slider__step">02</div>
         <h2 class="ph-prop-slider__title">Residential Window Film
-From South Philly to Chestnut Hill</h2>
-        <p class="ph-prop-slider__desc">South Philly trinity rowhouses, Chestnut Hill stone colonials, Northern Liberties loft conversions — Philadelphia's residential stock spans two centuries of construction. We match the right film to each: ceramic solar control for single-pane rowhouse glass, low-e film for drafty older windows, and UV-blocking clear film for condos with valuable interiors.</p>
+From South Salt Lake to Chestnut Hill</h2>
+        <p class="ph-prop-slider__desc">South Salt Lake trinity rowhouses, Chestnut Hill stone colonials, Northern Liberties loft conversions — Salt Lake City's residential stock spans two centuries of construction. We match the right film to each: ceramic solar control for single-pane rowhouse glass, low-e film for drafty older windows, and UV-blocking clear film for condos with valuable interiors.</p>
         <ul class="ph-prop-slider__benefits">
           <li>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -346,30 +346,30 @@ From South Philly to Chestnut Hill</h2>
   <div class="ph-apps__container">
     <div class="ph-apps__header">
       <div class="ph-apps__eyebrow">Applications</div>
-      <h2 class="ph-apps__title">Window Film for Every Philadelphia Property Type</h2>
-      <p class="ph-apps__intro">Hospitals, universities, rowhouses, storefronts, government offices — Philadelphia's building stock spans every category, and each one benefits from a different film specification.</p>
+      <h2 class="ph-apps__title">Window Film for Every Salt Lake City Property Type</h2>
+      <p class="ph-apps__intro">Hospitals, universities, rowhouses, storefronts, government offices — Salt Lake City's building stock spans every category, and each one benefits from a different film specification.</p>
     </div>
     <div class="ph-apps__grid">
 
-      <div class="ph-app-card" style="background-image: url('/images/window-film-philadelphia-pa-app-homes.jpg')">
+      <div class="ph-app-card" style="background-image: url('/images/window-film-salt-lake-city-pa-app-homes.jpg')">
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Homes & Rowhouses</h3>
-          <p class="ph-app-card__text">Solar control cuts summer heat in South Philly row homes. Security film protects ground-floor windows in every Philadelphia neighborhood.</p>
+          <p class="ph-app-card__text">Solar control cuts summer heat in South Salt Lake row homes. Security film protects ground-floor windows in every Salt Lake City neighborhood.</p>
           <span class="ph-app-card__stat">Up to 78% heat blocked</span>
         </div>
       </div>
 
-      <div class="ph-app-card" style="background-image: url('/images/window-film-philadelphia-pa-app-offices.jpg')">
+      <div class="ph-app-card" style="background-image: url('/images/window-film-salt-lake-city-pa-app-offices.jpg')">
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Commercial Offices</h3>
-          <p class="ph-app-card__text">Glare-free workspaces and lower cooling bills for Philadelphia's Center City and Market Street corridors. Spectrally selective film preserves city views.</p>
+          <p class="ph-app-card__text">Glare-free workspaces and lower cooling bills for Salt Lake City's Center City and Market Street corridors. Spectrally selective film preserves city views.</p>
           <span class="ph-app-card__stat">25-35% cost reduction</span>
         </div>
       </div>
 
-      <div class="ph-app-card" style="background-image: url('/images/window-film-philadelphia-pa-app-retail.jpg')">
+      <div class="ph-app-card" style="background-image: url('/images/window-film-salt-lake-city-pa-app-retail.jpg')">
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Retail & Storefronts</h3>
@@ -378,7 +378,7 @@ From South Philly to Chestnut Hill</h2>
         </div>
       </div>
 
-      <div class="ph-app-card" style="background-image: url('/images/window-film-philadelphia-pa-app-healthcare.jpg')">
+      <div class="ph-app-card" style="background-image: url('/images/window-film-salt-lake-city-pa-app-healthcare.jpg')">
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Healthcare Facilities</h3>
@@ -387,20 +387,20 @@ From South Philly to Chestnut Hill</h2>
         </div>
       </div>
 
-      <div class="ph-app-card" style="background-image: url('/images/window-film-philadelphia-pa-app-schools.jpg')">
+      <div class="ph-app-card" style="background-image: url('/images/window-film-salt-lake-city-pa-app-schools.jpg')">
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Schools & Universities</h3>
-          <p class="ph-app-card__text">Safety film for Temple University, Drexel, and the School District of Philadelphia. Reduces glare in classrooms and blocks UV that fades displays, artwork, and flooring.</p>
+          <p class="ph-app-card__text">Safety film for Temple University, Drexel, and the School District of Salt Lake City. Reduces glare in classrooms and blocks UV that fades displays, artwork, and flooring.</p>
           <span class="ph-app-card__stat">Safety & UV rated</span>
         </div>
       </div>
 
-      <div class="ph-app-card" style="background-image: url('/images/window-film-philadelphia-pa-app-government.jpg')">
+      <div class="ph-app-card" style="background-image: url('/images/window-film-salt-lake-city-pa-app-government.jpg')">
         <div class="ph-app-card__overlay"></div>
         <div class="ph-app-card__content">
           <h3 class="ph-app-card__title">Government Buildings</h3>
-          <p class="ph-app-card__text">Security and blast-resistant film for City of Philadelphia government facilities. Privacy film for offices handling sensitive records and public services.</p>
+          <p class="ph-app-card__text">Security and blast-resistant film for City of Salt Lake City government facilities. Privacy film for offices handling sensitive records and public services.</p>
           <span class="ph-app-card__stat">GSA compliant films</span>
         </div>
       </div>
@@ -412,10 +412,10 @@ From South Philly to Chestnut Hill</h2>
 <!-- ══ FILM TYPES / BENEFITS ACCORDION ══ -->
 <AccordionBenefits
   eyebrow="Film Types"
-  title="Window Film Solutions for Philadelphia Glass"
+  title="Window Film Solutions for Salt Lake City Glass"
   subtitle="Eight film categories, one professional installation. Select any benefit to explore the details — the image swaps to match."
   benefits={filmBenefits}
-  id="philadelphiaBenefits"
+  id="salt-lake-cityBenefits"
 />
 
 <!-- ══ BRANDS CAROUSEL ══ -->
@@ -423,8 +423,8 @@ From South Philly to Chestnut Hill</h2>
   <BrandLogos />
   <div class="ph-brands__header">
     <p class="ph-brands__eyebrow">Trusted Manufacturers</p>
-    <h2 class="ph-brands__title">Premium Window Film Brands We Install in Philadelphia</h2>
-    <p class="ph-brands__sub">We install films from the industry's leading manufacturers — bringing you the widest selection of solar control, security, decorative, and specialty films available anywhere in Philadelphia.</p>
+    <h2 class="ph-brands__title">Premium Window Film Brands We Install in Salt Lake City</h2>
+    <p class="ph-brands__sub">We install films from the industry's leading manufacturers — bringing you the widest selection of solar control, security, decorative, and specialty films available anywhere in Salt Lake City.</p>
   </div>
 
   <!-- Brand card carousel -->
@@ -435,7 +435,7 @@ From South Philly to Chestnut Hill</h2>
 
       <!-- 3M -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-3m.jpg" alt="3M solar control window film installed in a Philadelphia PA commercial office — heat and UV reduction" title="3M solar control window film installed in a Philadelphia PA commercial office — heat and UV reduction" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-3m.jpg" alt="3M solar control window film installed in a Salt Lake City PA commercial office — heat and UV reduction" title="3M solar control window film installed in a Salt Lake City PA commercial office — heat and UV reduction" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">3M</p>
           <p class="ph-brands__card-desc"><em>The global standard in solar control and safety film - backed by 60+ years of glass science.</em></p>
@@ -445,37 +445,37 @@ From South Philly to Chestnut Hill</h2>
 
       <!-- LLumar -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-llumar.jpg" alt="LLumar solar control window film on a Philadelphia PA commercial building — glare and heat rejection" title="LLumar solar control window film on a Philadelphia PA commercial building — glare and heat rejection" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-llumar.jpg" alt="LLumar solar control window film on a Salt Lake City PA commercial building — glare and heat rejection" title="LLumar solar control window film on a Salt Lake City PA commercial building — glare and heat rejection" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">LLumar</p>
-          <p class="ph-brands__card-desc"><em>A top choice for commercial projects across Philadelphia and the Delaware Valley - proven durability in urban environments.</em></p>
+          <p class="ph-brands__card-desc"><em>A top choice for commercial projects across Salt Lake City and the Delaware Valley - proven durability in urban environments.</em></p>
           <p class="ph-brands__card-sub">Solar Control · Glare Reduction · Anti-Graffiti · Safety</p>
         </div>
       </div>
 
       <!-- Vista -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-vista.jpg" alt="Vista residential window film in a Philadelphia PA home interior — UV protection and energy savings" title="Vista residential window film in a Philadelphia PA home interior — UV protection and energy savings" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-vista.jpg" alt="Vista residential window film in a Salt Lake City PA home interior — UV protection and energy savings" title="Vista residential window film in a Salt Lake City PA home interior — UV protection and energy savings" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Vista</p>
-          <p class="ph-brands__card-desc"><em>Eastman's residential-focused line - naturally clear films designed for Philadelphia rowhouses and Center City high-rises.</em></p>
+          <p class="ph-brands__card-desc"><em>Eastman's residential-focused line - naturally clear films designed for Salt Lake City rowhouses and Center City high-rises.</em></p>
           <p class="ph-brands__card-sub">Residential Solar · UV Protection · Privacy · Dual-Reflective</p>
         </div>
       </div>
 
       <!-- Solar Gard -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-solargard.jpg" alt="Solar Gard high-performance window film on a Philadelphia PA commercial building — solar heat control" title="Solar Gard high-performance window film on a Philadelphia PA commercial building — solar heat control" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-solargard.jpg" alt="Solar Gard high-performance window film on a Salt Lake City PA commercial building — solar heat control" title="Solar Gard high-performance window film on a Salt Lake City PA commercial building — solar heat control" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Solar Gard</p>
-          <p class="ph-brands__card-desc"><em>High-performance spectrally selective films for Philadelphia's commercial and institutional buildings - NFRC rated.</em></p>
+          <p class="ph-brands__card-desc"><em>High-performance spectrally selective films for Salt Lake City's commercial and institutional buildings - NFRC rated.</em></p>
           <p class="ph-brands__card-sub">Spectrally Selective · Commercial Solar · LEED-Compliant · Safety</p>
         </div>
       </div>
 
       <!-- Madico -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-madico.jpg" alt="Executive office interior with Madico optically clear safety window film" title="Executive office interior with Madico optically clear safety window film" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-madico.jpg" alt="Executive office interior with Madico optically clear safety window film" title="Executive office interior with Madico optically clear safety window film" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Madico</p>
           <p class="ph-brands__card-desc"><em>Military-heritage safety films trusted by government and healthcare facilities - including Penn Medicine.</em></p>
@@ -485,17 +485,17 @@ From South Philly to Chestnut Hill</h2>
 
       <!-- Solyx -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-solyx.jpg" alt="Elegant decorative frosted glass film in a Philadelphia PA professional office lobby" title="Elegant decorative frosted glass film in a Philadelphia PA professional office lobby" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-solyx.jpg" alt="Elegant decorative frosted glass film in a Salt Lake City PA professional office lobby" title="Elegant decorative frosted glass film in a Salt Lake City PA professional office lobby" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Solyx</p>
-          <p class="ph-brands__card-desc"><em>The leading decorative film brand - custom frosted, patterned, and printed films for Philadelphia's offices, healthcare spaces, and storefronts.</em></p>
+          <p class="ph-brands__card-desc"><em>The leading decorative film brand - custom frosted, patterned, and printed films for Salt Lake City's offices, healthcare spaces, and storefronts.</em></p>
           <p class="ph-brands__card-sub">Decorative · Frosted · Printed Patterns · Branded Graphics</p>
         </div>
       </div>
 
       <!-- Huper Optik -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-huper-optik.jpg" alt="Crystal-clear Huper Optik ceramic window film in a luxury high-rise interior" title="Crystal-clear Huper Optik ceramic window film in a luxury high-rise interior" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-huper-optik.jpg" alt="Crystal-clear Huper Optik ceramic window film in a luxury high-rise interior" title="Crystal-clear Huper Optik ceramic window film in a luxury high-rise interior" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Hüper Optik</p>
           <p class="ph-brands__card-desc"><em>German-engineered ceramic nanotechnology - maximum heat rejection with zero metallic interference for Wi-Fi and cellular signals.</em></p>
@@ -505,17 +505,17 @@ From South Philly to Chestnut Hill</h2>
 
       <!-- Casper -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-casper.jpg" alt="Casper cloaking film on conference room glass - LED screens invisible from outside" title="Casper cloaking film on conference room glass - LED screens invisible from outside" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-casper.jpg" alt="Casper cloaking film on conference room glass - LED screens invisible from outside" title="Casper cloaking film on conference room glass - LED screens invisible from outside" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Casper Cloaking</p>
-          <p class="ph-brands__card-desc"><em>The only film that makes LED and LCD screens appear frosted from outside - essential privacy for Philadelphia boardrooms and trading floors.</em></p>
+          <p class="ph-brands__card-desc"><em>The only film that makes LED and LCD screens appear frosted from outside - essential privacy for Salt Lake City boardrooms and trading floors.</em></p>
           <p class="ph-brands__card-sub">Screen Privacy · Digital Cloaking · Conference Rooms · Security</p>
         </div>
       </div>
 
       <!-- C-Bond -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-cbond.jpg" alt="C-Bond security film reinforcing a commercial storefront glass entrance in Philadelphia" title="C-Bond security film reinforcing a commercial storefront glass entrance in Philadelphia" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-cbond.jpg" alt="C-Bond security film reinforcing a commercial storefront glass entrance in Salt Lake City" title="C-Bond security film reinforcing a commercial storefront glass entrance in Salt Lake City" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">C-Bond</p>
           <p class="ph-brands__card-desc"><em>Nano-technology film that chemically bonds to glass, increasing impact resistance beyond standard safety film - the strongest hold available.</em></p>
@@ -525,7 +525,7 @@ From South Philly to Chestnut Hill</h2>
 
       <!-- HDClear -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-hdclear.jpg" alt="HDClear high-definition optically clear glass walls in a modern Philadelphia office" title="HDClear high-definition optically clear glass walls in a modern Philadelphia office" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-hdclear.jpg" alt="HDClear high-definition optically clear glass walls in a modern Salt Lake City office" title="HDClear high-definition optically clear glass walls in a modern Salt Lake City office" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">HDClear</p>
           <p class="ph-brands__card-desc"><em>High-definition clarity film - optically pure solar control without the haze or reflection common in standard films. For premium commercial installs.</em></p>
@@ -535,7 +535,7 @@ From South Philly to Chestnut Hill</h2>
 
       <!-- Hanita Coatings -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-hanita.jpg" alt="Hanita Coatings architectural window film on a modern Philadelphia commercial building" title="Hanita Coatings architectural window film on a modern Philadelphia commercial building" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-hanita.jpg" alt="Hanita Coatings architectural window film on a modern Salt Lake City commercial building" title="Hanita Coatings architectural window film on a modern Salt Lake City commercial building" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Hanita Coatings</p>
           <p class="ph-brands__card-desc"><em>Israeli-engineered architectural films with industry-leading safety certifications - trusted on government and institutional projects worldwide.</em></p>
@@ -545,10 +545,10 @@ From South Philly to Chestnut Hill</h2>
 
       <!-- Graffiti Shield -->
       <div class="ph-brands__card">
-        <img src="/images/window-film-philadelphia-pa-brand-graffiti-shield.jpg" alt="Clean unmarked storefront glass in Philadelphia protected by Graffiti Shield sacrificial film" title="Clean unmarked storefront glass in Philadelphia protected by Graffiti Shield sacrificial film" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
+        <img src="/images/window-film-salt-lake-city-pa-brand-graffiti-shield.jpg" alt="Clean unmarked storefront glass in Salt Lake City protected by Graffiti Shield sacrificial film" title="Clean unmarked storefront glass in Salt Lake City protected by Graffiti Shield sacrificial film" class="ph-brands__card-photo" width="420" height="400" loading="lazy" />
         <div class="ph-brands__card-body">
           <p class="ph-brands__card-name">Graffiti Shield</p>
-          <p class="ph-brands__card-desc"><em>The industry standard in sacrificial anti-graffiti film - replaces damaged film, not glass. Critical for Philadelphia's South Street and Broad Street corridors.</em></p>
+          <p class="ph-brands__card-desc"><em>The industry standard in sacrificial anti-graffiti film - replaces damaged film, not glass. Critical for Salt Lake City's South Street and Broad Street corridors.</em></p>
           <p class="ph-brands__card-sub">Anti-Graffiti · Sacrificial Film · Storefronts · Urban Properties</p>
         </div>
       </div>
@@ -569,16 +569,16 @@ From South Philly to Chestnut Hill</h2>
 
     <div class="ph-trust__image-col">
       <img
-        src="/images/window-film-philadelphia-pa-trust-installer.jpg"
-        alt="Window Film Philadelphia certified installer reviewing film options with a Philadelphia homeowner" title="Window Film Philadelphia certified installer reviewing film options with a Philadelphia homeowner"
+        src="/images/window-film-salt-lake-city-pa-trust-installer.jpg"
+        alt="Window Film Salt Lake City certified installer reviewing film options with a Salt Lake City homeowner" title="Window Film Salt Lake City certified installer reviewing film options with a Salt Lake City homeowner"
         class="ph-trust__img"
         loading="lazy"
       />
     </div>
 
     <div class="ph-trust__content">
-      <p class="ph-trust__eyebrow">WHY WINDOW FILM PHILADELPHIA</p>
-      <h2 class="ph-trust__title">Why Philadelphia Homeowners and Businesses Choose Us</h2>
+      <p class="ph-trust__eyebrow">WHY WINDOW FILM SALT LAKE CITY</p>
+      <h2 class="ph-trust__title">Why Salt Lake City Homeowners and Businesses Choose Us</h2>
 
       <div class="ph-trust__items">
 
@@ -587,7 +587,7 @@ From South Philly to Chestnut Hill</h2>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#7CB342"/><path d="M7 12.5l3.5 3.5 6.5-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="ph-trust__item-body">
-            <p class="ph-trust__item-title">18+ Years Serving Philadelphia and the Delaware Valley</p>
+            <p class="ph-trust__item-title">18+ Years Serving Salt Lake City and the Delaware Valley</p>
           </div>
         </div>
 
@@ -614,7 +614,7 @@ From South Philly to Chestnut Hill</h2>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#7CB342"/><path d="M7 12.5l3.5 3.5 6.5-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="ph-trust__item-body">
-            <p class="ph-trust__item-title">Prompt Scheduling Throughout the Greater Philadelphia Area</p>
+            <p class="ph-trust__item-title">Prompt Scheduling Throughout the Greater Salt Lake City Area</p>
           </div>
         </div>
 
@@ -632,13 +632,13 @@ From South Philly to Chestnut Hill</h2>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#7CB342"/><path d="M7 12.5l3.5 3.5 6.5-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="ph-trust__item-body">
-            <p class="ph-trust__item-title">Philadelphia's Most Reviewed Window Film Contractor</p>
+            <p class="ph-trust__item-title">Salt Lake City's Most Reviewed Window Film Contractor</p>
           </div>
         </div>
 
       </div>
 
-      <a href="/contact/" class="ph-trust__cta">Get your free Philadelphia estimate →</a>
+      <a href="/contact/" class="ph-trust__cta">Get your free Salt Lake City estimate →</a>
     </div>
 
   </div>
@@ -653,14 +653,14 @@ From South Philly to Chestnut Hill</h2>
      ══════════════════════════════════════ -->
 <GalleryBanner
   titleLines={["OUR", "WORK."]}
-  eyebrow="Philadelphia Installations"
-  description="A selection of window film installations across Philadelphia offices, retail storefronts, medical facilities, and homes. Every project measured, applied, and finished by our own certified team."
+  eyebrow="Salt Lake City Installations"
+  description="A selection of window film installations across Salt Lake City offices, retail storefronts, medical facilities, and homes. Every project measured, applied, and finished by our own certified team."
   photos={[
-    '/images/window-film-philadelphia-pa-gallery-privacy-medical.jpg',
-    '/images/window-film-philadelphia-pa-gallery-restaurant.jpg',
-    '/images/window-film-philadelphia-pa-gallery-solar-office.jpg',
-    '/images/window-film-philadelphia-pa-gallery-residential.jpg',
-    '/images/window-film-philadelphia-pa-gallery-film-detail.jpg',
+    '/images/window-film-salt-lake-city-pa-gallery-privacy-medical.jpg',
+    '/images/window-film-salt-lake-city-pa-gallery-restaurant.jpg',
+    '/images/window-film-salt-lake-city-pa-gallery-solar-office.jpg',
+    '/images/window-film-salt-lake-city-pa-gallery-residential.jpg',
+    '/images/window-film-salt-lake-city-pa-gallery-film-detail.jpg',
   ]}
   hintText="Hover the photos · click to bring forward"
   theme="light"
@@ -674,22 +674,22 @@ From South Philly to Chestnut Hill</h2>
   <div class="ip-local__grid">
     <div class="ip-local__map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122595.4!2d-75.28!3d39.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d8d8d8d8%3A0x0!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1714000000000"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122595.4!2d-75.28!3d39.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d8d8d8d8%3A0x0!2sSalt Lake City%2C%20PA!5e0!3m2!1sen!2sus!4v1714000000000"
         width="100%" height="100%"
         style="border:0;"
         allowfullscreen
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        title="Philadelphia PA service area map"
+        title="Salt Lake City PA service area map"
       ></iframe>
     </div>
     <div class="ip-local__content">
       <p class="section-eyebrow">Local Expertise</p>
-      <h2>Philadelphia Neighborhoods We Serve</h2>
-      <p>Philadelphia is a city of neighborhoods — over 100 distinct areas, each with its own housing stock, commercial corridors, and sun exposure patterns. Our crews know which film specs work on South Philly's narrow brick trinities versus Chestnut Hill's stone estates versus Center City's floor-to-ceiling curtain wall. We install across all of Philadelphia County — contact us for a free on-site estimate.</p>
+      <h2>Salt Lake City Neighborhoods We Serve</h2>
+      <p>Salt Lake City is a city of neighborhoods — over 100 distinct areas, each with its own housing stock, commercial corridors, and sun exposure patterns. Our crews know which film specs work on South Salt Lake's narrow brick trinities versus Chestnut Hill's stone estates versus Center City's floor-to-ceiling curtain wall. We install across all of Salt Lake City County — contact us for a free on-site estimate.</p>
       <div class="ph-neighborhoods">
         <div class="ph-nh"><span class="ph-nh__name">Center City</span><span class="ph-nh__desc">Dense commercial core with high-rise office towers and storefronts along Market Street. Solar control and security window film in Center City are the most-requested installs for glare reduction and heat management.</span></div>
-        <div class="ph-nh"><span class="ph-nh__name">South Philly</span><span class="ph-nh__desc">Tight-knit blocks of brick rowhouses with street-facing windows. Solar control and privacy window film are the most popular choices for South Philly homes dealing with afternoon sun and street-level visibility.</span></div>
+        <div class="ph-nh"><span class="ph-nh__name">South Salt Lake</span><span class="ph-nh__desc">Tight-knit blocks of brick rowhouses with street-facing windows. Solar control and privacy window film are the most popular choices for South Salt Lake homes dealing with afternoon sun and street-level visibility.</span></div>
         <div class="ph-nh"><span class="ph-nh__name">Fishtown</span><span class="ph-nh__desc">Rapidly growing neighborhood with renovated rowhomes and new construction. Decorative and solar control window film suit Fishtown's mix of historic and modern glass.</span></div>
         <div class="ph-nh"><span class="ph-nh__name">Northern Liberties</span><span class="ph-nh__desc">Industrial-turned-residential with large loft windows and converted warehouses. Anti-graffiti and security window film protect Northern Liberties storefronts and ground-floor glass.</span></div>
         <div class="ph-nh"><span class="ph-nh__name">University City</span><span class="ph-nh__desc">Home to Penn and Drexel with research labs and medical facilities. UV and safety window film protect University City lab interiors and patient areas from glare and fading.</span></div>
@@ -710,26 +710,26 @@ From South Philly to Chestnut Hill</h2>
      ══════════════════════════════════════ -->
 <TestimonialSpotlight
   eyebrow="Client Reviews"
-  title="Reviews from Philadelphia Homeowners and Businesses"
-  subtitle="Residential and commercial property owners across Philadelphia and the Delaware Valley."
+  title="Reviews from Salt Lake City Homeowners and Businesses"
+  subtitle="Residential and commercial property owners across Salt Lake City and the Delaware Valley."
   items={[
     {
       quote: 'We run a restaurant on East Passyunk and the afternoon sun was cooking the front tables. After solar control film went on the big windows, the dining room stayed comfortable all summer. Our AC bills dropped noticeably. Crew was in and out before opening.',
       name: 'Angela R.',
       detail: 'Owner · East Passyunk Restaurant',
-      avatar: '/images/window-film-philadelphia-pa-testimonial-commercial-1.jpg',
+      avatar: '/images/window-film-salt-lake-city-pa-testimonial-commercial-1.jpg',
     },
     {
       quote: 'Our building on Market Street had three smashed storefront windows in one year. Since the security film went on, two more attempts and both times the glass held — the film did exactly what they said it would. Worth every penny.',
       name: 'David O.',
       detail: 'Building Manager · Market Street Properties',
-      avatar: '/images/window-film-philadelphia-pa-testimonial-commercial-2.jpg',
+      avatar: '/images/window-film-salt-lake-city-pa-testimonial-commercial-2.jpg',
     },
     {
-      quote: 'Bought a trinity in South Philly and the top floor was an oven by 3pm every July. Ceramic film on the west-facing dormer changed everything — the room is actually usable now and my electric bill is down about 30% in summer months.',
+      quote: 'Bought a trinity in South Salt Lake and the top floor was an oven by 3pm every July. Ceramic film on the west-facing dormer changed everything — the room is actually usable now and my electric bill is down about 30% in summer months.',
       name: 'Priya S.',
-      detail: 'Homeowner · South Philadelphia',
-      avatar: '/images/window-film-philadelphia-pa-testimonial-residential.jpg',
+      detail: 'Homeowner · South Salt Lake City',
+      avatar: '/images/window-film-salt-lake-city-pa-testimonial-residential.jpg',
     },
   ]}
 />
@@ -741,8 +741,8 @@ From South Philly to Chestnut Hill</h2>
   <div class="ph-resources__grid">
     <div class="ph-resources__image-col">
       <img
-        src="/images/window-film-philadelphia-pa-resources-meeting-room.jpg"
-        alt="Window Film Philadelphia reviewing manufacturer window film spec sheets and performance data with a Philadelphia PA commercial client" title="Window Film Philadelphia reviewing manufacturer window film spec sheets and performance data with a Philadelphia PA commercial client"
+        src="/images/window-film-salt-lake-city-pa-resources-meeting-room.jpg"
+        alt="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Salt Lake City PA commercial client" title="Window Film Salt Lake City reviewing manufacturer window film spec sheets and performance data with a Salt Lake City PA commercial client"
         class="ph-resources__img"
         loading="lazy"
         width="1472"
@@ -752,38 +752,38 @@ From South Philly to Chestnut Hill</h2>
     <div class="ph-resources__content">
       <p class="ph-resources__eyebrow">Manufacturer Resources</p>
       <h2 class="ph-resources__title">Manufacturer Spec Sheets &amp; Performance Data</h2>
-      <p class="ph-resources__desc">Performance data, solar heat gain coefficients, VLT ratings, and product details from the brands we install across Philadelphia and the Delaware Valley. Download and compare before your consultation.</p>
+      <p class="ph-resources__desc">Performance data, solar heat gain coefficients, VLT ratings, and product details from the brands we install across Salt Lake City and the Delaware Valley. Download and compare before your consultation.</p>
       <ul class="ph-resources__list">
         <li class="ph-resources__item">
-          <a href="/resources/3m-prestige-solar-control-window-film-philadelphia-pa-product-bulletin.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
+          <a href="/resources/3m-prestige-solar-control-window-film-salt-lake-city-pa-product-bulletin.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
             <span class="ph-resources__pdf-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span>
             <span class="ph-resources__link-text"><strong>3M Prestige Series</strong><span>Solar Control &middot; Product Bulletin &middot; PDF</span></span>
             <span class="ph-resources__arrow">&darr;</span>
           </a>
         </li>
         <li class="ph-resources__item">
-          <a href="/resources/llumar-solar-control-window-film-philadelphia-pa-performance-specs.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
+          <a href="/resources/llumar-solar-control-window-film-salt-lake-city-pa-performance-specs.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
             <span class="ph-resources__pdf-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span>
             <span class="ph-resources__link-text"><strong>LLumar Solar Control Series</strong><span>Glare Reduction &middot; Performance Specs &middot; PDF</span></span>
             <span class="ph-resources__arrow">&darr;</span>
           </a>
         </li>
         <li class="ph-resources__item">
-          <a href="/resources/solyx-decorative-window-film-philadelphia-pa-sxlt-1305-spec-sheet.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
+          <a href="/resources/solyx-decorative-window-film-salt-lake-city-pa-sxlt-1305-spec-sheet.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
             <span class="ph-resources__pdf-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span>
             <span class="ph-resources__link-text"><strong>Solyx SXLT-1305 Decorative Film</strong><span>Privacy &middot; Spec Sheet &middot; PDF</span></span>
             <span class="ph-resources__arrow">&darr;</span>
           </a>
         </li>
         <li class="ph-resources__item">
-          <a href="/resources/vista-solar-control-window-film-philadelphia-pa-spec-sheet.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
+          <a href="/resources/vista-solar-control-window-film-salt-lake-city-pa-spec-sheet.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
             <span class="ph-resources__pdf-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span>
             <span class="ph-resources__link-text"><strong>Vista Solar Control Series</strong><span>Glare Reduction &middot; Spec Sheet &middot; PDF</span></span>
             <span class="ph-resources__arrow">&darr;</span>
           </a>
         </li>
         <li class="ph-resources__item">
-          <a href="/resources/solar-gard-panorama-solar-control-window-film-philadelphia-pa-performance-data.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
+          <a href="/resources/solar-gard-panorama-solar-control-window-film-salt-lake-city-pa-performance-data.pdf" class="ph-resources__link" target="_blank" rel="noopener noreferrer" download>
             <span class="ph-resources__pdf-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span>
             <span class="ph-resources__link-text"><strong>Solar Gard Panorama Series</strong><span>Energy Savings &middot; Performance Data &middot; PDF</span></span>
             <span class="ph-resources__arrow">&darr;</span>
@@ -796,19 +796,19 @@ From South Philly to Chestnut Hill</h2>
 </section>
 
 <!-- ══════════════════════════════════════
-     FAQ — Accordion FAQ (library style, Philadelphia palette)
+     FAQ — Accordion FAQ (library style, Salt Lake City palette)
      ══════════════════════════════════════ -->
 <AccordionFAQ
   eyebrow="FAQ"
-  heading="Philadelphia Window Film FAQ"
+  heading="Salt Lake City Window Film FAQ"
   sub="Everything you need to know before your install."
   items={faqItems.map(f => ({ q: f.question, a: f.answer }))}
 />
 
 <!-- ══════════════════════════════════════
-     LATEST PHILADELPHIA BLOG POSTS
+     LATEST SALT LAKE CITY BLOG POSTS
      ══════════════════════════════════════ -->
-<CategoryBlogFeed categorySlug="philadelphia" feedTitle="Latest Philadelphia News" />
+<CategoryBlogFeed categorySlug="salt-lake-city" feedTitle="Latest Salt Lake City News" />
 
 <!-- ══════════════════════════════════════
      CTA — LIGHT RAYS
@@ -816,10 +816,10 @@ From South Philly to Chestnut Hill</h2>
 </div><!-- end ip-page-body -->
 
 <CtaLightRays
-  eyebrow="Philadelphia Window Film Professionals"
-  title="Let's Upgrade Your Philadelphia Windows"
-  sub="Cut heat, block UV, add privacy, and protect against graffiti — all with one professional installation. Free estimates across Philadelphia and the Delaware Valley."
-  btnLabel="Get Your Free Philadelphia Estimate"
+  eyebrow="Salt Lake City Window Film Professionals"
+  title="Let's Upgrade Your Salt Lake City Windows"
+  sub="Cut heat, block UV, add privacy, and protect against graffiti — all with one professional installation. Free estimates across Salt Lake City and the Delaware Valley."
+  btnLabel="Get Your Free Salt Lake City Estimate"
   btnHref="/contact/"
 />
 
@@ -856,13 +856,13 @@ From South Philly to Chestnut Hill</h2>
 .hero-stat-item:nth-child(4) .hero-stat-item__number::after { content: '★'; color: #7CB342; }
 .hero-stat-item__label { font-family: 'Inter', sans-serif; font-size: 12px; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.1em; }
 
-/* ── PHILADELPHIA CINEMATIC HERO ── */
+/* ── SALT LAKE CITY CINEMATIC HERO ── */
 .ph-hero {
   position: relative;
   min-height: 88vh;
   display: flex;
   align-items: center;
-  background-image: url('/images/window-film-philadelphia-pa-hero.jpg');
+  background-image: url('/images/window-film-salt-lake-city-pa-hero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

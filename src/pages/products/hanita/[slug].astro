@@ -10,8 +10,8 @@ export function getStaticPaths() {
 }
 
 const { product: p } = Astro.props;
-const serviceUrl = `https://windowfilmphiladelphia.net/products/hanita/${p.slug}/`;
-const title = `Hanita ${p.name} | Philadelphia Installer`;
+const serviceUrl = `https://windowfilmsaltlakecity.com/products/hanita/${p.slug}/`;
+const title = `Hanita ${p.name} | Salt Lake City Installer`;
 const description = `${p.shortDescription.slice(0, 155)}`;
 const descriptionParagraphs = p.description.split('\n\n').slice(0, 4);
 const specRows = [
@@ -36,38 +36,38 @@ const categoryText = `${p.categories.join(' ')} ${p.series}`.toLowerCase();
 
 const applications = categoryText.includes('safety') || categoryText.includes('security')
   ? [
-      ['Philadelphia Schools', 'Safety film for K-12 school entry doors, sidelites, and classroom glass — glass retention and forced-entry delay without window replacement.'],
-      ['Government Buildings', 'Retrofit safety for Philadelphia municipal offices, courts, and civic buildings with public-facing glass on high-traffic corridors.'],
-      ['Retail Storefronts', 'Smash-and-grab deterrence for Philadelphia commercial corridors — Walnut Street, Old City, and Center City retail with street-level glass.'],
+      ['Salt Lake City Schools', 'Safety film for K-12 school entry doors, sidelites, and classroom glass — glass retention and forced-entry delay without window replacement.'],
+      ['Government Buildings', 'Retrofit safety for Salt Lake City municipal offices, courts, and civic buildings with public-facing glass on high-traffic corridors.'],
+      ['Retail Storefronts', 'Smash-and-grab deterrence for Salt Lake City commercial corridors — Walnut Street, Old City, and Center City retail with street-level glass.'],
     ]
   : categoryText.includes('insulation') || categoryText.includes('low-e') || categoryText.includes('e-lite')
     ? [
-        ['Philadelphia Rowhomes', 'Year-round thermal improvement for Fishtown, Society Hill, Graduate Hospital, and Chestnut Hill residences with older single-pane glass.'],
-        ['Historic Properties', 'Low-E film upgrade for Philadelphia preservation district buildings where window replacement is restricted by historic guidelines.'],
-        ['Commercial Buildings', 'Dual-season energy performance for Philadelphia commercial properties seeking HVAC savings across both summer and winter.'],
+        ['Salt Lake City Rowhomes', 'Year-round thermal improvement for Fishtown, Society Hill, Graduate Hospital, and Chestnut Hill residences with older single-pane glass.'],
+        ['Historic Properties', 'Low-E film upgrade for Salt Lake City preservation district buildings where window replacement is restricted by historic guidelines.'],
+        ['Commercial Buildings', 'Dual-season energy performance for Salt Lake City commercial properties seeking HVAC savings across both summer and winter.'],
       ]
     : [
-        ['Center City Offices', 'Solar heat and glare control for Philadelphia Class A towers, boutique suites, and institutional buildings from Market Street to University City.'],
-        ['Philadelphia Rowhomes', 'UV and heat management for Fishtown, Chestnut Hill, Rittenhouse, and Graduate Hospital residences without window replacement.'],
+        ['Center City Offices', 'Solar heat and glare control for Salt Lake City Class A towers, boutique suites, and institutional buildings from Market Street to University City.'],
+        ['Salt Lake City Rowhomes', 'UV and heat management for Fishtown, Chestnut Hill, Rittenhouse, and Graduate Hospital residences without window replacement.'],
         ['Retail and Commercial', 'Comfortable customer-facing glass with solar control for Walnut Street, Passyunk, and Old City storefronts and commercial corridors.'],
       ];
 
 const faqItems = [
   {
-    question: `What is Hanita Coatings ${p.name} and what is it used for in Philadelphia?`,
-    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Philadelphia homes, offices, retail, schools, and commercial properties. It belongs to the ${p.series} and is selected based on glass type, orientation, and performance goals.`,
+    question: `What is Hanita Coatings ${p.name} and what is it used for in Salt Lake City?`,
+    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Salt Lake City homes, offices, retail, schools, and commercial properties. It belongs to the ${p.series} and is selected based on glass type, orientation, and performance goals.`,
   },
   {
     question: `What specifications does Hanita ${p.name} offer?`,
-    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Philadelphia confirms final compatibility during the site assessment.`,
+    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Salt Lake City confirms final compatibility during the site assessment.`,
   },
   {
-    question: `Who installs Hanita Coatings ${p.name} in Philadelphia?`,
-    answer: `Window Film Philadelphia is an authorized Hanita Coatings installer serving Philadelphia and the surrounding area. We evaluate the glass, document the product selection, and install Hanita films according to manufacturer guidance.`,
+    question: `Who installs Hanita Coatings ${p.name} in Salt Lake City?`,
+    answer: `Window Film Salt Lake City is an authorized Hanita Coatings installer serving Salt Lake City and the surrounding area. We evaluate the glass, document the product selection, and install Hanita films according to manufacturer guidance.`,
   },
   {
-    question: `Is Hanita Coatings ${p.name} suitable for Philadelphia's four-season climate?`,
-    answer: `Philadelphia sits in IECC Climate Zone 4A — hot humid summers and cold winters. ${p.series.includes('SafetyZone') ? 'SafetyZone provides year-round glass retention regardless of climate.' : 'Window Film Philadelphia selects the appropriate Hanita specification based on glass orientation, climate exposure, and year-round performance goals for each Philadelphia property.'}`,
+    question: `Is Hanita Coatings ${p.name} suitable for Salt Lake City's four-season climate?`,
+    answer: `Salt Lake City sits in IECC Climate Zone 4A — hot humid summers and cold winters. ${p.series.includes('SafetyZone') ? 'SafetyZone provides year-round glass retention regardless of climate.' : 'Window Film Salt Lake City selects the appropriate Hanita specification based on glass orientation, climate exposure, and year-round performance goals for each Salt Lake City property.'}`,
   },
 ];
 
@@ -76,9 +76,9 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmphiladelphia.net/products/' },
-      { '@type': 'ListItem', position: 3, name: 'Hanita Coatings', item: 'https://windowfilmphiladelphia.net/products/hanita-coatings-window-film/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmsaltlakecity.com/products/' },
+      { '@type': 'ListItem', position: 3, name: 'Hanita Coatings', item: 'https://windowfilmsaltlakecity.com/products/hanita-coatings-window-film/' },
       { '@type': 'ListItem', position: 4, name: `Hanita ${p.name}`, item: serviceUrl },
     ],
   },
@@ -87,13 +87,13 @@ const pageSchemas = [
     '@type': 'Product',
     name: `Hanita ${p.name}`,
     brand: { '@type': 'Brand', name: 'Hanita Coatings' },
-    image: `https://windowfilmphiladelphia.net${p.image}`,
+    image: `https://windowfilmsaltlakecity.com${p.image}`,
     description: p.shortDescription,
     category: p.series,
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
-      areaServed: 'Philadelphia, PA',
+      areaServed: 'Salt Lake City, UT',
       url: serviceUrl,
     },
   },
@@ -115,7 +115,7 @@ const pageSchemas = [
     <div class="hcsub-hero__inner">
       <span class="hcsub-badge" style={`background:${p.seriesColor}`}>{p.series}</span>
       <h1 class="hcsub-hero__title">Hanita {p.name}</h1>
-      <p class="hcsub-hero__sub">Philadelphia's authorized Hanita Coatings installer — site assessment, product selection, professional installation, manufacturer warranty.</p>
+      <p class="hcsub-hero__sub">Salt Lake City's authorized Hanita Coatings installer — site assessment, product selection, professional installation, manufacturer warranty.</p>
       {statChips.length > 0 && (
         <div class="hcsub-stat-row">
           {statChips.map(([label, value]) => (
@@ -135,7 +135,7 @@ const pageSchemas = [
   <section class="hcsub-overview fade-in">
     <div class="hcsub-overview__inner">
       <div class="hcsub-overview__image-wrap">
-        <img src={p.image} alt={`Hanita ${p.name} window film Philadelphia`} title={`Hanita ${p.name} — Philadelphia`} width="640" height="480" loading="lazy" class="hcsub-overview__image" />
+        <img src={p.image} alt={`Hanita ${p.name} window film Salt Lake City`} title={`Hanita ${p.name} — Salt Lake City`} width="640" height="480" loading="lazy" class="hcsub-overview__image" />
       </div>
       <div class="hcsub-overview__content">
         <span class="hcsub-eyebrow">{p.series}</span>
@@ -170,7 +170,7 @@ const pageSchemas = [
         <div class="hcsub-specs__left">
           <span class="hcsub-eyebrow">Technical Data</span>
           <h2>{p.name} Specifications</h2>
-          <p>Specifications are for reference. Window Film Philadelphia confirms compatibility during your site assessment before recommending any Hanita product.</p>
+          <p>Specifications are for reference. Window Film Salt Lake City confirms compatibility during your site assessment before recommending any Hanita product.</p>
           {p.pdfUrl && (
             <a href={p.pdfUrl} target="_blank" rel="noopener noreferrer" class="hcsub-pdf-link">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9l-6-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 3v6h6M12 18v-6M9 15h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -192,7 +192,7 @@ const pageSchemas = [
   <section class="hcsub-apps fade-in">
     <div class="hcsub-section-head">
       <span class="hcsub-eyebrow">Local Use Cases</span>
-      <h2>Philadelphia Applications</h2>
+      <h2>Salt Lake City Applications</h2>
     </div>
     <div class="hcsub-apps__grid">
       {applications.map(([heading, body]) => (
@@ -214,7 +214,7 @@ const pageSchemas = [
       <div class="hcsub-related__grid">
         {relatedProducts.map((item) => (
           <a href={`/products/hanita/${item.slug}/`} class="hcsub-related__card">
-            <img src={item.image} alt={`Hanita ${item.name} window film Philadelphia`} title={`Hanita ${item.name} Philadelphia`} width="280" height="180" loading="lazy" />
+            <img src={item.image} alt={`Hanita ${item.name} window film Salt Lake City`} title={`Hanita ${item.name} Salt Lake City`} width="280" height="180" loading="lazy" />
             <div class="hcsub-related__card-body">
               <span style={`color:${item.seriesColor}; font-size:.72rem; font-weight:800; text-transform:uppercase; letter-spacing:.1em;`}>{item.series}</span>
               <h3>{item.name}</h3>
@@ -229,8 +229,8 @@ const pageSchemas = [
 
   <section class="hcsub-cta fade-in">
     <div class="hcsub-cta__inner">
-      <h2>Install Hanita {p.name} in Philadelphia</h2>
-      <p>Window Film Philadelphia is an authorized Hanita Coatings installer. Contact us for a free site assessment and product recommendation.</p>
+      <h2>Install Hanita {p.name} in Salt Lake City</h2>
+      <p>Window Film Salt Lake City is an authorized Hanita Coatings installer. Contact us for a free site assessment and product recommendation.</p>
       <a href="/contact/" class="hcsub-cta__btn">Get a Free Quote</a>
     </div>
   </section>

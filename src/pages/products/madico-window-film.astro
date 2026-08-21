@@ -9,33 +9,33 @@ import CountUp from '../../components/animations/CountUp.astro';
 import TestimonialMarquee from '../../components/TestimonialMarquee.astro';
 import { Icon } from 'astro-icon/components';
 
-const title = 'Madico Window Film in Philadelphia | 120 Years of Innovation';
-const description = 'Madico window film in Philadelphia — solar control, SafetyShield security, and decorative film backed by 120 years of precision manufacturing.';
+const title = 'Madico Window Film in Salt Lake City | 120 Years of Innovation';
+const description = 'Madico window film in Salt Lake City — solar control, SafetyShield security, and decorative film backed by 120 years of precision manufacturing.';
 
 const faqItems = [
-  { question: 'What is Madico window film in Philadelphia and how does it work?', answer: 'Madico architectural film uses precision-coated polyester, adhesives, and solar control layers to manage heat, glare, ultraviolet exposure, privacy, and glass fragment retention on Philadelphia residential and commercial glass.' },
-  { question: 'Which Madico product is best for reducing heat in a Philadelphia rowhome?', answer: 'Madico Sunscape is the strongest fit for rowhome heat reduction because it pairs neutral gray appearance with 99% UV protection and heat rejection up to 86% while keeping rooms comfortable and naturally lit.' },
-  { question: 'How does Madico SafetyShield security film protect Philadelphia businesses?', answer: 'SafetyShield helps hold broken glass together after impact, reducing flying shards and delaying forced entry for retail storefronts, offices, schools, and public-facing buildings.' },
+  { question: 'What is Madico window film in Salt Lake City and how does it work?', answer: 'Madico architectural film uses precision-coated polyester, adhesives, and solar control layers to manage heat, glare, ultraviolet exposure, privacy, and glass fragment retention on Salt Lake City residential and commercial glass.' },
+  { question: 'Which Madico product is best for reducing heat in a Salt Lake City rowhome?', answer: 'Madico Sunscape is the strongest fit for rowhome heat reduction because it pairs neutral gray appearance with 99% UV protection and heat rejection up to 86% while keeping rooms comfortable and naturally lit.' },
+  { question: 'How does Madico SafetyShield security film protect Salt Lake City businesses?', answer: 'SafetyShield helps hold broken glass together after impact, reducing flying shards and delaying forced entry for retail storefronts, offices, schools, and public-facing buildings.' },
   { question: 'Is Madico Sunscape film compatible with double-pane and Low-E windows?', answer: 'Yes. The right Madico specification can be selected for many insulated and Low-E glass systems after the glass type, orientation, and existing coating are reviewed for compatibility.' },
-  { question: 'What does "99% UV block" mean for my Philadelphia furniture and flooring?', answer: 'It means Madico film blocks nearly all ultraviolet rays, one of the leading contributors to fading on hardwood floors, fabrics, artwork, merchandise, and interior finishes.' },
+  { question: 'What does "99% UV block" mean for my Salt Lake City furniture and flooring?', answer: 'It means Madico film blocks nearly all ultraviolet rays, one of the leading contributors to fading on hardwood floors, fabrics, artwork, merchandise, and interior finishes.' },
   { question: 'How does Madico solar control film compare to 3M Prestige or LLumar ATC?', answer: 'Madico Sunscape and Solar Control films compete closely with major architectural films by offering 99% UV block, heat rejection up to 86%, neutral finish options, and strong residential and commercial warranty coverage.' },
-  { question: 'Can Madico decorative film replace frosted glass in a Philadelphia office?', answer: 'Yes. Madico Decorative Film can create frosted privacy, subtle patterns, and light diffusion on existing office glass without replacing panels or darkening the space.' },
-  { question: 'What warranty does Madico offer for commercial window film in Philadelphia?', answer: 'Madico commercial solar control films commonly carry 10- to 15-year commercial warranty coverage depending on the series and glass conditions, while decorative and safety products have product-specific warranty terms.' },
-  { question: 'Does Madico window film qualify for energy or tax incentives in Pennsylvania?', answer: 'Madico solar control films can support energy-efficiency documentation and LEED-oriented project goals when product data, glass details, and project requirements align with the applicable program.' },
-  { question: 'What neighborhoods in Philadelphia see the most Madico window film installations?', answer: 'Madico projects are common in Center City offices, Fishtown rowhomes, Old City restaurants, Rittenhouse retail spaces, University City institutional buildings, and Navy Yard commercial facilities.' }
+  { question: 'Can Madico decorative film replace frosted glass in a Salt Lake City office?', answer: 'Yes. Madico Decorative Film can create frosted privacy, subtle patterns, and light diffusion on existing office glass without replacing panels or darkening the space.' },
+  { question: 'What warranty does Madico offer for commercial window film in Salt Lake City?', answer: 'Madico commercial solar control films commonly carry 10- to 15-year commercial warranty coverage depending on the series and glass conditions, while decorative and safety products have product-specific warranty terms.' },
+  { question: 'Does Madico window film qualify for energy or tax incentives in Utah?', answer: 'Madico solar control films can support energy-efficiency documentation and LEED-oriented project goals when product data, glass details, and project requirements align with the applicable program.' },
+  { question: 'What neighborhoods in Salt Lake City see the most Madico window film installations?', answer: 'Madico projects are common in Center City offices, Fishtown rowhomes, Old City restaurants, Rittenhouse retail spaces, University City institutional buildings, and Navy Yard commercial facilities.' }
 ];
 
 const madicoReviews = [
   { quote: 'Madico Sunscape film took care of the glare on our east-facing offices without making the space feel like a cave. The heat drop was noticeable the first week.', name: 'Marcus T.', role: 'Property Manager, Center City', img: '/images/madico-testimonial-marcus.jpg' },
   { quote: 'Our Fishtown rowhome used to be unbearable in July. The Madico Sunscape film changed that completely — we barely run the AC now.', name: 'Sarah W.', role: 'Homeowner, Fishtown', img: '/images/madico-testimonial-sarah.jpg' },
-  { quote: 'We installed Madico SafetyShield in every classroom. Parents feel better knowing the glass is reinforced. I sleep better too.', name: 'Dr. James K.', role: 'Principal, Philadelphia School', img: '/images/madico-testimonial-james.jpg' },
+  { quote: 'We installed Madico SafetyShield in every classroom. Parents feel better knowing the glass is reinforced. I sleep better too.', name: 'Dr. James K.', role: 'Principal, Salt Lake City School', img: '/images/madico-testimonial-james.jpg' },
   { quote: 'The Madico decorative film on our front windows gives us the privacy we needed without losing the natural light. Looks polished.', name: 'Elena V.', role: 'Restaurant Owner, Old City', img: '/images/madico-testimonial-elena.jpg' },
-  { quote: "Madico's solar control film cut our building's cooling costs by a measurable amount. Facilities departments in Philadelphia should know about this.", name: 'Tom R.', role: 'Facilities Director, University City', img: '/images/madico-testimonial-tom.jpg' },
+  { quote: "Madico's solar control film cut our building's cooling costs by a measurable amount. Facilities departments in Salt Lake City should know about this.", name: 'Tom R.', role: 'Facilities Director, University City', img: '/images/madico-testimonial-tom.jpg' },
   { quote: "We put Madico safety film on our storefront glass after a break-in attempt on the block. It's peace of mind we didn't know we needed.", name: 'Lena B.', role: 'Retail Owner, Rittenhouse', img: '/images/madico-testimonial-lena.jpg' }
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="https://windowfilmphiladelphia.net/products/madico-window-film/">
+<BaseLayout title={title} description={description} canonical="https://windowfilmsaltlakecity.com/products/madico-window-film/">
 
 <!-- ═══════════════════════════════════════════
      STRUCTURED DATA
@@ -43,32 +43,32 @@ const madicoReviews = [
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "@id": "https://windowfilmphiladelphia.net/products/madico-window-film/#breadcrumb",
+  "@id": "https://windowfilmsaltlakecity.com/products/madico-window-film/#breadcrumb",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://windowfilmphiladelphia.net/" },
-    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://windowfilmphiladelphia.net/products/" },
-    { "@type": "ListItem", "position": 3, "name": "Madico Window Film in Philadelphia", "item": "https://windowfilmphiladelphia.net/products/madico-window-film/" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://windowfilmsaltlakecity.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://windowfilmsaltlakecity.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Madico Window Film in Salt Lake City", "item": "https://windowfilmsaltlakecity.com/products/madico-window-film/" }
   ]
 })}></script>
 
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://windowfilmphiladelphia.net/products/madico-window-film/#webpage",
-  "url": "https://windowfilmphiladelphia.net/products/madico-window-film/",
-  "name": "Madico Window Film in Philadelphia | 120 Years of Innovation",
-  "description": "Madico window film in Philadelphia — solar control, SafetyShield security, and decorative film backed by 120 years of precision manufacturing.",
+  "@id": "https://windowfilmsaltlakecity.com/products/madico-window-film/#webpage",
+  "url": "https://windowfilmsaltlakecity.com/products/madico-window-film/",
+  "name": "Madico Window Film in Salt Lake City | 120 Years of Innovation",
+  "description": "Madico window film in Salt Lake City — solar control, SafetyShield security, and decorative film backed by 120 years of precision manufacturing.",
   "dateModified": new Date().toISOString().slice(0, 10),
-  "isPartOf": { "@type": "WebSite", "@id": "https://windowfilmphiladelphia.net/#website", "url": "https://windowfilmphiladelphia.net/", "name": "Window Film Philadelphia" },
-  "breadcrumb": { "@id": "https://windowfilmphiladelphia.net/products/madico-window-film/#breadcrumb" },
+  "isPartOf": { "@type": "WebSite", "@id": "https://windowfilmsaltlakecity.com/#website", "url": "https://windowfilmsaltlakecity.com/", "name": "Window Film Salt Lake City" },
+  "breadcrumb": { "@id": "https://windowfilmsaltlakecity.com/products/madico-window-film/#breadcrumb" },
   "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".md-hero__subtitle", ".md-why__intro", ".md-faq__a"] }
 })}></script>
 
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Madico Window Film Products Available in Philadelphia",
-  "description": "Madico architectural window film lineup for Philadelphia — Sunscape solar control, SafetyShield security, Clear Safety Film, and decorative film.",
+  "name": "Madico Window Film Products Available in Salt Lake City",
+  "description": "Madico architectural window film lineup for Salt Lake City — Sunscape solar control, SafetyShield security, Clear Safety Film, and decorative film.",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Madico Sunscape Series", "description": "Non-metallic solar control film with neutral tones, 99% UV block, and heat rejection up to 86%. Lifetime residential / 15-year commercial warranty." },
     { "@type": "ListItem", "position": 2, "name": "Madico Solar Control", "description": "Commercial solar control film with reflective and neutral finishes, LEED support, and 10- to 15-year warranty terms." },
@@ -96,9 +96,9 @@ const madicoReviews = [
 <section class="md-hero">
   <div
     class="md-hero__bg"
-    style="background-image: url('/images/madico-window-film-philadelphia-hero.jpg')"
+    style="background-image: url('/images/madico-window-film-salt-lake-city-hero.jpg')"
     role="img"
-    aria-label="Madico window film on a Philadelphia commercial glass facade"
+    aria-label="Madico window film on a Salt Lake City commercial glass facade"
   ></div>
   <div class="md-hero__overlay"></div>
 
@@ -107,12 +107,12 @@ const madicoReviews = [
     <div class="md-hero__eyebrow">
       <span>Madico Window Film</span>
       <span class="md-hero__eyebrow-dot" aria-hidden="true"></span>
-      <span>Philadelphia, PA</span>
+      <span>Salt Lake City, UT</span>
       <span class="md-hero__eyebrow-dot" aria-hidden="true"></span>
       <span>120 Years of Manufacturing</span>
     </div>
 
-    <h1 class="md-hero__title">Madico Window Film<br class="md-hero__br"/> in Philadelphia</h1>
+    <h1 class="md-hero__title">Madico Window Film<br class="md-hero__br"/> in Salt Lake City</h1>
 
     <p class="md-hero__animated-line">
       Advanced film solutions for
@@ -124,14 +124,14 @@ const madicoReviews = [
     </p>
 
     <p class="md-hero__subtitle">
-      Sunscape solar control, SafetyShield security, Clear Safety Film, and decorative privacy options — Madico's full architectural lineup selected for Philadelphia glass, climate, and architecture.
+      Sunscape solar control, SafetyShield security, Clear Safety Film, and decorative privacy options — Madico's full architectural lineup selected for Salt Lake City glass, climate, and architecture.
     </p>
 
     <div class="md-hero__cta">
       <a href="/contact/" class="md-hero__btn-primary">Get Your Free Estimate</a>
-      <a href="tel:2673947980" class="md-hero__btn-secondary">
+      <a href="tel:8018954681" class="md-hero__btn-secondary">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" fill="currentColor"/></svg>
-        Call (267) 394-7980
+        Call (801) 895-4681
       </a>
     </div>
 
@@ -161,9 +161,9 @@ const madicoReviews = [
     <div class="md-intro__image-col">
       <div class="md-intro__image-wrap">
         <img
-          src="/images/madico-window-film-philadelphia-intro.jpg"
-          alt="Installer applying Madico window film in Philadelphia"
-          title="Madico window film installation Philadelphia"
+          src="/images/madico-window-film-salt-lake-city-intro.jpg"
+          alt="Installer applying Madico window film in Salt Lake City"
+          title="Madico window film installation Salt Lake City"
           width="600"
           height="720"
           loading="lazy"
@@ -179,8 +179,8 @@ const madicoReviews = [
     <div class="md-intro__content">
       <span class="md-intro__eyebrow">Precision Manufacturing Since 1903</span>
       <h2 class="md-intro__title">Why choose Madico window film for your glass?</h2>
-      <p class="md-intro__lead">Madico window film in Philadelphia is a strong fit for property owners who want proven solar control, safety, and decorative glass upgrades without changing the architecture. For owners comparing Madico window tint in Philadelphia, the advantage is a broad product family that can be specified by glass type, exposure, building use, and finish preference.</p>
-      <p class="md-intro__body">Madico's manufacturing credentials include more than 120 years of production experience, ISO 9001:2015 quality certification, ISO 14001 environmental management certification, and membership in Lintec Corporation. That combination matters when the project involves older rowhome glass, commercial IGUs, or high-visibility storefronts across Philadelphia's neighborhoods.</p>
+      <p class="md-intro__lead">Madico window film in Salt Lake City is a strong fit for property owners who want proven solar control, safety, and decorative glass upgrades without changing the architecture. For owners comparing Madico window tint in Salt Lake City, the advantage is a broad product family that can be specified by glass type, exposure, building use, and finish preference.</p>
+      <p class="md-intro__body">Madico's manufacturing credentials include more than 120 years of production experience, ISO 9001:2015 quality certification, ISO 14001 environmental management certification, and membership in Lintec Corporation. That combination matters when the project involves older rowhome glass, commercial IGUs, or high-visibility storefronts across Salt Lake City's neighborhoods.</p>
       <div class="md-intro__creds">
         <div class="md-intro__cred">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#81AB4C" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#81AB4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -197,7 +197,7 @@ const madicoReviews = [
       </div>
       <div class="md-intro__ctas">
         <a href="/contact/" class="pp-btn pp-btn--primary">Get a Free Quote</a>
-        <a href="tel:2673947980" class="pp-btn pp-btn--ghost">Call (267) 394-7980</a>
+        <a href="tel:8018954681" class="pp-btn pp-btn--ghost">Call (801) 895-4681</a>
       </div>
     </div>
 
@@ -207,7 +207,7 @@ const madicoReviews = [
 <!-- ══ TRUST BAR ══ -->
 <section class="md-trust">
   <div class="md-trust__inner">
-    <p class="md-trust__label">Madico architectural film &mdash; full product lineup for Philadelphia residential and commercial</p>
+    <p class="md-trust__label">Madico architectural film &mdash; full product lineup for Salt Lake City residential and commercial</p>
     <div class="md-trust__badges">
       <div class="md-trust__badge">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2l2.09 6.26H21l-5.47 3.97 2.09 6.27L12 14.54l-5.62 3.96 2.09-6.27L3 8.26h6.91L12 2z" fill="#81AB4C"/></svg>
@@ -234,16 +234,16 @@ const madicoReviews = [
 <BrandLogos />
 
 <!-- ══════════════════════════════════════
-     SECTION 3 - WHY MADICO FOR PHILADELPHIA
+     SECTION 3 - WHY MADICO FOR SALT LAKE CITY
      ══════════════════════════════════════ -->
 <section class="md-why">
   <div class="md-why__container">
 
     <div class="md-why__image-wrap">
       <img
-        src="/images/madico-window-film-philadelphia-why.jpg"
-        alt="Philadelphia interior suited for Madico solar control and safety film"
-          title="Madico window film Philadelphia climate fit"
+        src="/images/madico-window-film-salt-lake-city-why.jpg"
+        alt="Salt Lake City interior suited for Madico solar control and safety film"
+          title="Madico window film Salt Lake City climate fit"
         width="768"
         height="960"
         loading="lazy"
@@ -263,15 +263,15 @@ const madicoReviews = [
     </div>
 
     <div class="md-why__content">
-      <span class="md-why__eyebrow">Philadelphia Climate Match</span>
-      <h2 class="md-why__headline">Madico Handles Philadelphia's Summer Sun and Winter Swings</h2>
+      <span class="md-why__eyebrow">Salt Lake City Climate Match</span>
+      <h2 class="md-why__headline">Madico Handles Salt Lake City's Summer Sun and Winter Swings</h2>
       <p class="md-why__intro">
-        Madico architectural film has to work through humid summers, glare-heavy shoulder seasons, and older glass that can make winter rooms feel uneven. A Madico film installer for Philadelphia can match Sunscape, SafetyShield, Clear Safety Film, or Decorative Film to the exact glass and exposure instead of treating every window the same.
+        Madico architectural film has to work through humid summers, glare-heavy shoulder seasons, and older glass that can make winter rooms feel uneven. A Madico film installer for Salt Lake City can match Sunscape, SafetyShield, Clear Safety Film, or Decorative Film to the exact glass and exposure instead of treating every window the same.
       </p>
       <ul class="md-why__bullets">
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Philadelphia sees roughly 100 days above 80°F, so solar heat rejection matters on east, south, and west glass.
+          Salt Lake City sees roughly 100 days above 80°F, so solar heat rejection matters on east, south, and west glass.
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -283,7 +283,7 @@ const madicoReviews = [
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Non-metallic Sunscape options help preserve wireless performance in dense Philadelphia offices and smart homes.</span>
+          <span>Non-metallic Sunscape options help preserve wireless performance in dense Salt Lake City offices and smart homes.</span>
         </li>
         <li>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#7CB342" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#7CB342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -304,7 +304,7 @@ const madicoReviews = [
           <span class="md-why__climate-label">Mixed-humid, 4 seasons</span>
         </div>
       </div>
-      <p style="font-family:var(--font-body,'DM Sans',sans-serif);font-size:15px;color:var(--text-mid,#4a4a4a);line-height:1.7;margin:0 0 18px;">"Madico has been a leader in high-quality manufacturing for over 120 years," according to Madico, Inc. That manufacturing depth is why the product line holds up across Philadelphia's full range of glass types, exposures, and building ages.</p>
+      <p style="font-family:var(--font-body,'DM Sans',sans-serif);font-size:15px;color:var(--text-mid,#4a4a4a);line-height:1.7;margin:0 0 18px;">"Madico has been a leader in high-quality manufacturing for over 120 years," according to Madico, Inc. That manufacturing depth is why the product line holds up across Salt Lake City's full range of glass types, exposures, and building ages.</p>
       <a href="/contact/" class="md-why__cta">
         Get a free film assessment &rarr;
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
@@ -322,20 +322,20 @@ const madicoReviews = [
 
     <!-- SLIDE 01: Residential -->
     <div class="md-slider__slide" data-slide="0">
-      <img src="/images/madico-window-film-philadelphia-residential.jpg" alt="Bright Philadelphia rowhouse living room with Madico window film on bay windows"
-          title="Residential Sunscape for Philadelphia rowhomes" class="md-slider__bg" loading="lazy" />
+      <img src="/images/madico-window-film-salt-lake-city-residential.jpg" alt="Bright Salt Lake City rowhouse living room with Madico window film on bay windows"
+          title="Residential Sunscape for Salt Lake City rowhomes" class="md-slider__bg" loading="lazy" />
       <div class="md-slider__overlay"></div>
       <div class="md-slider__content">
         <div class="md-slider__step">01</div>
-        <h2 class="md-slider__title">Sunscape for Philadelphia Rowhomes</h2>
+        <h2 class="md-slider__title">Sunscape for Salt Lake City Rowhomes</h2>
         <p class="md-slider__desc">Madico Sunscape helps rowhomes control glare, protect interiors from 99% of UV rays, and reduce heat buildup without making rooms feel closed off. It is especially useful for older glass, narrow lots, and sun-facing bedrooms or living rooms.</p>
         <div class="md-slider__faq">
           <div class="md-slider__faq-item">
-            <button class="md-slider__faq-q" aria-expanded="false">Can Madico Sunscape be applied to the older single-pane windows common in Philadelphia rowhomes?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
+            <button class="md-slider__faq-q" aria-expanded="false">Can Madico Sunscape be applied to the older single-pane windows common in Salt Lake City rowhomes?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
             <div class="md-slider__faq-a" hidden>Yes. Many single-pane windows are good candidates after the glass condition, age, and sun exposure are reviewed.</div>
           </div>
           <div class="md-slider__faq-item">
-            <button class="md-slider__faq-q" aria-expanded="false">Will Madico window film fade the colors in my Philadelphia home's interior?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
+            <button class="md-slider__faq-q" aria-expanded="false">Will Madico window film fade the colors in my Salt Lake City home's interior?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
             <div class="md-slider__faq-a" hidden>It helps reduce fading by blocking 99% of UV rays, while visible light and heat are managed by the selected Sunscape shade.</div>
           </div>
           <div class="md-slider__faq-item">
@@ -349,24 +349,24 @@ const madicoReviews = [
 
     <!-- SLIDE 02: Commercial -->
     <div class="md-slider__slide" data-slide="1">
-      <img src="/images/madico-window-film-philadelphia-commercial.jpg" alt="Modern Philadelphia Center City office with Madico SafetyShield and Solar Control film on floor-to-ceiling glass"
-          title="Commercial Safety + Solar for Philadelphia commercial buildings" class="md-slider__bg" loading="lazy" />
+      <img src="/images/madico-window-film-salt-lake-city-commercial.jpg" alt="Modern Salt Lake City Center City office with Madico SafetyShield and Solar Control film on floor-to-ceiling glass"
+          title="Commercial Safety + Solar for Salt Lake City commercial buildings" class="md-slider__bg" loading="lazy" />
       <div class="md-slider__overlay"></div>
       <div class="md-slider__content">
         <div class="md-slider__step">02</div>
         <h2 class="md-slider__title">Commercial Film for Center City</h2>
-        <p class="md-slider__desc">Madico SafetyShield and Solar Control films help Philadelphia commercial properties manage heat, glare, UV exposure, and glass security in one specification strategy. See how film performs across <a href="/applications/office/" class="md-body-link">Philadelphia office applications</a> from storefronts to high-rise suites.</p>
+        <p class="md-slider__desc">Madico SafetyShield and Solar Control films help Salt Lake City commercial properties manage heat, glare, UV exposure, and glass security in one specification strategy. See how film performs across <a href="/applications/office/" class="md-body-link">Salt Lake City office applications</a> from storefronts to high-rise suites.</p>
         <div class="md-slider__faq">
           <div class="md-slider__faq-item">
-            <button class="md-slider__faq-q" aria-expanded="false">Does Madico window film qualify for LEED credits on Philadelphia commercial projects?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
+            <button class="md-slider__faq-q" aria-expanded="false">Does Madico window film qualify for LEED credits on Salt Lake City commercial projects?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
             <div class="md-slider__faq-a" hidden>Yes. Madico solar control film data can support LEED-oriented documentation when the project criteria and modeled performance align.</div>
           </div>
           <div class="md-slider__faq-item">
-            <button class="md-slider__faq-q" aria-expanded="false">What Madico security film thickness is right for a Philadelphia retail storefront?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
+            <button class="md-slider__faq-q" aria-expanded="false">What Madico security film thickness is right for a Salt Lake City retail storefront?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
             <div class="md-slider__faq-a" hidden>Common storefront specifications use the threat profile, glass size, frame condition, and visibility goals to select SafetyShield thickness from the 4- to 14-mil range.</div>
           </div>
           <div class="md-slider__faq-item">
-            <button class="md-slider__faq-q" aria-expanded="false">Can Madico SafetyShield be installed without anchoring on Philadelphia office buildings?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
+            <button class="md-slider__faq-q" aria-expanded="false">Can Madico SafetyShield be installed without anchoring on Salt Lake City office buildings?<span class="md-slider__faq-icon" aria-hidden="true">+</span></button>
             <div class="md-slider__faq-a" hidden>Yes. SafetyShield can be specified as film-only fragment retention or paired with anchoring where the security objective calls for stronger edge retention.</div>
           </div>
         </div>
@@ -410,17 +410,17 @@ const madicoReviews = [
 <section class="md-products">
   <div class="md-products__hd">
     <span class="pp-eyebrow">Product Lines</span>
-    <h2 class="md-products__title">The Madico window film lineup for Philadelphia</h2>
-    <p class="md-products__sub">Madico architectural film is available through Window Film Philadelphia across solar control, SafetyShield security, Clear Safety Film, and decorative privacy products for residential and commercial glass.</p>
+    <h2 class="md-products__title">The Madico window film lineup for Salt Lake City</h2>
+    <p class="md-products__sub">Madico architectural film is available through Window Film Salt Lake City across solar control, SafetyShield security, Clear Safety Film, and decorative privacy products for residential and commercial glass.</p>
   </div>
 
   <!-- ROW 01 - Sunscape Series (image LEFT) -->
   <div class="md-pl-row fade-in">
     <div class="md-pl-row__img-wrap">
       <img
-        src="/images/madico-sunscape-window-film-philadelphia.jpg"
-        alt="Madico Sunscape window film on Philadelphia rowhome glass"
-          title="Madico Sunscape window film on Philadelphia rowhome glass"
+        src="/images/madico-sunscape-window-film-salt-lake-city.jpg"
+        alt="Madico Sunscape window film on Salt Lake City rowhome glass"
+          title="Madico Sunscape window film on Salt Lake City rowhome glass"
         width="848" height="1264"
         loading="lazy"
         class="md-pl-row__img"
@@ -430,8 +430,8 @@ const madicoReviews = [
     <div class="md-pl-row__content">
       <span class="md-pl-row__num">01</span>
       <span class="md-pl-row__eyebrow">Solar Control Flagship · Residential &amp; Commercial</span>
-      <h3 class="md-pl-row__heading">Madico's Non-Metallic Sunscape Series Handles Philadelphia's Glare Problem</h3>
-      <p class="md-pl-row__body">Sunscape is Madico's flagship solar control series for owners who want calmer light without a mirrored or industrial look. Its neutral gray tones work especially well on Philadelphia rowhomes, condo glass, office suites, and retail storefronts where curb appeal matters as much as comfort.</p>
+      <h3 class="md-pl-row__heading">Madico's Non-Metallic Sunscape Series Handles Salt Lake City's Glare Problem</h3>
+      <p class="md-pl-row__body">Sunscape is Madico's flagship solar control series for owners who want calmer light without a mirrored or industrial look. Its neutral gray tones work especially well on Salt Lake City rowhomes, condo glass, office suites, and retail storefronts where curb appeal matters as much as comfort.</p>
       <p class="md-pl-row__body">The non-metallic construction avoids interference with Wi-Fi, cellular service, card readers, and smart home devices. It blocks 99% of UV rays, rejects heat up to 86%, and carries lifetime residential warranty coverage with 15-year commercial terms.</p>
 
       <!-- Specs strip -->
@@ -459,19 +459,19 @@ const madicoReviews = [
         <span class="md-pl-row__pdfs-label">Madico Technical Documents</span>
         <ul class="md-pl-row__pdf-list">
           <li>
-            <a href="/resources/madico-sunscape-solar-control-window-film-iwfa-rating-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-sunscape-solar-control-window-film-iwfa-rating-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Window Film Rating Guide
             </a>
           </li>
           <li>
-            <a href="/resources/madico-solar-control-window-film-insulating-glass-compatibility-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-solar-control-window-film-insulating-glass-compatibility-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Insulating Glass Compatibility Guide
             </a>
           </li>
           <li>
-            <a href="/resources/madico-iso-9001-2015-certification-manufacturing-quality-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-iso-9001-2015-certification-manufacturing-quality-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               ISO 9001:2015 Quality Certification
             </a>
@@ -488,9 +488,9 @@ const madicoReviews = [
   <div class="md-pl-row md-pl-row--rev fade-in">
     <div class="md-pl-row__img-wrap">
       <img
-        src="/images/madico-solar-control-window-film-philadelphia.jpg"
-        alt="Madico solar control window film on Philadelphia commercial building"
-          title="Madico solar control window film on Philadelphia commercial building"
+        src="/images/madico-solar-control-window-film-salt-lake-city.jpg"
+        alt="Madico solar control window film on Salt Lake City commercial building"
+          title="Madico solar control window film on Salt Lake City commercial building"
         width="848" height="1264"
         loading="lazy"
         class="md-pl-row__img"
@@ -500,7 +500,7 @@ const madicoReviews = [
     <div class="md-pl-row__content">
       <span class="md-pl-row__num">02</span>
       <span class="md-pl-row__eyebrow">Commercial Energy Efficiency · LEED Credit Eligible</span>
-      <h3 class="md-pl-row__heading">Philadelphia Buildings Save on HVAC with Madico's Commercial Solar Control Film</h3>
+      <h3 class="md-pl-row__heading">Salt Lake City Buildings Save on HVAC with Madico's Commercial Solar Control Film</h3>
       <p class="md-pl-row__body">Madico Solar Control films help commercial buildings lower cooling demand by reducing solar heat gain before it enters the glass. For Center City offices, University City campuses, and Navy Yard facilities with long sun exposure, that means less glare at workstations and measurable <a href="/benefits/energy-savings/" class="md-body-link">energy savings</a> from reduced HVAC load.</p>
       <p class="md-pl-row__body">The line includes reflective and neutral finish options for different design goals, plus product data that can support LEED credit documentation where the project requirements fit. Commercial warranty coverage commonly runs 10 to 15 years by product and application.</p>
 
@@ -529,19 +529,19 @@ const madicoReviews = [
         <span class="md-pl-row__pdfs-label">Madico Technical Documents</span>
         <ul class="md-pl-row__pdf-list">
           <li>
-            <a href="/resources/madico-solar-control-window-film-insulating-glass-compatibility-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-solar-control-window-film-insulating-glass-compatibility-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Insulating Glass Guide
             </a>
           </li>
           <li>
-            <a href="/resources/madico-iso-14001-environmental-management-certification-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-iso-14001-environmental-management-certification-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               ISO 14001 Environmental Certification
             </a>
           </li>
           <li>
-            <a href="/resources/madico-sunscape-solar-control-window-film-iwfa-rating-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-sunscape-solar-control-window-film-iwfa-rating-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Film Rating Standards
             </a>
@@ -555,9 +555,9 @@ const madicoReviews = [
   <div class="md-pl-row fade-in">
     <div class="md-pl-row__img-wrap">
       <img
-        src="/images/madico-safetyfirst-security-window-film-philadelphia.jpg"
-        alt="Madico SafetyShield security film protecting Philadelphia storefront glass"
-          title="Madico SafetyShield security film protecting Philadelphia storefront glass"
+        src="/images/madico-safetyfirst-security-window-film-salt-lake-city.jpg"
+        alt="Madico SafetyShield security film protecting Salt Lake City storefront glass"
+          title="Madico SafetyShield security film protecting Salt Lake City storefront glass"
         width="848" height="1264"
         loading="lazy"
         class="md-pl-row__img"
@@ -567,9 +567,9 @@ const madicoReviews = [
     <div class="md-pl-row__content">
       <span class="md-pl-row__num">03</span>
       <span class="md-pl-row__eyebrow">Safety &amp; Security · Glazing Protection</span>
-      <h3 class="md-pl-row__heading">SafetyShield Keeps Philadelphia Schools, Offices, and Retailers Protected 24/7</h3>
+      <h3 class="md-pl-row__heading">SafetyShield Keeps Salt Lake City Schools, Offices, and Retailers Protected 24/7</h3>
       <p class="md-pl-row__body">SafetyShield is Madico security film engineered for glass fragment retention in public-facing spaces. Available in 4- to 14-mil configurations, it helps hold glass together after impact and supports CPSC safety glazing criteria on appropriate assemblies.</p>
-      <p class="md-pl-row__body">Philadelphia schools, offices, retailers, and civic spaces use SafetyShield to delay forced entry, reduce flying glass hazards, and add passive protection against certain impact and blast-mitigation scenarios. The film stays visually discreet while strengthening the weakest part of many buildings.</p>
+      <p class="md-pl-row__body">Salt Lake City schools, offices, retailers, and civic spaces use SafetyShield to delay forced entry, reduce flying glass hazards, and add passive protection against certain impact and blast-mitigation scenarios. The film stays visually discreet while strengthening the weakest part of many buildings.</p>
 
       <!-- Specs strip -->
       <div class="md-pl-row__specs">
@@ -596,19 +596,19 @@ const madicoReviews = [
         <span class="md-pl-row__pdfs-label">Madico Technical Documents</span>
         <ul class="md-pl-row__pdf-list">
           <li>
-            <a href="/resources/madico-safety-security-window-film-iwfa-industry-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-safety-security-window-film-iwfa-industry-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Safety Film Industry Guide
             </a>
           </li>
           <li>
-            <a href="/resources/madico-safety-security-window-film-bullet-resistance-statement-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-safety-security-window-film-bullet-resistance-statement-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Bullet Resistance Statement
             </a>
           </li>
           <li>
-            <a href="/resources/madico-iso-9001-2015-certification-manufacturing-quality-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-iso-9001-2015-certification-manufacturing-quality-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               ISO 9001:2015 Manufacturing Certification
             </a>
@@ -623,9 +623,9 @@ const madicoReviews = [
   <div class="md-pl-row md-pl-row--rev fade-in">
     <div class="md-pl-row__img-wrap">
       <img
-        src="/images/madico-clear-safety-film-philadelphia.jpg"
-        alt="Madico Clear 14 Mil safety film on Philadelphia government building glass"
-          title="Madico Clear 14 Mil safety film on Philadelphia government building glass"
+        src="/images/madico-clear-safety-film-salt-lake-city.jpg"
+        alt="Madico Clear 14 Mil safety film on Salt Lake City government building glass"
+          title="Madico Clear 14 Mil safety film on Salt Lake City government building glass"
         width="848" height="1264"
         loading="lazy"
         class="md-pl-row__img"
@@ -635,7 +635,7 @@ const madicoReviews = [
     <div class="md-pl-row__content">
       <span class="md-pl-row__num">04</span>
       <span class="md-pl-row__eyebrow">Heavy-Duty Clear Protection · 14 Mil Safety Film</span>
-      <h3 class="md-pl-row__heading">Madico Clear 14 Mil — The Invisible Shield for Philadelphia Government Buildings</h3>
+      <h3 class="md-pl-row__heading">Madico Clear 14 Mil — The Invisible Shield for Salt Lake City Government Buildings</h3>
       <p class="md-pl-row__body">Madico Clear 14 Mil is built for projects where security matters but appearance cannot change. The crystal-clear film adds heavy-duty thickness to glass while preserving the look of government buildings, schools, museums, transit hubs, and landmark-facing properties.</p>
       <p class="md-pl-row__body">For Old City institutions and Center City government buildings, Clear 14 Mil can be paired with anchored glazing systems and DOWSIL 995 Silicone Structural Sealant compatibility for stronger edge retention. It works quietly around the clock as a passive protection layer.</p>
 
@@ -664,19 +664,19 @@ const madicoReviews = [
         <span class="md-pl-row__pdfs-label">Madico Technical Documents</span>
         <ul class="md-pl-row__pdf-list">
           <li>
-            <a href="/resources/school-window-film-madico-clear-14mil-texas-school-district-case-study-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/school-window-film-madico-clear-14mil-texas-school-district-case-study-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               Clear 14 Mil School District Case Study
             </a>
           </li>
           <li>
-            <a href="/resources/madico-safety-security-window-film-iwfa-industry-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-safety-security-window-film-iwfa-industry-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Safety Film Industry Guide
             </a>
           </li>
           <li>
-            <a href="/resources/madico-safety-security-window-film-bullet-resistance-statement-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-safety-security-window-film-bullet-resistance-statement-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Bullet Resistance Statement
             </a>
@@ -691,9 +691,9 @@ const madicoReviews = [
   <div class="md-pl-row fade-in">
     <div class="md-pl-row__img-wrap">
       <img
-        src="/images/madico-decorative-window-film-philadelphia.jpg"
-        alt="Madico decorative privacy film in Philadelphia office interior"
-          title="Madico decorative privacy film in Philadelphia office interior"
+        src="/images/madico-decorative-window-film-salt-lake-city.jpg"
+        alt="Madico decorative privacy film in Salt Lake City office interior"
+          title="Madico decorative privacy film in Salt Lake City office interior"
         width="848" height="1264"
         loading="lazy"
         class="md-pl-row__img"
@@ -703,9 +703,9 @@ const madicoReviews = [
     <div class="md-pl-row__content">
       <span class="md-pl-row__num">05</span>
       <span class="md-pl-row__eyebrow">Decorative &amp; Privacy Film · 7-Year Warranty</span>
-      <h3 class="md-pl-row__heading">Madico Decorative Film Upgrades Philadelphia Office Interiors Without the Renovation Cost</h3>
+      <h3 class="md-pl-row__heading">Madico Decorative Film Upgrades Salt Lake City Office Interiors Without the Renovation Cost</h3>
       <p class="md-pl-row__body">Madico Decorative Film gives existing glass a finished architectural role, from classic frosted privacy to contemporary patterns for conference rooms, lobbies, retail entries, hotel interiors, and co-working spaces. It is a clean retrofit for glass that needs privacy, branding, or light control without full replacement.</p>
-      <p class="md-pl-row__body">Unlike blackout treatments, decorative film can diffuse light while still keeping interiors open and polished. The 7-year warranty and wide style range make it useful for Philadelphia offices, restaurants, and hospitality spaces that need a design upgrade with minimal disruption to the glass system.</p>
+      <p class="md-pl-row__body">Unlike blackout treatments, decorative film can diffuse light while still keeping interiors open and polished. The 7-year warranty and wide style range make it useful for Salt Lake City offices, restaurants, and hospitality spaces that need a design upgrade with minimal disruption to the glass system.</p>
 
       <!-- Specs strip -->
       <div class="md-pl-row__specs">
@@ -732,19 +732,19 @@ const madicoReviews = [
         <span class="md-pl-row__pdfs-label">Madico Technical Documents</span>
         <ul class="md-pl-row__pdf-list">
           <li>
-            <a href="/resources/madico-window-film-uv-protection-skin-eye-safety-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-window-film-uv-protection-skin-eye-safety-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA UV Skin &amp; Eye Protection Guide
             </a>
           </li>
           <li>
-            <a href="/resources/madico-iso-14001-environmental-management-certification-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-iso-14001-environmental-management-certification-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               ISO 14001 Environmental Certification
             </a>
           </li>
           <li>
-            <a href="/resources/madico-solar-control-window-film-insulating-glass-compatibility-guide-philadelphia.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
+            <a href="/resources/madico-solar-control-window-film-insulating-glass-compatibility-guide-salt-lake-city.pdf" target="_blank" rel="noopener" class="md-pl-row__pdf-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               IWFA Window Film on Insulating Glass
             </a>
@@ -767,8 +767,8 @@ const madicoReviews = [
   <div class="md-compare__inner">
     <div class="md-compare__hd">
       <span class="pp-eyebrow" style="color:#81AB4C">Compare Series</span>
-      <h2 class="md-compare__title">Madico Compared With Other Philadelphia Film Options</h2>
-      <p class="md-compare__sub">Madico product lines compared with other common Philadelphia film options using published manufacturer data and IWFA industry standards.</p>
+      <h2 class="md-compare__title">Madico Compared With Other Salt Lake City Film Options</h2>
+      <p class="md-compare__sub">Madico product lines compared with other common Salt Lake City film options using published manufacturer data and IWFA industry standards.</p>
     </div>
     <div class="md-compare__wrap">
       <table class="md-compare__table" aria-label="Madico window film product comparison">
@@ -866,8 +866,8 @@ const madicoReviews = [
   <div class="md-catalog__inner">
     <div class="md-catalog__hd">
       <span class="pp-eyebrow" style="color:#81AB4C">Full Product Line</span>
-      <h2 class="md-catalog__title">{madicoProducts.length} Madico Products Available in Philadelphia</h2>
-      <p class="md-catalog__sub">The complete Madico architectural film lineup — solar control, safety, decorative, specialty, and exterior products available through Window Film Philadelphia.</p>
+      <h2 class="md-catalog__title">{madicoProducts.length} Madico Products Available in Salt Lake City</h2>
+      <p class="md-catalog__sub">The complete Madico architectural film lineup — solar control, safety, decorative, specialty, and exterior products available through Window Film Salt Lake City.</p>
     </div>
 
     {[
@@ -893,7 +893,7 @@ const madicoReviews = [
           <div class="md-catalog__grid">
             {seriesProducts.map((product) => (
               <a href={`/products/madico/${product.slug}/`} class="md-catalog__card">
-                <img src={product.image} alt={`${product.name} window film Philadelphia`} title={`${product.name} — Madico window film`} class="md-catalog__card-img" width="400" height="160" loading="lazy" />
+                <img src={product.image} alt={`${product.name} window film Salt Lake City`} title={`${product.name} — Madico window film`} class="md-catalog__card-img" width="400" height="160" loading="lazy" />
                 <div class="md-catalog__card-top">
                   <span class="md-catalog__series-dot" style={`background:${product.seriesColor}`}></span>
                   <span class="md-catalog__series-label">{product.series}</span>
@@ -925,7 +925,7 @@ const madicoReviews = [
     <div class="md-casestudy__img-col">
       <div class="md-casestudy__img-wrap">
         <img
-          src="/images/madico-window-film-philadelphia-casestudy.jpg"
+          src="/images/madico-window-film-salt-lake-city-casestudy.jpg"
           alt="Madico Clear 14 Mil school safety film case study"
           title="Madico Clear 14 Mil school safety film case study"
           width="1264" height="848"
@@ -958,13 +958,13 @@ const madicoReviews = [
       <span class="pp-eyebrow">Case Study</span>
       <h2 class="md-casestudy__title">Madico Clear 14 Mil Protected a 48-School District</h2>
       <p class="md-casestudy__lead">The project covered 15,000 sq ft across 48 school buildings. A certified Madico installer applied Clear 14 Mil with DOWSIL™ 995 Silicone Structural Sealant to strengthen glass retention across the entire campus portfolio — elementary, middle, and high school buildings included.</p>
-      <p class="md-casestudy__body">Philadelphia schools, civic facilities, and institutional campuses can use the same case study to understand how clear safety film can add passive glass protection while preserving visibility, daylight, and the existing appearance of the building envelope.</p>
+      <p class="md-casestudy__body">Salt Lake City schools, civic facilities, and institutional campuses can use the same case study to understand how clear safety film can add passive glass protection while preserving visibility, daylight, and the existing appearance of the building envelope.</p>
       <blockquote class="md-casestudy__quote">
         <p>&ldquo;The school district officials were very pleased with the application of Madico Clear 14 Mil Safety and Security film.&rdquo;</p>
         <footer>Madico Clear 14 Mil case study</footer>
       </blockquote>
       <a
-        href="/resources/school-window-film-madico-clear-14mil-texas-school-district-case-study-philadelphia.pdf"
+        href="/resources/school-window-film-madico-clear-14mil-texas-school-district-case-study-salt-lake-city.pdf"
         target="_blank"
         rel="noopener noreferrer"
         class="md-casestudy__link"
@@ -984,8 +984,8 @@ const madicoReviews = [
      ══════════════════════════════════════ -->
 <div class="md-testimonials__hd">
   <span class="pp-eyebrow">Client Reviews</span>
-  <h2 class="md-testimonials__title">What Philadelphia clients say about Madico window film</h2>
-  <p class="md-testimonials__sub">Residential and commercial property owners across Philadelphia and the surrounding area.</p>
+  <h2 class="md-testimonials__title">What Salt Lake City clients say about Madico window film</h2>
+  <p class="md-testimonials__sub">Residential and commercial property owners across Salt Lake City and the surrounding area.</p>
 </div>
 <TestimonialMarquee reviews={madicoReviews} />
 
@@ -1000,7 +1000,7 @@ const madicoReviews = [
     <div class="md-faq__header fade-in">
       <span class="md-eyebrow">Questions</span>
       <h2 class="md-faq__title">Frequently Asked Questions</h2>
-      <p>Honest answers about Madico window film in Philadelphia from specialists who match product lines to glass, exposure, and building use.</p>
+      <p>Honest answers about Madico window film in Salt Lake City from specialists who match product lines to glass, exposure, and building use.</p>
       <a href="/contact/" class="md-faq__cta-btn">Talk to a Specialist</a>
     </div>
     <div class="md-faq__list fade-in">
@@ -1018,7 +1018,7 @@ const madicoReviews = [
      CTA - TINT SLIDER
      ══════════════════════════════════════ -->
 <section class="md-tint-cta">
-  <div class="md-tint-cta__bg" id="mdTintBg" style="background-image:url('/images/madico-tint-slider-philadelphia-room.jpg')" role="img" aria-label="Philadelphia rowhome living room — drag slider to preview Madico window film tint" aria-hidden="true"></div>
+  <div class="md-tint-cta__bg" id="mdTintBg" style="background-image:url('/images/madico-tint-slider-salt-lake-city-room.jpg')" role="img" aria-label="Salt Lake City rowhome living room — drag slider to preview Madico window film tint" aria-hidden="true"></div>
   <div class="md-tint-cta__darken" id="mdTintOverlay" aria-hidden="true"></div>
   <div class="md-tint-cta__content">
     <h2 class="md-tint-cta__title">Preview Madico Tint Darkness</h2>
@@ -1839,7 +1839,7 @@ h3.md-pl-row__heading { font-size: inherit; font-weight: inherit; font-family: i
 .pp-intro__ctas { display: flex; gap: 14px; flex-wrap: wrap; }
 
 /* ══════════════════════════════════════
-   SECTION 3 - WHY MADICO FOR PHILADELPHIA
+   SECTION 3 - WHY MADICO FOR SALT LAKE CITY
 ══════════════════════════════════════ */
 .md-why {
   background: #14201A;
@@ -2585,7 +2585,7 @@ h3.md-pl-row__heading { font-size: inherit; font-weight: inherit; font-family: i
 .md-cinematic-cta__media {
   position: absolute;
   inset: 0;
-  background-image: url('/images/madico-window-film-philadelphia-hero.jpg');
+  background-image: url('/images/madico-window-film-salt-lake-city-hero.jpg');
   background-size: cover;
   background-position: center;
 }

@@ -28,7 +28,7 @@ Footer oscuro con imagen de fondo. Tres columnas: logo/tagline | Resources + Com
 
 ### Info de contacto en footer
 ```html
-<p class="footer-phone">(267) 394-7980</p>
+<p class="footer-phone">(801) 895-4681</p>
 <p class="footer-email">info@windowfilmphl.com</p>
 ```
 
@@ -95,7 +95,7 @@ Segunda a última sección antes del CTA en cada página.
 
 ### Text
 ```
-Trusted by Leading Philadelphia Businesses
+Trusted by Leading Salt Lake City Businesses
 ```
 
 ---
@@ -117,9 +117,9 @@ Strip de CTA "Ready to transform?" — dark rounded.
 | Prop | Tipo | Default | Descripción |
 |---|---|---|---|
 | `headline` | `string` | "Ready to Transform Your Space?" | Headline |
-| `phone` | `string` | "(267) 394-7980" | Número de teléfono |
+| `phone` | `string` | "(801) 895-4681" | Número de teléfono |
 | `primaryText` | `string` | "Get a Free Quote" | Texto botón primario |
-| `secondaryText` | `string` | "Call (267) 394-7980" | Texto botón secundario |
+| `secondaryText` | `string` | "Call (801) 895-4681" | Texto botón secundario |
 
 ---
 
@@ -173,8 +173,8 @@ Inyecta meta tags SEO.
 
 ```astro
 <SEOHead
-  title="Page Title | Window Film Philadelphia"
-  description="Professional window film installation in Philadelphia..."
+  title="Page Title | Window Film Salt Lake City"
+  description="Professional window film installation in Salt Lake City..."
   image="/images/og-image.jpg"
 />
 ```

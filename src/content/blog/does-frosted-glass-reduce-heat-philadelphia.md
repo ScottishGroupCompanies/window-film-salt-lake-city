@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-does-frosted-glass-reduce-heat-philadelphia.jpg"
 imageAlt: "Does Frosted Glass Reduce Heat in Philadelphia Sun-Exposed Rooms? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "frosted glass"]
 categories: ["philadelphia"]
-draft: false
+draft: true
 ---
 
 Walk into a Center City high-rise conference room at 3 PM in mid-July and you immediately feel it — that wall of radiant heat pouring through the west-facing glass. The sun has been climbing since noon, and by afternoon every square foot of untreated glass is a space heater running full blast. We have stood in these rooms with business owners watching their HVAC struggle, utility bills climbing, and meeting participants squinting through glare. The same story plays out in Fishtown rowhomes where a sun-drenched bedroom becomes unusable by 4 PM, and in Old City boutiques where merchandise fades near the front windows while customers complain about the heat near the entrance. Philadelphia summers push 90°F-plus with brutal humidity, and our older building stock — much of it with single-pane or double-pane uninsulated glass — absorbs solar heat like a sponge.

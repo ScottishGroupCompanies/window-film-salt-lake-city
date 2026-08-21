@@ -6,9 +6,9 @@ import { getCollection } from 'astro:content';
 import { getPostCategories } from '../data/categories';
 
 interface Props {
-  categorySlug: string;   // e.g. 'energy-savings', 'philadelphia', 'camden'
-  feedTitle: string;       // e.g. 'Latest Energy Savings Articles', 'Latest Philadelphia News'
-  viewAllLabel?: string;   // e.g. 'View All Philadelphia Articles →' (defaults to feedTitle)
+  categorySlug: string;   // e.g. 'energy-savings', 'salt-lake-city', 'camden'
+  feedTitle: string;       // e.g. 'Latest Energy Savings Articles', 'Latest Salt Lake City News'
+  viewAllLabel?: string;   // e.g. 'View All Salt Lake City Articles →' (defaults to feedTitle)
 }
 
 const { categorySlug, feedTitle, viewAllLabel } = Astro.props;

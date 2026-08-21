@@ -1,7 +1,7 @@
-# Window Film Philadelphia — Master SEO / AEO / GEO / Technical Checklist
+# Window Film Salt Lake City — Master SEO / AEO / GEO / Technical Checklist
 
-> **Site:** windowfilmphiladelphia.net (Astro static, deployed on Vercel)
-> **Repo:** `ScottishGroupCompanies/wfp-redesign` → local `~/.openclaw/workspace/projects/window-film-philadelphia`
+> **Site:** windowfilmsaltlakecity.com (Astro static, deployed on Vercel)
+> **Repo:** `ScottishGroupCompanies/wfp-redesign` → local `~/.openclaw/workspace/projects/window-film-salt-lake-city`
 > **Compiled:** 2026-08-11. Grounded in a live audit of the production site + current SEO/AEO/GEO best practices.
 > **Legend:** 🔴 Critical (do first) · 🟠 High · 🟡 Medium · 🟢 Polish · ✅ Already done · 🔎 Needs verification
 
@@ -19,7 +19,7 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 
 | # | Finding | Severity | Where |
 |---|---------|----------|-------|
-| A1 | **Canonical/host conflict.** Every `<link rel=canonical>` and `og:url` points to `https://www.windowfilmphiladelphia.net/...` but **www 307-redirects to non-www** (`windowfilmphiladelphia.net`). Canonicals point at a URL that redirects away — a self-contradicting signal that wastes crawl budget and can split ranking signals. | 🔴 | `astro.config.mjs` `site:`, `SEOHead.astro`, `SchemaOrg.astro` |
+| A1 | **Canonical/host conflict.** Every `<link rel=canonical>` and `og:url` points to `https://www.windowfilmsaltlakecity.com/...` but **www 307-redirects to non-www** (`windowfilmsaltlakecity.com`). Canonicals point at a URL that redirects away — a self-contradicting signal that wastes crawl budget and can split ranking signals. | 🔴 | `astro.config.mjs` `site:`, `SEOHead.astro`, `SchemaOrg.astro` |
 | A2 | **Sitemap lists 621 URLs all on the `www` host** — every one 307-redirects. Google/AI crawlers hit a redirect on every sitemap entry. | 🔴 | `sitemap-0.xml` (generated from `site:`) |
 | A3 | **Sitemap has zero `<lastmod>` dates.** `dateModified`/freshness is a documented AEO ranking + ~1.8× AI-citation signal. | 🟠 | sitemap config |
 | A4 | **307 (temporary) redirect** used for www→non-www. Should be **301 permanent** so equity consolidates. | 🟠 | Vercel domain/redirect config |
@@ -105,7 +105,7 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 - [ ] 🟡 Unique, keyword-led **`<title>`** per page, ~50–60 chars, primary keyword + city + brand. (Home title is good.)
 - [ ] 🟡 Unique **meta description** per page, ~140–160 chars, with a benefit + CTA. (Home is good.)
 - [ ] 🔎 Audit all pages for **duplicate/missing titles & descriptions** (Screaming Frog).
-- [ ] 🟢 Titles should front-load the money keyword ("Residential Window Film Philadelphia | …").
+- [ ] 🟢 Titles should front-load the money keyword ("Residential Window Film Salt Lake City | …").
 
 ### 2.2 Headings & Structure
 - [ ] ✅ Single H1 per page (verified on home). Keep this rule site-wide.
@@ -130,7 +130,7 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 
 ### 2.5 Images & Media SEO
 - [ ] ✅ All homepage images have `alt` text (verified 0 missing). **Good — keep enforcing.**
-- [ ] 🟡 Descriptive, keyword-relevant **file names** (you already do: `window-film-philadelphia-*`).
+- [ ] 🟡 Descriptive, keyword-relevant **file names** (you already do: `window-film-salt-lake-city-*`).
 - [ ] 🟡 Modern formats (WebP/AVIF), compressed, responsive `srcset`.
 - [ ] 🟢 Add `ImageObject` schema for key infographics/diagrams (helps AI multi-modal extraction).
 
@@ -139,11 +139,11 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 ## 3. LOCAL SEO
 
 - [ ] 🟠 **Google Business Profile**: claimed, verified, category = "Window tinting service," service-area business (you serve Delaware Valley — set service areas, hide address if no storefront). Keep it updated (posts within 30 days).
-- [ ] 🔴 **NAP consistency**: Name / Address / Phone identical across site footer, schema, GBP, and all citations. Phone `(267) 394-7980`, email `info@windowfilmphl.com` — audit that schema, footer, chat widget, and GBP all match exactly.
+- [ ] 🔴 **NAP consistency**: Name / Address / Phone identical across site footer, schema, GBP, and all citations. Phone `(801) 895-4681`, email `info@windowfilmphl.com` — audit that schema, footer, chat widget, and GBP all match exactly.
 - [ ] 🟠 **LocalBusiness schema** matches GBP (name, phone, geo, areaServed, hours). Currently hours in schema say Mon–Fri 08–17 but chat widget says Mon–Sat 8am–6pm — **reconcile the discrepancy** (pick the truth, sync schema + widget + GBP).
 - [ ] 🟠 **Citations**: consistent listings on Yelp, BBB, Angi, Houzz, Thumbtack, Nextdoor, Apple Business Connect, Bing Places, industry directories. (You have backlink skills for Houzz/Thumbtack/BBB — leverage them.)
 - [ ] 🟡 **Reviews**: steady flow on GBP; respond to all; embed on site with schema.
-- [ ] 🟡 **City/location pages** with genuinely unique local content (neighborhoods, local climate/UV, permit/HOA notes) — not name-swapped duplicates. Watch the "philadelphia" slug cross-bleed issue (your memory note).
+- [ ] 🟡 **City/location pages** with genuinely unique local content (neighborhoods, local climate/UV, permit/HOA notes) — not name-swapped duplicates. Watch the "salt-lake-city" slug cross-bleed issue (your memory note).
 - [ ] 🟡 **Geo signals**: embed a map, mention real neighborhoods/landmarks, local phone, service-radius language.
 - [ ] 🟢 Add `geo`/`areaServed` polygons and `hasMap` to LocalBusiness schema.
 - [ ] 🟢 Apple Maps / Apple Business Connect listing (increasingly fed to Siri/Apple Intelligence).
@@ -161,7 +161,7 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 
 ### 4.2 llms.txt / llms-full.txt
 - [ ] ✅ `/llms.txt` present and well-formed (title, summary, curated links, contact). **Good foundation.**
-- [ ] 🟠 **Fix host in llms.txt** — uses `https://windowfilmphiladelphia.net` (non-www) which is correct for the live host; ensure it matches final canonical decision (it currently does NOT match the www canonicals — another reason to standardize on non-www).
+- [ ] 🟠 **Fix host in llms.txt** — uses `https://windowfilmsaltlakecity.com` (non-www) which is correct for the live host; ensure it matches final canonical decision (it currently does NOT match the www canonicals — another reason to standardize on non-www).
 - [ ] 🟠 Expand llms.txt to include **cities, applications, and key resource/FAQ pages**, each with a one-line description of what the page answers.
 - [ ] 🟡 Add **`/llms-full.txt`** — full expanded markdown of core pages so AI can ingest complete context in one fetch.
 - [ ] 🟡 Keep llms.txt **in sync** with sitemap on every publish (add to build/deploy step).
@@ -184,7 +184,7 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 
 ### 4.4 Answer-Engine Content Formatting (GEO)
 - [ ] 🟠 **Lead with the answer**: each page/section opens with a direct 40–60 word answer to the query, then elaborates ("inverted pyramid"). AI extracts the top summary.
-- [ ] 🟠 **Question-based H2/H3s** matching real queries ("How much does window film cost in Philadelphia?", "Does window film reduce heat?").
+- [ ] 🟠 **Question-based H2/H3s** matching real queries ("How much does window film cost in Salt Lake City?", "Does window film reduce heat?").
 - [ ] 🟠 **Structured, extractable formats**: short paragraphs, bulleted lists, **comparison tables** (film types, benefits, price ranges), numbered steps. AI cites tables/lists far more than walls of text.
 - [ ] 🟡 **Definitions & entities**: clearly define "window film," "solar control film," "safety & security film," "VLT," "heat rejection %," etc. — helps AI map your content to concepts.
 - [ ] 🟡 **Statistics with sources**: "blocks up to 99% of UV rays (per [IWFA/EPA])." Cited stats get pulled into answers. Keep numbers consistent site-wide (your no-repetitive-stats rule still applies to avoid spammy duplication).
@@ -200,7 +200,7 @@ These are confirmed defects from the 2026-08-11 crawl, not generic advice:
 - [ ] 🟢 Encourage **branded search + reviews** — engagement/brand signals correlate with AI citation.
 
 ### 4.6 Monitoring AI Visibility
-- [ ] 🟡 Periodically **prompt-test**: ask ChatGPT/Perplexity/Gemini "best window film installer in Philadelphia," "how much does window tint cost in Philly" — see if you're cited; note gaps.
+- [ ] 🟡 Periodically **prompt-test**: ask ChatGPT/Perplexity/Gemini "best window film installer in Salt Lake City," "how much does window tint cost in Salt Lake" — see if you're cited; note gaps.
 - [ ] 🟡 Check **server logs** for AI bot hits (GPTBot, PerplexityBot, ClaudeBot) to confirm crawling.
 - [ ] 🟢 Track AI-referral traffic in GA (referrers: chatgpt.com, perplexity.ai, etc.).
 

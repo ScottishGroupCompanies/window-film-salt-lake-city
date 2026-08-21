@@ -10,9 +10,9 @@ export function getStaticPaths() {
 }
 
 const { product: p } = Astro.props;
-const serviceUrl = `https://windowfilmphiladelphia.net/products/huper-optik/${p.slug}/`;
-const title = `Huper Optik ${p.name} | Philadelphia`;
-const description = `${p.shortDescription} Window Film Philadelphia is a certified Huper Optik installer serving Philadelphia and surrounding areas.`.slice(0, 155);
+const serviceUrl = `https://windowfilmsaltlakecity.com/products/huper-optik/${p.slug}/`;
+const title = `Huper Optik ${p.name} | Salt Lake City`;
+const description = `${p.shortDescription} Window Film Salt Lake City is a certified Huper Optik installer serving Salt Lake City and surrounding areas.`.slice(0, 155);
 const descriptionParagraphs = p.description.split('\n\n').slice(0, 4);
 const specRows = [
   ['VLT', p.specs.vlt],
@@ -38,45 +38,45 @@ const categoryText = `${p.categories.join(' ')} ${p.series}`.toLowerCase();
 // Application use cases per product type
 const applications = categoryText.includes('safety') || categoryText.includes('security')
   ? [
-      ['Schools and Campuses', 'Glass fragment retention and forced-entry delay for Philadelphia school entry doors, sidelites, and shared common spaces.'],
-      ['Government Buildings', 'Discreet retrofit safety film for public-facing glass in Philadelphia City Hall, civic buildings, and administrative offices.'],
-      ['Retail Storefronts', 'Smash-and-grab deterrence for Philadelphia storefronts on Walnut Street, Chestnut Street, and high-value commercial corridors.'],
+      ['Schools and Campuses', 'Glass fragment retention and forced-entry delay for Salt Lake City school entry doors, sidelites, and shared common spaces.'],
+      ['Government Buildings', 'Discreet retrofit safety film for public-facing glass in Salt Lake City City Hall, civic buildings, and administrative offices.'],
+      ['Retail Storefronts', 'Smash-and-grab deterrence for Salt Lake City storefronts on Walnut Street, Chestnut Street, and high-value commercial corridors.'],
     ]
   : categoryText.includes('insulation') || categoryText.includes('therm')
     ? [
-        ['Philadelphia Rowhomes', 'Year-round thermal improvement for Fishtown, South Philly, Fairmount, and Graduate Hospital rowhomes with older single-pane glass.'],
-        ['Historic Properties', 'Interior-surface insulating upgrade for Philadelphia preservation district buildings where window replacement is restricted by guidelines.'],
-        ['Apartments and Condos', 'Low-E performance upgrade for Philadelphia multi-unit buildings with aging single-pane glass and zone-4A climate exposure.'],
+        ['Salt Lake City Rowhomes', 'Year-round thermal improvement for Fishtown, South Salt Lake, Fairmount, and Graduate Hospital rowhomes with older single-pane glass.'],
+        ['Historic Properties', 'Interior-surface insulating upgrade for Salt Lake City preservation district buildings where window replacement is restricted by guidelines.'],
+        ['Apartments and Condos', 'Low-E performance upgrade for Salt Lake City multi-unit buildings with aging single-pane glass and zone-4A climate exposure.'],
       ]
     : categoryText.includes('fusion') || categoryText.includes('privacy')
       ? [
           ['Retail Storefronts', 'Solar control and daytime privacy for Walnut Street boutiques, Old City galleries, and South Street storefronts facing heavy foot traffic.'],
           ['Restaurants and Cafés', 'Street-facing window management for Rittenhouse Square, Fishtown, and East Passyunk restaurants balancing ambiance with solar comfort.'],
-          ['Conference Rooms', 'Daytime privacy for street-level conference rooms, professional offices, and medical suites on Philadelphia commercial corridors.'],
+          ['Conference Rooms', 'Daytime privacy for street-level conference rooms, professional offices, and medical suites on Salt Lake City commercial corridors.'],
         ]
       : [
-          ['Center City Offices', 'Glare and solar control for Philadelphia Class A office towers, boutique suites, and corporate campuses from Market Street to University City.'],
-          ['Philadelphia Rowhomes', 'UV and heat management for Fishtown, Chestnut Hill, Rittenhouse, and Graduate Hospital residences without window replacement.'],
+          ['Center City Offices', 'Glare and solar control for Salt Lake City Class A office towers, boutique suites, and corporate campuses from Market Street to University City.'],
+          ['Salt Lake City Rowhomes', 'UV and heat management for Fishtown, Chestnut Hill, Rittenhouse, and Graduate Hospital residences without window replacement.'],
           ['Retail and Restaurants', 'Comfortable customer-facing glass with solar control for Walnut Street, Passyunk, East Girard, and Old City storefronts.'],
         ];
 
 const faqItems = [
   {
-    question: `What is Huper Optik ${p.name} used for in Philadelphia?`,
-    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Philadelphia homes, offices, storefronts, schools, and commercial properties. It belongs to the ${p.series} and is selected based on glass type, orientation, privacy goals, and performance requirements.`,
+    question: `What is Huper Optik ${p.name} used for in Salt Lake City?`,
+    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Salt Lake City homes, offices, storefronts, schools, and commercial properties. It belongs to the ${p.series} and is selected based on glass type, orientation, privacy goals, and performance requirements.`,
   },
   {
     question: `What are the key specifications for Huper Optik ${p.name}?`,
-    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Philadelphia confirms final compatibility during the site assessment before recommending any Huper Optik product.`,
+    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Salt Lake City confirms final compatibility during the site assessment before recommending any Huper Optik product.`,
   },
   {
-    question: `Who installs Huper Optik ${p.name} in Philadelphia?`,
-    answer: `Window Film Philadelphia is a certified Huper Optik installer serving Philadelphia and the surrounding area. We evaluate the glass, document the product selection, and install Huper Optik films according to manufacturer guidance.`,
+    question: `Who installs Huper Optik ${p.name} in Salt Lake City?`,
+    answer: `Window Film Salt Lake City is a certified Huper Optik installer serving Salt Lake City and the surrounding area. We evaluate the glass, document the product selection, and install Huper Optik films according to manufacturer guidance.`,
   },
   {
     question: `Does Huper Optik ${p.name} interfere with Wi-Fi, GPS, or cellular signals?`,
     answer: p.series.includes('Shield') || p.series.includes('Therm') || p.series.includes('Traditional') || p.series.includes('Dekorativ')
-      ? `Signal interference depends on the film construction. Contact Window Film Philadelphia to discuss the specific installation environment and signal concerns during your site assessment.`
+      ? `Signal interference depends on the film construction. Contact Window Film Salt Lake City to discuss the specific installation environment and signal concerns during your site assessment.`
       : `No. Huper Optik's TiN ceramic construction is 100% metal-free — it does not affect Wi-Fi, GPS, cellular networks, smart-home signals, or electronic key fobs.`,
   },
 ];
@@ -86,9 +86,9 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmphiladelphia.net/products/' },
-      { '@type': 'ListItem', position: 3, name: 'Huper Optik', item: 'https://windowfilmphiladelphia.net/products/huper-optik/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmsaltlakecity.com/products/' },
+      { '@type': 'ListItem', position: 3, name: 'Huper Optik', item: 'https://windowfilmsaltlakecity.com/products/huper-optik/' },
       { '@type': 'ListItem', position: 4, name: `Huper Optik ${p.name}`, item: serviceUrl },
     ],
   },
@@ -97,13 +97,13 @@ const pageSchemas = [
     '@type': 'Product',
     name: `Huper Optik ${p.name}`,
     brand: { '@type': 'Brand', name: 'Huper Optik' },
-    image: `https://windowfilmphiladelphia.net${p.image}`,
+    image: `https://windowfilmsaltlakecity.com${p.image}`,
     description: p.shortDescription,
     category: p.series,
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
-      areaServed: 'Philadelphia, PA',
+      areaServed: 'Salt Lake City, UT',
       url: serviceUrl,
     },
   },
@@ -126,7 +126,7 @@ const pageSchemas = [
     <div class="hosub-hero__inner">
       <span class="hosub-badge" style={`background:${p.seriesColor}`}>{p.series}</span>
       <h1 class="hosub-hero__title">Huper Optik {p.name}</h1>
-      <p class="hosub-hero__sub">Philadelphia's certified Huper Optik installer — precision film selection, professional installation, manufacturer warranty.</p>
+      <p class="hosub-hero__sub">Salt Lake City's certified Huper Optik installer — precision film selection, professional installation, manufacturer warranty.</p>
       {statChips.length > 0 && (
         <div class="hosub-stat-row" aria-label="Product specifications">
           {statChips.map(([label, value]) => (
@@ -149,8 +149,8 @@ const pageSchemas = [
       <div class="hosub-overview__image-wrap">
         <img
           src={p.image}
-          alt={`Huper Optik ${p.name} ${p.series} window film installed in Philadelphia — ${p.specs.vlt} VLT`}
-          title={`Huper Optik ${p.name} ${p.series} — Window Film Philadelphia`}
+          alt={`Huper Optik ${p.name} ${p.series} window film installed in Salt Lake City — ${p.specs.vlt} VLT`}
+          title={`Huper Optik ${p.name} ${p.series} — Window Film Salt Lake City`}
           width="640"
           height="480"
           loading="lazy"
@@ -197,7 +197,7 @@ const pageSchemas = [
         <div class="hosub-specs__left">
           <span class="hosub-eyebrow">Technical Data</span>
           <h2>{p.name} Specifications</h2>
-          <p>All specifications are for reference and subject to glass type, configuration, and installation conditions. Window Film Philadelphia verifies compatibility during your site assessment.</p>
+          <p>All specifications are for reference and subject to glass type, configuration, and installation conditions. Window Film Salt Lake City verifies compatibility during your site assessment.</p>
           {p.pdfUrl && (
             <a href={p.pdfUrl} target="_blank" rel="noopener noreferrer" class="hosub-pdf-link">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
@@ -223,7 +223,7 @@ const pageSchemas = [
   <section class="hosub-apps fade-in">
     <div class="hosub-section-head">
       <span class="hosub-eyebrow">Local Use Cases</span>
-      <h2>Philadelphia Applications</h2>
+      <h2>Salt Lake City Applications</h2>
     </div>
     <div class="hosub-apps__grid">
       {applications.map(([heading, body]) => (
@@ -253,8 +253,8 @@ const pageSchemas = [
           <a href={`/products/huper-optik/${item.slug}/`} class="hosub-related__card">
             <img
               src={item.image}
-              alt={`Huper Optik ${item.name} ${item.series} window film Philadelphia — ${item.specs.vlt} VLT`}
-              title={`Huper Optik ${item.name} ${item.series} — Window Film Philadelphia`}
+              alt={`Huper Optik ${item.name} ${item.series} window film Salt Lake City — ${item.specs.vlt} VLT`}
+              title={`Huper Optik ${item.name} ${item.series} — Window Film Salt Lake City`}
               width="280"
               height="180"
               loading="lazy"
@@ -274,8 +274,8 @@ const pageSchemas = [
   <!-- CTA -->
   <section class="hosub-cta fade-in">
     <div class="hosub-cta__inner">
-      <h2>Install Huper Optik {p.name} in Philadelphia</h2>
-      <p>Window Film Philadelphia is a certified Huper Optik installer. Contact us for a free site assessment and product recommendation.</p>
+      <h2>Install Huper Optik {p.name} in Salt Lake City</h2>
+      <p>Window Film Salt Lake City is a certified Huper Optik installer. Contact us for a free site assessment and product recommendation.</p>
       <a href="/contact/" class="hosub-cta__btn">Get a Free Quote</a>
     </div>
   </section>

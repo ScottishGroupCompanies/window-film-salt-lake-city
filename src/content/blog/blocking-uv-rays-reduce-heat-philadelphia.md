@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-blocking-uv-rays-reduce-heat-philadelphia.jpg"
 imageAlt: "Does Blocking UV Rays Reduce Heat in Your Philadelphia Home? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "uv protection", "heat reduction"]
 categories: ["uv-protection", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why do homeowners mix up UV and heat?

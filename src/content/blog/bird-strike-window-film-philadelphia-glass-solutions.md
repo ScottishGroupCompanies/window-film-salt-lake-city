@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-bird-strike-window-film-philadelphia-glass-solutio
 imageAlt: "Bird Strike Window Film Solutions for Protecting Philadelphia Glass | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "bird strike", "bird-safe glass", "commercial buildings"]
 categories: ["bird-strike", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why are bird collisions a real Philadelphia building problem?

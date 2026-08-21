@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-uv-window-film-philadelphia.jpg"
 imageAlt: "The Surprising Benefits of UV Window Film for Philadelphia Homes | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "uv protection", "fading", "skin protection", "energy savings"]
 categories: ["uv-protection", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## What does UV window film actually do?

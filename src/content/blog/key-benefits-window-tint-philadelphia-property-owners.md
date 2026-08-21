@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-key-benefits-window-tint-philadelphia-property-own
 imageAlt: "7 Key Benefits of Window Tint Every Property Owner Should Know | Window Film Philadelphia"
 tags: ["window tint", "philadelphia", "energy savings", "uv protection", "glare reduction"]
 categories: ["philadelphia"]
-draft: false
+draft: true
 ---
 
 The benefits of window tint in Philadelphia become obvious fast once summer sun starts leaning on west-facing glass. In rowhomes near Fishtown, condos overlooking Center City, and offices around University City, untreated windows can turn one side of a room into the spot nobody wants to sit in. A well-matched film changes that without the cost and disruption of full window replacement.

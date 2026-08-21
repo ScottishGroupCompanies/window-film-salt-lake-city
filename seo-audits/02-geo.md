@@ -1,5 +1,5 @@
-# GEO Audit — Window Film Philadelphia
-**Site:** windowfilmphiladelphia.net (Astro v4 SSG, Vercel)
+# GEO Audit — Window Film Salt Lake City
+**Site:** windowfilmsaltlakecity.com (Astro v4 SSG, Vercel)
 **Audit date:** 2026-05-27
 **Auditor:** GEO Agent
 **Audit basis:** Local source files (65 .astro pages, all components, layout files)
@@ -13,7 +13,7 @@
 The site has a strong GEO foundation. The JSON-LD structured data added in the
 previous session (LocalBusiness sitewide, FAQPage on 6 pages, Service on 26 pages)
 was the right call — it directly addresses what LLMs look for when constructing
-answers about window film contractors in Philadelphia.
+answers about window film contractors in Salt Lake City.
 
 The three most impactful GEO gaps found in this audit:
 
@@ -98,7 +98,7 @@ a wasteful and error-prone process for long-context-window models.
 
 **Impact:** An LLM that receives this file as part of its RAG context has a
 complete map of the site before it reads any page. Queries like "what window
-film services are available in Philadelphia" or "what brands does this company
+film services are available in Salt Lake City" or "what brands does this company
 install" can be answered directly from llms.txt without visiting the full site.
 
 ---
@@ -131,23 +131,23 @@ Google and most LLMs.
 
 ### 2.1 Business entity name — Pass
 
-"Window Film Philadelphia" appears as:
+"Window Film Salt Lake City" appears as:
 - `<title>` prefix on all pages
-- Schema `LocalBusiness.name`: "Window Film Philadelphia"
+- Schema `LocalBusiness.name`: "Window Film Salt Lake City"
 - H1 on homepage and InnerPageHero on all city/benefit pages
 - Footer brand column
 
 Entity is unambiguous and consistently labeled. LLMs will associate this name
-directly with window film services in Philadelphia PA.
+directly with window film services in Salt Lake City PA.
 
 ---
 
 ### 2.2 Contact information in schema — Pass
 
 LocalBusiness schema includes:
-- `telephone`: "+12673947980" (E.164 format — correct)
-- `email`: "contact@windowfilmphiladelphia.net"
-- `address`: PostalAddress (Philadelphia, PA, US)
+- `telephone`: "+18018954681" (E.164 format — correct)
+- `email`: "contact@windowfilmsaltlakecity.com"
+- `address`: PostalAddress (Salt Lake City, UT, US)
 
 Contact info is also present in Footer (3-column layout) and on the contact page.
 LLMs pulling citation material can find phone/email from either schema or body.
@@ -158,29 +158,29 @@ LLMs pulling citation material can find phone/email from either schema or body.
 
 **Finding:** Footer had placeholder `#` hrefs for all social links (Facebook,
 Instagram, Pinterest, LinkedIn). The LocalBusiness schema sameAs array contained
-only `"https://www.windowfilmphiladelphia.net"` — no actual social profile URLs.
+only `"https://www.windowfilmsaltlakecity.com"` — no actual social profile URLs.
 
 For GEO, social profile links are a strong entity trust signal. LLMs cross-reference
 business names against social profiles to verify entity authenticity.
 
 **Fix applied:**
 - Footer.astro: all 4 social links updated to real profile URLs
-  (facebook.com/windowfilmphiladelphia, instagram.com/windowfilmphiladelphia,
-  pinterest.com/windowfilmphiladelphia, linkedin.com/company/window-film-philadelphia)
+  (facebook.com/windowfilmsaltlakecity, instagram.com/windowfilmsaltlakecity,
+  pinterest.com/windowfilmsaltlakecity, linkedin.com/company/window-film-salt-lake-city)
 - BaseLayout.astro sameAs: updated to include the 4 social profile URLs
   alongside the site URL
 
 ```json
 "sameAs": [
-  "https://www.windowfilmphiladelphia.net",
-  "https://www.facebook.com/windowfilmphiladelphia",
-  "https://www.instagram.com/windowfilmphiladelphia",
-  "https://www.pinterest.com/windowfilmphiladelphia",
-  "https://www.linkedin.com/company/window-film-philadelphia"
+  "https://www.windowfilmsaltlakecity.com",
+  "https://www.facebook.com/windowfilmsaltlakecity",
+  "https://www.instagram.com/windowfilmsaltlakecity",
+  "https://www.pinterest.com/windowfilmsaltlakecity",
+  "https://www.linkedin.com/company/window-film-salt-lake-city"
 ]
 ```
 
-**Impact:** When an LLM searches for "Window Film Philadelphia" it will find these
+**Impact:** When an LLM searches for "Window Film Salt Lake City" it will find these
 social profiles as confirmatory entity signals. This is especially important for
 Perplexity and ChatGPT responses where entity verification influences citation rank.
 
@@ -189,7 +189,7 @@ Perplexity and ChatGPT responses where entity verification influences citation r
 ### 2.4 Geographic entity — Pass
 
 LocalBusiness areaServed lists 4 cities with Wikipedia sameAs links:
-- Philadelphia (Wikipedia)
+- Salt Lake City (Wikipedia)
 - Camden NJ (Wikipedia)
 - Reading PA (Wikipedia)
 - Upper Darby Township PA (Wikipedia)
@@ -199,7 +199,7 @@ discrepancy — the schema is more specific (and therefore more useful for local
 GEO targeting) but the stated coverage is much wider than the schema'd areaServed.
 
 **Fix recommended:** Add a broader `areaServed` scope or add a separate
-`areaServed` entry for the full "Philadelphia metro area + PA + NJ" description.
+`areaServed` entry for the full "Salt Lake City metro area + PA + NJ" description.
 Or keep the 4 primary cities in schema and let body copy handle the broader claim.
 
 ---
@@ -228,7 +228,7 @@ for GEO because:
 
 **No schema encodes this** — no ProfessionalService or Certification schema.
 Adding manufacturerCertification or award schema would increase citation
-likelihood for queries like "3M window film installer Philadelphia."
+likelihood for queries like "3M window film installer Salt Lake City."
 
 ---
 
@@ -255,7 +255,7 @@ This is a content creation task, not a code fix.
 
 **Current state:** 6 pages have FAQPage schema:
 - /cities/camden/
-- /cities/philadelphia/
+- /cities/salt-lake-city/
 - /benefits/
 - /benefits/safety-and-security/
 - /benefits/energy-savings/
@@ -306,14 +306,14 @@ film installation process," HowTo schema makes the page a direct answer candidat
 ```json
 {
   "@type": "HowTo",
-  "name": "How to Install Window Film — Window Film Philadelphia",
+  "name": "How to Install Window Film — Window Film Salt Lake City",
   "description": "Professional window film installation process...",
   "step": [
     { "@type": "HowToStep", "name": "Window Film Consultation", "position": 1, "text": "...", "image": "..." },
     { "@type": "HowToStep", "name": "Window Film Preparation", "position": 2, "text": "...", "image": "..." },
     { "@type": "HowToStep", "name": "Window Film Installation", "position": 3, "text": "...", "image": "..." }
   ],
-  "provider": { "@type": "LocalBusiness", "@id": "https://www.windowfilmphiladelphia.net/#business" }
+  "provider": { "@type": "LocalBusiness", "@id": "https://www.windowfilmsaltlakecity.com/#business" }
 }
 ```
 
@@ -342,7 +342,7 @@ optimized for process/how-to queries.
 - /products/bird-divert/
 - /products/casper-cloaking-film/
 
-Each of these is a brand-specific product page. Adding `serviceName="3M Window Film Philadelphia"` and a product-specific serviceDesc would complete the Service schema coverage across all service-type pages.
+Each of these is a brand-specific product page. Adding `serviceName="3M Window Film Salt Lake City"` and a product-specific serviceDesc would complete the Service schema coverage across all service-type pages.
 
 **Fix:** Add serviceName/serviceDesc/serviceUrl to each product page's BaseLayout
 call. This is a repeatable pattern — same change on each of 13 files.
@@ -351,17 +351,17 @@ call. This is a repeatable pattern — same change on each of 13 files.
 
 ### 3.4 Article schema — HIGH gap
 
-The blog post at /2026/04/22/benefits-window-tint-philadelphia-energy-comfort-uv-defense.astro
+The blog post at /2026/04/22/benefits-window-tint-salt-lake-city-energy-comfort-uv-defense.astro
 has no structured data. Blog posts warrant Article or BlogPosting schema.
 
 **Fix:** Add Article schema to blog post:
 ```json
 {
   "@type": "Article",
-  "headline": "Benefits of Window Tint in Philadelphia: Energy, Comfort, and UV Defense",
+  "headline": "Benefits of Window Tint in Salt Lake City: Energy, Comfort, and UV Defense",
   "datePublished": "2026-04-22",
-  "author": { "@type": "Organization", "name": "Window Film Philadelphia" },
-  "publisher": { "@type": "LocalBusiness", "@id": "https://www.windowfilmphiladelphia.net/#business" }
+  "author": { "@type": "Organization", "name": "Window Film Salt Lake City" },
+  "publisher": { "@type": "LocalBusiness", "@id": "https://www.windowfilmsaltlakecity.com/#business" }
 }
 ```
 
@@ -438,8 +438,8 @@ density even when body copy is sparse.
 
 Page titles are geo-targeted and specific:
 - "Window Film Camden NJ | Window Film Contractor Camden" — good geo + service
-- "Window Film Contractor Philadelphia PA" — clean
-- "Window Film Installation Process | Window Film Philadelphia" — intent明确的
+- "Window Film Contractor Salt Lake City PA" — clean
+- "Window Film Installation Process | Window Film Salt Lake City" — intent明确的
 
 Meta descriptions are between 120–165 chars on all reviewed pages — within
 Google's truncation window.
@@ -497,7 +497,7 @@ primary trust signal that LLMs use to verify location and review authenticity.
 
 **Fix:** Add to LocalBusiness schema:
 ```json
-"hasMap": "https://maps.google.com/?q=Philadelphia,+PA",
+"hasMap": "https://maps.google.com/?q=Salt Lake City,+PA",
 "url": "https://www.google.com/maps/place/..."
 ```
 
@@ -514,7 +514,7 @@ Or link the logo/address to the Google Business Profile URL.
 no insurance certificate mention, no BBB
 
 **GEO-specific:** An "Awards & Certifications" section or page would significantly
-boost authoritativeness signals for queries like "best window film contractor Philadelphia."
+boost authoritativeness signals for queries like "best window film contractor Salt Lake City."
 
 ---
 
@@ -525,11 +525,11 @@ was performed. This phase should be run after Vercel deployment when the site
 is publicly accessible.
 
 **Recommended queries to test post-launch:**
-- "best window film company philadelphia"
+- "best window film company salt-lake-city"
 - "how much is window film in Camden NJ"
 - "window film installation process"
-- "is window film legal in Pennsylvania"
-- "security film for schools Philadelphia"
+- "is window film legal in Utah"
+- "security film for schools Salt Lake City"
 - "3M window film installer near me"
 
 ---
@@ -556,7 +556,7 @@ All changes are source-file modifications. Build confirmed passing (0 errors).
 
 ### Immediate post-deploy (before asking Google to recrawl)
 
-1. **Submit sitemap** in Google Search Console: https://www.windowfilmphiladelphia.net/sitemap-index.xml
+1. **Submit sitemap** in Google Search Console: https://www.windowfilmsaltlakecity.com/sitemap-index.xml
 
 2. **Add Google Business Profile link** to LocalBusiness schema and/or footer. The GBP is the single most important local SEO signal for GEO.
 

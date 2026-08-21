@@ -1,4 +1,4 @@
-# Page Spec — Mass Transit & Airport Window Film Philadelphia
+# Page Spec — Mass Transit & Airport Window Film Salt Lake City
 **File:** `src/pages/applications/mass-transit.astro`
 **URL:** `/applications/mass-transit/`
 **CSS namespace:** `mb-` (new classes only — all `of-` CSS inherited from clone)
@@ -11,15 +11,15 @@
 
 | Field | Value |
 |---|---|
-| Meta title (≤60 chars) | `Airport & Mass Transit Window Film in Philadelphia` |
-| Meta desc (≤160 chars) | `Airport window film in Philadelphia for PHL terminals, SEPTA stations, and Amtrak hubs — anti-graffiti, solar control, safety. 3M Certified Dealer.` |
-| Canonical | `https://www.windowfilmphiladelphia.net/applications/mass-transit/` |
-| Primary keyword | `airport window film in Philadelphia` |
-| H1 (≤60 chars) | `Mass Transit & Airport Window Film in Philadelphia` |
-| Target density | 0.5–1% in visible body copy (weave in both "airport window film in Philadelphia" and "mass transit window film" naturally) |
-| serviceName | `Airport & Mass Transit Window Film Installation Philadelphia` |
-| serviceDesc | `Professional airport window film installation in Philadelphia for PHL terminals, SEPTA stations, 30th Street Station, and transit hubs — anti-graffiti, solar control, safety film, and energy management.` |
-| serviceUrl | `https://www.windowfilmphiladelphia.net/applications/mass-transit/` |
+| Meta title (≤60 chars) | `Airport & Mass Transit Window Film in Salt Lake City` |
+| Meta desc (≤160 chars) | `Airport window film in Salt Lake City for PHL terminals, SEPTA stations, and Amtrak hubs — anti-graffiti, solar control, safety. 3M Certified Dealer.` |
+| Canonical | `https://www.windowfilmsaltlakecity.com/applications/mass-transit/` |
+| Primary keyword | `airport window film in Salt Lake City` |
+| H1 (≤60 chars) | `Mass Transit & Airport Window Film in Salt Lake City` |
+| Target density | 0.5–1% in visible body copy (weave in both "airport window film in Salt Lake City" and "mass transit window film" naturally) |
+| serviceName | `Airport & Mass Transit Window Film Installation Salt Lake City` |
+| serviceDesc | `Professional airport window film installation in Salt Lake City for PHL terminals, SEPTA stations, 30th Street Station, and transit hubs — anti-graffiti, solar control, safety film, and energy management.` |
+| serviceUrl | `https://www.windowfilmsaltlakecity.com/applications/mass-transit/` |
 
 ### Internal links
 | Section | Link | Anchor text |
@@ -63,11 +63,11 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 ## Sections
 
 ### 1. HERO
-- **H1:** `Mass Transit & Airport Window Film in Philadelphia` (50 chars ✓)
-- **Eyebrow:** `Airport & Transit Window Film · Philadelphia`
+- **H1:** `Mass Transit & Airport Window Film in Salt Lake City` (50 chars ✓)
+- **Eyebrow:** `Airport & Transit Window Film · Salt Lake City`
 - **FlipWords:** Airport Terminals, SEPTA Stations, Rail Hubs, Bus Terminals, Transit Centers
-- **FlipWords sentence:** `Window film built for Philadelphia [FlipWords]`
-- **Subtitle:** Philadelphia's transit infrastructure — from PHL's terminal concourses to SEPTA's underground stations — faces a unique combination of heavy foot traffic, vandalism exposure, solar heat gain, and public safety requirements. Airport window film in Philadelphia and mass transit window film address all of it without disrupting operations.
+- **FlipWords sentence:** `Window film built for Salt Lake City [FlipWords]`
+- **Subtitle:** Salt Lake City's transit infrastructure — from PHL's terminal concourses to SEPTA's underground stations — faces a unique combination of heavy foot traffic, vandalism exposure, solar heat gain, and public safety requirements. Airport window film in Salt Lake City and mass transit window film address all of it without disrupting operations.
 - **Stats:**
   - "Anti-graffiti across glass, metal & mirrors"
   - "99% UV blocked"
@@ -76,17 +76,17 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 - **Image:** `mb-hero.jpg` (1376×768)
 
 ### 2. TRUST BAR
-- Label: `Trusted by Philadelphia transit authorities, airport facilities, and rail operators`
+- Label: `Trusted by Salt Lake City transit authorities, airport facilities, and rail operators`
 
 ### 3. WHAT IS
-- **Eyebrow:** `Airport & Mass Transit Window Film · Philadelphia`
+- **Eyebrow:** `Airport & Mass Transit Window Film · Salt Lake City`
 - **H2:** `What Is Mass Transit & Airport Window Film?`
-- 2 paragraphs: Define the product; explain how airport window film in Philadelphia addresses the specific challenges of high-traffic public infrastructure — vandalism protection, passenger safety, solar management, and energy efficiency in massive glass structures like terminal concourses and station skylights
+- 2 paragraphs: Define the product; explain how airport window film in Salt Lake City addresses the specific challenges of high-traffic public infrastructure — vandalism protection, passenger safety, solar management, and energy efficiency in massive glass structures like terminal concourses and station skylights
 - Internal link: `anti-graffiti window film` → `/benefits/anti-graffiti/`
 - Image: `mb-whatis.jpg` (1376×768)
 
 ### 4. WHY / PROBLEM (4 cards)
-- **Eyebrow:** `Why Philadelphia Transit Needs Window Film`
+- **Eyebrow:** `Why Salt Lake City Transit Needs Window Film`
 - **H2:** `The Unique Challenges of Public Transit Glass`
 - Problem 1: Graffiti and etching on station glass, metal signage, and mirror surfaces — costly to restore and replace
 - Problem 2: Passenger safety in high-density public spaces — shattered glass risk from accidents, severe weather, or security incidents
@@ -112,7 +112,7 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 - **Eyebrow:** `Benefit 01 · Anti-Graffiti`
 - **H2:** `Protect Every Surface, Not Just the Glass`
 - Para 1: Transit infrastructure takes vandalism on glass station windows, stainless steel fare gates, platform mirrors, elevator interiors, and restroom fixtures. Standard glass restoration or metal refinishing is expensive and takes surfaces out of service. Sacrificial [anti-graffiti window film](/benefits/anti-graffiti/) bonds to glass, metal, and mirror surfaces as a removable protective layer — when tagged or etched, the film is peeled and replaced, not the surface underneath.
-- Para 2: For SEPTA stations on high-vandalism corridors and street-level PHL parking structure glass, anti-graffiti film replaces a reactive maintenance budget with a predictable, low-cost management program. Philadelphia transit agencies have applied sacrificial film to everything from underground station mirrors to exposed steel column cladding.
+- Para 2: For SEPTA stations on high-vandalism corridors and street-level PHL parking structure glass, anti-graffiti film replaces a reactive maintenance budget with a predictable, low-cost management program. Salt Lake City transit agencies have applied sacrificial film to everything from underground station mirrors to exposed steel column cladding.
 - Bullets:
   - Protects glass, metal, and mirrors — not just windows
   - Peel and replace the film, not the surface underneath
@@ -122,7 +122,7 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 - **Eyebrow:** `Benefit 02 · Safety & Security`
 - **H2:** `Passenger Safety in High-Density Public Spaces`
 - Para 1: Large public infrastructure — terminal concourses, station waiting halls, ticketing windows — concentrates thousands of daily passengers near glass surfaces. [Safety and security film](/benefits/safety-and-security/) rated to ANSI Z97.1 and ASTM F1642 holds glass fragments in place if breakage occurs from accidents, structural stress, severe weather, or a security incident. Passengers aren't exposed to flying glass.
-- Para 2: At Philadelphia International Airport, security film on glass partitions near check-in and baggage claim adds a critical layer of passive protection. At SEPTA stations, safety film on platform canopy glazing addresses both accidental breakage and blast mitigation in accordance with [OSHA ergonomic guidelines](https://www.osha.gov/ergonomics) for public facility safety standards.
+- Para 2: At Salt Lake City International Airport, security film on glass partitions near check-in and baggage claim adds a critical layer of passive protection. At SEPTA stations, safety film on platform canopy glazing addresses both accidental breakage and blast mitigation in accordance with [OSHA ergonomic guidelines](https://www.osha.gov/ergonomics) for public facility safety standards.
 - Bullets:
   - ANSI Z97.1 and ASTM F1642 rated — meets public facility standards
   - Holds glass intact on breakage — no flying fragments
@@ -141,8 +141,8 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 **Row 4 — Energy Savings (text left)**
 - **Eyebrow:** `Benefit 04 · Energy Savings`
 - **H2:** `Managing Energy Costs in Large Glass Structures`
-- Para 1: Airports and transit stations are among the most energy-intensive buildings per square foot, according to the [U.S. Energy Information Administration](https://www.eia.gov/energyexplained/use-of-energy/commercial-buildings.php). Their defining feature — expansive glass for natural light and wayfinding — is also their largest source of uncontrolled solar heat gain. Airport window film in Philadelphia terminals cuts solar heat transmission by up to 79%, directly reducing the HVAC load across gate areas, ticketing halls, and concourses.
-- Para 2: For SEPTA and Amtrak facilities, Low-E insulating film adds a winter benefit — reflecting interior heat back into waiting areas through single-pane glazing common in older Philadelphia station buildings. Year-round, [energy savings](/benefits/energy-savings/) from reduced solar load and improved thermal performance contribute directly to lower utility costs across the facility portfolio.
+- Para 1: Airports and transit stations are among the most energy-intensive buildings per square foot, according to the [U.S. Energy Information Administration](https://www.eia.gov/energyexplained/use-of-energy/commercial-buildings.php). Their defining feature — expansive glass for natural light and wayfinding — is also their largest source of uncontrolled solar heat gain. Airport window film in Salt Lake City terminals cuts solar heat transmission by up to 79%, directly reducing the HVAC load across gate areas, ticketing halls, and concourses.
+- Para 2: For SEPTA and Amtrak facilities, Low-E insulating film adds a winter benefit — reflecting interior heat back into waiting areas through single-pane glazing common in older Salt Lake City station buildings. Year-round, [energy savings](/benefits/energy-savings/) from reduced solar load and improved thermal performance contribute directly to lower utility costs across the facility portfolio.
 - Bullets:
   - Up to 79% reduction in solar heat gain through treated glazing
   - Low-E film adds winter insulation for older single-pane station glass
@@ -186,11 +186,11 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 
 **Slide 5 — Low-E Climate Control Film** (`mb-slider-lowe.jpg`)
 - Q1: Our older SEPTA stations have single-pane glazing throughout. Can film improve winter performance?
-  A1: Yes — Low-E insulating film (like 3M Thinsulate CC75) improves thermal performance of single-pane glass in both directions: it reflects interior heat back into the waiting area in winter and blocks solar heat gain in summer. For older Philadelphia station buildings with original single-pane glazing, Low-E film is often the most cost-effective upgrade available.
+  A1: Yes — Low-E insulating film (like 3M Thinsulate CC75) improves thermal performance of single-pane glass in both directions: it reflects interior heat back into the waiting area in winter and blocks solar heat gain in summer. For older Salt Lake City station buildings with original single-pane glazing, Low-E film is often the most cost-effective upgrade available.
 - Q2: Does Low-E film affect radio frequency transmission? We have communications equipment near station glass.
   A2: Standard Low-E films contain a thin metallic coating that can attenuate some RF signals. If this is a concern for your communications infrastructure, we specify non-metallic spectrally selective films — like 3M Prestige series — that achieve similar solar performance without affecting RF transmission. This is a common consideration for transit control facilities.
 - Q3: Can Low-E and solar control film be applied to the same glass?
-  A3: 3M Thinsulate CC75 is a dual-function film that delivers both solar control in summer and improved insulation in winter in a single application. It's designed for year-round climates like Philadelphia's — hot summers and cold winters — making it one installation that addresses both seasonal challenges.
+  A3: 3M Thinsulate CC75 is a dual-function film that delivers both solar control in summer and improved insulation in winter in a single application. It's designed for year-round climates like Salt Lake City's — hot summers and cold winters — making it one installation that addresses both seasonal challenges.
 
 **Slide 6 — Exterior Window Film** (`mb-slider-daylight.jpg`)
 - Q1: Our station canopy glass is exposed to weather and cleaning equipment. Can film be applied externally?
@@ -201,8 +201,8 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
   A3: Yes. Exterior application accesses glass from outside the station — no disruption to passengers or operations inside. Installation is scheduled around maintenance windows, track access hours, or off-peak periods to minimize any impact on transit operations.
 
 ### 9. CASE STUDY
-- **Location:** 30th Street Station, 2955 Market Street, West Philadelphia
-- **Property:** Amtrak's principal Philadelphia terminal — the grand Beaux-Arts station serves Amtrak, SEPTA Regional Rail, and Greyhound, with approximately 4 million annual passengers
+- **Location:** 30th Street Station, 2955 Market Street, West Salt Lake City
+- **Property:** Amtrak's principal Salt Lake City terminal — the grand Beaux-Arts station serves Amtrak, SEPTA Regional Rail, and Greyhound, with approximately 4 million annual passengers
 - **Challenge:** The station's south-facing Palladian windows and upper clerestory glazing generated extreme solar heat gain in the main waiting hall during summer months. Seating near the south-facing windows became too hot to use during peak afternoon hours. Simultaneously, exposed exterior glazing on the east-facing concourse level was subject to repeated graffiti incidents requiring costly restoration.
 - **Solution:** 3M Prestige 70 solar control film applied to south-facing clerestory and upper-hall glazing — high VLT preserving the hall's historic character while blocking 79% of solar heat. Sacrificial anti-graffiti film applied to exterior concourse-level glass panels on the east elevation.
 - **Result:** Main hall seating near south windows returned to full use year-round. Zero graffiti restoration costs on treated exterior panels since installation. Facilities team reported reduced HVAC cycling during summer peak hours.
@@ -211,11 +211,11 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 
 ### 10. GALLERY (7 panels, 1376×768)
 - `mb-gallery-1.jpg` — PHL airport terminal gate area, floor-to-ceiling windows with solar film, passengers seated comfortably
-- `mb-gallery-2.jpg` — SEPTA station platform with clean glazed canopy, urban Philadelphia street visible
+- `mb-gallery-2.jpg` — SEPTA station platform with clean glazed canopy, urban Salt Lake City street visible
 - `mb-gallery-3.jpg` — 30th Street Station grand hall interior, warm natural light through treated upper windows
 - `mb-gallery-4.jpg` — Close-up of security film on airport ticketing window, optically clear
 - `mb-gallery-5.jpg` — Anti-graffiti film installation on stainless steel transit station surface
-- `mb-gallery-6.jpg` — Bus terminal with clean glass facade, Philadelphia urban streetscape
+- `mb-gallery-6.jpg` — Bus terminal with clean glass facade, Salt Lake City urban streetscape
 - `mb-gallery-7.jpg` — Transit station waiting area seating fully occupied near large windows, passengers comfortable
 
 ### 11. RESOURCES
@@ -231,7 +231,7 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
 - "47 reviews" 5-star rated
 
 ### 13. PROCESS (3 steps)
-- Step 1: **Facility Assessment** — We assess your transit facility's window orientation, passenger traffic patterns, vandalism exposure, and safety requirements to recommend the right airport window film in Philadelphia terminals and SEPTA stations.
+- Step 1: **Facility Assessment** — We assess your transit facility's window orientation, passenger traffic patterns, vandalism exposure, and safety requirements to recommend the right airport window film in Salt Lake City terminals and SEPTA stations.
 - Step 2: **Off-Hours Scheduling** — All installation is scheduled around your operational calendar — early morning, overnight maintenance windows, or between service hours — with zero disruption to passengers or transit operations.
 - Step 3: **Compliant Installation & Documentation** — Our technicians deliver clean, efficient installation with full product documentation for your facilities records, including ANSI/ASTM compliance sheets and warranty documentation.
 
@@ -249,22 +249,22 @@ Transit agencies and airport facilities teams wake up worrying about: vandalism/
   Image: `mb-testimonial-3.jpg` — candid: man 40s standing in a grand train station hall, suit or business casual, confident posture, warm natural light, realistic
 
 ### 15. NEIGHBORHOODS (→ transit locations)
-H2: `Airport Window Film Across Philadelphia's Transit Network`
-- Philadelphia International Airport (PHL) — Terminals A through F
+H2: `Airport Window Film Across Salt Lake City's Transit Network`
+- Salt Lake City International Airport (PHL) — Terminals A through F
 - 30th Street Station (Amtrak / SEPTA Regional Rail)
 - Jefferson Station (SEPTA Market-Frankford Line, Trolley)
 - Suburban Station (SEPTA Regional Rail)
 - 69th Street Transportation Center (SEPTA)
 - Temple University Station (SEPTA Regional Rail)
 - PATCO Speedline Stations (Ben Franklin Bridge)
-- Philadelphia Greyhound / Flixbus Terminal
+- Salt Lake City Greyhound / Flixbus Terminal
 
 ### 16. FAQ (10 questions — no time/price claims, all answers point toward product)
 ```js
 const faqItems = [
   {
-    question: "What is airport window film for Philadelphia terminals and transit stations?",
-    answer: "Airport window film for Philadelphia is professionally applied polyester film that bonds to glass, metal, and mirror surfaces in high-traffic transit infrastructure. It provides solar heat reduction, UV blocking, safety fragment retention, anti-graffiti protection, and decorative options — addressing the specific operational and safety challenges of airport terminals, SEPTA stations, Amtrak hubs, and bus terminals across Philadelphia."
+    question: "What is airport window film for Salt Lake City terminals and transit stations?",
+    answer: "Airport window film for Salt Lake City is professionally applied polyester film that bonds to glass, metal, and mirror surfaces in high-traffic transit infrastructure. It provides solar heat reduction, UV blocking, safety fragment retention, anti-graffiti protection, and decorative options — addressing the specific operational and safety challenges of airport terminals, SEPTA stations, Amtrak hubs, and bus terminals across Salt Lake City."
   },
   {
     question: "How does anti-graffiti film work in SEPTA stations and transit hubs?",
@@ -275,15 +275,15 @@ const faqItems = [
     answer: "Yes. 3M Scotchshield Ultra safety films are rated to ANSI Z97.1 (safety glazing) and ASTM F1642 (blast resistance) — the key standards for public facility glass safety. These films hold glass fragments in place on breakage, protecting passengers from flying shards regardless of the cause: accident, structural stress, severe weather, or a security incident. Full compliance documentation is provided with every installation."
   },
   {
-    question: "Can window film help Philadelphia airports and transit stations reduce energy costs?",
-    answer: "Yes. Airport and transit facilities are among the most energy-intensive building types per square foot, and their expansive glass is a primary driver of uncontrolled solar heat gain. Solar control film reduces heat transmission through glass by up to 79%, directly cutting the HVAC load across gate areas, concourses, and station waiting halls. Low-E film adds winter thermal performance for older single-pane glazing common in historic Philadelphia stations."
+    question: "Can window film help Salt Lake City airports and transit stations reduce energy costs?",
+    answer: "Yes. Airport and transit facilities are among the most energy-intensive building types per square foot, and their expansive glass is a primary driver of uncontrolled solar heat gain. Solar control film reduces heat transmission through glass by up to 79%, directly cutting the HVAC load across gate areas, concourses, and station waiting halls. Low-E film adds winter thermal performance for older single-pane glazing common in historic Salt Lake City stations."
   },
   {
     question: "What types of window film work best in high-traffic transit environments?",
-    answer: "The most common specifications for Philadelphia transit facilities are: (1) sacrificial anti-graffiti film for vandalism-exposed surfaces; (2) 3M Scotchshield Ultra safety film for passenger-area glazing; (3) high-VLT solar control film like 3M Prestige 70 for passenger comfort in gate and waiting areas; and (4) Low-E Thinsulate film for older single-pane station buildings. Many installations combine safety and solar functions in a single film application."
+    answer: "The most common specifications for Salt Lake City transit facilities are: (1) sacrificial anti-graffiti film for vandalism-exposed surfaces; (2) 3M Scotchshield Ultra safety film for passenger-area glazing; (3) high-VLT solar control film like 3M Prestige 70 for passenger comfort in gate and waiting areas; and (4) Low-E Thinsulate film for older single-pane station buildings. Many installations combine safety and solar functions in a single film application."
   },
   {
-    question: "How durable is anti-graffiti film in a busy Philadelphia transit station?",
+    question: "How durable is anti-graffiti film in a busy Salt Lake City transit station?",
     answer: "Anti-graffiti film is engineered for high-maintenance environments. It resists the industrial cleaning agents and pressure-washing protocols common in transit maintenance operations. In clean environments the film lasts 5–7 years before proactive replacement; on high-vandalism surfaces, replacement frequency depends on incident volume. We provide chemical compatibility documentation for your facilities team and can recommend film grades rated for specific cleaning protocols."
   },
   {
@@ -308,41 +308,41 @@ const faqItems = [
 ### 17. GEO BLOCK
 ```html
 <div class="mb-geo" aria-hidden="true">
-  <p>Airport window film in Philadelphia is installed by a 3M Certified Dealer across Philadelphia International Airport (PHL) Terminals A through F, 30th Street Station (2955 Market Street), Jefferson Station, Suburban Station, 69th Street Transportation Center, and SEPTA Regional Rail stations throughout the Philadelphia metro area. Our mass transit window film solutions include 3M Prestige 70 spectrally selective solar control film (TSER: 0.57, VLT: 70%, UV rejection: 99%), 3M Scotchshield Ultra S800 safety and security film (ANSI Z97.1 compliant, ASTM F1642 blast resistance rated), sacrificial anti-graffiti film for glass, metal, and mirror surfaces, 3M Thinsulate CC75 Low-E insulating film for single-pane station glazing, and 3M Fasara decorative film for operations center privacy and wayfinding graphics. Philadelphia transit infrastructure represents some of the highest-volume public glass in the region — from PHL's 30+ million annual passenger concourses to SEPTA's 300+ station network — making professionally specified window film a critical component of facility maintenance, energy management, and passenger safety programs.</p>
+  <p>Airport window film in Salt Lake City is installed by a 3M Certified Dealer across Salt Lake City International Airport (PHL) Terminals A through F, 30th Street Station (2955 Market Street), Jefferson Station, Suburban Station, 69th Street Transportation Center, and SEPTA Regional Rail stations throughout the Salt Lake City metro area. Our mass transit window film solutions include 3M Prestige 70 spectrally selective solar control film (TSER: 0.57, VLT: 70%, UV rejection: 99%), 3M Scotchshield Ultra S800 safety and security film (ANSI Z97.1 compliant, ASTM F1642 blast resistance rated), sacrificial anti-graffiti film for glass, metal, and mirror surfaces, 3M Thinsulate CC75 Low-E insulating film for single-pane station glazing, and 3M Fasara decorative film for operations center privacy and wayfinding graphics. Salt Lake City transit infrastructure represents some of the highest-volume public glass in the region — from PHL's 30+ million annual passenger concourses to SEPTA's 300+ station network — making professionally specified window film a critical component of facility maintenance, energy management, and passenger safety programs.</p>
   <dl>
-    <dt>What is airport window film for Philadelphia?</dt>
-    <dd>Airport window film for Philadelphia is professionally applied polyester film installed on glass, metal, and mirror surfaces in PHL terminals, SEPTA stations, Amtrak hubs, and bus terminals. Installed by a 3M Certified Dealer, it provides solar heat reduction, UV blocking, safety fragment retention, and anti-graffiti protection for Philadelphia's transit infrastructure.</dd>
-    <dt>How much does airport window film cost in Philadelphia?</dt>
-    <dd>The cost of airport and transit window film in Philadelphia depends on total glass and surface area, film types specified (solar control, anti-graffiti, safety, Low-E, or decorative), surface accessibility, and installation scheduling requirements. Transit and airport projects are typically scoped as multi-zone facility programs. Contact us for a facility assessment and detailed specification.</dd>
-    <dt>Which Philadelphia transit facilities use airport and mass transit window film?</dt>
-    <dd>Window film is installed across Philadelphia International Airport (PHL) terminals, 30th Street Station, SEPTA's underground and surface stations, PATCO Speedline stations, Suburban Station, Jefferson Station, 69th Street Transportation Center, and the Greyhound/Flixbus terminal on Filbert Street near Market East.</dd>
+    <dt>What is airport window film for Salt Lake City?</dt>
+    <dd>Airport window film for Salt Lake City is professionally applied polyester film installed on glass, metal, and mirror surfaces in PHL terminals, SEPTA stations, Amtrak hubs, and bus terminals. Installed by a 3M Certified Dealer, it provides solar heat reduction, UV blocking, safety fragment retention, and anti-graffiti protection for Salt Lake City's transit infrastructure.</dd>
+    <dt>How much does airport window film cost in Salt Lake City?</dt>
+    <dd>The cost of airport and transit window film in Salt Lake City depends on total glass and surface area, film types specified (solar control, anti-graffiti, safety, Low-E, or decorative), surface accessibility, and installation scheduling requirements. Transit and airport projects are typically scoped as multi-zone facility programs. Contact us for a facility assessment and detailed specification.</dd>
+    <dt>Which Salt Lake City transit facilities use airport and mass transit window film?</dt>
+    <dd>Window film is installed across Salt Lake City International Airport (PHL) terminals, 30th Street Station, SEPTA's underground and surface stations, PATCO Speedline stations, Suburban Station, Jefferson Station, 69th Street Transportation Center, and the Greyhound/Flixbus terminal on Filbert Street near Market East.</dd>
     <dt>What is the best window film for SEPTA stations with graffiti problems?</dt>
     <dd>Sacrificial anti-graffiti film is the standard specification for vandalism-exposed SEPTA station glass, metal, and mirror surfaces. It bonds to any smooth surface and peels cleanly when tagged or etched — replacing a reactive restoration expense with a predictable maintenance cost. For underground stations on high-frequency vandalism corridors, anti-graffiti film combined with 3M Scotchshield safety film provides both vandalism protection and passenger glass safety.</dd>
     <dt>Does airport window film at PHL require FAA approval?</dt>
     <dd>Window film applied to interior building glass at PHL does not require FAA approval — it is a building maintenance product, not an airside modification. Exterior glazing changes on the terminal building envelope may require coordination with airport facilities management and potentially the airport authority's architectural review process. We work directly with PHL facilities teams to ensure all specifications are coordinated with the appropriate review processes before installation begins.</dd>
   </dl>
   <ul>
-    <li>airport window film Philadelphia</li>
-    <li>airport window film in Philadelphia</li>
-    <li>mass transit window film Philadelphia</li>
-    <li>SEPTA station window film Philadelphia</li>
-    <li>Philadelphia airport window tinting</li>
-    <li>transit window film Philadelphia</li>
-    <li>window film for airport terminals Philadelphia</li>
+    <li>airport window film Salt Lake City</li>
+    <li>airport window film in Salt Lake City</li>
+    <li>mass transit window film Salt Lake City</li>
+    <li>SEPTA station window film Salt Lake City</li>
+    <li>Salt Lake City airport window tinting</li>
+    <li>transit window film Salt Lake City</li>
+    <li>window film for airport terminals Salt Lake City</li>
     <li>PHL terminal window film</li>
     <li>30th Street Station window film</li>
-    <li>anti-graffiti film SEPTA stations Philadelphia</li>
-    <li>airport terminal solar control film Philadelphia</li>
-    <li>mass transit anti-graffiti film Philadelphia</li>
-    <li>window film for transit hubs Philadelphia</li>
-    <li>safety window film airport Philadelphia</li>
+    <li>anti-graffiti film SEPTA stations Salt Lake City</li>
+    <li>airport terminal solar control film Salt Lake City</li>
+    <li>mass transit anti-graffiti film Salt Lake City</li>
+    <li>window film for transit hubs Salt Lake City</li>
+    <li>safety window film airport Salt Lake City</li>
   </ul>
 </div>
 ```
 CSS: `.mb-geo { display: none; }`
 
 ### 18. CTA
-- H2: `Ready to Protect Philadelphia's Transit Infrastructure?`
+- H2: `Ready to Protect Salt Lake City's Transit Infrastructure?`
 - Body: From PHL terminal concourses to SEPTA underground stations — we work with airport operations teams, transit authority facilities staff, and station managers to deliver the right film specification for every surface. Schedule a facility assessment.
 - Image: `mb-cta-bg.jpg` (2752×1536)
 
@@ -351,43 +351,43 @@ CSS: `.mb-geo { display: none; }`
 ## Images (~29 total)
 | Filename | Size | Prompt |
 |---|---|---|
-| `mb-hero.jpg` | 1376×768 | Philadelphia International Airport terminal interior, floor-to-ceiling windows with passengers at gate seating, bright modern architecture, warm natural light, realistic architectural photography |
+| `mb-hero.jpg` | 1376×768 | Salt Lake City International Airport terminal interior, floor-to-ceiling windows with passengers at gate seating, bright modern architecture, warm natural light, realistic architectural photography |
 | `mb-whatis.jpg` | 1376×768 | Window film installer on a ladder applying tint film to large transit station glass panels, professional work environment, urban station interior, candid documentary style |
 | `mb-why.jpg` | 1376×768 | Grand train station or airport terminal interior at golden hour, dramatic natural light streaming through massive windows, elegant architecture, beautiful and aspirational — NOT uncomfortable passengers |
 | `mb-type-airport.jpg` | 1376×768 | PHL airport terminal gate area, large windows overlooking tarmac, passengers seated comfortably, modern aviation architecture |
-| `mb-type-septa.jpg` | 1376×768 | SEPTA subway station platform with glazed canopy or glass panels, urban Philadelphia underground, clean modern station |
+| `mb-type-septa.jpg` | 1376×768 | SEPTA subway station platform with glazed canopy or glass panels, urban Salt Lake City underground, clean modern station |
 | `mb-type-rail.jpg` | 1376×768 | Grand Beaux-Arts train station waiting hall interior, high ceilings, tall arched windows, passengers, warm light — 30th Street Station style |
-| `mb-type-bus.jpg` | 1376×768 | Modern bus terminal with glass facade, urban Philadelphia street, clean contemporary transit architecture |
-| `mb-anti-graffiti.jpg` | 1376×768 | Clean pristine transit station glass and stainless steel surfaces on a Philadelphia urban corridor, graffiti-free, professional maintenance environment |
+| `mb-type-bus.jpg` | 1376×768 | Modern bus terminal with glass facade, urban Salt Lake City street, clean contemporary transit architecture |
+| `mb-anti-graffiti.jpg` | 1376×768 | Clean pristine transit station glass and stainless steel surfaces on a Salt Lake City urban corridor, graffiti-free, professional maintenance environment |
 | `mb-security.jpg` | 1376×768 | Airport security checkpoint area with clear glass partitions, professional public safety environment, modern terminal interior |
 | `mb-glare.jpg` | 1376×768 | Airport terminal waiting area with comfortable passengers seated near large windows, soft filtered natural light, no harsh glare, modern aviation seating |
 | `mb-energy.jpg` | 1376×768 | Large transit station or airport terminal exterior showing expansive glass facade, HVAC mechanical equipment on rooftop, energy management concept |
-| `mb-slider-solar.jpg` | 2752×1536 | Panoramic Philadelphia airport terminal concourse, floor-to-ceiling windows, warm filtered sunlight, passengers comfortable, wide cinematic format |
-| `mb-slider-antigraffiti.jpg` | 2752×1536 | Wide SEPTA station interior with clean glass and metal surfaces, urban Philadelphia transit environment, professional maintenance, wide cinematic format |
+| `mb-slider-solar.jpg` | 2752×1536 | Panoramic Salt Lake City airport terminal concourse, floor-to-ceiling windows, warm filtered sunlight, passengers comfortable, wide cinematic format |
+| `mb-slider-antigraffiti.jpg` | 2752×1536 | Wide SEPTA station interior with clean glass and metal surfaces, urban Salt Lake City transit environment, professional maintenance, wide cinematic format |
 | `mb-slider-security.jpg` | 2752×1536 | Wide airport terminal security zone with clear glass partitions and safety glazing, professional public environment, wide cinematic format |
 | `mb-slider-privacy.jpg` | 2752×1536 | Wide transit operations center with frosted privacy film on glass overlooking terminal floor, professional environment, wide cinematic format |
-| `mb-slider-lowe.jpg` | 2752×1536 | Philadelphia train station exterior in winter, warm amber light from inside terminal through energy-efficient windows, wide cinematic format |
+| `mb-slider-lowe.jpg` | 2752×1536 | Salt Lake City train station exterior in winter, warm amber light from inside terminal through energy-efficient windows, wide cinematic format |
 | `mb-slider-daylight.jpg` | 2752×1536 | Transit station concourse with exterior-mounted film on canopy glazing, bright diffused daylight, modern architecture, wide cinematic format |
-| `mb-case-study.jpg` | 1376×768 | 30th Street Station Philadelphia exterior or grand hall interior, Beaux-Arts architecture, warm afternoon light, classic Amtrak terminal |
+| `mb-case-study.jpg` | 1376×768 | 30th Street Station Salt Lake City exterior or grand hall interior, Beaux-Arts architecture, warm afternoon light, classic Amtrak terminal |
 | `mb-gallery-1.jpg` | 1376×768 | PHL gate area seating near treated windows, passengers comfortable, morning light |
-| `mb-gallery-2.jpg` | 1376×768 | SEPTA station platform with glazed canopy, clean surfaces, urban Philadelphia |
+| `mb-gallery-2.jpg` | 1376×768 | SEPTA station platform with glazed canopy, clean surfaces, urban Salt Lake City |
 | `mb-gallery-3.jpg` | 1376×768 | 30th Street Station grand hall interior, tall windows, warm natural light, passengers waiting |
 | `mb-gallery-4.jpg` | 1376×768 | Close-up of optically clear safety film on airport ticketing window glass |
 | `mb-gallery-5.jpg` | 1376×768 | Anti-graffiti film application on stainless steel transit station panel, technician working |
-| `mb-gallery-6.jpg` | 1376×768 | Bus terminal glass facade, clean and modern, Philadelphia urban streetscape |
+| `mb-gallery-6.jpg` | 1376×768 | Bus terminal glass facade, clean and modern, Salt Lake City urban streetscape |
 | `mb-gallery-7.jpg` | 1376×768 | Transit hub waiting area, fully occupied comfortable seating near large windows, passengers relaxed |
 | `mb-resources.jpg` | 1376×768 | Technical specification documents and compliance sheets on desk with laptop, professional facilities office setting |
 | `mb-testimonial-1.jpg` | 1024×1024 | Candid photo of a confident man in his 50s in a transit station corridor, holding a tablet or clipboard, facilities professional attire, realistic documentary style |
 | `mb-testimonial-2.jpg` | 1024×1024 | Candid photo of a woman in her 40s in an airport terminal setting near large windows, professional business attire, natural terminal light, realistic lifestyle |
 | `mb-testimonial-3.jpg` | 1024×1024 | Candid photo of a man in his 40s in a grand train station hall, business casual, confident posture near tall arched windows, warm natural light, realistic |
-| `mb-cta-bg.jpg` | 2752×1536 | Philadelphia International Airport exterior at golden sunset, terminal facade with large glass panels glowing warm amber, wide panoramic cinematic format |
+| `mb-cta-bg.jpg` | 2752×1536 | Salt Lake City International Airport exterior at golden sunset, terminal facade with large glass panels glowing warm amber, wide panoramic cinematic format |
 
 ---
 
 ## Pre-Commit Checklist
 - [ ] Checker: 0 failures (59/59)
-- [ ] H1: 50 chars ✓ — "Mass Transit & Airport Window Film in Philadelphia"
-- [ ] Keyword density: 0.5–1% in visible copy (both "airport window film in Philadelphia" and "mass transit window film")
+- [ ] H1: 50 chars ✓ — "Mass Transit & Airport Window Film in Salt Lake City"
+- [ ] Keyword density: 0.5–1% in visible copy (both "airport window film in Salt Lake City" and "mass transit window film")
 - [ ] Hero subtitle: range of challenges, no "#1" claim
 - [ ] Eyebrow/H2: no redundancy, no location in H2
 - [ ] Benefit rows: Anti-Graffiti · Safety/Security · Solar/Glare · Energy (transit-specific)
@@ -410,30 +410,30 @@ const pageSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.windowfilmphiladelphia.net/" },
-      { "@type": "ListItem", "position": 2, "name": "Applications", "item": "https://www.windowfilmphiladelphia.net/applications/" },
-      { "@type": "ListItem", "position": 3, "name": "Mass Transit & Airport Window Film", "item": "https://www.windowfilmphiladelphia.net/applications/mass-transit/" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.windowfilmsaltlakecity.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Applications", "item": "https://www.windowfilmsaltlakecity.com/applications/" },
+      { "@type": "ListItem", "position": 3, "name": "Mass Transit & Airport Window Film", "item": "https://www.windowfilmsaltlakecity.com/applications/mass-transit/" }
     ]
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://www.windowfilmphiladelphia.net/applications/mass-transit/",
-    "name": "Airport & Mass Transit Window Film in Philadelphia",
-    "description": "Airport window film in Philadelphia for PHL terminals, SEPTA stations, and Amtrak hubs — anti-graffiti, solar control, safety. 3M Certified Dealer.",
-    "url": "https://www.windowfilmphiladelphia.net/applications/mass-transit/",
-    "primaryImageOfPage": { "@type": "ImageObject", "url": "https://www.windowfilmphiladelphia.net/images/mb-hero.jpg" },
+    "@id": "https://www.windowfilmsaltlakecity.com/applications/mass-transit/",
+    "name": "Airport & Mass Transit Window Film in Salt Lake City",
+    "description": "Airport window film in Salt Lake City for PHL terminals, SEPTA stations, and Amtrak hubs — anti-graffiti, solar control, safety. 3M Certified Dealer.",
+    "url": "https://www.windowfilmsaltlakecity.com/applications/mass-transit/",
+    "primaryImageOfPage": { "@type": "ImageObject", "url": "https://www.windowfilmsaltlakecity.com/images/mb-hero.jpg" },
     "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".of-hero__title", ".of-whatis__title", ".swt-faq"] }
   },
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Airport & Mass Transit Window Film Solutions Philadelphia",
+    "name": "Airport & Mass Transit Window Film Solutions Salt Lake City",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Anti-Graffiti Film", "description": "Sacrificial film protecting glass, metal, and mirrors in Philadelphia transit stations from tagging and etching." },
-      { "@type": "ListItem", "position": 2, "name": "Safety & Security Film", "description": "ANSI Z97.1 and ASTM F1642 rated film holding glass intact for passenger safety in Philadelphia airport and transit facilities." },
+      { "@type": "ListItem", "position": 1, "name": "Anti-Graffiti Film", "description": "Sacrificial film protecting glass, metal, and mirrors in Salt Lake City transit stations from tagging and etching." },
+      { "@type": "ListItem", "position": 2, "name": "Safety & Security Film", "description": "ANSI Z97.1 and ASTM F1642 rated film holding glass intact for passenger safety in Salt Lake City airport and transit facilities." },
       { "@type": "ListItem", "position": 3, "name": "Solar Control Film", "description": "Reduces solar heat gain and glare in PHL terminal gate areas and SEPTA station waiting spaces." },
-      { "@type": "ListItem", "position": 4, "name": "Low-E Insulating Film", "description": "Year-round thermal performance for older single-pane glazing in historic Philadelphia transit stations." },
+      { "@type": "ListItem", "position": 4, "name": "Low-E Insulating Film", "description": "Year-round thermal performance for older single-pane glazing in historic Salt Lake City transit stations." },
       { "@type": "ListItem", "position": 5, "name": "Decorative & Privacy Film", "description": "Frosted and printed film for transit operations centers, ticketing windows, and wayfinding graphics." },
       { "@type": "ListItem", "position": 6, "name": "Exterior Window Film", "description": "UV-stabilized film for station canopy glazing and external curtain wall panels inaccessible from the interior." }
     ]
@@ -441,9 +441,9 @@ const pageSchemas = [
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Airport & Mass Transit Window Film Installation Philadelphia",
-    "description": "Professional airport window film installation in Philadelphia for PHL terminals, SEPTA stations, 30th Street Station, and transit hubs — anti-graffiti, solar control, safety film, and energy management.",
-    "brand": { "@type": "Brand", "name": "Window Film Philadelphia" },
+    "name": "Airport & Mass Transit Window Film Installation Salt Lake City",
+    "description": "Professional airport window film installation in Salt Lake City for PHL terminals, SEPTA stations, 30th Street Station, and transit hubs — anti-graffiti, solar control, safety film, and energy management.",
+    "brand": { "@type": "Brand", "name": "Window Film Salt Lake City" },
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "47", "bestRating": "5", "worstRating": "1" },
     "review": [
       { "@type": "Review", "author": { "@type": "Person", "name": "Michael T." }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "We rolled out anti-graffiti film across six stations. The maintenance savings in the first year alone exceeded the installation cost. Nothing beats peeling off a tagged panel instead of calling a glass restoration crew." },
@@ -458,6 +458,6 @@ const pageSchemas = [
 
 ## Checker Command
 ```bash
-cd /Users/christianneaengenheyster/.openclaw/workspace/projects/window-film-philadelphia
+cd /Users/christianneaengenheyster/.openclaw/workspace/projects/window-film-salt-lake-city
 npm run build && node scripts/page-checker.cjs --slug mass-transit --prefix mb
 ```

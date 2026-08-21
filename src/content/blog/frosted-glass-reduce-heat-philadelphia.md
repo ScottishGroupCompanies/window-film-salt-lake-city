@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-church-hero.jpg"
 imageAlt: "Decorative frosted window film adding privacy and soft daylight in a Philadelphia interior"
 tags: ["window film", "philadelphia", "privacy film", "decorative film", "energy savings"]
-draft: false
+draft: true
 categories: ["privacy-film", "philadelphia"]
 ---
 

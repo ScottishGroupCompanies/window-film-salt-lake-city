@@ -25,8 +25,8 @@ function gitLastmod(filePath) {
 
 function getLastmod(page) {
   const srcPath = page
-    .replace('https://windowfilmphiladelphia.net', '')
-    .replace(/\/$/, ''); // e.g. "/blog/uv-window-film-philadelphia" or "/about"
+    .replace('https://windowfilmsaltlakecity.com', '')
+    .replace(/\/$/, ''); // e.g. "/blog/uv-window-film-salt-lake-city" or "/about"
 
   // 1. Blog posts: src/content/blog/{slug}.md
   if (srcPath.startsWith('/blog/') && !srcPath.includes('/category/')) {
@@ -72,7 +72,7 @@ function getLastmod(page) {
 }
 
 export default defineConfig({
-  site: 'https://windowfilmphiladelphia.net',
+  site: 'https://windowfilmsaltlakecity.com',
   trailingSlash: 'always',
   build: {
     assets: '_assets',

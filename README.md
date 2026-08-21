@@ -1,11 +1,11 @@
-# Window Film Philadelphia
+# Window Film Salt Lake City
 
-Static Astro rebuild of [windowfilmphiladelphia.net](https://www.windowfilmphiladelphia.net) — residential & commercial window film in Philadelphia, Camden, Reading, Upper Darby Township.
+Static Astro rebuild of [windowfilmsaltlakecity.com](https://www.windowfilmsaltlakecity.com) — residential & commercial window film in Salt Lake City, Camden, Reading, Upper Darby Township.
 
 - **Stack:** Astro v4 + Tailwind CSS + TypeScript
 - **Repo:** [`ScottishGroupCompanies/wfp-redesign`](https://github.com/ScottishGroupCompanies/wfp-redesign)
 - **Branch:** `main` (Vercel auto-deploys)
-- **Production:** https://www.windowfilmphiladelphia.net
+- **Production:** https://www.windowfilmsaltlakecity.com
 
 ## Quickstart
 
@@ -102,7 +102,7 @@ Tokens de colores (usar siempre estos, NO los del old site):
 | Proyectos | **2,400+** |
 | UV | **99%** |
 | Rating | **4.9★** |
-| Teléfono | **(267) 394-7980** |
+| Teléfono | **(801) 895-4681** |
 | Email | **info@windowfilmphl.com** |
 | Tagline | **"Done right, every time."** |
 

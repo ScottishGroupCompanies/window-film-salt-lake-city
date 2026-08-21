@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-best-sidelight-window-film-philadelphia-transform-
 imageAlt: "Transform Entryways with the Best Sidelight Window Film for Philadelphia | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "sidelight", "privacy", "entryway"]
 category: "privacy-film"
-draft: false
+draft: true
 ---
 
 ## Why Sidelight Windows Need Film in Philadelphia Homes

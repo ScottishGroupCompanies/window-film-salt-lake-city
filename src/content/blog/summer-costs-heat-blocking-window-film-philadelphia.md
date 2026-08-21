@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-premium-films-v2.jpg"
 imageAlt: "Close-up of solar control window film on a Philadelphia home window"
 tags: ["window film", "philadelphia", "energy savings"]
-draft: false
+draft: true
 categories: ["energy-savings", "philadelphia"]
 ---
 

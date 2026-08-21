@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-how-long-does-window-tint-last-philadelphia.jpg"
 imageAlt: "How Long Does Window Tint Last on Philadelphia Homes and Offices? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "window tint lifespan"]
 categories: ["philadelphia"]
-draft: false
+draft: true
 ---
 
 When a South Philly homeowner notices their once-dark windows starting to bubble in the afternoon heat, or a Center City property manager debates replacing film on a high-rise facing west, the question isn’t just about aesthetics — it’s about durability. How long can you actually expect professional window film to last on buildings in Philadelphia? The short answer? Between 5 and 20 years. But the real answer depends on three things we see every day: the technology in the film, the quality of the installation, and how much stress the glass is under from Philadelphia’s intense summers and aging building stock. Our team has restored clarity to hundreds of rowhome windows in Fishtown, reduced heat gain in University City labs, and helped businesses from Passyunk to Conshohocken manage glare without sacrificing views. We’ve learned what holds up over time and what starts fading after only a few hot August cycles.

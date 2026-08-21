@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-office-hero.jpg"
 imageAlt: "UV protection window film installed in a Philadelphia office building"
 tags: ["UV protection window film", "philadelphia", "window film", "UV blocking", "fade protection"]
-draft: false
+draft: true
 categories: ["uv-protection", "philadelphia"]
 ---
 

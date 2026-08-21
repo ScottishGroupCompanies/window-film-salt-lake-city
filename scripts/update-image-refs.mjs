@@ -9,9 +9,9 @@
  *
  * EXCLUSIONS (leave as original format):
  *   - /images/wfp-favicon.png (favicon — browser may not support webp favicon well)
- *   - /images/2021-08-window-film-philadelphia-dark.png (logo — tiny 10KB PNG, OG image default)
- *   - /images/window-film-philadelphia-logo-white.png (logo)
- *   - wfphilly-blog-image-*.png (blog thumbnails — already PNG, small)
+ *   - /images/2021-08-window-film-salt-lake-city-dark.png (logo — tiny 10KB PNG, OG image default)
+ *   - /images/window-film-salt-lake-city-logo-white.png (logo)
+ *   - wfsalt-lake-blog-image-*.png (blog thumbnails — already PNG, small)
  *
  * Run: node scripts/update-image-refs.mjs
  */
@@ -24,14 +24,14 @@ const SRC  = join(ROOT, 'src');
 
 const EXCLUDE_FILES = new Set([
   'wfp-favicon.png',
-  '2021-08-window-film-philadelphia-dark.png',
-  'window-film-philadelphia-logo-white.png',
-  '2021-08-window-film-philadelphia-white-1.png',
+  '2021-08-window-film-salt-lake-city-dark.png',
+  'window-film-salt-lake-city-logo-white.png',
+  '2021-08-window-film-salt-lake-city-white-1.png',
 ]);
 
 function shouldExclude(filename) {
   if (EXCLUDE_FILES.has(filename)) return true;
-  if (filename.startsWith('wfphilly-blog-image-')) return true;
+  if (filename.startsWith('wfsalt-lake-blog-image-')) return true;
   if (filename.startsWith('file-1491') || filename.startsWith('wfp-favicon')) return true;
   return false;
 }

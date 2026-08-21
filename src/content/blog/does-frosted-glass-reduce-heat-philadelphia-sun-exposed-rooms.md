@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-does-frosted-glass-reduce-heat-philadelphia-sun-ex
 imageAlt: "Does Frosted Glass Reduce Heat for Philadelphia's Sun-exposed Rooms? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "window tint"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 When a South Philly bedroom faces a bright alley wall, a Fishtown rowhome bathroom gets harsh midmorning sun, or a Center City conference room bakes after lunch, frosted glass can feel like an obvious fix. It softens the view, calms glare, and gives privacy without closing the room off. The harder question is the one we hear on site: does frosted glass reduce heat enough to make the room noticeably cooler?

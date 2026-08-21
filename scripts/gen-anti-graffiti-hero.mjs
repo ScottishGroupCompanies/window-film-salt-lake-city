@@ -12,9 +12,9 @@ const IMAGE_MODELS = [
   'gemini-2.5-flash-image',
 ];
 
-const prompt = `Philadelphia historic commercial storefront at golden hour. Red brick facade, tall pristine plate glass display windows reflecting warm afternoon light, iron signage details, vintage neighborhood charm. Street-level perspective. Photorealistic architectural photography. The glass looks immaculately clean and protected. Professional editorial quality. No text, no graffiti.`;
+const prompt = `Salt Lake City historic commercial storefront at golden hour. Red brick facade, tall pristine plate glass display windows reflecting warm afternoon light, iron signage details, vintage neighborhood charm. Street-level perspective. Photorealistic architectural photography. The glass looks immaculately clean and protected. Professional editorial quality. No text, no graffiti.`;
 
-const outPath = path.resolve("public/images/anti-graffiti-window-film-philadelphia.jpg");
+const outPath = path.resolve("public/images/anti-graffiti-window-film-salt-lake-city.jpg");
 
 async function generate() {
   for (const model of IMAGE_MODELS) {

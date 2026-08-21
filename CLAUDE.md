@@ -1,7 +1,7 @@
 # WFP Redesign — Claude Code Context
 
 ## Project Overview
-This is a redesign of **windowfilmphiladelphia.net** built with **Astro v4**. The project lives at `/Volumes/ZV-SSD/work/transcending-creative/wfp-redesign` on Mac and `~/wfp-redesign` on the Windows PC (WSL Ubuntu). The GitHub repo is `ScottishGroupCompanies/wfp-redesign`.
+This is a redesign of **windowfilmsaltlakecity.com** built with **Astro v4**. The project lives at `/Volumes/ZV-SSD/work/transcending-creative/wfp-redesign` on Mac and `~/wfp-redesign` on the Windows PC (WSL Ubuntu). The GitHub repo is `ScottishGroupCompanies/wfp-redesign`.
 
 **Dev server:** `npm run dev` → `localhost:4321`
 **Build:** `npm run build` — always confirm 0 errors before finishing any task.
@@ -63,7 +63,7 @@ src/
 │   ├── benefits/             — 16 sub-pages, all using BAF layout + InnerPageHero
 │   ├── cities/
 │   │   ├── camden.astro      — TEMPLATE for all city pages
-│   │   ├── philadelphia.astro
+│   │   ├── salt-lake-city.astro
 │   │   ├── reading.astro
 │   │   └── upper-darby-township.astro
 │   ├── applications/         — Not yet redesigned
@@ -181,7 +181,7 @@ Fully redesigned with:
 
 ## Cities We Serve Menu (sidebar)
 Used in city pages sidebar. The `ip-sidebar-city-link--active` class highlights the current city in green. Full list:
-- Philadelphia PA → `/cities/philadelphia/`
+- Salt Lake City PA → `/cities/salt-lake-city/`
 - Camden NJ → `/cities/camden/`
 - Reading PA → `/cities/reading/`
 - Upper Darby PA → `/cities/upper-darby-township/`
@@ -214,14 +214,14 @@ Infinite horizontal scrolling carousel. 12 logos (3M, LLumar, Vista, Solar Gard,
 
 ## Images Available
 Key images in `/public/images/`:
-- `wfp-landing-hero.jpg` — Philadelphia skyline (homepage hero, Philadelphia city page)
+- `wfp-landing-hero.jpg` — Salt Lake City skyline (homepage hero, Salt Lake City city page)
 - `wfp-premium-films-v2.jpg` — film close-up (benefits page, Reading city page)
 - `wfp-expert-installation-v1.jpg` — installation shot (Upper Darby, sidebar CTA cards)
 - `wfp-footer-bg-commercial-window-film.jpg` — footer background
 - `camden-window-film-company.jpg` — Camden city hero
-- `2021-08-window-film-philadelphia-dark.png` — dark logo (footer)
-- Various benefit-specific images: `2021-08-philadelphia-window-film-[benefit].jpg`
-- Safety/security: `safety-and-security-window-film-philadelphia.png`
+- `2021-08-window-film-salt-lake-city-dark.png` — dark logo (footer)
+- Various benefit-specific images: `2021-08-salt-lake-city-window-film-[benefit].jpg`
+- Safety/security: `safety-and-security-window-film-salt-lake-city.png`
 
 ---
 
@@ -230,7 +230,7 @@ Key images in `/public/images/`:
 - [x] InnerPageHero component created
 - [x] BrandLogos component converted to infinite scroll carousel
 - [x] Footer redesigned (background image, rounded container, 3-col layout)
-- [x] All 4 city pages (Camden template + Philadelphia, Reading, Upper Darby)
+- [x] All 4 city pages (Camden template + Salt Lake City, Reading, Upper Darby)
 - [x] Benefits top-level page redesigned
 - [x] All 16 benefits sub-pages — InnerPageHero + ip-page-body added
 - [x] Camden page — full content redesign (new hero section, sticky sidebar, testimonial carousel, cities menu)
@@ -245,7 +245,7 @@ Key images in `/public/images/`:
 - [ ] Government buildings page
 - [ ] Homepage applications slider — slide-up animation (pending, deprioritized)
 - [ ] Homepage rounded corners — bottom of hp-cta-section visibility (minor)
-- [ ] Philadelphia, Reading, Upper Darby city pages — full content redesign (currently have InnerPageHero + ip-page-body but content not yet retrofitted to Camden template)
+- [ ] Salt Lake City, Reading, Upper Darby city pages — full content redesign (currently have InnerPageHero + ip-page-body but content not yet retrofitted to Camden template)
 
 ---
 

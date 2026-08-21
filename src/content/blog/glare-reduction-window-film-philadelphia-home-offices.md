@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-glare-reduction-window-film-philadelphia-home-offi
 imageAlt: "Glare Reduction Window Film for Philadelphia Home Offices: Better Screens, Better Daylight | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "glare reduction"]
 categories: ["glare-reduction", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why does glare become a daily problem in Philadelphia?

@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-heat-blocking-window-film-philadelphia-beat-top.jp
 imageAlt: "Beat the Heat: Top Reasons to Use Heat Blocking Window Film in Philadelphia | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "heat blocking", "energy savings", "solar control"]
 category: "energy-savings"
-draft: false
+draft: true
 ---
 
 ## Why do Philadelphia buildings need heat blocking film?

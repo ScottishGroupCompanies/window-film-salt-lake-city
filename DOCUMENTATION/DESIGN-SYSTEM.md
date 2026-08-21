@@ -423,7 +423,7 @@ font-family: 'Space Mono', monospace;               /* Stats, pills, badges, lab
 
 - **NO grayscale** — logos a todo color
 - **NO opacity** — colores completos
-- **Text:** "Trusted by Leading Philadelphia Businesses"
+- **Text:** "Trusted by Leading Salt Lake City Businesses"
 - **Auto-scroll** con `@keyframes brand-scroll`
 - **Fade edges** con `mask-image`
 - **Fonts:** Inter 700, 11px, letter-spacing 2px, uppercase

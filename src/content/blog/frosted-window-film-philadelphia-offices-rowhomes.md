@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-frosted-window-film-philadelphia-offices-rowhomes.
 imageAlt: "Frosted Window Film for Philadelphia Offices and Rowhomes: Privacy Without Losing Light | Window Film Philadelphia"
 tags: ["frosted window film", "philadelphia", "privacy window film"]
 categories: ["privacy-film", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Where does frosted film make sense in Philadelphia?

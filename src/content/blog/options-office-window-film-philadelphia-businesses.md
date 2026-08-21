@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-options-office-window-film-philadelphia-businesses
 imageAlt: "Options for Office Window Film for Philadelphia Businesses | Window Film Philadelphia"
 tags: ["office window film", "Philadelphia", "commercial window film", "office window film Philadelphia"]
 categories: ["solar-control", "philadelphia"]
-draft: false
+draft: true
 ---
 
 Philadelphia businesses face a familiar challenge: large glass facades that look impressive from the street but turn interiors into greenhouses by mid-afternoon. From Center City high-rises on Market Street to converted loft offices in Old City, untreated glass drives up cooling costs, strains HVAC systems, and creates uncomfortable work environments. Office window film in Philadelphia has become a practical retrofit for companies that want better performance from their existing glazing without the cost of full window replacement.

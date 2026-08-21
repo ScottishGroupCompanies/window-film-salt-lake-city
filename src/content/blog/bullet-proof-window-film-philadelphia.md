@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-bullet-proof-window-film-philadelphia.jpg"
 imageAlt: "Can Bullet Proof Window Film Protect Your Property in Philadelphia? | Window Film Philadelphia"
 tags: ["bullet proof window film", "philadelphia", "security window film", "safety", "llumar"]
 categories: ["ballistic-resistant", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## What does "bullet proof window film" really mean?

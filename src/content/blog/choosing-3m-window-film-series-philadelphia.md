@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-premium-films-v2.jpg"
 imageAlt: "3M architectural window film installed on bright commercial glass in Philadelphia"
 tags: ["3m window film", "philadelphia", "energy savings", "glare reduction"]
-draft: false
+draft: true
 categories: ["solar-control", "philadelphia"]
 ---
 

@@ -25,10 +25,10 @@ const readingTime = Math.max(1, Math.round(wordCount / 200));
 // Author info — Mike Kinsey is the author of all WFP blog posts
 const authorInfo = {
   name: 'Mike Kinsey',
-  title: 'President, Window Film Philadelphia',
-  bio: 'Mike Kinsey has consulted on window film projects across the United States for over 15 years. As President of Window Film Philadelphia — the Delaware Valley office of Scottish Window Tinting — Mike oversees every project from specification through installation. He has personally sold and installed over 250,000 square feet of window film and holds certifications from 3M, EnerLogic, and the American Institute of Architects (AIA) for continuing education. His background in project management and construction gives him unique insight into how window film performs on Philadelphia\'s building stock, from single-pane rowhome glass to Center City curtain wall systems.',
+  title: 'President, Window Film Salt Lake City',
+  bio: 'Mike Kinsey has consulted on window film projects across the United States for over 15 years. As President of Window Film Salt Lake City — the Delaware Valley office of Scottish Window Tinting — Mike oversees every project from specification through installation. He has personally sold and installed over 250,000 square feet of window film and holds certifications from 3M, EnerLogic, and the American Institute of Architects (AIA) for continuing education. His background in project management and construction gives him unique insight into how window film performs on Salt Lake City\'s building stock, from single-pane rowhome glass to Center City curtain wall systems.',
   image: '/images/team/team-mike-kinsey.jpg',
-  url: 'https://windowfilmphiladelphia.net/about/',
+  url: 'https://windowfilmsaltlakecity.com/about/',
 };
 
 // Use updatedDate if provided in frontmatter, otherwise fall back to pubDate
@@ -49,7 +49,7 @@ function formatDate(date: Date): string {
   });
 }
 
-const canonical = `https://windowfilmphiladelphia.net/blog/${post.slug}/`;
+const canonical = `https://windowfilmsaltlakecity.com/blog/${post.slug}/`;
 const markdownUrl = `/blog/${post.slug}.md`;
 
 const categories = benefitCategories.map((c) => ({ label: c.label, href: c.href }));
@@ -60,22 +60,22 @@ const articleSchema = {
   "@type": "BlogPosting",
   "headline": title,
   "description": description,
-  "image": image ? `https://windowfilmphiladelphia.net${image}` : undefined,
+  "image": image ? `https://windowfilmsaltlakecity.com${image}` : undefined,
   "datePublished": pubDate.toISOString().slice(0, 10),
   "dateModified": modifiedDate.toISOString().slice(0, 10),
   "author": {
     "@type": "Person",
     "name": authorInfo.name,
     "url": authorInfo.url,
-    "image": `https://windowfilmphiladelphia.net${authorInfo.image}`,
+    "image": `https://windowfilmsaltlakecity.com${authorInfo.image}`,
     "jobTitle": authorInfo.title,
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Window Film Philadelphia",
+    "name": "Window Film Salt Lake City",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://windowfilmphiladelphia.net/images/window-film-philadelphia-logo-white.png"
+      "url": "https://windowfilmsaltlakecity.com/images/window-film-salt-lake-city-logo-white.png"
     }
   },
   "mainEntityOfPage": {
@@ -89,8 +89,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://windowfilmphiladelphia.net/" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://windowfilmphiladelphia.net/blog/" },
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://windowfilmsaltlakecity.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://windowfilmsaltlakecity.com/blog/" },
     { "@type": "ListItem", "position": 3, "name": title, "item": canonical }
   ]
 };
@@ -184,11 +184,11 @@ const breadcrumbSchema = {
 
       <!-- CTA image card -->
       <div class="ip-sidebar-cta-card">
-        <div class="ip-sidebar-cta-card__bg" style="background-image: url('/images/2021-09-hotel-window-film-philadelphia.webp')">
+        <div class="ip-sidebar-cta-card__bg" style="background-image: url('/images/2021-09-hotel-window-film-salt-lake-city.webp')">
           <div class="ip-sidebar-cta-card__overlay"></div>
           <div class="ip-sidebar-cta-card__content">
             <p class="ip-sidebar-cta-card__label">Any Questions? Let's talk</p>
-            <a href="tel:+12673947980" class="ip-sidebar-cta-card__phone">(267) 394-7980</a>
+            <a href="tel:+18018954681" class="ip-sidebar-cta-card__phone">(801) 895-4681</a>
             <a href="/contact/" class="ip-sidebar-cta-card__btn">Get a Free Quote &rarr;</a>
           </div>
         </div>
@@ -240,7 +240,7 @@ const breadcrumbSchema = {
     <h2>Ready to transform your <em>windows?</em></h2>
     <div class="ip-cta__btns">
       <a href="/contact/" class="ip-btn ip-btn--white">Get a Free Quote</a>
-      <a href="tel:+12673947980" class="ip-btn ip-btn--green">Call (267) 394-7980</a>
+      <a href="tel:+18018954681" class="ip-btn ip-btn--green">Call (801) 895-4681</a>
     </div>
   </div>
 

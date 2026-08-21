@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-does-heat-blocking-window-film-work-philadelphia.j
 imageAlt: "Does Heat Blocking Window Film Work for Older Philadelphia Buildings? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "window tint"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 Many Philadelphia property owners wonder: does heat blocking window film work — especially in our historic homes and older commercial buildings with original single-pane windows? As local installers, we've worked on hundreds of Center City offices, Fishtown rowhomes, and Manayunk storefronts where summer heat buildup near windows wasn't just uncomfortable — it drove up cooling costs, faded furniture, and made rooms nearly unusable in July and August. We'll walk through real-world performance data, film types available, and what actually happens when you apply solar control film to vintage Philadelphia glass. You’ll see how ceramic and spectrally selective films reject infrared heat while preserving daylight, why UV-blocking film is critical near museum displays in Old City, and why older buildings benefit the most from a high-TSER film upgrade. By the end, you’ll understand exactly how heat blocking window film works in our climate and which Philadelphia building types see the biggest gains.

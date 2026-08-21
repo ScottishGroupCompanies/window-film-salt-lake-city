@@ -7,25 +7,25 @@ import AccordionFAQ from '../../components/AccordionFAQ.astro';
 import CTAAvatars from '../../components/CTAAvatars.astro';
 import CountUp from '../../components/animations/CountUp.astro';
 
-const title = 'Window Film Cost Philadelphia | Pricing Guide & Estimates';
-const description = 'Understand what window film costs — and what drives the price. A transparent pricing guide for Philadelphia residential and commercial window film.';
+const title = 'Window Film Cost Salt Lake City | Pricing Guide & Estimates';
+const description = 'Understand what window film costs — and what drives the price. A transparent pricing guide for Salt Lake City residential and commercial window film.';
 const dateModified = new Date().toISOString().slice(0, 10);
 
 const galleryPhotos = [
-  '/images/pricing-guide/window-film-installation-cost-philadelphia.jpg',
-  '/images/pricing-guide/window-film-pricing-consultation-philadelphia.jpg',
-  '/images/pricing-guide/window-film-roi-philadelphia.jpg',
-  '/images/pricing-guide/commercial-window-film-pricing-philadelphia.jpg',
-  '/images/pricing-guide/residential-window-film-cost-philadelphia.jpg',
+  '/images/pricing-guide/window-film-installation-cost-salt-lake-city.jpg',
+  '/images/pricing-guide/window-film-pricing-consultation-salt-lake-city.jpg',
+  '/images/pricing-guide/window-film-roi-salt-lake-city.jpg',
+  '/images/pricing-guide/commercial-window-film-pricing-salt-lake-city.jpg',
+  '/images/pricing-guide/residential-window-film-cost-salt-lake-city.jpg',
 ];
 
 const bentoItems = [
-  { span: 'lg', title: 'Film Material Cost', desc: 'Higher-quality materials like ceramic or spectrally selective films cost more but deliver superior heat rejection, UV protection, and optical clarity.', img: '/images/pricing-guide/spectrally-selective-film-cost-philadelphia.jpg', href: '/benefits/energy-savings/' },
-  { span: 'sm', title: 'Project Size', desc: 'Larger projects with more glass area typically have a lower per-square-foot cost due to economies of scale.', img: '/images/pricing-guide/large-commercial-window-film-philadelphia.jpg', href: '/services/commercial/' },
-  { span: 'sm', title: 'Access Complexity', desc: 'Multi-story installations, difficult-to-reach windows, or specialty glass require larger crews and more time.', img: '/images/pricing-guide/high-rise-window-film-installation-philadelphia.jpg', href: '/services/commercial/' },
-  { span: 'md', title: 'Installer Quality', desc: 'Experienced, manufacturer-certified installers deliver better results and include meaningful warranties.', img: '/images/pricing-guide/certified-installer-philadelphia.jpg', href: '/about/' },
-  { span: 'md', title: 'Film Type Selection', desc: 'Energy, security, decorative, and anti-graffiti films each occupy different price tiers based on technology and performance.', img: '/images/pricing-guide/window-film-types-philadelphia.jpg', href: '/benefits/' },
-  { span: 'md', title: 'Warranty Coverage', desc: 'Products backed by manufacturer warranties and our workmanship guarantee carry long-term value beyond the initial price.', img: '/images/pricing-guide/window-film-warranty-philadelphia.jpg', href: '/resources/warranty/' },
+  { span: 'lg', title: 'Film Material Cost', desc: 'Higher-quality materials like ceramic or spectrally selective films cost more but deliver superior heat rejection, UV protection, and optical clarity.', img: '/images/pricing-guide/spectrally-selective-film-cost-salt-lake-city.jpg', href: '/benefits/energy-savings/' },
+  { span: 'sm', title: 'Project Size', desc: 'Larger projects with more glass area typically have a lower per-square-foot cost due to economies of scale.', img: '/images/pricing-guide/large-commercial-window-film-salt-lake-city.jpg', href: '/services/commercial/' },
+  { span: 'sm', title: 'Access Complexity', desc: 'Multi-story installations, difficult-to-reach windows, or specialty glass require larger crews and more time.', img: '/images/pricing-guide/high-rise-window-film-installation-salt-lake-city.jpg', href: '/services/commercial/' },
+  { span: 'md', title: 'Installer Quality', desc: 'Experienced, manufacturer-certified installers deliver better results and include meaningful warranties.', img: '/images/pricing-guide/certified-installer-salt-lake-city.jpg', href: '/about/' },
+  { span: 'md', title: 'Film Type Selection', desc: 'Energy, security, decorative, and anti-graffiti films each occupy different price tiers based on technology and performance.', img: '/images/pricing-guide/window-film-types-salt-lake-city.jpg', href: '/benefits/' },
+  { span: 'md', title: 'Warranty Coverage', desc: 'Products backed by manufacturer warranties and our workmanship guarantee carry long-term value beyond the initial price.', img: '/images/pricing-guide/window-film-warranty-salt-lake-city.jpg', href: '/resources/warranty/' },
 ];
 
 const pricingData = [
@@ -53,16 +53,16 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://windowfilmphiladelphia.net/resources/' },
-      { '@type': 'ListItem', position: 3, name: 'Pricing Guide', item: 'https://windowfilmphiladelphia.net/resources/window-film-pricing/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://windowfilmsaltlakecity.com/resources/' },
+      { '@type': 'ListItem', position: 3, name: 'Pricing Guide', item: 'https://windowfilmsaltlakecity.com/resources/window-film-pricing/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://windowfilmphiladelphia.net/resources/window-film-pricing/',
-    url: 'https://windowfilmphiladelphia.net/resources/window-film-pricing/',
+    '@id': 'https://windowfilmsaltlakecity.com/resources/window-film-pricing/',
+    url: 'https://windowfilmsaltlakecity.com/resources/window-film-pricing/',
     name: 'Window Film Pricing Guide',
     description,
     dateModified,
@@ -82,17 +82,17 @@ const pageSchemas = [
 <BaseLayout
   title={title}
   description={description}
-  canonical="https://windowfilmphiladelphia.net/resources/window-film-pricing/"
+  canonical="https://windowfilmsaltlakecity.com/resources/window-film-pricing/"
   faqItems={faqItems}
-  serviceName="Window Film Philadelphia Pricing"
-  serviceDesc="Transparent window film pricing guide for Philadelphia residential and commercial properties."
-  serviceUrl="https://windowfilmphiladelphia.net/resources/window-film-pricing/"
+  serviceName="Window Film Salt Lake City Pricing"
+  serviceDesc="Transparent window film pricing guide for Salt Lake City residential and commercial properties."
+  serviceUrl="https://windowfilmsaltlakecity.com/resources/window-film-pricing/"
   schemas={pageSchemas}
 >
 
 <!-- ═══ HERO ═══ -->
 <section class="pr-hero">
-  <div class="pr-hero__bg" style="background-image: url('/images/pricing-guide/window-film-pricing-philadelphia-hero.jpg')" role="img" aria-label="Philadelphia commercial building with professionally installed window film"></div>
+  <div class="pr-hero__bg" style="background-image: url('/images/pricing-guide/window-film-pricing-salt-lake-city-hero.jpg')" role="img" aria-label="Salt Lake City commercial building with professionally installed window film"></div>
   <div class="pr-hero__overlay"></div>
   <div class="pr-hero__content">
     <div class="pr-hero__eyebrow">
@@ -100,7 +100,7 @@ const pageSchemas = [
       PRICING GUIDE
       <span class="pr-hero__eyebrow-dot" aria-hidden="true"></span>
     </div>
-    <h1 class="pr-hero__title">Window Film Pricing in Philadelphia</h1>
+    <h1 class="pr-hero__title">Window Film Pricing in Salt Lake City</h1>
     <p class="pr-hero__subtitle">Window film pricing varies by film type, glass area, and installation complexity. This guide explains how pricing works — and why the only way to get a precise number is a site assessment.</p>
     <div class="pr-hero__cta">
       <a href="/contact/" class="pr-hero__btn-primary">Get a Free Quote</a>
@@ -140,7 +140,7 @@ const pageSchemas = [
 <!-- TRUST BAR -->
 <section class="pr-trust">
   <div class="pr-container">
-    <p class="pr-trust__label">Transparent pricing. No hidden costs. Free onsite consultations for every Philadelphia property.</p>
+    <p class="pr-trust__label">Transparent pricing. No hidden costs. Free onsite consultations for every Salt Lake City property.</p>
   </div>
 </section>
 
@@ -150,13 +150,13 @@ const pageSchemas = [
 <section class="pr-intro">
   <div class="pr-intro__container">
     <div class="pr-intro__image-wrap">
-      <img src="/images/pricing-guide/window-film-consultation-philadelphia.jpg" alt="Professional window film consultation in Philadelphia showing pricing factors" class="pr-intro__image" loading="lazy" />
+      <img src="/images/pricing-guide/window-film-consultation-salt-lake-city.jpg" alt="Professional window film consultation in Salt Lake City showing pricing factors" class="pr-intro__image" loading="lazy" />
     </div>
     <div class="pr-intro__content">
       <span class="pr-eyebrow">Pricing Guide</span>
-      <h2 class="pr-intro__title">How window film pricing works in Philadelphia</h2>
+      <h2 class="pr-intro__title">How window film pricing works in Salt Lake City</h2>
       <p class="pr-intro__lead">Window film pricing varies significantly by <a href="/benefits/" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">film type</a>, glass area, and installation complexity. This guide provides a framework for understanding how pricing works — but for an accurate quote for your specific project, <a href="/contact/" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">contact us directly</a>. Every project is unique, and the only way to get a precise number is a site assessment.</p>
-      <p class="pr-intro__lead">Whether you are considering <a href="/services/residential/" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">residential window film</a> for a South Philly rowhome or <a href="/services/commercial/" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">commercial window film</a> for a Center City office tower, the same three variables determine your total investment: film material, project scope, and installer quality. According to the <a href="https://iwfa.com/energy-control/" target="_blank" rel="noopener noreferrer" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">International Window Film Association</a>, window film professionals can help predict energy savings using tools based on the Department of Energy's Energy+ platform — giving you real cost-savings projections before you commit.</p>
+      <p class="pr-intro__lead">Whether you are considering <a href="/services/residential/" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">residential window film</a> for a South Salt Lake rowhome or <a href="/services/commercial/" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">commercial window film</a> for a Center City office tower, the same three variables determine your total investment: film material, project scope, and installer quality. According to the <a href="https://iwfa.com/energy-control/" target="_blank" rel="noopener noreferrer" style="color: var(--pr-green-dark, #7CB342); text-decoration: underline; text-underline-offset: 3px;">International Window Film Association</a>, window film professionals can help predict energy savings using tools based on the Department of Energy's Energy+ platform — giving you real cost-savings projections before you commit.</p>
     </div>
   </div>
 </section>
@@ -165,7 +165,7 @@ const pageSchemas = [
 <GalleryBanner
   titleLines={['YOUR', 'INVESTMENT.']}
   eyebrow="PRICING TRANSPARENCY"
-  description="A collection of real window film installations across Philadelphia. Every project measured, applied, and finished by our certified team — each with a transparent, itemized quote."
+  description="A collection of real window film installations across Salt Lake City. Every project measured, applied, and finished by our certified team — each with a transparent, itemized quote."
   photos={galleryPhotos}
   hintText="Hover the photos · click to bring forward"
   theme="dark"
@@ -247,7 +247,7 @@ const pageSchemas = [
 <CTAAvatars
   title="Ready for an accurate quote on your project?"
   subtitle="Contact us for a free onsite consultation. We assess your glass, understand your goals, and provide an itemized quote with no surprises."
-  count="Trusted by 2,400+ Philadelphia property owners"
+  count="Trusted by 2,400+ Salt Lake City property owners"
   btnLabel="Get a Free Quote"
   btnHref="/contact/"
   avatars={[

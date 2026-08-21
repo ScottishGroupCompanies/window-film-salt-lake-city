@@ -4,8 +4,8 @@ import { getCollection } from 'astro:content';
 import { allCategories, benefitCategories, applicationCategories, cityCategories, getCategoryLabel, getPostCategories } from '../data/categories';
 import CtaLightRays from '../components/CtaLightRays.astro';
 
-const title = 'Window Film Blog | Tips & Guides | Window Film Philadelphia';
-const description = 'Read window film tips, guides, and news from Window Film Philadelphia. Expert advice for residential and commercial properties in the Philly area.';
+const title = 'Window Film Blog | Tips & Guides | Window Film Salt Lake City';
+const description = 'Read window film tips, guides, and news from Window Film Salt Lake City. Expert advice for residential and commercial properties in the Salt Lake area.';
 const dateModified = new Date().toISOString().slice(0, 10);
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -45,22 +45,22 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://windowfilmphiladelphia.net/blog/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://windowfilmsaltlakecity.com/blog/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'Blog',
-    '@id': 'https://windowfilmphiladelphia.net/blog/',
-    url: 'https://windowfilmphiladelphia.net/blog/',
-    name: 'Window Film Philadelphia Blog',
+    '@id': 'https://windowfilmsaltlakecity.com/blog/',
+    url: 'https://windowfilmsaltlakecity.com/blog/',
+    name: 'Window Film Salt Lake City Blog',
     description,
     dateModified,
     blogPost: posts.slice(0, 10).map((p) => ({
       '@type': 'BlogPosting',
       headline: p.data.title,
-      url: `https://windowfilmphiladelphia.net/blog/${p.slug}/`,
+      url: `https://windowfilmsaltlakecity.com/blog/${p.slug}/`,
       datePublished: p.data.pubDate.toISOString(),
       author: { '@type': 'Person', name: p.data.author },
     })),
@@ -68,11 +68,11 @@ const pageSchemas = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="https://windowfilmphiladelphia.net/blog/" schemas={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="https://windowfilmsaltlakecity.com/blog/" schemas={pageSchemas}>
 
 <!-- ═══ HERO ═══ -->
 <section class="bg-hero">
-  <div class="bg-hero__bg" style="background-image: url('/images/window-film-philadelphia-blog-hero.jpg')" role="img" aria-label="Professional window film installation team working on a glass facade in Philadelphia"></div>
+  <div class="bg-hero__bg" style="background-image: url('/images/window-film-salt-lake-city-blog-hero.jpg')" role="img" aria-label="Professional window film installation team working on a glass facade in Salt Lake City"></div>
   <div class="bg-hero__overlay"></div>
   <div class="bg-hero__content">
     <div class="bg-hero__eyebrow">
@@ -80,8 +80,8 @@ const pageSchemas = [
       WINDOW FILM INSIGHTS
       <span class="bg-hero__eyebrow-dot" aria-hidden="true"></span>
     </div>
-    <h1 class="bg-hero__title">Window Film Philadelphia Blog</h1>
-    <p class="bg-hero__subtitle">Tips, guides, and expert advice from our certified installers. Everything you need to know about window film for your Philadelphia property — residential, commercial, and institutional.</p>
+    <h1 class="bg-hero__title">Window Film Salt Lake City Blog</h1>
+    <p class="bg-hero__subtitle">Tips, guides, and expert advice from our certified installers. Everything you need to know about window film for your Salt Lake City property — residential, commercial, and institutional.</p>
   </div>
 </section>
 
@@ -194,7 +194,7 @@ const pageSchemas = [
 
 <!-- ═══ CTA ═══ -->
 <CtaLightRays
-  eyebrow="Philadelphia Window Film Professionals"
+  eyebrow="Salt Lake City Window Film Professionals"
   title="Ready to transform your glass?"
   sub="Schedule a free on-site consultation. We assess your windows, explain your options, and give you a detailed quote — no pressure, no obligation."
   btnLabel="Book your free consultation"

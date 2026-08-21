@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-heat-blocking-window-film-philadelphia-interiors.j
 imageAlt: "How Heat Blocking Window Film Keeps Philadelphia Interiors Comfortable | Window Film Philadelphia"
 tags: ["heat blocking window film", "philadelphia", "energy savings"]
 categories: ["energy-savings", "philadelphia"]
-draft: false
+draft: true
 ---
 
 ## Why does summer heat build fast on Philadelphia glass?

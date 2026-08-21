@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-best-frosted-glass-window-film-philadelphia.jpg"
 imageAlt: "Best Frosted Glass Window Film for Philadelphia: Modern Looks, More Privacy | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "frosted glass", "privacy"]
 category: "privacy-film"
-draft: false
+draft: true
 ---
 
 ## Why Frosted Glass Film Works in Philadelphia Spaces

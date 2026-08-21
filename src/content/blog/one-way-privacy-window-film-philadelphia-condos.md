@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-premium-films-v2.jpg"
 imageAlt: "One-way privacy window film for a Philadelphia condo with bright daytime views"
 tags: ["window film", "philadelphia", "privacy window film", "condo privacy", "glare reduction"]
-draft: false
+draft: true
 categories: ["privacy-film", "philadelphia"]
 ---
 

@@ -9,12 +9,12 @@
 - **Benefit family:** B (surface protection — AFTER first, edit into BEFORE)
 
 ## Keywords
-- **Primary keyword:** `exterior refinishing in Philadelphia`
+- **Primary keyword:** `exterior refinishing in Salt Lake City`
   - Density target: 0.5–1.5%
   - `--kw` flag needed: YES (primary KW does not contain "window film")
-- **Secondary KW #1:** `exterior window resurfacing for Philadelphia`
+- **Secondary KW #1:** `exterior window resurfacing for Salt Lake City`
   - Placement: accv panel description or accb body copy
-- **Secondary KW #2:** `building facade window film in Philadelphia`
+- **Secondary KW #2:** `building facade window film in Salt Lake City`
   - Placement: accb body copy or wwd panel
 
 ## External Authority Link
@@ -27,52 +27,52 @@
 Source: LLumar or IWFA commercial context — will use IWFA general quote about window film as cost-effective building improvement. Exact quote TBD from knowledge cards.
 
 ## PDFs (5 unique by md5)
-1. `exterior-refinishing-glass-shield-sell-sheet-philadelphia.pdf` (1.9MB, %PDF-)
-2. `exterior-refinishing-glass-shield-testing-specs-philadelphia.pdf` (830KB, %PDF-)
-3. `exterior-refinishing-glass-shield-multi-layer-philadelphia.pdf` (11MB, %PDF-)
-4. `exterior-refinishing-metal-shield-sell-sheet-philadelphia.pdf` (1.4MB, %PDF-)
-5. `exterior-refinishing-glass-shield-leed-philadelphia.pdf` (180KB, %PDF-)
+1. `exterior-refinishing-glass-shield-sell-sheet-salt-lake-city.pdf` (1.9MB, %PDF-)
+2. `exterior-refinishing-glass-shield-testing-specs-salt-lake-city.pdf` (830KB, %PDF-)
+3. `exterior-refinishing-glass-shield-multi-layer-salt-lake-city.pdf` (11MB, %PDF-)
+4. `exterior-refinishing-metal-shield-sell-sheet-salt-lake-city.pdf` (1.4MB, %PDF-)
+5. `exterior-refinishing-glass-shield-leed-salt-lake-city.pdf` (180KB, %PDF-)
 
 ## Image Filename List (EXACT — writer must use verbatim)
 
 ### Hero (1376×768)
-- `exterior-refinishing-philadelphia-hero.jpg`
+- `exterior-refinishing-salt-lake-city-hero.jpg`
 
 ### Bento Grid (1376×768)
-- `exterior-refinishing-philadelphia-facade-modern.jpg` [lg]
-- `exterior-refinishing-philadelphia-glass-restoration.jpg` [sm]
-- `exterior-refinishing-philadelphia-surface-protection.jpg` [sm]
-- `exterior-refinishing-philadelphia-curb-appeal.jpg` [md]
-- `exterior-refinishing-philadelphia-commercial-building.jpg` [md]
-- `exterior-refinishing-philadelphia-installed-film.jpg` [md]
+- `exterior-refinishing-salt-lake-city-facade-modern.jpg` [lg]
+- `exterior-refinishing-salt-lake-city-glass-restoration.jpg` [sm]
+- `exterior-refinishing-salt-lake-city-surface-protection.jpg` [sm]
+- `exterior-refinishing-salt-lake-city-curb-appeal.jpg` [md]
+- `exterior-refinishing-salt-lake-city-commercial-building.jpg` [md]
+- `exterior-refinishing-salt-lake-city-installed-film.jpg` [md]
 
 ### Before/After Slider (1024×1024)
-- BEFORE: `exterior-refinishing-philadelphia-before.jpg`
-- AFTER: `exterior-refinishing-philadelphia-after.jpg`
+- BEFORE: `exterior-refinishing-salt-lake-city-before.jpg`
+- AFTER: `exterior-refinishing-salt-lake-city-after.jpg`
 
 ### What We Do Panels (1376×768) — 4 panels
-- `exterior-refinishing-philadelphia-office-tower.jpg`
-- `exterior-refinishing-philadelphia-retail-storefront.jpg`
-- `exterior-refinishing-philadelphia-hotel-facade.jpg`
-- `exterior-refinishing-philadelphia-high-rise.jpg`
+- `exterior-refinishing-salt-lake-city-office-tower.jpg`
+- `exterior-refinishing-salt-lake-city-retail-storefront.jpg`
+- `exterior-refinishing-salt-lake-city-hotel-facade.jpg`
+- `exterior-refinishing-salt-lake-city-high-rise.jpg`
 
 ### Gallery Banner (1376×768) — 5 images
-- `exterior-refinishing-philadelphia-gallery-1.jpg`
-- `exterior-refinishing-philadelphia-gallery-2.jpg`
-- `exterior-refinishing-philadelphia-gallery-3.jpg`
-- `exterior-refinishing-philadelphia-gallery-4.jpg`
-- `exterior-refinishing-philadelphia-gallery-5.jpg`
+- `exterior-refinishing-salt-lake-city-gallery-1.jpg`
+- `exterior-refinishing-salt-lake-city-gallery-2.jpg`
+- `exterior-refinishing-salt-lake-city-gallery-3.jpg`
+- `exterior-refinishing-salt-lake-city-gallery-4.jpg`
+- `exterior-refinishing-salt-lake-city-gallery-5.jpg`
 
 ### Testimonials (1024×1024) — 3 square images
-- `exterior-refinishing-philadelphia-review-1.jpg`
-- `exterior-refinishing-philadelphia-review-2.jpg`
-- `exterior-refinishing-philadelphia-review-3.jpg`
+- `exterior-refinishing-salt-lake-city-review-1.jpg`
+- `exterior-refinishing-salt-lake-city-review-2.jpg`
+- `exterior-refinishing-salt-lake-city-review-3.jpg`
 
 ### Resources (1376×768)
-- `exterior-refinishing-philadelphia-resources.jpg`
+- `exterior-refinishing-salt-lake-city-resources.jpg`
 
 ### Process (1376×768)
-- `exterior-refinishing-philadelphia-process.jpg`
+- `exterior-refinishing-salt-lake-city-process.jpg`
 
 **Total: 21 images**
 
@@ -114,7 +114,7 @@ Source: LLumar or IWFA commercial context — will use IWFA general quote about 
 5. Does exterior refinishing film help with energy costs?
 6. Can exterior refinishing film be applied to all glass types?
 7. How does exterior refinishing compare to window replacement?
-8. Which Philadelphia buildings benefit most from exterior refinishing?
+8. Which Salt Lake City buildings benefit most from exterior refinishing?
 9. Can the film be removed without damaging the glass?
 10. How do I get exterior refinishing film installed?
 

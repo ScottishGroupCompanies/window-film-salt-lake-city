@@ -1,5 +1,5 @@
-# Technical SEO Audit — Window Film Philadelphia
-**Site:** windowfilmphiladelphia.net (Astro v4 SSG, Vercel)
+# Technical SEO Audit — Window Film Salt Lake City
+**Site:** windowfilmsaltlakecity.com (Astro v4 SSG, Vercel)
 **Audit date:** 2026-05-27
 **Auditor:** Technical SEO Agent
 **Audit basis:** Local source files only (site is pre-launch, not publicly accessible)
@@ -78,10 +78,10 @@ User-agent: *
 Allow: /
 Disallow: /thank-you/
 
-Sitemap: https://www.windowfilmphiladelphia.net/sitemap-index.xml
+Sitemap: https://www.windowfilmsaltlakecity.com/sitemap-index.xml
 ```
 
-**Verify:** After deploy, fetch https://www.windowfilmphiladelphia.net/robots.txt
+**Verify:** After deploy, fetch https://www.windowfilmsaltlakecity.com/robots.txt
 
 ---
 
@@ -97,7 +97,7 @@ Search Console could not be configured with a sitemap URL.
 - Build confirms: `[@astrojs/sitemap] sitemap-index.xml created at dist`
 - Sitemap contains 62 URLs (all pages minus thank-you)
 
-**Sitemap URL after deploy:** https://www.windowfilmphiladelphia.net/sitemap-index.xml
+**Sitemap URL after deploy:** https://www.windowfilmsaltlakecity.com/sitemap-index.xml
 
 **Next step:** After deploying to Vercel, submit the sitemap URL in Google
 Search Console under Sitemaps.
@@ -106,7 +106,7 @@ Search Console under Sitemaps.
 
 ### 1.3 Site & trailingSlash config — Pass
 
-- `site: 'https://www.windowfilmphiladelphia.net'` is set correctly (includes www, HTTPS)
+- `site: 'https://www.windowfilmsaltlakecity.com'` is set correctly (includes www, HTTPS)
 - `trailingSlash: 'always'` prevents duplicate content between /page and /page/
 - Canonical URLs auto-generated from Astro.url.pathname + Astro.site (correct)
 
@@ -126,15 +126,15 @@ on each page (it contains the geo/service keyword combination).
 
 **Pages fixed (25 total):**
 - benefits.astro, cities.astro, resources.astro, applications.astro, products.astro
-- cities/camden.astro, cities/philadelphia.astro, cities/reading.astro, cities/upper-darby-township.astro
+- cities/camden.astro, cities/salt-lake-city.astro, cities/reading.astro, cities/upper-darby-township.astro
 - benefits/safety-and-security.astro, benefits/energy-savings.astro, benefits/anti-graffiti.astro
-- benefits/privacy-window-film-philadelphia.astro, benefits/glare-reduction.astro
+- benefits/privacy-window-film-salt-lake-city.astro, benefits/glare-reduction.astro
 - benefits/ballistic-resistance.astro, benefits/bird-strike-prevention.astro
 - benefits/blast-mitigation.astro, benefits/decorative-promotional.astro
 - benefits/elevator-refinishing.astro, benefits/exterior-building-wraps.astro
 - benefits/exterior-window-film.astro, benefits/mirror-refinishing.astro
 - benefits/school-security-window-film.astro, benefits/updating-surfaces.astro
-- benefits/uv-blocking-window-film-philadelphia.astro
+- benefits/uv-blocking-window-film-salt-lake-city.astro
 
 ---
 
@@ -151,12 +151,12 @@ These pages had correct single-H1 structure before the audit:
 
 ### 2.3 H1 text duplicated as first H2 on government-buildings.astro — MEDIUM
 
-**Finding:** The H1 is "Government Window Film in Philadelphia". The first
-BackAndForthSection heading is also "Government Window Film in Philadelphia".
+**Finding:** The H1 is "Government Window Film in Salt Lake City". The first
+BackAndForthSection heading is also "Government Window Film in Salt Lake City".
 Redundant signal, no differentiation.
 
 **Fix:** Change the first BAF heading to something more specific, e.g.:
-"Serving Philadelphia's Government Agencies Since 2014"
+"Serving Salt Lake City's Government Agencies Since 2014"
 
 ---
 
@@ -201,7 +201,7 @@ Top 10 largest images that are actively used on the site:
 |------|------|---------|
 | commercial-window-film-upper-darby-township.png | 7.7MB | Upper Darby city page |
 | commercial-window-film-camden.png | 7.7MB | Camden city page |
-| window-tinting-resources-philadelphia.png | 5.6MB | Resources pages |
+| window-tinting-resources-salt-lake-city.png | 5.6MB | Resources pages |
 | window-film-upper-darby-township.png | 4.7MB | Upper Darby pages |
 | window-film-camden-home.png | 4.7MB | Camden pages |
 | wfp-schools-universities-hero.jpg | 4.0MB | Schools application page |
@@ -267,8 +267,8 @@ don't exist:
 
 | Broken href | Correct href |
 |-------------|-------------|
-| /benefits/uv-protection | /benefits/uv-blocking-window-film-philadelphia/ |
-| /benefits/privacy | /benefits/privacy-window-film-philadelphia/ |
+| /benefits/uv-protection | /benefits/uv-blocking-window-film-salt-lake-city/ |
+| /benefits/privacy | /benefits/privacy-window-film-salt-lake-city/ |
 
 **Fix applied:** Both links corrected in src/pages/index.astro.
 
@@ -288,7 +288,7 @@ pointing to them from any .astro file:
 - 14 of 16 benefit sub-pages
 - All 9 application sub-pages
 - All 9 resource sub-pages
-- /2026/04/22/benefits-window-tint-philadelphia-... — blog post not linked from blog.astro
+- /2026/04/22/benefits-window-tint-salt-lake-city-... — blog post not linked from blog.astro
 
 **Impact:** Pages with few or no inbound links from the same site receive
 less PageRank and may be crawled less frequently. This is especially significant
@@ -308,7 +308,7 @@ for the blog post, which is completely isolated.
 
 **Finding:** resources/warranty.astro and resources/architects-builders.astro
 contain ~30 PDF download links pointing to:
-`https://www.windowfilmphiladelphia.net/wp-content/uploads/`
+`https://www.windowfilmsaltlakecity.com/wp-content/uploads/`
 
 These URLs resolve to the old WordPress install. If the WordPress site is
 decommissioned or the files are not kept on that server, all warranty and
@@ -323,7 +323,7 @@ values to relative paths (/documents/filename.pdf).
 
 External links found in source files:
 - fonts.googleapis.com, fonts.gstatic.com — legitimate (font preconnects)
-- maps.google.com/?q=Philadelphia,PA — legitimate (contact page map link)
+- maps.google.com/?q=Salt Lake City,PA — legitimate (contact page map link)
 
 No unexpected external links. No affiliate or paid links requiring rel="sponsored".
 
@@ -343,22 +343,22 @@ text as thin linking if the destination page has weak content.
 ### 5.1 Over-length meta titles — HIGH → [FIXED]
 
 **Finding:** 9 of 11 top-level pages had titles exceeding 60 characters (range:
-62–74 chars). The pattern "Topic | Window Film Philadelphia | Leading Window
+62–74 chars). The pattern "Topic | Window Film Salt Lake City | Leading Window
 Film Solutions" is ~65-74 chars — consistently over the limit.
 
 **Fixes applied (all now 48–61 chars):**
 
 | Page | Old Title (chars) | New Title (chars) |
 |------|-------------------|-------------------|
-| benefits.astro | Benefits \| WFP \| Leading Window Film Solutions (67) | Window Film Benefits Philadelphia \| Energy, Security & More (59) |
-| blog.astro | Blog \| WFP \| Window Film Tips & Resources (62) | Window Film Blog \| Tips & Guides \| Window Film Philadelphia (59) |
-| cities.astro | Cities We Serve \| WFP \| Leading Window Film Solutions (74) | Window Film Service Areas \| Philadelphia Metro \| PA & NJ (56) |
-| contact.astro | Contact \| WFP \| Leading Window Film Solutions (66) | Contact Window Film Philadelphia \| Free Estimate (48) |
-| process.astro | Process \| WFP \| Leading Window Film Solutions (66) | Window Film Installation Process \| Window Film Philadelphia (59) |
+| benefits.astro | Benefits \| WFP \| Leading Window Film Solutions (67) | Window Film Benefits Salt Lake City \| Energy, Security & More (59) |
+| blog.astro | Blog \| WFP \| Window Film Tips & Resources (62) | Window Film Blog \| Tips & Guides \| Window Film Salt Lake City (59) |
+| cities.astro | Cities We Serve \| WFP \| Leading Window Film Solutions (74) | Window Film Service Areas \| Salt Lake City Metro \| PA & NJ (56) |
+| contact.astro | Contact \| WFP \| Leading Window Film Solutions (66) | Contact Window Film Salt Lake City \| Free Estimate (48) |
+| process.astro | Process \| WFP \| Leading Window Film Solutions (66) | Window Film Installation Process \| Window Film Salt Lake City (59) |
 | resources.astro | Resources \| WFP \| Leading Window Film Solutions (68) | Window Film Resources \| Guides, Pricing & FAQs \| WFP (52) |
-| applications.astro | Applications \| WFP \| Leading Window Film Solutions (71) | Window Film Applications \| Philadelphia PA \| All Properties (59) |
-| products.astro | Products \| WFP \| Leading Window Film Solutions (67) | Window Film Brands \| 3M, LLumar, Vista & More \| Philadelphia (60) |
-| government-buildings.astro | Government Buildings \| WFP \| Leading Window Film (69) | Government Building Window Film \| Philadelphia Contractor (57) |
+| applications.astro | Applications \| WFP \| Leading Window Film Solutions (71) | Window Film Applications \| Salt Lake City PA \| All Properties (59) |
+| products.astro | Products \| WFP \| Leading Window Film Solutions (67) | Window Film Brands \| 3M, LLumar, Vista & More \| Salt Lake City (60) |
+| government-buildings.astro | Government Buildings \| WFP \| Leading Window Film (69) | Government Building Window Film \| Salt Lake City Contractor (57) |
 
 ---
 
@@ -366,12 +366,12 @@ Film Solutions" is ~65-74 chars — consistently over the limit.
 
 City page titles are well-formed and within length:
 - "Window Film Camden NJ \| Window Film Contractor Camden" — 53 chars ✓
-- "Window Film Philadelphia PA \| Window Film Contractor Philadelphia" — 65 chars (slightly over — consider trimming)
+- "Window Film Salt Lake City PA \| Window Film Contractor Salt Lake City" — 65 chars (slightly over — consider trimming)
 - "Window Film Reading, PA \| Window Film Contractor Reading" — 56 chars ✓
 - "Window Film Upper Darby Township PA \| Window Film Contractor Upper Darby" — 73 chars (HIGH — should trim)
 
 **Pending fix for 2 city pages:**
-- philadelphia.astro: trim to "Window Film Contractor Philadelphia PA | WFP" (44 chars)
+- salt-lake-city.astro: trim to "Window Film Contractor Salt Lake City PA | WFP" (44 chars)
 - upper-darby-township.astro: trim to "Window Film Upper Darby Township PA | Contractor" (48 chars)
 
 ---
@@ -432,7 +432,7 @@ no keyword value, can dilute site quality signals).
 ### 6.4 Structured data — HIGH (Not fixed this session)
 
 **Finding:** No JSON-LD structured data exists anywhere on the site. For a local
-service business (window film contractor, Philadelphia PA + surrounding cities)
+service business (window film contractor, Salt Lake City PA + surrounding cities)
 this is a significant missed opportunity.
 
 **Recommended schema types by page:**
@@ -453,18 +453,18 @@ Add a LocalBusiness JSON-LD block to BaseLayout.astro or SEOHead.astro:
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Window Film Philadelphia",
-  "url": "https://www.windowfilmphiladelphia.net",
-  "telephone": "+1-267-394-7980",
-  "email": "contact@windowfilmphiladelphia.net",
-  "image": "https://www.windowfilmphiladelphia.net/images/wfp-landing-hero.jpg",
+  "name": "Window Film Salt Lake City",
+  "url": "https://www.windowfilmsaltlakecity.com",
+  "telephone": "+1-801-895-4681",
+  "email": "contact@windowfilmsaltlakecity.com",
+  "image": "https://www.windowfilmsaltlakecity.com/images/wfp-landing-hero.jpg",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Philadelphia",
-    "addressRegion": "PA",
+    "addressLocality": "Salt Lake City",
+    "addressRegion": "UT",
     "addressCountry": "US"
   },
-  "areaServed": ["Philadelphia PA", "Camden NJ", "Reading PA", "Upper Darby PA"],
+  "areaServed": ["Salt Lake City PA", "Camden NJ", "Reading PA", "Upper Darby PA"],
   "sameAs": []
 }
 ```
@@ -508,7 +508,7 @@ Astro bundles the font files as static assets at build time.
 - Added `og:image:alt` (uses page title)
 - Added `twitter:image` tag (was missing despite summary_large_image card type)
 
-The default og:image (`/images/2021-08-window-film-philadelphia-dark.png`) exists
+The default og:image (`/images/2021-08-window-film-salt-lake-city-dark.png`) exists
 and is 10KB — very small for a social share image (it's a dark logo). Consider
 replacing the default with a proper 1200x630 OG image for better social previews.
 
@@ -554,13 +554,13 @@ Build confirmed passing (0 errors) after all changes.
 | src/pages/process.astro | Fixed meta title |
 | src/pages/government-buildings.astro | Fixed meta title |
 | src/pages/cities/camden.astro | Demoted body h1 → h2 |
-| src/pages/cities/philadelphia.astro | Demoted body h1 → h2 |
+| src/pages/cities/salt-lake-city.astro | Demoted body h1 → h2 |
 | src/pages/cities/reading.astro | Demoted body h1 → h2 |
 | src/pages/cities/upper-darby-township.astro | Demoted body h1 → h2 |
 | src/pages/benefits/safety-and-security.astro | Demoted body h1 → h2 |
 | src/pages/benefits/energy-savings.astro | Demoted body h1 → h2 |
 | src/pages/benefits/anti-graffiti.astro | Demoted body h1 → h2 |
-| src/pages/benefits/privacy-window-film-philadelphia.astro | Demoted body h1 → h2 |
+| src/pages/benefits/privacy-window-film-salt-lake-city.astro | Demoted body h1 → h2 |
 | src/pages/benefits/glare-reduction.astro | Demoted body h1 → h2 |
 | src/pages/benefits/ballistic-resistance.astro | Demoted body h1 → h2 |
 | src/pages/benefits/bird-strike-prevention.astro | Demoted body h1 → h2 |
@@ -572,7 +572,7 @@ Build confirmed passing (0 errors) after all changes.
 | src/pages/benefits/mirror-refinishing.astro | Demoted body h1 → h2 |
 | src/pages/benefits/school-security-window-film.astro | Demoted body h1 → h2 |
 | src/pages/benefits/updating-surfaces.astro | Demoted body h1 → h2 |
-| src/pages/benefits/uv-blocking-window-film-philadelphia.astro | Demoted body h1 → h2 |
+| src/pages/benefits/uv-blocking-window-film-salt-lake-city.astro | Demoted body h1 → h2 |
 
 **Total files changed: 36**
 
@@ -584,7 +584,7 @@ Build confirmed passing (0 errors) after all changes.
    WordPress server to /public/documents/ and update all href values in
    resources/warranty.astro and resources/architects-builders.astro.
 
-2. **City page title trimming** — philadelphia.astro (65 chars) and
+2. **City page title trimming** — salt-lake-city.astro (65 chars) and
    upper-darby-township.astro (73 chars) still need title shortening.
 
 3. **Add /blog/, /cities/, /government-buildings/ to Header navigation** —
@@ -658,7 +658,7 @@ browsers represent < 1% of traffic and Vercel's CDN will serve the correct forma
 | src/components/SchemaOrg.astro | CREATED — renders schema array as ld+json script tags |
 | src/layouts/BaseLayout.astro | Added SchemaOrg component; LocalBusiness schema on every page; added faqItems, serviceName, serviceDesc, serviceUrl props |
 | src/pages/cities/camden.astro | Added faqItems (6 Q&A) + FAQPage schema |
-| src/pages/cities/philadelphia.astro | Added faqItems (6 Q&A) + FAQPage schema |
+| src/pages/cities/salt-lake-city.astro | Added faqItems (6 Q&A) + FAQPage schema |
 | src/pages/benefits.astro | Added faqItems (6 Q&A) + FAQPage schema |
 | src/pages/benefits/safety-and-security.astro | Added faqItems (6 Q&A) + FAQPage schema + Service schema |
 | src/pages/benefits/energy-savings.astro | Added faqItems (6 Q&A) + FAQPage schema + Service schema |
@@ -693,6 +693,6 @@ Verified in dist/:
 - 0 render-blocking Google Fonts stylesheet requests
 - 6 woff2 font files in dist/_assets/
 - LocalBusiness JSON-LD in every page <head>
-- FAQPage schema on camden, philadelphia, benefits, safety, energy-savings, applications
+- FAQPage schema on camden, salt-lake-city, benefits, safety, energy-savings, applications
 - All image src attributes referencing .webp files
 - Sitemap contains 62 URLs (thank-you excluded)

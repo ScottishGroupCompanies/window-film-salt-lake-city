@@ -33,7 +33,7 @@ https://d8j0ntlcm91z4.cloudfront.net/[path]
 
 ```html
 <!-- SIEMPRE usar imagen local: -->
-<img src="/images/logo.png" alt="Window Film Philadelphia" width="180" height="48">
+<img src="/images/logo.png" alt="Window Film Salt Lake City" width="180" height="48">
 
 <!-- NO usar Cloudinary ni SVG inline para el logo principal -->
 ```
@@ -73,14 +73,14 @@ higgsfield generate image \
 
 ### Prompts de referencia
 
-#### Hero interior Philadelphia
+#### Hero interior Salt Lake City
 ```
-Professional window film installation in Philadelphia historic brownstone interior, large windows with natural light streaming in, original hardwood floors, sunlit living room with artwork on walls, elegant furniture, warm afternoon light, clean and modern finish, photorealistic, 8K
+Professional window film installation in Salt Lake City historic brownstone interior, large windows with natural light streaming in, original hardwood floors, sunlit living room with artwork on walls, elegant furniture, warm afternoon light, clean and modern finish, photorealistic, 8K
 ```
 
 #### Installer / trabajador
 ```
-Professional window film installer in Philadelphia, wearing branded workwear, applying window film to large commercial glass, clean workspace, natural light, respectful and professional appearance, photorealistic, 8K
+Professional window film installer in Salt Lake City, wearing branded workwear, applying window film to large commercial glass, clean workspace, natural light, respectful and professional appearance, photorealistic, 8K
 ```
 
 ---
@@ -94,7 +94,7 @@ Professional window film installer in Philadelphia, wearing branded workwear, ap
 | `wfp-expert-installation-v1.jpg` | City pages, sidebar |
 | `wfp-footer-bg-commercial-window-film.jpg` | Footer background |
 | `camden-window-film-company.jpg` | Camden hero |
-| `uv-protection-hero-philadelphia.png` | UV Protection hero |
+| `uv-protection-hero-salt-lake-city.png` | UV Protection hero |
 
 ---
 
@@ -133,7 +133,7 @@ Professional window film installer in Philadelphia, wearing branded workwear, ap
 <img src="photo.jpg" alt="photo">
 
 <!-- ✅ Hacer esto: -->
-<img src="photo.jpg" alt="Natural light streaming through window film-protected windows in a Philadelphia brownstone living room">
+<img src="photo.jpg" alt="Natural light streaming through window film-protected windows in a Salt Lake City brownstone living room">
 ```
 
 ## Mike Kinsey — fotos reales (NO IA)

@@ -17,6 +17,8 @@ mkdir -p "$BLOG_DIST"
 count=0
 for md_file in "$BLOG_SRC"/*.md; do
   [ -f "$md_file" ] || continue
+  # Skip draft posts — they are not published, so no twin
+  grep -q '^draft: true' "$md_file" && continue
   
   slug=$(basename "$md_file" .md)
   

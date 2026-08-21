@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-security-window-film-philadelphia.jpg"
 imageAlt: "Security Window Film: Is Your Philadelphia Building Really Protected? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "security film", "safety", "smash-and-grab"]
 category: "safety-security"
-draft: false
+draft: true
 ---
 
 ## How does security window film actually work?

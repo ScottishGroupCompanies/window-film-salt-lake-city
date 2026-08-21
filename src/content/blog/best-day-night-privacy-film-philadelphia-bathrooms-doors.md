@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-church-hero.jpg"
 imageAlt: "Decorative privacy window film on bathroom and door glass in a Philadelphia property"
 tags: ["window film", "philadelphia", "privacy film", "decorative film", "bathroom privacy"]
-draft: false
+draft: true
 categories: ["privacy-film", "philadelphia"]
 ---
 

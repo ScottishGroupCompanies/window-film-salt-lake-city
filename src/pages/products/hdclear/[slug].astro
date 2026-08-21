@@ -10,8 +10,8 @@ export function getStaticPaths() {
 }
 
 const { product: p } = Astro.props;
-const serviceUrl = `https://windowfilmphiladelphia.net/products/hdclear/${p.slug}/`;
-const title = `HDClear ${p.name} | Philadelphia Installer`;
+const serviceUrl = `https://windowfilmsaltlakecity.com/products/hdclear/${p.slug}/`;
+const title = `HDClear ${p.name} | Salt Lake City Installer`;
 const description = `${p.shortDescription.slice(0, 150)}`;
 const descriptionParagraphs = p.description.split('\n\n').slice(0, 4);
 const specRows = [
@@ -36,50 +36,50 @@ const categoryText = `${p.categories.join(' ')} ${p.series}`.toLowerCase();
 
 const applications = categoryText.includes('interlayer')
   ? [
-      ['Architectural Balustrades', 'Custom printed laminated glass for Philadelphia staircases, balconies, and feature balustrade panels in commercial and residential projects.'],
-      ['Feature Partition Systems', 'Decorative laminated glass partition panels for Philadelphia offices, hotels, and restaurants — permanent, cleanable, and protected inside the glass.'],
-      ['Skylights and Overhead Glass', 'HDLam-specified glass for Philadelphia architectural skylights where interior-facing graphics must be permanently protected within the glass unit.'],
+      ['Architectural Balustrades', 'Custom printed laminated glass for Salt Lake City staircases, balconies, and feature balustrade panels in commercial and residential projects.'],
+      ['Feature Partition Systems', 'Decorative laminated glass partition panels for Salt Lake City offices, hotels, and restaurants — permanent, cleanable, and protected inside the glass.'],
+      ['Skylights and Overhead Glass', 'HDLam-specified glass for Salt Lake City architectural skylights where interior-facing graphics must be permanently protected within the glass unit.'],
     ]
   : categoryText.includes('removable') || categoryText.includes('short-term')
     ? [
-        ['Retail Seasonal Campaigns', 'Seasonal window graphics for Philadelphia retailers on Walnut Street, Chestnut Street, and Rittenhouse Square — change-out as often as the campaign calendar requires.'],
-        ['Hospitality Event Graphics', 'Event-specific glass graphics for Philadelphia restaurants, hotels, and branded venues — installed for specific promotions and removed cleanly without residue.'],
-        ['Pop-Up and Temporary Retail', 'Short-term branded glass graphics for Philadelphia pop-up locations, kiosks, and temporary retail installations that need professional visual quality on a short schedule.'],
+        ['Retail Seasonal Campaigns', 'Seasonal window graphics for Salt Lake City retailers on Walnut Street, Chestnut Street, and Rittenhouse Square — change-out as often as the campaign calendar requires.'],
+        ['Hospitality Event Graphics', 'Event-specific glass graphics for Salt Lake City restaurants, hotels, and branded venues — installed for specific promotions and removed cleanly without residue.'],
+        ['Pop-Up and Temporary Retail', 'Short-term branded glass graphics for Salt Lake City pop-up locations, kiosks, and temporary retail installations that need professional visual quality on a short schedule.'],
       ]
     : categoryText.includes('one-way') || categoryText.includes('hdview')
       ? [
-          ['Retail Storefront Windows', 'Large-format graphics on Philadelphia storefronts — full brand imagery visible from the street while interior displays and sightlines remain unobstructed.'],
-          ['Corporate Headquarters Glass', 'Exterior glass graphics for Philadelphia commercial buildings — brand presence visible from street level while interior occupants maintain full outward views.'],
-          ['Restaurant and Hospitality Glass', 'Campaign or brand imagery on Philadelphia restaurant windows — exterior visual impact without blocking the interior ambiance visible from the street.'],
+          ['Retail Storefront Windows', 'Large-format graphics on Salt Lake City storefronts — full brand imagery visible from the street while interior displays and sightlines remain unobstructed.'],
+          ['Corporate Headquarters Glass', 'Exterior glass graphics for Salt Lake City commercial buildings — brand presence visible from street level while interior occupants maintain full outward views.'],
+          ['Restaurant and Hospitality Glass', 'Campaign or brand imagery on Salt Lake City restaurant windows — exterior visual impact without blocking the interior ambiance visible from the street.'],
         ]
       : categoryText.includes('tactile') || categoryText.includes('3d')
         ? [
-            ['Corporate Lobby Feature Walls', 'Tactile glass accent panels for Philadelphia corporate headquarters reception areas — premium surface treatment at a fraction of specialty architectural glass cost.'],
-            ['Hospitality Interior Design', 'Raised texture decorative glass elements for Philadelphia hotels, restaurants, and branded hospitality interiors as design focal points.'],
-            ['High-End Residential Glass', 'Custom 3D texture details for Philadelphia premium residential interiors — staircases, partition screens, and feature bathroom glass.'],
+            ['Corporate Lobby Feature Walls', 'Tactile glass accent panels for Salt Lake City corporate headquarters reception areas — premium surface treatment at a fraction of specialty architectural glass cost.'],
+            ['Hospitality Interior Design', 'Raised texture decorative glass elements for Salt Lake City hotels, restaurants, and branded hospitality interiors as design focal points.'],
+            ['High-End Residential Glass', 'Custom 3D texture details for Salt Lake City premium residential interiors — staircases, partition screens, and feature bathroom glass.'],
           ]
         : [
-            ['Office Glass Partitions', 'Privacy, branding, and visual quality for Philadelphia conference rooms, sidelites, and open-plan glass office partitions.'],
-            ['Retail and Hospitality Glass', 'Custom printed decorative treatments for Philadelphia storefronts, restaurant windows, hotel lobbies, and branded interior glass surfaces.'],
-            ['Healthcare and Education', 'Decorative glass solutions for Philadelphia healthcare waiting areas, clinic partitions, and university campus interior glass.'],
+            ['Office Glass Partitions', 'Privacy, branding, and visual quality for Salt Lake City conference rooms, sidelites, and open-plan glass office partitions.'],
+            ['Retail and Hospitality Glass', 'Custom printed decorative treatments for Salt Lake City storefronts, restaurant windows, hotel lobbies, and branded interior glass surfaces.'],
+            ['Healthcare and Education', 'Decorative glass solutions for Salt Lake City healthcare waiting areas, clinic partitions, and university campus interior glass.'],
           ];
 
 const faqItems = [
   {
-    question: `What is HDClear ${p.name} used for in Philadelphia?`,
-    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Philadelphia offices, retail storefronts, hospitality interiors, healthcare facilities, and commercial properties. It belongs to the ${p.series} and is specified based on design intent, glass type, and application duration.`,
+    question: `What is HDClear ${p.name} used for in Salt Lake City?`,
+    answer: `${p.name} is used for ${p.categories.join(', ').toLowerCase()} applications across Salt Lake City offices, retail storefronts, hospitality interiors, healthcare facilities, and commercial properties. It belongs to the ${p.series} and is specified based on design intent, glass type, and application duration.`,
   },
   {
     question: `What specifications does HDClear ${p.name} offer?`,
-    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Philadelphia confirms compatibility during the site assessment before recommending any HDClear product.`,
+    answer: `Key specifications include ${specRows.slice(0, 4).map(([label, value]) => `${label}: ${value}`).join('; ')}. Window Film Salt Lake City confirms compatibility during the site assessment before recommending any HDClear product.`,
   },
   {
-    question: `Who installs HDClear ${p.name} in Philadelphia?`,
-    answer: `Window Film Philadelphia is a certified HDClear Film installer serving Philadelphia and the surrounding area. We manage design coordination, specification, and installation of all HDClear products for commercial and residential glass.`,
+    question: `Who installs HDClear ${p.name} in Salt Lake City?`,
+    answer: `Window Film Salt Lake City is a certified HDClear Film installer serving Salt Lake City and the surrounding area. We manage design coordination, specification, and installation of all HDClear products for commercial and residential glass.`,
   },
   {
     question: `Does HDClear ${p.name} affect natural light?`,
-    answer: `HDClear products use a 100% optically clear PET substrate — unprinted areas remain optically clear and light passes through normally. The printed areas vary by design density. Window Film Philadelphia walks through light transmission expectations during the design consultation.`,
+    answer: `HDClear products use a 100% optically clear PET substrate — unprinted areas remain optically clear and light passes through normally. The printed areas vary by design density. Window Film Salt Lake City walks through light transmission expectations during the design consultation.`,
   },
 ];
 
@@ -88,9 +88,9 @@ const pageSchemas = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmphiladelphia.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmphiladelphia.net/products/' },
-      { '@type': 'ListItem', position: 3, name: 'HDClear', item: 'https://windowfilmphiladelphia.net/products/hdclear-window-film/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://windowfilmsaltlakecity.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://windowfilmsaltlakecity.com/products/' },
+      { '@type': 'ListItem', position: 3, name: 'HDClear', item: 'https://windowfilmsaltlakecity.com/products/hdclear-window-film/' },
       { '@type': 'ListItem', position: 4, name: `HDClear ${p.name}`, item: serviceUrl },
     ],
   },
@@ -99,13 +99,13 @@ const pageSchemas = [
     '@type': 'Product',
     name: `HDClear ${p.name}`,
     brand: { '@type': 'Brand', name: 'HDClear Film' },
-    image: `https://windowfilmphiladelphia.net${p.image}`,
+    image: `https://windowfilmsaltlakecity.com${p.image}`,
     description: p.shortDescription,
     category: p.series,
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
-      areaServed: 'Philadelphia, PA',
+      areaServed: 'Salt Lake City, UT',
       url: serviceUrl,
     },
   },
@@ -128,7 +128,7 @@ const pageSchemas = [
     <div class="hdsub-hero__inner">
       <span class="hdsub-badge" style={`background:${p.seriesColor}`}>{p.series}</span>
       <h1 class="hdsub-hero__title">HDClear {p.name}</h1>
-      <p class="hdsub-hero__sub">Philadelphia's certified HDClear Film installer — custom decorative and printed glass film, design coordination, and professional installation.</p>
+      <p class="hdsub-hero__sub">Salt Lake City's certified HDClear Film installer — custom decorative and printed glass film, design coordination, and professional installation.</p>
       {statChips.length > 0 && (
         <div class="hdsub-stat-row" aria-label="Product specifications">
           {statChips.map(([label, value]) => (
@@ -151,8 +151,8 @@ const pageSchemas = [
       <div class="hdsub-overview__image-wrap">
         <img
           src={p.image}
-          alt={`HDClear ${p.name} decorative window film Philadelphia`}
-          title={`HDClear ${p.name} — Philadelphia`}
+          alt={`HDClear ${p.name} decorative window film Salt Lake City`}
+          title={`HDClear ${p.name} — Salt Lake City`}
           width="640"
           height="480"
           loading="lazy"
@@ -198,7 +198,7 @@ const pageSchemas = [
         <div class="hdsub-specs__left">
           <span class="hdsub-eyebrow">Technical Data</span>
           <h2>{p.name} Specifications</h2>
-          <p>Specifications are for reference. Window Film Philadelphia confirms compatibility and design options during your consultation.</p>
+          <p>Specifications are for reference. Window Film Salt Lake City confirms compatibility and design options during your consultation.</p>
           {p.pdfUrl && (
             <a href={p.pdfUrl} target="_blank" rel="noopener noreferrer" class="hdsub-pdf-link">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
@@ -224,7 +224,7 @@ const pageSchemas = [
   <section class="hdsub-apps fade-in">
     <div class="hdsub-section-head">
       <span class="hdsub-eyebrow">Local Use Cases</span>
-      <h2>Philadelphia Applications</h2>
+      <h2>Salt Lake City Applications</h2>
     </div>
     <div class="hdsub-apps__grid">
       {applications.map(([heading, body]) => (
@@ -252,7 +252,7 @@ const pageSchemas = [
       <div class="hdsub-related__grid">
         {relatedProducts.map((item) => (
           <a href={`/products/hdclear/${item.slug}/`} class="hdsub-related__card">
-            <img src={item.image} alt={`HDClear ${item.name} Philadelphia`} title={`HDClear ${item.name}`} width="280" height="180" loading="lazy" />
+            <img src={item.image} alt={`HDClear ${item.name} Salt Lake City`} title={`HDClear ${item.name}`} width="280" height="180" loading="lazy" />
             <div class="hdsub-related__card-body">
               <span class="hdsub-related__series" style={`color:${item.seriesColor}`}>{item.series}</span>
               <h3>{item.name}</h3>
@@ -268,8 +268,8 @@ const pageSchemas = [
   <!-- CTA -->
   <section class="hdsub-cta fade-in">
     <div class="hdsub-cta__inner">
-      <h2>Install HDClear {p.name} in Philadelphia</h2>
-      <p>Window Film Philadelphia handles design coordination, specification, and installation of all HDClear Film products across Philadelphia and the surrounding region. Contact us to discuss your project.</p>
+      <h2>Install HDClear {p.name} in Salt Lake City</h2>
+      <p>Window Film Salt Lake City handles design coordination, specification, and installation of all HDClear Film products across Salt Lake City and the surrounding region. Contact us to discuss your project.</p>
       <a href="/contact/" class="hdsub-cta__btn">Get a Free Quote</a>
     </div>
   </section>

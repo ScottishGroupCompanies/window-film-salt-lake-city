@@ -69,7 +69,7 @@ Cada página en el sitio pertenece a uno de estos 6 tipos. Antes de rediseñar, 
 
 ```
 1. Hero (88vh, parallax bg, overlay ~40%)
-   ├── Eyebrow pill "Philadelphia · [Service Name]"
+   ├── Eyebrow pill "Salt Lake City · [Service Name]"
    ├── H1 headline
    ├── FlipWords animated line (opcional)
    ├── Subheadline
@@ -167,9 +167,9 @@ import InnerPageHero from '../../components/InnerPageHero.astro';
 
 <BaseLayout ...>
   <InnerPageHero
-    title="UV Blocking Window Film Philadelphia"
+    title="UV Blocking Window Film Salt Lake City"
     bgImage="/images/wfp-uv-protection-hero.jpg"
-    desc="Professional UV film installation across Greater Philadelphia."
+    desc="Professional UV film installation across Greater Salt Lake City."
   />
   <div class="ip-page-body">
     <!-- contenido -->
@@ -246,7 +246,7 @@ import InnerPageHero from '../../components/InnerPageHero.astro';
 ```
 
 Ciudades disponibles:
-- Philadelphia PA → `/cities/philadelphia/`
+- Salt Lake City PA → `/cities/salt-lake-city/`
 - Camden NJ → `/cities/camden/`
 - Reading PA → `/cities/reading/`
 - Upper Darby PA → `/cities/upper-darby-township/`
@@ -334,7 +334,7 @@ Ciudades disponibles:
 | Servicio principal (UV, Security, etc.) | Service Page (`uv-protection-film.astro`) |
 | Índice de beneficios | Benefits Index (`benefits.astro`) |
 | Sub-página de beneficio | Benefits Sub-Page (BAF + InnerPageHero) |
-| Ciudad (Philadelphia, Reading, etc.) | City Page (`camden.astro`) |
+| Ciudad (Salt Lake City, Reading, etc.) | City Page (`camden.astro`) |
 | Producto (3M, Llumar, etc.) | Product Page (por crear) |
 | Aplicación (Office, Retail, etc.) | Application Page (por crear) |
 | Recurso (FAQ, Pricing, etc.) | Resource Page (por crear) |

@@ -7,7 +7,7 @@ interface Props {
   subtitle?: string;
   images?: Record<string, string>;
 }
-const { city = 'Philadelphia', title, eyebrow = 'BENEFITS', subtitle = 'Click any benefit to explore', images } = Astro.props;
+const { city = 'Salt Lake City', title, eyebrow = 'BENEFITS', subtitle = 'Click any benefit to explore', images } = Astro.props;
 const img = (tab: string, fallback1: string, fallback2: string, fallback3: string) =>
   images?.[tab] ? [images[tab]] : [fallback1, fallback2, fallback3];
 ---
@@ -187,7 +187,7 @@ const img = (tab: string, fallback1: string, fallback2: string, fallback3: strin
             <span class="benefits-new__stat-number">100%</span>
             <span class="benefits-new__stat-label">Custom Coverage Options</span>
           </div>
-          <a href="/benefits/privacy-window-film-philadelphia/" class="benefits-new__cta">Learn More →</a>
+          <a href="/benefits/privacy-window-film-salt-lake-city/" class="benefits-new__cta">Learn More →</a>
         </div>
 
         <!-- Glare Reduction Content -->
@@ -197,7 +197,7 @@ const img = (tab: string, fallback1: string, fallback2: string, fallback3: strin
             <li>Reduces glare by up to 87% while keeping natural light</li>
             <li>Eliminates screen reflections in home offices and workplaces</li>
             <li>Available from nearly invisible to heavily tinted options</li>
-            <li>South and west-facing rooms benefit most in Philadelphia</li>
+            <li>South and west-facing rooms benefit most in Salt Lake City</li>
           </ul>
           <div class="benefits-new__stat">
             <span class="benefits-new__stat-number">87%</span>

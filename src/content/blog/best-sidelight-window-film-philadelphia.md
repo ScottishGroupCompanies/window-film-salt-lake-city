@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-office-hero.jpg"
 imageAlt: "Commercial office window film installation in Philadelphia"
 tags: ["sidelight", "privacy", "window film", "decorative", "philadelphia"]
-draft: false
+draft: true
 categories: ["decorative-promotional", "philadelphia"]
 ---
 

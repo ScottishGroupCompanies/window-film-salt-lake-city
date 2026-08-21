@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-does-security-window-film-work-philadelphia.jpg"
 imageAlt: "How Does Security Window Film Work for Philadelphia Schools? | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "window tint"]
 categories: ["safety-security", "philadelphia"]
-draft: false
+draft: true
 ---
 
 In Philadelphia schools, from South Philly classrooms to Center City education centers and Main Line campuses, safety is never just about locks and cameras. It's about how every part of the building responds in a crisis. We've seen it firsthand: a shattered window during a storm, a forced entry attempt at a side door, or just the daily wear on old glass in a Fishtown academic building. What we do is make sure that when glass breaks, it doesn't become a hazard. Security window film works by reinforcing existing glazing, holding fragments together, and adding critical seconds — sometimes minutes — of delay during unauthorized entry. In this post, we'll break down exactly how this technology performs in real school environments, what it can and can't do, and how Philadelphia institutions can use it as part of a layered safety strategy.

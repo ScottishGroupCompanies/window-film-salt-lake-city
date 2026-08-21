@@ -6,7 +6,7 @@ author: "Mike Kinsey"
 image: "/images/wfp-premium-films-v2.jpg"
 imageAlt: "Reflective privacy window film installed on a Philadelphia building window for daytime privacy"
 tags: ["window film", "philadelphia", "privacy window film"]
-draft: false
+draft: true
 categories: ["privacy-film", "philadelphia"]
 ---
 

@@ -7,7 +7,7 @@ image: "/images/blog/wfp-blog-best-window-film-for-day-and-night-privacy-philade
 imageAlt: "Best Window Film for Day and Night Privacy in Philadelphia Homes | Window Film Philadelphia"
 tags: ["window film", "philadelphia", "privacy", "day and night privacy", "frosted film", "reflective film"]
 category: "privacy-film"
-draft: false
+draft: true
 ---
 
 ## Why Day and Night Privacy Matters for Philadelphia Homes

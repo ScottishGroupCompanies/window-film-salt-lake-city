@@ -1,6 +1,6 @@
-# Competitive Analysis — Window Film Philadelphia
-**Site:** windowfilmphiladelphia.net (Astro v4 SSG)
-**Market:** Philadelphia PA + Camden NJ, Reading PA, Upper Darby PA
+# Competitive Analysis — Window Film Salt Lake City
+**Site:** windowfilmsaltlakecity.com (Astro v4 SSG)
+**Market:** Salt Lake City PA + Camden NJ, Reading PA, Upper Darby PA
 **Audit date:** 2026-05-27
 **Prior audits:** 01-technical-seo, 02-geo, 03-onpage-content, 04-keyword-ranking
 **Crawler:** Live site fetch via browser + web tooling
@@ -24,17 +24,17 @@ this time. Removed from all analysis tables.
 
 ### FLAG 2 — suncontrolofpa.com: GEOGRAPHY MISMATCH
 Phone area code: (717) — York/Lancaster/Harrisburg PA.
-NOT Philadelphia (215/267/445). Location pages list York PA, Lancaster PA,
-and Harrisburg PA — all 80-150 miles from Philadelphia.
-Site appears to be targeting Pennsylvania broadly and ranking for
-Philadelphia queries through keyword density, not genuine local presence.
+NOT Salt Lake City (215/267/445). Location pages list York PA, Lancaster PA,
+and Harrisburg PA — all 80-150 miles from Salt Lake City.
+Site appears to be targeting Utah broadly and ranking for
+Salt Lake City queries through keyword density, not genuine local presence.
 Additionally, address listings on its /locations/ page are classic
 placeholder values: "123 Main Street," "456 Lancaster Ave," "789 Market
 Street." Two testimonials share identical body text — exposed AI/copy-paste
 error. Included in analysis but flagged as LOW THREAT and geographically
 mismatched.
 
-### FLAG 3 — windowtintingphiladelphia.com: AUTOMOTIVE-FIRST, THIN SITE
+### FLAG 3 — windowtintingsalt-lake-city.com: AUTOMOTIVE-FIRST, THIN SITE
 Primary service offering is automotive tinting (PPF, ceramic coating,
 windshield film). Architectural (residential/commercial) is secondary.
 No manufacturer brands named. No physical address. No social media.
@@ -62,10 +62,10 @@ visible on every page load. WFP has none.
 | Competitor                      | Phone in Header | Clickable |
 |---------------------------------|-----------------|-----------|
 | lloydwindowfilm.com             | YES — (215) 860-8610 | YES |
-| windowtintingphiladelphia.com   | YES — (215) 709-7000 | YES |
+| windowtintingsalt-lake-city.com   | YES — (215) 709-7000 | YES |
 | philafilm.com                   | YES — (215) 715-1075 | YES |
 | suncontrolofpa.com              | YES — (717) 755-7505 | YES |
-| windowfilmphiladelphia.net (WFP)| NOT PRESENT     | N/A |
+| windowfilmsaltlakecity.com (WFP)| NOT PRESENT     | N/A |
 
 WFP is the ONLY site in this competitive set with no phone in the
 header. For a service business where phone calls are the primary
@@ -79,17 +79,17 @@ Header.astro component — top bar or in the nav pill.
 
 ### GAP 2 — CRITICAL: No Dedicated Commercial or Residential Landing Pages
 
-Both "residential window film Philadelphia" and "commercial window film
-Philadelphia" are high-intent search queries. Every active competitor
+Both "residential window film Salt Lake City" and "commercial window film
+Salt Lake City" are high-intent search queries. Every active competitor
 has dedicated landing pages for these terms. WFP has zero.
 
 | Competitor                      | /residential page | /commercial page |
 |---------------------------------|-------------------|-----------------|
 | lloydwindowfilm.com             | YES (~600w)       | YES (~600w)     |
 | philafilm.com                   | YES (~450w)       | YES (~500w)     |
-| windowtintingphiladelphia.com   | YES (~500w)       | YES (~450w)     |
+| windowtintingsalt-lake-city.com   | YES (~500w)       | YES (~450w)     |
 | suncontrolofpa.com              | YES (~200w)       | YES (~250w)     |
-| windowfilmphiladelphia.net (WFP)| NONE              | NONE            |
+| windowfilmsaltlakecity.com (WFP)| NONE              | NONE            |
 
 WFP is the only site without these pages. This was also the top finding
 from Audit 04 (keyword ranking). Flagged there as CRITICAL. Still unbuilt.
@@ -110,10 +110,10 @@ opportunity (WFP is the only site with verifiable third-party credibility).
 | Competitor                      | Review Widget | Platform | Rating Shown |
 |---------------------------------|---------------|----------|--------------|
 | lloydwindowfilm.com             | Static only   | Google   | ~5.0 (no count) |
-| windowtintingphiladelphia.com   | None          | None     | Self-described "5-Star" |
+| windowtintingsalt-lake-city.com   | None          | None     | Self-described "5-Star" |
 | philafilm.com                   | None          | None     | Anonymous text only |
 | suncontrolofpa.com              | None          | None     | 5-star icons (fake) |
-| windowfilmphiladelphia.net (WFP)| NOT PRESENT   | —        | None |
+| windowfilmsaltlakecity.com (WFP)| NOT PRESENT   | —        | None |
 
 None of the thin/template competitors have real reviews. Lloyd has a
 static Google rating display. WFP has an A+ BBB rating and 17 years of
@@ -136,10 +136,10 @@ rich results in Google.
 | Competitor                      | FAQ on service pages |
 |---------------------------------|---------------------|
 | lloydwindowfilm.com             | No                  |
-| windowtintingphiladelphia.com   | No                  |
+| windowtintingsalt-lake-city.com   | No                  |
 | philafilm.com                   | YES — 4 FAQs on residential + commercial pages |
 | suncontrolofpa.com              | No                  |
-| windowfilmphiladelphia.net (WFP)| On Camden city page only; not on service pages |
+| windowfilmsaltlakecity.com (WFP)| On Camden city page only; not on service pages |
 
 philafilm.com is the one exception — 4-question FAQs appear on both
 residential and commercial pages. WFP already has FAQ infrastructure
@@ -160,42 +160,42 @@ lane for organic traffic through informational keywords.
 | Competitor                      | Blog | Post count | Quality |
 |---------------------------------|------|------------|---------|
 | lloydwindowfilm.com             | No   | 0          | N/A     |
-| windowtintingphiladelphia.com   | No   | 0          | N/A     |
+| windowtintingsalt-lake-city.com   | No   | 0          | N/A     |
 | philafilm.com                   | Yes  | 3          | Generic/AI |
 | suncontrolofpa.com              | Yes (empty) | 0   | N/A     |
-| windowfilmphiladelphia.net (WFP)| Not built   | 0   | N/A     |
+| windowfilmsaltlakecity.com (WFP)| Not built   | 0   | N/A     |
 
 No competitor in this market publishes real informational content.
-WFP could own the informational query layer for Philadelphia window
+WFP could own the informational query layer for Salt Lake City window
 film topics entirely.
 
 ACTION: Prioritize building the blog with 4-6 anchor posts at launch.
 High-value starting topics: "How much does window film cost in
-Philadelphia," "Best window film for Philadelphia row homes,"
-"Energy savings from window film — Philadelphia utility rate data,"
-"Security film for Philadelphia businesses."
+Salt Lake City," "Best window film for Salt Lake City row homes,"
+"Energy savings from window film — Salt Lake City utility rate data,"
+"Security film for Salt Lake City businesses."
 
 ---
 
 ### GAP 6 — MEDIUM: No Neighborhood-Level Location Pages
 
-windowtintingphiladelphia.com has built 13 Philadelphia neighborhood
-pages (South Philly, Fishtown, Rittenhouse Square, Old City, etc.)
+windowtintingsalt-lake-city.com has built 13 Salt Lake City neighborhood
+pages (South Salt Lake, Fishtown, Rittenhouse Square, Old City, etc.)
 plus 4 county pages and 2 NJ cities = 19 total geo pages.
 lloydwindowfilm.com has 6 metro-area location pages.
-WFP has 4 city pages (Philadelphia, Camden, Reading, Upper Darby).
+WFP has 4 city pages (Salt Lake City, Camden, Reading, Upper Darby).
 
 The neighborhood page gap is significant for capturing "window film
 [neighborhood]" queries. WFP's existing city pages are higher-quality
 than any competitor's, but the sheer number of doorway pages that
-windowtintingphiladelphia.com has built creates a wide SERP footprint
+windowtintingsalt-lake-city.com has built creates a wide SERP footprint
 even if individual pages are thin.
 
 WFP geo page comparison vs lloydwindowfilm.com (the real competitor):
 
 | WFP City Pages                  | Lloyd Location Pages        |
 |---------------------------------|-----------------------------|
-| /cities/philadelphia/           | /philadelphia-pa/           |
+| /cities/salt-lake-city/           | /salt-lake-city-pa/           |
 | /cities/camden/                 | /south-jersey/              |
 | /cities/reading/                | /bucks-county-pa/           |
 | /cities/upper-darby-township/   | /montgomery-county-pa/      |
@@ -223,10 +223,10 @@ a proven conversion driver for visual home/building improvement services.
 | Competitor                      | Before/After Gallery | Project Photos |
 |---------------------------------|--------------------|----------------|
 | lloydwindowfilm.com             | No                 | Unknown        |
-| windowtintingphiladelphia.com   | No                 | No real photos |
+| windowtintingsalt-lake-city.com   | No                 | No real photos |
 | philafilm.com                   | No                 | No real photos |
 | suncontrolofpa.com              | No                 | No real photos |
-| windowfilmphiladelphia.net (WFP)| Not built          | Hero/section images present |
+| windowfilmsaltlakecity.com (WFP)| Not built          | Hero/section images present |
 
 WFP already has real installation photography. A dedicated gallery or
 before/after section would be a genuine differentiator with zero
@@ -240,7 +240,7 @@ or create a /gallery/ page with 8-12 real project photos.
 ### GAP 8 — MEDIUM: Manufacturer Brand Depth
 
 WFP's BrandLogos carousel displays 12 brands. Lloyd shows 3M + LLumar.
-philafilm shows 3M + LLumar + SolarGard + Vista. windowtintingphiladelphia
+philafilm shows 3M + LLumar + SolarGard + Vista. windowtintingsalt-lake-city
 names no brands at all.
 
 However, the brands are only shown in the carousel — no individual
@@ -251,9 +251,9 @@ The depth advantage is real but not being exploited to its fullest.
 |---------------------------------|-------------|---------------------|
 | lloydwindowfilm.com             | 3M, LLumar  | Yes — certified installer |
 | philafilm.com                   | 3M, LLumar, SolarGard, Vista | Yes (listed on About + Products) |
-| windowtintingphiladelphia.com   | NONE        | No                  |
+| windowtintingsalt-lake-city.com   | NONE        | No                  |
 | suncontrolofpa.com              | NONE        | No                  |
-| windowfilmphiladelphia.net (WFP)| 12 brands (carousel) | Not prominently called out |
+| windowfilmsaltlakecity.com (WFP)| 12 brands (carousel) | Not prominently called out |
 
 ACTION: Move at least the top 3-4 brand logos (3M, LLumar, Vista,
 Solar Gard) above the fold on the homepage with "Certified Dealer"
@@ -275,12 +275,12 @@ inquiries. Monitor chat volume before investing in paid platforms.
 
 ## Section 2 — Side-by-Side Comparison Table
 
-| Dimension                     | WFP (client)    | lloydwindowfilm | windowtintingphiladelphia | philafilm      | suncontrolofpa |
+| Dimension                     | WFP (client)    | lloydwindowfilm | windowtintingsalt-lake-city | philafilm      | suncontrolofpa |
 |-------------------------------|-----------------|-----------------|--------------------------|----------------|----------------|
 | Phone in header               | NO              | YES (215)       | YES (215)                | YES (215)      | YES (717)*     |
 | Clickable phone               | NO              | YES             | YES                      | YES            | YES            |
 | Physical address              | Not checked     | None shown      | None shown               | City only      | FAKE***        |
-| Geo match (Philly)            | YES             | YES             | YES                      | YES            | NO* (717 area) |
+| Geo match (Salt Lake)            | YES             | YES             | YES                      | YES            | NO* (717 area) |
 | Years / founded               | 2008 (17 yrs)   | 20+ yrs         | Vague "years"            | 15+ yrs        | 1974 (50+ yrs)** |
 | BBB accreditation             | A+ (not shown)  | No              | No                       | No             | No             |
 | Google review widget          | No              | Static only     | No                       | No             | No             |
@@ -298,7 +298,7 @@ inquiries. Monitor chat volume before investing in paid platforms.
 | Before/after gallery          | No              | No              | No                       | No             | No             |
 | Overall quality (1-5)         | 4 (redesign)    | 3               | 2 (thin)                 | 2 (thin)       | 2 (fake)       |
 
-* suncontrolofpa.com: 717 area code = York/Lancaster PA, not Philadelphia
+* suncontrolofpa.com: 717 area code = York/Lancaster PA, not Salt Lake City
 ** Unverifiable — placeholder addresses confirm fake site
 *** 123 Main Street / 456 Lancaster Ave / 789 Market Street — placeholder text
 
@@ -308,7 +308,7 @@ inquiries. Monitor chat volume before investing in paid platforms.
 
 Ranked by strength of verifiable trust evidence:
 
-1. windowfilmphiladelphia.net (WFP) — STRONGEST but unexploited
+1. windowfilmsaltlakecity.com (WFP) — STRONGEST but unexploited
    - A+ BBB rating (not displayed on site)
    - 17 years in operation (verifiable)
    - 12 named manufacturer brands (only in carousel — not prominent)
@@ -322,7 +322,7 @@ Ranked by strength of verifiable trust evidence:
    - "20+ years" claim (plausible for a real local operator)
    - No BBB, no before/after, no real review count
 
-3. windowtintingphiladelphia.com — TEMPLATE SITE
+3. windowtintingsalt-lake-city.com — TEMPLATE SITE
    - 215 area code (matches market)
    - Lifetime warranty claimed but no legal backing shown
    - "Locally owned" claimed — unverifiable
@@ -335,7 +335,7 @@ Ranked by strength of verifiable trust evidence:
    - 3 blog posts (generic AI content)
 
 5. suncontrolofpa.com — MISMATCHED/FAKE
-   - 717 area code = not Philadelphia
+   - 717 area code = not Salt Lake City
    - Placeholder addresses
    - Duplicate testimonials (AI error)
    - Claims 50 years in business but shows zero real business evidence
@@ -367,7 +367,7 @@ landing pages (residential and commercial).
 ### White Space Opportunities — Things NO Competitor Does
 
 1. GENUINE BLOG WITH LOCAL CONTENT — philafilm has 3 AI posts.
-   No one owns the Philadelphia window film informational query space.
+   No one owns the Salt Lake City window film informational query space.
 
 2. BBB BADGE ON SITE — no competitor mentions BBB. WFP has A+ accreditation
    sitting unused.
@@ -382,8 +382,8 @@ landing pages (residential and commercial).
    estimate tool. A "how much could you save?" widget would be a unique
    conversion driver.
 
-6. NEIGHBORHOOD-LEVEL CONTENT (for Philadelphia) — 13 neighborhood pages
-   at windowtintingphiladelphia.com are thin templates. WFP's Camden page
+6. NEIGHBORHOOD-LEVEL CONTENT (for Salt Lake City) — 13 neighborhood pages
+   at windowtintingsalt-lake-city.com are thin templates. WFP's Camden page
    level of depth applied to Fishtown, Old City, Center City, etc. would
    dominate the sub-city query space.
 
@@ -398,41 +398,41 @@ landing pages (residential and commercial).
 
 | Site                           | Title Tag                                             | Keyword Present |
 |--------------------------------|-------------------------------------------------------|-----------------|
-| windowfilmphiladelphia.net     | Window Film Philadelphia | Leading Window Film Solutions | YES |
-| lloydwindowfilm.com            | Lloyd Window Film | Philadelphia Window Tinting & Film Installation | YES |
-| windowtintingphiladelphia.com  | Window Tinting Philadelphia | #1 Rated Tint Shop | Free Quotes | YES |
-| philafilm.com                  | Philadelphia Window Film | Residential & Commercial Window Tinting | YES |
-| suncontrolofpa.com             | Window Tinting & Film Services | Sun Control of PA | NO (PA, not Philadelphia) |
+| windowfilmsaltlakecity.com     | Window Film Salt Lake City | Leading Window Film Solutions | YES |
+| lloydwindowfilm.com            | Lloyd Window Film | Salt Lake City Window Tinting & Film Installation | YES |
+| windowtintingsalt-lake-city.com  | Window Tinting Salt Lake City | #1 Rated Tint Shop | Free Quotes | YES |
+| philafilm.com                  | Salt Lake City Window Film | Residential & Commercial Window Tinting | YES |
+| suncontrolofpa.com             | Window Tinting & Film Services | Sun Control of PA | NO (PA, not Salt Lake City) |
 
-All Philadelphia-market sites include "Philadelphia" in the title. WFP's
-title is solid. suncontrolofpa.com notably does NOT include "Philadelphia"
+All Salt Lake City-market sites include "Salt Lake City" in the title. WFP's
+title is solid. suncontrolofpa.com notably does NOT include "Salt Lake City"
 in the title — consistent with its geographic mismatch.
 
 ### Homepage H1 Tags
 
 | Site                           | H1 Tag                                                |
 |--------------------------------|-------------------------------------------------------|
-| windowfilmphiladelphia.net     | Window Film Philadelphia — Done Right, Every Time [FIXED audit 04] |
-| lloydwindowfilm.com            | Philadelphia's Premier Window Film Installer          |
-| windowtintingphiladelphia.com  | Philadelphia's #1 Window Tinting Service              |
-| philafilm.com                  | Expert Window Tinting Services in Philadelphia & Beyond |
-| suncontrolofpa.com             | Pennsylvania's Premier Window Film Company            |
+| windowfilmsaltlakecity.com     | Window Film Salt Lake City — Done Right, Every Time [FIXED audit 04] |
+| lloydwindowfilm.com            | Salt Lake City's Premier Window Film Installer          |
+| windowtintingsalt-lake-city.com  | Salt Lake City's #1 Window Tinting Service              |
+| philafilm.com                  | Expert Window Tinting Services in Salt Lake City & Beyond |
+| suncontrolofpa.com             | Utah's Premier Window Film Company            |
 
 WFP's H1 (fixed in audit 04) is the strongest of the group — includes the
-exact match "Window Film Philadelphia" as the primary phrase. Lloyd and
+exact match "Window Film Salt Lake City" as the primary phrase. Lloyd and
 wtp.com lead with branding claims ("Premier," "#1") rather than the keyword.
 
 ### Meta Descriptions
 
 | Site                           | Meta Description (truncated)                          |
 |--------------------------------|-------------------------------------------------------|
-| windowfilmphiladelphia.net     | "Window Film Philadelphia provides professional window film installation..." |
-| lloydwindowfilm.com            | "Lloyd Window Film provides professional window film installation in Philadelphia, PA..." |
-| windowtintingphiladelphia.com  | "Window tinting Philadelphia offering residential and commercial window film services. Call now for a free quote (267) 223-4192" |
-| philafilm.com                  | "Philadelphia Window Film provides professional window film installation services..." |
-| suncontrolofpa.com             | "Sun Control of PA provides professional window tinting and film services for residential, commercial, and automotive applications throughout Pennsylvania." |
+| windowfilmsaltlakecity.com     | "Window Film Salt Lake City provides professional window film installation..." |
+| lloydwindowfilm.com            | "Lloyd Window Film provides professional window film installation in Salt Lake City, UT..." |
+| windowtintingsalt-lake-city.com  | "Window tinting Salt Lake City offering residential and commercial window film services. Call now for a free quote (267) 223-4192" |
+| philafilm.com                  | "Salt Lake City Window Film provides professional window film installation services..." |
+| suncontrolofpa.com             | "Sun Control of PA provides professional window tinting and film services for residential, commercial, and automotive applications throughout Utah." |
 
-Notable: windowtintingphiladelphia.com includes the phone number IN the
+Notable: windowtintingsalt-lake-city.com includes the phone number IN the
 meta description. This makes the number visible in the SERP snippet — a
 strong conversion tactic. WFP's meta descriptions do not include the phone.
 
@@ -471,7 +471,7 @@ Opportunities no competitor is currently exploiting:
 3. INFORMATIONAL BLOG CONTENT — no one owns this space
 4. BEFORE/AFTER GALLERY — all competitors use stock/generic imagery
 5. ENERGY SAVINGS CALCULATOR — no competitor offers any interactive tool
-6. PHILADELPHIA NEIGHBORHOOD PAGES — wtp.com has 13 thin ones; rich
+6. SALT LAKE CITY NEIGHBORHOOD PAGES — wtp.com has 13 thin ones; rich
    versions would dominate (Fishtown, Old City, Center City, Northern
    Liberties, Manayunk, Chestnut Hill all viable)
 7. NAMED TEAM + OWNER STORY — zero competitors show real people.
@@ -489,7 +489,7 @@ Opportunities no competitor is currently exploiting:
 ### HIGH THREAT
 
 lloydwindowfilm.com
-- Real local business with genuine Philadelphia area code
+- Real local business with genuine Salt Lake City area code
 - 3M + LLumar certifications (credible trust signals)
 - 6 service area pages covering the WFP market footprint
 - Steady SERP presence across all 3 keyword queries
@@ -499,7 +499,7 @@ lloydwindowfilm.com
 
 ### MEDIUM THREAT (SERP Occupants)
 
-windowtintingphiladelphia.com
+windowtintingsalt-lake-city.com
 - Thin template site but holds SERP positions through keyword-exact domain + 19 location pages
 - Serves automotive primarily — not a pure architectural competitor
 - No brands named, no real photos, no address
@@ -508,7 +508,7 @@ windowtintingphiladelphia.com
 
 philafilm.com
 - Thin template site with broken social media and no real street address
-- Has brand logos and 3 blog posts — slightly more credible than windowtintingphiladelphia
+- Has brand logos and 3 blog posts — slightly more credible than windowtintingsalt-lake-city
 - Has FAQs on service pages (one real content advantage)
 - Consistently ranks but lacks content depth on any individual page
 - Current weakness WFP can exploit: No geo pages, no real trust signals, no verifiable reviews
@@ -516,9 +516,9 @@ philafilm.com
 ### LOW THREAT / MONITOR ONLY
 
 suncontrolofpa.com
-- GEOGRAPHY MISMATCH: serves York/Lancaster/Harrisburg, not Philadelphia
+- GEOGRAPHY MISMATCH: serves York/Lancaster/Harrisburg, not Salt Lake City
 - Placeholder addresses, copied testimonials, broken social links
-- Ranks for Philadelphia queries but has no genuine local presence
+- Ranks for Salt Lake City queries but has no genuine local presence
 - Poses minimal conversion threat but occupies SERP real estate
 - WATCH: If a real business acquires/builds on this domain, threat level rises
 
@@ -539,18 +539,18 @@ FINDINGS ONLY. No changes without explicit approval.
 
 2. Create /residential-window-film/ landing page — 800+ words, FAQ section,
    free quote form, trust signals. Target keyword: "residential window film
-   Philadelphia."
+   Salt Lake City."
 
 3. Create /commercial-window-film/ landing page — 800+ words, FAQ section,
    industry applications list, free quote form. Target keyword: "commercial
-   window film Philadelphia."
+   window film Salt Lake City."
 
 4. Move BBB A+ badge to visible position on homepage — above the fold or
    in the trust bar alongside brand logos. This is the strongest single trust
    differentiator vs every thin-site competitor.
 
 5. Add phone number to meta descriptions for homepage and city pages to
-   enable SERP click-to-call (following windowtintingphiladelphia.com's pattern).
+   enable SERP click-to-call (following windowtintingsalt-lake-city.com's pattern).
 
 ### Short-Term (first 30 days post-launch)
 
@@ -560,7 +560,7 @@ FINDINGS ONLY. No changes without explicit approval.
 7. Add FAQs to the new /residential/ and /commercial/ pages — 5-6 questions
    each using the Camden accordion pattern.
 
-8. Retro-apply FAQs to the Philadelphia, Reading, and Upper Darby city pages
+8. Retro-apply FAQs to the Salt Lake City, Reading, and Upper Darby city pages
    (Camden already has FAQs — others do not).
 
 9. Add 3M + LLumar + Vista certification badges to the Header.astro trust bar
@@ -574,10 +574,10 @@ FINDINGS ONLY. No changes without explicit approval.
 ### Medium-Term (60-90 days)
 
 11. Launch blog with 4-6 anchor posts targeting informational keywords:
-    - "How much does window film cost in Philadelphia?"
-    - "Best window film for Philadelphia row homes"
-    - "Commercial window film Philadelphia — energy savings data"
-    - "Privacy film for Philadelphia offices — laws and options"
+    - "How much does window film cost in Salt Lake City?"
+    - "Best window film for Salt Lake City row homes"
+    - "Commercial window film Salt Lake City — energy savings data"
+    - "Privacy film for Salt Lake City offices — laws and options"
 
 12. Add Delaware County PA and Cherry Hill NJ as full city pages using
     the Camden template. Both are already listed as "/contact/" placeholders
@@ -586,7 +586,7 @@ FINDINGS ONLY. No changes without explicit approval.
 13. Build a before/after gallery page or homepage section with real project
     photos. No competitor has one.
 
-14. Evaluate Philadelphia neighborhood pages: if commercial expansion is a
+14. Evaluate Salt Lake City neighborhood pages: if commercial expansion is a
     priority, Center City, Old City, and University City neighborhood pages
     targeting commercial queries would generate near-zero competitive overlap.
 
@@ -595,8 +595,8 @@ FINDINGS ONLY. No changes without explicit approval.
 15. Monitor wfprofessionals.com — if the domain gets re-acquired and rebuilt,
     reassess threat level. Currently dead.
 
-16. Monitor suncontrolofpa.com — if a real Philadelphia operator ever
-    acquires/redirects this domain (which already ranks for Philly terms),
+16. Monitor suncontrolofpa.com — if a real Salt Lake City operator ever
+    acquires/redirects this domain (which already ranks for Salt Lake terms),
     it could rapidly become a HIGH threat.
 
 17. Ahrefs audit (see Section 10) — run once site is live and indexed to
@@ -629,7 +629,7 @@ To complete a full competitive picture, export the following from Ahrefs
 for each active domain:
 
 1. Site Explorer > Organic Keywords — for: lloydwindowfilm.com,
-   windowtintingphiladelphia.com, philafilm.com
+   windowtintingsalt-lake-city.com, philafilm.com
    Shows: which keywords each competitor ranks for, positions, traffic
    volume. Reveals keyword gaps WFP could target.
 
@@ -639,11 +639,11 @@ for each active domain:
 
 3. Site Explorer > Top Pages — for lloydwindowfilm.com
    Shows: which pages are actually driving traffic. If their
-   /philadelphia-pa/ page gets significant traffic, that validates
+   /salt-lake-city-pa/ page gets significant traffic, that validates
    the geo-page strategy for WFP.
 
-4. Keywords Explorer > "window film Philadelphia" + "commercial window
-   film Philadelphia" + "residential window film Philadelphia"
+4. Keywords Explorer > "window film Salt Lake City" + "commercial window
+   film Salt Lake City" + "residential window film Salt Lake City"
    Shows: exact monthly search volumes and difficulty scores.
    Confirms priority of new page builds.
 
@@ -651,7 +651,7 @@ for each active domain:
 
 ## Competitor Quick Reference Card
 
-| Metric                    | windowtintingphiladelphia.com | philafilm.com | suncontrolofpa.com | lloydwindowfilm.com |
+| Metric                    | windowtintingsalt-lake-city.com | philafilm.com | suncontrolofpa.com | lloydwindowfilm.com |
 |---------------------------|-------------------------------|---------------|--------------------|---------------------|
 | Phone                     | (215) 709-7000                | (215) 715-1075 | (717) 755-7505*    | (215) 860-8610 |
 | Geo match                 | YES                           | YES           | NO*                | YES |
@@ -659,7 +659,7 @@ for each active domain:
 | Brands named              | None                          | 3M/LLumar/SG/Vista | None          | 3M, LLumar |
 | BBB                       | No                            | No            | No                 | No |
 | Blog                      | No                            | 3 posts       | Empty              | No |
-| Location pages            | 19 (thin)                     | 0             | 3 (wrong city)     | 6 (Philly metro) |
+| Location pages            | 19 (thin)                     | 0             | 3 (wrong city)     | 6 (Salt Lake metro) |
 | /residential/ page        | Yes                           | Yes           | Yes                | Yes |
 | /commercial/ page         | Yes                           | Yes           | Yes                | Yes |
 | FAQ on service pages      | No                            | Yes           | No                 | No |
@@ -668,9 +668,9 @@ for each active domain:
 | Automotive services       | YES (primary)                 | No            | Yes                | No |
 | Threat tier               | MEDIUM (SERP occupant)        | MEDIUM        | LOW (geo mismatch) | HIGH (real operator) |
 
-* suncontrolofpa.com: 717 area code (York/Lancaster PA) confirmed. Not a Philadelphia local competitor.
+* suncontrolofpa.com: 717 area code (York/Lancaster PA) confirmed. Not a Salt Lake City local competitor.
 
 ---
 
 *Report complete. All findings are for analysis purposes only. No site changes have been made.*
-*Recommended next step: Ahrefs Site Explorer exports for lloydwindowfilm.com + windowtintingphiladelphia.com + philafilm.com to validate traffic and keyword overlap before building new pages.*
+*Recommended next step: Ahrefs Site Explorer exports for lloydwindowfilm.com + windowtintingsalt-lake-city.com + philafilm.com to validate traffic and keyword overlap before building new pages.*

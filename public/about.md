@@ -1,6 +1,6 @@
-# About Window Film Philadelphia
+# About Window Film Salt Lake City
 
-Window Film Philadelphia is the Delaware Valley office of Scottish Window Tinting, a national window film company founded by Martin Faith in 2008.
+Window Film Salt Lake City is the Delaware Valley office of Scottish Window Tinting, a national window film company founded by Martin Faith in 2008.
 
 ## Our Story
 
@@ -17,17 +17,17 @@ In 2008, Martin installed energy-efficient window film on his own home and watch
 
 - **2,400+** projects completed
 - **1.2 million+** square feet of film installed
-- **4.9-star** rating from Philadelphia property owners
+- **4.9-star** rating from Salt Lake City property owners
 - **Since 2008** serving the Delaware Valley
 
 ## Leadership
 
 - **Martin Faith** — Founder & CEO, Scottish Window Tinting
-- **Mike Kinsey** — Co-Founder & President, Window Film Philadelphia. 15+ years consulting on window film projects nationwide. Has personally sold and installed over 250,000 square feet of window film. Certified by 3M, EnerLogic, and AIA for continuing education. Designed security solutions for 100+ schools.
+- **Mike Kinsey** — Co-Founder & President, Window Film Salt Lake City. 15+ years consulting on window film projects nationwide. Has personally sold and installed over 250,000 square feet of window film. Certified by 3M, EnerLogic, and AIA for continuing education. Designed security solutions for 100+ schools.
 - **Katie Pelowich** — VP Window Film & Project Manager. 10 years industry experience, Master's Degree in Project Management. Coordinates projects nationwide.
 
 ## Contact
 
-- **Phone**: (267) 394-7980
+- **Phone**: (801) 895-4681
 - **Email**: info@windowfilmphl.com
-- **Get a Quote**: [Contact us](https://windowfilmphiladelphia.net/contact)
+- **Get a Quote**: [Contact us](https://windowfilmsaltlakecity.com/contact)
