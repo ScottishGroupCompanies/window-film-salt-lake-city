@@ -4,15 +4,15 @@ Source of truth for what needs Nano Banana 2 generation vs. what's reused free.
 Built from visual audit (not filename guessing) of every recurring image category
 across the SLC homepage + 5 city pages, 2026-08-25.
 
-## REGENERATE for Chicago (24 images, Nano Banana 2)
+## REGENERATE for Chicago (16 images, Nano Banana 2) — REVISED for 1-main-page architecture
 
-### Hero images — 1 per city page (5 total)
-- [ ] Homepage hero (downtown Chicago skyline, golden hour) — tested prototype exists, quality confirmed excellent
-- [ ] Chicago (city page) hero
-- [ ] [Chicago neighborhood 2] hero — TBD once service areas are set
-- [ ] [Chicago neighborhood 3] hero — TBD
-- [ ] [Chicago neighborhood 4] hero — TBD
-- [ ] [Chicago neighborhood 5] hero — TBD
+### Hero images (2 total — NOT one per suburb, per architecture decision)
+- [x] Homepage hero (downtown Chicago skyline, golden hour) — PROTOTYPE TESTED,
+      quality confirmed excellent (Willis Tower, Trump Tower, Buckingham
+      Fountain all correctly rendered)
+- [ ] Chicago main city page hero
+- [ ] Service Areas directory page hero (generic Chicagoland/suburbs image —
+      could reuse homepage hero or generate a wider "Chicagoland region" shot)
 
 ### Homepage cards (~5)
 - [ ] commercial-card (was: Nine Penn Center, Philadelphia — named building)
@@ -80,15 +80,20 @@ improvement. "Since 2008" claim is REAL — do not remove, do reuse the framing.
 - Recommend spot-check pattern before full site regen: same "brand-*" and
   "*-hero.jpg" naming patterns are highest-risk for hidden regional content
 
-## Cost estimate — CONFIRMED via /estimate endpoint (2026-08-25)
+## Cost estimate — CONFIRMED via /estimate endpoint (2026-08-25), revised 2026-08-26
 Nano Banana 2 text-to-image pricing (per image):
 - 1K: $0.08/image (1.280 credits)
 - 2K: $0.12/image (1.920 credits) — recommended for hero/card shots
 - 4K: $0.16/image (2.560 credits)
 
-~24 images needed. Even at 4K for every image: **~$3.84 total** for Chicago's
-full image set. Account has 1,400+ credits (~$87+ worth at 2K pricing) —
-covers Chicago and many more cities.
+Revised total: ~16 images needed (2 hero + 5 cards + 4 shared-regional +
+7 brand-with-regional-context, minus overlap) = **~$1.92 at 2K, ~$2.56 at 4K.**
+Cheaper than the original 24-image/5-city-page estimate because the
+1-main-page + directory architecture eliminates 22 of the 24 suburb hero
+images that would otherwise be needed.
+
+Account has 1,400+ credits (~$87+ worth at 2K pricing) — Chicago uses under
+2% of available balance.
 
 Failed and "nsfw"-flagged requests are NOT charged (confirmed in Higgsfield
 billing docs) — false-positive content-filter rejections cost nothing, only
