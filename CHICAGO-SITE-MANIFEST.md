@@ -15,25 +15,21 @@ GLM content brief and site.ts config.
   Russell, Kelly Escorcia, Shanna Sweet)
 
 ## Service area architecture — DECIDED (differs from SLC's 5-city model)
-24 cities/suburbs, NOT 24 full pages. Structure:
+20 IL cities/suburbs, NOT 20 full pages. Structure:
 - **1 main "Chicago" page** — full page, own hero, full local content
   (same depth as SLC's salt-lake-city.astro)
-- **1 lightweight "Service Areas" directory page** — lists all 24 cities as
+- **1 lightweight "Service Areas" directory page** — lists all 20 cities as
   a service-area index/directory (like SLC's cities.astro overview page),
   NOT individual dedicated pages per suburb
-- Rationale: 24 individual pages would be disproportionate SEO/content
+- Rationale: 20 individual pages would be disproportionate SEO/content
   effort for suburbs; the directory approach is faster, cheaper, and still
   captures "near me" search intent without diluting content quality
 
-Full city list (24):
+Final city list (20, IL-only — Gary IN / Kenosha WI / Racine WI dropped
+2026-08-26, out of state, not in scope):
 Arlington Heights, Aurora, Berwyn, Bolingbrook, Chicago, Cicero, Des Plaines,
-Elgin, Evanston, Gary, Joliet, Kenosha, Mount Prospect, Naperville, Oak Lawn,
-Oak Park, Orland Park, Palatine, Racine, Schaumburg, Skokie, Tinley Park,
-Waukegan, Wheaton
-
-Note: Gary, Kenosha, Racine are in IN/WI, not IL — confirm these are
-intentional (multi-state service area) before writing city/state metadata
-into schema.org LocalBusiness markup (areaServed).
+Elgin, Evanston, Mount Prospect, Naperville, Oak Lawn, Oak Park, Orland Park,
+Palatine, Schaumburg, Skokie, Tinley Park, Waukegan, Wheaton
 
 ## Regional facts for GLM content (must get right — SLC learned this the
 ## hard way with Utah's climate/geography)
@@ -51,13 +47,14 @@ into schema.org LocalBusiness markup (areaServed).
   glare off Lake Michigan, wind load on high-rise glass, winter heat-loss
   through single-pane vintage building stock, summer humidity + AC costs
 
-## Open / still needs confirmation
-- [ ] Google Business Profile — exists for Chicago yet, or launch without
-      (same as SLC, which launched with no GBP and hidden review badges)?
-- [ ] Facebook — same Scottish Group page as other sites, or Chicago-specific?
-- [ ] Real Chicago testimonials — none yet confirmed; launch without
-      fabricated reviews (same rule as SLC)
-- [ ] Confirm windowfilmchicago.com is the actual domain to build toward
+## Confirmed launch posture — matches SLC's bare-bones launch pattern (2026-08-26)
+- Domain: windowfilmchicago.com — confirmed good enough for now
+- Google Business Profile: none yet — launch without, hide review
+  badges/rating claims in footer (same pattern as SLC)
+- Facebook: none yet for Chicago specifically — launch without, hide
+  social link (same pattern as SLC)
+- Testimonials: none real yet — launch with zero fabricated reviews
+  (same rule as SLC — do not invent names/quotes/star ratings)
 
 ## Known past-error checklist (carried from SLC — do NOT repeat)
 - [ ] No fabricated stats (no invented star ratings/project counts)
